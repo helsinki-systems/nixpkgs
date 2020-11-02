@@ -31,6 +31,7 @@ assert x11Support -> tcl != null
                   && xlibsWrapper != null
                   && libX11 != null;
 
+assert false;
 with stdenv.lib;
 
 let
