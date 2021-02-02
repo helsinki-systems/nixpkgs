@@ -82,10 +82,23 @@ in
       };
 
       initstepslew = mkOption {
-        type = types.attrsOf (types.either types.bool types.int);
-        default = {
-          enabled = true;
-          threshold = 1000; # by default, same threshold as 'ntpd -g' (1000s)
+        type = types.submodule {
+          options = {
+            enabled = mkOption {
+              type = types.bool;
+              default = true;
+              description = ''
+                Enable initstepslew.
+              '';
+            };
+            threshold = mkOption {
+              type = types.either types.int types.float;
+              default = 1000; # by default, same threshold as 'ntpd -g' (1000s)
+              description = ''
+                Default threshold.
+              '';
+            };
+          };
         };
         description = ''
           Allow chronyd to make a rapid measurement of the system clock error at
