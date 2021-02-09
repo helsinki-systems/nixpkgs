@@ -23371,9 +23371,7 @@ in
 
   ltc-tools = callPackage ../applications/audio/ltc-tools { };
 
-  lumail = callPackage ../applications/networking/mailreaders/lumail {
-    lua = lua5_1;
-  };
+  lumail = callPackage ../applications/networking/mailreaders/lumail { };
 
   luppp = callPackage ../applications/audio/luppp { };
 
