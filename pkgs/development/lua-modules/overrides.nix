@@ -5,15 +5,6 @@ with super;
   ##########################################3
   #### manual fixes for generated packages
   ##########################################3
-  bit32 = super.bit32.override({
-    # Small patch in order to no longer redefine a Lua 5.2 function that Luajit
-    # 2.1 also provides, see https://github.com/LuaJIT/LuaJIT/issues/325 for
-    # more
-    patches = [
-      ./bit32.patch
-    ];
-  });
-
   busted = super.busted.override({
     postConfigure = ''
       substituteInPlace ''${rockspecFilename} \
@@ -60,20 +51,6 @@ with super;
     externalDeps = [
       { name = "LIBSASL"; dep = pkgs.cyrus_sasl; }
     ];
-  });
-
-  http = super.http.override({
-    patches = [
-      (pkgs.fetchpatch {
-        name = "invalid-state-progression.patch";
-        url = "https://github.com/daurnimator/lua-http/commit/cb7b59474a.diff";
-        sha256 = "1vmx039n3nqfx50faqhs3wgiw28ws416rhw6vh6srmh9i826dac7";
-      })
-    ];
-    /* TODO: separate docs derivation? (pandoc is heavy)
-    nativeBuildInputs = [ pandoc ];
-    makeFlags = [ "-C doc" "lua-http.html" "lua-http.3" ];
-    */
   });
 
   ldbus = super.ldbus.override({
