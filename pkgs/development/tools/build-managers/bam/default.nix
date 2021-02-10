@@ -1,4 +1,4 @@
-{ lib, stdenv, fetchFromGitHub, lua5_3, python }:
+{ lib, stdenv, fetchFromGitHub, lua, python }:
 
 stdenv.mkDerivation rec {
   pname = "bam";
@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
     sha256 = "13br735ig7lygvzyfd15fc2rdygrqm503j6xj5xkrl1r7w2wipq6";
   };
 
-  buildInputs = [ lua5_3 python ];
+  buildInputs = [ lua python ];
 
   buildPhase = "${stdenv.shell} make_unix.sh";
 

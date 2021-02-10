@@ -6,7 +6,7 @@
   openssl,
   pkg-config,
   mosquitto,
-  lua5_3,
+  lua,
   sqlite,
   jsoncpp,
   zlib,
@@ -45,7 +45,7 @@ stdenv.mkDerivation rec {
     openssl
     python3
     mosquitto
-    lua5_3
+    lua
     sqlite
     jsoncpp
     boost

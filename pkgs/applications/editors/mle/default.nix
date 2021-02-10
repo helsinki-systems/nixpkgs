@@ -1,4 +1,4 @@
-{ lib, stdenv, fetchFromGitHub, termbox, pcre, uthash, lua5_3 }:
+{ lib, stdenv, fetchFromGitHub, termbox, pcre, uthash, lua }:
 
 stdenv.mkDerivation rec {
   pname = "mle";
@@ -11,14 +11,14 @@ stdenv.mkDerivation rec {
     sha256 = "16dbwfdd6sqqn7jfaxd5wdy8y9ghbihnz6bgn3xhqcww8rj1sia1";
   };
 
-  # Fix location of Lua 5.3 header and library
+  # Fix location of Lua headers and library
   postPatch = ''
     substituteInPlace Makefile --replace "-llua5.3" "-llua";
     substituteInPlace mle.h    --replace "<lua5.3/" "<";
     patchShebangs tests/*
   '';
 
-  buildInputs = [ termbox pcre uthash lua5_3 ];
+  buildInputs = [ termbox pcre uthash lua ];
 
   doCheck = true;
 

@@ -12,7 +12,7 @@
 , libsoup
 , gnome3
 , libxml2
-, lua5_3
+, lua
 , liboauth
 , libgdata
 , libmediaart
@@ -66,7 +66,7 @@ stdenv.mkDerivation rec {
     grilo
     libxml2
     libgdata
-    lua5_3
+    lua
     liboauth
     sqlite
     gnome-online-accounts

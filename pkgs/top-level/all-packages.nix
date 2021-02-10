@@ -895,9 +895,7 @@ in
 
   apfs-fuse = callPackage ../tools/filesystems/apfs-fuse { };
 
-  apk-tools = callPackage ../tools/package-management/apk-tools {
-    lua = lua5_3;
-  };
+  apk-tools = callPackage ../tools/package-management/apk-tools { };
 
   apktool = callPackage ../development/tools/apktool {
     inherit (androidenv.androidPkgs_9_0) build-tools;
@@ -18730,7 +18728,6 @@ in
   cockroachdb = callPackage ../servers/sql/cockroachdb { };
 
   conky = callPackage ../os-specific/linux/conky ({
-    lua = lua5_3_compat;
     inherit (linuxPackages.nvidia_x11.settings) libXNVCtrl;
   } // config.conky or {});
 
@@ -21553,7 +21550,6 @@ in
   darcs-to-git = callPackage ../applications/version-management/git-and-tools/darcs-to-git { };
 
   darktable = callPackage ../applications/graphics/darktable {
-    lua = lua5_3;
     pugixml = pugixml.override { shared = true; };
   };
 
@@ -22981,7 +22977,6 @@ in
   ipe = libsForQt514.callPackage ../applications/graphics/ipe {
     ghostscript = ghostscriptX;
     texlive = texlive.combine { inherit (texlive) scheme-small; };
-    lua5 = lua5_3;
   };
 
   iptraf = callPackage ../applications/networking/iptraf { };
@@ -26016,9 +26011,7 @@ in
     inherit (gnome2) libgnomeprint libgnomeprintui libgnomecanvas;
   };
 
-  xournalpp = callPackage ../applications/graphics/xournalpp {
-    lua = lua5_3;
-  };
+  xournalpp = callPackage ../applications/graphics/xournalpp { };
 
   apvlv = callPackage ../applications/misc/apvlv { };
 

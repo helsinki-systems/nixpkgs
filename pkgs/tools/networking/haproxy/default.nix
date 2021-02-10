@@ -3,10 +3,10 @@
 , withPrometheusExporter ? true
 , stdenv, lib, fetchurl, nixosTests
 , openssl, zlib
-, lua5_3 ? null, pcre ? null, systemd ? null
+, lua ? null, pcre ? null, systemd ? null
 }:
 
-assert useLua -> lua5_3 != null;
+assert useLua -> lua != null;
 assert usePcre -> pcre != null;
 
 stdenv.mkDerivation rec {
@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   };
 
   buildInputs = [ openssl zlib ]
-    ++ lib.optional useLua lua5_3
+    ++ lib.optional useLua lua
     ++ lib.optional usePcre pcre
     ++ lib.optional stdenv.isLinux systemd;
 
@@ -40,8 +40,8 @@ stdenv.mkDerivation rec {
     "USE_PCRE_JIT=yes"
   ] ++ lib.optionals useLua [
     "USE_LUA=yes"
-    "LUA_LIB=${lua5_3}/lib"
-    "LUA_INC=${lua5_3}/include"
+    "LUA_LIB=${lua}/lib"
+    "LUA_INC=${lua}/include"
   ] ++ lib.optionals stdenv.isLinux [
     "USE_SYSTEMD=yes"
     "USE_GETADDRINFO=1"

@@ -1,4 +1,4 @@
-{ lib, stdenv, fetchFromGitHub, autoreconfHook, lua5_3, pkg-config, python3
+{ lib, stdenv, fetchFromGitHub, autoreconfHook, lua, pkg-config, python3
 , zlib, bzip2, curl, lzma, gettext, libiconv
 , sdlClient ? true, SDL, SDL_mixer, SDL_image, SDL_ttf, SDL_gfx, freetype, fluidsynth
 , gtkClient ? false, gtk3
@@ -31,7 +31,7 @@ in stdenv.mkDerivation rec {
   nativeBuildInputs = [ autoreconfHook pkg-config ]
     ++ optional qtClient [ qt5.wrapQtAppsHook ];
 
-  buildInputs = [ lua5_3 zlib bzip2 curl lzma gettext libiconv ]
+  buildInputs = [ lua zlib bzip2 curl lzma gettext libiconv ]
     ++ optionals sdlClient [ SDL SDL_mixer SDL_image SDL_ttf SDL_gfx freetype fluidsynth ]
     ++ optionals gtkClient [ gtk3 ]
     ++ optionals qtClient  [ qt5.qtbase ]

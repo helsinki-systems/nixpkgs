@@ -1,4 +1,4 @@
-{ lib, stdenv, fetchurl, fetchpatch, libpcap, pkg-config, openssl, lua5_3
+{ lib, stdenv, fetchurl, fetchpatch, libpcap, pkg-config, openssl, lua
 , pcre, liblinear, libssh2
 , graphicalSupport ? false
 , libX11 ? null
@@ -39,7 +39,7 @@ stdenv.mkDerivation rec {
   '';
 
   configureFlags = [
-    (if withLua then "--with-liblua=${lua5_3}" else "--without-liblua")
+    (if withLua then "--with-liblua=${lua}" else "--without-liblua")
   ] ++ optionals (!graphicalSupport) [ "--without-ndiff" "--without-zenmap" ];
 
   makeFlags = optionals (stdenv.buildPlatform != stdenv.hostPlatform) [

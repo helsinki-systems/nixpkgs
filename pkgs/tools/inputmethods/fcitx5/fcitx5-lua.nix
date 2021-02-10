@@ -3,8 +3,7 @@
 , cmake
 , extra-cmake-modules
 , fcitx5
-, lua5_3
-, luaPackage ? lua5_3
+, lua
 , gettext
 }:
 
@@ -26,7 +25,7 @@ stdenv.mkDerivation rec {
 
   buildInputs = [
     fcitx5
-    luaPackage
+    lua
     gettext
   ];
 

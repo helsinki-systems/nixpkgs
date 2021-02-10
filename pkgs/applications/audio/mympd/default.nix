@@ -4,7 +4,7 @@
 , pkg-config
 , mpd_clientlib
 , openssl
-, lua5_3
+, lua
 , libid3tag
 , flac
 , mongoose
@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
   buildInputs = [
     mpd_clientlib
     openssl
-    lua5_3
+    lua
     libid3tag
     flac
   ];

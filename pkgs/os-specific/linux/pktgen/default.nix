@@ -1,5 +1,5 @@
 { stdenv, lib, fetchurl, meson, ninja, pkg-config
-, dpdk, libbsd, libpcap, lua5_3, numactl, util-linux
+, dpdk, libbsd, libpcap, lua, numactl, util-linux
 , gtk2, which, withGtk ? false
 }:
 
@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   nativeBuildInputs = [ meson ninja pkg-config ];
 
   buildInputs =
-    [ dpdk libbsd libpcap lua5_3 numactl which ]
+    [ dpdk libbsd libpcap lua numactl which ]
     ++ lib.optionals withGtk [gtk2];
 
   RTE_SDK = dpdk;
