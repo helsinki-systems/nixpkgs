@@ -1,4 +1,4 @@
-{ lib, stdenv, fetchFromGitHub, ncurses, hdate, lua5_2 }:
+{ lib, stdenv, fetchFromGitHub, ncurses, hdate, lua }:
 
 stdenv.mkDerivation rec {
   version = "12010904";
@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   # some include hardcodes the lua libraries path. This is a patch for that
   patches = [ ./lua-header.patch ];
   preBuild = "cd dozenal";
-  buildInputs = [ ncurses hdate lua5_2 ];
+  buildInputs = [ ncurses hdate lua ];
   # I remove gdozdc, as I didn't figure all it's dependency yet.
   postInstall = "rm $out/bin/gdozdc";
 
