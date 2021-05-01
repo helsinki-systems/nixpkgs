@@ -1,0 +1,13 @@
+diff --git a/test/setup.py b/test/setup.py
+index dcb1782..b7e8ad9 100644
+--- a/test/setup.py
++++ b/test/setup.py
+@@ -14,7 +14,7 @@ else:
+     sources = ['test_py3c.c', 'test_empty.c']
+ 
+ extra_compile_args = []
+-extra_compile_args.extend(['-Werror', '-Wall'])
++extra_compile_args.extend(['-Wall'])
+ if sys.version_info < (2, 7):
+     # XXX: The PyCapsule (2.6) shim tests aren't yet warning-free in GCC
+     extra_compile_args.extend(['-Wno-format'])

@@ -11,6 +11,11 @@ stdenv.mkDerivation rec {
     sha256 = "04i2z7hrig78clc59q3i1z2hh24g7z1bfvxznlzxv00d4s57nhpi";
   };
 
+  patches = [
+    # build fails with clang: "clang-7: error: argument unused during compilation: '-fno-strict-overflow' [-Werror,-Wunused-command-line-argument]"
+    ./no-werror.patch
+  ];
+
   makeFlags = [
     "prefix=${placeholder "out"}"
   ];
