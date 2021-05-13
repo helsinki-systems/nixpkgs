@@ -11,6 +11,7 @@
 , gtk3
 , json-glib
 , libcacard
+, libcap_ng
 , libdrm
 , libjpeg_turbo
 , libopus
@@ -57,19 +58,21 @@
 
 stdenv.mkDerivation rec {
   pname = "spice-gtk";
-  version = "0.37";
+  version = "0.39";
 
   outputs = [ "out" "dev" "devdoc" "man" ];
 
   src = fetchurl {
-    url = "https://www.spice-space.org/download/gtk/${pname}-${version}.tar.bz2";
-    sha256 = "1drvj8y35gnxbnrxsipwi15yh0vs9ixzv4wslz6r3lra8w3bfa0z";
+    url = "https://www.spice-space.org/download/gtk/${pname}-${version}.tar.xz";
+    sha256 = "1k8kay320c430kzl74k36a1p0ycgpn2xigz6wsyckbpajzhvxb13";
   };
 
   postPatch = ''
     # get rid of absolute path to helper in store so we can use a setuid wrapper
     substituteInPlace src/usb-acl-helper.c \
       --replace 'ACL_HELPER_PATH"/' '"'
+    # overwrite script that tries to setcap or setuid, as this fails in the sandbox
+    echo '#!/bin/sh' > build-aux/setcap-or-suid
   '';
 
   nativeBuildInputs = [
@@ -98,6 +101,7 @@ stdenv.mkDerivation rec {
     gtk3
     json-glib
     libcacard
+    libcap_ng
     libdrm
     libjpeg_turbo
     libopus
@@ -112,11 +116,6 @@ stdenv.mkDerivation rec {
   ] ++ lib.optionals withPolkit [ polkit acl usbutils ] ;
 
   PKG_CONFIG_POLKIT_GOBJECT_1_POLICYDIR = "${placeholder "out"}/share/polkit-1/actions";
-
-  mesonFlags = [
-    "-Dcelt051=disabled"
-    "-Dpulse=disabled" # is deprecated upstream
-  ];
 
   meta = with lib; {
     description = "GTK 3 SPICE widget";
