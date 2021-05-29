@@ -21,6 +21,7 @@
 , openGLSupport ? sdlSupport, mesa, epoxy, libdrm
 , virglSupport ? openGLSupport, virglrenderer
 , libiscsiSupport ? true, libiscsi
+, iouringSupport ? true, liburing
 , smbdSupport ? false, samba
 , tpmSupport ? true
 , hostCpuOnly ? false
@@ -77,6 +78,7 @@ stdenv.mkDerivation rec {
     ++ optionals openGLSupport [ mesa epoxy libdrm ]
     ++ optionals virglSupport [ virglrenderer ]
     ++ optionals libiscsiSupport [ libiscsi ]
+    ++ optionals iouringSupport [ liburing ]
     ++ optionals smbdSupport [ samba ];
 
   dontUseMesonConfigure = true; # meson's configurePhase isn't compatible with qemu build
@@ -156,6 +158,7 @@ stdenv.mkDerivation rec {
     ++ optional virglSupport "--enable-virglrenderer"
     ++ optional tpmSupport "--enable-tpm"
     ++ optional libiscsiSupport "--enable-libiscsi"
+    ++ optional iouringSupport "--enable-linux-io-uring"
     ++ optional smbdSupport "--smbd=${samba}/bin/smbd";
 
   doCheck = false; # tries to access /dev
