@@ -1,27 +1,28 @@
-{ lib, stdenv, autoreconfHook, fetchFromGitHub, zlib, libibmad, openssl }:
+{ lib, stdenv, autoreconfHook, fetchFromGitHub, zlib, libibmad, openssl, jsoncpp, pkg-config }:
 
 stdenv.mkDerivation rec {
   pname = "mstflint";
-  version = "4.14.0-3";
+  version = "4.17.0-1";
 
   src = fetchFromGitHub {
     owner = "Mellanox";
     repo = pname;
     rev = "v${version}";
-    sha256 = "0zy9npyzf7dkxlfl9mx6997aa61mk23ixpjb01ckb1wvav5k6z82";
+    sha256 = "0k6q3r1i3g8m41nn4pj4c7zfjlybxkp0r6lw2pl7j58dmiy4v68g";
   };
 
-  nativeBuildInputs = [ autoreconfHook ];
-  buildInputs = [ zlib libibmad openssl ];
-
-  hardeningDisable = [ "format" ];
-
-  dontDisableStatic = true;  # the build fails without this. should probably be reported upstream
+  nativeBuildInputs = [ autoreconfHook pkg-config ];
+  buildInputs = [
+    jsoncpp
+    zlib
+    libibmad
+    openssl
+  ];
 
   meta = with lib; {
     description = "Open source version of Mellanox Firmware Tools (MFT)";
     homepage = "https://github.com/Mellanox/mstflint";
-    license = with licenses; [ gpl2 bsd2 ];
+    license = with licenses; [ gpl2Only bsd2 ];
     platforms = platforms.linux;
   };
 }
