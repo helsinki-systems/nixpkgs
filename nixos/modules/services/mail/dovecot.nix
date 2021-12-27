@@ -38,7 +38,6 @@ let
         ssl_cert = <${cfg.sslServerCert}
         ssl_key = <${cfg.sslServerKey}
         ${optionalString (cfg.sslCACert != null) ("ssl_ca = <" + cfg.sslCACert)}
-        ssl_dh = <${config.security.dhparams.params.dovecot2.path}
         disable_plaintext_auth = yes
       ''
     )
@@ -376,10 +375,6 @@ in
   config = mkIf cfg.enable {
     security.pam.services.dovecot2 = mkIf cfg.enablePAM {};
 
-    security.dhparams = mkIf (cfg.sslServerCert != null) {
-      enable = true;
-      params.dovecot2 = {};
-    };
     services.dovecot2.protocols =
       optional cfg.enableImap "imap"
       ++ optional cfg.enablePop3 "pop3"
