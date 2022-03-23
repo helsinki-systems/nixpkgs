@@ -458,6 +458,17 @@ in
 
       enabledUpstreamSystemUnits = filter (n: ! elem n cfg.suppressedSystemUnits) upstreamSystemUnits;
       enabledUnits = filterAttrs (n: v: ! elem n cfg.suppressedSystemUnits) cfg.units;
+
+      # Environment of PID 1
+      managerEnvironment = lib.escapeShellArgs ([
+        "PATH=/run/current-system/systemd/lib/systemd:${lib.makeBinPath config.system.fsPackages}"
+        "LOCALE_ARCHIVE=/run/current-system/sw/lib/locale/locale-archive"
+        "TZDIR=/etc/zoneinfo"
+      ] ++ lib.optional (config.boot.extraSystemdUnitPaths != [])
+        # # If SYSTEMD_UNIT_PATH ends with an empty component (":"), the usual unit load path will be appended to the contents of the variable
+        "SYSTEMD_UNIT_PATH=${builtins.concatStringsSep ":" config.boot.extraSystemdUnitPaths}:"
+      );
+
     in ({
       "systemd/system".source = generateUnits {
         type = "system";
@@ -468,6 +479,7 @@ in
 
       "systemd/system.conf".text = ''
         [Manager]
+        ManagerEnvironment=${managerEnvironment}
         ${optionalString config.systemd.enableCgroupAccounting ''
           DefaultCPUAccounting=yes
           DefaultIOAccounting=yes
