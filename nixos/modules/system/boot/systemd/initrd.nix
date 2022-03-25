@@ -133,6 +133,47 @@ let
     contents = cfg.objects;
   };
 
+  nixosActivationScript = pkgs.writeShellScript "initrd-nixos-activation" ''
+    set -euo pipefail
+    export PATH="/bin:${cfg.package.util-linux}/bin"
+
+    # Figure out what closure to boot
+    closure=
+    for o in $(< /proc/cmdline); do
+        case $o in
+            init=*)
+                IFS== read -r -a initParam <<< "$o"
+                closure="$(dirname "''${initParam[1]}")"
+                ;;
+        esac
+    done
+
+    # Sanity check
+    if [ -z "''${closure:-}" ]; then
+      echo 'No init= parameter on the kernel command line' >&2
+      exit 1
+    fi
+
+    # We need to propagate /run for things like /run/booted-system
+    # and /run/current-system.
+    mkdir -p /sysroot/run
+    mount --bind /run /sysroot/run
+
+    # We need this monstrosity because systemd will try to resolve the symlink
+    # of the new systemd in the environment of the initrd. For this reason, we
+    # link whatever /run/current-system points to into our local /nix/store
+    # directory and create an empty file acting as systemd. This empty file is
+    # only used for fstat().
+    ln -s "/sysroot$closure" "$closure"
+    systemdPath="$(readlink -f "/sysroot$closure/systemd")/lib/systemd/systemd"
+    mkdir -p "$(dirname "$systemdPath")"
+    touch "$systemdPath"
+
+    # Initialize the system
+    export IN_NIXOS_SYSTEMD_STAGE1=1
+    exec chroot /sysroot $closure/init
+  '';
+
 in {
   options.boot.initrd.systemd = {
     enable = mkEnableOption ''systemd in initrd.
@@ -343,6 +384,9 @@ in {
         { object = "${initrdBinEnv}/bin"; symlink = "/bin"; }
         { object = "${initrdBinEnv}/sbin"; symlink = "/sbin"; }
         { object = builtins.toFile "sysctl.conf" "kernel.modprobe = /sbin/modprobe"; symlink = "/etc/sysctl.d/nixos.conf"; }
+
+        # For switching to stage 2
+        { object = nixosActivationScript; }
       ];
 
       targets.initrd.aliases = ["default.target"];
@@ -374,6 +418,22 @@ in {
       '')];
       services."systemd-makefs@".unitConfig.IgnoreOnIsolate = true;
       services."systemd-growfs@".unitConfig.IgnoreOnIsolate = true;
+
+      # For switching to stage 2
+      services.initrd-nixos-activation = {
+        after = [ "initrd-fs.target" ];
+        wantedBy = [ "initrd.target" ];
+        unitConfig.AssertPathExists = "/etc/initrd-release";
+        serviceConfig = {
+          Type = "oneshot";
+          ExecStart = nixosActivationScript;
+        };
+      };
+      # Add the path to init to prevent systemctl from reading the init= kernel parameter
+      services.initrd-switch-root.serviceConfig.ExecStart = [
+        ""
+        "systemctl --no-block switch-root /sysroot /run/current-system/systemd/lib/systemd/systemd"
+      ];
     };
   };
 }
