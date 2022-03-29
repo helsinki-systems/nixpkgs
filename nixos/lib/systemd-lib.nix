@@ -273,9 +273,9 @@ in rec {
           { Conflicts = toString config.conflicts; }
         // optionalAttrs (config.requisite != [])
           { Requisite = toString config.requisite; }
-        // optionalAttrs (config.restartTriggers != [])
+        // optionalAttrs (config ? restartTriggers && config.restartTriggers != [])
           { X-Restart-Triggers = toString config.restartTriggers; }
-        // optionalAttrs (config.reloadTriggers != [])
+        // optionalAttrs (config ? reloadTriggers && config.reloadTriggers != [])
           { X-Reload-Triggers = toString config.reloadTriggers; }
         // optionalAttrs (config.description != "") {
           Description = config.description; }
@@ -297,27 +297,27 @@ in rec {
           path = mkAfter path;
           environment.PATH = mkIf (config.path != []) "${makeBinPath config.path}:${makeSearchPathOutput "bin" "sbin" config.path}";
         }
-        (mkIf (config.preStart != "")
+        (mkIf (config ? preStart && config.preStart != "")
           { serviceConfig.ExecStartPre =
               [ (makeJobScript "${name}-pre-start" config.preStart) ];
           })
-        (mkIf (config.script != "")
+        (mkIf (config ? script && config.script != "")
           { serviceConfig.ExecStart =
               makeJobScript "${name}-start" config.script + " " + config.scriptArgs;
           })
-        (mkIf (config.postStart != "")
+        (mkIf (config ? postStart && config.postStart != "")
           { serviceConfig.ExecStartPost =
               [ (makeJobScript "${name}-post-start" config.postStart) ];
           })
-        (mkIf (config.reload != "")
+        (mkIf (config ? reload && config.reload != "")
           { serviceConfig.ExecReload =
               makeJobScript "${name}-reload" config.reload;
           })
-        (mkIf (config.preStop != "")
+        (mkIf (config ? preStart && config.preStop != "")
           { serviceConfig.ExecStop =
               makeJobScript "${name}-pre-stop" config.preStop;
           })
-        (mkIf (config.postStop != "")
+        (mkIf (config ? postStop && config.postStop != "")
           { serviceConfig.ExecStopPost =
               makeJobScript "${name}-post-stop" config.postStop;
           })
@@ -382,12 +382,12 @@ in rec {
               # systemd max line length is now 1MiB
               # https://github.com/systemd/systemd/commit/e6dde451a51dc5aaa7f4d98d39b8fe735f73d2af
               in if stringLength s >= 1048576 then throw "The value of the environment variable ‘${n}’ in systemd service ‘${name}.service’ is too long." else s) (attrNames env)}
-          ${if def.reloadIfChanged then ''
+          ${if def ? reloadIfChanged && def.reloadIfChanged then ''
             X-ReloadIfChanged=true
-          '' else if !def.restartIfChanged then ''
+          '' else if (def ? restartIfChanged && !def.restartIfChanged) then ''
             X-RestartIfChanged=false
           '' else ""}
-          ${optionalString (!def.stopIfChanged) "X-StopIfChanged=false"}
+          ${optionalString (def ? stopIfChanged && !def.stopIfChanged) "X-StopIfChanged=false"}
           ${attrsToSection def.serviceConfig}
         '';
     };

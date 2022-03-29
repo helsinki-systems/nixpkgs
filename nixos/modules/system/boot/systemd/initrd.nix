@@ -244,28 +244,28 @@ in {
 
     sockets = mkOption {
       default = {};
-      type = systemdUtils.types.sockets;
+      type = systemdUtils.types.initrdSockets;
       visible = false;
       description = "Definition of systemd socket units.";
     };
 
     timers = mkOption {
       default = {};
-      type = systemdUtils.types.timers;
+      type = systemdUtils.types.initrdTimers;
       visible = false;
       description = "Definition of systemd timer units.";
     };
 
     paths = mkOption {
       default = {};
-      type = systemdUtils.types.paths;
+      type = systemdUtils.types.initrdPaths;
       visible = false;
       description = "Definition of systemd path units.";
     };
 
     mounts = mkOption {
       default = [];
-      type = systemdUtils.types.mounts;
+      type = systemdUtils.types.initrdMounts;
       visible = false;
       description = ''
         Definition of systemd mount units.
@@ -276,7 +276,7 @@ in {
 
     automounts = mkOption {
       default = [];
-      type = systemdUtils.types.automounts;
+      type = systemdUtils.types.initrdAutomounts;
       visible = false;
       description = ''
         Definition of systemd automount units.
@@ -287,7 +287,7 @@ in {
 
     slices = mkOption {
       default = {};
-      type = systemdUtils.types.slices;
+      type = systemdUtils.types.initrdSlices;
       visible = false;
       description = "Definition of slice configurations.";
     };

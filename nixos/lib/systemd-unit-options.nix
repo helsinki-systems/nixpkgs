@@ -94,7 +94,7 @@ in rec {
 
   };
 
-  commonUnitOptions = sharedOptions // {
+  commonUnitOptions = forInitrd: sharedOptions // {
 
     description = mkOption {
       default = "";
@@ -191,27 +191,6 @@ in rec {
       '';
     };
 
-    restartTriggers = mkOption {
-      default = [];
-      type = types.listOf types.unspecified;
-      description = ''
-        An arbitrary list of items such as derivations.  If any item
-        in the list changes between reconfigurations, the service will
-        be restarted.
-      '';
-    };
-
-    reloadTriggers = mkOption {
-      default = [];
-      type = types.listOf unitOption;
-      description = ''
-        An arbitrary list of items such as derivations.  If any item
-        in the list changes between reconfigurations, the service will
-        be reloaded.  If anything but a reload trigger changes in the
-        unit file, the unit will be restarted instead.
-      '';
-    };
-
     onFailure = mkOption {
       default = [];
       type = types.listOf unitNameType;
@@ -239,10 +218,33 @@ in rec {
        '';
     };
 
+  } // optionalAttrs (!forInitrd) {
+
+    restartTriggers = mkOption {
+      default = [];
+      type = types.listOf types.unspecified;
+      description = ''
+        An arbitrary list of items such as derivations.  If any item
+        in the list changes between reconfigurations, the service will
+        be restarted.
+      '';
+    };
+
+    reloadTriggers = mkOption {
+      default = [];
+      type = types.listOf unitOption;
+      description = ''
+        An arbitrary list of items such as derivations.  If any item
+        in the list changes between reconfigurations, the service will
+        be reloaded.  If anything but a reload trigger changes in the
+        unit file, the unit will be restarted instead.
+      '';
+    };
+
   };
 
 
-  serviceOptions = commonUnitOptions // {
+  serviceOptions = forInitrd: (commonUnitOptions forInitrd) // {
 
     environment = mkOption {
       default = {};
@@ -275,6 +277,8 @@ in rec {
         <manvolnum>5</manvolnum></citerefentry> for details.
       '';
     };
+
+  } // optionalAttrs (!forInitrd) {
 
     script = mkOption {
       type = types.lines;
@@ -389,8 +393,7 @@ in rec {
 
   };
 
-
-  socketOptions = commonUnitOptions // {
+  socketOptions = forInitrd: (commonUnitOptions forInitrd) // {
 
     listenStreams = mkOption {
       default = [];
@@ -427,7 +430,7 @@ in rec {
   };
 
 
-  timerOptions = commonUnitOptions // {
+  timerOptions = forInitrd: (commonUnitOptions forInitrd) // {
 
     timerConfig = mkOption {
       default = {};
@@ -446,7 +449,7 @@ in rec {
   };
 
 
-  pathOptions = commonUnitOptions // {
+  pathOptions = forInitrd: (commonUnitOptions forInitrd) // {
 
     pathConfig = mkOption {
       default = {};
@@ -463,7 +466,7 @@ in rec {
   };
 
 
-  mountOptions = commonUnitOptions // {
+  mountOptions = forInitrd: (commonUnitOptions forInitrd) // {
 
     what = mkOption {
       example = "/dev/sda1";
@@ -507,7 +510,7 @@ in rec {
     };
   };
 
-  automountOptions = commonUnitOptions // {
+  automountOptions = forInitrd: (commonUnitOptions forInitrd) // {
 
     where = mkOption {
       example = "/mnt";
@@ -533,7 +536,7 @@ in rec {
 
   targetOptions = commonUnitOptions;
 
-  sliceOptions = commonUnitOptions // {
+  sliceOptions = forInitrd: (commonUnitOptions forInitrd) // {
 
     sliceConfig = mkOption {
       default = {};
