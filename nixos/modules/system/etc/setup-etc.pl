@@ -50,7 +50,6 @@ sub is_static {
         }
         return 1;
     }
-
     return 0;
 }
 
@@ -131,6 +130,8 @@ sub link {
     } elsif (-l "$_") {
         atomic_symlink "$static/$fn", $target or warn;
     }
+
+    return;
 }
 
 find(\&link, $etc);
