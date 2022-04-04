@@ -111,12 +111,12 @@ sub link {
     }
 
     if (-e "$_.mode") {
-        my $mode = read_file("$_.mode"); chomp $mode;
+        chomp(my $mode = read_file("$_.mode"));
         if ($mode eq "direct-symlink") {
             atomic_symlink readlink("$static/$fn"), $target or warn;
         } else {
-            my $uid = read_file("$_.uid"); chomp $uid;
-            my $gid = read_file("$_.gid"); chomp $gid;
+            chomp(my $uid = read_file("$_.uid"));
+            chomp(my $gid = read_file("$_.gid"));
             copy "$static/$fn", "$target.tmp" or warn;
 
             # uid could either be an uid or an username, this gets the uid
