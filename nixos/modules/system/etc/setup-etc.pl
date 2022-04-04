@@ -9,6 +9,12 @@ use File::Find;
 use File::Path;
 use File::Slurp;
 
+## no critic(CodeLayout::ProhibitParensWithBuiltins)
+## no critic(ErrorHandling::RequireCarping)
+## no critic(InputOutput::RequireCheckedSyscalls, InputOutput::RequireBracedFileHandleWithPrint, InputOutput::RequireBriefOpen)
+## no critic(RegularExpressions::ProhibitEscapedMetacharacters)
+## no critic(ValuesAndExpressions::ProhibitNoisyQuotes, ValuesAndExpressions::ProhibitMagicNumbers, ValuesAndExpressions::ProhibitEmptyQuotes, ValuesAndExpressions::ProhibitInterpolationOfLiterals)
+
 my $etc = $ARGV[0] or die;
 my $static = "/etc/static";
 
