@@ -311,7 +311,7 @@ in {
 
     it87 = callPackage ../os-specific/linux/it87 {};
 
-    asus-ec-sensors = callPackage ../os-specific/linux/asus-ec-sensors {};
+    asus-ec-sensors = if lib.versionOlder kernel.version "5.6" then callPackage ../os-specific/linux/asus-ec-sensors {} else null;
 
     asus-wmi-sensors = callPackage ../os-specific/linux/asus-wmi-sensors {};
 
