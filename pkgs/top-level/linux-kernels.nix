@@ -346,7 +346,7 @@ in {
 
     r8125 = callPackage ../os-specific/linux/r8125 { };
 
-    r8168 = callPackage ../os-specific/linux/r8168 { };
+    r8168 = if lib.versionOlder kernel.version "5.10" then callPackage ../os-specific/linux/r8168 { } else null;
 
     rtl8188eus-aircrack = callPackage ../os-specific/linux/rtl8188eus-aircrack { };
 
