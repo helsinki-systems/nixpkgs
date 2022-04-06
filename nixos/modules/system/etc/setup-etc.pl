@@ -15,7 +15,7 @@ use File::Slurp;
 ## no critic(RegularExpressions::ProhibitEscapedMetacharacters)
 ## no critic(ValuesAndExpressions::ProhibitNoisyQuotes, ValuesAndExpressions::ProhibitMagicNumbers, ValuesAndExpressions::ProhibitEmptyQuotes, ValuesAndExpressions::ProhibitInterpolationOfLiterals)
 
-my $etc = $ARGV[0] or die;
+my $etc = $ARGV[0] or die("This script must be called with an argument which expresses the new /etc directory in the nix store");
 my $static = "/etc/static";
 
 sub atomic_symlink {
