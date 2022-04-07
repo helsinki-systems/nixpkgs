@@ -36,7 +36,7 @@ atomic_symlink($etc, $static) or die("Failed to create symlink for /etc");
 # means either argument is a symlink to a file in /etc/static or a
 # directory with all children being static.
 sub is_static {
-    my $path = shift;
+    my $path = @_;
 
     if (-l $path) {
         my $target = readlink($path);
