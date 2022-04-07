@@ -66,12 +66,13 @@ sub is_static {
 # in the current one.  For efficiency, don't look under /etc/nixos
 # (where all the NixOS sources live).
 sub cleanup {
+    my $filename = $_;
     if ($File::Find::name eq "/etc/nixos") {
         $File::Find::prune = 1;
         return;
     }
-    if (-l $_) {
-        my $target = readlink($_);
+    if (-l $filename) {
+        my $target = readlink($filename);
         if (substr($target, 0, length($static)) eq $static) {
             my $x = $static . substr($File::Find::name, length("/etc/"));
             if (not (-l $x)) {
@@ -98,13 +99,14 @@ my %created;
 my @copied;
 
 sub link {
+    my $path_to_file = $_;
     my $fn = substr($File::Find::name, length($etc) + 1) or next;
     my $target = "/etc/$fn";
     File::Path::make_path(dirname($target));
     $created{$fn} = 1;
 
     # Rename doesn't work if target is directory.
-    if (-l $_ && -d $target) {
+    if (-l $path_to_file && -d $target) {
         if (is_static($target)) {
             rmtree($target) or warn("Failed to remove $target");
         } else {
@@ -112,13 +114,13 @@ sub link {
         }
     }
 
-    if (-e "$_.mode") {
-        chomp(my $mode = read_file("$_.mode"));
+    if (-e "$path_to_file.mode") {
+        chomp(my $mode = read_file("$path_to_file.mode"));
         if ($mode eq "direct-symlink") {
             atomic_symlink(readlink("$static/$fn"), $target) or warn;
         } else {
-            chomp(my $uid = read_file("$_.uid"));
-            chomp(my $gid = read_file("$_.gid"));
+            chomp(my $uid = read_file("$path_to_file.uid"));
+            chomp(my $gid = read_file("$path_to_file.gid"));
             copy("$static/$fn", "$target.tmp") or warn;
 
             # uid could either be an uid or an username, this gets the uid
@@ -135,10 +137,9 @@ sub link {
         }
         push(@copied, $fn);
         print($clean "$fn\n");
-    } elsif (-l "$_") {
+    } elsif (-l "$path_to_file") {
         atomic_symlink("$static/$fn", $target) or warn;
     }
-
     return;
 }
 
