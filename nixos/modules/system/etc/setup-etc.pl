@@ -67,7 +67,7 @@ sub is_static {
 # (where all the NixOS sources live).
 sub cleanup {
     my $filename = $_;
-    if ($File::Find::name eq "/etc/nixos") {
+    if ($File::Find::name eq "/etc/nixos" || $File::Find::name eq "/etc/static") {
         $File::Find::prune = 1;
         return;
     }
