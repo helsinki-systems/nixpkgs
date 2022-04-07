@@ -98,7 +98,7 @@ open(my $clean, ">>", "/etc/.clean") or die("Couldn't open /etc/.clean");
 my %created;
 my @copied;
 
-sub link {
+sub make_symlinks {
     my $path_to_file = $_;
     my $fn = substr($File::Find::name, length($etc) + 1) or next;
     my $target = "/etc/$fn";
@@ -143,7 +143,7 @@ sub link {
     return;
 }
 
-find(\&link, $etc);
+find(\&make_symlinks, $etc);
 
 
 # Delete files that were copied in a previous version but not in the
