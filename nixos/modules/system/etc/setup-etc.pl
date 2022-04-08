@@ -18,6 +18,7 @@ use File::Slurp qw(read_file write_file);
 my $etc = $ARGV[0] or die("This script must be called with an argument which expresses the new /etc directory in the nix store");
 my $static = "/etc/static";
 
+# Create a symlink atomically from argument 2 -> argument 1
 sub atomic_symlink {
     my ($source, $target) = @_;
     my $tmp = "$target.tmp";
@@ -75,6 +76,7 @@ sub cleanup {
         my $target = readlink($filename);
         if (substr($target, 0, length($static)) eq $static) {
             my $x = $static . substr($File::Find::name, length("/etc/"));
+            # Check if symlink is still present in new etc
             if (not (-l $x)) {
                 print(STDERR "removing obsolete symlink ‘$File::Find::name’...\n");
                 unlink("$_");
@@ -121,6 +123,7 @@ sub make_symlinks {
         }
     }
 
+    # This will set uid/gid if the options were set in the nix config
     if (-e "$path_to_file.mode") {
         chomp(my $mode = read_file("$path_to_file.mode"));
         if ($mode eq "direct-symlink") {
