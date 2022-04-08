@@ -146,7 +146,6 @@ sub make_symlinks {
             rename("$target.tmp", $target) or warn;
         }
         push(@copied, $fn);
-        print($clean "$fn\n");
     } elsif (-l "$path_to_file") {
         atomic_symlink("$static/$fn", $target) or warn;
     }
@@ -162,14 +161,14 @@ foreach my $fn (@old_copied) {
     if (!defined $created{$fn}) {
         $fn = "/etc/$fn";
         print(STDERR "removing obsolete file ‘$fn’...\n");
-        unlink("$fn");
+        unlink("$fn") or warn("Couldn't remove $fn");
     }
 }
 
 
 # Rewrite /etc/.clean.
 close($clean) or die("Couldn't close /etc/.clean");
-write_file("/etc/.clean", map { "$_\n" } @copied) or die("Failed writing to /etc/.clean");
+write_file("/etc/.clean", { atomic => 1 }, map { "$_\n" } @copied) or die("Failed writing to /etc/.clean");
 
 # Create /etc/NIXOS tag if not exists.
 # When /etc is not on a persistent filesystem, it will be wiped after reboot,
