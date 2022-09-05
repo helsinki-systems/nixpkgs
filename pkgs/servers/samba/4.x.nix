@@ -20,6 +20,7 @@
 , liburing
 , gnutls
 , libunwind
+, icu
 , systemd
 , jansson
 , libtasn1
@@ -46,11 +47,11 @@ with lib;
 
 stdenv.mkDerivation rec {
   pname = "samba";
-  version = "4.15.5";
+  version = "4.16.4";
 
   src = fetchurl {
     url = "mirror://samba/pub/samba/stable/${pname}-${version}.tar.gz";
-    sha256 = "sha256-aRFeM4MZN7pRUb4CR5QxR3Za7OZYunQ/RHQWcq1o0X8=";
+    hash = "sha256-lTL4SPsSWhfk5dmOGui0LyEO1EM4NegVuXxd3m3EcC8=";
   };
 
   outputs = [ "out" "dev" "man" ];
@@ -70,6 +71,7 @@ stdenv.mkDerivation rec {
     bison
     flex
     perl
+    perl.pkgs.JSON
     perl.pkgs.ParseYapp
     libxslt
     buildPackages.stdenv.cc
@@ -97,6 +99,7 @@ stdenv.mkDerivation rec {
     gnutls
     libtasn1
     tdb
+    icu
   ] ++ optionals stdenv.isLinux [ liburing systemd ]
     ++ optionals enableLDAP [ openldap.dev python3Packages.markdown ]
     ++ optional (enablePrinting && stdenv.isLinux) cups
@@ -150,6 +153,9 @@ stdenv.mkDerivation rec {
   # If python-config is not found, the build falls back to using the sysconfig
   # module, which works correctly in all cases.
   PYTHON_CONFIG = "/invalid";
+
+  # Workaround for https://bugzilla.samba.org/show_bug.cgi?id=15080
+  PYTHONHASHSEED = 0;
 
   pythonPath = [ python3Packages.dnspython tdb ];
 
