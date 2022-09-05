@@ -75,7 +75,7 @@ stdenv.mkDerivation rec {
     perl.pkgs.ParseYapp
     libxslt
     buildPackages.stdenv.cc
-    heimdal
+    #heimdal
     docbook_xsl
     docbook_xml_dtd_45
     cmocka
@@ -134,6 +134,7 @@ stdenv.mkDerivation rec {
     "--sysconfdir=/etc"
     "--localstatedir=/var"
     "--disable-rpath"
+    "-vvv"
   ] ++ optional (!enableDomainController)
     "--without-ad-dc"
   ++ optionals (!enableLDAP) [
@@ -155,7 +156,7 @@ stdenv.mkDerivation rec {
   PYTHON_CONFIG = "/invalid";
 
   # Workaround for https://bugzilla.samba.org/show_bug.cgi?id=15080
-  PYTHONHASHSEED = 0;
+  PYTHONHASHSEED = "abc";
 
   pythonPath = [ python3Packages.dnspython tdb ];
 
