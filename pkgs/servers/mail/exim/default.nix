@@ -1,4 +1,5 @@
 { coreutils, db, fetchurl, openssl, pcre2, perl, pkg-config, lib, stdenv
+, fetchpatch
 , enableLDAP ? false, openldap
 , enableMySQL ? false, libmysqlclient, zlib
 , enableAuthDovecot ? false, dovecot
@@ -16,6 +17,14 @@ stdenv.mkDerivation rec {
     url = "https://ftp.exim.org/pub/exim/exim4/${pname}-${version}.tar.xz";
     hash = "sha256-KZpWknsus0d9qv08W9oCvGflxOWJinrq8nQIdSeM8aM=";
   };
+
+  patches = [
+    (fetchpatch {
+      url = "https://git.exim.org/exim.git/patch/12fb3842f81bcbd4a4519d5728f2d7e0e3ca1445";
+      hash = "";
+      name = "CVE-2022-3620.patch";
+    })
+  ];
 
   nativeBuildInputs = [ pkg-config ];
   buildInputs = [ coreutils db openssl perl pcre2 ]
