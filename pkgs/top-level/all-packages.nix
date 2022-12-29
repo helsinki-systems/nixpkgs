@@ -2831,6 +2831,8 @@ with pkgs;
 
   opencbm = callPackage ../tools/misc/opencbm { };
 
+  openfoam = callPackage ../applications/science/simulation-software/openfoam { };
+
   parquet-tools = callPackage ../tools/misc/parquet-tools { };
 
   pass = callPackage ../tools/security/pass { };
