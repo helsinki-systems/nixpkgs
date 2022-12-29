@@ -466,6 +466,8 @@ with pkgs;
 
   dealii = callPackage ../development/libraries/dealii { };
 
+  precice-dealii-adapter = callPackage ../applications/science/simulation-software/precice-dealii-adapter { };
+
   dsq = callPackage ../tools/misc/dsq { };
 
   dufs = callPackage ../servers/http/dufs {
