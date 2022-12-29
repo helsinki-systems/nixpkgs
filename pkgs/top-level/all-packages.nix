@@ -464,6 +464,8 @@ with pkgs;
 
   deadnix = callPackage ../development/tools/deadnix { };
 
+  dealii = callPackage ../development/libraries/dealii { };
+
   dsq = callPackage ../tools/misc/dsq { };
 
   dufs = callPackage ../servers/http/dufs {
