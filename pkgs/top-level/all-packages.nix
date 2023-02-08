@@ -29814,7 +29814,9 @@ with pkgs;
     inherit (gst_all_1) gstreamer gst-plugins-base gst-plugins-bad;
   };
 
-  fragments = callPackage ../applications/networking/p2p/fragments { };
+  fragments = callPackage ../applications/networking/p2p/fragments {
+    transmission = transmission_3;
+  };
 
   freecad = libsForQt5.callPackage ../applications/graphics/freecad {
     boost = python3Packages.boost;
@@ -33514,7 +33516,9 @@ with pkgs;
 
   topydo = callPackage ../applications/misc/topydo {};
 
-  torrential = callPackage ../applications/networking/p2p/torrential { };
+  torrential = callPackage ../applications/networking/p2p/torrential {
+    libtransmission = libtransmission_3;
+  };
 
   torrenttools = callPackage ../tools/misc/torrenttools {
     fmt = fmt_8;
@@ -33551,12 +33555,21 @@ with pkgs;
 
   transcribe = callPackage ../applications/audio/transcribe { };
 
-  transmission = callPackage ../applications/networking/p2p/transmission { };
+  inherit (import ../applications/networking/p2p/transmission pkgs)
+    transmission_3
+    transmission_4;
+  transmission = transmission_4;
   libtransmission = transmission.override {
     installLib = true;
     enableDaemon = false;
     enableCli = false;
   };
+  libtransmission_3 = transmission_3.override {
+    installLib = true;
+    enableDaemon = false;
+    enableCli = false;
+  };
+
   transmission-gtk = transmission.override { enableGTK3 = true; };
   transmission-qt = transmission.override { enableQt = true; };
 
