@@ -1,6 +1,6 @@
-{ lib, buildGo121Module, fetchFromGitHub, installShellFiles, testers, sq }:
+{ lib, buildGoModule, fetchFromGitHub, installShellFiles, testers, sq }:
 
-buildGo121Module rec {
+buildGoModule rec {
   pname = "sq";
   version = "0.42.1";
 

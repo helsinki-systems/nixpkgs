@@ -1,5 +1,5 @@
 { lib
-, buildGo121Module
+, buildGoModule
 , fetchFromGitHub
 , installShellFiles
 , nodejs
@@ -9,7 +9,7 @@
 , runme
 }:
 
-buildGo121Module rec {
+buildGoModule rec {
   pname = "runme";
   version = "1.7.6";
 

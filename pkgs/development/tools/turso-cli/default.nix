@@ -1,11 +1,11 @@
 {
   lib,
   stdenv,
-  buildGo121Module,
+  buildGoModule,
   fetchFromGitHub,
   installShellFiles,
 }:
-buildGo121Module rec {
+buildGoModule rec {
   pname = "turso-cli";
   version = "0.85.3";
 

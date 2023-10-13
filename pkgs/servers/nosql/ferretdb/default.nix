@@ -1,9 +1,9 @@
 { lib
-, buildGo121Module
+, buildGoModule
 , fetchFromGitHub
 }:
 
-buildGo121Module rec {
+buildGoModule rec {
   pname = "ferretdb";
   version = "1.11.0";
 
