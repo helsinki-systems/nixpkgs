@@ -1,5 +1,6 @@
 { lib
 , cargo
+, copyDesktopItems
 , fetchFromGitHub
 , flutter313
 , gst_all_1
@@ -111,6 +112,7 @@ in flutter313.buildFlutterApplication rec {
   nativeBuildInputs = [
     # flutter_rust_bridge_codegen
     cargo
+    copyDesktopItems
     rustfmt
     # Rust
     rustPlatform.cargoSetupHook
