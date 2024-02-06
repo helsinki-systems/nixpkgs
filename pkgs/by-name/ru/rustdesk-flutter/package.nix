@@ -1,4 +1,6 @@
 { lib
+, darwin
+, xcbuild
 , cargo
 , copyDesktopItems
 , fetchFromGitHub
@@ -47,7 +49,7 @@ in flutter313.buildFlutterApplication rec {
   };
 
   strictDeps = true;
-  strucutedAttrs = true;
+  structuredAttrs = true;
 
   # Configure the Flutter/Dart build
   sourceRoot = "source/flutter";
@@ -117,6 +119,9 @@ in flutter313.buildFlutterApplication rec {
     rustPlatform.cargoSetupHook
     rustPlatform.cargoBuildHook
     rustPlatform.bindgenHook
+  ] ++ lib.optionals rustc.unwrapped.stdenv.isDarwin [
+    darwin.DarwinTools # Flutter really needs sw_vers
+    xcbuild.xcrun
   ];
 
   buildInputs = [
@@ -126,12 +131,15 @@ in flutter313.buildFlutterApplication rec {
     libaom
     libopus
     libpulseaudio
-    libva
     libvdpau
     libvpx
     libxkbcommon
     libyuv
+  ] ++ lib.optionals rustc.unwrapped.stdenv.isLinux [
+    libva
     xdotool
+  ] ++ lib.optionals rustc.unwrapped.stdenv.isDarwin [
+    darwin.apple_sdk_11_0.frameworks.CoreFoundation
   ];
 
   postPatch = ''
@@ -159,6 +167,7 @@ in flutter313.buildFlutterApplication rec {
     # Build the Rust shared library
     cd ..
     preBuild=() # prevent loops
+    ${lib.optionalString rustc.stdenv.isDarwin "populateBindgenEnv"}
     runHook cargoBuildHook
     mv ./target/*/release/liblibrustdesk.so ./target/release/liblibrustdesk.so
     cd flutter
@@ -209,6 +218,6 @@ in flutter313.buildFlutterApplication rec {
     license = licenses.agpl3Only;
     maintainers = with maintainers; [ das_j ];
     mainProgram = "rustdesk";
-    platforms = platforms.linux; # should work on darwin as well but I have no machine to test with
+    platforms = platforms.all;
   };
 }
