@@ -1,4 +1,4 @@
-{ lib, stdenv, fetchFromGitHub, cmake, pkg-config
+{ lib, stdenv, fetchFromGitHub, cmake, pkg-config, git
 , krb5, xfsprogs, jemalloc, dbus, libcap
 , ntirpc, liburcu, bison, flex, nfs-utils, acl
 } :
@@ -6,7 +6,11 @@
 stdenv.mkDerivation rec {
   pname = "nfs-ganesha";
   version = "5.7";
-  outputs = [ "out" "tools" ];
+  outputs = [ "out" "tools" "dev" ];
+
+  patches = [
+    ./rpc.patch
+  ];
 
   src = fetchFromGitHub {
     owner = "nfs-ganesha";
@@ -54,6 +58,9 @@ stdenv.mkDerivation rec {
 
   postInstall = ''
     install -Dm755 $src/src/tools/mount.9P $tools/bin/mount.9P
+
+    mkdir -p $dev/include
+    cp -R ../include $dev
   '';
 
   meta = with lib; {

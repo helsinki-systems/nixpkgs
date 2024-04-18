@@ -6,6 +6,8 @@ stdenv.mkDerivation rec {
   pname = "ntirpc";
   version = "5.0";
 
+  # outputs = [ "dev" "out" ];
+
   src = fetchFromGitHub {
     owner = "nfs-ganesha";
     repo = "ntirpc";
@@ -27,6 +29,9 @@ stdenv.mkDerivation rec {
     # Library needs a netconfig to run.
     # Steal the file from libtirpc
     cp ${libtirpc}/etc/netconfig $out/etc/
+
+    # mkdir -p $dev/include
+    # cp -R $src/ntirpc/rpc $dev/include/
   '';
 
   meta = with lib; {

@@ -12,6 +12,8 @@
   fuse3,
   judy,
   linux-pam,
+  nfs-ganesha,
+  ntirpc,
   spdlog,
   xz,
   yaml-cpp,
@@ -36,6 +38,8 @@ gcc11Stdenv.mkDerivation rec {
   ];
 
   buildInputs = [
+    nfs-ganesha
+    ntirpc
     (boost175.override { stdenv = gcc11Stdenv; })
     (yaml-cpp.override { stdenv = gcc11Stdenv; })
     acl
@@ -51,9 +55,15 @@ gcc11Stdenv.mkDerivation rec {
     zstd
   ];
 
+  patches = [
+    ./no-download.patch
+  ];
+
+  # outputs = [ "out" "dev" "bin" ];
+
   cmakeFlags = [
     "-DENABLE_CLIENT_LIB=ON"
-    "-DENABLE_NFS_GANESHA=OFF"
+    "-DENABLE_NFS_GANESHA=ON"
     "-DENABLE_WERROR=ON"
     "-DCMAKE_BUILD_TYPE=Release"
     "-DENABLE_CCACHE=OFF"
