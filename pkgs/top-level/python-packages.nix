@@ -2452,6 +2452,8 @@ self: super: with self; {
 
   colorama = callPackage ../development/python-modules/colorama { };
 
+  colorbrewer = callPackage ../development/python-modules/colorbrewer { };
+
   colorcet = callPackage ../development/python-modules/colorcet { };
 
   colorclass = callPackage ../development/python-modules/colorclass { };
@@ -10860,6 +10862,8 @@ self: super: with self; {
   py-zabbix = callPackage ../development/python-modules/py-zabbix { };
 
   py2bit = callPackage ../development/python-modules/py2bit { };
+
+  py4cytoscape = callPackage ../development/python-modules/py4cytoscape { };
 
   py3buddy = callPackage ../development/python-modules/py3buddy { };
 
