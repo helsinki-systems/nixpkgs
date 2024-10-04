@@ -7036,6 +7036,11 @@ self: super: with self; {
 
   libcloud = callPackage ../development/python-modules/libcloud { };
 
+  libcombine = toPythonModule (pkgs.libcombine.override {
+    withPython = true;
+    inherit (self) python;
+  });
+
   libcomps = lib.pipe pkgs.libcomps [
     toPythonModule
     (p: p.overrideAttrs (super: { meta = super.meta // { outputsToInstall = [ "py" ]; }; }))
