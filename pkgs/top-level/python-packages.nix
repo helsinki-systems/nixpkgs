@@ -9824,6 +9824,8 @@ self: super: with self; {
 
   peco = callPackage ../development/python-modules/peco { };
 
+  petab = callPackage ../development/python-modules/petab { };
+
   pettingzoo = callPackage ../development/python-modules/pettingzoo { };
 
   peewee = callPackage ../development/python-modules/peewee { };
