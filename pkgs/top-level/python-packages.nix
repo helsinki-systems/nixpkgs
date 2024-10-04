@@ -7009,6 +7009,11 @@ self: super: with self; {
 
   libagent = callPackage ../development/python-modules/libagent { };
 
+  libantimony = toPythonModule (pkgs.libantimony.override {
+    withPython = true;
+    inherit (self) python;
+  });
+
   pa-ringbuffer = callPackage ../development/python-modules/pa-ringbuffer { };
 
   lib4sbom = callPackage ../development/python-modules/lib4sbom { };
