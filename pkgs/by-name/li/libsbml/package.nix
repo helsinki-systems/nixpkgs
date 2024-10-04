@@ -9,6 +9,7 @@
   swig,
   python ? null,
   withPython ? false,
+  withCPP ? false,
 }:
 stdenv.mkDerivation (attrs: {
   pname = "libsbml";
@@ -38,7 +39,7 @@ stdenv.mkDerivation (attrs: {
     "-DLIBXML_LIBRARY=${lib.getLib libxml2}/lib/libxml2${stdenv.hostPlatform.extensions.sharedLibrary}"
     "-DPKG_CONFIG_EXECUTABLE=${lib.getBin pkg-config}/bin/pkg-config"
     "-DSWIG_EXECUTABLE=${lib.getBin swig}/bin/swig"
-  ] ++ lib.optional withPython "-DWITH_PYTHON=ON";
+  ] ++ lib.optional withPython "-DWITH_PYTHON=ON" ++ lib.optional withCPP "-DWITH_CPP_NAMESPACE=ON";
 
   postInstall = lib.optional withPython ''
     mv $out/${python.sitePackages}/libsbml/libsbml.py $out/${python.sitePackages}/libsbml/__init__.py
