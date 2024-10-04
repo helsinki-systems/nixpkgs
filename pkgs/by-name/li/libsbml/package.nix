@@ -10,7 +10,7 @@
   python ? null,
   withPython ? false,
   withCPP ? false,
-  withCOMP ? false,
+  withStablePackages ? false,
 }:
 stdenv.mkDerivation (attrs: {
   pname = "libsbml";
@@ -44,7 +44,7 @@ stdenv.mkDerivation (attrs: {
     ]
     ++ lib.optional withPython "-DWITH_PYTHON=ON"
     ++ lib.optional withCPP "-DWITH_CPP_NAMESPACE=ON"
-    ++ lib.optional withCOMP "-DENABLE_COMP=ON";
+    ++ lib.optional withStablePackages "-DWITH_STABLE_PACKAGES=ON";
 
   postInstall = lib.optional withPython ''
     mv $out/${python.sitePackages}/libsbml/libsbml.py $out/${python.sitePackages}/libsbml/__init__.py

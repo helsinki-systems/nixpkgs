@@ -1,0 +1,12 @@
+diff --git a/source/Setting.h b/source/Setting.h
+index 3e77b78ae..1b3c44336 100644
+--- a/source/Setting.h
++++ b/source/Setting.h
+@@ -5,6 +5,7 @@
+ #ifndef ROADRUNNER_SETTING_H
+ #define ROADRUNNER_SETTING_H
+ 
++#include <cstdint>
+ #include <variant>
+ #include <iostream>
+ #include <vector>

@@ -1,0 +1,21 @@
+set(CMAKE_IMPORT_FILE_VERSION 1)
+
+set_property(TARGET zlib::zlibstatic APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(zlib::zlibstatic PROPERTIES
+  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
+  IMPORTED_LOCATION_RELEASE "$out/lib/libz.a"
+  )
+
+list(APPEND _cmake_import_check_targets zlib::zlibstatic )
+list(APPEND _cmake_import_check_files_for_zlib::zlibstatic "$out/lib/libz.a" )
+
+set_property(TARGET zlib::zlib APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(zlib::zlib PROPERTIES
+  IMPORTED_LOCATION_RELEASE "$out/lib/libz.so"
+  IMPORTED_SONAME_RELEASE "libz.so.1"
+  )
+
+list(APPEND _cmake_import_check_targets zlib::zlib )
+list(APPEND _cmake_import_check_files_for_zlib::zlib "$out/lib/libz.so" )
+
+set(CMAKE_IMPORT_FILE_VERSION)
