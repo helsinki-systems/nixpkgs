@@ -4393,6 +4393,8 @@ self: super: with self; {
 
   fido2 = callPackage ../development/python-modules/fido2 { };
 
+  fides = callPackage ../development/python-modules/fides { };
+
   fields = callPackage ../development/python-modules/fields { };
 
   file-read-backwards = callPackage ../development/python-modules/file-read-backwards { };
