@@ -9982,6 +9982,8 @@ self: super: with self; {
 
   pypemicro = callPackage ../development/python-modules/pypemicro { };
 
+  pypesto = callPackage ../development/python-modules/pypesto { };
+
   pymeshlab = toPythonModule (pkgs.libsForQt5.callPackage ../applications/graphics/pymeshlab { });
 
   pyprecice = callPackage ../development/python-modules/pyprecice { };
