@@ -10,6 +10,7 @@
   python ? null,
   withPython ? false,
   withCPP ? false,
+  withCOMP ? false,
 }:
 stdenv.mkDerivation (attrs: {
   pname = "libsbml";
@@ -34,12 +35,16 @@ stdenv.mkDerivation (attrs: {
   ] ++ lib.optional withPython python;
 
   # libSBML doesn't always make use of pkg-config
-  cmakeFlags = [
-    "-DLIBXML_INCLUDE_DIR=${lib.getDev libxml2}/include/libxml2"
-    "-DLIBXML_LIBRARY=${lib.getLib libxml2}/lib/libxml2${stdenv.hostPlatform.extensions.sharedLibrary}"
-    "-DPKG_CONFIG_EXECUTABLE=${lib.getBin pkg-config}/bin/pkg-config"
-    "-DSWIG_EXECUTABLE=${lib.getBin swig}/bin/swig"
-  ] ++ lib.optional withPython "-DWITH_PYTHON=ON" ++ lib.optional withCPP "-DWITH_CPP_NAMESPACE=ON";
+  cmakeFlags =
+    [
+      "-DLIBXML_INCLUDE_DIR=${lib.getDev libxml2}/include/libxml2"
+      "-DLIBXML_LIBRARY=${lib.getLib libxml2}/lib/libxml2${stdenv.hostPlatform.extensions.sharedLibrary}"
+      "-DPKG_CONFIG_EXECUTABLE=${lib.getBin pkg-config}/bin/pkg-config"
+      "-DSWIG_EXECUTABLE=${lib.getBin swig}/bin/swig"
+    ]
+    ++ lib.optional withPython "-DWITH_PYTHON=ON"
+    ++ lib.optional withCPP "-DWITH_CPP_NAMESPACE=ON"
+    ++ lib.optional withCOMP "-DENABLE_COMP=ON";
 
   postInstall = lib.optional withPython ''
     mv $out/${python.sitePackages}/libsbml/libsbml.py $out/${python.sitePackages}/libsbml/__init__.py
