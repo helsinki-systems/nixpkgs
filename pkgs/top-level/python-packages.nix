@@ -7165,6 +7165,11 @@ self: super: with self; {
     inherit (self) python;
   });
 
+  libsedml = toPythonModule (pkgs.libsedml.override {
+    withPython = true;
+    inherit (self) python;
+  });
+
   libsixel = callPackage ../development/python-modules/libsixel {
     inherit (pkgs) libsixel;
   };
