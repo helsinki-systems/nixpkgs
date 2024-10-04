@@ -3098,6 +3098,8 @@ self: super: with self; {
 
   dependency-injector = callPackage ../development/python-modules/dependency-injector { };
 
+  depinfo = callPackage ../development/python-modules/depinfo { };
+
   deploykit = callPackage ../development/python-modules/deploykit { };
 
   deprecat = callPackage ../development/python-modules/deprecat { };
