@@ -9980,6 +9980,8 @@ self: super: with self; {
 
   pymeta3 = callPackage ../development/python-modules/pymeta3 { };
 
+  pymetadata = callPackage ../development/python-modules/pymetadata { };
+
   pypemicro = callPackage ../development/python-modules/pypemicro { };
 
   pypesto = callPackage ../development/python-modules/pypesto { };
