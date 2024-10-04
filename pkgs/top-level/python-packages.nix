@@ -7110,6 +7110,11 @@ self: super: with self; {
     python3 = python;
   });
 
+  libnuml = toPythonModule (pkgs.libnuml.override {
+    withPython = true;
+    inherit (self) python;
+  });
+
   libpcap = callPackage ../development/python-modules/libpcap {
     pkgsLibpcap = pkgs.libpcap; # Needs the C library
   };
