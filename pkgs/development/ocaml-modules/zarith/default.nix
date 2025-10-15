@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   version = "1.3";
 
   src = fetchurl {
-    url = http://forge.ocamlcore.org/frs/download.php/1471/zarith-1.3.tgz;
+    url = "http://forge.ocamlcore.org/frs/download.php/1471/zarith-1.3.tgz";
     sha256 = "1mx3nxcn5h33qhx4gbg0hgvvydwlwdvdhqcnvfwnmf9jy3b8frll";
   };
 

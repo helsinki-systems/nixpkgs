@@ -25,7 +25,7 @@ stdenv.mkDerivation rec{
   name = "textadept-${version}";
   inherit buildInputs;
   src = fetchhg {
-    url = http://foicica.com/hg/textadept;
+    url = "http://foicica.com/hg/textadept";
     rev = "textadept_${version}";
     sha256 = "1vb6a15fyk7ixcv5fy0g400lxbj6dp5ndbmyx53d28idbdkz9ap1";
   };

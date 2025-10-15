@@ -12,12 +12,12 @@ stdenv.mkDerivation rec {
   };
 
   src = fetchurl {
-    url    = https://github.com/drush-ops/drush/archive/6.1.0.tar.gz;
+    url    = "https://github.com/drush-ops/drush/archive/6.1.0.tar.gz";
     sha256 = "1jgnc4jjyapyn04iczvcz92ic0vq8d1w8xi55ismqyy5cxhqj6bp";
   };
 
   consoleTable = fetchurl {
-    url    = http://download.pear.php.net/package/Console_Table-1.1.3.tgz;
+    url    = "http://download.pear.php.net/package/Console_Table-1.1.3.tgz";
     sha256 = "07gbjd7m1fj5dmavr0z20vkqwx1cz2522sj9022p257jifj1yl76";
   };
 

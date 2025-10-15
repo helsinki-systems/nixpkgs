@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "ocaml-react-1.1.0";
 
   src = fetchurl {
-    url = http://erratique.ch/software/react/releases/react-1.1.0.tbz;
+    url = "http://erratique.ch/software/react/releases/react-1.1.0.tbz";
     sha256 = "1gymn8hy7ga0l9qymmb1jcnnkqvy7l2zr87xavzqz0dfi9ci8dm7";
   };
 

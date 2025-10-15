@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "kzipmix-20091108";
 
   src = fetchurl {
-    url = http://static.jonof.id.au/dl/kenutils/kzipmix-20091108-linux.tar.gz;
+    url = "http://static.jonof.id.au/dl/kenutils/kzipmix-20091108-linux.tar.gz";
     sha256 = "19gyn8pblffdz1bf3xkbpzx8a8wn3xb0v411pqzmz5g5l6pm5gph";
   };
 

@@ -20,7 +20,7 @@ stdenv.mkDerivation {
   '';
 
   src = fetchurl {
-    url = http://old.subgit.com/download/subgit-3.1.0.zip;
+    url = "http://old.subgit.com/download/subgit-3.1.0.zip";
     sha256 = "08qhpg6y2ziwplm0z1ghh1wfp607sw4hyb53a7qzfn759j5kcdrg";
   };
 }

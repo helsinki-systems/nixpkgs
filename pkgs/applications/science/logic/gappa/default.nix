@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "gappa-1.2";
 
   src = fetchurl {
-    url = https://gforge.inria.fr/frs/download.php/file/34787/gappa-1.2.0.tar.gz;
+    url = "https://gforge.inria.fr/frs/download.php/file/34787/gappa-1.2.0.tar.gz";
     sha256 = "03hfzmaf5jm54sjpbks20q7qixpmagrfbnyyc276vgmiyslk4dkh";
   };
 

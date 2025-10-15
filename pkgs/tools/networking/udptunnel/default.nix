@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "udptunnel-19";
 
   src = fetchurl {
-    url = http://udptunnel.googlecode.com/files/udptunnel-r19.tar.gz;
+    url = "http://udptunnel.googlecode.com/files/udptunnel-r19.tar.gz";
     sha1 = "51edec3b63b659229bcf92f6157568d3b074ede0";
   };
 

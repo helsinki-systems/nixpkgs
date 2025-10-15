@@ -87,11 +87,11 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     # Old kind of URL:
-    # url = http://tarballs.nixos.org/mplayer-snapshot-20101227.tar.bz2;
+    # url = "http://tarballs.nixos.org/mplayer-snapshot-20101227.tar.bz2";
     # Snapshot I took on 20110423
 
     #Transient
-    #url = http://www.mplayerhq.hu/MPlayer/releases/mplayer-export-snapshot.tar.bz2;
+    #url = "http://www.mplayerhq.hu/MPlayer/releases/mplayer-export-snapshot.tar.bz2";
     #sha256 = "cc1b3fda75b172f02c3f46581cfb2c17f4090997fe9314ad046e464a76b858bb";
 
     url = "http://www.mplayerhq.hu/MPlayer/releases/MPlayer-1.1.1.tar.xz";

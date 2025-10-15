@@ -62,7 +62,7 @@ in
 stdenv.mkDerivation rec {
   name = "omxplayer-20130328-fbee325dc2";
   src = fetchurl {
-    url = https://github.com/huceke/omxplayer/tarball/fbee325dc2;
+    url = "https://github.com/huceke/omxplayer/tarball/fbee325dc2";
     name = "${name}.tar.gz";
     sha256 = "0fkvv8il7ffqxki2gp8cxa5shh6sz9jsy5vv3f4025g4gss6afkg";
   };

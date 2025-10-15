@@ -9,7 +9,7 @@ assert versionAtLeast (getVersion ocpIndent) "1.4.2";
 let
   version = "1.1.2";
   patch402 = fetchurl {
-    url = https://raw.githubusercontent.com/ocaml/opam-repository/master/packages/ocp-index/ocp-index.1.1.2/files/ocaml.4.02.patch;
+    url = "https://raw.githubusercontent.com/ocaml/opam-repository/master/packages/ocp-index/ocp-index.1.1.2/files/ocaml.4.02.patch";
     sha256 = "1wcpn2pv7h8ia3ybmzdlm8v5hfvq1rgmlj02wwj0yh3vqjvxqvsm";
   };
 in

@@ -10,7 +10,7 @@ in
 stdenv.mkDerivation {
   name = "js_of_ocaml-2.6";
   src = fetchurl {
-    url = https://github.com/ocsigen/js_of_ocaml/archive/2.6.tar.gz;
+    url = "https://github.com/ocsigen/js_of_ocaml/archive/2.6.tar.gz";
     sha256 = "0q34lrn70dvz41m78bwgriyq6dxk97g8gcyg80nvxii4jp86dw61";
     };
 

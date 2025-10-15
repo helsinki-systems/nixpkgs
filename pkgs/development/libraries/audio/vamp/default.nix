@@ -9,7 +9,7 @@ rec {
     name = "vamp-sdk-2.5";
 
     src = fetchurl {
-      url = http://code.soundsoftware.ac.uk/attachments/download/690/vamp-plugin-sdk-2.5.tar.gz;
+      url = "http://code.soundsoftware.ac.uk/attachments/download/690/vamp-plugin-sdk-2.5.tar.gz";
       sha256 = "178kfgq08cmgdzv7g8dwyjp4adwx8q04riimncq4nqkm8ng9ywbv";
     };
 

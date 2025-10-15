@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   name = "libdwarf-20121130";
   
   src = fetchurl {
-    url = http://reality.sgiweb.org/davea/libdwarf-20121130.tar.gz;
+    url = "http://reality.sgiweb.org/davea/libdwarf-20121130.tar.gz";
     sha256 = "1nfdfn5xf3n485pvpb853awyxxnvrg207i0wmrr7bhk8fcxdxbn0";
   };
 

@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
 
   src = fetchgit {
     inherit rev;
-    url = https://github.com/wolf9466/cpuminer-multi.git;
+    url = "https://github.com/wolf9466/cpuminer-multi.git";
     sha256 = "9c438c6cd9f40273822f3d3103a370e43e8a40368695ed5e01ae87297dce7843";
   };
 

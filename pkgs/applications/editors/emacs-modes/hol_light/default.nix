@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "73";
 
   src = fetchsvn {
-    url = http://seanmcl-ocaml-lib.googlecode.com/svn/trunk/workshop/software/emacs;
+    url = "http://seanmcl-ocaml-lib.googlecode.com/svn/trunk/workshop/software/emacs";
     rev = version;
     sha256 = "3ca83098960439da149a47e1caff32536601559a77f04822be742a390c67feb7";
   };

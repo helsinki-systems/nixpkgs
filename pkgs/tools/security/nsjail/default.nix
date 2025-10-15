@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   name = "nsjail-git-2015-08-10";
 
   src = fetchgit {
-    url = https://github.com/google/nsjail;
+    url = "https://github.com/google/nsjail";
     rev = "8b951e6c2827386786cde4a124cd1846d25b9404";
     sha256 = "b3b863423cc676111d2d1afbac524eee6fa824588cafccb7c42ff470508a13b1";
   };

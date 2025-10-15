@@ -8,7 +8,7 @@ stdenv.mkDerivation {
   name = "ocaml-cpdf-${version}";
 
   src = fetchgit {
-    url = https://github.com/johnwhitington/cpdf-source.git;
+    url = "https://github.com/johnwhitington/cpdf-source.git";
     rev = "refs/tags/v${version}";
     sha256 = "0c482wfa5q845k0ahx8irg1jl05ncn0kv42dg08zkph7xi6dmgnv";
   };

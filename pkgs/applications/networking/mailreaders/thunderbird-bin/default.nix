@@ -146,7 +146,7 @@ stdenv.mkDerivation {
     homepage = http://www.mozilla.org/thunderbird/;
     license = {
       free = false;
-      url = http://www.mozilla.org/en-US/foundation/trademarks/policy/;
+      url = "http://www.mozilla.org/en-US/foundation/trademarks/policy/";
     };
     maintainers = with stdenv.lib.maintainers; [ fuuzetsu ];
     platforms = platforms.linux;

@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
   name = "wmii-${version}";
 
   src = fetchhg {
-    url = https://code.google.com/p/wmii/;
+    url = "https://code.google.com/p/wmii/";
     sha256 = "1wqw41jb2fhq902a04ixfzmx0lia1pawahm1ymyrs3is6mm32r51";
     inherit rev;
   };

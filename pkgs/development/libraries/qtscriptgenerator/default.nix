@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "qtscriptgenerator-0.1.0";
   src = fetchurl {
-    url = http://qtscriptgenerator.googlecode.com/files/qtscriptgenerator-src-0.1.0.tar.gz;
+    url = "http://qtscriptgenerator.googlecode.com/files/qtscriptgenerator-src-0.1.0.tar.gz";
     sha256 = "0h8zjh38n2wfz7jld0jz6a09y66dbsd2jhm4f2024qfgcmxcabj6";
   };
   buildInputs = [ qt4 ];

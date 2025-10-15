@@ -6,7 +6,7 @@ buildPythonPackage rec {
   namePrefix = "";
 
   src = fetchgit {
-    url = https://github.com/tbird20d/grabserial.git;
+    url = "https://github.com/tbird20d/grabserial.git";
     rev  = "8b9c98ea35d382bac2aafc7a8a9c02440369a792";
     sha256 = "ff27f5e5ab38c8450a4a0291e943e6c5a265e56d29d6a1caa849ae3238d71679";
   };

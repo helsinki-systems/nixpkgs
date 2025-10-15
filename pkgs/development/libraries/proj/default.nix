@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "proj-4.9.2";
 
   src = fetchurl {
-    url = http://download.osgeo.org/proj/proj-4.9.2.tar.gz;
+    url = "http://download.osgeo.org/proj/proj-4.9.2.tar.gz";
     sha256 = "15kpcmz3qjxfrs6vq48mgyvb4vxscmwgkzrdcn71a60wxp8rmgv0";
   };
 

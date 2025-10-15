@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "calcurse-4.0.0";
 
   src = fetchurl {
-    url = http://calcurse.org/files/calcurse-4.0.0.tar.gz;
+    url = "http://calcurse.org/files/calcurse-4.0.0.tar.gz";
     sha256 = "0d33cpkbhyidvm3xx6iw9ljqdvl6477c2kcwix3bs63nj0ch06v2";
   };
 

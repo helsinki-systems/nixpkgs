@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "DisnixWebService-0.5";
   src = fetchurl {
-    url = http://hydra.nixos.org/build/31143438/download/4/DisnixWebService-0.5.tar.bz2;
+    url = "http://hydra.nixos.org/build/31143438/download/4/DisnixWebService-0.5.tar.bz2";
     sha256 = "0wddrb9cf62hzfcrnyq5jn2pb8vc0bzfcl5z53aczkij0rbamw7k";
   };
   buildInputs = [ apacheAnt jdk ];

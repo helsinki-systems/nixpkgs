@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "ocaml-lablgtk-extras-1.4";
   src = fetchurl {
-    url = http://forge.ocamlcore.org/frs/download.php/1282/lablgtkextras-1.4.tar.gz;
+    url = "http://forge.ocamlcore.org/frs/download.php/1282/lablgtkextras-1.4.tar.gz";
     sha256 = "09fqxwdib7r9yxynknc9gv3jw2hnhj5cak7q5jngk6m8rzvmhfcc";
   };
 

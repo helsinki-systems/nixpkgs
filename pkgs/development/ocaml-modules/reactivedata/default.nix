@@ -9,7 +9,7 @@ assert stdenv.lib.versionAtLeast ocamlVersion "3.11";
 stdenv.mkDerivation {
   name = "ocaml-reactiveData-0.1";
   src = fetchurl {
-    url = https://github.com/hhugo/reactiveData/archive/0.1.tar.gz;
+    url = "https://github.com/hhugo/reactiveData/archive/0.1.tar.gz";
     sha256 = "056y9in6j6rpggdf8apailvs1m30wxizpyyrj08xyfxgv91mhxgw";
   };
 

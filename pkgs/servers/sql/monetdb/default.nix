@@ -7,7 +7,7 @@ composableDerivation.composableDerivation {} {
   name = "monetdb-2009-05-01";
 
   src = fetchurl {
-    url = http://monetdb.cwi.nl/downloads/sources/May2009-SP1/MonetDB-May2009-SuperBall-SP1.tar.bz2;
+    url = "http://monetdb.cwi.nl/downloads/sources/May2009-SP1/MonetDB-May2009-SuperBall-SP1.tar.bz2";
     sha256 = "0r794snnwa4m0x57nv8cgfdxwb689946c1mi2s44wp4iljka2ryj";
   };
 

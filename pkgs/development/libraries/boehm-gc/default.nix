@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   name = "boehm-gc-7.2f";
 
   src = fetchurl {
-    url = http://www.hboehm.info/gc/gc_source/gc-7.2f.tar.gz;
+    url = "http://www.hboehm.info/gc/gc_source/gc-7.2f.tar.gz";
     sha256 = "119x7p1cqw40mpwj80xfq879l9m1dkc7vbc1f3bz3kvkf8bf6p16";
   };
 

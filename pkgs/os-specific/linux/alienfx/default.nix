@@ -9,7 +9,7 @@ stdenv.mkDerivation {
   name = "alienfx-1.0.0";
   src = fetchgit {
     inherit rev;
-    url = https://github.com/tibz/alienfx.git;
+    url = "https://github.com/tibz/alienfx.git";
 
     sha256 = "47501a3b4e08d39edee4cd829ae24259a7e740b9798db76b846fa872989f8fb1";
   };

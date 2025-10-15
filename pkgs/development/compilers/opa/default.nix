@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
   name = "${pname}-${version}";
 
   src = fetchgit {
-    url = https://github.com/MLstate/opalang.git;
+    url = "https://github.com/MLstate/opalang.git";
     rev = "047f58bfd4be35ee30176156b3718c707a6c0f76";
     sha256 = "1jbxfrmpbjjk7qvaxdn47044w5m8wr96q9yx65ib3wlapmjbvdvf";
   };

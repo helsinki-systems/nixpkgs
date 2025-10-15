@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
   version = "0.15";
 
   src = fetchurl {
-    url = https://github.com/FreeCAD/FreeCAD/archive/0.15.tar.gz;
+    url = "https://github.com/FreeCAD/FreeCAD/archive/0.15.tar.gz";
     sha256 = "1vndvywvq86hyhmg629bkn5ag4lk2mg1pl4dq7jvbjvbrczb12fc";
   };
 

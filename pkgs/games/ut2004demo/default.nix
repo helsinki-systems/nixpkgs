@@ -7,7 +7,7 @@ let {
   raw = stdenv.mkDerivation {
     name = "ut2004-demo-3120";
     src = fetchurl {
-      url = http://ftp.gameaholic.com/pub/demos/ut2004-lnx-demo-3120.run.bz2;
+      url = "http://ftp.gameaholic.com/pub/demos/ut2004-lnx-demo-3120.run.bz2";
       sha256 = "1lravfkb1gsallqqird5dcbz42vwjg36m1qk76nmmnyyyghwqnli";
     };
     builder = ./builder.sh;

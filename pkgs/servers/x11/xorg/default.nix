@@ -1021,7 +1021,7 @@ let
     name = "libpthread-stubs-0.3";
     builder = ./builder.sh;
     src = fetchurl {
-      url = http://xcb.freedesktop.org/dist/libpthread-stubs-0.3.tar.bz2;
+      url = "http://xcb.freedesktop.org/dist/libpthread-stubs-0.3.tar.bz2";
       sha256 = "16bjv3in19l84hbri41iayvvg4ls9gv1ma0x0qlbmwy67i7dbdim";
     };
     buildInputs = [pkgconfig ];
@@ -1032,7 +1032,7 @@ let
     name = "libxcb-1.11.1";
     builder = ./builder.sh;
     src = fetchurl {
-      url = http://xcb.freedesktop.org/dist/libxcb-1.11.1.tar.bz2;
+      url = "http://xcb.freedesktop.org/dist/libxcb-1.11.1.tar.bz2";
       sha256 = "0c4xyvdyx5adh8dzyhnrmvwwz24gri4z1czxmxqm63i0gmngs85p";
     };
     buildInputs = [pkgconfig libxslt libpthreadstubs python libXau xcbproto libXdmcp ];
@@ -1318,7 +1318,7 @@ let
     name = "xcb-proto-1.11";
     builder = ./builder.sh;
     src = fetchurl {
-      url = http://xcb.freedesktop.org/dist/xcb-proto-1.11.tar.bz2;
+      url = "http://xcb.freedesktop.org/dist/xcb-proto-1.11.tar.bz2";
       sha256 = "0bp3f53l9fy5x3mn1rkj1g81aiyzl90wacwvqdgy831aa3kfxb5l";
     };
     buildInputs = [pkgconfig python ];
@@ -1329,7 +1329,7 @@ let
     name = "xcb-util-0.4.0";
     builder = ./builder.sh;
     src = fetchurl {
-      url = http://xcb.freedesktop.org/dist/xcb-util-0.4.0.tar.bz2;
+      url = "http://xcb.freedesktop.org/dist/xcb-util-0.4.0.tar.bz2";
       sha256 = "1sahmrgbpyki4bb72hxym0zvxwnycmswsxiisgqlln9vrdlr9r26";
     };
     buildInputs = [pkgconfig gperf m4 libxcb xproto ];
@@ -1340,7 +1340,7 @@ let
     name = "xcb-util-cursor-0.1.2";
     builder = ./builder.sh;
     src = fetchurl {
-      url = http://xcb.freedesktop.org/dist/xcb-util-cursor-0.1.2.tar.bz2;
+      url = "http://xcb.freedesktop.org/dist/xcb-util-cursor-0.1.2.tar.bz2";
       sha256 = "0fpv46zb7kz04qxwvpax4cpd2kd8yhsm2n0if1isniqdh5xkcrgd";
     };
     buildInputs = [pkgconfig gperf m4 libxcb xcbutilimage xcbutilrenderutil xproto ];
@@ -1351,7 +1351,7 @@ let
     name = "xcb-util-errors-1.0";
     builder = ./builder.sh;
     src = fetchurl {
-      url = http://xcb.freedesktop.org/dist/xcb-util-errors-1.0.tar.bz2;
+      url = "http://xcb.freedesktop.org/dist/xcb-util-errors-1.0.tar.bz2";
       sha256 = "158rm913dg3hxrrhyvvxr8bcm0pjy5jws70dhy2s12w1krv829k8";
     };
     buildInputs = [pkgconfig gperf m4 libxcb xcbproto xproto ];
@@ -1362,7 +1362,7 @@ let
     name = "xcb-util-image-0.4.0";
     builder = ./builder.sh;
     src = fetchurl {
-      url = http://xcb.freedesktop.org/dist/xcb-util-image-0.4.0.tar.bz2;
+      url = "http://xcb.freedesktop.org/dist/xcb-util-image-0.4.0.tar.bz2";
       sha256 = "1z1gxacg7q4cw6jrd26gvi5y04npsyavblcdad1xccc8swvnmf9d";
     };
     buildInputs = [pkgconfig gperf m4 libxcb xcbutil xproto ];
@@ -1373,7 +1373,7 @@ let
     name = "xcb-util-keysyms-0.4.0";
     builder = ./builder.sh;
     src = fetchurl {
-      url = http://xcb.freedesktop.org/dist/xcb-util-keysyms-0.4.0.tar.bz2;
+      url = "http://xcb.freedesktop.org/dist/xcb-util-keysyms-0.4.0.tar.bz2";
       sha256 = "1nbd45pzc1wm6v5drr5338j4nicbgxa5hcakvsvm5pnyy47lky0f";
     };
     buildInputs = [pkgconfig gperf m4 libxcb xproto ];
@@ -1384,7 +1384,7 @@ let
     name = "xcb-util-renderutil-0.3.9";
     builder = ./builder.sh;
     src = fetchurl {
-      url = http://xcb.freedesktop.org/dist/xcb-util-renderutil-0.3.9.tar.bz2;
+      url = "http://xcb.freedesktop.org/dist/xcb-util-renderutil-0.3.9.tar.bz2";
       sha256 = "0nza1csdvvxbmk8vgv8vpmq7q8h05xrw3cfx9lwxd1hjzd47xsf6";
     };
     buildInputs = [pkgconfig gperf m4 libxcb xproto ];
@@ -1395,7 +1395,7 @@ let
     name = "xcb-util-wm-0.4.1";
     builder = ./builder.sh;
     src = fetchurl {
-      url = http://xcb.freedesktop.org/dist/xcb-util-wm-0.4.1.tar.bz2;
+      url = "http://xcb.freedesktop.org/dist/xcb-util-wm-0.4.1.tar.bz2";
       sha256 = "0gra7hfyxajic4mjd63cpqvd20si53j1q3rbdlkqkahfciwq3gr8";
     };
     buildInputs = [pkgconfig gperf m4 libxcb xproto ];
@@ -1802,7 +1802,7 @@ let
     name = "xf86-video-intel-2015-11-14";
     builder = ./builder.sh;
     src = fetchurl {
-      url = http://cgit.freedesktop.org/xorg/driver/xf86-video-intel/snapshot/0340718366d7cb168a46930eb7be22f2d88354d8.tar.gz;
+      url = "http://cgit.freedesktop.org/xorg/driver/xf86-video-intel/snapshot/0340718366d7cb168a46930eb7be22f2d88354d8.tar.gz";
       sha256 = "0x11dig1wmpjz5n35sh30zs58ar8q8836w3zrkwkvgxj6q6smvvr";
     };
     buildInputs = [pkgconfig dri2proto dri3proto fontsproto libdrm libpng udev libpciaccess presentproto randrproto renderproto libX11 xcbutil libxcb libXcursor libXdamage libXext xextproto xf86driproto libXfixes xorgserver xproto libXrandr libXrender libxshmfence libXtst libXvMC ];

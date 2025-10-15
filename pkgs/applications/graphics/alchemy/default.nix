@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   enableParallelBuilding = true;
 
   src = fetchurl {
-    url = http://al.chemy.org/files/Alchemy-007.tar.gz;
+    url = "http://al.chemy.org/files/Alchemy-007.tar.gz";
     sha256 = "1pk00m4iajvv9jzv96in10czpcf7zc3d4nmd9biqagpsg28mr70b";
   };
 

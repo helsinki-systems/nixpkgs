@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   name = "ocp-build-1.99.9-beta";
 
   src = fetchurl {
-    url = http://www.typerex.org/pub/ocp-build/ocp-build.1.99.9-beta.tar.gz;
+    url = "http://www.typerex.org/pub/ocp-build/ocp-build.1.99.9-beta.tar.gz";
     sha256 = "0wcb49bp239ns9mz55ky0kfjcz80cp97k0j0rwaw4h5sp3phn4l0";
   };
 

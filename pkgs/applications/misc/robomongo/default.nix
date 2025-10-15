@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "robomongo-0.8.4";
 
   src = fetchurl {
-    url = https://github.com/paralect/robomongo/archive/v0.8.4.tar.gz;
+    url = "https://github.com/paralect/robomongo/archive/v0.8.4.tar.gz";
     sha256 = "199fb08701wrw3ky7gcqyvb3z4027qjcqdnzrx5y7yi3rb4gvkzc";
   };
 

@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
   name = "compton-0.1_beta2";
 
   src = fetchurl {
-    url = https://github.com/chjj/compton/releases/download/v0.1_beta2/compton-git-v0.1_beta2-2013-10-21.tar.xz;
+    url = "https://github.com/chjj/compton/releases/download/v0.1_beta2/compton-git-v0.1_beta2-2013-10-21.tar.xz";
     sha256 = "1mpgn1d98dv66xs2j8gaxjiw26nzwl9a641lrday7h40g3k45g9v";
   };
 

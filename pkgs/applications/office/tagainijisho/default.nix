@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "tagainijisho-1.0.3";
   src = fetchurl {
-    url = https://github.com/Gnurou/tagainijisho/releases/download/1.0.3/tagainijisho-1.0.3.tar.gz;
+    url = "https://github.com/Gnurou/tagainijisho/releases/download/1.0.3/tagainijisho-1.0.3.tar.gz";
     sha256 = "0kmg1940yiqfm4vpifyj680283ids4nsij9s750nrshwxiwwbqvg";
   };
 

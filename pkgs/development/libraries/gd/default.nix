@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "gd-2.0.35";
   
   src = fetchurl {
-    url = http://www.libgd.org/releases/gd-2.0.35.tar.bz2;
+    url = "http://www.libgd.org/releases/gd-2.0.35.tar.bz2";
     sha256 = "1y80lcmb8qbzf0a28841zxhq9ndfapmh2fsrqfd9lalxfj8288mz";
   };
   

@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "svnfs-0.4";
 
   src = fetchurl {
-    url = http://www.jmadden.eu/wp-content/uploads/svnfs/svnfs-0.4.tgz;
+    url = "http://www.jmadden.eu/wp-content/uploads/svnfs/svnfs-0.4.tgz";
     sha256 = "1lrzjr0812lrnkkwk60bws9k1hq2iibphm0nhqyv26axdsygkfky";
   };
 

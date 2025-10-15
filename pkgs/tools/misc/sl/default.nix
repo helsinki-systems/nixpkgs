@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
     license = rec {
       shortName = "Toyoda Masashi's free software license";
       fullName = shortName;
-      url = https://github.com/mtoyoda/sl/blob/master/LICENSE;
+      url = "https://github.com/mtoyoda/sl/blob/master/LICENSE";
     };
     description = "Steam Locomotive runs across your terminal when you type 'sl'";
     platforms = with stdenv.lib.platforms; unix;

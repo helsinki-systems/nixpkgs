@@ -3,7 +3,7 @@
 stdenv.mkDerivation rec {
   name = "eternity-engine-3.40.46";
   src = fetchurl {
-    url = https://github.com/team-eternity/eternity/archive/3.40.46.tar.gz;
+    url = "https://github.com/team-eternity/eternity/archive/3.40.46.tar.gz";
     sha256 = "0jq8q0agw7lgab9q2h8wcaakvg913l9j3a6ss0hn9661plkw2yb4";
   };
 

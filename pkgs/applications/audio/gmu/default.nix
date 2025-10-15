@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
   name = "gmu-0.7.2";
   
   src = fetchurl {
-    url = http://wejp.k.vu/files/gmu-0.7.2.tar.gz;
+    url = "http://wejp.k.vu/files/gmu-0.7.2.tar.gz";
     sha256 = "0gvhwhhlj64lc425wqch4g6v59ldd5i3rxll3zdcrdgk2vkh8nys";
   };
 

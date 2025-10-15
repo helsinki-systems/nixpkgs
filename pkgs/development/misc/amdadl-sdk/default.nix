@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = requireFile {
     name = "ADL_SDK_6.0.zip";
-    url = http://developer.amd.com/tools-and-sdks/graphics-development/display-library-adl-sdk/;
+    url = "http://developer.amd.com/tools-and-sdks/graphics-development/display-library-adl-sdk/";
     sha256 = "429f4fd1edebb030d6366f4e0a877cf105e4383f7dd2ccf54e5aef8f2e4242c9";
   };
 

@@ -41,7 +41,7 @@ stdenv.mkDerivation rec {
         <screen>
         access_key=[insert your access key here]
         secret_key=[insert your secret key here]
-        service_url=http://mechanicalturk.amazonaws.com/?Service=AWSMechanicalTurkRequester
+        service_url="http://mechanicalturk.amazonaws.com/?Service=AWSMechanicalTurkRequester"
         </screen>
       '';
   };

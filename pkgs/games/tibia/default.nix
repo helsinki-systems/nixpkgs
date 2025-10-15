@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   name = "tibia-10.90";
 
   src = fetchurl {
-    url = http://static.tibia.com/download/tibia1090.tgz;
+    url = "http://static.tibia.com/download/tibia1090.tgz";
     sha256 = "11mkh2dynmbpay51yfaxm5dmcys3rnpk579s9ypfkhblsrchbkhx";
   };
 

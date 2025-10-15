@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
   version = "6.2.1";
 
   src = fetchurl {
-    url = http://files.f-prot.com/files/unix-trial/fp-Linux.x86.32-ws.tar.gz;
+    url = "http://files.f-prot.com/files/unix-trial/fp-Linux.x86.32-ws.tar.gz";
     sha256 = "0qlsrkanf0inplwv1i6hqbimdg91syf5ggd1vahsm9lhivmnr0v5";
   };
 

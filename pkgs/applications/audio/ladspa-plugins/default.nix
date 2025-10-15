@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "swh-plugins-0.4.15";
 
   src = fetchurl {
-    url = http://plugin.org.uk/releases/0.4.15/swh-plugins-0.4.15.tar.gz;
+    url = "http://plugin.org.uk/releases/0.4.15/swh-plugins-0.4.15.tar.gz";
     sha256 = "0h462s4mmqg4iw7zdsihnrmz2vjg0fd49qxw2a284bnryjjfhpnh";
   };
   

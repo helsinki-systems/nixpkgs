@@ -3,7 +3,7 @@ stdenv.mkDerivation rec {
   name = "mg-20110905";
 
   src = fetchurl {
-    url = http://homepage.boetes.org/software/mg/mg-20110905.tar.gz;
+    url = "http://homepage.boetes.org/software/mg/mg-20110905.tar.gz";
     sha256 = "0ac2c7wy5kkcflm7cmiqm5xhb5c4yfw3i33iln8civ1yd9z7vlqw";
   };
 

@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   ];
 
   src = fetchurl {
-    url = http://pkgs.fedoraproject.org/repo/pkgs/gummiboot/gummiboot-48.tar.xz/05ef3951e8322b76c31f2fd14efdc185/gummiboot-48.tar.xz;
+    url = "http://pkgs.fedoraproject.org/repo/pkgs/gummiboot/gummiboot-48.tar.xz/05ef3951e8322b76c31f2fd14efdc185/gummiboot-48.tar.xz";
     sha256 = "1bzygyglgglhb3aj77w2qcb0dz9sxgb7lq5krxf6417431h198rg";
   };
 

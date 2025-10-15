@@ -13,7 +13,7 @@ stdenv.mkDerivation {
   name = "darcsum-1.3";
 
   src = fetchdarcs {
-    url = http://hub.darcs.net/simon/darcsum;
+    url = "http://hub.darcs.net/simon/darcsum";
     context = ./darcs_context;
     sha256 = "18dyk2apmnjapd604a5njfqwjri1mc7lgjaajy9phicpibgdrwzh";
   };

@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "ocaml-http-0.1.5";
 
   src = fetchurl {
-    url = https://forge.ocamlcore.org/frs/download.php/545/ocaml-http-0.1.5.tar.gz;
+    url = "https://forge.ocamlcore.org/frs/download.php/545/ocaml-http-0.1.5.tar.gz";
     sha256 = "09q12b0j01iymflssxigsqggbsp8dqh9pfvkm76dv860544mygws";
   };
 

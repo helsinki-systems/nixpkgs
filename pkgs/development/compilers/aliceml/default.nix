@@ -11,7 +11,7 @@ stdenv.mkDerivation {
   };
 
   gecodeSrc = fetchurl {
-    url = http://www.gecode.org/download/gecode-1.3.1.tar.gz;
+    url = "http://www.gecode.org/download/gecode-1.3.1.tar.gz";
     sha256 = "0mgc6llbq166jmlq3alvagqsg3730670zvbwwkdgsqklw70v9355";
   };
 

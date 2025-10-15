@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   name = "libgadu-1.11.2";
 
   src = fetchurl {
-    url = http://toxygen.net/libgadu/files/libgadu-1.11.2.tar.gz;
+    url = "http://toxygen.net/libgadu/files/libgadu-1.11.2.tar.gz";
     sha256 = "0kifi9blhbimihqw4kaf6wyqhlx8fpp8nq4s6y280ar9p0il2n3z";
   };
 

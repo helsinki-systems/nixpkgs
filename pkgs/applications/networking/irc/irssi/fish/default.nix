@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   name = "fish-irssi-20130413-e98156bebd";
   
   src = fetchurl {
-    url = https://github.com/falsovsky/FiSH-irssi/tarball/e98156bebd;
+    url = "https://github.com/falsovsky/FiSH-irssi/tarball/e98156bebd";
     name = "${name}.tar.gz";
     sha256 = "1ndr51qrg66h1mfzacwzl1vd6lj39pdc4p4z5iihrj4r2f6gk11a";
   };

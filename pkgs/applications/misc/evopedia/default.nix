@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "0.4.4";
 
   src = fetchgit {
-    url = https://github.com/evopedia/evopedia_qt;
+    url = "https://github.com/evopedia/evopedia_qt";
     rev = "refs/tags/v${version}";
     sha256 = "1biq9zaj8nhxx1pixidsn97iwp9qy1yslgl0znpa4d4p35jcg48g";
   };

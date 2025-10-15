@@ -166,7 +166,7 @@ in
           name = "akismet-plugin";
           # Download the theme from the wordpress site
           src = pkgs.fetchurl {
-            url = https://downloads.wordpress.org/plugin/akismet.3.1.zip;
+            url = "https://downloads.wordpress.org/plugin/akismet.3.1.zip";
             sha256 = "1i4k7qyzna08822ncaz5l00wwxkwcdg4j9h3z2g0ay23q640pclg";
           };
           # We need unzip to build this package
@@ -192,7 +192,7 @@ in
           name = "responsive-theme";
           # Download the theme from the wordpress site
           src = pkgs.fetchurl {
-            url = http://wordpress.org/themes/download/responsive.1.9.7.6.zip;
+            url = "http://wordpress.org/themes/download/responsive.1.9.7.6.zip";
             sha256 = "06i26xlc5kdnx903b1gfvnysx49fb4kh4pixn89qii3a30fgd8r8";
           };
           # We need unzip to build this package

@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   version = "0.1";
   name = "ocaml-ojquery-${version}";
   src = fetchgit {
-    url = https://github.com/ocsigen/ojquery.git;
+    url = "https://github.com/ocsigen/ojquery.git";
     rev = "refs/tags/${version}";
     sha256 = "1x3cidxxjyw0g7afvczdy6chw3nxb0dcz2psgxchqgv34dcwf0l0";
   };

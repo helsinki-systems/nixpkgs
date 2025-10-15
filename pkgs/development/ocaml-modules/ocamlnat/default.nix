@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "ocamlnat-0.1.1";
 
   src = fetchurl {
-    url = http://benediktmeurer.de/files/source/ocamlnat-0.1.1.tar.bz2;
+    url = "http://benediktmeurer.de/files/source/ocamlnat-0.1.1.tar.bz2";
     sha256 = "0dyvy0j6f47laxhnadvm71z1py9hz9zd49hamf6bij99cggb2ij1";
   };
 

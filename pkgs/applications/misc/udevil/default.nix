@@ -2,7 +2,7 @@
 stdenv.mkDerivation {
   name = "udevil-0.4.4";
   src = fetchurl {
-    url = https://github.com/IgnorantGuru/udevil/archive/0.4.4.tar.gz;
+    url = "https://github.com/IgnorantGuru/udevil/archive/0.4.4.tar.gz";
     sha256 = "0z1bhaayambrcn7bgnrqk445k50ifabmw8q4i9qj49nnbcvxhbxd";
   };
   buildInputs = [ intltool glib pkgconfig udev ];

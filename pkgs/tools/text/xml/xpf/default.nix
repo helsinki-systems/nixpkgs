@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   name = "xpf-0.2";
   
   src = fetchurl {
-    url = http://tarballs.nixos.org/xpf-0.2.tar.gz;
+    url = "http://tarballs.nixos.org/xpf-0.2.tar.gz";
     sha256 = "0ljx91w68rnh4871c0xlq2whlmhqz8dr39wcdczfjjpniqz1fmpz";
   };
   

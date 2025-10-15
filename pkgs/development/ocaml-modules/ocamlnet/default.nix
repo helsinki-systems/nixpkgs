@@ -8,7 +8,7 @@ stdenv.mkDerivation {
   name = "ocamlnet-3.7.7";
 
   src = fetchurl {
-    url = http://download.camlcity.org/download/ocamlnet-3.7.7.tar.gz;
+    url = "http://download.camlcity.org/download/ocamlnet-3.7.7.tar.gz";
     sha256 = "02bnks9jshpq9nqva5lky5hl009yp19cgvf1izjca620hx54d3jv";
   };
 

@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "awesomebump-4.0";
 
   src = fetchurl {
-    url = https://github.com/kmkolasinski/AwesomeBump/archive/Linuxv4.0.tar.gz;
+    url = "https://github.com/kmkolasinski/AwesomeBump/archive/Linuxv4.0.tar.gz";
     sha256 = "1rp4m4y2ld49hibzwqwy214cbiin80i882d9l0y1znknkdcclxf2";
   };
 

@@ -4,7 +4,7 @@
 stdenv.mkDerivation rec {
   name = "ldcpp-1.1.0";
   src = fetchurl {
-    url = http://launchpad.net/linuxdcpp/1.1/1.1.0/+download/linuxdcpp-1.1.0.tar.bz2;
+    url = "http://launchpad.net/linuxdcpp/1.1/1.1.0/+download/linuxdcpp-1.1.0.tar.bz2";
     sha256 = "12i92hirmwryl1qy0n3jfrpziwzb82f61xca9jcjwyilx502f0b6";
   };
   buildInputs = [ scons pkgconfig gtk bzip2 libglade openssl libX11 boost libnotify ];

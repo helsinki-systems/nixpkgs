@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   name = "libmkv-0.6.5.1p2";
   
   src = fetchgit {
-    url = https://github.com/saintdev/libmkv.git;
+    url = "https://github.com/saintdev/libmkv.git";
     rev = "refs/tags/0.6.5.1";
     sha256 = "1b0441x5rl5dbwrc0hq9jih111iil7ckqws3hcdj63jx2ma3s4hi";
   };

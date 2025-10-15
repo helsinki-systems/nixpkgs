@@ -4,7 +4,7 @@
 stdenv.mkDerivation rec {
   name = "nestopia-1.46.2";
   src = fetchurl {
-    url = https://github.com/rdanbrook/nestopia/archive/1.46.2.tar.gz;
+    url = "https://github.com/rdanbrook/nestopia/archive/1.46.2.tar.gz";
     sha256 = "07h49xwvg61dx20rk5p4r3ax2ar5y0ppvm60cqwqljyi9rdfbh7p";
   };
 

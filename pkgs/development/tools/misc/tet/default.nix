@@ -5,7 +5,7 @@ stdenv.mkDerivation (rec {
   name = "tet-${version}";
 
   src = fetchurl {
-    url = http://tetworks.opengroup.org/downloads/38/software/Sources/3.8/tet3.8-src.tar.gz ;
+    url = "http://tetworks.opengroup.org/downloads/38/software/Sources/3.8/tet3.8-src.tar.gz" ;
     sha256 = "1j57hv56df38w249l595b8rsgmsyvjkbysai03a9724gax5jl9av" ;
   };
 

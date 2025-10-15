@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
   name = "irrlicht-1.8-svn-3843";
 
   src = fetchsvn {
-    url = https://irrlicht.svn.sourceforge.net/svnroot/irrlicht/trunk;
+    url = "https://irrlicht.svn.sourceforge.net/svnroot/irrlicht/trunk";
     rev = 3843;
     sha256 = "0v31l3k0fzy7isdsx2sh0baaixzlml1m7vgz6cd0015d9f5n99vl";
   };

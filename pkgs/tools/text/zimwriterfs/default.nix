@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   version = "20150710";
 
   src = fetchgit {
-    url = https://gerrit.wikimedia.org/r/p/openzim.git;
+    url = "https://gerrit.wikimedia.org/r/p/openzim.git";
     rev = "165eab3e154c60b5b6436d653dc7c90f56cf7456";
     sha256 = "0x0d3rx6zcc8k66nqkacmwdvslrz70h9bliqawzv90ribq3alb0q";
   };

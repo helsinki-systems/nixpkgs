@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   builder = ./builder.sh;
 
   src = fetchurl {
-    url = https://jing-trang.googlecode.com/files/trang-20091111.zip;
+    url = "https://jing-trang.googlecode.com/files/trang-20091111.zip";
     sha256 = "16551j63n2y3w9lc7krjazddsab7xvdymbss4rdvx3liz4sg18yq";
   };
 

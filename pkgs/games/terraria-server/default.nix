@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
   version = "1308";
 
   src = fetchurl {
-    url = http://terraria.org/server/terraria-server-linux-1308.tar.gz;
+    url = "http://terraria.org/server/terraria-server-linux-1308.tar.gz";
     sha256 = "0cx3nx7wmzcw9l0nz9zm4amccl8nrd09hlb3jc1yrqcaswbyxc8a";
   };
 

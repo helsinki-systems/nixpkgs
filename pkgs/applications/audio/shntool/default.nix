@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   name = "shntool-${version}";
 
   src = fetchurl {
-    url = http://www.etree.org/shnutils/shntool/dist/src/shntool-3.0.10.tar.gz;
+    url = "http://www.etree.org/shnutils/shntool/dist/src/shntool-3.0.10.tar.gz";
     sha256 = "00i1rbjaaws3drkhiczaign3lnbhr161b7rbnjr8z83w8yn2wc3l";
   };
 

@@ -35,10 +35,10 @@ in stdenv.mkDerivation rec {
 
   src = fetchurl (
     if stdenv.system == "x86_64-linux" then
-      { url = http://neoload.installers.neotys.com/documents/download/neoload/v4.1/neoload_4_1_4_linux_x64.sh;
+      { url = "http://neoload.installers.neotys.com/documents/download/neoload/v4.1/neoload_4_1_4_linux_x64.sh";
         sha256 = "199jcf5a0nwfm8wfld2rcjgq64g91vvz2bkmki8dxfzf1yasifcd"; }
     else
-      { url = http://neoload.installers.neotys.com/documents/download/neoload/v4.1/neoload_4_1_4_linux_x86.sh;
+      { url = "http://neoload.installers.neotys.com/documents/download/neoload/v4.1/neoload_4_1_4_linux_x86.sh";
         sha256 = "1z66jiwcxixsqqwa0f4q8m2p5kna4knq6lic8y8l74dgv25mw912"; } );
 
   buildInputs = [ makeWrapper ];

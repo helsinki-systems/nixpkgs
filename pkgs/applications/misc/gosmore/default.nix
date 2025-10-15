@@ -9,7 +9,7 @@ stdenv.mkDerivation {
   # so we explicitly disable them to avoid breaking the hash
   # especially as the externals appear to be unused
   src = fetchsvn {
-    url = http://svn.openstreetmap.org/applications/rendering/gosmore;
+    url = "http://svn.openstreetmap.org/applications/rendering/gosmore";
     sha256 = "0qsckpqx7i7f8gkqhkzdamr65250afk1rpnh3nbman35kdv3dsxi";
     rev = "${version}";
     ignoreExternals = true;

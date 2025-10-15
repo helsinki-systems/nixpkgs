@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "gmm-4.3";
 
   src = fetchurl {
-    url = http://download.gna.org/getfem/stable/gmm-4.3.tar.gz;
+    url = "http://download.gna.org/getfem/stable/gmm-4.3.tar.gz";
     sha256 = "0wpp3k73wd3rblsrwxl6djq6m11fx3q5wgw0pl41m9liswsw6din";
   };
 

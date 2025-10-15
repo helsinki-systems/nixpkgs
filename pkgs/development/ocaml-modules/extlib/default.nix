@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   name = "ocaml-extlib-1.6.1";
 
   src = fetchurl {
-    url = http://ocaml-extlib.googlecode.com/files/extlib-1.6.1.tar.gz;
+    url = "http://ocaml-extlib.googlecode.com/files/extlib-1.6.1.tar.gz";
     sha256 = "1jmfj2w0f3ap0swz8k3qqmrl6x2y4gkmg88vv024xnmliiiv7m48";
   };
 

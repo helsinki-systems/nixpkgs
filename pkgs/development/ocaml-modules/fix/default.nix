@@ -7,7 +7,7 @@ stdenv.mkDerivation {
   name = "ocaml-fix-20130611";
 
   src = fetchurl {
-    url = http://gallium.inria.fr/~fpottier/fix/fix-20130611.tar.gz;
+    url = "http://gallium.inria.fr/~fpottier/fix/fix-20130611.tar.gz";
     sha256 = "1phlqcs1nb93x9cf0w0hnq2ck4dmn71zm4mxf60w96vb9yb9qzp0";
   };
 

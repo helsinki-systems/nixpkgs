@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "xhtml1-20020801";
 
   src = fetchurl {
-    url = http://www.w3.org/TR/xhtml1/xhtml1.tgz;
+    url = "http://www.w3.org/TR/xhtml1/xhtml1.tgz";
     sha256 = "0rr0d89i0z75qvjbm8il93bippx09hbmjwy0y2sj44n9np69x3hl";
   };
 

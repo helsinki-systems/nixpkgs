@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   name = "ocaml-fieldslib-109.20.03";
 
   src = fetchurl {
-    url = https://ocaml.janestreet.com/ocaml-core/109.20.00/individual/fieldslib-109.20.03.tar.gz;
+    url = "https://ocaml.janestreet.com/ocaml-core/109.20.00/individual/fieldslib-109.20.03.tar.gz";
     sha256 = "1dkzk0wf26rhvji80dz1r56dp6x9zqrnp87wldd4pj56jli94vir";
   };
 

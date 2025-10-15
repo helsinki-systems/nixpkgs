@@ -8,12 +8,12 @@ stdenv.mkDerivation {
   name = "amrwb-7.1.0.3";
 
   srcAmr = fetchurl {
-    url = http://www.3gpp.org/ftp/Specs/latest/Rel-7/26_series/26204-710.zip;
+    url = "http://www.3gpp.org/ftp/Specs/latest/Rel-7/26_series/26204-710.zip";
     sha256 = "1wnx72m20y8bdlyndyy8rskr0hi4llk1h1hcr34awxfmi9l4922i";
   };
 
   src = fetchurl {
-    url = http://www.penguin.cz/~utx/ftp/amr/amrwb-7.0.0.3.tar.bz2;
+    url = "http://www.penguin.cz/~utx/ftp/amr/amrwb-7.0.0.3.tar.bz2";
     sha256 = "0nn94i3gw3d5fgks43wdhshdlhpd4rcrzj46f2vsby0viwkxxp8z";
   };
 

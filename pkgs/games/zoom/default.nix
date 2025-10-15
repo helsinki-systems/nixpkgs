@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   name = "zoom-1.1.5";
   
   src = fetchurl {
-    url = http://www.logicalshift.co.uk/unix/zoom/zoom-1.1.5.tar.gz;
+    url = "http://www.logicalshift.co.uk/unix/zoom/zoom-1.1.5.tar.gz";
     sha256 = "1g6van7f7sg3zfcz80mncnnbccyg2hnm0hq4x558vpsm0lf7z5pj";
   };
   

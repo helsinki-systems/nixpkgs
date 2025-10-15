@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
   name = "patchage-${version}";
   version = "1.0.1";
   src = fetchsvn {
-    url = http://svn.drobilla.net/lad/trunk/patchage/;
+    url = "http://svn.drobilla.net/lad/trunk/patchage/";
     rev = "5821";
     sha256 = "1ar64l0sg468qzxj7i6ppgfqjpm92awcp5lzskamrf3ln17lrgj7";
   };

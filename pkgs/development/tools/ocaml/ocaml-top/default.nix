@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "ocaml-top-1.1.2";
   src = fetchzip {
-    url = https://github.com/OCamlPro/ocaml-top/archive/1.1.2.tar.gz;
+    url = "https://github.com/OCamlPro/ocaml-top/archive/1.1.2.tar.gz";
     sha256 = "10wfz8d6c1lbh31kayvlb5fj7qmgh5c6xhs3q595dnf9skrf091j";
   };
 

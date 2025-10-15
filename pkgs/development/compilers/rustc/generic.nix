@@ -95,7 +95,7 @@ with stdenv.lib; stdenv.mkDerivation {
       }
     else
       fetchgit {
-        url = https://github.com/rust-lang/rust;
+        url = "https://github.com/rust-lang/rust";
         rev = srcRev;
         sha256 = srcSha;
       };

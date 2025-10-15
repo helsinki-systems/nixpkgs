@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "ocaml-fileutils-0.5.0";
 
   src = fetchurl {
-    url = https://forge.ocamlcore.org/frs/download.php/1531/ocaml-fileutils-0.5.0.tar.gz;
+    url = "https://forge.ocamlcore.org/frs/download.php/1531/ocaml-fileutils-0.5.0.tar.gz";
     sha256 = "0xs96nlrrm335mcsgsxnqzspiqyfn26b0jjxm72br7c7ax534n47";
   };
 

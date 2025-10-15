@@ -20,7 +20,7 @@ stdenv.mkDerivation {
     maintainers = [maintainers.jfb];
   };
   src = fetchurl {
-    url = https://github.com/raboof/notion/archive/3-2015061300.tar.gz;
+    url = "https://github.com/raboof/notion/archive/3-2015061300.tar.gz";
     sha256 = "3c9d9f35a9fb0d17c263b76fe28f7a1a4a05b7d6140545524cc1effd98c5c305";
   };
 

@@ -6,7 +6,7 @@ let
 
   # highlight.js is a git submodule of remark
   highlightjs = fetchgit {
-    url = https://github.com/isagalaev/highlight.js;
+    url = "https://github.com/isagalaev/highlight.js";
     rev = "10b9500b67983f0a9c42d8ce8bf8e8c469f7078c";
     sha256 = "1yy8by15kfklw8lwh17z1swpj067q0skjjih12yawbryraig41m0";
   };

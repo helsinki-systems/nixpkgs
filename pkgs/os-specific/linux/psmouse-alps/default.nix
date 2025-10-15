@@ -14,7 +14,7 @@ stdenv.mkDerivation {
   name = "psmouse-alps-${kernel.version}-${ver}";
 
   src = fetchurl {
-    url = http://www.dahetral.com/public-download/alps-psmouse-dlkm-for-3-2-and-3-5/at_download/file;
+    url = "http://www.dahetral.com/public-download/alps-psmouse-dlkm-for-3-2-and-3-5/at_download/file";
     name = "${bname}-alt.tar.bz2";
     sha256 = "1ghr8xcyidz31isxbwrbcr9rvxi4ad2idwmb3byar9n2ig116cxp";
   };

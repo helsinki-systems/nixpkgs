@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "disnix-0.5";
   
   src = fetchurl {
-    url = http://hydra.nixos.org/build/31143411/download/4/disnix-0.5.tar.gz;
+    url = "http://hydra.nixos.org/build/31143411/download/4/disnix-0.5.tar.gz";
     sha256 = "0v0gbbcspaj67sn8ncrripa5af0m2xykyjjn2n55smz5fwx6d124";
   };
   

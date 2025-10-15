@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "1.2.5";
   
   src = fetchurl {
-    url = http://math.nist.gov/tnt/jama125.zip;
+    url = "http://math.nist.gov/tnt/jama125.zip";
     sha256 = "031ns526fvi2nv7jzzv02i7i5sjcyr0gj884i3an67qhsx8vyckl";
   };
 

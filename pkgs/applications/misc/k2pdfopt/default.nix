@@ -5,17 +5,17 @@
 
 let
   mupdf_src = fetchurl {
-    url = http://www.mupdf.com/downloads/archive/mupdf-1.6-source.tar.gz;
+    url = "http://www.mupdf.com/downloads/archive/mupdf-1.6-source.tar.gz";
     sha256 = "0qx51rj6alzcagcixm59rvdpm54w6syrwr4184v439jh14ryw4wq";
   };
 
   tess_src = fetchurl {
-    url = http://tesseract-ocr.googlecode.com/files/tesseract-ocr-3.02.02.tar.gz;
+    url = "http://tesseract-ocr.googlecode.com/files/tesseract-ocr-3.02.02.tar.gz";
     sha256 = "0g81m9y4iydp7kgr56mlkvjdwpp3mb01q385yhdnyvra7z5kkk96";
   };
 
   gocr_src = fetchurl {
-    url = http://www-e.uni-magdeburg.de/jschulen/ocr/gocr-0.49.tar.gz;
+    url = "http://www-e.uni-magdeburg.de/jschulen/ocr/gocr-0.49.tar.gz";
     sha256 = "06hpzp7rkkwfr1fvmc8kcfz9v490i9yir7f7imh13gmka0fr6afc";
   };
 

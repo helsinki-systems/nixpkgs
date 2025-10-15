@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "2.2.2";
 
   src = fetchgit {
-    url = https://github.com/github/hub.git;
+    url = "https://github.com/github/hub.git";
     rev = "refs/tags/v${version}";
     sha256 = "147rsh8zkqv6iqx3q7wzszfqlv65qj3hm3264ma042g7naf8hkwr";
   };

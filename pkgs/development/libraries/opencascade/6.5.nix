@@ -4,7 +4,7 @@ ftgl, freetype}:
 stdenv.mkDerivation rec {
   name = "opencascade-6.5.5";
   src = fetchurl {
-    url = http://files.opencascade.com/OCCT/OCC_6.5.5_release/OpenCASCADE655.tgz;
+    url = "http://files.opencascade.com/OCCT/OCC_6.5.5_release/OpenCASCADE655.tgz";
     sha256 = "1dnik00adfh6dxvn9kgf35yjda8chbi05f71i9119idmmrcapipm";
   };
 

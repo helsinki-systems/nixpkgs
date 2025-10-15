@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     # This is the open source distribution
-    url = http://fpdownload.adobe.com/pub/flex/sdk/builds/flex4/flex_sdk_4.0.0.14159_mpl.zip;
+    url = "http://fpdownload.adobe.com/pub/flex/sdk/builds/flex4/flex_sdk_4.0.0.14159_mpl.zip";
     sha256 = "1x12sji6g42bm1h7jndkda5vpah6vnkpc13qwq0c4xvbsh8757v5";
   };
 

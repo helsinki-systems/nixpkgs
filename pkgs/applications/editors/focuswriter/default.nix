@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "1.5.3";
 
   src = fetchurl {
-    url = http://gottcode.org/focuswriter/focuswriter-1.5.3-src.tar.bz2;
+    url = "http://gottcode.org/focuswriter/focuswriter-1.5.3-src.tar.bz2";
     sha256 = "1i58jxbiy95ijf81g8c3gwxhcg3irzssna3wv7vhrd57g4lcfj0w";
   };
 

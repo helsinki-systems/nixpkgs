@@ -14,7 +14,7 @@ stdenv.mkDerivation {
   '';
 
   src = fetchurl {
-    url = http://fdd.com/software/radeon/radeontool-1.5.tar.gz;
+    url = "http://fdd.com/software/radeon/radeontool-1.5.tar.gz";
     sha256 = "0qbkawhhq0y0gqbbql7q04y0v0hims5c4jkjsbc1y03rf9kr10ar";
   };
 

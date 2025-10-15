@@ -7,11 +7,11 @@ stdenv.mkDerivation {
 
   src = if stdenv.system == "i686-linux" then (
     fetchurl {
-      url = http://www.broadcom.com/docs/linux_sta/hybrid-v35-nodebug-pcoem-6_30_223_248.tar.gz;
+      url = "http://www.broadcom.com/docs/linux_sta/hybrid-v35-nodebug-pcoem-6_30_223_248.tar.gz";
       sha256 = "1bd13pq5hj4yzp32rx71sg1i5wkzdsg1s32xsywb48lw88x595mi";
     } ) else (
     fetchurl {
-      url = http://www.broadcom.com/docs/linux_sta/hybrid-v35_64-nodebug-pcoem-6_30_223_248.tar.gz;
+      url = "http://www.broadcom.com/docs/linux_sta/hybrid-v35_64-nodebug-pcoem-6_30_223_248.tar.gz";
       sha256 = "08ihbhwnqpnazskw9rlrk0alanp4x70kl8bsy2vg962iq334r69x";
     }
   );

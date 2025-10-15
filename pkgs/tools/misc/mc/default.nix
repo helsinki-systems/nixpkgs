@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   name = "mc-4.8.12";
   
   src = fetchurl {
-    url = http://www.midnight-commander.org/downloads/mc-4.8.12.tar.bz2;
+    url = "http://www.midnight-commander.org/downloads/mc-4.8.12.tar.bz2";
     sha256 = "15lkwcis0labshq9k8c2fqdwv8az2c87qpdqwp5p31s8gb1gqm0h";
   };
   

@@ -8,11 +8,11 @@ stdenv.mkDerivation rec {
   buildInputs = [fontforge perl FontTTF];
 
   unicodeData = fetchurl {
-    url = http://www.unicode.org/Public/6.1.0/ucd/UnicodeData.txt ;
+    url = "http://www.unicode.org/Public/6.1.0/ucd/UnicodeData.txt" ;
     sha256 = "1bd6zkzvxfnifrn5nh171ywk7q56sgk8gdvdn43z9i53hljjcrih";
   };
   blocks = fetchurl {
-    url = http://www.unicode.org/Public/6.1.0/ucd/Blocks.txt;
+    url = "http://www.unicode.org/Public/6.1.0/ucd/Blocks.txt";
     sha256 = "0w0vkb09nrlc6mrhqyl9npszdi828afgvhvlb1vs5smjv3h8y3dz";
   };
 

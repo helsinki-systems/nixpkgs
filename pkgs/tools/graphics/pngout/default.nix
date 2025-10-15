@@ -9,7 +9,7 @@ stdenv.mkDerivation {
   name = "pngout-20130221";
 
   src = fetchurl {
-    url = http://static.jonof.id.au/dl/kenutils/pngout-20130221-linux.tar.gz;
+    url = "http://static.jonof.id.au/dl/kenutils/pngout-20130221-linux.tar.gz";
     sha256 = "1qdzmgx7si9zr7wjdj8fgf5dqmmqw4zg19ypg0pdz7521ns5xbvi";
   };
 

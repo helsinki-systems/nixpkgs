@@ -14,7 +14,7 @@ stdenv.mkDerivation {
   name = "xf86-input-multitouch-20110312";
 
   src = fetchgit {
-    url = http://bitmath.org/git/multitouch.git;
+    url = "http://bitmath.org/git/multitouch.git";
     rev = "4d87c041f6a232aa30528d70d4b9946d1824b4ed";
     sha256 = "79397c8f99deb2a415e8c9008a2847d973ad19ea004e732613baed707df46fc9";
   };

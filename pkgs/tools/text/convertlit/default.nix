@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "convertlit-1.8";
   
   src = fetchurl {
-    url = http://www.convertlit.com/convertlit18src.zip;
+    url = "http://www.convertlit.com/convertlit18src.zip";
     sha256 = "1fjpwncyc2r3ipav7c9m7jxy6i7mphbyqj3gsm046425p7sqa2np";
   };
 

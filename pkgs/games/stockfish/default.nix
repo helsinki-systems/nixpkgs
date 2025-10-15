@@ -3,7 +3,7 @@ stdenv.mkDerivation rec {
   version = "6";
   name = "stockfish-${version}";
   src = fetchurl {
-    url = https://stockfish.s3.amazonaws.com/stockfish-6-src.zip;
+    url = "https://stockfish.s3.amazonaws.com/stockfish-6-src.zip";
     sha256 = "a69a371d3f84338cefde4575669bd930d186b046a10fa5ab0f8d1aed6cb204c3";
   };
   buildPhase = ''

@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   name = "SDL2_gfx-${toString rev}";
 
   src = fetchsvn {
-    url = http://svn.code.sf.net/p/sdl2gfx/code/trunk;
+    url = "http://svn.code.sf.net/p/sdl2gfx/code/trunk";
     inherit rev;
     sha256 = "1hzilbn1412m2b44mygrbdfh1gvks4v5p0kmafz248jf9ifsvmzp";
   };

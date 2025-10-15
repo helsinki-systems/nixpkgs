@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "2014.08.18";
   builder = ./builder.sh;
   src = fetchurl {
-    url = https://github.com/rrnewton/manticore_temp_mirror/archive/snapshot-20140818.tar.gz; 
+    url = "https://github.com/rrnewton/manticore_temp_mirror/archive/snapshot-20140818.tar.gz"; 
     sha256 = "1x52xpj5gbcpqjqm6aw6ssn901f353zypj3d5scm8i3ad777y29d";
   };
   inherit stdenv coreutils autoconf automake smlnj;

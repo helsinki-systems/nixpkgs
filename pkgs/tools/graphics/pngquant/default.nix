@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "2.0.1";
 
   src = fetchgit {
-    url = https://github.com/pornel/pngquant.git;
+    url = "https://github.com/pornel/pngquant.git";
     rev = "refs/tags/${version}";
     sha256 = "00mrv9wgxbwy517l8i4n7n3jpzirjdgi0zass3wj29i7xyipwlhf";
   };

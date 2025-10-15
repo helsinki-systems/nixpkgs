@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
   name = "rawtherapee-4.0.10";
   
   src = fetchurl {
-    url = http://rawtherapee.googlecode.com/files/rawtherapee-4.0.10.tar.xz;
+    url = "http://rawtherapee.googlecode.com/files/rawtherapee-4.0.10.tar.xz";
     sha256 = "1ibsdm2kqpw796rcdihnnp67vx0wm1d1bnlzq269r9p01w5s102g";
   };
   

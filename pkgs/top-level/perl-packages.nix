@@ -373,7 +373,7 @@ let self = _self // overrides; _self = with self; {
   ArchiveZip = buildPerlPackage {
     name = "Archive-Zip-1.16";
     src = fetchurl {
-      url = http://tarballs.nixos.org/Archive-Zip-1.16.tar.gz;
+      url = "http://tarballs.nixos.org/Archive-Zip-1.16.tar.gz";
       sha256 = "1ghgs64by3ybjlb0bj65kxysb03k72i7iwmw63g41bj175l44ima";
     };
   };
@@ -7668,7 +7668,7 @@ let self = _self // overrides; _self = with self; {
   mod_perl2 = buildPerlPackage {
     name = "mod_perl-2.0.9";
     src = fetchurl {
-      url = http://apache.mirror.iphh.net/perl/mod_perl-2.0.9.tar.gz;
+      url = "http://apache.mirror.iphh.net/perl/mod_perl-2.0.9.tar.gz";
       sha256 = "0azmir4hbb825mfmcxwa1frhnhhf82rl8xf6mmgwkhbinxmg4q02";
     };
     makeMakerFlags = "MP_AP_DESTDIR=$out";

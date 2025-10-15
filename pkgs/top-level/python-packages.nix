@@ -330,7 +330,7 @@ in modules // {
     name = "adal-${version}";
 
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/adal/adal-0.1.0.tar.gz;
+      url = "https://pypi.python.org/packages/source/a/adal/adal-0.1.0.tar.gz";
       sha256 = "1f32k18ck54adqlgvh6fjhy4yavcyrwy813prjyqppqqq4bn1a09";
     };
 
@@ -1213,7 +1213,7 @@ in modules // {
     version = "1.0.0";
     name = "azure-nspkg-${version}";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-nspkg/azure-nspkg-1.0.0.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-nspkg/azure-nspkg-1.0.0.zip";
       sha256 = "1xqvc8by1lbd7j9dxyly03jz3rgbmnsiqnqgydhkf4pa2mn2hgr9";
     };
     meta = {
@@ -1229,7 +1229,7 @@ in modules // {
     name = "azure-common-${version}";
     disabled = isPyPy;
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-common/azure-common-1.0.0.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-common/azure-common-1.0.0.zip";
       sha256 = "074rwwy8zzs7zw3nww5q2wg5lxgdc4rmypp2gfc9mwsz0gb70491";
     };
     propagatedBuildInputs = with self; [ azure-nspkg ];
@@ -1248,7 +1248,7 @@ in modules // {
     version = "0.20.0";
     name = "azure-mgmt-common-${version}";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-mgmt-common/azure-mgmt-common-0.20.0.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-mgmt-common/azure-mgmt-common-0.20.0.zip";
       sha256 = "1rmzpz3733wv31rsnqpdy4bbafvk5dhbqx7q0xf62dlz7p0i4f66";
     };
     propagatedBuildInputs = with self; [ azure-common azure-mgmt-nspkg requests2 ];
@@ -1268,7 +1268,7 @@ in modules // {
     version = "0.20.0";
     name = "azure-mgmt-compute-${version}";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-mgmt-compute/azure-mgmt-compute-0.20.0.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-mgmt-compute/azure-mgmt-compute-0.20.0.zip";
       sha256 = "12hr5vxdg2sk2fzr608a37f4i8nbchca7dgdmly2w5fc7x88jx2v";
     };
     postInstall = ''
@@ -1288,7 +1288,7 @@ in modules // {
     version = "0.20.1";
     name = "azure-mgmt-network-${version}";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-mgmt-network/azure-mgmt-network-0.20.1.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-mgmt-network/azure-mgmt-network-0.20.1.zip";
       sha256 = "10vj22h6nxpw0qpvib5x2g6qs5j8z31142icvh4qk8k40fcrs9hx";
     };
     postInstall = ''
@@ -1308,7 +1308,7 @@ in modules // {
     version = "1.0.0";
     name = "azure-mgmt-nspkg-${version}";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-mgmt-nspkg/azure-mgmt-nspkg-1.0.0.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-mgmt-nspkg/azure-mgmt-nspkg-1.0.0.zip";
       sha256 = "1rq92fj3kvnqkk18596dybw0kvhgscvc6cd8hp1dhy3wrkqnhwmq";
     };
     propagatedBuildInputs = with self; [ azure-nspkg ];
@@ -1324,7 +1324,7 @@ in modules // {
     version = "0.20.1";
     name = "azure-mgmt-resource-${version}";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-mgmt-resource/azure-mgmt-resource-0.20.1.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-mgmt-resource/azure-mgmt-resource-0.20.1.zip";
       sha256 = "0slh9qfm5nfacrdm3lid0sr8kwqzgxvrwf27laf9v38kylkfqvml";
     };
     postInstall = ''
@@ -1344,7 +1344,7 @@ in modules // {
     version = "0.20.0";
     name = "azure-mgmt-storage-${version}";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-mgmt-storage/azure-mgmt-storage-0.20.0.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-mgmt-storage/azure-mgmt-storage-0.20.0.zip";
       sha256 = "16iw7hqhq97vlzfwixarfnirc60l5mz951p57brpcwyylphl3yim";
     };
     postInstall = ''
@@ -1364,7 +1364,7 @@ in modules // {
     version = "0.20.3";
     name = "azure-storage-${version}";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-storage/azure-storage-0.20.3.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-storage/azure-storage-0.20.3.zip";
       sha256 = "06bmw6k2000kln5jwk5r9bgcalqbyvqirmdh9gq4s6nb4fv3c0jb";
     };
     propagatedBuildInputs = with self; [ azure-common futures dateutil requests2 ];
@@ -1383,7 +1383,7 @@ in modules // {
     version = "0.20.1";
     name = "azure-servicemanagement-legacy-${version}";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-servicemanagement-legacy/azure-servicemanagement-legacy-0.20.1.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-servicemanagement-legacy/azure-servicemanagement-legacy-0.20.1.zip";
       sha256 = "17dwrp99sx5x9cm4vldkaxhki9gbd6dlafa0lpr2n92xhh2838zs";
     };
     propagatedBuildInputs = with self; [ azure-common requests2 ];
@@ -1789,7 +1789,7 @@ in modules // {
     name = "cornice-${version}";
     version = "0.17.0";
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla-services/cornice.git;
+      url = "https://github.com/mozilla-services/cornice.git";
       rev = "refs/tags/${version}";
       sha256 = "12yrcsv1sdl5w308y1cc939ppq7pi2490s54zfcbs481cvsyr1lg";
     };
@@ -3409,7 +3409,7 @@ in modules // {
   crcmod = buildPythonPackage rec {
     name = "crcmod-1.7";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/c/crcmod/crcmod-1.7.tar.gz;
+      url = "https://pypi.python.org/packages/source/c/crcmod/crcmod-1.7.tar.gz";
       sha256 = "07k0hgr42vw2j92cln3klxka81f33knd7459cn3d8aszvfh52w6w";
     };
     meta = {
@@ -4168,7 +4168,7 @@ in modules // {
     name = "cssutils-0.9.9";
 
     src = pkgs.fetchurl {
-      url = http://pypi.python.org/packages/source/c/cssutils/cssutils-0.9.9.zip;
+      url = "http://pypi.python.org/packages/source/c/cssutils/cssutils-0.9.9.zip";
       sha256 = "139yfm9yz9k33kgqw4khsljs10rkhhxyywbq9i82bh2r31cil1pp";
     };
 
@@ -5221,7 +5221,7 @@ in modules // {
     name = "faker-0.0.4";
     disabled = isPy3k;
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/F/Faker/Faker-0.0.4.tar.gz;
+      url = "https://pypi.python.org/packages/source/F/Faker/Faker-0.0.4.tar.gz";
       sha256 = "09q5jna3j8di0gw5yjx0dvlndkrk2x9vvqzwyfsvg3nlp8h38js1";
     };
     buildInputs = with self; [ nose ];
@@ -5237,7 +5237,7 @@ in modules // {
   fake_factory = buildPythonPackage rec {
     name = "fake-factory-0.2";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/f/fake-factory/fake-factory-0.2.tar.gz;
+      url = "https://pypi.python.org/packages/source/f/fake-factory/fake-factory-0.2.tar.gz";
       sha256 = "0qdmk8p4anrj9mf95dh9v7bkhv1pz69hvhlw380kj4iz7b44b6zn";
     };
     meta = {
@@ -5429,7 +5429,7 @@ in modules // {
     name = "gcutil-1.16.1";
 
     src = pkgs.fetchurl {
-      url = https://dl.google.com/dl/cloudsdk/release/artifacts/gcutil-1.16.1.tar.gz;
+      url = "https://dl.google.com/dl/cloudsdk/release/artifacts/gcutil-1.16.1.tar.gz";
       sha256 = "00jaf7x1ji9y46fbkww2sg6r6almrqfsprydz3q2swr4jrnrsx9x";
     };
 
@@ -6275,7 +6275,7 @@ in modules // {
     name = "python-mapnik-fae6388";
 
     src = pkgs.fetchgit {
-      url = https://github.com/mapnik/python-mapnik.git;
+      url = "https://github.com/mapnik/python-mapnik.git";
       rev = "fae63881ed0945829e73f711d52740240b740936";
       sha256 = "13i9zsy0dk9pa947vfq26a3nrn1ddknqliyb0ljcmi5w5x0z758k";
     };
@@ -6988,7 +6988,7 @@ in modules // {
     name = "pyramidhawkauth-${version}";
     version = "0.1.0";
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla-services/pyramid_hawkauth.git;
+      url = "https://github.com/mozilla-services/pyramid_hawkauth.git";
       rev = "refs/tags/v${version}";
       sha256 = "1ic7xl72qnz382xaqhcy9ql17gx7pxbs78znp8xr66sp3dcx2s3c";
     };
@@ -7114,7 +7114,7 @@ in modules // {
     name = "scikits.samplerate-${version}";
     version = "0.3.3";
     src = pkgs.fetchgit {
-      url = https://github.com/cournape/samplerate;
+      url = "https://github.com/cournape/samplerate";
       rev = "a536c97eb2d6195b5f266ea3cc3a35364c4c2210";
       sha256 = "0mgic7bs5zv5ji05vr527jlxxlb70f9dg93hy1lzyz2plm1kf7gg";
     };
@@ -9300,7 +9300,7 @@ in modules // {
     name = "genshi-0.7";
 
     src = pkgs.fetchurl {
-      url = http://ftp.edgewall.com/pub/genshi/Genshi-0.7.tar.gz;
+      url = "http://ftp.edgewall.com/pub/genshi/Genshi-0.7.tar.gz";
       sha256 = "0lkkbp6fbwzv0zda5iqc21rr7rdldkwh3hfabfjl9i4bwq14858x";
     };
 
@@ -9705,7 +9705,7 @@ in modules // {
     name = "hawkauthlib-${version}";
     version = "0.1.1";
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla-services/hawkauthlib.git;
+      url = "https://github.com/mozilla-services/hawkauthlib.git";
       rev = "refs/tags/v${version}";
       sha256 = "0b3xydii50ifs8qkgbpdlidfs2rzw63f807ahrq9flz90ahf582h";
     };
@@ -10662,7 +10662,7 @@ in modules // {
     disabled = isPy3k;
 
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla-services/konfig.git;
+      url = "https://github.com/mozilla-services/konfig.git";
       rev = "refs/tags/${version}";
       sha256 = "1v9pjb9idapjlc75p6h06kx7bi8zxhfgj93yxq1bn337kmyk1xdf";
     };
@@ -10776,7 +10776,7 @@ in modules // {
     name = "libcloud-0.18.0";
 
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/apache-libcloud/apache-libcloud-0.18.0.tar.bz2;
+      url = "https://pypi.python.org/packages/source/a/apache-libcloud/apache-libcloud-0.18.0.tar.bz2";
       sha256 = "0ahdp14ddly074qg5cksxdhqaws0kj445xmhz1y7lzspsp6fk1xg";
     };
 
@@ -11274,7 +11274,7 @@ in modules // {
     name = "meld3-1.0.0";
 
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/m/meld3/meld3-1.0.0.tar.gz;
+      url = "https://pypi.python.org/packages/source/m/meld3/meld3-1.0.0.tar.gz";
       md5 = "ca270506dd4ecb20ae26fa72fbd9b0be";
     };
 
@@ -11627,13 +11627,13 @@ in modules // {
     version = "0.8";
 
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla-services/mozservices.git;
+      url = "https://github.com/mozilla-services/mozservices.git";
       rev = "refs/tags/${version}";
       sha256 = "0k1d7v8aa4xd3f9h8m5crl647136ba15i9nzdrpxg5aqmv2n0i0p";
     };
 
     patches = singleton (pkgs.fetchurl {
-      url = https://github.com/nbp/mozservices/commit/f86c0b0b870cd8f80ce90accde9e16ecb2e88863.diff;
+      url = "https://github.com/nbp/mozservices/commit/f86c0b0b870cd8f80ce90accde9e16ecb2e88863.diff";
       sha256 = "1lnghx821f6dqp3pa382ka07cncdz7hq0mkrh44d0q3grvrlrp9n";
     });
 
@@ -11875,7 +11875,7 @@ in modules // {
     disabled = isPy3k;
 
     src = pkgs.fetchurl {
-      url = http://www.blacktrash.org/hg/muttils/archive/8bb26094df06.tar.bz2;
+      url = "http://www.blacktrash.org/hg/muttils/archive/8bb26094df06.tar.bz2";
       sha256 = "1a4kxa0fpgg6rdj5p4kggfn8xpniqh8v5kbiaqc6wids02m7kag6";
     };
 
@@ -11986,7 +11986,7 @@ in modules // {
     name = "pymysql-${version}";
     version = "0.6.6";
     src = pkgs.fetchgit {
-      url = https://github.com/PyMySQL/PyMySQL.git;
+      url = "https://github.com/PyMySQL/PyMySQL.git";
       rev = "refs/tags/pymysql-${version}";
       sha256 = "12v8bw7pp455zqkwraxk69qycz2ngk18bbz60v72kdbp6kssnqhz";
     };
@@ -12542,7 +12542,7 @@ in modules // {
   nosejs = buildPythonPackage {
     name = "nosejs-0.9.4";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/N/NoseJS/NoseJS-0.9.4.tar.gz;
+      url = "https://pypi.python.org/packages/source/N/NoseJS/NoseJS-0.9.4.tar.gz";
       sha256 = "0qrhkd3sga56qf6k0sqyhwfcladwi05gl6aqmr0xriiq1sgva5dy";
     };
     buildInputs = with self; [ nose ];
@@ -12603,7 +12603,7 @@ in modules // {
     name = "python-notify-0.1.1";
 
     src = pkgs.fetchurl {
-      url = http://www.galago-project.org/files/releases/source/notify-python/notify-python-0.1.1.tar.bz2;
+      url = "http://www.galago-project.org/files/releases/source/notify-python/notify-python-0.1.1.tar.bz2";
       sha256 = "1kh4spwgqxm534qlzzf2ijchckvs0pwjxl1irhicjmlg7mybnfvx";
     };
 
@@ -12653,7 +12653,7 @@ in modules // {
   ntplib = buildPythonPackage rec {
     name = "ntplib-0.3.2";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/n/ntplib/ntplib-0.3.2.tar.gz;
+      url = "https://pypi.python.org/packages/source/n/ntplib/ntplib-0.3.2.tar.gz";
       md5 = "0f386dc00c0056ac4d77af0b4c21bb8e";
     };
 
@@ -13116,7 +13116,7 @@ in modules // {
     disabled = isPy3k;
 
     src = pkgs.fetchgit {
-      url = https://github.com/openSUSE/osc;
+      url = "https://github.com/openSUSE/osc";
       rev = "6cd541967ee2fca0b89e81470f18b97a3ffc23ce";
       sha256 = "a39ce0e321e40e9758bf7b9128d316c71b35b80eabc84f13df492083bb6f1cc6";
     };
@@ -14587,7 +14587,7 @@ in modules // {
     disabled = isPy3k;
 
     src = pkgs.fetchurl {
-      url = http://pypi.python.org/packages/source/P/Paste/Paste-1.7.5.1.tar.gz;
+      url = "http://pypi.python.org/packages/source/P/Paste/Paste-1.7.5.1.tar.gz";
       md5 = "7ea5fabed7dca48eb46dc613c4b6c4ed";
     };
 
@@ -14995,7 +14995,7 @@ in modules // {
     name = "pika-0.9.12";
     disabled = isPy3k;
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/p/pika/pika-0.9.12.tar.gz;
+      url = "https://pypi.python.org/packages/source/p/pika/pika-0.9.12.tar.gz";
       md5 = "7174fc7cc5570314fa3cfaa729106482";
     };
     buildInputs = with self; [ nose mock pyyaml ];
@@ -15122,7 +15122,7 @@ in modules // {
     doCheck = false;
 
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/p/python3-pika/python3-pika-0.9.14.tar.gz;
+      url = "https://pypi.python.org/packages/source/p/python3-pika/python3-pika-0.9.14.tar.gz";
       md5 = "f3a3ee58afe0ae06f1fa553710e1aa28";
     };
     buildInputs = with self; [ nose mock pyyaml ];
@@ -16425,7 +16425,7 @@ in modules // {
     name = "mmpython-${version}";
 
     src = pkgs.fetchurl {
-      url = http://sourceforge.net/projects/mmpython/files/latest/download;
+      url = "http://sourceforge.net/projects/mmpython/files/latest/download";
       sha256 = "1b7qfad3shgakj37gcj1b9h78j1hxlz6wp9k7h76pb4sq4bfyihy";
       name = "${name}.tar.gz";
     };
@@ -17526,7 +17526,7 @@ in modules // {
     name = "pywinrm";
 
     src = pkgs.fetchgit {
-      url = https://github.com/diyan/pywinrm.git;
+      url = "https://github.com/diyan/pywinrm.git";
       rev = "c9ce62d500007561ab31a8d0a5d417e779fb69d9";
       sha256 = "0n0qlcgin2g5lpby07qbdlnpq5v2qc2yns9zc4zm5prwh2mhs5za";
     };
@@ -17675,7 +17675,7 @@ in modules // {
     disabled = isPy33;
 
     src = pkgs.fetchgit {
-      url = https://github.com/aresch/rencode;
+      url = "https://github.com/aresch/rencode";
       rev = "b45e04abdca0dea36e383a8199783269f186c99e";
       sha256 = "b4bd82852d4220e8a9493d3cfaecbc57b1325708a2d48c0f8acf262edb10dc40";
     };
@@ -17802,7 +17802,7 @@ in modules // {
   retry_decorator = buildPythonPackage rec {
     name = "retry_decorator-1.0.0";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/r/retry_decorator/retry_decorator-1.0.0.tar.gz;
+      url = "https://pypi.python.org/packages/source/r/retry_decorator/retry_decorator-1.0.0.tar.gz";
       sha256 = "086zahyb6yn7ggpc58909c5r5h3jz321i1694l1c28bbpaxnlk88";
     };
     meta = {
@@ -17991,7 +17991,7 @@ in modules // {
     name = "requests-oauth2-0.1.1";
 
     src = pkgs.fetchurl {
-      url = https://github.com/maraujop/requests-oauth2/archive/0.1.1.tar.gz;
+      url = "https://github.com/maraujop/requests-oauth2/archive/0.1.1.tar.gz";
       sha256 = "1aij66qg9j5j4vzyh64nbg72y7pcafgjddxsi865racsay43xfqg";
     };
 
@@ -18428,7 +18428,7 @@ in modules // {
     name = "routes-1.12.3";
 
     src = pkgs.fetchurl {
-      url = http://pypi.python.org/packages/source/R/Routes/Routes-1.12.3.tar.gz;
+      url = "http://pypi.python.org/packages/source/R/Routes/Routes-1.12.3.tar.gz";
       md5 = "9740ff424ff6b841632c784a38fb2be3";
     };
 
@@ -19635,7 +19635,7 @@ in modules // {
     name = "smartdc-0.1.12";
 
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/s/smartdc/smartdc-0.1.12.tar.gz;
+      url = "https://pypi.python.org/packages/source/s/smartdc/smartdc-0.1.12.tar.gz";
       md5 = "b960f61facafc879142b699050f6d8b4";
     };
 
@@ -19651,7 +19651,7 @@ in modules // {
   socksipy-branch = buildPythonPackage rec {
     name = "SocksiPy-branch-1.01";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/S/SocksiPy-branch/SocksiPy-branch-1.01.tar.gz;
+      url = "https://pypi.python.org/packages/source/S/SocksiPy-branch/SocksiPy-branch-1.01.tar.gz";
       sha256 = "01l41v4g7fy9fzvinmjxy6zcbhgqaif8dhdqm4w90fwcw9h51a8p";
     };
     meta = {
@@ -19932,7 +19932,7 @@ in modules // {
     disabled = isPy33;
 
     src = pkgs.fetchgit {
-      url = https://github.com/crosspop/sqlalchemy-imageattach.git;
+      url = "https://github.com/crosspop/sqlalchemy-imageattach.git";
       rev = "refs/tags/${version}";
       md5 = "cffdcde30952176e35fccf385f579dda";
     };
@@ -20337,7 +20337,7 @@ in modules // {
     disabled = isPy3k;
 
     src = pkgs.fetchgit {
-      url = https://github.com/miracle2k/tarsnapper.git;
+      url = "https://github.com/miracle2k/tarsnapper.git";
       rev = "620439bca68892f2ffaba1079a34b18496cc6596";
       sha256 = "06pp499qm2dxpja2jgmmq2jrcx3m4nq52x5hhil9r1jxvyiq962p";
     };
@@ -20796,7 +20796,7 @@ in modules // {
     disabled = isPy3k;
 
     src = pkgs.fetchurl {
-      url = http://ftp.edgewall.com/pub/trac/Trac-1.0.1.tar.gz;
+      url = "http://ftp.edgewall.com/pub/trac/Trac-1.0.1.tar.gz";
       sha256 = "1nqa95fcnkpyq4jk6az7l7sqgm3b3pjq3bx1n7y4v3bad5jr1m4x";
     };
 
@@ -22670,7 +22670,7 @@ in modules // {
     name = "tokenlib-${version}";
     version = "0.3.1";
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla-services/tokenlib.git;
+      url = "https://github.com/mozilla-services/tokenlib.git";
       rev = "refs/tags/${version}";
       sha256 = "0dmq41sy64jmkj7n49jgbpii5n5d41ci263lyhqbff5slr289m51";
     };
@@ -22734,7 +22734,7 @@ in modules // {
     '';
 
     src = pkgs.fetchgit {
-        url = https://github.com/scs3jb/screenkey.git;
+        url = "https://github.com/scs3jb/screenkey.git";
         rev = "b3634a2c6eb6d6936c3b2c1ef5078bf3a84c40c6";
         sha256 = "eb754917e98e03cb9d528eb5f57a08c88fa7a8172f92325a9fe796b2daf14db0";
     };
@@ -22802,7 +22802,7 @@ in modules // {
     disabled = isPy3k; # Errors in the test suite.
 
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla/PyBrowserID.git;
+      url = "https://github.com/mozilla/PyBrowserID.git";
       rev = "refs/tags/${version}";
       sha256 = "0nyqb0v8yrkqnrqsh1hlhvzr2pyvkxvkw701p3gpsvk29c0gb5n6";
     };
@@ -22840,7 +22840,7 @@ in modules // {
     version = "1.2.11";
 
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla-services/tokenserver.git;
+      url = "https://github.com/mozilla-services/tokenserver.git";
       rev = "refs/tags/${version}";
       sha256 = "1pjrw7xhhqx7h4s08h1lsaa499r2ymc41zdknjimn6zlqdjdk1fb";
     };
@@ -23851,7 +23851,7 @@ in modules // {
     name = "boto-2.30.0";
     disabled = ! isPy27;
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/b/boto/boto-2.30.0.tar.gz;
+      url = "https://pypi.python.org/packages/source/b/boto/boto-2.30.0.tar.gz";
       sha256 = "12gl8azmx1vv8dbv9jhnsbhjpc2dd1ng0jlbcg734k6ggwq1h6hh";
     };
     doCheck = false;
@@ -23866,7 +23866,7 @@ in modules // {
     name = "gcs-oauth2-boto-plugin-1.8";
     disabled = ! isPy27;
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/g/gcs-oauth2-boto-plugin/gcs-oauth2-boto-plugin-1.8.tar.gz;
+      url = "https://pypi.python.org/packages/source/g/gcs-oauth2-boto-plugin/gcs-oauth2-boto-plugin-1.8.tar.gz";
       sha256 = "0jy62y5bmaf1mb735lqwry1s5nx2qqrxvl5sxip9yg4miih3qkyb";
     };
     propagatedBuildInputs = with self; [ boto-230 httplib2 google_api_python_client retry_decorator pkgs.pyopenssl socksipy-branch ];
@@ -23889,7 +23889,7 @@ in modules // {
     doCheck = false;
 
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/g/gsutil/gsutil-4.6.tar.gz;
+      url = "https://pypi.python.org/packages/source/g/gsutil/gsutil-4.6.tar.gz";
       sha256 = "1i0clm60162rbk45ljr8nsw4ndkzjnwb7r440shcqjrvw8jq49mn";
     };
 
@@ -23943,7 +23943,7 @@ in modules // {
     disabled = ! isPy27;
 
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla-services/syncserver.git;
+      url = "https://github.com/mozilla-services/syncserver.git";
       rev = "refs/tags/${version}";
       sha256 = "1xljylycxg7351hmqh7aa6fvvsjg06zvd4r7hcjqyd0k0sxvk7y6";
     };
@@ -23966,7 +23966,7 @@ in modules // {
     disabled = !isPy27;
 
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla-services/server-syncstorage.git;
+      url = "https://github.com/mozilla-services/server-syncstorage.git";
       rev = "refs/tags/${version}";
       sha256 = "1byq2k2f36f1jli9599ygfm2qsb4adl9140sxjpgfjbznb74q90q";
     };

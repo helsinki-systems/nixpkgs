@@ -3,11 +3,11 @@
 stdenv.mkDerivation {
   name = "mobilesdk-5.1.2.GA";
   src = if (stdenv.system == "i686-linux" || stdenv.system == "x86_64-linux") then fetchurl {
-    url = http://builds.appcelerator.com/mobile/5_1_X/mobilesdk-5.1.2.v20151216190036-linux.zip;
+    url = "http://builds.appcelerator.com/mobile/5_1_X/mobilesdk-5.1.2.v20151216190036-linux.zip";
     sha256 = "013ipqwkfqj60mn09jbbf6a9mc4pjrn0kr0ix906whzb888zz6bv";
   }
   else if stdenv.system == "x86_64-darwin" then fetchurl {
-    url = http://builds.appcelerator.com/mobile/5_1_X/mobilesdk-5.1.2.v20151216190036-osx.zip;
+    url = "http://builds.appcelerator.com/mobile/5_1_X/mobilesdk-5.1.2.v20151216190036-osx.zip";
     sha256 = "1ylwh7zxa5yfyckzn3a9zc4cmh8gdndgb3jyr61s3j7zb1whn9ww";
   }
   else throw "Platform: ${stdenv.system} not supported!";

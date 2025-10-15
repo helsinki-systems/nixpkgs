@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "ocaml-pgocaml-2.2";
   src = fetchurl {
-    url = http://forge.ocamlcore.org/frs/download.php/1506/pgocaml-2.2.tgz;
+    url = "http://forge.ocamlcore.org/frs/download.php/1506/pgocaml-2.2.tgz";
     sha256 = "0x0dhlz2rqxpwfdqi384f9fn0ng2irifadmxfm2b4gcz7y1cl9rh";
   };
 

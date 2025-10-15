@@ -13,7 +13,7 @@ stdenv.mkDerivation {
   name = "blcr_${kernel.version}-0.8.6pre4";
 
   src = fetchurl {
-    url = https://upc-bugs.lbl.gov/blcr-dist/blcr-0.8.6_b4.tar.gz;
+    url = "https://upc-bugs.lbl.gov/blcr-dist/blcr-0.8.6_b4.tar.gz";
     sha256 = "1a3gdhdnmk592jc652szxgfz8rjd8dax5jwxfsypiqx5lgkj3m21";
   };
 

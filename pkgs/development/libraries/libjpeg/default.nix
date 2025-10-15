@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   name = "libjpeg-8d";
 
   src = fetchurl {
-    url = http://www.ijg.org/files/jpegsrc.v8d.tar.gz;
+    url = "http://www.ijg.org/files/jpegsrc.v8d.tar.gz";
     sha256 = "1cz0dy05mgxqdgjf52p54yxpyy95rgl30cnazdrfmw7hfca9n0h0";
   };
 

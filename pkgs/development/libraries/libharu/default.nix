@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "libharu-2.3.0";
 
   src = fetchzip {
-    url = https://github.com/libharu/libharu/archive/RELEASE_2_3_0.tar.gz;
+    url = "https://github.com/libharu/libharu/archive/RELEASE_2_3_0.tar.gz";
     sha256 = "15s9hswnl3qqi7yh29jyrg0hma2n99haxznvcywmsp8kjqlyg75q";
   };
 

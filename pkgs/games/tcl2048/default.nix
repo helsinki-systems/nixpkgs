@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "tcl2048-0.3.1";
 
   src = fetchurl {
-    url = https://raw.githubusercontent.com/dbohdan/2048-tcl/v0.3.1/2048.tcl;
+    url = "https://raw.githubusercontent.com/dbohdan/2048-tcl/v0.3.1/2048.tcl";
     sha256 = "44e325328784c4e91cecc0a9cc00e32d733da713adf2fad1c081542f38af3361";
   };
 

@@ -36,7 +36,7 @@ stdenv.mkDerivation {
   #builder = ./builder.sh;
 
   src = fetchurl {
-    url = http://speeldoos.eweka.nl/~paul/openftd/openftd-1.0.1.tar.bz2;
+    url = "http://speeldoos.eweka.nl/~paul/openftd/openftd-1.0.1.tar.bz2";
     sha256 = "e0710865f852fdf209949788a1ced65e9ecf82b4eaa0992a7a1dde1511a3b6e7";
   };
 

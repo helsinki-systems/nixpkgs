@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "pahole-head";
   src = fetchgit {
-    url = https://git.kernel.org/pub/scm/devel/pahole/pahole.git;
+    url = "https://git.kernel.org/pub/scm/devel/pahole/pahole.git";
     sha256 = "05f8a14ea6c200c20e9c6738593b38e4ced73a9cef86499ccd7af910eb9b74b3";
     rev = "1decb1bc4a412a0902b7b25190d755a875022d03";
   };

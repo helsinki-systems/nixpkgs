@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "tyxml-3.4.0";
 
   src = fetchurl {
-    url = http://github.com/ocsigen/tyxml/archive/3.4.0.tar.gz;
+    url = "http://github.com/ocsigen/tyxml/archive/3.4.0.tar.gz";
     sha256 = "10hb0b2j33fjqzmx450ns7dmf4pqmx3gyvr6dk99mghqk13cj5ww";
     };
 

@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "alliance-5.0-20070718";
 
   src = fetchurl {
-    url = http://www-asim.lip6.fr/pub/alliance/distribution/5.0/alliance-5.0-20070718.tar.gz;
+    url = "http://www-asim.lip6.fr/pub/alliance/distribution/5.0/alliance-5.0-20070718.tar.gz";
     sha256 = "4e17c8f9f4d344061166856d47e58527c6ae870fda0c73b5ba0200967d23af9f";
   };
 

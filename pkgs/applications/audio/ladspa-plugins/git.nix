@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   name = "swh-plugins-git-2015-03-04";
 
   src = fetchgit {
-    url = https://github.com/swh/ladspa.git;
+    url = "https://github.com/swh/ladspa.git";
     rev = "4b8437e8037cace3d5bf8ce6d1d1da0182aba686";
     sha256 = "7d9aa13a064903b330bd52e35c1f810f1c8a253ea5eb4e5a3a69a051af03150e";
   };

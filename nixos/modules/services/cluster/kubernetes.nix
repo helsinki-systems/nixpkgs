@@ -566,7 +566,7 @@ in {
           ExecStart = ''${cfg.package}/bin/kube2sky \
             -etcd-server=http://${head cfg.etcdServers} \
             -domain=${cfg.kube2sky.domain} \
-            -kube_master_url=http://${cfg.kube2sky.master} \
+            -kube_master_url="http://${cfg.kube2sky.master}" \
             -logtostderr=true \
             ${optionalString cfg.verbose "--v=6 --log-flush-frequency=1s"} \
             ${cfg.kube2sky.extraOpts}

@@ -12,7 +12,7 @@ stdenv.mkDerivation {
   name = "ocsigenserver-2.6";
 
   src = fetchurl {
-    url = https://github.com/ocsigen/ocsigenserver/archive/2.6.tar.gz;
+    url = "https://github.com/ocsigen/ocsigenserver/archive/2.6.tar.gz";
     sha256 = "0638xvlr0sssvjarmdwhgh7vbgdx8wiyjwq73w1bkjfwl7qm21zp";
   };
 

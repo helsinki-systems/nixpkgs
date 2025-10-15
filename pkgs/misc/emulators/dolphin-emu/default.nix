@@ -6,7 +6,7 @@
 stdenv.mkDerivation rec {
   name = "dolphin-emu-4.0.2";
   src = fetchurl {
-    url = https://github.com/dolphin-emu/dolphin/archive/4.0.2.tar.gz;
+    url = "https://github.com/dolphin-emu/dolphin/archive/4.0.2.tar.gz";
     sha256 = "0a8ikcxdify9d7lqz8fn2axk2hq4q1nvbcsi1b8vb9z0mdrhzw89";
   };
 

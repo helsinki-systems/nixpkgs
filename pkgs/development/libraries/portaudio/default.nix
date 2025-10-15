@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   name = "portaudio-19-20140130";
   
   src = fetchurl {
-    url = http://www.portaudio.com/archives/pa_stable_v19_20140130.tgz;
+    url = "http://www.portaudio.com/archives/pa_stable_v19_20140130.tgz";
     sha256 = "0mwddk4qzybaf85wqfhxqlf0c5im9il8z03rd4n127k8y2jj9q4g";
   };
 

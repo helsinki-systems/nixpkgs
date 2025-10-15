@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   builder = ./unzip-builder.sh;
 
   src = fetchurl {
-    url = https://jing-trang.googlecode.com/files/jing-20091111.zip;
+    url = "https://jing-trang.googlecode.com/files/jing-20091111.zip";
     sha256 = "134h2r22r64v5yk4v8mhl6r893dlw5vzx9daf2sj2mbbma004sap";
   };
 

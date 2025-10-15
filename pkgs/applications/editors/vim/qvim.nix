@@ -16,7 +16,7 @@ composableDerivation {
     enableParallelBuilding = true; # test this
 
     src = fetchgit {
-      url = https://bitbucket.org/equalsraf/vim-qt.git ;
+      url = "https://bitbucket.org/equalsraf/vim-qt.git" ;
       rev = "refs/tags/package-" + tag;
       inherit sha256;
     };

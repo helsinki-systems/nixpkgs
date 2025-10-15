@@ -25,7 +25,7 @@ let
   paxflags = if stdenv.isi686 then "msp" else "m";
 
   cupsSrc = fetchurl {
-    url = http://ftp.easysw.com/pub/cups/1.5.4/cups-1.5.4-source.tar.bz2;
+    url = "http://ftp.easysw.com/pub/cups/1.5.4/cups-1.5.4-source.tar.bz2";
     md5 = "de3006e5cf1ee78a9c6145ce62c4e982";
   };
 

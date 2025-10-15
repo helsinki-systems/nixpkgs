@@ -4,7 +4,7 @@ ftgl, freetype}:
 stdenv.mkDerivation rec {
   name = "opencascade-oce-0.16";
   src = fetchurl {
-    url = https://github.com/tpaviot/oce/archive/OCE-0.16.tar.gz;
+    url = "https://github.com/tpaviot/oce/archive/OCE-0.16.tar.gz";
     sha256 = "05bmg1cjz827bpq8s0hp96byirm4c3zc9vx26qz76kjsg8ry87w4";
   };
 

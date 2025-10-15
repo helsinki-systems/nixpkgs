@@ -12,7 +12,7 @@ stdenv.mkDerivation rec
   name = "${pname}-${version}";
 
   src = fetchurl {
-    url = https://github.com/ocsigen/eliom/archive/4.2.tar.gz;
+    url = "https://github.com/ocsigen/eliom/archive/4.2.tar.gz";
     sha256 = "0gbqzgn6xgpq6irz2sfr92qj3hjcwl45wy0inc4ps5r15nvq1l9h";
   };
 

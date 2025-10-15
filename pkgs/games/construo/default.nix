@@ -3,7 +3,7 @@
 	let localDefs = builderDefs.passthru.function {
 		src = /* put a fetchurl here */
 		fetchurl {
-			url = http://savannah.nongnu.org/download/construo/construo-0.2.2.tar.gz;
+			url = "http://savannah.nongnu.org/download/construo/construo-0.2.2.tar.gz";
 			sha256 = "0c661rjasax4ykw77dgqj39jhb4qi48m0bhhdy42vd5a4rfdrcck";
 		};
 

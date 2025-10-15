@@ -19,7 +19,7 @@ pythonPackages.buildPythonPackage rec {
   patches =
     [ # Ignore different link counts and inode change times.
       (fetchpatch {
-        url = https://github.com/edolstra/diffoscope/commit/367f77bba8df0dbc89e63c9f66f05736adf5ec59.patch;
+        url = "https://github.com/edolstra/diffoscope/commit/367f77bba8df0dbc89e63c9f66f05736adf5ec59.patch";
         sha256 = "0mnp7icdrjn02dr6f5dwqvvr848jzgkv3cg69a24234y9gxd30ww";
       })
     ];

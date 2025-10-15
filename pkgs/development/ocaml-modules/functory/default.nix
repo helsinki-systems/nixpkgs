@@ -7,7 +7,7 @@ stdenv.mkDerivation {
   name = "ocaml-functory-0.5";
 
   src = fetchurl {
-    url = https://www.lri.fr/~filliatr/functory/download/functory-0.5.tar.gz;
+    url = "https://www.lri.fr/~filliatr/functory/download/functory-0.5.tar.gz";
     sha256 = "1j17rhifdjv1z262dma148ywg34x0zjn8vczdrnkwajsm4qg1hw3";
   };
 

@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "stm32flash-1.0";
 
   src = fetchurl {
-    url = https://stm32flash.googlecode.com/files/stm32flash.tar.gz;
+    url = "https://stm32flash.googlecode.com/files/stm32flash.tar.gz";
     sha256 = "04k631g9lzvp9xr4sw51xpq1g542np61s1l8fpwx9rbsc8m5l0i6";
   };
 

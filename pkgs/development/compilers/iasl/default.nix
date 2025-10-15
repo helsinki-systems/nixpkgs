@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "iasl-20130117";
 
   src = fetchurl {
-    url = http://www.acpica.org/download/acpica-unix-20130117.tar.gz;
+    url = "http://www.acpica.org/download/acpica-unix-20130117.tar.gz";
     sha256 = "1zils7l7gnkbbl8916dlhvij1g625ryb7769zhzffn3flshfdivh";
   };
 

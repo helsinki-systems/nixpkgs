@@ -10,7 +10,7 @@ stdenv.mkDerivation {
   name = "ocaml-sexplib-108.08.00";
 
   src = fetchurl {
-    url = https://ocaml.janestreet.com/ocaml-core/108.08.00/individual/sexplib-108.08.00.tar.gz;
+    url = "https://ocaml.janestreet.com/ocaml-core/108.08.00/individual/sexplib-108.08.00.tar.gz";
     sha256 = "11z1k1d7dbb5m957klgalimpr0r602xp5zkkbgbffib1bphasarg";
   };
 

@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "ocaml-safepass-1.3";
   src = fetchurl {
-    url = http://forge.ocamlcore.org/frs/download.php/1432/ocaml-safepass-1.3.tgz;
+    url = "http://forge.ocamlcore.org/frs/download.php/1432/ocaml-safepass-1.3.tgz";
     sha256 = "0lb8xbpyc5d1zml7s7mmcr6y2ipwdp7qz73lkv9asy7dyi6cj15g";
   };
 

@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "avr8-burn-omat-2.1.2";
 
   src = fetchurl {
-    url = http://avr8-burn-o-mat.aaabbb.de/AVR8_Burn-O-Mat_2_1_2.zip;
+    url = "http://avr8-burn-o-mat.aaabbb.de/AVR8_Burn-O-Mat_2_1_2.zip";
     sha256 = "1sik243xqx7kbdddcq3va8h8q2wijf9ffhgp752hx725x3pjh9ss";
   };
 

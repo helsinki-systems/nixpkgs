@@ -113,7 +113,7 @@ in
     };
   }).override {
     patches = [ (fetchpatch {
-      url = https://github.com/Eldorados/script.module.urlresolver/pull/355.patch;
+      url = "https://github.com/Eldorados/script.module.urlresolver/pull/355.patch";
       sha256 = "0q1n2sqdjqq32202s6ifh81c9a1l5a7yfkkf170dbkiajvxglz1m";
     }) ];
   };
@@ -139,7 +139,7 @@ in
     };
   }).override {
     patches = [ (fetchpatch {
-      url = https://github.com/tknorris/salts/pull/115.patch;
+      url = "https://github.com/tknorris/salts/pull/115.patch";
       sha256 = "157dhp049mw8lna6cg3x549jv2b9zq1vj6v94mil65q2hlw09sjd";
     }) ];
   };

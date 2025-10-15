@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   name = "gnunet-svn-${rev}";
 
   src = fetchsvn {
-    url =  https://gnunet.org/svn/gnunet;
+    url =  "https://gnunet.org/svn/gnunet";
     inherit rev;
     sha256 = "0zhxvvj5rbhca2ykfx3g93dv94xyhqsnj011a6gql7zd5vfhaf6v";
   };

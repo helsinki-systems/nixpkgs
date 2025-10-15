@@ -10,7 +10,7 @@ stdenv.mkDerivation {
   name = "camlp5${if transitional then "_transitional" else ""}-6.14";
 
   src = fetchurl {
-    url = http://camlp5.gforge.inria.fr/distrib/src/camlp5-6.14.tgz;
+    url = "http://camlp5.gforge.inria.fr/distrib/src/camlp5-6.14.tgz";
     sha256 = "1ql04iyvclpyy9805kpddc4ndjb5d0qg4shhi2fc6bixi49fvy89";
   };
 

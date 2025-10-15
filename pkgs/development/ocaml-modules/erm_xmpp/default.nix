@@ -3,7 +3,7 @@
 let
   version = "0.2";
   disable-tests = fetchurl {
-    url = https://raw.githubusercontent.com/ocaml/opam-repository/master/packages/erm_xmpp/erm_xmpp.0.2/files/disable_tests.patch;
+    url = "https://raw.githubusercontent.com/ocaml/opam-repository/master/packages/erm_xmpp/erm_xmpp.0.2/files/disable_tests.patch";
     sha256 = "09d8630nmx2x8kb8ap1zmsb93zs14cqg7ga1gmdl92jvsjxbhgc1";
   };
 in

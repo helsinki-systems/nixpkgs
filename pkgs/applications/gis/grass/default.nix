@@ -6,7 +6,7 @@
 stdenv.mkDerivation {
   name = "grass-7.0.2";
   src = fetchurl {
-    url = http://grass.osgeo.org/grass70/source/grass-7.0.2.tar.gz;
+    url = "http://grass.osgeo.org/grass70/source/grass-7.0.2.tar.gz";
     sha256 = "02qrdgn46gxr60amxwax4b8fkkmhmjxi6qh4yfvpbii6ai6diarf";
   };
 

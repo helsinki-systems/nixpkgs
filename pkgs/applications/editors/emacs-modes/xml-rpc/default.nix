@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   name = "xml-rpc-1.6.8";
 
   src = fetchurl {
-    url = https://launchpadlibrarian.net/40270196/xml-rpc.el;
+    url = "https://launchpadlibrarian.net/40270196/xml-rpc.el";
     sha256 = "0i8hf90yhrjwqrv7q1f2g1cff6ld8apqkka42fh01wkdys1fbm7b";
   };
 

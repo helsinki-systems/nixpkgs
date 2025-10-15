@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   enableParallelBuilding = true;
 
   src = fetchurl {
-    url = http://libdnet.googlecode.com/files/libdnet-1.12.tgz;
+    url = "http://libdnet.googlecode.com/files/libdnet-1.12.tgz";
     sha1 = "71302be302e84fc19b559e811951b5d600d976f8";
   };
 

@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   name = "ocaml-tuntap-1.3.0";
 
   src = fetchzip {
-    url = https://github.com/mirage/ocaml-tuntap/archive/v1.3.0.tar.gz;
+    url = "https://github.com/mirage/ocaml-tuntap/archive/v1.3.0.tar.gz";
     sha256 = "1cmd4kky875ks02gm2nb8yr80hmlfcnjdfyc63hvkh49acssy3d5";
   };
 

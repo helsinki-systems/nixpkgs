@@ -11,7 +11,7 @@ assert stdenv.lib.versionAtLeast ocaml_version "3.12";
 stdenv.mkDerivation {
   name = "${pname}-${version}";
   src = fetchurl {
-    url = https://forge.ocamlcore.org/frs/download.php/1479/lablgtk-2.18.3.tar.gz;
+    url = "https://forge.ocamlcore.org/frs/download.php/1479/lablgtk-2.18.3.tar.gz";
     sha256 = "1bybn3jafxf4cx25zvn8h2xj9agn1xjbn7j3ywxxqx6az7rfnnwp";
   };
 

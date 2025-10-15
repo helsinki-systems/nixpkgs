@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
   version = "0.4";
 
   src = fetchgit {
-    url = https://github.com/GavinSmith0123/crackxls2003.git;
+    url = "https://github.com/GavinSmith0123/crackxls2003.git";
     rev = "refs/tags/v${version}";
     sha256 = "0q5jl7hcds3f0rhly3iy4fhhbyh9cdrfaw7zdrazzf1wswwhyssz";
   };

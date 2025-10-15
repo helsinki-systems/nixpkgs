@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   name = "pjsip-2.1";
 
   src = fetchurl {
-    url = http://www.pjsip.org/release/2.1/pjproject-2.1.tar.bz2;
+    url = "http://www.pjsip.org/release/2.1/pjproject-2.1.tar.bz2";
     md5 = "310eb63638dac93095f6a1fc8ee1f578";
   };
 

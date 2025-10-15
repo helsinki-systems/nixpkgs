@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   name = "ocaml-enumerate-111.08.00";
 
   src = fetchurl {
-    url = https://ocaml.janestreet.com/ocaml-core/111.08.00/individual/enumerate-111.08.00.tar.gz;
+    url = "https://ocaml.janestreet.com/ocaml-core/111.08.00/individual/enumerate-111.08.00.tar.gz";
     sha256 = "0b6mx5p01lcpimvak4wx6aj2119707wsfzd83rwgb91bhpgzh156";
   };
 

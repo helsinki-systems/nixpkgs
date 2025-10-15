@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   name = "reaver-wps-1.4";
 
   src = fetchurl {
-    url = http://reaver-wps.googlecode.com/files/reaver-1.4.tar.gz;
+    url = "http://reaver-wps.googlecode.com/files/reaver-1.4.tar.gz";
     sha256 = "0bdjai4p8xbsw8zdkkk43rgsif79x0nyx4djpyv0mzh59850blxd";
   };
 

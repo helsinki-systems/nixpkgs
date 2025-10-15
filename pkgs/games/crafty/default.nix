@@ -10,17 +10,17 @@ stdenv.mkDerivation rec {
   };
 
   bookBin = fetchurl {
-    url = http://www.craftychess.com/book.bin;
+    url = "http://www.craftychess.com/book.bin";
     sha256 = "1j8f33iks4xf19bpv2mpvxrnlm5w1f5fbnxcrxasg9p7w600wyb8";
   };
 
   startPgn = fetchurl {
-    url = http://www.cis.uab.edu/hyatt/crafty/pgn/start.pgn;
+    url = "http://www.cis.uab.edu/hyatt/crafty/pgn/start.pgn";
     sha256 = "08c066acqwgr19jkaizdbzdpcm3ld5nsixv5wp9pnc37b8w9f0vm";
   };
 
   enormousPgn = stdenv.lib.optionalString fullVariant (fetchurl {
-    url = http://www.cis.uab.edu/hyatt/crafty/pgn/enormous.zip;
+    url = "http://www.cis.uab.edu/hyatt/crafty/pgn/enormous.zip";
     sha256 = "001574gz3881xfvhlc2wy6pg66c4sh0q2ms42swwvq0l80syz6y2";
   });
 

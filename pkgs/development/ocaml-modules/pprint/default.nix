@@ -7,7 +7,7 @@ stdenv.mkDerivation {
   name = "ocaml-pprint-20140424";
 
   src = fetchurl {
-    url = http://gallium.inria.fr/~fpottier/pprint/pprint-20140424.tar.gz;
+    url = "http://gallium.inria.fr/~fpottier/pprint/pprint-20140424.tar.gz";
     sha256 = "0sc9q89dnyarcg24czyhr6ams0ylqvia3745s6rfwd2nldpygsdk";
   };
 

@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
   name = "vice-2.2";
 
   src = fetchurl {
-    url = http://www.zimmers.net/anonftp/pub/cbm/crossplatform/emulators/VICE/vice-2.2.tar.gz;
+    url = "http://www.zimmers.net/anonftp/pub/cbm/crossplatform/emulators/VICE/vice-2.2.tar.gz";
     sha256 = "0l8mp9ybx494fdqgr1ps4x3c3qzms4yyg4hzcn3ihzy92zw1nn2x";
   };
 

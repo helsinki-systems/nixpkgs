@@ -5,7 +5,7 @@ assert stdenv.lib.versionAtLeast (stdenv.lib.getVersion ocaml) "4.02";
 stdenv.mkDerivation {
   name = "ocaml-lablgtk-extras-1.5";
   src = fetchurl {
-    url = https://forge.ocamlcore.org/frs/download.php/1453/lablgtkextras-1.5.tar.gz;
+    url = "https://forge.ocamlcore.org/frs/download.php/1453/lablgtkextras-1.5.tar.gz";
     sha256 = "1bgflgadmy2nqnqjf34zja0jy6f9wpqq8x22qcfilj9g8c9wkrmi";
   };
 

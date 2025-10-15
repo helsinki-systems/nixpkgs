@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
   name = "libixp-${version}";
 
   src = fetchhg {
-    url = https://code.google.com/p/libixp/;
+    url = "https://code.google.com/p/libixp/";
     sha256 = "1nbnh2ff18fsrs28mx4bfgncq1d1nw5dd6iwhwvv5x2g9w7q5vvj";
     inherit rev;
   };

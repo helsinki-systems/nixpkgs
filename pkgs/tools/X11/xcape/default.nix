@@ -14,7 +14,7 @@ stdenv.mkDerivation {
   inherit (s) name version;
   inherit buildInputs;
   src = fetchgit {
-    url = https://github.com/alols/xcape;
+    url = "https://github.com/alols/xcape";
     rev = "f3802fc086ce9d961d644a5d29ad5b650db56215";
     sha256 = "05mm4ap69ncwl4hhzf2dvbazqxjf27477cd3chpfc7qi7srqasvz";
   };

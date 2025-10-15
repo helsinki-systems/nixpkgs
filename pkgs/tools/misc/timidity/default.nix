@@ -44,7 +44,7 @@ composableDerivation.composableDerivation {} {
   };
 
   instruments = fetchurl {
-    url = http://www.csee.umbc.edu/pub/midia/instruments.tar.gz;
+    url = "http://www.csee.umbc.edu/pub/midia/instruments.tar.gz";
     sha256 = "0lsh9l8l5h46z0y8ybsjd4pf6c22n33jsjvapfv3rjlfnasnqw67";
   };
 

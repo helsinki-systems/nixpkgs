@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   name = "fira-mono-3.206";
 
   src = fetchurl {
-    url = http://www.carrois.com/downloads/fira_mono_3_2/FiraMonoFonts3206.zip;
+    url = "http://www.carrois.com/downloads/fira_mono_3_2/FiraMonoFonts3206.zip";
     sha256 = "1z65x0dw5dq6rs6p9wyfrir50rlh95vgzsxr8jcd40nqazw4jhpi";
   };
 

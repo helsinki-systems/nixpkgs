@@ -8,7 +8,7 @@ stdenv.mkDerivation {
   name = "camomile-0.8.5";
 
   src = fetchurl {
-    url = https://github.com/yoriyuki/Camomile/releases/download/rel-0.8.5/camomile-0.8.5.tar.bz2;
+    url = "https://github.com/yoriyuki/Camomile/releases/download/rel-0.8.5/camomile-0.8.5.tar.bz2";
     sha256 = "003ikpvpaliy5hblhckfmln34zqz0mk3y2m1fqvbjngh3h2np045";
   };
 
