@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
   meta = with stdenv.lib; {
     description = "A Soundcard Packet TNC, APRS Digipeater, IGate, APRStt gateway.";
     # On the page: This page will be disappearing on October 8, 2015.
-    homepage = https://home.comcast.net/~wb2osz/site/;
+    homepage = "https://home.comcast.net/~wb2osz/site/";
     license = licenses.gpl2;
     platforms = platforms.linux;
     maintainers = [ maintainers.the-kenny ];

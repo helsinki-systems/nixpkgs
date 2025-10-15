@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
   patches = [ ./qgpgme.patch ];
 
   meta = {
-    homepage = http://kmymoney2.sourceforge.net/;
+    homepage = "http://kmymoney2.sourceforge.net/";
     description = "KDE personal money manager";
     inherit (kdelibs.meta) platforms maintainers;
   };

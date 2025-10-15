@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Program to run certain classic graphical point-and-click adventure games (such as Monkey Island)";
-    homepage = http://www.scummvm.org/;
+    homepage = "http://www.scummvm.org/";
   };
 }
 

@@ -22,7 +22,7 @@ goPackages.buildGoPackage rec {
   meta = with lib; {
     description = "An open-source distributed time series database";
     license = licenses.mit;
-    homepage = https://influxdb.com/;
+    homepage = "https://influxdb.com/";
     maintainers = with maintainers; [ offline ];
     platforms = platforms.linux;
   };

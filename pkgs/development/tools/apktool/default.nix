@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A tool for reverse engineering Android apk files";
-    homepage    = https://code.google.com/p/android-apktool/;
+    homepage    = "https://code.google.com/p/android-apktool/";
     license     = licenses.asl20;
     maintainers = with maintainers; [ offline ];
   };

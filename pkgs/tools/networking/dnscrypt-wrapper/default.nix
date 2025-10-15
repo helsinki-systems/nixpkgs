@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A tool for adding dnscrypt support to any name resolver";
-    homepage = http://dnscrypt.org/;
+    homepage = "http://dnscrypt.org/";
     license = stdenv.lib.licenses.gpl2;
     maintainers = with stdenv.lib.maintainers; [ tstrobel ];
     platforms = stdenv.lib.platforms.linux;

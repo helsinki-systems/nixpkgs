@@ -4,7 +4,7 @@ fetchurl: {
   name = "evince-3.18.2";
 
   src = fetchurl {
-    url = mirror://gnome/sources/evince/3.18/evince-3.18.2.tar.xz;
+    url = "mirror://gnome/sources/evince/3.18/evince-3.18.2.tar.xz";
     sha256 = "42ad6c7354d881a9ecab136ea84ff867acb942605bcfac48b6c12e1c2d8ecb17";
   };
 }

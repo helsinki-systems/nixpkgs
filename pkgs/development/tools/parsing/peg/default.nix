@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://piumarta.com/software/peg/;
+    homepage = "http://piumarta.com/software/peg/";
     platforms = stdenv.lib.platforms.all;
     maintainers = [ stdenv.lib.maintainers.urkud ];
   };

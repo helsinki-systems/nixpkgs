@@ -4,7 +4,7 @@ fetchurl: {
   name = "gnome-music-3.18.2";
 
   src = fetchurl {
-    url = mirror://gnome/sources/gnome-music/3.18/gnome-music-3.18.2.tar.xz;
+    url = "mirror://gnome/sources/gnome-music/3.18/gnome-music-3.18.2.tar.xz";
     sha256 = "81b6ae8b4193774a1dc05e77c59ad8ff5e7debc0aea30ce2ecd13b2ceda10bff";
   };
 }

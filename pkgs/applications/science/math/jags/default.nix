@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "Just Another Gibbs Sampler";
     license     = "GPL2";
-    homepage    = http://www-ice.iarc.fr/~martyn/software/jags/;
+    homepage    = "http://www-ice.iarc.fr/~martyn/software/jags/";
     maintainers = [stdenv.lib.maintainers.andres];
   };
 }

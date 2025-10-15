@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   nativeBuildInputs = [ pkgconfig perl ];
 
   meta = {
-    homepage = http://hunspell.sourceforge.net/;
+    homepage = "http://hunspell.sourceforge.net/";
     description = "Thesaurus library from Hunspell project";
     inherit (hunspell.meta) platforms;
   };

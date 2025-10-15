@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "Norton/Total Commander clone for KDE";
     license = "GPL";
-    homepage = http://www.krusader.org;
+    homepage = "http://www.krusader.org";
     maintainers = with stdenv.lib.maintainers; [ sander urkud ];
     inherit (kdelibs.meta) platforms;
   };

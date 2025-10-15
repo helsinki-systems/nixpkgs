@@ -21,7 +21,7 @@ rec {
     '';
 
     meta = {
-      homepage = http://www.program-transformation.org/Sdf/SdfBundle;
+      homepage = "http://www.program-transformation.org/Sdf/SdfBundle";
       meta = "Tools for the SDF2 Syntax Definition Formalism, including the `pgen' parser generator and `sglr' parser";
     };
   } // ( if stdenv.system == "i686-cygwin" then { CFLAGS = "-O2 -Wl,--stack=0x2300000"; } else {} ) ) ;
@@ -38,7 +38,7 @@ rec {
     buildInputs = [pkgconfig aterm sdf getopt];
 
     meta = {
-      homepage = http://strategoxt.org/;
+      homepage = "http://strategoxt.org/";
       meta = "A language and toolset for program transformation";
     };
   };
@@ -54,7 +54,7 @@ rec {
     buildInputs = [pkgconfig aterm sdf strategoxt getopt readline ncurses];
 
     meta = {
-      homepage = http://strategoxt.org/;
+      homepage = "http://strategoxt.org/";
       meta = "A language and toolset for program transformation";
     };
   };
@@ -75,7 +75,7 @@ rec {
     configureFlags = "--enable-xtc --with-strategoxt=${strategoxt}";
 
     meta = {
-      homepage = http://strategoxt.org/Stratego/JavaFront;
+      homepage = "http://strategoxt.org/Stratego/JavaFront";
       meta = "Tools for generating or transforming Java code";
     };
   } // ( if stdenv.system == "i686-cygwin" then { CFLAGS = "-O2"; } else {} ) ) ;
@@ -92,7 +92,7 @@ rec {
     buildInputs = [jdk pkgconfig aterm sdf strategoxt javafront];
 
     meta = {
-      homepage = http://strategoxt.org/Stratego/TheDryad;
+      homepage = "http://strategoxt.org/Stratego/TheDryad";
       meta = "A collection of tools for developing transformation systems for Java source and bytecode";
     };
   };

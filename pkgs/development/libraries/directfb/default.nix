@@ -54,7 +54,7 @@ stdenv.mkDerivation {
       power to embedded systems and sets a new standard for graphics under
       Linux.
     '';
-    homepage = http://directfb.org/;
+    homepage = "http://directfb.org/";
     license = licenses.lgpl21;
     platforms = platforms.linux;
     maintainers = [ maintainers.bjornfor ];

@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
   ];
 
   meta = {
-    homepage = http://xmlsoft.org/XSLT/;
+    homepage = "http://xmlsoft.org/XSLT/";
     description = "A C library and tools to do XSL transformations";
     license = "bsd";
     platforms = stdenv.lib.platforms.unix;

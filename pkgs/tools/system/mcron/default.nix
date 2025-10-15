@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
       when jobs should be run.  Mcron was written by Dale Mellor.
     '';
 
-    homepage = http://www.gnu.org/software/mcron/;
+    homepage = "http://www.gnu.org/software/mcron/";
 
     license = stdenv.lib.licenses.gpl3Plus;
   };

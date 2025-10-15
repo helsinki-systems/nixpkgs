@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A BiTtorrent library used by KTorrent";
-    homepage = http://ktorrent.pwsp.net;
+    homepage = "http://ktorrent.pwsp.net";
     inherit (kdelibs.meta) platforms;
   };
 }

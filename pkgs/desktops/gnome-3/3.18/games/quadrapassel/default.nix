@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Apps/Quadrapassel;
+    homepage = "https://wiki.gnome.org/Apps/Quadrapassel";
     description = "Classic falling-block game, Tetris";
     maintainers = gnome3.maintainers;
     license = licenses.gpl2;

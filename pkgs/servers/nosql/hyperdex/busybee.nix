@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A high-performance messaging layer";
-    homepage = https://github.com/rescrv/busybee;
+    homepage = "https://github.com/rescrv/busybee";
     license = licenses.bsd3;
   };
 }

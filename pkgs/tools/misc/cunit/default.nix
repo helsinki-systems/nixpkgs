@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
       with a flexible variety of user interfaces.
     '';
 
-    homepage = http://cunit.sourceforge.net/;
+    homepage = "http://cunit.sourceforge.net/";
 
     license = stdenv.lib.licenses.lgpl2;
   };

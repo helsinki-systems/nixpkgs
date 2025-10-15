@@ -48,7 +48,7 @@ stdenv.mkDerivation rec {
   meta = with stdenv.lib; {
     description = "Open source implementation of container cluster management";
     license = licenses.asl20;
-    homepage = https://github.com/GoogleCloudPlatform;
+    homepage = "https://github.com/GoogleCloudPlatform";
     maintainers = with maintainers; [offline];
     platforms = [ "x86_64-linux" ];
   };

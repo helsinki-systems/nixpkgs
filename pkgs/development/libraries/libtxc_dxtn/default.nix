@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ autoreconfHook mesa ];
 
   meta = {
-    homepage = http://dri.freedesktop.org/wiki/S3TC;
+    homepage = "http://dri.freedesktop.org/wiki/S3TC";
     repositories.git = git://people.freedesktop.org/~mareko/libtxc_dxtn;
   };
 }

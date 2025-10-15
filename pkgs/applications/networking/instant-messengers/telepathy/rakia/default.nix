@@ -14,6 +14,6 @@ stdenv.mkDerivation rec {
   buildInputs = [ libxml2 dbus_glib telepathy_glib sofia_sip];
 
   meta = {
-    homepage = http://telepathy.freedesktop.org;
+    homepage = "http://telepathy.freedesktop.org";
   };
 }

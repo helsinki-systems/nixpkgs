@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "A curses interface to gdb";
 
-    homepage = https://cgdb.github.io/;
+    homepage = "https://cgdb.github.io/";
 
     repositories.git = git://github.com/cgdb/cgdb.git;
 

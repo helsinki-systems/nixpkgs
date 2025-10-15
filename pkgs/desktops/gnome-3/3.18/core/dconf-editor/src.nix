@@ -4,7 +4,7 @@ fetchurl: {
   name = "dconf-editor-3.18.2";
 
   src = fetchurl {
-    url = mirror://gnome/sources/dconf-editor/3.18/dconf-editor-3.18.2.tar.xz;
+    url = "mirror://gnome/sources/dconf-editor/3.18/dconf-editor-3.18.2.tar.xz";
     sha256 = "a7957f5274b5b20c2dfdead5ebf42321c82fae1326465413cbafb61ede89bc75";
   };
 }

@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Simple feedback button/dialog for KDE 4.x applications";
-    homepage = https://projects.kde.org/projects/playground/libs/liblikeback;
+    homepage = "https://projects.kde.org/projects/playground/libs/liblikeback";
     maintainers = [ stdenv.lib.maintainers.urkud ];
     inherit (kdelibs.meta) platforms;
   };

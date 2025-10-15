@@ -15,7 +15,7 @@ buildRustPackage rec {
 
   meta = with stdenv.lib; {
     description = "A tool for formatting Rust code according to style guidelines";
-    homepage = https://github.com/nrc/rustfmt;
+    homepage = "https://github.com/nrc/rustfmt";
     license = with licenses; [ mit asl20 ];
     maintainers = [ maintainers.globin ];
   };

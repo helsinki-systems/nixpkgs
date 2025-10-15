@@ -4,7 +4,7 @@ fetchurl: {
   name = "gnome-keyring-3.18.3";
 
   src = fetchurl {
-    url = mirror://gnome/sources/gnome-keyring/3.18/gnome-keyring-3.18.3.tar.xz;
+    url = "mirror://gnome/sources/gnome-keyring/3.18/gnome-keyring-3.18.3.tar.xz";
     sha256 = "3f670dd61789bdda75b9c9e31e289bf7b1d23ba012433474790081ba7dc0ed98";
   };
 }

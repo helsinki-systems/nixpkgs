@@ -26,7 +26,7 @@ in stdenv.mkDerivation rec {
   version = "20150710";
 
   src = fetchgit {
-    url = https://gerrit.wikimedia.org/r/p/openzim.git;
+    url = "https://gerrit.wikimedia.org/r/p/openzim.git";
     rev = "165eab3e154c60b5b6436d653dc7c90f56cf7456";
     sha256 = "0x0d3rx6zcc8k66nqkacmwdvslrz70h9bliqawzv90ribq3alb0q";
   };
@@ -37,7 +37,7 @@ in stdenv.mkDerivation rec {
 
   meta = {
     description = "A tool to serve ZIM files using HTTP";
-    homepage = http://git.wikimedia.org/log/openzim;
+    homepage = "http://git.wikimedia.org/log/openzim";
     maintainers = with stdenv.lib.maintainers; [ robbinch ];
   };
 }

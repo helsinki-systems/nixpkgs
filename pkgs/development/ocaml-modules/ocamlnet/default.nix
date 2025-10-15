@@ -8,7 +8,7 @@ stdenv.mkDerivation {
   name = "ocamlnet-3.7.7";
 
   src = fetchurl {
-    url = http://download.camlcity.org/download/ocamlnet-3.7.7.tar.gz;
+    url = "http://download.camlcity.org/download/ocamlnet-3.7.7.tar.gz";
     sha256 = "02bnks9jshpq9nqva5lky5hl009yp19cgvf1izjca620hx54d3jv";
   };
 
@@ -39,7 +39,7 @@ stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = http://projects.camlcity.org/projects/ocamlnet.html;
+    homepage = "http://projects.camlcity.org/projects/ocamlnet.html";
     description = "A library implementing Internet protocols (http, cgi, email, etc.) for OCaml";
     license = "Most Ocamlnet modules are released under the zlib/png license. The HTTP server module Nethttpd is, however, under the GPL.";
     platforms = ocaml.meta.platforms;

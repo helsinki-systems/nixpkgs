@@ -101,7 +101,7 @@ stdenv.mkDerivation {
   dontPatchELF = true;
 
   meta = {
-    homepage = https://www.spotify.com/;
+    homepage = "https://www.spotify.com/";
     description = "Play music from the Spotify music service";
     license = stdenv.lib.licenses.unfree;
     maintainers = with stdenv.lib.maintainers; [ eelco ftrvxmtrx ];

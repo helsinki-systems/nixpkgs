@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Image viewing and manipulation programs";
-    homepage = https://www.kraxel.org/blog/linux/fbida/;
+    homepage = "https://www.kraxel.org/blog/linux/fbida/";
     license = licenses.gpl2;
     maintainers = with maintainers; [ pSub ];
   };

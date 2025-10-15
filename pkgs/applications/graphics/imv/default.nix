@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A command line image viewer for tiling window managers";
-    homepage    = https://github.com/eXeC64/imv; 
+    homepage    = "https://github.com/eXeC64/imv"; 
     license     = licenses.gpl2;
     maintainers = with maintainers; [ rnhmjoj ];
     platforms   = platforms.unix;

@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "McCabe-style function complexity and line counting for C and C++";
-    homepage = http://www.parisc-linux.org/~bame/pmccabe/;
+    homepage = "http://www.parisc-linux.org/~bame/pmccabe/";
     license = stdenv.lib.licenses.gpl2Plus;
 
     longDescription = ''

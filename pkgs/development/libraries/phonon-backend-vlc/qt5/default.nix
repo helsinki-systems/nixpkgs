@@ -22,7 +22,7 @@ stdenv.mkDerivation {
   cmakeFlags = ["-DPHONON_BUILD_PHONON4QT5=ON"];
 
   meta = {
-    homepage = http://phonon.kde.org/;
+    homepage = "http://phonon.kde.org/";
     description = "VideoLAN backend for Phonon multimedia framework";
     platforms = platforms.linux;
     maintainers = with maintainers; [ ttuegel urkud ];

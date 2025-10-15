@@ -5,7 +5,7 @@
 let
 
   nssPEM = fetchurl {
-    url = http://dev.gentoo.org/~polynomial-c/mozilla/nss-3.15.4-pem-support-20140109.patch.xz;
+    url = "http://dev.gentoo.org/~polynomial-c/mozilla/nss-3.15.4-pem-support-20140109.patch.xz";
     sha256 = "10ibz6y0hknac15zr6dw4gv9nb5r5z9ym6gq18j3xqx7v7n3vpdw";
   };
 
@@ -82,7 +82,7 @@ in stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = https://developer.mozilla.org/en-US/docs/NSS;
+    homepage = "https://developer.mozilla.org/en-US/docs/NSS";
     description = "A set of libraries for development of security-enabled client and server applications";
     platforms = stdenv.lib.platforms.all;
   };

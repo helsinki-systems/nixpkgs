@@ -110,7 +110,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://www.argyllcms.com;
+    homepage = "http://www.argyllcms.com";
     description = "Color management system (compatible with ICC)";
     license = licenses.gpl3;
     maintainers = [ maintainers.rickynils ];

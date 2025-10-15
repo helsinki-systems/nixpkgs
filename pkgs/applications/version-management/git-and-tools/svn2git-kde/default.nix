@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   name = "svn2git-kde-1.0.5";
 
   src = fetchgit {
-    url = http://git.gitorious.org/svn2git/svn2git.git;
+    url = "http://git.gitorious.org/svn2git/svn2git.git";
     rev = "149d6c6e14a1724c96999328683a9264fc508264";
     sha256 = "818673fe751b00a42b6ed3e78a783549fb09b5245a01dee47b3dded667bfc582";
   };

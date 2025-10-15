@@ -54,7 +54,7 @@ in stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Simplistic interactive filtering tool";
-    homepage = https://github.com/peco/peco;
+    homepage = "https://github.com/peco/peco";
     license = licenses.mit;
     # peco should work on Windows or other POSIX platforms, but the go package
     # declares only linux and darwin.

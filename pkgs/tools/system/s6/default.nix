@@ -34,7 +34,7 @@ in stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.skarnet.org/software/s6/;
+    homepage = "http://www.skarnet.org/software/s6/";
     description = "skarnet.org's small & secure supervision software suite";
     platforms = stdenv.lib.platforms.all;
     license = stdenv.lib.licenses.isc;

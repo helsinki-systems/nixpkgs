@@ -15,7 +15,7 @@ let
       inherit name version build src;
       product = "Studio";
       meta = with stdenv.lib; {
-        homepage = https://developer.android.com/sdk/installing/studio.html;
+        homepage = "https://developer.android.com/sdk/installing/studio.html";
         inherit description license;
         longDescription = ''
           Android development environment based on IntelliJ

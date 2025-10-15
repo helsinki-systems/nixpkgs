@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   cmakeFlags = [ "-DCMAKE_INSTALL_LIBDIR=lib" ];
 
   meta = {
-    homepage = http://phonon.kde.org/;
+    homepage = "http://phonon.kde.org/";
     description = "GStreamer backend for Phonon";
     platforms = stdenv.lib.platforms.linux;
   };  

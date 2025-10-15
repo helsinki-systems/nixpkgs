@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
     '';
 
   meta = {
-    homepage = http://jqueryui.com/;
+    homepage = "http://jqueryui.com/";
     description = "A library of JavaScript widgets and effects";
     platforms = stdenv.lib.platforms.all;
   };

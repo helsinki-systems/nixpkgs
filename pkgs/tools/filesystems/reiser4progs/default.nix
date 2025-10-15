@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     inherit version;
-    homepage = http://www.namesys.com/;
+    homepage = "http://www.namesys.com/";
     description = "Reiser4 utilities";
   };
 }

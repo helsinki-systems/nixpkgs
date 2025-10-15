@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
       The specification of the THEX algorithm is at:
       http://adc.sourceforge.net/draft-jchapweske-thex-02.html
     '';
-    homepage = http://tthsum.devs.nu/;
+    homepage = "http://tthsum.devs.nu/";
     license = licenses.gpl3Plus;
     maintainers = [ maintainers.ebzzry ];
     platforms = platforms.unix;

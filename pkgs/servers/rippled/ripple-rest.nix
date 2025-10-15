@@ -19,7 +19,7 @@ in nodePackages.buildNodePackage rec {
 
   meta = {
     description = " RESTful API for submitting payments and monitoring accounts on the Ripple Network";
-    homepage = https://github.com/ripple/ripple-rest;
+    homepage = "https://github.com/ripple/ripple-rest";
     maintainers = with maintainers; [ offline ];
     license = [ licenses.mit ];
   };

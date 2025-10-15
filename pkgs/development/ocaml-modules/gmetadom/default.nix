@@ -28,7 +28,7 @@ stdenv.mkDerivation {
   propagatedBuildInputs = [gdome2];
 
   meta = {
-    homepage = http://gmetadom.sourceforge.net/;
+    homepage = "http://gmetadom.sourceforge.net/";
     description = "A collection of librares, each library providing a DOM implementation";
     license = stdenv.lib.licenses.lgpl21Plus;
     maintainers = [ stdenv.lib.maintainers.roconnor ];

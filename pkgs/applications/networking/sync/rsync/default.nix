@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
   configureFlags = "--with-nobody-group=nogroup";
 
   meta = with stdenv.lib; {
-    homepage = http://rsync.samba.org/;
+    homepage = "http://rsync.samba.org/";
     description = "A fast incremental file transfer utility";
     license = licenses.gpl3Plus;
     platforms = platforms.unix;

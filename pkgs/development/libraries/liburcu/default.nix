@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Userspace RCU (read-copy-update) library";
-    homepage = http://lttng.org/urcu;
+    homepage = "http://lttng.org/urcu";
     license = licenses.lgpl21Plus;
     platforms = platforms.linux;
     maintainers = [ maintainers.bjornfor ];

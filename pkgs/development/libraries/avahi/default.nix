@@ -48,7 +48,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "mDNS/DNS-SD implementation";
-    homepage    = http://avahi.org;
+    homepage    = "http://avahi.org";
     license     = licenses.lgpl2Plus;
     platforms   = platforms.unix;
     maintainers = with maintainers; [ lovek323 ];

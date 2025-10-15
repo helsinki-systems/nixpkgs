@@ -424,7 +424,7 @@ let
     };
     meta = {
       description = "Diminishes the amount of space taken on the mode-line by Emacs minor modes";
-      homepage = http://www.eskimo.com/~seldon/;
+      homepage = "http://www.eskimo.com/~seldon/";
       license = gpl3Plus;
     };
   };
@@ -1345,7 +1345,7 @@ let
         Org-trello is an emacs minor mode that extends org-mode with
         Trello abilities.
       '';
-      homepage = https://org-trello.github.io/;
+      homepage = "https://org-trello.github.io/";
       license = gpl3Plus;
     };
   };

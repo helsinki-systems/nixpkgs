@@ -190,7 +190,7 @@ stdenv.mkDerivation ({
   '';
 
   meta = {
-    homepage = http://www.gnu.org/software/libc/;
+    homepage = "http://www.gnu.org/software/libc/";
     description = "The GNU C Library"
       + stdenv.lib.optionalString (hurdHeaders != null) ", for GNU/Hurd";
 

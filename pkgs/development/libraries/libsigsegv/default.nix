@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   doCheck = false;
 
   meta = {
-    homepage = http://www.gnu.org/software/libsigsegv/;
+    homepage = "http://www.gnu.org/software/libsigsegv/";
     description = "Library to handle page faults in user mode";
 
     longDescription = ''

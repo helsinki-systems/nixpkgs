@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "stun-0.96.dfsg-5";
 
   src = fetchurl {
-    url = mirror://debian/pool/main/s/stun/stun_0.96.dfsg.orig.tar.gz;
+    url = "mirror://debian/pool/main/s/stun/stun_0.96.dfsg.orig.tar.gz";
     sha256 = "09bnb3p6h8fhsskdp4wrl9hhml1va0xb28fkwgyzs32q2333pgz4";
   };
 
@@ -22,13 +22,13 @@ stdenv.mkDerivation {
   '';
 
   patches = fetchurl {
-    url = mirror://debian/pool/main/s/stun/stun_0.96.dfsg-5.diff.gz;
+    url = "mirror://debian/pool/main/s/stun/stun_0.96.dfsg-5.diff.gz";
     sha256 = "0a6iig58zykdab89b99v1w4fn3gf2d8wz9c01vx2zvlg22gyji0l";
   };
 
   meta = {
     description = "Stun server and test client";
-    homepage = http://sourceforge.net/projects/stun/;
+    homepage = "http://sourceforge.net/projects/stun/";
     license = stdenv.lib.licenses.vsl10;
     maintainers = [ stdenv.lib.maintainers.marcweber ];
     platforms = stdenv.lib.platforms.linux;

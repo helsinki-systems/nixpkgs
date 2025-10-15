@@ -15,7 +15,7 @@ stdenv.mkDerivation {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://sourceforge.net/adobe/sourcesans;
+    homepage = "http://sourceforge.net/adobe/sourcesans";
     description = "A set of OpenType fonts designed by Adobe for UIs";
     license = licenses.ofl;
     platforms = platforms.all;

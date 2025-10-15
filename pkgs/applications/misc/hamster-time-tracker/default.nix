@@ -41,7 +41,7 @@ buildPythonPackage rec {
 
   meta = with stdenv.lib; {
     description = "Time tracking application";
-    homepage = https://projecthamster.wordpress.com/;
+    homepage = "https://projecthamster.wordpress.com/";
     license = licenses.gpl3;
     platforms = platforms.all;
     maintainers = [ maintainers.bjornfor ];

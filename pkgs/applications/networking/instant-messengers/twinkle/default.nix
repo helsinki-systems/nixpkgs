@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
   #enableParallelBuilding = true; # fatal error: messageform.h: No such file or directory
 
   meta = with stdenv.lib; {
-    homepage = http://www.twinklephone.com/;
+    homepage = "http://www.twinklephone.com/";
     license = licenses.gpl2Plus;
     maintainers = [ maintainers.marcweber ];
     platforms = platforms.linux;

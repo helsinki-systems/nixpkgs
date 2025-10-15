@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
     '';
 
   meta = with stdenv.lib; {
-    homepage = http://upperbounds.net;
+    homepage = "http://upperbounds.net";
     description = "A set of fixed-width screen fonts that are designed for code listings";
     license = licenses.mit;
     platforms = platforms.all;

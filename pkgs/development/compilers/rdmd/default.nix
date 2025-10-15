@@ -21,7 +21,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Wrapper for D language compiler";
-    homepage = http://dlang.org/rdmd.html;
+    homepage = "http://dlang.org/rdmd.html";
     license = lib.licenses.boost;
     platforms = stdenv.lib.platforms.unix;
   };

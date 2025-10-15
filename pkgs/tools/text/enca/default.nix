@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ recode libiconv ];
 
   meta = {
-    homepage = http://freecode.com/projects/enca;
+    homepage = "http://freecode.com/projects/enca";
     description = "Detects the encoding of text files and reencodes them";
 
     longDescription = ''

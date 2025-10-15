@@ -34,7 +34,7 @@ in stdenv.mkDerivation {
   meta = {
     inherit version;
     description = "Kernel-based automounter";
-    homepage = http://www.linux-consulting.com/Amd_AutoFS/autofs.html;
+    homepage = "http://www.linux-consulting.com/Amd_AutoFS/autofs.html";
     license = stdenv.lib.licenses.gpl2;
     executables = [ "automount" ];
   };

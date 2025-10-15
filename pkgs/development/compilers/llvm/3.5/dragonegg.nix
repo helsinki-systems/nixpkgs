@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://dragonegg.llvm.org/;
+    homepage = "http://dragonegg.llvm.org/";
     description = "gcc plugin that replaces gcc's optimizers and code generators by those in LLVM";
     license = stdenv.lib.licenses.gpl2Plus;
     maintainers = with stdenv.lib.maintainers; [viric];

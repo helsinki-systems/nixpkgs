@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
       between the two. One of the major design goals of psd is a completely
       transparent user experience.
     '';
-    homepage = https://github.com/graysky2/profile-sync-daemon;
+    homepage = "https://github.com/graysky2/profile-sync-daemon";
     downloadPage = https://github.com/graysky2/profile-sync-daemon/releases;
     license = licenses.mit;
     maintainers = [ maintainers.prikhi ];

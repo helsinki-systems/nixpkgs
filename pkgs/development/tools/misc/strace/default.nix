@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ libunwind ]; # support -k
 
   meta = with stdenv.lib; {
-    homepage = http://strace.sourceforge.net/;
+    homepage = "http://strace.sourceforge.net/";
     description = "A system call tracer for Linux";
     license = licenses.bsd3;
     platforms = platforms.linux;

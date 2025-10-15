@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
   ];
 
   meta = {
-    homepage = http://code.google.com/p/tint2;
+    homepage = "http://code.google.com/p/tint2";
     license = stdenv.lib.licenses.gpl2;
     description = "A simple panel/taskbar unintrusive and light (memory / cpu / aestetic)";
     platforms = stdenv.lib.platforms.linux;

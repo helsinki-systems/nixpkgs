@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
 
   meta = {
       description = "A patched fork of the original dmenu - an efficient dynamic menu for X";
-      homepage = https://bitbucket.org/melek/dmenu2;
+      homepage = "https://bitbucket.org/melek/dmenu2";
       license = stdenv.lib.licenses.mit;
       maintainers = with maintainers; [ cstrahan ];
       platforms = platforms.all;

@@ -72,7 +72,7 @@ stdenv.mkDerivation rec {
       username/password combinations that you use.
     '';
 
-    homepage = http://passwordsafe.sourceforge.net/;
+    homepage = "http://passwordsafe.sourceforge.net/";
     maintainers = with maintainers; [ pjones ];
     platforms = platforms.linux;
     license = licenses.artistic2;

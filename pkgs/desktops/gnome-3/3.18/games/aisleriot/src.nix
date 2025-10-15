@@ -4,7 +4,7 @@ fetchurl: {
   name = "aisleriot-3.18.2";
 
   src = fetchurl {
-    url = mirror://gnome/sources/aisleriot/3.18/aisleriot-3.18.2.tar.xz;
+    url = "mirror://gnome/sources/aisleriot/3.18/aisleriot-3.18.2.tar.xz";
     sha256 = "0bac8ba11ce37e4e7beddcd173f55ac1630a425399cfabb57e0e500886642fe3";
   };
 }

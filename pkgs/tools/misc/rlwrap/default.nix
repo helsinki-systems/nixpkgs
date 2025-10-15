@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Readline wrapper for console programs";
-    homepage = http://utopia.knoware.nl/~hlub/uck/rlwrap/;
+    homepage = "http://utopia.knoware.nl/~hlub/uck/rlwrap/";
     license = stdenv.lib.licenses.gpl2Plus;
     platforms = stdenv.lib.platforms.unix;
     maintainers = with stdenv.lib.maintainers; [ fuuzetsu ];

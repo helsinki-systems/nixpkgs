@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "imlib-1.9.15";
   src = fetchurl {
-    url = http://tarballs.nixos.org/imlib-1.9.15.tar.gz;
+    url = "http://tarballs.nixos.org/imlib-1.9.15.tar.gz";
     sha256 = "0ggjxyvgp4pxc0b88v40xj9daz90518ydnycw7qax011gxpr12d3";
   };
 

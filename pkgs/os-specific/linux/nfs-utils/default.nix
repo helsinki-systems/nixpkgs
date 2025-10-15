@@ -51,7 +51,7 @@ stdenv.mkDerivation rec {
       daemons.
     '';
 
-    homepage = http://nfs.sourceforge.net/;
+    homepage = "http://nfs.sourceforge.net/";
     license = stdenv.lib.licenses.gpl2;
 
     platforms = stdenv.lib.platforms.linux;

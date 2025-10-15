@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   buildInputs = stdenv.lib.optional stdenv.isDarwin libiconv;
 
   meta = {
-    homepage = http://www.gnu.org/software/libidn/;
+    homepage = "http://www.gnu.org/software/libidn/";
     description = "Library for internationalized domain names";
 
     longDescription = ''

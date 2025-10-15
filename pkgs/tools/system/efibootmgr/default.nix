@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A Linux user-space application to modify the Intel Extensible Firmware Interface (EFI) Boot Manager";
-    homepage = http://linux.dell.com/efibootmgr/;
+    homepage = "http://linux.dell.com/efibootmgr/";
     license = licenses.gpl2;
     platforms = platforms.linux;
   };

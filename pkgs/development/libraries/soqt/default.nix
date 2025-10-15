@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   nativeBuildInputs = [ pkgconfig ];
 
   meta = {
-    homepage = http://www.coin3d.org/;
+    homepage = "http://www.coin3d.org/";
     license = stdenv.lib.licenses.gpl2Plus;
     description = "Glue between Coin high-level 3D visualization library and Qt";
 

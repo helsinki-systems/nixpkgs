@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pkgconfig libxml2 ];
 
   meta = with stdenv.lib; {
-    homepage = http://ofb.net/~egnor/xml2/;
+    homepage = "http://ofb.net/~egnor/xml2/";
     description = "Tools for command line processing of XML, HTML, and CSV";
     license = licenses.gpl2Plus;
     maintainers = [ maintainers.rycee ];

@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = https://github.com/sos4nt/dynamic-colors;
+    homepage = "https://github.com/sos4nt/dynamic-colors";
     license = stdenv.lib.licenses.mit;
     description = "Change terminal colors on the fly";
     platforms = stdenv.lib.platforms.unix;

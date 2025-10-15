@@ -58,7 +58,7 @@ stdenv.mkDerivation rec {
       following the Microsoft Open Specifications.
     '';
 
-    homepage = http://www.freerdp.com/;
+    homepage = "http://www.freerdp.com/";
 
     license = stdenv.lib.licenses.free;
   };

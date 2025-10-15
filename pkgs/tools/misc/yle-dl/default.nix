@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Downloads videos from Yle (Finnish Broadcasting Company) servers";
-    homepage = https://aajanki.github.io/yle-dl/;
+    homepage = "https://aajanki.github.io/yle-dl/";
     license = licenses.gpl3;
     maintainers = [ maintainers.dezgeg ];
     platforms = platforms.linux;

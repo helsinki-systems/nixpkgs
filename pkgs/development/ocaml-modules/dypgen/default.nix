@@ -25,7 +25,7 @@ stdenv.mkDerivation {
   makeFlags = "BINDIR=$(out)/bin  MANDIR=$(out)/usr/share/man/man1 DYPGENLIBDIR=$(out)/lib/ocaml/${ocaml_version}/site-lib";
 
   meta = {
-    homepage = http://dypgen.free.fr;
+    homepage = "http://dypgen.free.fr";
     description = "Dypgen GLR self extensible parser generator";
     license = stdenv.lib.licenses.cecill-b;
     platforms = ocaml.meta.platforms;

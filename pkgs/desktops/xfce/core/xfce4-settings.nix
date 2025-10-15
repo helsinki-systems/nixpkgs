@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
   configureFlags = "--enable-pluggable-dialogs --enable-sound-settings";
 
   meta = {
-    homepage = http://www.xfce.org/projects/xfce4-settings;
+    homepage = "http://www.xfce.org/projects/xfce4-settings";
     description = "Settings manager for Xfce";
     license = stdenv.lib.licenses.gpl2Plus;
     platforms = stdenv.lib.platforms.linux;

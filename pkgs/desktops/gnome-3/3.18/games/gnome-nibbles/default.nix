@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   ];
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Apps/Nibbles;
+    homepage = "https://wiki.gnome.org/Apps/Nibbles";
     description = "Guide a worm around a maze";
     maintainers = gnome3.maintainers;
     license = licenses.gpl2;

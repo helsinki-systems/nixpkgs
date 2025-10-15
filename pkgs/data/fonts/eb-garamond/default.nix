@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://www.georgduffner.at/ebgaramond/;
+    homepage = "http://www.georgduffner.at/ebgaramond/";
     description = "Digitization of the Garamond shown on the Egenolff-Berner specimen";
     maintainers = with maintainers; [ relrod rycee ];
     license = licenses.ofl;

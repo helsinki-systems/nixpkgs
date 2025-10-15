@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = https://github.com/ibus/ibus;
+    homepage = "https://github.com/ibus/ibus";
     description = "Intelligent Input Bus for Linux / Unix OS";
     platforms = stdenv.lib.platforms.linux;
   };

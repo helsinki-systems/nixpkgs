@@ -21,7 +21,7 @@ in stdenv.mkDerivation rec {
   
   meta = with stdenv.lib; {
     description = "HTTP benchmarking tool";
-    homepage = http://github.com/wg/wrk;
+    homepage = "http://github.com/wg/wrk";
     longDescription = ''
       wrk is a modern HTTP benchmarking tool capable of generating
       significant load when run on a single multi-core CPU. It

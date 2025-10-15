@@ -17,7 +17,7 @@ buildDotnetPackage rec {
 
   meta = with stdenv.lib; {
     description = "An open source implementation of Windows PowerShell";
-    homepage = https://github.com/Pash-Project/Pash;
+    homepage = "https://github.com/Pash-Project/Pash";
     maintainers = [ maintainers.fornever ];
     platforms = platforms.all;
     license = with licenses; [ bsd3 gpl3 ];

@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
       programming language and an implementation of Java Web Start, originally
       based on the NetX project.
     '';
-    homepage = http://icedtea.classpath.org/wiki/IcedTea-Web;
+    homepage = "http://icedtea.classpath.org/wiki/IcedTea-Web";
     maintainers = with stdenv.lib.maintainers; [ wizeman ];
     platforms = stdenv.lib.platforms.linux;
   };

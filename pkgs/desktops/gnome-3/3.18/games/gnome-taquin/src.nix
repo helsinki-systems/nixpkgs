@@ -4,7 +4,7 @@ fetchurl: {
   name = "gnome-taquin-3.18.2";
 
   src = fetchurl {
-    url = mirror://gnome/sources/gnome-taquin/3.18/gnome-taquin-3.18.2.tar.xz;
+    url = "mirror://gnome/sources/gnome-taquin/3.18/gnome-taquin-3.18.2.tar.xz";
     sha256 = "26154f5fd9f75b6e9e6857d6a31a9d2ce4814ec81afc6ca3e4643058877d1155";
   };
 }

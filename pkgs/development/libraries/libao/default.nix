@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
       programs to output audio using a simple API on a wide variety of
       platforms.
     '';
-    homepage = http://xiph.org/ao/;
+    homepage = "http://xiph.org/ao/";
     license = stdenv.lib.licenses.gpl2;
     maintainers = with stdenv.lib.maintainers; [ fuuzetsu ];
   };

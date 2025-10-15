@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [pkgconfig m4];
 
   meta = {
-    homepage = http://libsigc.sourceforge.net/;
+    homepage = "http://libsigc.sourceforge.net/";
     description = "A typesafe callback system for standard C++";
     branch = "1.2";
   };

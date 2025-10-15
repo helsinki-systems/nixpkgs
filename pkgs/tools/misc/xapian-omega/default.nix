@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Indexer and CGI search front-end built on Xapian library";
-    homepage = http://xapian.org/;
+    homepage = "http://xapian.org/";
     license = licenses.gpl2Plus;
   };
 }

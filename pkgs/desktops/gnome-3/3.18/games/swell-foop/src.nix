@@ -4,7 +4,7 @@ fetchurl: {
   name = "swell-foop-3.18.1";
 
   src = fetchurl {
-    url = mirror://gnome/sources/swell-foop/3.18/swell-foop-3.18.1.tar.xz;
+    url = "mirror://gnome/sources/swell-foop/3.18/swell-foop-3.18.1.tar.xz";
     sha256 = "b454fb8ccc1d040a7ae08d632a07feecf88a2bf0c172b75b863f2a05e97179f6";
   };
 }

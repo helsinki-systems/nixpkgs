@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
       --replace "all: src man" "all: src man info"
   '';
   meta = with stdenv.lib; {
-    homepage = http://sourceforge.net/projects/xzgv/;
+    homepage = "http://sourceforge.net/projects/xzgv/";
     description = "Picture viewer for X with a thumbnail-based selector";
     license = licenses.gpl2;
     maintainers = [ maintainers.womfoo ];

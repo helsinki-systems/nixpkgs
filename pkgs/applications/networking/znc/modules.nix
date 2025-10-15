@@ -28,7 +28,7 @@ in rec {
 
     meta = {
       description = "Push notification service module for ZNC";
-      homepage = https://github.com/jreese/znc-push;
+      homepage = "https://github.com/jreese/znc-push";
       repositories.git = https://github.com/jreese/znc-push.git;
       license = stdenv.lib.licenses.mit;
       maintainers = [ stdenv.lib.maintainers.offline ];
@@ -47,7 +47,7 @@ in rec {
 
     meta = {
       description = "ZNC FiSH module";
-      homepage = https://github.com/dctrwatson/znc-fish;
+      homepage = "https://github.com/dctrwatson/znc-fish";
       repositories.git = https://github.com/dctrwatson/znc-fish.git;
       maintainers = [ stdenv.lib.maintainers.offline ];
     };
@@ -65,7 +65,7 @@ in rec {
 
     meta = {
       description = "ZNC privmsg module";
-      homepage = https://github.com/kylef/znc-contrib;
+      homepage = "https://github.com/kylef/znc-contrib";
       repositories.git = https://github.com/kylef/znc-contrib.git;
     };
   };

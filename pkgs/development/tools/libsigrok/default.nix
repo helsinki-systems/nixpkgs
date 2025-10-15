@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Core library of the sigrok signal analysis software suite";
-    homepage = http://sigrok.org/;
+    homepage = "http://sigrok.org/";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
     maintainers = [ maintainers.bjornfor ];

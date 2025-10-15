@@ -11,7 +11,7 @@ assert withKerberos -> kerberos != null;
 let
 
   hpnSrc = fetchurl {
-    url = mirror://sourceforge/hpnssh/openssh-6.6p1-hpnssh14v5.diff.gz;
+    url = "mirror://sourceforge/hpnssh/openssh-6.6p1-hpnssh14v5.diff.gz";
     sha256 = "682b4a6880d224ee0b7447241b684330b731018585f1ba519f46660c10d63950";
   };
 

@@ -51,7 +51,7 @@ in stdenv.mkDerivation {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://copy.com;
+    homepage = "http://copy.com";
     description = "Copy.com graphical & command-line clients";
     # Closed Source unfortunately.
     license = licenses.unfree;

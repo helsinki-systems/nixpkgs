@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   meta = with stdenv.lib; {
     description = ''Macaroons are flexible authorization credentials that
         support decentralized delegation, attenuation, and verification.'';
-    homepage = https://github.com/rescrv/libmacaroons;
+    homepage = "https://github.com/rescrv/libmacaroons";
     license = licenses.bsd3;
   };
 }

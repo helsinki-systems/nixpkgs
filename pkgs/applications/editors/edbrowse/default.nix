@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
       edbrowse can also tap into databases through odbc. It was primarily written by Karl Dahlke.
       '';
     license = stdenv.lib.licenses.gpl1Plus;
-    homepage = http://edbrowse.org/;
+    homepage = "http://edbrowse.org/";
     maintainers = [ stdenv.lib.maintainers.schmitthenner ];
   };
 }

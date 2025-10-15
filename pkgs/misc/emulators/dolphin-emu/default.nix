@@ -6,7 +6,7 @@
 stdenv.mkDerivation rec {
   name = "dolphin-emu-4.0.2";
   src = fetchurl {
-    url = https://github.com/dolphin-emu/dolphin/archive/4.0.2.tar.gz;
+    url = "https://github.com/dolphin-emu/dolphin/archive/4.0.2.tar.gz";
     sha256 = "0a8ikcxdify9d7lqz8fn2axk2hq4q1nvbcsi1b8vb9z0mdrhzw89";
   };
 
@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
                   libXdmcp portaudio SDL wxGTK30 libpulseaudio ];
 
   meta = {
-    homepage = http://dolphin-emu.org/;
+    homepage = "http://dolphin-emu.org/";
     description = "Gamecube/Wii/Triforce emulator for x86_64 and ARM";
     license = stdenv.lib.licenses.gpl2;
     platforms = stdenv.lib.platforms.linux;

@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A C/C++ implementation of a Sass compiler";
-    homepage = https://github.com/sass/libsass;
+    homepage = "https://github.com/sass/libsass";
     license = licenses.mit;
     maintainers = with maintainers; [ codyopel offline ];
     platforms = platforms.unix;

@@ -31,6 +31,6 @@ stdenv.mkDerivation rec {
     ++ stdenv.lib.optional withBdb "--with-bdb=${db}";
 
   meta = {
-    homepage = http://librdf.org/;
+    homepage = "http://librdf.org/";
   };
 }

@@ -64,7 +64,7 @@ in stdenv.mkDerivation rec {
       substances or radiation, now more closely resemble insects, birds or fish
       than their original form.
     '';
-    homepage = http://en.cataclysmdda.com/;
+    homepage = "http://en.cataclysmdda.com/";
     license = licenses.cc-by-sa-30;
     maintainers = [ maintainers.skeidel ];
     platforms = platforms.linux;

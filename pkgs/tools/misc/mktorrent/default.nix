@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "mktorrent-1.0";
 
   src = fetchurl {
-    url = mirror://sourceforge/mktorrent/mktorrent-1.0.tar.gz;
+    url = "mirror://sourceforge/mktorrent/mktorrent-1.0.tar.gz";
     sha256 = "17qi3nfky240pq6qcmf5qg324mxm83vk9r3nvsdhsvinyqm5d3kg";
   };
 
@@ -19,7 +19,7 @@ stdenv.mkDerivation {
   buildInputs = [ openssl ];
 
   meta = {
-    homepage = http://mktorrent.sourceforge.net/;
+    homepage = "http://mktorrent.sourceforge.net/";
     license = stdenv.lib.licenses.gpl2Plus;
     description = "Command line utility to create BitTorrent metainfo files";
     platforms = with stdenv.lib.platforms; unix;

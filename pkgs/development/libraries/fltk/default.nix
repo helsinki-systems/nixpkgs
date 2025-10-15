@@ -43,6 +43,6 @@ composableDerivation.composableDerivation {} rec {
 
   meta = {
     description = "a C++ cross platform lightweight gui library binding";
-    homepage = http://www.fltk.org;
+    homepage = "http://www.fltk.org";
   };
 }

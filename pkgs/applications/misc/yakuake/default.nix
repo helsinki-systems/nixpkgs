@@ -20,7 +20,7 @@ stdenv.mkDerivation {
   propagatedUserEnvPkgs = [ konsole ];
 
   meta = {
-    homepage = http://yakuake.kde.org;
+    homepage = "http://yakuake.kde.org";
     description = "Quad-style terminal emulator for KDE";
     inherit (kdelibs.meta) platforms;
     maintainers = [ stdenv.lib.maintainers.urkud ];

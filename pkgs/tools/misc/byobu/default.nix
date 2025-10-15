@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   propagatedBuildInputs = [ textual-window-manager ];
 
   meta = {
-    homepage = https://launchpad.net/byobu/;
+    homepage = "https://launchpad.net/byobu/";
     description = "Text-based window manager and terminal multiplexer";
 
     longDescription =

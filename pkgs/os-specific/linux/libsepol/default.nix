@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
   passthru = { inherit se_release se_url; };
 
   meta = with stdenv.lib; {
-    homepage = http://userspace.selinuxproject.org;
+    homepage = "http://userspace.selinuxproject.org";
     platforms = platforms.linux;
     maintainers = [ maintainers.phreedom ];
     license = stdenv.lib.licenses.gpl2;

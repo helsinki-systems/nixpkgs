@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "Common interface to speech synthesis";
 
-    homepage = http://www.freebsoft.org/speechd;
+    homepage = "http://www.freebsoft.org/speechd";
     license = stdenv.lib.licenses.gpl2Plus;
   };
 }

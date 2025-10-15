@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ binutils pkgconfig gtk glib pango libglade ];
 
   meta = {
-    homepage = http://sysprof.com/;
+    homepage = "http://sysprof.com/";
     description = "System-wide profiler for Linux";
     license = stdenv.lib.licenses.gpl2Plus;
 

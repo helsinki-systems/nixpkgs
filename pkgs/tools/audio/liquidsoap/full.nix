@@ -37,7 +37,7 @@ stdenv.mkDerivation {
 
   meta = with stdenv.lib; {
     description = "Swiss-army knife for multimedia streaming";
-    homepage = http://liquidsoap.fm/;
+    homepage = "http://liquidsoap.fm/";
     maintainers = with maintainers; [ ehmry ];
     license = licenses.gpl2;
     platforms = ocaml.meta.platforms;

@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "An old-school drum-kit sampler synthesizer with stereo fx";
-    homepage = http://drumkv1.sourceforge.net/;
+    homepage = "http://drumkv1.sourceforge.net/";
     license = licenses.gpl2Plus;
     platforms = platforms.linux;
     maintainers = [ maintainers.goibhniu ];

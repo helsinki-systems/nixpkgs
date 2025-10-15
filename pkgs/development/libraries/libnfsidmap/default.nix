@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
     '';
 
   meta = {
-    homepage = http://www.citi.umich.edu/projects/nfsv4/linux/;
+    homepage = "http://www.citi.umich.edu/projects/nfsv4/linux/";
     description = "Library for holding mulitiple methods of mapping names to id's and visa versa, mainly for NFSv4";
     license = "BSD";
   };

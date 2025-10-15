@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
     '';
 
   meta = {
-    homepage = http://www.iana.org/time-zones;
+    homepage = "http://www.iana.org/time-zones";
     description = "Database of current and historical time zones";
     platforms = stdenv.lib.platforms.all;
   };

@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "C library for manipulating POSIX tar files";
-    homepage = http://www.feep.net/libtar/;
+    homepage = "http://www.feep.net/libtar/";
     license = licenses.bsd3;
     platforms = platforms.linux;
     maintainers = [ maintainers.bjornfor ];

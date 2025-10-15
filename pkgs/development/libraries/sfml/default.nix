@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
                   libXrandr libXrender udev
                 ];
   meta = with stdenv.lib; {
-    homepage = http://www.sfml-dev.org/;
+    homepage = "http://www.sfml-dev.org/";
     description = "Simple and fast multimedia library";
     longDescription = ''
       SFML is a simple, fast, cross-platform and object-oriented multimedia API.

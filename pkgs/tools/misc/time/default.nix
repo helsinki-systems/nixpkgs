@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "time-1.7";
 
   src = fetchurl {
-    url = mirror://gnu/time/time-1.7.tar.gz;
+    url = "mirror://gnu/time/time-1.7.tar.gz";
     sha256 = "0va9063fcn7xykv658v2s9gilj2fq4rcdxx2mn2mmy1v4ndafzp3";
   };
 
@@ -28,6 +28,6 @@ stdenv.mkDerivation {
     '';
 
     license = stdenv.lib.licenses.gpl2Plus;
-    homepage = http://www.gnu.org/software/time/;
+    homepage = "http://www.gnu.org/software/time/";
   };
 }

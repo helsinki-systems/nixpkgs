@@ -4,7 +4,7 @@ fetchurl: {
   name = "gnome-system-monitor-3.18.2";
 
   src = fetchurl {
-    url = mirror://gnome/sources/gnome-system-monitor/3.18/gnome-system-monitor-3.18.2.tar.xz;
+    url = "mirror://gnome/sources/gnome-system-monitor/3.18/gnome-system-monitor-3.18.2.tar.xz";
     sha256 = "9e4a5d6aefa362448f301907fe07f3889e3dd7824922ceef8c48a7808be3e666";
   };
 }

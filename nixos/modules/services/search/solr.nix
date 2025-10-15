@@ -11,7 +11,7 @@ let
     name = "solr-jars";
 
     src = pkgs.fetchurl {
-      url = http://archive.apache.org/dist/tomcat/tomcat-5/v5.5.36/bin/apache-tomcat-5.5.36.tar.gz;
+      url = "http://archive.apache.org/dist/tomcat/tomcat-5/v5.5.36/bin/apache-tomcat-5.5.36.tar.gz";
       sha256 = "01mzvh53wrs1p2ym765jwd00gl6kn8f9k3nhdrnhdqr8dhimfb2p";
     };
 

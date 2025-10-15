@@ -2,7 +2,7 @@ args @ { texLive, ... }: with args;
 rec {
   name = "context-2014.05.21";
   src = fetchurl {
-    url = mirror://debian/pool/main/c/context/context_2014.05.21.20140528.orig.tar.gz;
+    url = "mirror://debian/pool/main/c/context/context_2014.05.21.20140528.orig.tar.gz";
     sha256 = "1d744xrsjyl52x2xbh87k5ad826mzz8yqmhdznrmqrhk3qpjkzic";
   };
 

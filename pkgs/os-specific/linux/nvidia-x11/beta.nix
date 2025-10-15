@@ -57,7 +57,7 @@ stdenv.mkDerivation {
   disallowedReferences = if libsOnly then [] else [ kernel.dev ];
 
   meta = with stdenv.lib.meta; {
-    homepage = http://www.nvidia.com/object/unix.html;
+    homepage = "http://www.nvidia.com/object/unix.html";
     description = "X.org driver and kernel module for NVIDIA graphics cards";
     license = licenses.unfreeRedistributable;
     platforms = platforms.linux;

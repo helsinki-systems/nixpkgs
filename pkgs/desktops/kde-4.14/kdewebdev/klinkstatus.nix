@@ -13,6 +13,6 @@ kde {
 
   meta = {
     description = "A KDE link checker";
-    homepage = http://klinkstatus.kdewebdev.org;
+    homepage = "http://klinkstatus.kdewebdev.org";
   };
 }

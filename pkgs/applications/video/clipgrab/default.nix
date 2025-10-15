@@ -47,7 +47,7 @@ stdenv.mkDerivation rec {
       Dailymotion and many other online video sites. It converts downloaded
       videos to MPEG4, MP3 or other formats in just one easy step.
     '';
-    homepage = http://clipgrab.org/;
+    homepage = "http://clipgrab.org/";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
     maintainers = with maintainers; [ nckx ];

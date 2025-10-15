@@ -24,7 +24,7 @@ stdenv.mkDerivation {
          (VR) system.
       '';
 
-    homepage = http://www.cs.unc.edu/Research/vrpn/;
+    homepage = "http://www.cs.unc.edu/Research/vrpn/";
 
     license = stdenv.lib.licenses.boost;
                         # see # <http://www.cs.unc.edu/Research/vrpn/obtaining_vrpn.html>

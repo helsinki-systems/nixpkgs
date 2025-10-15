@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "The Multi Router Traffic Grapher";
-    homepage = http://oss.oetiker.ch/mrtg/;
+    homepage = "http://oss.oetiker.ch/mrtg/";
     license = stdenv.lib.licenses.gpl2;
     maintainers = [ stdenv.lib.maintainers.robberer ];
   }; 

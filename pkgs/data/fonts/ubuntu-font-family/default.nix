@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
     created to complement the Ubuntu tone of voice. It has a
     contemporary style and contains characteristics unique to
     the Ubuntu brand that convey a precise, reliable and free attitude.";
-    homepage = http://font.ubuntu.com/;
+    homepage = "http://font.ubuntu.com/";
     license = stdenv.lib.licenses.free;
     platforms = stdenv.lib.platforms.all;
     maintainers = [ stdenv.lib.maintainers.antono ];

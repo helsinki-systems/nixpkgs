@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "encrypt files with Advanced Encryption Standard (AES)";
-    homepage    = http://www.aescrypt.com/;
+    homepage    = "http://www.aescrypt.com/";
     license     = licenses.gpl2;
     maintainers = with maintainers; [ lovek323 qknight ];
     platforms   = stdenv.lib.platforms.all;

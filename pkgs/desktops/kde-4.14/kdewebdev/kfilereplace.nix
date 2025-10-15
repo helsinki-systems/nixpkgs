@@ -5,6 +5,6 @@ kde {
 
   meta = {
     description = "Batch search and replace tool";
-    homepage = http://www.kdewebdev.org;
+    homepage = "http://www.kdewebdev.org";
   };
 }

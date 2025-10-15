@@ -4,7 +4,7 @@ fetchurl: {
   name = "gnome-user-share-3.18.0";
 
   src = fetchurl {
-    url = mirror://gnome/sources/gnome-user-share/3.18/gnome-user-share-3.18.0.tar.xz;
+    url = "mirror://gnome/sources/gnome-user-share/3.18/gnome-user-share-3.18.0.tar.xz";
     sha256 = "feb3bed59193eafea31f563ed7eab5f066aa5f86d4a89f067b162653d168d3fc";
   };
 }

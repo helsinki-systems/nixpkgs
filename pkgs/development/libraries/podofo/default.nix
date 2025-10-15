@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
   cmakeFlags = "-DPODOFO_BUILD_SHARED=ON -DPODOFO_BUILD_STATIC=OFF";
 
   meta = {
-    homepage = http://podofo.sourceforge.net;
+    homepage = "http://podofo.sourceforge.net";
     description = "A library to work with the PDF file format";
     platforms = stdenv.lib.platforms.all;
     maintainers = [ stdenv.lib.maintainers.urkud ];

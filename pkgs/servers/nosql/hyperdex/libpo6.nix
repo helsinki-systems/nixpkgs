@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "POSIX wrappers for C++";
-    homepage = https://github.com/rescrv/po6;
+    homepage = "https://github.com/rescrv/po6";
     license = licenses.bsd3;
   };
 }

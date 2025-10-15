@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://savannah.nongnu.org/projects/quilt;
+    homepage = "http://savannah.nongnu.org/projects/quilt";
     description = "Easily manage large numbers of patches";
 
     longDescription = ''

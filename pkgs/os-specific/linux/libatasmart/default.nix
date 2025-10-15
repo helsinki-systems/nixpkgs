@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pkgconfig udev ];
 
   meta = {
-    homepage = http://0pointer.de/public/;
+    homepage = "http://0pointer.de/public/";
     description = "Library for querying ATA SMART status";
     platforms = stdenv.lib.platforms.linux;
   };

@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "A compatibility library for pango>1.30.*";
 
-    homepage = http://www.pango.org/;
+    homepage = "http://www.pango.org/";
     license = stdenv.lib.licenses.lgpl2Plus;
   };
 }

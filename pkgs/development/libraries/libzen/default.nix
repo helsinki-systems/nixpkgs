@@ -18,7 +18,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Shared library for libmediainfo and mediainfo";
-    homepage = http://mediaarea.net/;
+    homepage = "http://mediaarea.net/";
     license = stdenv.lib.licenses.bsd2;
     platforms = stdenv.lib.platforms.unix;
     maintainers = [ stdenv.lib.maintainers.devhell ];

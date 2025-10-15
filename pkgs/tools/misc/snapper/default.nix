@@ -59,7 +59,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Tool for Linux filesystem snapshot management";
-    homepage = http://snapper.io;
+    homepage = "http://snapper.io";
     license = licenses.gpl2;
     platforms = platforms.linux;
     maintainers = with maintainers; [ nckx tstrobel ];

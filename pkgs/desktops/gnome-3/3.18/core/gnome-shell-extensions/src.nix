@@ -4,7 +4,7 @@ fetchurl: {
   name = "gnome-shell-extensions-3.18.3";
 
   src = fetchurl {
-    url = mirror://gnome/sources/gnome-shell-extensions/3.18/gnome-shell-extensions-3.18.3.tar.xz;
+    url = "mirror://gnome/sources/gnome-shell-extensions/3.18/gnome-shell-extensions-3.18.3.tar.xz";
     sha256 = "2bb3726decf14a31ae35755c049d8f03425231857c42ed27f01854af755ec035";
   };
 }

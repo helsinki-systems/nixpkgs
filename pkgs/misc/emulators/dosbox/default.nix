@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.dosbox.com/;
+    homepage = "http://www.dosbox.com/";
     description = "A DOS emulator";
   };
 }

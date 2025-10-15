@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pkgconfig libexif popt ];
   
   meta = {
-    homepage = http://libexif.sourceforge.net/;
+    homepage = "http://libexif.sourceforge.net/";
     description = "A utility to read and manipulate EXIF data in digital photographs";
   };
 }

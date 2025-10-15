@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "M+ Outline Fonts";
-    homepage = http://mplus-fonts.sourceforge.jp/mplus-outline-fonts/index-en.html;
+    homepage = "http://mplus-fonts.sourceforge.jp/mplus-outline-fonts/index-en.html";
     license = licenses.mit;
     maintainers = with maintainers; [ henrytill ];
     platforms = platforms.all;

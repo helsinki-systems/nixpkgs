@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
     libimobiledevice.swig ];
 
   meta = {
-    homepage = http://gtkpod.sourceforge.net/;
+    homepage = "http://gtkpod.sourceforge.net/";
     description = "Library used by gtkpod to access the contents of an ipod";
     license = "LGPL";
     platforms = stdenv.lib.platforms.gnu;

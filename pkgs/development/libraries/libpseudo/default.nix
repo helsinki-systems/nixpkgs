@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pkgconfig glib ncurses ];
 
   meta = with stdenv.lib; {
-    homepage = http://libpseudo.sourceforge.net/;
+    homepage = "http://libpseudo.sourceforge.net/";
     description = "Simple, thread-safe messaging between threads";
     license = licenses.gpl2Plus;
   };

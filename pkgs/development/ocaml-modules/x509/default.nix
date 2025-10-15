@@ -19,7 +19,7 @@ stdenv.mkDerivation {
   createFindlibDestdir = true;
 
   meta = {
-    homepage = https://github.com/mirleft/ocaml-x509;
+    homepage = "https://github.com/mirleft/ocaml-x509";
     description = "X509 (RFC5280) handling in OCaml";
     platforms = ocaml.meta.platforms;
     license = stdenv.lib.licenses.bsd2;

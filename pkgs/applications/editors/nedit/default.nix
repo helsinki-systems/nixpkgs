@@ -22,6 +22,6 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.nedit.org;
+    homepage = "http://www.nedit.org";
   };
 }

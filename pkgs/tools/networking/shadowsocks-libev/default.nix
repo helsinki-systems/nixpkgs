@@ -34,7 +34,7 @@ stdenv.mkDerivation rec {
       Shadowsocks-libev is a lightweight secured SOCKS5 proxy for embedded devices and low-end boxes.
       It is a port of Shadowsocks created by @clowwindy, which is maintained by @madeye and @linusyang.
     '';
-    homepage = https://github.com/shadowsocks/shadowsocks-libev;
+    homepage = "https://github.com/shadowsocks/shadowsocks-libev";
     license = stdenv.lib.licenses.gpl3Plus;
     maintainers = [ stdenv.lib.maintainers.nfjinjing ];
     platforms = stdenv.lib.platforms.all;

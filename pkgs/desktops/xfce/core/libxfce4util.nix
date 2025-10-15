@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pkgconfig glib intltool ];
 
   meta = {
-    homepage = http://www.xfce.org/;
+    homepage = "http://www.xfce.org/";
     description = "Basic utility non-GUI functions for Xfce";
     license = "bsd";
     platforms = stdenv.lib.platforms.linux;

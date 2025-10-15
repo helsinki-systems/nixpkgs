@@ -38,7 +38,7 @@ buildPythonPackage rec {
   ];
 
   meta = {
-    homepage = https://matrix.org;
+    homepage = "https://matrix.org";
     description = "Matrix reference homeserver";
     license = stdenv.lib.licenses.asl20;
   };

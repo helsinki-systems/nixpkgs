@@ -12,7 +12,7 @@ import ./build.nix
   { inherit src version;
     meta = {
       description = "A better make, inspired by djb's redo";
-      homepage = https://github.com/gfxmonk/gup;
+      homepage = "https://github.com/gfxmonk/gup";
       license = stdenv.lib.licenses.lgpl2Plus;
       maintainers = [ stdenv.lib.maintainers.gfxmonk ];
       platforms = stdenv.lib.platforms.all;

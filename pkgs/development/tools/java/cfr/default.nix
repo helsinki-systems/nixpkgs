@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
       Java beta 103 changes), Java 7 String switches etc, but is written
       entirely in Java 6.
     '';
-    homepage = http://www.benf.org/other/cfr/;
+    homepage = "http://www.benf.org/other/cfr/";
     license = licenses.mit;
     platforms = platforms.all;
     maintainers = with maintainers; [ nckx ];

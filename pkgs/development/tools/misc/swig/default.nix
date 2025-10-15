@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
        suit your application.
     '';
 
-    homepage = http://swig.org/;
+    homepage = "http://swig.org/";
 
     # Licensing is a mess: http://www.swig.org/Release/LICENSE .
     license = "BSD-style";

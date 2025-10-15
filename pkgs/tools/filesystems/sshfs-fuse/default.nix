@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/libfuse/sshfs;
+    homepage = "https://github.com/libfuse/sshfs";
     description = "FUSE-based filesystem that allows remote filesystems to be mounted over SSH";
     platforms = platforms.linux;
     maintainers = with maintainers; [ jgeerds ];

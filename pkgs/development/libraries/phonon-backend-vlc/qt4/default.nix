@@ -23,7 +23,7 @@ stdenv.mkDerivation {
   buildInputs = [ vlc_ phonon_ qt4 ];
 
   meta = {
-    homepage = http://phonon.kde.org/;
+    homepage = "http://phonon.kde.org/";
     description = "VideoLAN backend for Phonon multimedia framework";
     platforms = platforms.linux;
     maintainers = with maintainers; [ ttuegel urkud ];

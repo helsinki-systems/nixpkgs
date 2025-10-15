@@ -37,7 +37,7 @@ stdenv.mkDerivation rec {
       existing subtitle. This program also shows sound waves, which makes it easier
       to synchronise subtitles to voices.
       '';
-    homepage = http://home.gna.org/subtitleeditor;
+    homepage = "http://home.gna.org/subtitleeditor";
     license = stdenv.lib.licenses.gpl3;
     maintainers = [ stdenv.lib.maintainers.plcplc ];
     platforms = stdenv.lib.platforms.linux;

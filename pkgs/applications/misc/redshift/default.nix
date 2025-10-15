@@ -61,7 +61,7 @@ stdenv.mkDerivation rec {
       temperature to allow your eyes to slowly adapt.
     '';
     license = licenses.gpl3Plus;
-    homepage = http://jonls.dk/redshift;
+    homepage = "http://jonls.dk/redshift";
     platforms = platforms.linux;
     maintainers = with maintainers; [ mornfall nckx ];
   }; 

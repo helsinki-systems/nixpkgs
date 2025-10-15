@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Streaming audio processing library";
-    homepage = https://github.com/andrewrk/libgroove;
+    homepage = "https://github.com/andrewrk/libgroove";
     license = licenses.mit;
     platforms = platforms.unix;
     maintainers = [ maintainers.andrewrk ];

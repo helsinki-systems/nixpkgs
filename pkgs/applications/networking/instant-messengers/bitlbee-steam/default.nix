@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "Steam protocol plugin for BitlBee";
 
-    homepage = https://github.com/jgeboski/bitlbee-steam;
+    homepage = "https://github.com/jgeboski/bitlbee-steam";
     license = licenses.gpl2Plus;
   };
 }

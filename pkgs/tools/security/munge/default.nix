@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   ];
 
   meta = {
-    homepage = http://code.google.com/p/munge/;
+    homepage = "http://code.google.com/p/munge/";
     description = ''
       An authentication service for creating and validating credentials
     '';

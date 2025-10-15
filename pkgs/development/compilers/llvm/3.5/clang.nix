@@ -47,7 +47,7 @@ in stdenv.mkDerivation {
 
   meta = {
     description = "A c, c++, objective-c, and objective-c++ frontend for the llvm compiler";
-    homepage    = http://llvm.org/;
+    homepage    = "http://llvm.org/";
     license     = stdenv.lib.licenses.bsd3;
     platforms   = stdenv.lib.platforms.all;
   };

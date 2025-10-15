@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A screen recorder for Linux";
-    homepage = http://www.maartenbaert.be/simplescreenrecorder;
+    homepage = "http://www.maartenbaert.be/simplescreenrecorder";
     license = licenses.gpl3;
     platforms = platforms.linux;
     maintainers = [ maintainers.goibhniu ];

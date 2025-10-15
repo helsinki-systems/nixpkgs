@@ -40,7 +40,7 @@ in stdenv.mkDerivation {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://minetest.net/;
+    homepage = "http://minetest.net/";
     description = "Infinite-world block sandbox game";
     license = licenses.lgpl21Plus;
     platforms = platforms.linux;

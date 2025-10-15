@@ -24,7 +24,7 @@ stdenv.mkDerivation {
   createFindlibDestdir = true;
 
   meta = {
-    homepage = https://github.com/mirleft/ocaml-nocrypto;
+    homepage = "https://github.com/mirleft/ocaml-nocrypto";
     description = "Simplest possible crypto to support TLS";
     platforms = ocaml.meta.platforms;
     license = stdenv.lib.licenses.bsd2;

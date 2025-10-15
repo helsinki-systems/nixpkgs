@@ -26,7 +26,7 @@ stdenv.mkDerivation {
   createFindlibDestdir = true;
 
   meta = with stdenv.lib; {
-    homepage = http://ocsigen.org/lwt;
+    homepage = "http://ocsigen.org/lwt";
     description = "Lightweight thread library for Objective Caml";
     license = licenses.lgpl21;
     platforms = ocaml.meta.platforms;

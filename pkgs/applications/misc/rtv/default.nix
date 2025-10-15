@@ -21,7 +21,7 @@ pythonPackages.buildPythonPackage rec {
   ] ++ lib.optional (!pythonPackages.isPy3k) futures;
 
   meta = with lib; {
-    homepage = https://github.com/michael-lazar/rtv;
+    homepage = "https://github.com/michael-lazar/rtv";
     description = "Browse Reddit from your Terminal";
     license = licenses.mit;
     maintainers = with maintainers; [ matthiasbeyer jgeerds ];

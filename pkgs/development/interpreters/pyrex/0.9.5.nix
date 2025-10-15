@@ -13,7 +13,7 @@ pythonPackages.buildPythonPackage rec {
   doCheck = false;
 
   meta = {
-    homepage = http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/;
+    homepage = "http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/";
     description = "A language for writing Python extension modules";
   };
 }

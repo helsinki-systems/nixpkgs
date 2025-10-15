@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   builder = ./builder.sh;
 
   src = fetchurl {
-    url = http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/aspectj/aspectj-1.5.2.jar;
+    url = "http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/aspectj/aspectj-1.5.2.jar";
     md5 = "64245d451549325147e3ca1ec4c9e57c";
   };
 
@@ -13,7 +13,7 @@ stdenv.mkDerivation {
   buildInputs = [jre];
 
   meta = {
-    homepage = http://www.eclipse.org/aspectj/;
+    homepage = "http://www.eclipse.org/aspectj/";
     description = "A seamless aspect-oriented extension to the Java programming language";
   };
 }

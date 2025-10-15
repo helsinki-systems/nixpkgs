@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
   name = "${pname}-${version}";
 
   src = fetchurl {
-    url = http://mosquitto.org/files/source/mosquitto-1.4.tar.gz;
+    url = "http://mosquitto.org/files/source/mosquitto-1.4.tar.gz";
     sha256 = "1imw5ps0cqda41b574k8hgz9gdr8yy58f76fg8gw14pdnvf3l7sr";
   };
 
@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://mosquitto.org/;
+    homepage = "http://mosquitto.org/";
     description = "An open source MQTT v3.1/3.1.1 broker";
     platforms = stdenv.lib.platforms.unix;
     # http://www.eclipse.org/legal/epl-v10.html (free software, copyleft)

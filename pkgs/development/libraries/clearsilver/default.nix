@@ -14,6 +14,6 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Fast, powerful, and language-neutral HTML template system";
-    homepage = http://www.clearsilver.net/;
+    homepage = "http://www.clearsilver.net/";
   };
 }

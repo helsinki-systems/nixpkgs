@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   configureFlags = "--disable-documentation"; #doesn't build without this for some reason
 
   meta = with stdenv.lib; {
-    homepage = http://libxmlplusplus.sourceforge.net/;
+    homepage = "http://libxmlplusplus.sourceforge.net/";
     description = "C++ wrapper for the libxml2 XML parser library";
     license = licenses.lgpl2Plus;
     platforms = platforms.unix;

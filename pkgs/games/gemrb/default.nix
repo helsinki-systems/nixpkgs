@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
       Bioware's Infinity Engine. It was written to support pseudo-3D role playing games based on the
       Dungeons & Dragons ruleset (Baldur's Gate and Icewind Dale series, Planescape: Torment).
     '';
-    homepage = http://gemrb.org/;
+    homepage = "http://gemrb.org/";
     license = licenses.gpl2;
     platforms = stdenv.lib.platforms.all;
     hydraPlatforms = [];

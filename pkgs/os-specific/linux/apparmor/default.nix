@@ -7,7 +7,7 @@ let
   apparmor-version = apparmor-series;
 
   apparmor-meta = component: with stdenv.lib; {
-    homepage = http://apparmor.net/;
+    homepage = "http://apparmor.net/";
     description = "Linux application security system - ${component}";
     license = licenses.gpl2;
     maintainers = with maintainers; [ phreedom thoughtpolice joachifm ];

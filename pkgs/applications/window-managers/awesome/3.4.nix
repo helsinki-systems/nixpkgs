@@ -41,7 +41,7 @@ stdenv.mkDerivation rec {
   '';
  
   meta = {
-    homepage = http://awesome.naquadah.org/;
+    homepage = "http://awesome.naquadah.org/";
     description = "Highly configurable, dynamic window manager for X";
     license = stdenv.lib.licenses.gpl2Plus;
     maintainers = with stdenv.lib.maintainers; [viric];

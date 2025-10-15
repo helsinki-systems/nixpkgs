@@ -13,7 +13,7 @@ stdenv.mkDerivation {
   buildInputs = [ qjson kdelibs ];
 
   meta = {
-    homepage = https://projects.kde.org/projects/extragear/libs/libkvkontakte;
+    homepage = "https://projects.kde.org/projects/extragear/libs/libkvkontakte";
     description = "KDE library for interaction with vkontakte.ru social network via its open API";
     maintainers = [ stdenv.lib.maintainers.urkud ];
     inherit (kdelibs.meta) platforms;

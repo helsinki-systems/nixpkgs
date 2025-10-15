@@ -53,7 +53,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   meta = with stdenv.lib; {
-    homepage = http://rocksdb.org;
+    homepage = "http://rocksdb.org";
     description = "A library that provides an embeddable, persistent key-value store for fast storage";
     license = licenses.bsd3;
     platforms = platforms.allBut [ "i686-linux" ];

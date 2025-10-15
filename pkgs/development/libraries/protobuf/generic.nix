@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
 
     license = "mBSD";
 
-    homepage = https://developers.google.com/protocol-buffers/;
+    homepage = "https://developers.google.com/protocol-buffers/";
   };
 
   passthru.version = version;

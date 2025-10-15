@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pkgconfig udev glib ];
 
   meta = {
-    homepage = https://wiki.gnome.org/Projects/libgudev;
+    homepage = "https://wiki.gnome.org/Projects/libgudev";
     maintainers = [ lib.maintainers.eelco ];
     platforms = lib.platforms.linux;
     license = lib.licenses.lgpl2Plus;

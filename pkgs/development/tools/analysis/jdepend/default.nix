@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   buildInputs = [unzip] ;
 
   src = fetchurl {
-    url = http://www.clarkware.com/software/jdepend-2.9.zip ;
+    url = "http://www.clarkware.com/software/jdepend-2.9.zip" ;
     sha256 = "1915fk9w9mjv9i6hlkn2grv2kjqcgn4xa8278v66f1ix5wpfcb90";
   };
 
@@ -16,7 +16,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Traverses Java class file directories and generates design quality metrics for each Java package";
-    homepage = http://www.clarkware.com/software/JDepend.html ;
+    homepage = "http://www.clarkware.com/software/JDepend.html" ;
   };
 }
 

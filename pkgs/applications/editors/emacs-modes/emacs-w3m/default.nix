@@ -53,7 +53,7 @@ stdenv.mkDerivation rec {
 
     license = stdenv.lib.licenses.gpl2Plus;
 
-    homepage = http://emacs-w3m.namazu.org/;
+    homepage = "http://emacs-w3m.namazu.org/";
 
     maintainers = [ stdenv.lib.maintainers.mornfall ];
   };

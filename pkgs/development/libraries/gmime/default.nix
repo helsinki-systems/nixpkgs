@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   propagatedBuildInputs = [ glib zlib libgpgerror ];
 
   meta = {
-    homepage = http://spruce.sourceforge.net/gmime/;
+    homepage = "http://spruce.sourceforge.net/gmime/";
     description = "A C/C++ library for manipulating MIME messages";
     maintainers = [ stdenv.lib.maintainers.chaoflow ];
   };

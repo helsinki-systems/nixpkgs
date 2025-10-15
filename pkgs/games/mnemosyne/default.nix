@@ -24,7 +24,7 @@ in buildPythonPackage rec {
     find . -type f -exec grep -H sys.exec_prefix {} ';' | cut -d: -f1 | xargs sed -i s,sys.exec_prefix,\"$out\",
   '';
   meta = {
-    homepage = http://mnemosyne-proj.org/;
+    homepage = "http://mnemosyne-proj.org/";
     description = "Spaced-repetition software";
     longDescription = ''
       The Mnemosyne Project has two aspects:

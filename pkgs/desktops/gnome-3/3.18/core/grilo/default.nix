@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
                   gnome3.totem-pl-parser gobjectIntrospection ];
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/action/show/Projects/Grilo;
+    homepage = "https://wiki.gnome.org/action/show/Projects/Grilo";
     description = "Framework that provides access to various sources of multimedia content, using a pluggable system";
     maintainers = gnome3.maintainers;
     license = licenses.lgpl2;

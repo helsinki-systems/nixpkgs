@@ -12,7 +12,7 @@ in clangStdenv.mkDerivation rec {
 
   meta = with clangStdenv.lib; {
     description = "Japanese input method from Google";
-    homepage = http://code.google.com/p/mozc/;
+    homepage = "http://code.google.com/p/mozc/";
     license = licenses.bsd3;
     platforms = platforms.linux;
     maintainers = [ maintainers.gebner ];

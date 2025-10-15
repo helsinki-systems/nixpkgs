@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A simple interface for devices supported by the linux UVC driver";
-    homepage = http://guvcview.sourceforge.net;
+    homepage = "http://guvcview.sourceforge.net";
     maintainers = [ stdenv.lib.maintainers.coconnor ];
     platforms = stdenv.lib.platforms.linux;
   };

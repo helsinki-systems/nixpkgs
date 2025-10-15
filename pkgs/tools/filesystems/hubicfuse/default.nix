@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "2.1.0";
 
   src = fetchurl {
-    url = https://github.com/TurboGit/hubicfuse/archive/v2.1.0.tar.gz;
+    url = "https://github.com/TurboGit/hubicfuse/archive/v2.1.0.tar.gz";
     sha256 = "1mnijcwac6k3f6xknvdrsbmkkizpwbayqkb5l6jic15ymxv1fs7d";
   };
 
@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/TurboGit/hubicfuse;
+    homepage = "https://github.com/TurboGit/hubicfuse";
     description = "FUSE-based filesystem to access hubic cloud storage";
     platforms = platforms.linux;
     license = licenses.mit;

@@ -38,7 +38,7 @@ stdenv.mkDerivation rec {
   patchFlags = "-p0";
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Apps/Contacts;
+    homepage = "https://wiki.gnome.org/Apps/Contacts";
     description = "Contacts is GNOME's integrated address book";
     maintainers = gnome3.maintainers;
     license = licenses.gpl2;

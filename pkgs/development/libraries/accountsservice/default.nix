@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "D-Bus interface for user account query and manipulation";
-    homepage = http://www.freedesktop.org/wiki/Software/AccountsService;
+    homepage = "http://www.freedesktop.org/wiki/Software/AccountsService";
     license = licenses.gpl3;
     maintainers = with maintainers; [ pSub ];
   };

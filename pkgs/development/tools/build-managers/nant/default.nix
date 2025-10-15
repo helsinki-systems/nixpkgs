@@ -53,7 +53,7 @@ in stdenv.mkDerivation {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://nant.sourceforge.net;
+    homepage = "http://nant.sourceforge.net";
     description = "NAnt is a free .NET build tool";
 
     longDescription = ''

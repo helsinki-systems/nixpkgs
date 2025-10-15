@@ -11,6 +11,6 @@ stdenv.mkDerivation rec {
   buildInputs = [xlibsWrapper imlib2];
 
   meta = {
-    homepage = http://linuxbrit.co.uk/giblib/;
+    homepage = "http://linuxbrit.co.uk/giblib/";
   };
 }

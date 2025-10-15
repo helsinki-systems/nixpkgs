@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A full featured terminal-based screen editor";
-    homepage = http://joe-editor.sourceforge.net;
+    homepage = "http://joe-editor.sourceforge.net";
     license = licenses.gpl2;
   };
 }

@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "3.0.12";
   
   src = fetchurl {
-    url = http://math.nist.gov/tnt/tnt_3_0_12.zip;
+    url = "http://math.nist.gov/tnt/tnt_3_0_12.zip";
     sha256 = "1bzkfdb598584qlc058n8wqq9vbz714gr5r57401rsa9qaxhk5j7";
   };
 
@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://math.nist.gov/tnt/;
+    homepage = "http://math.nist.gov/tnt/";
     description = "Template Numerical Toolkit: C++ headers for array and matrices";
   };
 }

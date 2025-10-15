@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ libX11 unzip ogre cmake ois freetype libuuid boost pkgconfig ];
 
   meta = {
-    homepage = http://mygui.info/;
+    homepage = "http://mygui.info/";
     description = "Library for creating GUIs for games and 3D applications";
     license = stdenv.lib.licenses.lgpl3Plus;
   };

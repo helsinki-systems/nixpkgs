@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Displays text on your screen";
-    homepage = http://sourceforge.net/projects/libxosd;
+    homepage = "http://sourceforge.net/projects/libxosd";
     license = licenses.gpl2;
     platforms = platforms.linux;
     maintainers = with maintainers; [ pSub ];

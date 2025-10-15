@@ -44,7 +44,7 @@ stdenv.mkDerivation rec {
     '') firmware;
 
   meta = {
-    homepage = https://www.kernel.org/pub/linux/utils/kernel/pcmcia/;
+    homepage = "https://www.kernel.org/pub/linux/utils/kernel/pcmcia/";
     longDescription = "
       PCMCIAutils contains the initialization tools necessary to allow
       the PCMCIA subsystem to behave (almost) as every other

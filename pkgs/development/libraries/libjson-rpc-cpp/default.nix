@@ -23,7 +23,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "C++ framework for json-rpc (json remote procedure call)";
-    homepage = https://github.com/cinemast/libjson-rpc-cpp;
+    homepage = "https://github.com/cinemast/libjson-rpc-cpp";
     license = stdenv.lib.licenses.mit;
     platforms = stdenv.lib.platforms.linux;
   };

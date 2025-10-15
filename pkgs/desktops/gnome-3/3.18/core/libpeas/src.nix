@@ -4,7 +4,7 @@ fetchurl: {
   name = "libpeas-1.16.0";
 
   src = fetchurl {
-    url = mirror://gnome/sources/libpeas/1.16/libpeas-1.16.0.tar.xz;
+    url = "mirror://gnome/sources/libpeas/1.16/libpeas-1.16.0.tar.xz";
     sha256 = "b093008ecd65f7d55c80517589509698ff15ad41f664b11a3eb88ff461b1454e";
   };
 }

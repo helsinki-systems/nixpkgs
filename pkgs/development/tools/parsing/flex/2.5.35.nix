@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "flex-2.5.35";
 
   src = fetchurl {
-    url = mirror://sourceforge/flex/flex-2.5.35.tar.bz2;
+    url = "mirror://sourceforge/flex/flex-2.5.35.tar.bz2";
     sha256 = "0ysff249mwhq0053bw3hxh58djc0gy7vjan2z1krrf9n5d5vvv0b";
   };
 
@@ -21,7 +21,7 @@ stdenv.mkDerivation {
 
   meta = {
     branch = "2.5.35";
-    homepage = http://flex.sourceforge.net/;
+    homepage = "http://flex.sourceforge.net/";
     description = "A fast lexical analyser generator";
   };
 }

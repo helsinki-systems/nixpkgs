@@ -62,7 +62,7 @@ buildPythonPackage rec {
 
 
   meta = {
-    homepage = http://xpra.org/;
+    homepage = "http://xpra.org/";
     description = "Persistent remote applications for X";
     platforms = stdenv.lib.platforms.linux;
   };

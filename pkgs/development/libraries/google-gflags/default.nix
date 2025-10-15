@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
       As such it's a replacement for getopt().
       It was owned by Google. google-gflags project has been renamed to gflags and maintained by new community.
     '';
-    homepage = https://code.google.com/p/gflags/;
+    homepage = "https://code.google.com/p/gflags/";
     license = stdenv.lib.licenses.bsd3;
 
     maintainers = [ stdenv.lib.maintainers.linquize ];

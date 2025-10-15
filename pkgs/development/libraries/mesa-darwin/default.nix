@@ -58,7 +58,7 @@ let
 
     meta = {
       description = "An open source implementation of OpenGL";
-      homepage = http://www.mesa3d.org/;
+      homepage = "http://www.mesa3d.org/";
       license = "bsd";
       platforms = stdenv.lib.platforms.darwin;
       maintainers = with stdenv.lib.maintainers; [ cstrahan ];

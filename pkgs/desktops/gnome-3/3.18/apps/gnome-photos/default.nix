@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Apps/Photos;
+    homepage = "https://wiki.gnome.org/Apps/Photos";
     description = "Photos is an application to access, organize and share your photos with GNOME 3";
     maintainers = gnome3.maintainers;
     license = licenses.gpl2;

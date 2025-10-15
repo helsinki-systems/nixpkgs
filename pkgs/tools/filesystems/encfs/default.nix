@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   meta = with stdenv.lib; {
-    homepage = https://vgough.github.io/encfs;
+    homepage = "https://vgough.github.io/encfs";
     description = "Provides an encrypted filesystem in user-space via FUSE";
     license = licenses.lgpl2;
     maintainers = with maintainers; [ nckx ];

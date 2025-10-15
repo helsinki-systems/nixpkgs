@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.gupnp.org/;
+    homepage = "http://www.gupnp.org/";
     description = "An implementation of the UPnP specification";
     license = stdenv.lib.licenses.gpl2;
     platforms = stdenv.lib.platforms.linux;

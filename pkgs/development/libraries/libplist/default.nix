@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = {
-    homepage = http://github.com/JonathanBeck/libplist;
+    homepage = "http://github.com/JonathanBeck/libplist";
     platforms = stdenv.lib.platforms.all;
     maintainers = [ stdenv.lib.maintainers.urkud ];
   };

@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   makeFlags = [ "PREFIX=$(out)" ];
 
   meta = with stdenv.lib; {
-    homepage = http://github.com/sargon/trayer-srg;
+    homepage = "http://github.com/sargon/trayer-srg";
     license = licenses.mit;
     description = "A lightweight GTK2-based systray for UNIX desktop";
     platforms = platforms.linux;

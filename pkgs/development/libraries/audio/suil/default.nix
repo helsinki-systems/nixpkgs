@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
   installPhase = "python waf install";
 
   meta = with stdenv.lib; {
-    homepage = http://drobilla.net/software/suil;
+    homepage = "http://drobilla.net/software/suil";
     description = "A lightweight C library for loading and wrapping LV2 plugin UIs";
     license = licenses.mit;
     maintainers = [ maintainers.goibhniu ];

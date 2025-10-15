@@ -106,7 +106,7 @@ stdenv.mkDerivation rec {
   passthru.libPrefix = "lib/perl5/site_perl";
 
   meta = {
-    homepage = https://www.perl.org/;
+    homepage = "https://www.perl.org/";
     description = "The standard implementation of the Perl 5 programmming language";
     maintainers = [ maintainers.eelco ];
     platforms = platforms.all;

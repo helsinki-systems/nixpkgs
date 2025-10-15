@@ -38,7 +38,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "X window manager for non-desktop embedded systems";
-    homepage = http://openbox.org/;
+    homepage = "http://openbox.org/";
     license = stdenv.lib.licenses.gpl2Plus;
   };
 }

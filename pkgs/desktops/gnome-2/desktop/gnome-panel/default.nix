@@ -7,7 +7,7 @@ stdenv.mkDerivation {
   name = "gnome-panel-2.32.1";
 
   src = fetchurl {
-    url = mirror://gnome/sources/gnome-panel/2.32/gnome-panel-2.32.1.tar.bz2;
+    url = "mirror://gnome/sources/gnome-panel/2.32/gnome-panel-2.32.1.tar.bz2";
     sha256 = "0pyakxyixmcp1yhi8r1q6adhamh2waj48y397fkigj11gbmjhy4g";
   };
 

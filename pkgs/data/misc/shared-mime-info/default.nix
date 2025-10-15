@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   meta = {
     inherit version;
     description = "A database of common MIME types";
-    homepage = http://freedesktop.org/wiki/Software/shared-mime-info;
+    homepage = "http://freedesktop.org/wiki/Software/shared-mime-info";
     license = stdenv.lib.licenses.gpl2Plus;
   };
 }

@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
     IOSocketSSL DigestHMAC URI FileCopyRecursive IOTee UnicodeString ];
 
   meta = with stdenv.lib; {
-    homepage = http://www.linux-france.org/prj/imapsync/;
+    homepage = "http://www.linux-france.org/prj/imapsync/";
     description = "Mail folder synchronizer between IMAP servers";
     license = licenses.gpl2Plus;
     platforms = platforms.linux;

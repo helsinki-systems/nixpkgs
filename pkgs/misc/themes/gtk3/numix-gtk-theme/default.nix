@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
   
   meta = {
     description = "Numix GTK theme";
-    homepage = https://numixproject.org;
+    homepage = "https://numixproject.org";
     license = stdenv.lib.licenses.gpl3;
     platforms = stdenv.lib.platforms.all;
   };

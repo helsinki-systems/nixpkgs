@@ -112,7 +112,7 @@ stdenv.mkDerivation rec {
       ported to OS/2 Warp!
     '';
 
-    homepage = http://www.gnu.org/software/ncurses/;
+    homepage = "http://www.gnu.org/software/ncurses/";
 
     license = lib.licenses.mit;
     platforms = lib.platforms.all;

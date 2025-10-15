@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
                   gst_all_1.gst-plugins-base gst_all_1.gst-plugins-good ];
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Apps/Yelp;
+    homepage = "https://wiki.gnome.org/Apps/Yelp";
     description = "The help viewer in Gnome";
     maintainers = gnome3.maintainers;
     license = licenses.gpl2;

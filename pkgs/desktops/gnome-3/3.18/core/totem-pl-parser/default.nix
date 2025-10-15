@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pkgconfig file intltool gmime libxml2 libsoup ];
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Apps/Videos;
+    homepage = "https://wiki.gnome.org/Apps/Videos";
     description = "Simple GObject-based library to parse and save a host of playlist formats";
     maintainers = gnome3.maintainers;
     license = licenses.lgpl2;

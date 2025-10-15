@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   name = "gnome-session-2.32.1";
 
   src = fetchurl {
-    url = mirror://gnome/sources/gnome-session/2.32/gnome-session-2.32.1.tar.bz2;
+    url = "mirror://gnome/sources/gnome-session/2.32/gnome-session-2.32.1.tar.bz2";
     sha256 = "0sk8qclarpar27va1ahzwjh2wsafys0xsdjzdg7cgygw6gj3rn92";
   };
 

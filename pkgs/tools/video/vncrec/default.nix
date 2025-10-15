@@ -23,6 +23,6 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "VNC recorder";
-    homepage = http://ronja.twibright.com/utils/vncrec/;
+    homepage = "http://ronja.twibright.com/utils/vncrec/";
   };
 }

@@ -24,7 +24,7 @@ in stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = http://sourceforge.net/projects/briss/;
+    homepage = "http://sourceforge.net/projects/briss/";
     description = "Java application for cropping PDF files";
     license = stdenv.lib.licenses.gpl3;
   };

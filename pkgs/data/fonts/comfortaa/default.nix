@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://aajohan.deviantart.com/art/Comfortaa-font-105395949;
+    homepage = "http://aajohan.deviantart.com/art/Comfortaa-font-105395949";
     description = "A clean and modern font suitable for headings and logos";
     license = licenses.ofl;
     platforms = platforms.all;

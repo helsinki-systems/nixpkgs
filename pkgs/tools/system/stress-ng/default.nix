@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
       hardware issues such as thermal overruns as well as operating system
       bugs that only occur when a system is being thrashed hard.
     '';
-    homepage = http://kernel.ubuntu.com/~cking/stress-ng;
+    homepage = "http://kernel.ubuntu.com/~cking/stress-ng";
     downloadPage = http://kernel.ubuntu.com/~cking/tarballs/stress-ng/;
     license = licenses.gpl2Plus;
     platforms = platforms.linux;

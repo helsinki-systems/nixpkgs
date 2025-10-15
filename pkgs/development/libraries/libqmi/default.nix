@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pkgconfig glib python ];
 
   meta = with stdenv.lib; {
-    homepage = http://www.freedesktop.org/wiki/Software/libqmi/;
+    homepage = "http://www.freedesktop.org/wiki/Software/libqmi/";
     description = "Modem protocol helper library";
     platforms = platforms.linux;
     license = licenses.gpl2;

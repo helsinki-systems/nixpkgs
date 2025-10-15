@@ -25,7 +25,7 @@ in
 stdenv.mkDerivation rec {
   name = "blitz++-0.10";
   src = fetchurl {
-    url = mirror://sourceforge/blitz/blitz-0.10.tar.gz;
+    url = "mirror://sourceforge/blitz/blitz-0.10.tar.gz";
     sha256 = "153g9sncir6ip9l7ssl6bhc4qzh0qr3lx2d15qm68hqxj7kg0kl0";
   };
 
@@ -63,7 +63,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Fast multi-dimensional array library for C++";
-    homepage = http://sourceforge.net/projects/blitz/;
+    homepage = "http://sourceforge.net/projects/blitz/";
     license = stdenv.lib.licenses.lgpl3;
     platforms = stdenv.lib.platforms.linux ++ stdenv.lib.platforms.darwin;
     maintainers = [ stdenv.lib.maintainers.aherrmann ];

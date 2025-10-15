@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   makeFlags = "DESTDIR=$(out) PREFIX=";
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/tj/git-extras;
+    homepage = "https://github.com/tj/git-extras";
     description = "GIT utilities -- repo summary, repl, changelog population, author commit percentages and more";
     license = licenses.mit;
     platforms = platforms.all;

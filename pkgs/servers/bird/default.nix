@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "BIRD Internet Routing Daemon";
-    homepage = http://bird.network.cz;
+    homepage = "http://bird.network.cz";
     license = stdenv.lib.licenses.gpl2Plus;
     maintainers = with stdenv.lib.maintainers; [viric];
     platforms  = stdenv.lib.platforms.linux;

@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://pijul.org/;
+    homepage = "https://pijul.org/";
     description = "Fast DVCS based on a categorical theory of patches";
     license = licenses.gpl3;
     platforms = stdenv.lib.platforms.unix;

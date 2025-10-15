@@ -40,7 +40,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   meta = {
-    homepage = http://www.xfce.org/projects/xfce4-panel;
+    homepage = "http://www.xfce.org/projects/xfce4-panel";
     description = "Xfce panel";
     license = stdenv.lib.licenses.gpl2Plus;
     platforms = stdenv.lib.platforms.linux;

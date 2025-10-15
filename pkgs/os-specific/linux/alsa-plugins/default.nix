@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
 
   meta = with lib; {
     description = "Various plugins for ALSA";
-    homepage = http://alsa-project.org/;
+    homepage = "http://alsa-project.org/";
     license = licenses.lgpl21;
     maintainers = [maintainers.marcweber];
     platforms = platforms.linux;

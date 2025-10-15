@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
   doCheck = true;
 
   meta = {
-    homepage = https://www.gnu.org/software/libgcrypt/;
+    homepage = "https://www.gnu.org/software/libgcrypt/";
     description = "General-pupose cryptographic library";
     license = lib.licenses.lgpl2Plus;
     platforms = lib.platforms.all;

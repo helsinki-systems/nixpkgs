@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A simple plaintext presentation tool";
-    homepage = http://tools.suckless.org/sent/;
+    homepage = "http://tools.suckless.org/sent/";
     license = licenses.mit;
     platforms = platforms.linux;
     maintainers = with maintainers; [ pSub ];

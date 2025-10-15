@@ -39,7 +39,7 @@ stdenv.mkDerivation rec {
   '' else "";
   meta = {
     description = "The Compositing Window Manager and Desktop Shell";
-    homepage = http://enlightenment.org/;
+    homepage = "http://enlightenment.org/";
     maintainers = with stdenv.lib.maintainers; [ matejc tstrobel ftrvxmtrx ];
     platforms = stdenv.lib.platforms.linux;
     license = stdenv.lib.licenses.bsd2;

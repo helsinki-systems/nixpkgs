@@ -58,7 +58,7 @@ pythonPackages.buildPythonPackage rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://neutron.openstack.org/;
+    homepage = "http://neutron.openstack.org/";
     description = "Virtual network service for Openstack";
     license = stdenv.lib.licenses.asl20;
     platforms = stdenv.lib.platforms.linux;

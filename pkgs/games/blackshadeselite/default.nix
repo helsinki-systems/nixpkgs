@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://home.gna.org/blackshadeselite/;
+    homepage = "http://home.gna.org/blackshadeselite/";
     description = "Fork of Black Shades";
     license = stdenv.lib.licenses.gpl2Plus; # Says its gna.org project page
     maintainers = with stdenv.lib.maintainers; [viric];

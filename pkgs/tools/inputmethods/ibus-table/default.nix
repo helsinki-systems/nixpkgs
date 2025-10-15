@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "An IBus framework for table-based input methods";
-    homepage    = https://github.com/kaio/ibus-table/wiki;
+    homepage    = "https://github.com/kaio/ibus-table/wiki";
     license     = licenses.lgpl21;
     platforms   = platforms.linux;
     maintainers = with maintainers; [ mudri ];

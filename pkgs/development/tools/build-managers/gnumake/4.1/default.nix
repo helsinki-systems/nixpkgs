@@ -23,7 +23,7 @@ stdenv.mkDerivation {
   ];
 
   meta = {
-    homepage = http://www.gnu.org/software/make/;
+    homepage = "http://www.gnu.org/software/make/";
     description = "A tool to control the generation of non-source files from sources";
     license = stdenv.lib.licenses.gpl3Plus;
 

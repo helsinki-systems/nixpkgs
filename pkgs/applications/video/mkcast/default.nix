@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A tool for creating GIF screencasts of a terminal, with key presses overlaid";
-    homepage = https://github.com/KeyboardFire/mkcast;
+    homepage = "https://github.com/KeyboardFire/mkcast";
     platforms = platforms.linux;
     maintainers = with maintainers; [ iElectric pSub ];
   };

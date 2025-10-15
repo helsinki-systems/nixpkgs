@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://xcalib.sourceforge.net/;
+    homepage = "http://xcalib.sourceforge.net/";
     description = "A tiny monitor calibration loader for X and MS-Windows";
     license = licenses.gpl2;
     maintainers = [ maintainers.rickynils ];

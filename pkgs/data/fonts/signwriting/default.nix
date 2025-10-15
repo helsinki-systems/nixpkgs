@@ -14,7 +14,7 @@ runCommand "signwriting-1.1.4" {
   };
 
   meta = with lib; {
-    homepage = https://github.com/Slevinski/signwriting_2010_fonts;
+    homepage = "https://github.com/Slevinski/signwriting_2010_fonts";
     description = "Typeface for written sign languages";
     maintainers = with maintainers; [ mathnerd314 ];
     license = licenses.ofl;

@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   wrapPrefixVariables = [ "PYTHONPATH" ];
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Apps/Accerciser;
+    homepage = "https://wiki.gnome.org/Apps/Accerciser";
     description = "Interactive Python accessibility explorer";
     maintainers = gnome3.maintainers;
     license = licenses.bsd3;

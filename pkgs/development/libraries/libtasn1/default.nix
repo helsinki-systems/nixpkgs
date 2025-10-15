@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   doCheck = true;
 
   meta = {
-    homepage = http://www.gnu.org/software/libtasn1/;
+    homepage = "http://www.gnu.org/software/libtasn1/";
     description = "An ASN.1 library";
 
     longDescription =

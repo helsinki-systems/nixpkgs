@@ -4,7 +4,7 @@ fetchurl: {
   name = "polari-3.18.1";
 
   src = fetchurl {
-    url = mirror://gnome/sources/polari/3.18/polari-3.18.1.tar.xz;
+    url = "mirror://gnome/sources/polari/3.18/polari-3.18.1.tar.xz";
     sha256 = "554a089b1edf88d49408ecf6ce79ad6f7114ecf557753c8f39a9af153a76843a";
   };
 }

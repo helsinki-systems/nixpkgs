@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
   ];
 
   meta = {
-    homepage = http://git.xfce.org/xfce/tumbler/;
+    homepage = "http://git.xfce.org/xfce/tumbler/";
     description = "A D-Bus thumbnailer service";
     platforms = stdenv.lib.platforms.linux;
     license = stdenv.lib.licenses.gpl2;

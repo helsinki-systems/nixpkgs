@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   configureFlags = [ "--with-backend=pcsc" ];
 
   meta = with stdenv.lib; {
-    homepage = https://developers.yubico.com/yubico-piv-tool/;
+    homepage = "https://developers.yubico.com/yubico-piv-tool/";
     description = "";
     maintainers = with maintainers; [ wkennington ];
     license = licenses.bsd2;

@@ -24,7 +24,7 @@ stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = http://gna.org/projects/smbldap-tools/;
+    homepage = "http://gna.org/projects/smbldap-tools/";
     description = "SAMBA LDAP tools";
     license = stdenv.lib.licenses.gpl2Plus;
     # pod2man: unable to format smbldap-config.cmd

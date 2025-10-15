@@ -19,7 +19,7 @@ stdenv.mkDerivation {
       automatically linked to the resources they reference.
     '';
     license = "GPL";
-    homepage = http://smile.deri.ie/projects/semn;
+    homepage = "http://smile.deri.ie/projects/semn";
     maintainers = [ maintainers.phreedom ];
     platforms = platforms.linux;
   };

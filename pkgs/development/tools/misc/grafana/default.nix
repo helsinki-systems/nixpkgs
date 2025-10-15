@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A Graphite & InfluxDB Dashboard and Graph Editor";
-    homepage = http://grafana.org/;
+    homepage = "http://grafana.org/";
     license = licenses.asl20;
 
     maintainers = [ maintainers.offline ];

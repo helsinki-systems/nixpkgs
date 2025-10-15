@@ -37,7 +37,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "Photo Management Program";
     license = stdenv.lib.licenses.gpl2;
-    homepage = http://www.digikam.org;
+    homepage = "http://www.digikam.org";
     maintainers = with stdenv.lib.maintainers; [ goibhniu viric urkud ];
     inherit (kdelibs.meta) platforms;
   };

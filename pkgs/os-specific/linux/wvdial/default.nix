@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A dialer that automatically recognises the modem";
-    homepage = http://alumnit.ca/wiki/index.php?page=WvDial;
+    homepage = "http://alumnit.ca/wiki/index.php?page=WvDial";
     license = "LGPL";
     maintainers = [ stdenv.lib.maintainers.marcweber ];
     platforms = stdenv.lib.platforms.linux;

@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = with stdenv.lib; {
-    homepage = http://libestr.adiscon.com/;
+    homepage = "http://libestr.adiscon.com/";
     description = "some essentials for string handling";
     license = licenses.lgpl21;
     platforms = platforms.all;

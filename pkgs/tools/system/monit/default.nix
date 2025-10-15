@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   ] ++ stdenv.lib.optionals (! usePAM) [ "--without-pam" ];
 
   meta = {
-    homepage = http://mmonit.com/monit/;
+    homepage = "http://mmonit.com/monit/";
     description = "Monitoring system";
     license = stdenv.lib.licenses.agpl3;
     maintainers = with stdenv.lib.maintainers; [ raskin wmertens ];

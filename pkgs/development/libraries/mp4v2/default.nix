@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
   postInstall = "ln -s mp4v2/mp4v2.h $out/include/mp4.h";
 
   meta = {
-    homepage = http://code.google.com/p/mp4v2;
+    homepage = "http://code.google.com/p/mp4v2";
     maintainers = [ stdenv.lib.maintainers.urkud ];
     platforms = stdenv.lib.platforms.all;
   };

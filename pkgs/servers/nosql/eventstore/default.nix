@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   patches = [
     # see: https://github.com/EventStore/EventStore/issues/461
     (fetchpatch {
-      url = https://github.com/EventStore/EventStore/commit/9a0987f19935178df143a3cf876becaa1b11ffae.patch;
+      url = "https://github.com/EventStore/EventStore/commit/9a0987f19935178df143a3cf876becaa1b11ffae.patch";
       sha256 = "04qw0rb1pypa8dqvj94j2mwkc1y6b40zrpkn1d3zfci3k8cam79y";
     })
   ];
@@ -46,7 +46,7 @@ stdenv.mkDerivation rec {
   dontStrip = true;
 
   meta = {
-    homepage = https://geteventstore.com/;
+    homepage = "https://geteventstore.com/";
     description = "Event sourcing database with processing logic in JavaScript";
     license = stdenv.lib.licenses.bsd3;
     maintainers = with stdenv.lib.maintainers; [ puffnfresh ];

@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ cmake qhull flann boost vtk eigen pkgconfig qt4 libusb1 libpcap libXt ];
 
   meta = {
-    homepage = http://pointclouds.org/;
+    homepage = "http://pointclouds.org/";
     description = "Open project for 2D/3D image and point cloud processing";
     license = stdenv.lib.licenses.bsd3;
     maintainers = with stdenv.lib.maintainers; [viric];

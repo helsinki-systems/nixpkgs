@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
 
     To support efficient text edition capabilities, Zed provides macro recording and cursor management facilities.
     '';
-    homepage = https://github.com/diml/zed;
+    homepage = "https://github.com/diml/zed";
     license = stdenv.lib.licenses.bsd3;
     platforms = ocaml.meta.platforms;
     maintainers = [

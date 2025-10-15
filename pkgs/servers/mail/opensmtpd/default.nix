@@ -36,7 +36,7 @@ stdenv.mkDerivation rec {
   ];
 
   meta = {
-    homepage = https://www.opensmtpd.org/;
+    homepage = "https://www.opensmtpd.org/";
     description = ''
       A free implementation of the server-side SMTP protocol as defined by
       RFC 5321, with some additional standard extensions

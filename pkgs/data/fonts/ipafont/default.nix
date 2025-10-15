@@ -26,7 +26,7 @@ stdenv.mkDerivation {
       Promotion Agency of Japan. It provides both Mincho and Gothic fonts,
       suitable for both display and printing.
     '';
-    homepage = http://ipafont.ipa.go.jp/ipafont/;
+    homepage = "http://ipafont.ipa.go.jp/ipafont/";
     license = stdenv.lib.licenses.ipa;
     maintainers = [ stdenv.lib.maintainers.auntie ];
   };

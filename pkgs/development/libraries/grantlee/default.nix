@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
       The syntax is intended to follow the syntax of the Django template system,
       and the design of Django is reused in Grantlee.'';
 
-    homepage = http://gitorious.org/grantlee;
+    homepage = "http://gitorious.org/grantlee";
     maintainers = [ stdenv.lib.maintainers.urkud ];
     inherit (qt4.meta) platforms;
   };

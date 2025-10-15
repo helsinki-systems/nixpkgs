@@ -60,7 +60,7 @@ EOF
       Flag.  You can even design your own maps!
     '';
 
-    homepage = http://teeworlds.com/;
+    homepage = "http://teeworlds.com/";
     license = "BSD-style, see `license.txt'";
     maintainers = with stdenv.lib.maintainers; [ astsmtl ];
     platforms = with stdenv.lib.platforms; linux;

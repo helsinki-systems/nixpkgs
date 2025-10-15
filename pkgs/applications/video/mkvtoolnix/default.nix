@@ -68,7 +68,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Cross-platform tools for Matroska";
-    homepage = http://www.bunkus.org/videotools/mkvtoolnix/;
+    homepage = "http://www.bunkus.org/videotools/mkvtoolnix/";
     license = licenses.gpl2;
     maintainers = with maintainers; [ codyopel fuuzetsu ];
     platforms = platforms.all;

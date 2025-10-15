@@ -26,7 +26,7 @@ stdenv.mkDerivation rec
 
   meta =
   {
-    homepage = https://github.com/haiwen/ccnet;
+    homepage = "https://github.com/haiwen/ccnet";
     description = "A framework for writing networked applications in C";
     license = stdenv.lib.licenses.gpl3Plus;
     platforms = stdenv.lib.platforms.linux;

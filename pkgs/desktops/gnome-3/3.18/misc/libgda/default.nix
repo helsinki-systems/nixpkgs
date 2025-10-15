@@ -23,7 +23,7 @@ in stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Database access library";
-    homepage = http://www.gnome-db.org/;
+    homepage = "http://www.gnome-db.org/";
     license = [ licenses.lgpl2 licenses.gpl2 ];
     platforms = platforms.linux;
   };

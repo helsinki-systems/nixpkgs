@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A library to handle keyboard descriptions";
-    homepage = http://xkbcommon.org;
+    homepage = "http://xkbcommon.org";
   };
 }
 

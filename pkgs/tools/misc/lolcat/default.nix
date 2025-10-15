@@ -11,7 +11,7 @@ bundlerEnv {
 
   meta = with lib; {
     description = "A rainbow version of cat";
-    homepage    = https://github.com/busyloop/lolcat;
+    homepage    = "https://github.com/busyloop/lolcat";
     license     = licenses.wtfpl;
     maintainers = with maintainers; [ pSub ];
   };

@@ -55,7 +55,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "An open source code editor for the web, written in JavaScript, HTML and CSS";
-    homepage = http://brackets.io/;
+    homepage = "http://brackets.io/";
     license = licenses.mit;
     maintainers = [ maintainers.matejc ];
     platforms = [ "x86_64-linux" ];

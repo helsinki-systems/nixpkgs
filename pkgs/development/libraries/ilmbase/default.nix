@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   patches = [ ./bootstrap.patch ];
 
   meta = with stdenv.lib; {
-    homepage = http://www.openexr.com/;
+    homepage = "http://www.openexr.com/";
     license = licenses.bsd3;
     platforms = platforms.all;
     maintainers = with maintainers; [ wkennington ];

@@ -75,7 +75,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Lisp compiler";
-    homepage = http://www.sbcl.org;
+    homepage = "http://www.sbcl.org";
     license = stdenv.lib.licenses.bsd3;
     maintainers = [stdenv.lib.maintainers.raskin];
     platforms = stdenv.lib.platforms.all;

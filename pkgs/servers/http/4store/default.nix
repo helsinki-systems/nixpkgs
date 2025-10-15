@@ -37,7 +37,7 @@ rec {
       
   meta = {
     description = "SparQL query server (RDF storage)";
-    homepage = http://4store.org/;
+    homepage = "http://4store.org/";
     maintainers = with a.lib.maintainers;
     [
       raskin

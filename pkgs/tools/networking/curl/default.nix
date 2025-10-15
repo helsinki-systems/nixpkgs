@@ -77,7 +77,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A command line tool for transferring files with URL syntax";
-    homepage    = http://curl.haxx.se/;
+    homepage    = "http://curl.haxx.se/";
     maintainers = with maintainers; [ lovek323 ];
     platforms   = platforms.all;
   };

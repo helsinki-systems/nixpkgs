@@ -131,7 +131,7 @@ in stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://github.com/Bumblebee-Project/Bumblebee;
+    homepage = "http://github.com/Bumblebee-Project/Bumblebee";
     description = "Daemon for managing Optimus videocards (power-on/off, spawns xservers)";
     platforms = platforms.linux;
     license = licenses.gpl3;

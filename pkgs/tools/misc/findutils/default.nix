@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
   '' else null;
 
   meta = {
-    homepage = http://www.gnu.org/software/findutils/;
+    homepage = "http://www.gnu.org/software/findutils/";
     description = "GNU Find Utilities, the basic directory searching utilities of the GNU operating system";
 
     longDescription = ''

@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "ccrtp-1.8.0";
 
   src = fetchurl {
-    url = mirror://gnu/ccrtp/ccrtp-1.8.0.tar.gz;
+    url = "mirror://gnu/ccrtp/ccrtp-1.8.0.tar.gz";
     sha256 = "0wr4dandlfajhmg90nqyvwv61ikn9vdycji001310y3c4zfysprn";
   };
 

@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   meta = {
-    homepage = https://github.com/dhewm/dhewm3;
+    homepage = "https://github.com/dhewm/dhewm3";
     description = "Doom 3 port to SDL";
     license = stdenv.lib.licenses.gpl3;
   };

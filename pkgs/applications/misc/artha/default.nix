@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "An offline thesaurus based on WordNet";
-    homepage = http://artha.sourceforge.net;
+    homepage = "http://artha.sourceforge.net";
     license = licenses.gpl2;
     maintainers = [ maintainers.goibhniu ];
     platforms = platforms.linux;

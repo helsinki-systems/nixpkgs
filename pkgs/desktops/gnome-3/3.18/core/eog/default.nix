@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Apps/EyeOfGnome; 
+    homepage = "https://wiki.gnome.org/Apps/EyeOfGnome"; 
     platforms = platforms.linux;
     description = "GNOME image viewer";
     maintainers = gnome3.maintainers;

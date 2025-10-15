@@ -18,7 +18,7 @@ let
   ];
 
   eula = fetchurl {
-    url = http://corefonts.sourceforge.net/eula.htm;
+    url = "http://corefonts.sourceforge.net/eula.htm";
     sha256 = "1aqbcnl032g2hd7iy56cs022g47scb0jxxp3mm206x1yqc90vs1c";
   };
 

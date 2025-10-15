@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
     '';
 
     license = licenses.ofl;
-    homepage = https://fedorahosted.org/liberation-fonts/;
+    homepage = "https://fedorahosted.org/liberation-fonts/";
     maintainers = [
       maintainers.raskin
     ];

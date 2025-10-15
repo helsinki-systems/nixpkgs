@@ -98,7 +98,7 @@ let
           Its areas of application include high energy, nuclear and accelerator physics, as well as studies in medical and space science.
           The two main reference papers for Geant4 are published in Nuclear Instruments and Methods in Physics Research A 506 (2003) 250-303, and IEEE Transactions on Nuclear Science 53 No. 1 (2006) 270-278.
         '';
-        homepage = http://www.geant4.org;
+        homepage = "http://www.geant4.org";
         license = stdenv.lib.licenses.g4sl;
         maintainers = [ ];
         platforms = stdenv.lib.platforms.all;
@@ -130,7 +130,7 @@ let
 
       meta = {
         description = "Data files for the Geant4 toolkit";
-        homepage = http://www.geant4.org;
+        homepage = "http://www.geant4.org";
         license = stdenv.lib.licenses.g4sl;
         maintainers = [ ];
         platforms = stdenv.lib.platforms.all;

@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ unzip ];
 
   meta = {
-    homepage = http://muparser.sourceforge.net;
+    homepage = "http://muparser.sourceforge.net";
     description = "An extensible high performance math expression parser library written in C++";
     license = stdenv.lib.licenses.mit;
   };

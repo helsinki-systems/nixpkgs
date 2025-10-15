@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   createFindlibDestdir = true;
 
   meta = with stdenv.lib; {
-    homepage = http://mmottl.github.io/sqlite3-ocaml/;
+    homepage = "http://mmottl.github.io/sqlite3-ocaml/";
     description = "OCaml bindings to the SQLite 3 database access library";
     license = licenses.mit;
     platforms = ocaml.meta.platforms;

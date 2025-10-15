@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
       and invoke methods on those interfaces.
     '';
 
-    homepage = https://wiki.gnome.org/action/show/Apps/DFeet;
+    homepage = "https://wiki.gnome.org/action/show/Apps/DFeet";
     platforms = stdenv.lib.platforms.all;
     license = stdenv.lib.licenses.gpl2;
     maintainers = with stdenv.lib.maintainers; [ ktosiek ];

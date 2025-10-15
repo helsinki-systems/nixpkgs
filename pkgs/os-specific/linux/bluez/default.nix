@@ -47,7 +47,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.bluez.org/;
+    homepage = "http://www.bluez.org/";
     description = "Bluetooth support for Linux";
   };
 }

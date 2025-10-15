@@ -34,7 +34,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "Free and open source video editor";
     license = stdenv.lib.licenses.gpl2Plus;
-    homepage = http://www.kdenlive.org/;
+    homepage = "http://www.kdenlive.org/";
     maintainers = with stdenv.lib.maintainers; [ goibhniu viric ];
     platforms = with stdenv.lib.platforms; linux;
   };

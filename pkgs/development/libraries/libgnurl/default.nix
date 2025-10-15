@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A fork of libcurl used by GNUnet";
-    homepage    = https://gnunet.org/gnurl;
+    homepage    = "https://gnunet.org/gnurl";
     maintainers = with maintainers; [ falsifian ];
     hydraPlatforms = platforms.linux;
   };

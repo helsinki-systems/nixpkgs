@@ -46,7 +46,7 @@ stdenv.mkDerivation rec {
       Tool command language.
     '';
 
-    homepage = http://www.gnu.org/software/dejagnu/;
+    homepage = "http://www.gnu.org/software/dejagnu/";
     license = licenses.gpl2Plus;
 
     platforms = platforms.linux;

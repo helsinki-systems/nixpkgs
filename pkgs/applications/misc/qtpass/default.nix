@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A multi-platform GUI for pass, the standard unix password manager";
-    homepage = https://github.com/IJHack/qtpass;
+    homepage = "https://github.com/IJHack/qtpass";
     license = licenses.gpl3;
     maintainers = [ maintainers.hrdinka ];
     platforms = platforms.all;

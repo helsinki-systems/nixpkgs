@@ -24,7 +24,7 @@ buildFHSUserEnv {
 
    meta = with stdenv.lib; {
      description = "An open source ecosystem for IoT development";
-     homepage = http://platformio.org;
+     homepage = "http://platformio.org";
      maintainers = with maintainers; [ mog ];
      license = licenses.asl20;
   };

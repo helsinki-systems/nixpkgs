@@ -135,7 +135,7 @@ let self = with self; {
     meta = with pkgs.lib; {
       description = "Dependency Manager for PHP";
       license = licenses.mit;
-      homepage = https://getcomposer.org/;
+      homepage = "https://getcomposer.org/";
       maintainers = with maintainers; [ globin offline ];
     };
   };
@@ -162,7 +162,7 @@ let self = with self; {
     meta = with pkgs.lib; {
       description = "PHP coding standard tool";
       license = licenses.bsd3;
-      homepage = https://squizlabs.github.io/PHP_CodeSniffer/;
+      homepage = "https://squizlabs.github.io/PHP_CodeSniffer/";
       maintainers = with maintainers; [ javaguirre ];
     };
   };

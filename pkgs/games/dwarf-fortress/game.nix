@@ -41,7 +41,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "A single-player fantasy game with a randomly generated adventure world";
-    homepage = http://www.bay12games.com/dwarves;
+    homepage = "http://www.bay12games.com/dwarves";
     license = lib.licenses.unfreeRedistributable;
     maintainers = with lib.maintainers; [ a1russell robbinch roconnor the-kenny abbradar ];
   };

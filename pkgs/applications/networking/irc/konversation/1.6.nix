@@ -79,6 +79,6 @@ stdenv.mkDerivation rec {
     description = "Integrated IRC client for KDE";
     license = with lib.licenses; [ gpl2 ];
     maintainers = with lib.maintainers; [ fridh ];
-    homepage = https://konversation.kde.org;
+    homepage = "https://konversation.kde.org";
   };
 }

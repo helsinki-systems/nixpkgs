@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "CommonMark parsing and rendering library and program in C";
-    homepage = https://github.com/jgm/cmark;
+    homepage = "https://github.com/jgm/cmark";
     maintainers = [ stdenv.lib.maintainers.michelk ];
   };
 }

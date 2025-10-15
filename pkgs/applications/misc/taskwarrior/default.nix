@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "GTD (getting things done) implementation";
-    homepage = http://taskwarrior.org;
+    homepage = "http://taskwarrior.org";
     license = licenses.mit;
     maintainers = with maintainers; [ marcweber jgeerds ];
     platforms = platforms.linux;

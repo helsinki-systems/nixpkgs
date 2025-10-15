@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://loudifier.com/comic-relief/;
+    homepage = "http://loudifier.com/comic-relief/";
     description = "A font metric-compatible with Microsoft Comic Sans";
     longDescription = ''
       Comic Relief is a typeface designed to be metrically equivalent

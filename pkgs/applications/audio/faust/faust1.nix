@@ -17,7 +17,7 @@ let
   };
 
   meta = with stdenv.lib; {
-    homepage = http://faust.grame.fr/;
+    homepage = "http://faust.grame.fr/";
     downloadPage = http://sourceforge.net/projects/faudiostream/files/;
     license = licenses.gpl2;
     platforms = platforms.linux;

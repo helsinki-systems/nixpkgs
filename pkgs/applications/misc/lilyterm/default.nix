@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
     longDescription = ''
       LilyTerm is a terminal emulator based off of libvte that aims to be fast and lightweight.
     '';
-    homepage = http://lilyterm.luna.com.tw/;
+    homepage = "http://lilyterm.luna.com.tw/";
     license = licenses.gpl3;
     maintainers = with maintainers; [ AndersonTorres ];
     platforms = platforms.linux;

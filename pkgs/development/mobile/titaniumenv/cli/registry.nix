@@ -121,7 +121,7 @@ let
       };
       meta = {
         description = "get colors in your node.js console";
-        homepage = https://github.com/Marak/colors.js;
+        homepage = "https://github.com/Marak/colors.js";
         license = "MIT";
       };
       production = true;
@@ -156,7 +156,7 @@ let
       };
       meta = {
         description = "Creates fields to prompt for input at the command line";
-        homepage = https://github.com/cb1kenobi/fields;
+        homepage = "https://github.com/cb1kenobi/fields";
       };
       production = true;
       linkDependencies = false;
@@ -170,7 +170,7 @@ let
       };
       meta = {
         description = "get colors in your node.js console like what";
-        homepage = https://github.com/Marak/colors.js;
+        homepage = "https://github.com/Marak/colors.js";
       };
       production = true;
       linkDependencies = false;
@@ -200,7 +200,7 @@ let
       };
       meta = {
         description = "Sprintf() for node.js";
-        homepage = https://github.com/maritz/node-sprintf;
+        homepage = "https://github.com/maritz/node-sprintf";
         license = "BSD-3-Clause";
       };
       production = true;
@@ -217,7 +217,7 @@ let
       dependencies = {};
       meta = {
         description = "Javascript string formatter for human readability";
-        homepage = https://github.com/taijinlee/humanize;
+        homepage = "https://github.com/taijinlee/humanize";
       };
       production = true;
       linkDependencies = false;
@@ -239,7 +239,7 @@ let
       };
       meta = {
         description = "Long stack traces for node.js inspired by https://github.com/tlrobinson/long-stack-traces";
-        homepage = https://github.com/mattinsler/longjohn;
+        homepage = "https://github.com/mattinsler/longjohn";
         license = "MIT";
       };
       production = true;
@@ -262,7 +262,7 @@ let
       };
       meta = {
         description = "Fixes stack traces for files with source maps";
-        homepage = https://github.com/evanw/node-source-map-support;
+        homepage = "https://github.com/evanw/node-source-map-support";
         license = "MIT";
       };
       production = true;
@@ -285,7 +285,7 @@ let
       };
       meta = {
         description = "Generates and consumes source maps";
-        homepage = https://github.com/mozilla/source-map;
+        homepage = "https://github.com/mozilla/source-map";
       };
       production = true;
       linkDependencies = false;
@@ -299,7 +299,7 @@ let
       };
       meta = {
         description = "Provide AMD's define() API for declaring modules in the AMD format";
-        homepage = http://github.com/jrburke/amdefine;
+        homepage = "http://github.com/jrburke/amdefine";
         license = "BSD-3-Clause AND MIT";
       };
       production = true;
@@ -315,7 +315,7 @@ let
       };
       meta = {
         description = "Parse, validate, manipulate, and display dates";
-        homepage = http://momentjs.com/;
+        homepage = "http://momentjs.com/";
         license = "MIT";
       };
       production = true;
@@ -410,7 +410,7 @@ let
       };
       meta = {
         description = "Appcelerator Common Node Library";
-        homepage = http://github.com/appcelerator/node-appc;
+        homepage = "http://github.com/appcelerator/node-appc";
         license = "Apache Public License v2";
       };
       production = true;
@@ -425,7 +425,7 @@ let
       };
       meta = {
         description = "A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk";
-        homepage = http://github.com/cthackers/adm-zip;
+        homepage = "http://github.com/cthackers/adm-zip";
       };
       production = true;
       linkDependencies = false;
@@ -455,7 +455,7 @@ let
       };
       meta = {
         description = "Rigorous implementation of RFC4122 (v1 and v4) UUIDs.";
-        homepage = https://github.com/broofa/node-uuid;
+        homepage = "https://github.com/broofa/node-uuid";
       };
       production = true;
       linkDependencies = false;
@@ -483,7 +483,7 @@ let
       };
       meta = {
         description = "Light-weight option parsing with an argv hash. No optstrings attached.";
-        homepage = https://github.com/substack/node-optimist;
+        homepage = "https://github.com/substack/node-optimist";
         license = "MIT/X11";
       };
       production = true;
@@ -514,7 +514,7 @@ let
       };
       meta = {
         description = "parse argument options";
-        homepage = https://github.com/substack/minimist;
+        homepage = "https://github.com/substack/minimist";
         license = "MIT";
       };
       production = true;
@@ -669,7 +669,7 @@ let
       };
       meta = {
         description = "Buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!";
-        homepage = https://github.com/rvagg/bl;
+        homepage = "https://github.com/rvagg/bl";
         license = "MIT";
       };
       production = true;
@@ -769,7 +769,7 @@ let
       dependencies = {};
       meta = {
         description = "Array#isArray for older browsers";
-        homepage = https://github.com/juliangruber/isarray;
+        homepage = "https://github.com/juliangruber/isarray";
         license = "MIT";
       };
       production = true;
@@ -784,7 +784,7 @@ let
       };
       meta = {
         description = "process.nextTick but always with args";
-        homepage = https://github.com/calvinmetcalf/process-nextick-args;
+        homepage = "https://github.com/calvinmetcalf/process-nextick-args";
         license = "MIT";
       };
       production = true;
@@ -801,7 +801,7 @@ let
       dependencies = {};
       meta = {
         description = "The string_decoder module from Node core";
-        homepage = https://github.com/rvagg/string_decoder;
+        homepage = "https://github.com/rvagg/string_decoder";
         license = "MIT";
       };
       production = true;
@@ -817,7 +817,7 @@ let
       };
       meta = {
         description = "The Node.js `util.deprecate()` function with browser support";
-        homepage = https://github.com/TooTallNate/util-deprecate;
+        homepage = "https://github.com/TooTallNate/util-deprecate";
         license = "MIT";
       };
       production = true;
@@ -869,7 +869,7 @@ let
       dependencies = {};
       meta = {
         description = "HTTP Agent that keeps socket connections alive between keep-alive requests. Formerly part of mikeal/request, now a standalone module.";
-        homepage = https://github.com/mikeal/forever-agent;
+        homepage = "https://github.com/mikeal/forever-agent";
         license = "Apache-2.0";
       };
       production = true;
@@ -944,7 +944,7 @@ let
       };
       meta = {
         description = "A stream that emits multiple other streams one after another.";
-        homepage = https://github.com/felixge/node-combined-stream;
+        homepage = "https://github.com/felixge/node-combined-stream";
         license = "MIT";
       };
       production = true;
@@ -960,7 +960,7 @@ let
       dependencies = {};
       meta = {
         description = "Buffers events from a stream until you are ready to handle them.";
-        homepage = https://github.com/felixge/node-delayed-stream;
+        homepage = "https://github.com/felixge/node-delayed-stream";
         license = "MIT";
       };
       production = true;
@@ -985,7 +985,7 @@ let
       };
       meta = {
         description = "The ultimate javascript content-type utility.";
-        homepage = https://github.com/jshttp/mime-types;
+        homepage = "https://github.com/jshttp/mime-types";
         license = "MIT";
       };
       production = true;
@@ -1000,7 +1000,7 @@ let
       };
       meta = {
         description = "Media Type Database";
-        homepage = https://github.com/jshttp/mime-db;
+        homepage = "https://github.com/jshttp/mime-db";
         license = "MIT";
       };
       production = true;
@@ -1018,7 +1018,7 @@ let
       };
       meta = {
         description = "Like JSON.stringify, but doesn't blow up on circular refs.";
-        homepage = https://github.com/isaacs/json-stringify-safe;
+        homepage = "https://github.com/isaacs/json-stringify-safe";
         license = "ISC";
       };
       production = true;
@@ -1036,7 +1036,7 @@ let
       dependencies = {};
       meta = {
         description = "Rigorous implementation of RFC4122 (v1 and v4) UUIDs.";
-        homepage = https://github.com/broofa/node-uuid;
+        homepage = "https://github.com/broofa/node-uuid";
       };
       production = true;
       linkDependencies = false;
@@ -1052,7 +1052,7 @@ let
       dependencies = {};
       meta = {
         description = "A querystring parser that supports nesting and arrays, with a depth limit";
-        homepage = https://github.com/hapijs/qs;
+        homepage = "https://github.com/hapijs/qs";
         license = "BSD-3-Clause";
       };
       production = true;
@@ -1085,7 +1085,7 @@ let
       };
       meta = {
         description = "RFC6265 Cookies and Cookie Jar for node.js";
-        homepage = https://github.com/SalesforceEng/tough-cookie;
+        homepage = "https://github.com/SalesforceEng/tough-cookie";
         license = "BSD-3-Clause";
       };
       production = true;
@@ -1121,7 +1121,7 @@ let
       };
       meta = {
         description = "Reference implementation of Joyent's HTTP Signature scheme.";
-        homepage = https://github.com/joyent/node-http-signature/;
+        homepage = "https://github.com/joyent/node-http-signature/";
         license = "MIT";
       };
       production = true;
@@ -1165,7 +1165,7 @@ let
       };
       meta = {
         description = "read and write binary structures and data types";
-        homepage = https://github.com/rmustacc/node-ctype;
+        homepage = "https://github.com/rmustacc/node-ctype";
       };
       production = true;
       linkDependencies = false;
@@ -1311,7 +1311,7 @@ let
       };
       meta = {
         description = "SNTP Client";
-        homepage = https://github.com/hueniverse/sntp;
+        homepage = "https://github.com/hueniverse/sntp";
       };
       production = true;
       linkDependencies = false;
@@ -1359,7 +1359,7 @@ let
       };
       meta = {
         description = "Determine if an object is a Stream";
-        homepage = https://github.com/rvagg/isstream;
+        homepage = "https://github.com/rvagg/isstream";
         license = "MIT";
       };
       production = true;
@@ -1401,7 +1401,7 @@ let
       };
       meta = {
         description = "Extremely fast HTTP Archive (HAR) validator using JSON Schema";
-        homepage = https://github.com/ahmadnassri/har-validator;
+        homepage = "https://github.com/ahmadnassri/har-validator";
         license = "ISC";
       };
       production = true;
@@ -1416,7 +1416,7 @@ let
       };
       meta = {
         description = "Full featured Promises/A+ implementation with exceptionally good performance";
-        homepage = https://github.com/petkaantonov/bluebird;
+        homepage = "https://github.com/petkaantonov/bluebird";
         license = "MIT";
       };
       production = true;
@@ -1479,7 +1479,7 @@ let
       };
       meta = {
         description = "ANSI escape codes for styling strings in the terminal";
-        homepage = https://github.com/chalk/ansi-styles;
+        homepage = "https://github.com/chalk/ansi-styles";
         license = "MIT";
       };
       production = true;
@@ -1495,7 +1495,7 @@ let
       };
       meta = {
         description = "Escape RegExp special characters";
-        homepage = https://github.com/sindresorhus/escape-string-regexp;
+        homepage = "https://github.com/sindresorhus/escape-string-regexp";
         license = "MIT";
       };
       production = true;
@@ -1519,7 +1519,7 @@ let
       };
       meta = {
         description = "Check if a string has ANSI escape codes";
-        homepage = https://github.com/sindresorhus/has-ansi;
+        homepage = "https://github.com/sindresorhus/has-ansi";
         license = "MIT";
       };
       production = true;
@@ -1534,7 +1534,7 @@ let
       };
       meta = {
         description = "Regular expression for matching ANSI escape codes";
-        homepage = https://github.com/sindresorhus/ansi-regex;
+        homepage = "https://github.com/sindresorhus/ansi-regex";
         license = "MIT";
       };
       production = true;
@@ -1559,7 +1559,7 @@ let
       };
       meta = {
         description = "Strip ANSI escape codes";
-        homepage = https://github.com/sindresorhus/strip-ansi;
+        homepage = "https://github.com/sindresorhus/strip-ansi";
         license = "MIT";
       };
       production = true;
@@ -1575,7 +1575,7 @@ let
       };
       meta = {
         description = "Detect whether a terminal supports color";
-        homepage = https://github.com/chalk/supports-color;
+        homepage = "https://github.com/chalk/supports-color";
         license = "MIT";
       };
       production = true;
@@ -1615,7 +1615,7 @@ let
       };
       meta = {
         description = "graceful fs.readlink";
-        homepage = https://github.com/zhiyelee/graceful-readlink;
+        homepage = "https://github.com/zhiyelee/graceful-readlink";
         license = "MIT";
       };
       production = true;
@@ -1658,7 +1658,7 @@ let
       };
       meta = {
         description = "A JSONSchema validator that uses code generation to be extremely fast";
-        homepage = https://github.com/mafintosh/is-my-json-valid;
+        homepage = "https://github.com/mafintosh/is-my-json-valid";
         license = "MIT";
       };
       production = true;
@@ -1673,7 +1673,7 @@ let
       };
       meta = {
         description = "Module that helps you write generated functions in Node";
-        homepage = https://github.com/mafintosh/generate-function;
+        homepage = "https://github.com/mafintosh/generate-function";
         license = "MIT";
       };
       production = true;
@@ -1697,7 +1697,7 @@ let
       };
       meta = {
         description = "Generate safe JS code that can used to reference a object property";
-        homepage = https://github.com/mafintosh/generate-object-property;
+        homepage = "https://github.com/mafintosh/generate-object-property";
         license = "MIT";
       };
       production = true;
@@ -1713,7 +1713,7 @@ let
       dependencies = {};
       meta = {
         description = "Tests if a JSON property can be accessed using . syntax";
-        homepage = https://github.com/mikolalysenko/is-property;
+        homepage = "https://github.com/mikolalysenko/is-property";
         license = "MIT";
       };
       production = true;
@@ -1746,7 +1746,7 @@ let
       dependencies = {};
       meta = {
         description = "extend like a boss";
-        homepage = https://github.com/Raynos/xtend;
+        homepage = "https://github.com/Raynos/xtend";
         license = "MIT";
       };
       production = true;
@@ -1793,7 +1793,7 @@ let
       };
       meta = {
         description = "Temporary files and directories";
-        homepage = https://github.com/bruce/node-temp;
+        homepage = "https://github.com/bruce/node-temp";
         license = "MIT";
       };
       production = true;
@@ -1808,7 +1808,7 @@ let
       };
       meta = {
         description = "Node.js os.tmpdir() ponyfill";
-        homepage = https://github.com/sindresorhus/os-tmpdir;
+        homepage = "https://github.com/sindresorhus/os-tmpdir";
         license = "MIT";
       };
       production = true;
@@ -1824,7 +1824,7 @@ let
       };
       meta = {
         description = "A deep deletion module for node (like `rm -rf`)";
-        homepage = https://github.com/isaacs/rimraf;
+        homepage = "https://github.com/isaacs/rimraf";
         license = {
           type = "MIT";
           url = "https://github.com/isaacs/rimraf/raw/master/LICENSE";
@@ -1844,7 +1844,7 @@ let
       dependencies = {};
       meta = {
         description = "Recursive filesystem (and other) operations that Node *should* have.";
-        homepage = https://github.com/ryanmcgrath/wrench-js;
+        homepage = "https://github.com/ryanmcgrath/wrench-js";
       };
       production = true;
       linkDependencies = false;
@@ -1884,7 +1884,7 @@ let
       };
       meta = {
         description = "JavaScript parser, mangler/compressor and beautifier toolkit";
-        homepage = http://lisperator.net/uglifyjs;
+        homepage = "http://lisperator.net/uglifyjs";
         license = "BSD";
       };
       production = true;
@@ -1921,7 +1921,7 @@ let
       };
       meta = {
         description = "Generates and consumes source maps";
-        homepage = https://github.com/mozilla/source-map;
+        homepage = "https://github.com/mozilla/source-map";
       };
       production = true;
       linkDependencies = false;
@@ -1936,7 +1936,7 @@ let
       dependencies = {};
       meta = {
         description = "A transform to make UglifyJS work in browserify.";
-        homepage = https://github.com/ForbesLindesay/uglify-to-browserify;
+        homepage = "https://github.com/ForbesLindesay/uglify-to-browserify";
         license = "MIT";
       };
       production = true;
@@ -1978,7 +1978,7 @@ let
       };
       meta = {
         description = "Light-weight option parsing with an argv hash. No optstrings attached.";
-        homepage = https://github.com/bcoe/yargs;
+        homepage = "https://github.com/bcoe/yargs";
         license = "MIT/X11";
       };
       production = true;
@@ -1993,7 +1993,7 @@ let
       };
       meta = {
         description = "Convert a dash/dot/underscore/space separated string to camelCase: foo-bar → fooBar";
-        homepage = https://github.com/sindresorhus/camelcase;
+        homepage = "https://github.com/sindresorhus/camelcase";
         license = "MIT";
       };
       production = true;
@@ -2017,7 +2017,7 @@ let
       };
       meta = {
         description = "Convert a camelized string into a lowercased one with a custom separator: unicornRainbow → unicorn_rainbow";
-        homepage = https://github.com/sindresorhus/decamelize;
+        homepage = "https://github.com/sindresorhus/decamelize";
         license = "MIT";
       };
       production = true;
@@ -2034,7 +2034,7 @@ let
       };
       meta = {
         description = "Reliable way to to get the height and width of the terminal/console in a node.js environment.";
-        homepage = https://github.com/jonschlinkert/window-size;
+        homepage = "https://github.com/jonschlinkert/window-size";
       };
       production = true;
       linkDependencies = false;
@@ -2065,7 +2065,7 @@ let
       dependencies = {};
       meta = {
         description = "A W3C Standard XML DOM(Level2 CORE) implementation and parser(DOMParser/XMLSerializer).";
-        homepage = https://github.com/jindw/xmldom;
+        homepage = "https://github.com/jindw/xmldom";
       };
       production = true;
       linkDependencies = false;
@@ -2211,7 +2211,7 @@ let
       dependencies = {};
       meta = {
         description = "A querystring parser that supports nesting and arrays, with a depth limit";
-        homepage = https://github.com/hapijs/qs;
+        homepage = "https://github.com/hapijs/qs";
         license = "BSD-3-Clause";
       };
       production = true;
@@ -2317,7 +2317,7 @@ let
       };
       meta = {
         description = "get colors in your node.js console";
-        homepage = https://github.com/Marak/colors.js;
+        homepage = "https://github.com/Marak/colors.js";
         license = "MIT";
       };
       production = true;
@@ -2333,7 +2333,7 @@ let
       };
       meta = {
         description = "decycle your json";
-        homepage = https://github.com/douglascrockford/JSON-js;
+        homepage = "https://github.com/douglascrockford/JSON-js";
       };
       production = true;
       linkDependencies = false;
@@ -2380,7 +2380,7 @@ let
       dependencies = {};
       meta = {
         description = "Get v8 stack traces as an array of CallSite objects.";
-        homepage = https://github.com/felixge/node-stack-trace;
+        homepage = "https://github.com/felixge/node-stack-trace";
       };
       production = true;
       linkDependencies = false;

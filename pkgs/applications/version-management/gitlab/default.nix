@@ -10,7 +10,7 @@ let
     lockfile = ./Gemfile.lock;
     gemset = ./gemset.nix;
     meta = with lib; {
-      homepage = http://www.gitlab.com/;
+      homepage = "http://www.gitlab.com/";
       platforms = platforms.linux;
       maintainers = [ ];
       license = licenses.mit;

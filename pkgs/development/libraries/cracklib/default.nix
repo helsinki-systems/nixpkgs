@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ libintlOrEmpty zlib gettext ];
 
   meta = with stdenv.lib; {
-    homepage    = https://github.com/cracklib/cracklib;
+    homepage    = "https://github.com/cracklib/cracklib";
     description = "A library for checking the strength of passwords";
     maintainers = with maintainers; [ lovek323 ];
     platforms   = platforms.unix;

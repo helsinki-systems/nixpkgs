@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
   doCheck = true;
 
   meta = with stdenv.lib; {
-    homepage = https://polarssl.org/;
+    homepage = "https://polarssl.org/";
     description = "Portable cryptographic and SSL/TLS library, aka polarssl";
     license = licenses.gpl3;
     platforms = platforms.all;

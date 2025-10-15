@@ -25,7 +25,7 @@ buildPythonPackage rec {
         stability improvements after Comix development came to a halt in late 2009.
       '';
 
-      homepage = http://mcomix.sourceforge.net/;
+      homepage = "http://mcomix.sourceforge.net/";
       license = stdenv.lib.licenses.gpl2;
       maintainers = with stdenv.lib.maintainers; [ fuuzetsu ];
     };

@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pkgconfig fuse curl expat ];
 
   meta = {
-    homepage = http://code.google.com/p/s3backer/;
+    homepage = "http://code.google.com/p/s3backer/";
     description = "FUSE-based single file backing store via Amazon S3";
     license = stdenv.lib.licenses.gpl2Plus;
   };

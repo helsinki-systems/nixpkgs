@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
                   avahi gnome3.libmediaart tracker intltool itstool ];
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/action/show/Projects/Grilo;
+    homepage = "https://wiki.gnome.org/action/show/Projects/Grilo";
     description = "A collection of plugins for the Grilo framework";
     maintainers = gnome3.maintainers;
     license = licenses.lgpl2;

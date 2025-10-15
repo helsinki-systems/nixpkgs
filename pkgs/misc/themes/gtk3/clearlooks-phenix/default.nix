@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
       You should install this theme into your user profile and then set
       GTK_DATA_PREFIX to `~/.nix-profile`.
     '';
-    homepage = https://github.com/jpfleury/clearlooks-phenix;
+    homepage = "https://github.com/jpfleury/clearlooks-phenix";
     downloadPage = https://github.com/jpfleury/clearlooks-phenix/releases;
     license = licenses.gpl3;
     maintainers = [ maintainers.prikhi ];

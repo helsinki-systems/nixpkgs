@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
   installFlags = [ "sysconfdir=$(out)/etc" "dbusconfdir=$(out)/etc/dbus-1/system.d" ];
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Projects/GDM;
+    homepage = "https://wiki.gnome.org/Projects/GDM";
     description = "A program that manages graphical display servers and handles graphical user logins";
     platforms = platforms.linux;
     maintainers = gnome3.maintainers;

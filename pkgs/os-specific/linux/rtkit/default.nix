@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pkgconfig dbus libcap ];
 
   meta = {
-    homepage = http://0pointer.de/blog/projects/rtkit;
+    homepage = "http://0pointer.de/blog/projects/rtkit";
     descriptions = "A daemon that hands out real-time priority to processes";
     platforms = stdenv.lib.platforms.linux;
   };

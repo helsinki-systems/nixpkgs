@@ -28,7 +28,7 @@ in stdenv.mkDerivation rec {
   ] ++ (if stdenv.isDarwin then [ "--disable-shared" ] else [ "--enable-shared" ]);
 
   meta = {
-    homepage = http://skarnet.org/software/execline/;
+    homepage = "http://skarnet.org/software/execline/";
     description = "A small scripting language, to be used in place of a shell in non-interactive scripts";
     platforms = stdenv.lib.platforms.all;
     license = stdenv.lib.licenses.isc;

@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A library to talk to FTDI chips using libusb";
-    homepage = http://www.intra2net.com/en/developer/libftdi/;
+    homepage = "http://www.intra2net.com/en/developer/libftdi/";
     license = stdenv.lib.licenses.lgpl21;
   };
 }

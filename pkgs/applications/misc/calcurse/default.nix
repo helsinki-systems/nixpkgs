@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "calcurse-4.0.0";
 
   src = fetchurl {
-    url = http://calcurse.org/files/calcurse-4.0.0.tar.gz;
+    url = "http://calcurse.org/files/calcurse-4.0.0.tar.gz";
     sha256 = "0d33cpkbhyidvm3xx6iw9ljqdvl6477c2kcwix3bs63nj0ch06v2";
   };
 
@@ -20,7 +20,7 @@ stdenv.mkDerivation {
       customized to suit user needs and a very powerful set of command line options can
       be used to filter and format appointments, making it suitable for use in scripts.
     '';
-    homepage = http://calcurse.org/;
+    homepage = "http://calcurse.org/";
     license = stdenv.lib.licenses.bsd2;
     platforms = stdenv.lib.platforms.linux;
   };

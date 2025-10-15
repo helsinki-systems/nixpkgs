@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   ];
 
   meta = with stdenv.lib; {
-    homepage = http://www.vips.ecs.soton.ac.uk;
+    homepage = "http://www.vips.ecs.soton.ac.uk";
     description = "Graphical user interface for VIPS image processing system";
     license = licenses.gpl2Plus;
     maintainers = with maintainers; [ kovirobi ];

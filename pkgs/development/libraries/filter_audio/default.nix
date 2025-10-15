@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "An easy to use audio filtering library made from webrtc code";
-    homepage    = https://github.com/irungentoo/filter_audio;
+    homepage    = "https://github.com/irungentoo/filter_audio";
     license     = licenses.bsd3;
     maintainers = with maintainers; [ np ];
     platforms   = platforms.unix;

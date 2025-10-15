@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "dmd-2.067.1";
 
   src = fetchurl {
-    url = http://downloads.dlang.org/releases/2015/dmd.2.067.1.zip;
+    url = "http://downloads.dlang.org/releases/2015/dmd.2.067.1.zip";
     sha256 = "0ny99vfllvvgcl79pwisxcdnb3732i827k9zg8c0j4s0n79k5z94";
   };
 
@@ -67,7 +67,7 @@ stdenv.mkDerivation {
 
   meta = with stdenv.lib; {
     description = "D language compiler";
-    homepage = http://dlang.org/;
+    homepage = "http://dlang.org/";
     license = licenses.free; # parts under different licenses
     platforms = platforms.unix;
   };

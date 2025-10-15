@@ -16,6 +16,6 @@ stdenv.mkDerivation rec {
     downloadPage = "http://ftp.gnu.org/gnu/barcode/";
     updateWalker = true;
     inherit version;
-    homepage = http://ftp.gnu.org/gnu/barcode/;
+    homepage = "http://ftp.gnu.org/gnu/barcode/";
   };
 }

@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A caching proxy specialized for linux distribution files";
-    homepage = http://www.unix-ag.uni-kl.de/~bloch/acng/;
+    homepage = "http://www.unix-ag.uni-kl.de/~bloch/acng/";
     license = stdenv.lib.licenses.gpl2;
     maintainers = [ stdenv.lib.maintainers.makefu ];
   };

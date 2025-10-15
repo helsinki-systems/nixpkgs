@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = {
-    homepage = http://libmtp.sourceforge.net;
+    homepage = "http://libmtp.sourceforge.net";
     description = "An implementation of Microsoft's Media Transfer Protocol";
     longDescription = ''
       libmtp is an implementation of Microsoft's Media Transfer Protocol (MTP)

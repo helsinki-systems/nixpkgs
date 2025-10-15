@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
       of pdfLaTeX to produce PDF documents.
     '';
     license = stdenv.lib.licenses.gpl2Plus;
-    homepage = http://www.pps.jussieu.fr/~beffara/soft/rubber/;
+    homepage = "http://www.pps.jussieu.fr/~beffara/soft/rubber/";
     maintainers = [ stdenv.lib.maintainers.ttuegel ];
   };
 }

@@ -17,12 +17,12 @@
       src = fetchurl {
         # using my mirror because original url is https
         # https://projects.commandprompt.com/public/odbcng/attachment/wiki/Downloads/odbcng-0.90.101.tar.gz";
-        url = http://mawercer.de/~publicrepos/odbcng-0.90.101.tar.gz;
+        url = "http://mawercer.de/~publicrepos/odbcng-0.90.101.tar.gz";
         sha256 = "13z3sify4z2jcil379704w0knkpflg6di4jh6zx1x2gdgzydxa1y";
       };
       meta = {
           description = "unix odbc driver for postgresql";
-          homepage = https://projects.commandprompt.com/public/odbcng;
+          homepage = "https://projects.commandprompt.com/public/odbcng";
           license = stdenv.lib.licenses.gpl2;
       };
     };
@@ -44,7 +44,7 @@
     };
     meta = {
         description = "unix odbc driver for postgresql";
-        homepage =  http://pgfoundry.org/projects/psqlodbc/;
+        homepage =  "http://pgfoundry.org/projects/psqlodbc/";
         license = "LGPL";
     };
   };
@@ -60,7 +60,7 @@
     deriv = stdenv.mkDerivation {
       name = "mysql-connector-odbc-3.51.12";
       src = fetchurl {
-        url = http://ftp.snt.utwente.nl/pub/software/mysql/Downloads/MyODBC3/mysql-connector-odbc-3.51.12.tar.gz;
+        url = "http://ftp.snt.utwente.nl/pub/software/mysql/Downloads/MyODBC3/mysql-connector-odbc-3.51.12.tar.gz";
         md5 = "a484f590464fb823a8f821b2f1fd7fef";
       };
       configureFlags = "--disable-gui"
@@ -99,7 +99,7 @@
 
       meta = {
         description = "ODBC driver for SQLite";
-        homepage = http://www.ch-werner.de/sqliteodbc;
+        homepage = "http://www.ch-werner.de/sqliteodbc";
         license = stdenv.lib.licenses.bsd2;
         platforms = stdenv.lib.platforms.linux;
         maintainers = with stdenv.lib.maintainers; [ vlstill ];

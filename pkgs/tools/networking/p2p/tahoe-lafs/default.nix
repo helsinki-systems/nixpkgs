@@ -60,7 +60,7 @@ pythonPackages.buildPythonPackage rec {
       such a way that it remains available even when some of the peers
       are unavailable, malfunctioning, or malicious.
     '';
-    homepage = http://allmydata.org/;
+    homepage = "http://allmydata.org/";
     license = [ lib.licenses.gpl2Plus /* or */ "TGPPLv1+" ];
     maintainers = [ lib.maintainers.simons ];
     platforms = lib.platforms.gnu;  # arbitrary choice

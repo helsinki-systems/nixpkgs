@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   };
 
   data = fetchurl {
-    url = http://sites.google.com/a/camanis.net/opentyrian/tyrian/tyrian21.zip;
+    url = "http://sites.google.com/a/camanis.net/opentyrian/tyrian/tyrian21.zip";
     md5 = "2a3b206a6de25ed4b771af073f8ca904";
   };
 
@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = ''Open source port of the game "Tyrian"'';
-    homepage = https://opentyrian.googlecode.com/;
+    homepage = "https://opentyrian.googlecode.com/";
     # This does not account of Tyrian data.
     # license = stdenv.lib.licenses.gpl2;
   };

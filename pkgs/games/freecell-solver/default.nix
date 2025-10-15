@@ -23,7 +23,7 @@ stdenv.mkDerivation rec{
       Off, Forecell, and Seahaven Towers, as well as Simple Simon
       boards.
     '';
-    homepage = http://fc-solve.shlomifish.org/;
+    homepage = "http://fc-solve.shlomifish.org/";
     license = licenses.mit;
     maintainers = [ maintainers.AndersonTorres ];
   };

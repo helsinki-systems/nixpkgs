@@ -31,7 +31,7 @@ stdenv.mkDerivation {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://erratique.ch/software/cmdliner;
+    homepage = "http://erratique.ch/software/cmdliner";
     description = "An OCaml module for the declarative definition of command line interfaces";
     license = licenses.bsd3;
     maintainers = [ maintainers.vbgl ];

@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A collection for all kinds of pgp related things, including signing scripts, party preparation scripts etc";
-    homepage = http://pgp-tools.alioth.debian.org;
+    homepage = "http://pgp-tools.alioth.debian.org";
     platforms = gnupg.meta.platforms;
     license = stdenv.lib.licenses.gpl2;
   };

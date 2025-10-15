@@ -39,7 +39,7 @@ stdenv.mkDerivation rec {
       uses UPower, and if that is missing DeviceKit.Power, for it's
       power information.
     '';
-    homepage = http://batti-gtk.googlecode.com/;
+    homepage = "http://batti-gtk.googlecode.com/";
     license = licenses.lgpl2Plus;
     maintainers = [ maintainers.AndersonTorres ];
     platforms = platforms.linux;

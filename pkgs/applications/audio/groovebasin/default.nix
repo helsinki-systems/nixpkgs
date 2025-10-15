@@ -35,7 +35,7 @@ in nodePackages.buildNodePackage rec {
 
   meta = {
     description = "Music player server with a web-based user interface";
-    homepage = http://groovebasin.com/;
+    homepage = "http://groovebasin.com/";
     license = licenses.mit;
     platforms = platforms.unix;
     maintainers = [ maintainers.andrewrk ];

@@ -56,7 +56,7 @@ configureFlags = [
 
   meta = with stdenv.lib; {
     description = "A small but very powerful text-based mail client, forked to support notmuch";
-    homepage = https://github.com/karelzak/mutt-kz/;
+    homepage = "https://github.com/karelzak/mutt-kz/";
     license = stdenv.lib.licenses.gpl2Plus;
     platforms = platforms.unix;
     maintainers = with maintainers; [ magnetophon ];

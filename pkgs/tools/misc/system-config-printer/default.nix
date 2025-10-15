@@ -56,7 +56,7 @@ in stdenv.mkDerivation rec {
     '';
 
   meta = {
-    homepage = http://cyberelk.net/tim/software/system-config-printer/;
+    homepage = "http://cyberelk.net/tim/software/system-config-printer/";
     platforms = stdenv.lib.platforms.linux;
     license = stdenv.lib.licenses.gpl2;
   };

@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     inherit version;
-    homepage = http://miniupnp.free.fr/;
+    homepage = "http://miniupnp.free.fr/";
     description = "A client that implements the UPnP Internet Gateway Device (IGD) specification";
     platforms = with stdenv.lib.platforms; linux ++ freebsd;
   };

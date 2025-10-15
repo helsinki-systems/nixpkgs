@@ -66,7 +66,7 @@ in
     '';
 
     meta = with stdenv.lib; {
-      homepage = http://www.impallari.com/lobstertwo;
+      homepage = "http://www.impallari.com/lobstertwo";
       description = "Script font with many ligatures";
       license = licenses.ofl;
       platforms = platforms.all;

@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Just another free touch typing tutor program";
-    homepage = http://klavaro.sourceforge.net/;
+    homepage = "http://klavaro.sourceforge.net/";
     license = stdenv.lib.licenses.gpl3Plus;
     platforms = stdenv.lib.platforms.linux;
   };

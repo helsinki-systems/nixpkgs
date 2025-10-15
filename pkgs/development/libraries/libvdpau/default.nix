@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
   installFlags = [ "moduledir=$(out)/lib/vdpau" ];
 
   meta = with stdenv.lib; {
-    homepage = http://people.freedesktop.org/~aplattner/vdpau/;
+    homepage = "http://people.freedesktop.org/~aplattner/vdpau/";
     description = "Library to use the Video Decode and Presentation API for Unix (VDPAU)";
     license = licenses.mit; # expat version
     platforms = platforms.unix;

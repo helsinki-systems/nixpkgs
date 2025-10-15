@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Library containing high-performance datastructures and utilities for C++";
-    homepage = https://github.com/rescrv/e;
+    homepage = "https://github.com/rescrv/e";
     license = licenses.bsd3;
   };
 }

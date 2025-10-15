@@ -59,7 +59,7 @@ stdenv.mkDerivation rec {
       - Network Monitoring
     '';
 
-    homepage = http://phantomjs.org/;
+    homepage = "http://phantomjs.org/";
     license = stdenv.lib.licenses.bsd3;
 
     maintainers = [ stdenv.lib.maintainers.bluescreen303 ];

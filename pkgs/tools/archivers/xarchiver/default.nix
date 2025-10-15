@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "GTK+2 only frontend to 7z,zip,rar,tar,bzip2, gzip,arj, lha, rpm and deb (open and extract only)";
-    homepage = http://sourceforge.net/projects/xarchiver/;
+    homepage = "http://sourceforge.net/projects/xarchiver/";
     maintainers = [ stdenv.lib.maintainers.iElectric ];
     license = stdenv.lib.licenses.gpl2;
     platforms = stdenv.lib.platforms.all;

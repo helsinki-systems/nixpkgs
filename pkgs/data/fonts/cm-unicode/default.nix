@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://canopus.iacp.dvo.ru/~panov/cm-unicode/;
+    homepage = "http://canopus.iacp.dvo.ru/~panov/cm-unicode/";
     description = "Computer Modern Unicode fonts";
     maintainers = with maintainers; [ raskin rycee ];
     license = licenses.ofl;

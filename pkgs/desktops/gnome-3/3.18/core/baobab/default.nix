@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Apps/Baobab;
+    homepage = "https://wiki.gnome.org/Apps/Baobab";
     description = "Graphical application to analyse disk usage in any Gnome environment";
     maintainers = gnome3.maintainers;
     license = licenses.gpl2;

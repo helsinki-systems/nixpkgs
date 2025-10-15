@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = https://code.google.com/p/google-authenticator/;
+    homepage = "https://code.google.com/p/google-authenticator/";
     description = "Two-step verification, with pam module";
     license = stdenv.lib.licenses.asl20;
   };

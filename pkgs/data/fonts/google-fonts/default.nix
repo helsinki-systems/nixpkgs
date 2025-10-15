@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://www.google.com/fontsl;
+    homepage = "https://www.google.com/fontsl";
     description = "Font files available from Google Font";
     license = with licenses; [ asl20 ofl ufl ];
     platforms = platforms.all;

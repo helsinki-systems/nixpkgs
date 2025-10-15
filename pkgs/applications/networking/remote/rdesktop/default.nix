@@ -20,7 +20,7 @@ stdenv.mkDerivation (rec {
 
   meta = {
     description = "Open source client for Windows Terminal Services";
-    homepage = http://www.rdesktop.org/;
+    homepage = "http://www.rdesktop.org/";
     platforms = stdenv.lib.platforms.linux;
     license = stdenv.lib.licenses.gpl2;
   };

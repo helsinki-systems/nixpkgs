@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pidgin pkgconfig libnotify gdk_pixbuf glib dbus dbus_glib ];
 
   meta = {
-    homepage = https://github.com/novas0x2a/skype4pidgin;
+    homepage = "https://github.com/novas0x2a/skype4pidgin";
     license = stdenv.lib.licenses.gpl3Plus;
     description = "Plugin to use a running skype account through pidgin";
   };

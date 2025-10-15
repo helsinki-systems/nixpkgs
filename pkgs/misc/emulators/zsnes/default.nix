@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "zsnes-1.51";
 
   src = fetchurl {
-    url = mirror://sourceforge/zsnes/zsnes151src.tar.bz2;
+    url = "mirror://sourceforge/zsnes/zsnes151src.tar.bz2";
     sha256 = "08s64qsxziv538vmfv38fg1rfrz5k95dss5zdkbfxsbjlbdxwmi8";
   };
 
@@ -43,6 +43,6 @@ stdenv.mkDerivation {
     description = "A Super Nintendo Entertainment System Emulator";
     license = stdenv.lib.licenses.gpl2Plus;
     maintainers = [ stdenv.lib.maintainers.sander ];
-    homepage = http://www.zsnes.com;
+    homepage = "http://www.zsnes.com";
   };
 }

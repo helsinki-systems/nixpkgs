@@ -23,7 +23,7 @@ stdenv.mkDerivation {
   buildFlags = "all all.opt";
 
   meta = {
-    homepage = http://www.cduce.org/download.html;
+    homepage = "http://www.cduce.org/download.html";
     description = "A lexer generator for Unicode and OCaml";
     license = stdenv.lib.licenses.mit;
     platforms = ocaml.meta.platforms;

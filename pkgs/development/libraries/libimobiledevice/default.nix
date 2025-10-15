@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = {
-    homepage = http://www.libimobiledevice.org;
+    homepage = "http://www.libimobiledevice.org";
     description = "A software library that talks the protocols to support iPhone®, iPod Touch® and iPad® devices on Linux";
     longDescription = ''
       libimobiledevice is a software library that talks the protocols to support

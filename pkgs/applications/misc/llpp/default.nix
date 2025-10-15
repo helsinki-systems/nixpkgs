@@ -35,7 +35,7 @@ in stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://repo.or.cz/w/llpp.git;
+    homepage = "http://repo.or.cz/w/llpp.git";
     description = "A MuPDF based PDF pager written in OCaml";
     platforms = platforms.linux;
     maintainers = with maintainers; [ pSub ];

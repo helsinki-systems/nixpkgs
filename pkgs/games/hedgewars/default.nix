@@ -42,7 +42,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Turn-based strategy artillery game similar to Worms";
-    homepage = http://hedgewars.org/;
+    homepage = "http://hedgewars.org/";
     license = licenses.gpl2;
     longDescription = ''
        Each player controls a team of several hedgehogs. During the course of

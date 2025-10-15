@@ -4,7 +4,7 @@ fetchurl: {
   name = "yelp-3.18.1";
 
   src = fetchurl {
-    url = mirror://gnome/sources/yelp/3.18/yelp-3.18.1.tar.xz;
+    url = "mirror://gnome/sources/yelp/3.18/yelp-3.18.1.tar.xz";
     sha256 = "ba3a4eb4717c0ecf4a2e40eff0963fcd12c700c4fb80b83ecaad8b7032256880";
   };
 }

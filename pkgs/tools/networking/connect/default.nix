@@ -24,7 +24,7 @@ in stdenv.mkDerivation {
       This proxy traversal tool is intended to assist OpenSSH (via ProxyCommand
       in ~/.ssh/config) and GIT (via $GIT_PROXY_COMMAND) utilize SOCKS and https proxies. 
       '';
-    homepage = https://bitbucket.org/gotoh/connect/wiki/Home;
+    homepage = "https://bitbucket.org/gotoh/connect/wiki/Home";
     license = stdenv.lib.licenses.gpl2Plus;
     platforms = stdenv.lib.platforms.gnu;
     maintainers = with stdenv.lib.maintainers; [ jcumming ];

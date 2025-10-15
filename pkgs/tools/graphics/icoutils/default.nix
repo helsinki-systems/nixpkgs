@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ libpng ];
 
   meta = {
-    homepage = http://www.nongnu.org/icoutils/;
+    homepage = "http://www.nongnu.org/icoutils/";
     description = "Set of  programs to deal with Microsoft Windows(R) icon and cursor files";
     license = stdenv.lib.licenses.gpl3Plus;
     platforms = with stdenv.lib.platforms; linux;

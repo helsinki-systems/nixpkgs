@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
       ldapvi is an interactive LDAP client for Unix terminals. Using it, you
       can update LDAP entries with a text editor.
     '';
-    homepage = http://www.lichteblau.com/ldapvi/;
+    homepage = "http://www.lichteblau.com/ldapvi/";
     license = licenses.gpl2;
     maintainers = with maintainers; [ iElectric ];
     platforms = stdenv.lib.platforms.linux;

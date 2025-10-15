@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
   buildInputs = [autoconf automake libtool libxml2 cppunit boost apr aprutil db expat];
 
   meta = {
-    homepage = http://logging.apache.org/log4cxx/index.html;
+    homepage = "http://logging.apache.org/log4cxx/index.html";
     description = "A logging framework for C++ patterned after Apache log4j";
     license = stdenv.lib.licenses.asl20;
   };

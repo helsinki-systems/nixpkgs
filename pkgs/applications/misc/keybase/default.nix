@@ -30,7 +30,7 @@ in nodePackages.buildNodePackage rec {
   meta = {
     description = "CLI for keybase.io written in/for Node.js";
     license = licenses.mit;
-    homepage = https://keybase.io/docs/command_line;
+    homepage = "https://keybase.io/docs/command_line";
     maintainers = with maintainers; [manveru];
     platforms = platforms.linux;
   };

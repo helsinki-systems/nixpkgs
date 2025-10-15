@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   meta = {
-    homepage = http://www.xfce.org/projects/xfwm4;
+    homepage = "http://www.xfce.org/projects/xfwm4";
     description = "Window manager for Xfce";
     license = stdenv.lib.licenses.gpl2Plus;
     platforms = stdenv.lib.platforms.linux;

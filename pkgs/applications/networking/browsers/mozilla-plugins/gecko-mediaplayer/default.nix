@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A browser plugin that uses GNOME MPlayer to play media in a browser";
-    homepage = http://kdekorte.googlepages.com/gecko-mediaplayer;
+    homepage = "http://kdekorte.googlepages.com/gecko-mediaplayer";
     broken = true;
   };
 }

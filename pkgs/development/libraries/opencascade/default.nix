@@ -3,7 +3,7 @@
 stdenv.mkDerivation rec {
   name = "opencascade-6.6.0";
   src = fetchurl {
-    url = http://files.opencascade.com/OCCT/OCC_6.6.0_release/OpenCASCADE660.tgz;
+    url = "http://files.opencascade.com/OCCT/OCC_6.6.0_release/OpenCASCADE660.tgz";
     sha256 = "0q2xn915w9skv9sj74lxnyv9g3b0yi1j04majyzxk6sv4nra97z3";
   };
 
@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Open CASCADE Technology, libraries for 3D modeling and numerical simulation";
-    homepage = http://www.opencascade.org/;
+    homepage = "http://www.opencascade.org/";
     maintainers = with stdenv.lib.maintainers; [viric];
     platforms = with stdenv.lib.platforms; linux;
   };

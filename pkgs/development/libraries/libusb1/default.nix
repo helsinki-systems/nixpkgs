@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.libusb.info;
+    homepage = "http://www.libusb.info";
     description = "User-space USB library";
     platforms = stdenv.lib.platforms.unix;
     maintainers = [ stdenv.lib.maintainers.urkud ];

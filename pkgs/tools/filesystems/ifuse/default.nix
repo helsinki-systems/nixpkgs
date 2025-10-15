@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = {
-    homepage = http://www.libimobiledevice.org;
+    homepage = "http://www.libimobiledevice.org";
     license = stdenv.lib.licenses.lgpl21Plus;
     description = "A fuse filesystem implementation to access the contents of iOS devices";
     longDescription = ''

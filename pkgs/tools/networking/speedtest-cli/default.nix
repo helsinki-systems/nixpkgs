@@ -11,7 +11,7 @@ pythonPackages.buildPythonPackage rec {
   };
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/sivel/speedtest-cli;
+    homepage = "https://github.com/sivel/speedtest-cli";
     description = "Command line interface for testing internet bandwidth using speedtest.net";
     platforms = platforms.all;
     license = licenses.asl20;

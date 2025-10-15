@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Official plugins for Nagios";
-    homepage    = http://www.nagios.org/download/plugins;
+    homepage    = "http://www.nagios.org/download/plugins";
     license     = stdenv.lib.licenses.gpl2;
     platforms   = stdenv.lib.platforms.linux;
     maintainers = with stdenv.lib.maintainers; [ thoughtpolice relrod ];

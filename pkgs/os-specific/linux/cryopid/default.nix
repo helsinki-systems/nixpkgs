@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
       and save it to a file.  This file can then be used to resume the process
       later on, either after a reboot or even on another machines.
     '';
-    homepage = http://sharesource.org/project/cryopid;
+    homepage = "http://sharesource.org/project/cryopid";
     license = ''
       Modified BSD license (without advertising clause).  CryoPID ships with
       and links against the dietlibc library, which is distributed under the

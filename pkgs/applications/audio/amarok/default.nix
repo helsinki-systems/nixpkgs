@@ -40,7 +40,7 @@ stdenv.mkDerivation rec {
     repositories.git = git://anongit.kde.org/amarok.git;
     description = "Popular music player for KDE";
     license = "GPL";
-    homepage = http://amarok.kde.org;
+    homepage = "http://amarok.kde.org";
     inherit (kdelibs.meta) platforms maintainers;
   };
 }

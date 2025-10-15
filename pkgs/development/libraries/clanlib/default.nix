@@ -7,7 +7,7 @@ libX11, xf86vidmodeproto, libXxf86vm, libXmu, mesa
 stdenv.mkDerivation {
   name = "clanlib-0.8.0";
   src = fetchurl {
-    url = http://www.clanlib.org/download/releases-0.8/ClanLib-0.8.0.tgz;
+    url = "http://www.clanlib.org/download/releases-0.8/ClanLib-0.8.0.tgz";
     sha256 = "1rjr601h3hisrhvpkrj00wirx5hyfbppv9rla400wx7a42xvvyfy";
   };
 

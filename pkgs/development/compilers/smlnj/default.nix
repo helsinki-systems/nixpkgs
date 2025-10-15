@@ -71,7 +71,7 @@ in stdenv.mkDerivation {
 
   meta = with stdenv.lib; {
     description = "Standard ML of New Jersey, a compiler";
-    homepage    = http://smlnj.org;
+    homepage    = "http://smlnj.org";
     license     = licenses.bsd3;
     platforms   = [ "i686-linux" ] ++ platforms.darwin;
     maintainers = with maintainers; [ thoughtpolice ];

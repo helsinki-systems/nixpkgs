@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   propagatedBuildInputs = [ gstreamer gst_plugins_base ];
 
   meta = {
-    homepage = http://farsight.freedesktop.org/wiki/;
+    homepage = "http://farsight.freedesktop.org/wiki/";
     description = "Audio/Video Communications Framework";
   };
 }

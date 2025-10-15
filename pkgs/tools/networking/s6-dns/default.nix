@@ -28,7 +28,7 @@ in stdenv.mkDerivation rec {
   ] ++ (if stdenv.isDarwin then [ "--disable-shared" ] else [ "--enable-shared" ]);
 
   meta = {
-    homepage = http://www.skarnet.org/software/s6-dns/;
+    homepage = "http://www.skarnet.org/software/s6-dns/";
     description = "A suite of DNS client programs and libraries for Unix systems";
     platforms = stdenv.lib.platforms.all;
     license = stdenv.lib.licenses.isc;

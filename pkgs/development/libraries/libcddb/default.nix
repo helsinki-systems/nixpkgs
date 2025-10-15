@@ -11,6 +11,6 @@ stdenv.mkDerivation rec {
   meta = {
     description = "C library to access data on a CDDB server (freedb.org)";
     license = stdenv.lib.licenses.lgpl2Plus;
-    homepage = http://libcddb.sourceforge.net/;
+    homepage = "http://libcddb.sourceforge.net/";
   };
 }

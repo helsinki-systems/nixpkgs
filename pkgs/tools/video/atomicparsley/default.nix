@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
       setting metadata into MPEG-4 files
     '';
 
-    homepage = http://atomicparsley.sourceforge.net/;
+    homepage = "http://atomicparsley.sourceforge.net/";
     license = licenses.gpl2;
     platforms = platforms.unix;
     maintainers = with maintainers; [ pjones ];

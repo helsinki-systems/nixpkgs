@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   configureFlags = [ "--with-ca-bundle=/etc/ssl/certs/ca-certificates.crt" ];
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/tatsuhiro-t/aria2;
+    homepage = "https://github.com/tatsuhiro-t/aria2";
     description = "A lightweight, multi-protocol, multi-source, command-line download utility";
     maintainers = with maintainers; [ koral jgeerds ];
     license = licenses.gpl2Plus;

@@ -42,7 +42,7 @@ stdenv.mkDerivation rec {
 
     # Author's page: http://www.cs.usyd.edu.au/~jeff/
     # Wiki: http://lout.wiki.sourceforge.net/
-    homepage = http://savannah.nongnu.org/projects/lout/;
+    homepage = "http://savannah.nongnu.org/projects/lout/";
 
     license = stdenv.lib.licenses.gpl3Plus;
 

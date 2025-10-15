@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   makeFlags = "DESTDIR=$(out) PREFIX=";
 
   meta = {
-    homepage = http://www.brain-dump.org/projects/ciopfs/;
+    homepage = "http://www.brain-dump.org/projects/ciopfs/";
     description = "A case-insensitive filesystem layered on top of any other filesystem";
     license = stdenv.lib.licenses.gpl2;
   };

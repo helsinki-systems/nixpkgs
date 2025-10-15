@@ -29,7 +29,7 @@ stdenv.mkDerivation {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://www.chargueraud.org/softs/tlc/;
+    homepage = "http://www.chargueraud.org/softs/tlc/";
     description = "A general purpose Coq library that provides an alternative to Coq's standard library";
     maintainers = with maintainers; [ jwiegley ];
     platforms = coq.meta.platforms;

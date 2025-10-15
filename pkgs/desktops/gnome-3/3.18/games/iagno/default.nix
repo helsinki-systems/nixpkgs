@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Apps/Iagno;
+    homepage = "https://wiki.gnome.org/Apps/Iagno";
     description = "Computer version of the game Reversi, more popularly called Othello";
     maintainers = gnome3.maintainers;
     license = licenses.gpl2;

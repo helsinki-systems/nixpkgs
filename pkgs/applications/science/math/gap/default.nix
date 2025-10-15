@@ -44,7 +44,7 @@ stdenv.mkDerivation rec {
     ];
     platforms = platforms.linux;
     license = licenses.gpl2;
-    homepage = http://gap-system.org/;
+    homepage = "http://gap-system.org/";
     broken = true;
   };
 }

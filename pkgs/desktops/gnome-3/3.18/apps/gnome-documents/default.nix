@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Apps/Documents;
+    homepage = "https://wiki.gnome.org/Apps/Documents";
     description = "Document manager application designed to work with GNOME 3";
     maintainers = gnome3.maintainers;
     license = licenses.gpl2;

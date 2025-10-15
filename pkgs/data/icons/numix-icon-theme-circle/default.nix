@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
   
   meta = with stdenv.lib; {
     description = "Numix icon theme (circle version)";
-    homepage = https://numixproject.org;
+    homepage = "https://numixproject.org";
     license = licenses.gpl3;
     platforms = platforms.all;
     maintainers = with maintainers; [ jgeerds ];

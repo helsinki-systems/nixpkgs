@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
     '';
 
   meta = {
-    homepage = http://www.gnu.org/software/autoconf/;
+    homepage = "http://www.gnu.org/software/autoconf/";
     description = "Part of the GNU Build System";
 
     longDescription = ''

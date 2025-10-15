@@ -72,7 +72,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Clozure Common Lisp";
-    homepage    = http://ccl.clozure.com/;
+    homepage    = "http://ccl.clozure.com/";
     maintainers = with maintainers; [ raskin muflax tohl ];
     platforms   = attrNames options;
     license     = licenses.lgpl21;

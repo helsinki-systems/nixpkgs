@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
   installPhase = "python waf install";
 
   meta = with stdenv.lib; {
-    homepage = http://drobilla.net/software/serd;
+    homepage = "http://drobilla.net/software/serd";
     description = "A lightweight C library for RDF syntax which supports reading and writing Turtle and NTriples";
     license = licenses.mit;
     maintainers = [ maintainers.goibhniu ];

@@ -4,7 +4,7 @@ fetchurl: {
   name = "gnome-contacts-3.18.1";
 
   src = fetchurl {
-    url = mirror://gnome/sources/gnome-contacts/3.18/gnome-contacts-3.18.1.tar.xz;
+    url = "mirror://gnome/sources/gnome-contacts/3.18/gnome-contacts-3.18.1.tar.xz";
     sha256 = "0418d25e70e73c05f4db58ce843819ef91180a21531549a832eafeaf2700cf26";
   };
 }

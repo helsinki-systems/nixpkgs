@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Apps/Clocks;
+    homepage = "https://wiki.gnome.org/Apps/Clocks";
     description = "Clock application designed for GNOME 3";
     maintainers = gnome3.maintainers;
     license = licenses.gpl2;

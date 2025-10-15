@@ -6,7 +6,7 @@ let
   cfg = config.services.openafsClient;
 
   cellServDB = pkgs.fetchurl {
-    url = http://dl.central.org/dl/cellservdb/CellServDB.2009-06-29;
+    url = "http://dl.central.org/dl/cellservdb/CellServDB.2009-06-29";
     sha256 = "be566f850e88130333ab8bc3462872ad90c9482e025c60a92f728b5bac1b4fa9";
   };
 

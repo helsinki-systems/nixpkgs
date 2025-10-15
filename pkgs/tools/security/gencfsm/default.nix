@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
   preFixup = ''gappsWrapperArgs+=(--prefix PATH : ${encfs}/bin)'';
 
   meta = with stdenv.lib; {
-    homepage = http://www.libertyzero.com/GEncfsM/;
+    homepage = "http://www.libertyzero.com/GEncfsM/";
     description = "EncFS manager and mounter with GNOME3 integration";
     license = licenses.gpl2Plus;
     platforms = platforms.linux;

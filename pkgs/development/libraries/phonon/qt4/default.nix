@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   nativeBuildInputs = [ cmake automoc4 ];
 
   meta = {
-    homepage = http://phonon.kde.org/;
+    homepage = "http://phonon.kde.org/";
     description = "Multimedia API for Qt";
     license = stdenv.lib.licenses.lgpl2;
     platforms = stdenv.lib.platforms.linux;

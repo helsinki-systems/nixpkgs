@@ -116,7 +116,7 @@ in stdenv.mkDerivation rec {
     '';
 
     meta = with stdenv.lib; {
-      homepage = http://kodi.tv/;
+      homepage = "http://kodi.tv/";
       description = "Media center";
       license = stdenv.lib.licenses.gpl2;
       platforms = platforms.linux;

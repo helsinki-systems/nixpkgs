@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = {
-    homepage = http://www.nongnu.org/confuse/;
+    homepage = "http://www.nongnu.org/confuse/";
     description = "Configuration file parser library";
     license = stdenv.lib.licenses.isc;
   };

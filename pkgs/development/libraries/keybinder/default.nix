@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
       * Python bindings, ``python-keybinder``
       * An ``examples`` directory with programs in C, Lua, Python and Vala.
     '';
-    homepage = https://github.com/engla/keybinder/;
+    homepage = "https://github.com/engla/keybinder/";
     license = licenses.gpl2Plus;
     platforms = platforms.linux;
     maintainers = [ maintainers.bjornfor ];

@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     '';
 
   meta = {
-    homepage = http://www.tcsh.org/;
+    homepage = "http://www.tcsh.org/";
     description = "An enhanced version of the Berkeley UNIX C shell (csh)";
   };
 }

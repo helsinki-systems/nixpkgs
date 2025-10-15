@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.nih.at/libzip;
+    homepage = "http://www.nih.at/libzip";
     description = "A C library for reading, creating and modifying zip archives";
   };
 }

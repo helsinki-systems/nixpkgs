@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   installPhase = "make install DESTDIR=$out";
 
   meta = with stdenv.lib; {
-    homepage = http://people.redhat.com/dhowells/keyutils/;
+    homepage = "http://people.redhat.com/dhowells/keyutils/";
     description = "Tools used to control the Linux kernel key management system";
     license = licenses.gpl2Plus;
     platforms = platforms.linux;

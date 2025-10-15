@@ -49,7 +49,7 @@ stdenv.mkDerivation rec {
       Python bindings are available too.
     '';
 
-    homepage = http://www.spice-space.org/;
+    homepage = "http://www.spice-space.org/";
     license = licenses.lgpl21;
 
     platforms = platforms.linux;

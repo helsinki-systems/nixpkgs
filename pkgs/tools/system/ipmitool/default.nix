@@ -31,7 +31,7 @@ stdenv.mkDerivation {
   meta = {
     description = ''Command-line interface to IPMI-enabled devices'';
     license = stdenv.lib.licenses.bsd3;
-    homepage = http://ipmitool.sourceforge.net;
+    homepage = "http://ipmitool.sourceforge.net";
 
     platforms = stdenv.lib.platforms.unix;
     maintainers = [ stdenv.lib.maintainers.simons ];

@@ -49,7 +49,7 @@ stdenv.mkDerivation rec {
       still contains unresolved errors.
     '';
 
-    homepage = http://www.eclipse.org/jdt/core/index.php;
+    homepage = "http://www.eclipse.org/jdt/core/index.php";
 
     # http://www.eclipse.org/legal/epl-v10.html (free software, copyleft)
     license = stdenv.lib.licenses.epl10;

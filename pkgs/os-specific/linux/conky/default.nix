@@ -119,7 +119,7 @@ stdenv.mkDerivation rec {
     ;
 
   meta = with stdenv.lib; {
-    homepage = http://conky.sourceforge.net/;
+    homepage = "http://conky.sourceforge.net/";
     description = "Advanced, highly configurable system monitor based on torsmo";
     maintainers = [ maintainers.guibert ];
     license = licenses.gpl3Plus;

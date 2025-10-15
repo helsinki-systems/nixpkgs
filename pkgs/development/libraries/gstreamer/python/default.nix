@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
   propagatedBuildInputs = [ gst-plugins-base pygobject3 ];
 
   meta = {
-    homepage = http://gstreamer.freedesktop.org;
+    homepage = "http://gstreamer.freedesktop.org";
 
     description = "Python bindings for GStreamer";
 

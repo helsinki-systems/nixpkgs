@@ -3,7 +3,7 @@ stdenv.mkDerivation {
   name = "vxl-1.17.0";
 
   src = fetchurl {
-    url = mirror://sourceforge/vxl/vxl-1.17.0.zip;
+    url = "mirror://sourceforge/vxl/vxl-1.17.0.zip";
     sha256 = "1qg7i8h201pa8jljg7vph4rlxk6n5cj9f9gd1hkkmbw6fh44lsxh";
   };
 
@@ -22,7 +22,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "C++ Libraries for Computer Vision Research and Implementation";
-    homepage = http://vxl.sourceforge.net/;
+    homepage = "http://vxl.sourceforge.net/";
     license = "VXL License";
     maintainers = with stdenv.lib.maintainers; [viric];
     platforms = with stdenv.lib.platforms; linux;

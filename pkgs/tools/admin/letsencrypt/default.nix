@@ -27,7 +27,7 @@ pythonPackages.buildPythonPackage rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/letsencrypt/letsencrypt;
+    homepage = "https://github.com/letsencrypt/letsencrypt";
     description = "ACME client that can obtain certs and extensibly update server configurations";
     platforms = platforms.unix;
     maintainers = [ maintainers.iElectric ];

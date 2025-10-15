@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   dontStrip = true;
 
   meta = {
-    homepage = http://fricas.sourceforge.net/;
+    homepage = "http://fricas.sourceforge.net/";
     description = "An advanced computer algebra system";
     license = stdenv.lib.licenses.bsd3;
 

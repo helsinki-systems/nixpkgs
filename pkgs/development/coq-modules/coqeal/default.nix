@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
   installFlags = "COQLIB=$(out)/lib/coq/${coq.coq-version}/";
 
   meta = with stdenv.lib; {
-    homepage = http://www.maximedenes.fr/content/coqeal-coq-effective-algebra-library;
+    homepage = "http://www.maximedenes.fr/content/coqeal-coq-effective-algebra-library";
     description = "A Coq library for effective algebra, by which is meant formally verified computer algebra algorithms that can be run inside Coq on concrete inputs";
     maintainers = with maintainers; [ jwiegley ];
     platforms = coq.meta.platforms;

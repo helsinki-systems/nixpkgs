@@ -14,7 +14,7 @@ in nodePackages.buildNodePackage rec {
   version = "5ae816562a";
 
   src = [(fetchgit {
-    url = https://github.com/emblica/airfield.git;
+    url = "https://github.com/emblica/airfield.git";
     rev = version;
     sha256 = "0rv05pq0xdm0d977dc3hg6dam78acymzrdvkxs8ga8xj4vfs5npk";
   })];
@@ -31,7 +31,7 @@ in nodePackages.buildNodePackage rec {
   meta = {
     description = "A web-interface for hipache-proxy";
     license = licenses.mit;
-    homepage = https://github.com/emblica/airfield;
+    homepage = "https://github.com/emblica/airfield";
     maintainers = with maintainers; [offline];
     platforms = platforms.linux;
     broken = true;

@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "ircd-hybrid-8.2.2";
 
   src = fetchurl {
-    url = mirror://sourceforge/ircd-hybrid/ircd-hybrid-8.2.2.tgz;
+    url = "mirror://sourceforge/ircd-hybrid/ircd-hybrid-8.2.2.tgz";
     sha256 = "0k9w2mxgi03cpnmagshcr5v6qjgnmyidf966b50dd6yn1fgqcibm";
   };
 

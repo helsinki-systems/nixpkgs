@@ -33,7 +33,7 @@ stdenv.mkDerivation {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://ssr.msr-inria.inria.fr/;
+    homepage = "http://ssr.msr-inria.inria.fr/";
     license = licenses.cecill-b;
     maintainers = [ maintainers.vbgl maintainers.jwiegley ];
     platforms = coq.meta.platforms;

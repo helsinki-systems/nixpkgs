@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
   preFixup = "rm $out/share/icons/hicolor/icon-theme.cache";
 
   meta = {
-    homepage = http://www.xfce.org/;
+    homepage = "http://www.xfce.org/";
     description = "Basic GUI library for Xfce";
     license = stdenv.lib.licenses.lgpl2Plus;
   };

@@ -51,7 +51,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://www.docker.com/;
+    homepage = "http://www.docker.com/";
     description = "An open source project to pack, ship and run any application as a lightweight container";
     license = licenses.asl20;
     maintainers = with maintainers; [ offline tailhook ];

@@ -34,7 +34,7 @@ stdenv.mkDerivation rec {
     '';
     platforms = stdenv.lib.platforms.linux;
     license = stdenv.lib.licenses.gpl2;
-    homepage = http://codemonkey.org.uk/projects/x86info/;
+    homepage = "http://codemonkey.org.uk/projects/x86info/";
     maintainers = with stdenv.lib.maintainers; [jcumming];
   };
 }

@@ -20,7 +20,7 @@ stdenv.mkDerivation {
   NIX_CFLAGS_COMPILE = "-Wno-error=cpp";
 
   meta = {
-    homepage = http://inadyn.sourceforge.net/;
+    homepage = "http://inadyn.sourceforge.net/";
     description = "Free dynamic DNS client";
     license = stdenv.lib.licenses.gpl2Plus;
     maintainers = with stdenv.lib.maintainers; [viric];

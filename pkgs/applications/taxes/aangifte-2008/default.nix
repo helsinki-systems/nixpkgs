@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   builder = ./builder.sh;
 
   src = fetchurl {
-    url = http://download.belastingdienst.nl/belastingdienst/apps/linux/ib2008_linux.tar.gz;
+    url = "http://download.belastingdienst.nl/belastingdienst/apps/linux/ib2008_linux.tar.gz";
     sha256 = "0p46bc1b14hgf07illg3crjgjdflkcknk4nzm7b73cwkni57scx3";
   };
 
@@ -17,7 +17,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Elektronische aangifte IB 2008 (Dutch Tax Return Program)";
-    url = http://www.belastingdienst.nl/particulier/aangifte2008/aangifte_2008/aangifte_2008.html;
+    url = "http://www.belastingdienst.nl/particulier/aangifte2008/aangifte_2008/aangifte_2008.html";
     license = stdenv.lib.licenses.unfree;
     platforms = stdenv.lib.platforms.linux;
     hydraPlatforms = [];

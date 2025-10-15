@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ libtoxcore pidgin autoreconfHook libsodium ];
 
   meta = {
-    homepage = http://tox.dhs.org/;
+    homepage = "http://tox.dhs.org/";
     description = "Tox plugin for Pidgin / libpurple";
     license = stdenv.lib.licenses.gpl3;
   };

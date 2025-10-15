@@ -64,6 +64,6 @@ in stdenv.mkDerivation rec {
     maintainers = [ ];
     platforms = stdenv.lib.platforms.linux;
 
-    homepage = http://www.gnu.org/software/guix;
+    homepage = "http://www.gnu.org/software/guix";
   };
 }

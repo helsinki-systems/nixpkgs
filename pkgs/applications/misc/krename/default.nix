@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   nativeBuildInputs = [ automoc4 cmake gettext perl pkgconfig ];
 
   meta = {
-    homepage = http://www.krename.net;
+    homepage = "http://www.krename.net";
     description = "A powerful batch renamer for KDE";
     inherit (kdelibs.meta) platforms;
     maintainers = [ stdenv.lib.maintainers.urkud ];

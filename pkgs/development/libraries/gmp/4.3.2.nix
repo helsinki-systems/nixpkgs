@@ -54,7 +54,7 @@ stdenv.mkDerivation rec {
          asymptotically faster algorithms.
       '';
 
-    homepage = http://gmplib.org/;
+    homepage = "http://gmplib.org/";
     license = stdenv.lib.licenses.lgpl3Plus;
 
     maintainers = [ ];

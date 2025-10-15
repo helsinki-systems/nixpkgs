@@ -15,7 +15,7 @@ pythonPackages.buildPythonPackage rec {
 
   meta = {
     description = "A command line HTTP client whose goal is to make CLI human-friendly";
-    homepage = http://httpie.org/;
+    homepage = "http://httpie.org/";
     license = stdenv.lib.licenses.bsd3;
     maintainers = with stdenv.lib.maintainers; [ antono relrod ];
   };

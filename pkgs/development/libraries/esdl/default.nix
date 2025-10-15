@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://esdl.sourceforge.net/;
+    homepage = "http://esdl.sourceforge.net/";
     description = "Erlang binding to SDL that includes a binding to OpenGL";
     license = "BSD";
   };

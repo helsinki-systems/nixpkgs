@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "stow-2.2.0";
 
   src = fetchurl {
-    url = mirror://gnu/stow/stow-2.2.0.tar.bz2;
+    url = "mirror://gnu/stow/stow-2.2.0.tar.bz2";
     sha256 = "01bbsqjmrnd9925s3grvgjnrl52q4w65imrvzy05qaij3pz31g46";
   };
 
@@ -28,7 +28,7 @@ stdenv.mkDerivation {
     '';
 
     license = stdenv.lib.licenses.gpl3Plus;
-    homepage = http://www.gnu.org/software/stow/;
+    homepage = "http://www.gnu.org/software/stow/";
 
     maintainers = with stdenv.lib.maintainers; [ the-kenny jgeerds ];
     platforms = stdenv.lib.platforms.all;

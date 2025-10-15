@@ -7,7 +7,7 @@
 stdenv.mkDerivation {
   name = "io-2013.12.04";
   src = fetchurl {
-    url = http://github.com/stevedekorte/io/tarball/2013.12.04;
+    url = "http://github.com/stevedekorte/io/tarball/2013.12.04";
     name = "io-2013.12.04.tar.gz";
     sha256 = "0kvwr32xdpcr32rnv301xr5l89185dsisbj4v465m68isas0gjm5";
   };

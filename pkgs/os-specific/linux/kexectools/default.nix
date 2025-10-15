@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ zlib ];
 
   meta = with stdenv.lib; {
-    homepage = http://horms.net/projects/kexec/kexec-tools;
+    homepage = "http://horms.net/projects/kexec/kexec-tools";
     description = "Tools related to the kexec Linux feature";
     platforms = platforms.linux;
     maintainers = with maintainers; [ nckx ];

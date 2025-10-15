@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Ruby interpreter written in Java";
-    homepage = http://jruby.org/;
+    homepage = "http://jruby.org/";
     license = with stdenv.lib.licenses; [ cpl10 gpl2 lgpl21 ];
   };
 }

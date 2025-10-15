@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
   '';
     
   meta = {
-    homepage = http://st.suckless.org/;
+    homepage = "http://st.suckless.org/";
     license = stdenv.lib.licenses.mit;
     maintainers = with maintainers; [viric];
     platforms = platforms.linux;

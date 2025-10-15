@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   name = "hugs98-200609";
 
   src = fetchurl {
-    url = http://cvs.haskell.org/Hugs/downloads/2006-09/hugs98-Sep2006.tar.gz;
+    url = "http://cvs.haskell.org/Hugs/downloads/2006-09/hugs98-Sep2006.tar.gz";
     sha256 = "3cf4d27673564cffe691bd14032369f646233f14daf2bc37c6c6df9f062b46b6";
   };
 
@@ -30,7 +30,7 @@ stdenv.mkDerivation {
   ];
 
   meta = {
-    homepage = http://www.haskell.org/hugs;
+    homepage = "http://www.haskell.org/hugs";
     description = "Haskell interpreter";
     license = "as-is";                          # gentoo labels it this way
     platforms = stdenv.lib.platforms.unix;      # arbitrary choice

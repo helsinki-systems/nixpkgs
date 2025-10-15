@@ -28,7 +28,7 @@ stdenv.mkDerivation {
     '';
 
   meta = {
-    homepage = https://github.com/edolstra/nix-repl;
+    homepage = "https://github.com/edolstra/nix-repl";
     description = "An interactive environment for evaluating and building Nix expressions";
     maintainers = [ lib.maintainers.eelco ];
     license = lib.licenses.gpl3;

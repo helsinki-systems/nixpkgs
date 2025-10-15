@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = {
-    homepage = http://sourceforge.net/projects/checkbaskisms/;
+    homepage = "http://sourceforge.net/projects/checkbaskisms/";
     description = "Check shell scripts for non-portable syntax";
     license = stdenv.lib.licenses.gpl2;
   };

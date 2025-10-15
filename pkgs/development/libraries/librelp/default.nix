@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pkgconfig gnutls zlib ];
 
   meta = with stdenv.lib; {
-    homepage = http://www.librelp.com/;
+    homepage = "http://www.librelp.com/";
     description = "a reliable logging library";
     license = licenses.gpl2;
     platforms = platforms.linux;

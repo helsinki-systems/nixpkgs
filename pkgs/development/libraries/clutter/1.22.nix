@@ -44,7 +44,7 @@ stdenv.mkDerivation rec {
       '';
 
     license = stdenv.lib.licenses.lgpl2Plus;
-    homepage = http://www.clutter-project.org/;
+    homepage = "http://www.clutter-project.org/";
 
     maintainers = with stdenv.lib.maintainers; [ urkud lethalman ];
     platforms = stdenv.lib.platforms.mesaPlatforms;

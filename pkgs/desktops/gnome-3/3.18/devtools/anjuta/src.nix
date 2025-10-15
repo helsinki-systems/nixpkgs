@@ -4,7 +4,7 @@ fetchurl: {
   name = "anjuta-3.18.2";
 
   src = fetchurl {
-    url = mirror://gnome/sources/anjuta/3.18/anjuta-3.18.2.tar.xz;
+    url = "mirror://gnome/sources/anjuta/3.18/anjuta-3.18.2.tar.xz";
     sha256 = "be864f2f1807e1b870697f646294e997d221d5984a135245543b719e501cef8e";
   };
 }

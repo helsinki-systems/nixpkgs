@@ -73,7 +73,7 @@ in stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A package manager for OCaml";
-    homepage = http://opam.ocamlpro.com/;
+    homepage = "http://opam.ocamlpro.com/";
     maintainers = [ maintainers.henrytill ];
     platforms = platforms.all;
   };

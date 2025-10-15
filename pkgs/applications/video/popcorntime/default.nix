@@ -39,7 +39,7 @@ in
   runCommand "popcorntime-${version}" {
     buildInputs = [ makeWrapper ];
     meta = with stdenv.lib; {
-      homepage = http://popcorntime.io/;
+      homepage = "http://popcorntime.io/";
       description = "An application that streams movies and TV shows from torrents";
       license = stdenv.lib.licenses.gpl3;
       platforms = platforms.linux;

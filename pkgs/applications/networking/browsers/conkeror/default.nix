@@ -29,7 +29,7 @@ stdenv.mkDerivation {
       and interact with content in powerful and novel ways. It is
       self-documenting, featuring a powerful interactive help system.
     '';
-    homepage = http://conkeror.org/;
+    homepage = "http://conkeror.org/";
     license = with licenses; [ mpl11 gpl2 lgpl21 ];
     maintainers = with maintainers; [ astsmtl chaoflow ];
     platforms = platforms.linux;

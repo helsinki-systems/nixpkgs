@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://www.impallari.com/quattrocento/;
+    homepage = "http://www.impallari.com/quattrocento/";
     description = "A classic, elegant, sober and strong serif typeface";
     license = licenses.ofl;
     platforms = platforms.all;

@@ -93,7 +93,7 @@ stdenv.mkDerivation rec {
          Scheme extension language.  A native spreadsheet and tools for
          collaborative authoring are planned for later.
       '';
-    homepage = http://texmacs.org/;
+    homepage = "http://texmacs.org/";
     license = stdenv.lib.licenses.gpl2Plus;
     maintainers = [ stdenv.lib.maintainers.roconnor ];
     platforms = stdenv.lib.platforms.gnu;  # arbitrary choice

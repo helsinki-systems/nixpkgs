@@ -69,7 +69,7 @@ let inputs = [ dbus gtk2 gconf python2 libutempter vte keybinder gnome3.gnome_co
 
   meta = {
     description = "Drop-down terminal for GNOME";
-    homepage = http://guake-project.org;
+    homepage = "http://guake-project.org";
     license = licenses.gpl2;
     platforms = platforms.linux;
     maintainers = [ maintainers.msteen ];

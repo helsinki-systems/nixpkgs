@@ -15,7 +15,7 @@ stdenv.mkDerivation {
   createFindlibDestdir = true;
 
   meta = {
-    homepage = https://github.com/mirage/ocaml-magic-mime;
+    homepage = "https://github.com/mirage/ocaml-magic-mime";
     description = "Convert file extensions to MIME types";
     platforms = ocaml.meta.platforms;
     license = stdenv.lib.licenses.isc;

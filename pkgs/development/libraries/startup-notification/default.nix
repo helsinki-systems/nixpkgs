@@ -13,7 +13,7 @@ stdenv.mkDerivation {
   buildInputs = [ libX11 libxcb pkgconfig xcbutil ];
 
   meta = {
-    homepage = http://www.freedesktop.org/software/startup-notification;
+    homepage = "http://www.freedesktop.org/software/startup-notification";
     description = "Application startup notification and feedback library";
     license = stdenv.lib.licenses.lgpl2;
   };

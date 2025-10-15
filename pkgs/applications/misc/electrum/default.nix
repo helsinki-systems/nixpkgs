@@ -46,7 +46,7 @@ buildPythonPackage rec {
       and the ability to perform transactions without downloading a copy
       of the blockchain.
     '';
-    homepage = https://electrum.org;
+    homepage = "https://electrum.org";
     license = licenses.gpl3;
     maintainers = with maintainers; [ ehmry joachifm np ];
   };

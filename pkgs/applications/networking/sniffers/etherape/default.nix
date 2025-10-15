@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   ];
 
   meta = {
-    homepage = http://etherape.sourceforge.net/;
+    homepage = "http://etherape.sourceforge.net/";
     license = stdenv.lib.licenses.gpl2Plus;
     platforms = with stdenv.lib.platforms; linux;
   };

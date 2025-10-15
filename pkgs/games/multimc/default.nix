@@ -44,7 +44,7 @@ stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = https://multimc.org/;
+    homepage = "https://multimc.org/";
     description = "A free, open source launcher for Minecraft";
     longDescription = ''
       Allows you to have multiple, separate instances of Minecraft (each with their own mods, texture packs, saves, etc) and helps you manage them and their associated options with a simple interface.

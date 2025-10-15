@@ -16,7 +16,7 @@ stdenv.mkDerivation {
   '';
   
   meta = with stdenv.lib; {
-    homepage = https://github.com/masroore/opentracker;
+    homepage = "https://github.com/masroore/opentracker";
     license = "beer-ware";
     platforms = platforms.linux;
     description = "Bittorrent tracker project aiminf for minimal resource usage and is intended to run at your wlan router";

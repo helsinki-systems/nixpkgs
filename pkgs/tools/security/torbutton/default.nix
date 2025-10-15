@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "1.6.1";
 
   src = fetchgit {
-    url = https://git.torproject.org/torbutton.git;
+    url = "https://git.torproject.org/torbutton.git";
     rev = "refs/tags/${version}";
     sha256 = "0ypzrl8nhckrgh45rcwsjds1jnzz3w5nr09b926a4h3a5njammlv";
   };
@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   installPhase = "cat pkg/*.xpi > $out";
 
   meta = with stdenv.lib; {
-    homepage = https://www.torproject.org/torbutton/;
+    homepage = "https://www.torproject.org/torbutton/";
     description = "Part of the Tor Browser Bundle";
     longDescription = ''
       The component in Tor Browser Bundle that takes care of application-level

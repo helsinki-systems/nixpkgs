@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
   configureFlags = optional x11Support "--with-pinentry-pgm=${pinentry}/bin/pinentry";
 
   meta = with stdenv.lib; {
-    homepage = http://gnupg.org;
+    homepage = "http://gnupg.org";
     description = "a complete and free implementation of the OpenPGP standard";
     license = licenses.gpl3Plus;
     maintainers = with maintainers; [ wkennington ];

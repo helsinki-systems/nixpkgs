@@ -67,7 +67,7 @@ stdenv.mkDerivation {
        tampering, or message forgery."
     '';
 
-    homepage = http://www.gnu.org/software/gnutls/;
+    homepage = "http://www.gnu.org/software/gnutls/";
     license = licenses.lgpl21Plus;
     maintainers = with maintainers; [ eelco wkennington ];
     platforms = platforms.all;

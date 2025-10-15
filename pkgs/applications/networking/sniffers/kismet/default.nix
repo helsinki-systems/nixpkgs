@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Wireless network sniffer";
-    homepage = http://www.kismetwireless.net/;
+    homepage = "http://www.kismetwireless.net/";
     license = "GPL";
   };
 }

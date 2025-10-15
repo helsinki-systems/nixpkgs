@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   preConfigure = "make -f Makefile.cvs";
 
   meta = with stdenv.lib; {
-    homepage = http://www.linuxsampler.org;
+    homepage = "http://www.linuxsampler.org";
     description = "Gigasampler file access library";
     license = licenses.gpl2;
     maintainers = [ maintainers.goibhniu ];

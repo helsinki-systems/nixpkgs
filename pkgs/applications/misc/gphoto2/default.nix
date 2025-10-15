@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
       digital cameras. Through libgphoto2, it supports PTP, MTP, and much more..
 
     '';
-    homepage = http://www.gphoto.org/;
+    homepage = "http://www.gphoto.org/";
     license = stdenv.lib.licenses.gpl2Plus;
     platforms = with stdenv.lib.platforms; unix;
     maintainers = with stdenv.lib.maintainers; [ jcumming ];

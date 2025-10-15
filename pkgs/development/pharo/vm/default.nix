@@ -3,7 +3,7 @@
 rec {
   pharo-vm-build = import ./build-vm.nix args;
 
-  base-url = http://files.pharo.org/vm/src/vm-unix-sources/blessed;
+  base-url = "http://files.pharo.org/vm/src/vm-unix-sources/blessed";
 
   pharo-no-spur = pharo-vm-build rec {
     version = "2015.08.06";

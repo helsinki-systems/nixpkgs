@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Various table-based input methods for IBus";
-    homepage    = https://github.com/moebiuscurve/ibus-table-others;
+    homepage    = "https://github.com/moebiuscurve/ibus-table-others";
     license     = licenses.gpl3;
     platforms   = platforms.linux;
     maintainers = with maintainers; [ mudri ];

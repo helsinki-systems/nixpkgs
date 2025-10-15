@@ -13,7 +13,7 @@ stdenv.mkDerivation {
   '';
 
   src = fetchurl {
-    url = mirror://sourceforge/lprof/lprof/lprof-1.11.4/lprof-1.11.4.1.tar.gz;
+    url = "mirror://sourceforge/lprof/lprof/lprof-1.11.4/lprof-1.11.4.1.tar.gz";
     sha256 = "0q8x24fm5yyvm151xrl3l03p7hvvciqnkbviprfnvlr0lyg9wsrn";
   };
 

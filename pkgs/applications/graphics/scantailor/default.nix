@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ qt4 cmake libjpeg libtiff boost ];
 
   meta = {
-    homepage = http://scantailor.org/;
+    homepage = "http://scantailor.org/";
     description = "Interactive post-processing tool for scanned pages";
 
     license = stdenv.lib.licenses.gpl3Plus;

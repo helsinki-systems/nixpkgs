@@ -12,7 +12,7 @@ let
 
   # Don't use fetchpatch. It mangles them. That's an hour I'll never get back.
   fetchbohoomil = name: sha256: fetchurl {
-    url = https://raw.githubusercontent.com/bohoomil/fontconfig-ultimate/254b688f96d4a37f78fb594303a43160fc15c7cd/freetype/ + name;
+    url = "https://raw.githubusercontent.com/bohoomil/fontconfig-ultimate/254b688f96d4a37f78fb594303a43160fc15c7cd/freetype/" + name;
     inherit sha256;
   };
 in
@@ -61,7 +61,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A font rendering engine";
-    homepage = http://www.freetype.org/;
+    homepage = "http://www.freetype.org/";
     license = licenses.gpl2Plus; # or the FreeType License (BSD + advertising clause)
     #ToDo: encumbered = useEncumberedCode;
     platforms = platforms.all;

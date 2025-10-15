@@ -15,7 +15,7 @@ stdenv.mkDerivation rec
 
   meta =
   {
-    homepage = http://www.tildeslash.com/libzdb/;
+    homepage = "http://www.tildeslash.com/libzdb/";
     description = "A small, easy to use Open Source Database Connection Pool Library";
     license = stdenv.lib.licenses.gpl3;
     platforms = stdenv.lib.platforms.linux;

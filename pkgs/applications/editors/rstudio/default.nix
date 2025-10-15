@@ -34,7 +34,7 @@ stdenv.mkDerivation {
   hunspellDicts = builtins.attrValues hunspellDicts;
 
   mathJaxSrc = fetchurl {
-    url = https://s3.amazonaws.com/rstudio-buildtools/mathjax-20.zip;
+    url = "https://s3.amazonaws.com/rstudio-buildtools/mathjax-20.zip";
     sha256 = "1ikg3fhharsfrh2fv8c53fdawqajj24nif89400l3klw1hyq4zal";
   };
 
@@ -67,7 +67,7 @@ stdenv.mkDerivation {
 
   meta = with stdenv.lib;
     { description = "Set of integrated tools for the R language";
-      homepage = http://www.rstudio.com/;
+      homepage = "http://www.rstudio.com/";
       license = licenses.agpl3;
       maintainers = [ maintainers.ehmry ];
       platforms = platforms.linux;

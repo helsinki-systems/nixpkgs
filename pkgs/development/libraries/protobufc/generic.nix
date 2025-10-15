@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ autoreconfHook pkgconfig protobuf zlib ];
 
   meta = with stdenv.lib; {
-    homepage = http://github.com/protobuf-c/protobuf-c/;
+    homepage = "http://github.com/protobuf-c/protobuf-c/";
     description = "C bindings for Google's Protocol Buffers";
     license = licenses.bsd2;
     platforms = platforms.all;

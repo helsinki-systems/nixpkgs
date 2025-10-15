@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://tytel.org/helm;
+    homepage = "http://tytel.org/helm";
     description = "A free, cross-platform, polyphonic synthesizer";
     longDescription = ''
       A free, cross-platform, polyphonic synthesizer.

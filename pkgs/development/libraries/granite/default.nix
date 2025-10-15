@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "An extension to GTK+ used by elementary OS";
     longDescription = "An extension to GTK+ that provides several useful widgets and classes to ease application development. Designed for elementary OS.";
-    homepage = https://launchpad.net/granite;
+    homepage = "https://launchpad.net/granite";
     license = stdenv.lib.licenses.lgpl3;
     platforms = stdenv.lib.platforms.linux;
     maintainers = [ stdenv.lib.maintainers.vozz ];

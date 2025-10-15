@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
     echo "JAVA = '${jre}/bin/java'" >> $out/${appdir}/config
   '';
   meta = with stdenv.lib; {
-    homepage = https://github.com/kripken/emscripten;
+    homepage = "https://github.com/kripken/emscripten";
     description = "An LLVM-to-JavaScript Compiler";
     platforms = platforms.all;
     maintainers = with maintainers; [ bosu ];

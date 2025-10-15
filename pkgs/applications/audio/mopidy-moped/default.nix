@@ -14,7 +14,7 @@ pythonPackages.buildPythonPackage rec {
   doCheck = false;
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/martijnboland/moped;
+    homepage = "https://github.com/martijnboland/moped";
     description = "A web client for Mopidy";
     license = licenses.mit;
     maintainers = [ maintainers.rickynils ];

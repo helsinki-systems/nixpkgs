@@ -118,7 +118,7 @@ common = { pname, version, sha256 }: stdenv.mkDerivation rec {
 
   meta = {
     description = "A web browser" + lib.optionalString (pname == "firefox-esr") " (Extended Support Release)";
-    homepage = http://www.mozilla.com/en-US/firefox/;
+    homepage = "http://www.mozilla.com/en-US/firefox/";
     maintainers = with lib.maintainers; [ eelco ];
     platforms = lib.platforms.linux;
   };

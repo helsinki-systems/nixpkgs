@@ -54,7 +54,7 @@ stdenv.mkDerivation {
          solution to this problem.
       '';
 
-    homepage = http://sourceware.org/pthreads-win32/;
+    homepage = "http://sourceware.org/pthreads-win32/";
 
     license = stdenv.lib.licenses.lgpl21Plus;
   };

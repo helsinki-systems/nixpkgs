@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   name = "gnome-settings-daemon-2.32.1";
 
   src = fetchurl {
-    url = mirror://gnome/sources/gnome-settings-daemon/2.32/gnome-settings-daemon-2.32.1.tar.bz2;
+    url = "mirror://gnome/sources/gnome-settings-daemon/2.32/gnome-settings-daemon-2.32.1.tar.bz2";
     sha256 = "11jyn10w2p2a76pjrkd0pjl1w406df821p053awklvmdqgzb6x00";
   };
 

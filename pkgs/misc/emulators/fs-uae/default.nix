@@ -29,7 +29,7 @@ stdenv.mkDerivation rec{
       create customized Amigas.
     '';
     license = licenses.gpl2Plus;
-    homepage = http://fs-uae.net;
+    homepage = "http://fs-uae.net";
     maintainers = [ maintainers.AndersonTorres ];
   };
 }

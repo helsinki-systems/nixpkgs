@@ -49,7 +49,7 @@ stdenv.mkDerivation rec {
          environment for developing modern applications.
       '';
 
-    homepage = http://www.gnu.org/software/guile-gnome/;
+    homepage = "http://www.gnu.org/software/guile-gnome/";
 
     license = stdenv.lib.licenses.gpl2Plus;
 

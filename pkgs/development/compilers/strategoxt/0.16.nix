@@ -21,7 +21,7 @@ rec {
     '';
 
     meta = {
-      homepage = http://www.program-transformation.org/Sdf/SdfBundle;
+      homepage = "http://www.program-transformation.org/Sdf/SdfBundle";
       meta = "Tools for the SDF2 Syntax Definition Formalism, including the `pgen' parser generator and `sglr' parser";
     };
   };
@@ -38,7 +38,7 @@ rec {
     buildInputs = [pkgconfig aterm sdf getopt];
 
     meta = {
-      homepage = http://strategoxt.org/;
+      homepage = "http://strategoxt.org/";
       meta = "A language and toolset for program transformation";
     };
   };

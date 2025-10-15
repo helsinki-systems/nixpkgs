@@ -23,7 +23,7 @@ stdenv.mkDerivation {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://zdfmediathk.sourceforge.net/;
+    homepage = "http://zdfmediathk.sourceforge.net/";
     license = stdenv.lib.licenses.gpl3;
     maintainers = [ maintainers.chaoflow ];
     platforms = platforms.linux;  #  also OS X and cygwin, but not investigated, yet

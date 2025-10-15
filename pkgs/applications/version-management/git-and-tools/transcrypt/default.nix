@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   name = "transcrypt-0.9.7";
 
   src = fetchurl {
-    url = https://github.com/elasticdog/transcrypt/archive/v0.9.7.tar.gz;
+    url = "https://github.com/elasticdog/transcrypt/archive/v0.9.7.tar.gz";
     sha256 = "0pgrf74wdc7whvwz7lkkq6qfk38n37dc5668baq7czgckibvjqdh";
   };
 
@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
       encryption password can safely commit changes to the repository's
       non-encrypted files.
     '';
-    homepage = https://github.com/elasticdog/transcrypt;
+    homepage = "https://github.com/elasticdog/transcrypt";
     license = licenses.mit;
     maintainers = [ maintainers.elasticdog ];
     platforms = platforms.all;

@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
   ];
 
   meta = with stdenv.lib; {
-    homepage = http://github.com/vathpela/efivar;
+    homepage = "http://github.com/vathpela/efivar";
     description = "Tools and library to manipulate EFI variables";
     platforms = platforms.linux;
     license = licenses.lgpl21;

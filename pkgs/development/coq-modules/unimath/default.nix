@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   installFlags = "COQLIB=$(out)/lib/coq/${coq.coq-version}/";
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/UniMath/UniMath;
+    homepage = "https://github.com/UniMath/UniMath";
     description = "A formalization of a substantial body of mathematics using the univalent point of view";
     maintainers = with maintainers; [ jwiegley ];
     platforms = coq.meta.platforms;

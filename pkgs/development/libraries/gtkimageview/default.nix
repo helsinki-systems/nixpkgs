@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
   doCheck = true;
 
   meta = {
-    homepage = http://trac.bjourne.webfactional.com/;
+    homepage = "http://trac.bjourne.webfactional.com/";
 
     description = "Image viewer widget for GTK+";
 

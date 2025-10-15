@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = with stdenv.lib; {
-    homepage = http://normalize.nongnu.org/;
+    homepage = "http://normalize.nongnu.org/";
     description = "Audio file normalizer";
     license = licenses.gpl2;
   };

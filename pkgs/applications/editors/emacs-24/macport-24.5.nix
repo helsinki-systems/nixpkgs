@@ -59,7 +59,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "GNU Emacs 24, the extensible, customizable text editor";
-    homepage    = http://www.gnu.org/software/emacs/;
+    homepage    = "http://www.gnu.org/software/emacs/";
     license     = licenses.gpl3Plus;
     maintainers = with maintainers; [ jwiegley ];
     platforms   = platforms.darwin;

@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "doclifter-2.15";
   src = fetchurl {
-    url = http://www.catb.org/~esr/doclifter/doclifter-2.15.tar.gz;
+    url = "http://www.catb.org/~esr/doclifter/doclifter-2.15.tar.gz";
     sha256 = "14k750bxp0kpnm130pp22vx3vmppfnzwisc042din1416ka07yv0";
   };
   buildInputs = [ python ];
@@ -19,7 +19,7 @@ stdenv.mkDerivation {
   
   meta = {
     description = "Lift documents in nroff markups to XML-DocBook";
-    homepage = http://www.catb.org/esr/doclifter;
+    homepage = "http://www.catb.org/esr/doclifter";
     license = "BSD";
   };
 }

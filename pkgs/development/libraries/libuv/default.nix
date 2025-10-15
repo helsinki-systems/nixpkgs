@@ -8,7 +8,7 @@ let
 
   meta = with lib; {
     description = "A multi-platform support library with a focus on asynchronous I/O";
-    homepage    = https://github.com/libuv/libuv;
+    homepage    = "https://github.com/libuv/libuv";
     maintainers = with maintainers; [ cstrahan ];
     platforms   = with platforms; linux ++ darwin;
   };

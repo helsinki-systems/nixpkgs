@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
       description = ''
         Semantic launcher to start applications and find relevant files
       '';
-      homepage = https://launchpad.net/synapse-project;
+      homepage = "https://launchpad.net/synapse-project";
       license = stdenv.lib.licenses.gpl3;
       maintainers = with stdenv.lib.maintainers; mahe;
       platforms = with stdenv.lib.platforms; all;

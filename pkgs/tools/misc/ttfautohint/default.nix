@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
       new font where all glyphs are bytecode hinted using the
       information given by FreeType’s auto-hinting module.
     '';
-    homepage = http://www.freetype.org/ttfautohint/;
+    homepage = "http://www.freetype.org/ttfautohint/";
     license = licenses.gpl2Plus; # or the FreeType License (BSD + advertising clause)
     maintainers = [ maintainers.goibhniu ];
     platforms = platforms.all;

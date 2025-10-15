@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ openssl ];
 
   meta = {
-    homepage = http://www.maier-komor.de/mbuffer.html;
+    homepage = "http://www.maier-komor.de/mbuffer.html";
     description  = "mbuffer is a tool for buffering data streams with a large set of unique features";
     license = stdenv.lib.licenses.gpl3;
     maintainers = with stdenv.lib.maintainers; [ tokudan ];

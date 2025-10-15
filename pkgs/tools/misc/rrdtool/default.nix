@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://oss.oetiker.ch/rrdtool/;
+    homepage = "http://oss.oetiker.ch/rrdtool/";
     description = "High performance logging in Round Robin Databases";
     license = licenses.gpl2;
     platforms = platforms.linux;

@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   doCheck = true;
 
   meta = {
-    homepage = http://libsigc.sourceforge.net/;
+    homepage = "http://libsigc.sourceforge.net/";
     description = "A typesafe callback system for standard C++";
   };
 }

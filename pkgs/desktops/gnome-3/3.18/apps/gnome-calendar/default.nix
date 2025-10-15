@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   ];
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Apps/Calendar;
+    homepage = "https://wiki.gnome.org/Apps/Calendar";
     description = "Simple and beautiful calendar application for GNOME";
     maintainers = gnome3.maintainers;
     license = licenses.gpl3;

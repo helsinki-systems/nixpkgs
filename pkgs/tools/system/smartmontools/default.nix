@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Tools for monitoring the health of hard drives";
-    homepage = http://smartmontools.sourceforge.net/;
+    homepage = "http://smartmontools.sourceforge.net/";
     license = licenses.gpl2Plus;
     platforms = with platforms; linux ++ darwin;
     maintainers = [ maintainers.simons ];

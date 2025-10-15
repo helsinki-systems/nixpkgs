@@ -46,7 +46,7 @@ stdenv.mkDerivation (rec {
       Proof General is a generic front-end for proof assistants (also known as
       interactive theorem provers), based on the customizable text editor Emacs.
     '';
-    homepage = http://proofgeneral.inf.ed.ac.uk;
+    homepage = "http://proofgeneral.inf.ed.ac.uk";
     license = stdenv.lib.licenses.gpl2Plus;
     platforms = stdenv.lib.platforms.unix;  # arbitrary choice
   };

@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ libtool openssl pkgconfig ];
 
   meta = {
-    homepage = http://www.opensc-project.org/libp11/;
+    homepage = "http://www.opensc-project.org/libp11/";
     license = "LGPL";
     description = "Small layer on top of PKCS#11 API to make PKCS#11 implementations easier";
   };

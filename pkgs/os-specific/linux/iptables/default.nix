@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A program to configure the Linux IP packet filtering ruleset";
-    homepage = http://www.netfilter.org/projects/iptables/index.html;
+    homepage = "http://www.netfilter.org/projects/iptables/index.html";
     platforms = stdenv.lib.platforms.linux;
     downloadPage = "http://www.netfilter.org/projects/iptables/files/";
     updateWalker = true;

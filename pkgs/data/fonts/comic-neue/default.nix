@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://comicneue.com/;
+    homepage = "http://comicneue.com/";
     description = "A casual type face: Make your lemonade stand look like a fortune 500 company";
     longDescription = ''
       It is inspired by Comic Sans but more regular.  The font was

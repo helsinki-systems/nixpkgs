@@ -49,7 +49,7 @@ stdenv.mkDerivation {
   builder = ./builder.sh;
 
   src = fetchurl {
-    url = http://fossies.org/unix/misc/TrueCrypt-7.1a-Source.tar.gz;
+    url = "http://fossies.org/unix/misc/TrueCrypt-7.1a-Source.tar.gz";
     sha1 = "d43e0dbe05c04e316447d87413c4f74c68f5de24";
   };
 
@@ -73,7 +73,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Free Open-Source filesystem on-the-fly encryption";
-    homepage = http://www.truecrypt.org/;
+    homepage = "http://www.truecrypt.org/";
     license = "TrueCrypt License Version 2.6";
     maintainers = with stdenv.lib.maintainers; [viric];
     platforms = with stdenv.lib.platforms; linux;

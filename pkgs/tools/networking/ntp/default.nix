@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.ntp.org/;
+    homepage = "http://www.ntp.org/";
     description = "An implementation of the Network Time Protocol";
     maintainers = [ stdenv.lib.maintainers.eelco ];
     platforms = stdenv.lib.platforms.linux;

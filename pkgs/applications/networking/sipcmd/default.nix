@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = https://github.com/tmakkonen/sipcmd;
+    homepage = "https://github.com/tmakkonen/sipcmd";
     description = "sipcmd - the command line SIP/H.323/RTP softphone";
     platforms = with stdenv.lib.platforms; linux;
   };

@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   doCheck = true;
 
   meta = with stdenv.lib; {
-    homepage = http://xiph.org/vorbis/;
+    homepage = "http://xiph.org/vorbis/";
     license = licenses.bsd3;
     maintainers = [ maintainers.ehmry ];
     platforms = platforms.all;

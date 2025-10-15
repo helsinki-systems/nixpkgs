@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.scala-sbt.org/;
+    homepage = "http://www.scala-sbt.org/";
     license = stdenv.lib.licenses.bsd3;
     description = "A build tool for Scala, Java and more";
     maintainers = [ stdenv.lib.maintainers.rickynils ];

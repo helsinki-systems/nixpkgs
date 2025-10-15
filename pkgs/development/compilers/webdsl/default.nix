@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
   preBuild = (if stdenv.system == "x86_64-linux" then "ulimit -s unlimited" else "");
 
   meta = {
-    homepage = http://webdsl.org/;
+    homepage = "http://webdsl.org/";
     description = "A domain-specific language for developing dynamic web applications with a rich data model";
   };
 }

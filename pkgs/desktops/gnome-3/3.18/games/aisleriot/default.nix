@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
                   librsvg libxml2 desktop_file_utils guile libcanberra_gtk3 ];
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Apps/Aisleriot;
+    homepage = "https://wiki.gnome.org/Apps/Aisleriot";
     description = "A collection of patience games written in guile scheme";
     maintainers = gnome3.maintainers;
     license = licenses.gpl3Plus;

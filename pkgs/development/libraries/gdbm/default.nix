@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
          package also provides traditional dbm and ndbm interfaces.
       '';
 
-    homepage = http://www.gnu.org/software/gdbm/;
+    homepage = "http://www.gnu.org/software/gdbm/";
     license = stdenv.lib.licenses.gpl3Plus;
     platforms = stdenv.lib.platforms.all;
     maintainers = [ ];

@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   installFlags = "PREFIX=$(out) INSTALL=install";
 
   meta = with stdenv.lib; {
-    homepage = http://linukz.org/cd-discid.shtml;
+    homepage = "http://linukz.org/cd-discid.shtml";
     license = licenses.gpl2Plus;
     maintainers = [ maintainers.rycee ];
     platforms = platforms.unix;

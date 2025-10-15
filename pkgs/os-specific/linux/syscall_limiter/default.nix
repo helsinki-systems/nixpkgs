@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Start Linux programs with only selected syscalls enabled";
-    homepage = https://github.com/vi/syscall_limiter;
+    homepage = "https://github.com/vi/syscall_limiter";
     license = licenses.mit;
     maintainers = with maintainers; [ obadz ];
     platforms = platforms.linux;

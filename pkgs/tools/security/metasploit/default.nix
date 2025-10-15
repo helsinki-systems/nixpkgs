@@ -28,6 +28,6 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Metasploit Framework - a collection of exploits";
-    homepage = https://github.com/rapid7/metasploit-framework/wiki;
+    homepage = "https://github.com/rapid7/metasploit-framework/wiki";
   };
 }

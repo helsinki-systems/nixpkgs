@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
          WS-Management specification and Testing.
       '';
 
-    homepage = https://github.com/Openwsman/wsmancli;
+    homepage = "https://github.com/Openwsman/wsmancli";
     downloadPage = "https://github.com/Openwsman/wsmancli/releases";
 
     maintainers = [ stdenv.lib.maintainers.deepfire ];

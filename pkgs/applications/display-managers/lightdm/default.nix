@@ -36,7 +36,7 @@ stdenv.mkDerivation rec {
   ];
 
   meta = with stdenv.lib; {
-    homepage = https://launchpad.net/lightdm;
+    homepage = "https://launchpad.net/lightdm";
     platforms = platforms.linux;
     license = licenses.gpl3;
     maintainers = with maintainers; [ ocharles wkennington ];

@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A flexible scheduler for your i3bar blocks.";
-    homepage = https://github.com/vivien/i3blocks;
+    homepage = "https://github.com/vivien/i3blocks";
     license = licenses.gpl3;
     maintainers = [ "MindTooth" ];
     platforms = platforms.all;

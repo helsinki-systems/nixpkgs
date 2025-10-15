@@ -36,7 +36,7 @@ stdenv.mkDerivation rec {
     '';
 
     license = stdenv.lib.licenses.gpl2Plus;
-    homepage = http://namazu.org/;
+    homepage = "http://namazu.org/";
 
     platforms = stdenv.lib.platforms.gnu;  # arbitrary choice
     maintainers = [ ];

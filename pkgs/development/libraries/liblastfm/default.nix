@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   nativeBuildInputs = [ pkgconfig which cmake ];
 
   meta = {
-    homepage = http://github.com/lastfm/liblastfm;
+    homepage = "http://github.com/lastfm/liblastfm";
     repositories.git = git://github.com/lastfm/liblastfm.git;
     description = "Official LastFM library";
     inherit (qt4.meta) platforms;

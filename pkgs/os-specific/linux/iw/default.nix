@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Tool to use nl80211";
-    homepage = http://wireless.kernel.org/en/users/Documentation/iw;
+    homepage = "http://wireless.kernel.org/en/users/Documentation/iw";
     license = stdenv.lib.licenses.isc;
     maintainers = with stdenv.lib.maintainers; [viric];
     platforms = with stdenv.lib.platforms; linux;

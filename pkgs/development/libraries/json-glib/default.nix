@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   nativeBuildInputs = [ pkgconfig ];
 
   meta = with stdenv.lib; {
-    homepage = http://live.gnome.org/JsonGlib;
+    homepage = "http://live.gnome.org/JsonGlib";
     description = "A library providing (de)serialization support for the JavaScript Object Notation (JSON) format";
     license = licenses.lgpl2;
     maintainers = with maintainers; [ lethalman ];

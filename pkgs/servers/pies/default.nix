@@ -36,7 +36,7 @@ stdenv.mkDerivation rec {
 
     license = stdenv.lib.licenses.gpl3Plus;
 
-    homepage = http://www.gnu.org/software/pies/;
+    homepage = "http://www.gnu.org/software/pies/";
 
     platforms = stdenv.lib.platforms.gnu;
     maintainers = [ ];

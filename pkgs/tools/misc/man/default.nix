@@ -43,7 +43,7 @@ stdenv.mkDerivation rec {
     '';
 
   meta = {
-    homepage = http://primates.ximian.com/~flucifredi/man/;
+    homepage = "http://primates.ximian.com/~flucifredi/man/";
     description = "Tool to read online Unix documentation";
   };
 }

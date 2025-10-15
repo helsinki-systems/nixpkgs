@@ -72,7 +72,7 @@ stdenv.mkDerivation rec {
       higan also supports the following subsystems:
         Super Game Boy; BS-X Satellaview; Sufami Turbo
     '';
-    homepage = http://byuu.org/higan/;
+    homepage = "http://byuu.org/higan/";
     license = licenses.gpl3Plus;
     maintainers = [ maintainers.AndersonTorres ];
     platforms = platforms.linux;

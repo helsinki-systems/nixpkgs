@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   patches = [ ./respect-env-tzdir.patch ];
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/libical/libical;
+    homepage = "https://github.com/libical/libical";
     description = "an Open Source implementation of the iCalendar protocols";
     license = licenses.mpl10;
     platforms = platforms.unix;

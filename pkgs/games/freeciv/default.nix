@@ -44,7 +44,7 @@ stdenv.mkDerivation {
       to the space age...
     '';
 
-    homepage = http://freeciv.wikia.com/;
+    homepage = "http://freeciv.wikia.com/";
     license = licenses.gpl2;
 
     maintainers = with maintainers; [ pierron ];

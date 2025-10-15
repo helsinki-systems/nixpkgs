@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
   installPhase = "python waf install";
 
   meta = with stdenv.lib; {
-    homepage = http://lv2plug.in;
+    homepage = "http://lv2plug.in";
     description = "A plugin standard for audio systems";
     license = licenses.mit;
     maintainers = [ maintainers.goibhniu ];

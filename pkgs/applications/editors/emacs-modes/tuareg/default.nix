@@ -20,7 +20,7 @@ in stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage =  https://github.com/ocaml/tuareg;
+    homepage =  "https://github.com/ocaml/tuareg";
     description = "OCaml mode package for Emacs";
     platforms = stdenv.lib.platforms.unix;
     license = stdenv.lib.licenses.gpl2Plus;

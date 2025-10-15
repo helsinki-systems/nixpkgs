@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = with stdenv.lib; {
-    homepage = http://librsync.sourceforge.net/;
+    homepage = "http://librsync.sourceforge.net/";
     license = licenses.lgpl2Plus;
     description = "Implementation of the rsync remote-delta algorithm";
     platforms = platforms.unix;

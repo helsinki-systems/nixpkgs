@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
   name = "tabbed-20150509";
 
   src = fetchgit {
-    url = http://git.suckless.org/tabbed;
+    url = "http://git.suckless.org/tabbed";
     rev = "55dc32b27b73c121cab18009bf087e95ef3d9c18";
     sha256 = "0c5ayf1lrb1xiz5h8dfd4mh05kas42zzi5m5ylrvl67sfz3z4wg1";
   };
@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://tools.suckless.org/tabbed;
+    homepage = "http://tools.suckless.org/tabbed";
     description = "Simple generic tabbed fronted to xembed aware applications";
     license = licenses.mit;
     maintainers = with maintainers; [ viric ];

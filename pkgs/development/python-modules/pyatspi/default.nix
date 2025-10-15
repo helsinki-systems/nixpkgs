@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Python 3 bindings for at-spi";
-    homepage = http://www.linuxfoundation.org/en/AT-SPI_on_D-Bus;
+    homepage = "http://www.linuxfoundation.org/en/AT-SPI_on_D-Bus";
     license = licenses.gpl2;
     maintainers = with maintainers; [ jgeerds ];
   };

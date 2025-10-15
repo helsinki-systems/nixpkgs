@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Version Control System for $HOME";
-    homepage = https://github.com/RichiH/vcsh;
+    homepage = "https://github.com/RichiH/vcsh";
     license = licenses.gpl2Plus;
     maintainers = with maintainers; [ garbas ttuegel ];
     platforms = platforms.unix;

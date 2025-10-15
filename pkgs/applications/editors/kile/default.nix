@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "An integrated LaTeX editor for KDE";
-    homepage = http://kile.sourceforge.net;
+    homepage = "http://kile.sourceforge.net";
     maintainers = [ stdenv.lib.maintainers.urkud ];
     license = stdenv.lib.licenses.gpl2Plus;
     inherit (kdelibs.meta) platforms;

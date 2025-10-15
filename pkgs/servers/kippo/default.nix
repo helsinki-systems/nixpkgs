@@ -52,7 +52,7 @@ stdenv.mkDerivation rec {
         '';
 
     meta = with stdenv.lib; {
-      homepage = https://code.google.com/p/kippo;
+      homepage = "https://code.google.com/p/kippo";
       description = "SSH Honeypot";
       longDescription = ''
         Default port is 2222. Recommend using something like this for port redirection to default SSH port:

@@ -16,7 +16,7 @@ stdenv.mkDerivation {
 
   meta = with stdenv.lib; {
     description = "Change dynamic shared library install names";
-    homepage    = https://developer.apple.com/library/mac/documentation/Darwin/Reference/Manpages/man1/install_name_tool.1.html;
+    homepage    = "https://developer.apple.com/library/mac/documentation/Darwin/Reference/Manpages/man1/install_name_tool.1.html";
     maintainers = with maintainers; [ lovek323 ];
     platforms   = platforms.darwin;
 

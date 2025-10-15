@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   
   meta = with stdenv.lib; {
     description = "Tool for analysing captured signals from sdr receivers";
-    homepage = https://github.com/miek/inspectrum;
+    homepage = "https://github.com/miek/inspectrum";
     maintainers = with maintainers; [ mog ];
     platforms = platforms.linux;
     license = licenses.gpl3Plus;

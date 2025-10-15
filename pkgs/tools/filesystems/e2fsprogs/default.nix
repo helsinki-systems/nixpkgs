@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
   postInstall = "make install-libs";
 
   meta = {
-    homepage = http://e2fsprogs.sourceforge.net/;
+    homepage = "http://e2fsprogs.sourceforge.net/";
     description = "Tools for creating and checking ext2/ext3/ext4 filesystems";
     platforms = stdenv.lib.platforms.linux;
     maintainers = [ stdenv.lib.maintainers.eelco ];

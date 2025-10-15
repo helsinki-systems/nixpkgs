@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Portable cross-platform Audio API";
-    homepage = http://www.portaudio.com/;
+    homepage = "http://www.portaudio.com/";
     # Not exactly a bsd license, but alike
     license = "BSD";
   };

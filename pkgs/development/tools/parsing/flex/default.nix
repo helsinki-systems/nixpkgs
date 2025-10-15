@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = {
-    homepage = http://flex.sourceforge.net/;
+    homepage = "http://flex.sourceforge.net/";
     description = "A fast lexical analyser generator";
   };
 }

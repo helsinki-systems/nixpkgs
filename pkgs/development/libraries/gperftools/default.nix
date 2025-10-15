@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   meta = with stdenv.lib; {
-    homepage = https://code.google.com/p/gperftools/;
+    homepage = "https://code.google.com/p/gperftools/";
     description = "Fast, multi-threaded malloc() and nifty performance analysis tools";
     platforms = with platforms; linux ++ darwin;
     license = licenses.bsd3;

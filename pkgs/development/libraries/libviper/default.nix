@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   buildInputs = [pkgconfig glib ncurses gpm];
 
   meta = with stdenv.lib; {
-    homepage = http://libviper.sourceforge.net/;
+    homepage = "http://libviper.sourceforge.net/";
     description = "Simple window creation and management facilities for the console";
     license = licenses.gpl2Plus;
   };

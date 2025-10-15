@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Framework for managing passwords and other secrets";
-    homepage = http://live.gnome.org/GnomeKeyring;
+    homepage = "http://live.gnome.org/GnomeKeyring";
     license = with stdenv.lib.licenses; [ gpl2Plus lgpl2Plus ];
     inherit (glib.meta) platforms maintainers;
 

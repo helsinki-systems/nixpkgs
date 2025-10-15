@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = {
-    homepage = http://www.tcpdump.org;
+    homepage = "http://www.tcpdump.org";
     description = "Packet Capture Library";
   };
 }

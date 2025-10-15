@@ -83,7 +83,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   meta = {
-    homepage = http://www.tigervnc.org/;
+    homepage = "http://www.tigervnc.org/";
     license = stdenv.lib.licenses.gpl2Plus;
     description = "Fork of tightVNC, made in cooperation with VirtualGL";
     maintainers = with stdenv.lib.maintainers; [viric];

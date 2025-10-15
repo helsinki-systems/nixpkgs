@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   name = "portaudio-19-20140130";
   
   src = fetchurl {
-    url = http://www.portaudio.com/archives/pa_stable_v19_20140130.tgz;
+    url = "http://www.portaudio.com/archives/pa_stable_v19_20140130.tgz";
     sha256 = "0mwddk4qzybaf85wqfhxqlf0c5im9il8z03rd4n127k8y2jj9q4g";
   };
 
@@ -40,7 +40,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Portable cross-platform Audio API";
-    homepage    = http://www.portaudio.com/;
+    homepage    = "http://www.portaudio.com/";
     # Not exactly a bsd license, but alike
     license     = licenses.mit;
     maintainers = with maintainers; [ lovek323 ];

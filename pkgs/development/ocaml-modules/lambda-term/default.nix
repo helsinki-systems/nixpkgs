@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
   name = "lambda-term-${version}";
 
   src = fetchurl {
-    url = https://github.com/diml/lambda-term/archive/1.8.tar.gz;
+    url = "https://github.com/diml/lambda-term/archive/1.8.tar.gz";
     sha256 = "0hy11x48q5bbh9czjp0w756cyxzr2c6qcnfm5n9f0i1l4qljwpgc";
   };
 
@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
     console applications.
     '';
 
-    homepage = https://github.com/diml/lambda-term;
+    homepage = "https://github.com/diml/lambda-term";
     license = stdenv.lib.licenses.bsd3;
     platforms = ocaml.meta.platforms;
     maintainers = [

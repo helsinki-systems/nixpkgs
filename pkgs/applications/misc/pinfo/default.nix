@@ -16,7 +16,7 @@ stdenv.mkDerivation {
 
   meta = with stdenv.lib; {
     description = "A viewer for info files";
-    homepage = https://alioth.debian.org/projects/pinfo/;
+    homepage = "https://alioth.debian.org/projects/pinfo/";
     license = licenses.gpl2Plus;
   };
 }

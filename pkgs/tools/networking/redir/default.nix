@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A port redirector";
-    homepage = http://sammy.net/~sammy/hacks/;
+    homepage = "http://sammy.net/~sammy/hacks/";
     license = stdenv.lib.licenses.gpl2;
     maintainers = with stdenv.lib.maintainers; [ globin ];
     platforms = stdenv.lib.platforms.linux;

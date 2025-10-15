@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A set C++ wrappers around the LV2 C API";
-    homepage = http://lvtoolkit.org;
+    homepage = "http://lvtoolkit.org";
     license = licenses.gpl3;
     maintainers = [ maintainers.goibhniu ];
     platforms = platforms.linux;

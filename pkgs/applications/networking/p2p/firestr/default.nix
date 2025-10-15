@@ -27,7 +27,7 @@ stdenv.mkDerivation {
 
   meta = with stdenv.lib; {
     description = "Grass computing platform";
-    homepage = http://firestr.com/;
+    homepage = "http://firestr.com/";
     license = licenses.gpl3;
     maintainers = [ maintainers.ehmry ];
     platforms = platforms.linux;

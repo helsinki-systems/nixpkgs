@@ -47,6 +47,6 @@ stdenv.mkDerivation rec {
     maintainers = with maintainers; [ raskin ];
     platforms = platforms.unix;
     license = licenses.gpl3Plus;
-    homepage = http://jsoftware.com/;
+    homepage = "http://jsoftware.com/";
   };
 }

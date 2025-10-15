@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
       bandwidth.
     '';
     license = licenses.gpl2Plus;
-    homepage = http://nethogs.sourceforge.net/;
+    homepage = "http://nethogs.sourceforge.net/";
     platforms = platforms.linux;
     maintainers = [ maintainers.rycee ];
   };

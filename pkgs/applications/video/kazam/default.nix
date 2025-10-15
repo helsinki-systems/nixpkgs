@@ -43,7 +43,7 @@ python3Packages.buildPythonPackage rec {
 
   meta = with stdenv.lib; {
     description = "Cross-platform, Friend-2-Friend and secure decentralised communication platform";
-    homepage = https://code.launchpad.net/kazam;
+    homepage = "https://code.launchpad.net/kazam";
     #license = licenses.bsd2;
     platforms = platforms.linux;
     maintainers = [ maintainers.iElectric ];

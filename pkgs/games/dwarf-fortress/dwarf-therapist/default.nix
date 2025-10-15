@@ -35,6 +35,6 @@ stdenv.mkDerivation {
     maintainers = with stdenv.lib.maintainers; [ the-kenny abbradar ];
     license = stdenv.lib.licenses.mit;
     platforms = stdenv.lib.platforms.linux;
-    homepage = https://code.google.com/r/splintermind-attributes/;
+    homepage = "https://code.google.com/r/splintermind-attributes/";
   };
 }

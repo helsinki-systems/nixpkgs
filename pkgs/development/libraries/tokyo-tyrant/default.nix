@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
          licensed under the GNU Lesser General Public License.
        '';
 
-    homepage = http://fallabs.com/tokyotyrant/;
+    homepage = "http://fallabs.com/tokyotyrant/";
 
     license = stdenv.lib.licenses.lgpl21Plus;
 

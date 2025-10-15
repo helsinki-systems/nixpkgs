@@ -60,7 +60,7 @@ pythonPackages.buildPythonPackage rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://nova.openstack.org/;
+    homepage = "http://nova.openstack.org/";
     description = "OpenStack Compute (a.k.a. Nova), a cloud computing fabric controller";
     license = stdenv.lib.licenses.asl20;
     platforms = stdenv.lib.platforms.linux;

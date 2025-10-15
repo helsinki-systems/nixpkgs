@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   nativeBuildInputs = [ pkgconfig ];
 
   meta = {
-    homepage = http://fukuchi.org/works/qrencode/;
+    homepage = "http://fukuchi.org/works/qrencode/";
     description = "QR code encoder";
     platforms = stdenv.lib.platforms.all;
     maintainers = [ stdenv.lib.maintainers.urkud ];

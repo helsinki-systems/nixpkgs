@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   makeFlags = [ "release" "PREFIX=$(out)" ];
 
   meta = {
-    homepage = https://github.com/Sude-/lgogdownloader;
+    homepage = "https://github.com/Sude-/lgogdownloader";
     description = "Unofficial downloader to GOG.com for Linux users. It uses the same API as the official GOGDownloader.";
     license = stdenv.lib.licenses.wtfpl;
     platforms = stdenv.lib.platforms.linux;

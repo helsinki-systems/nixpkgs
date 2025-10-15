@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Apps/Vinagre;
+    homepage = "https://wiki.gnome.org/Apps/Vinagre";
     description = "Remote desktop viewer for GNOME";
     platforms = platforms.linux;
     maintainers = gnome3.maintainers;

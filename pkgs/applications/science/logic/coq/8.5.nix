@@ -23,7 +23,7 @@ stdenv.mkDerivation {
   inherit ocaml camlp5;
 
   src = fetchurl {
-    url = https://coq.inria.fr/distrib/V8.5/files/coq-8.5.tar.gz;
+    url = "https://coq.inria.fr/distrib/V8.5/files/coq-8.5.tar.gz";
     sha256 = "0gdfm6k5q1f8sz1xr9ijdkkvwqsb7v8prj21gmwv0z0yp6w2zac9";
   };
 

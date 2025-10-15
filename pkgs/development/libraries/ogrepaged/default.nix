@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Paged Geometry for Ogre3D";
-    homepage = http://code.google.com/p/ogre-paged/;
+    homepage = "http://code.google.com/p/ogre-paged/";
     license = stdenv.lib.licenses.mit;
   };
 }

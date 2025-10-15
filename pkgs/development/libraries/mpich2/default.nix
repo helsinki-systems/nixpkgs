@@ -37,7 +37,7 @@ stdenv.mkDerivation {
       the Message Passing Interface (MPI) standard, both version 1 and
       version 2.
     '';
-    homepage = http://www.mcs.anl.gov/mpi/mpich2/;
+    homepage = "http://www.mcs.anl.gov/mpi/mpich2/";
     license = "free, see http://www.mcs.anl.gov/research/projects/mpich2/downloads/index.php?s=license";
 
     maintainers = [ ];

@@ -22,7 +22,7 @@ let
 
     meta = {
       description = "An enterprise file sharing solution for online collaboration and storage";
-      homepage = https://owncloud.org;
+      homepage = "https://owncloud.org";
       maintainers = with stdenv.lib.maintainers; [ matejc ];
       license = stdenv.lib.licenses.agpl3Plus;
     };

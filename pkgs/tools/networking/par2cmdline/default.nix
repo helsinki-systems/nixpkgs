@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ autoreconfHook ];
 
   meta = {
-    homepage = https://github.com/BlackIkeEagle/par2cmdline;
+    homepage = "https://github.com/BlackIkeEagle/par2cmdline";
     description = "PAR 2.0 compatible file verification and repair tool";
     longDescription = ''
       par2cmdline is a program for creating and using PAR2 files to detect

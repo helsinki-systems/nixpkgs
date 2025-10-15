@@ -41,7 +41,7 @@ stdenv.mkDerivation rec {
   NIX_CFLAGS_LINK = "-lXmu";
 
   meta = {
-    homepage = http://sourceforge.net/projects/slim.berlios/; # berlios shut down; I found no replacement yet
+    homepage = "http://sourceforge.net/projects/slim.berlios/"; # berlios shut down; I found no replacement yet
     platforms = stdenv.lib.platforms.linux;
   };
 }

@@ -80,7 +80,7 @@ exec 19> $FIFOCTL
       and execute SQL queries.
     '';
 
-    homepage = http://wb.mysql.com/;
+    homepage = "http://wb.mysql.com/";
     license = licenses.gpl2;
     maintainers = [ maintainers.kkallio ];
     platforms = [ "x86_64-linux" ];

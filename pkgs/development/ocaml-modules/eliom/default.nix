@@ -12,7 +12,7 @@ stdenv.mkDerivation rec
   name = "${pname}-${version}";
 
   src = fetchurl {
-    url = https://github.com/ocsigen/eliom/archive/4.2.tar.gz;
+    url = "https://github.com/ocsigen/eliom/archive/4.2.tar.gz";
     sha256 = "0gbqzgn6xgpq6irz2sfr92qj3hjcwl45wy0inc4ps5r15nvq1l9h";
   };
 
@@ -36,7 +36,7 @@ stdenv.mkDerivation rec
   createFindlibDestdir = true;
 
   meta = {
-    homepage = http://ocsigen.org/eliom/;
+    homepage = "http://ocsigen.org/eliom/";
     description = "Ocaml Framework for programming Web sites and client/server Web applications";
 
     longDescription =''Eliom is a framework for programming Web sites

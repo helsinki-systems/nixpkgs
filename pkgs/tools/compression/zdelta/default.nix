@@ -9,6 +9,6 @@ stdenv.mkDerivation rec {
   };
 
   meta = {
-	  homepage = http://cis.poly.edu/zdelta;
+	  homepage = "http://cis.poly.edu/zdelta";
   };
 }

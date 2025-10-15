@@ -15,7 +15,7 @@ stdenv.mkDerivation {
   createFindlibDestdir = true;
 
   meta = {
-    homepage = https://github.com/ermine/xml;
+    homepage = "https://github.com/ermine/xml";
     description = "XML Parser for discrete data";
     platforms = ocaml.meta.platforms;
     license = stdenv.lib.licenses.bsd3;

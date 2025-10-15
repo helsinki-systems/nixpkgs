@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ boost cmake curl libyamlcpp_ openssl utillinux ];
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/puppetlabs/facter;
+    homepage = "https://github.com/puppetlabs/facter";
     description = "A system inventory tool";
     license = licenses.asl20;
     maintainers = [ maintainers.womfoo ];

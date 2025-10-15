@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   sourceRoot = "proot/src";
 
   meta = with stdenv.lib; {
-    homepage = http://proot.me;
+    homepage = "http://proot.me";
     description = "User-space implementation of chroot, mount --bind and binfmt_misc";
     platforms = platforms.linux;
     license = licenses.gpl2;

@@ -22,7 +22,7 @@ stdenv.mkDerivation {
     '';
 
   meta = {
-    homepage = https://github.com/jthornber/thin-provisioning-tools;
+    homepage = "https://github.com/jthornber/thin-provisioning-tools";
     descriptions = "Tools for manipulating the metadata of the device-mapper targets (dm-thin-pool, dm-cache, dm-era)";
     platforms = stdenv.lib.platforms.linux;
     inherit version;

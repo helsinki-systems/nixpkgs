@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Convert ascii art diagrams into proper bitmap graphics";
-    homepage = http://ditaa.sourceforge.net/;
+    homepage = "http://ditaa.sourceforge.net/";
     license = licenses.gpl2;
     platforms = platforms.linux;
     maintainers = [ maintainers.bjornfor ];

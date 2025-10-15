@@ -10,7 +10,7 @@ stdenv.mkDerivation {
 
   meta = with stdenv.lib; {
     description = "A simple and fast image viewer for X";
-    homepage    = http://lxde.sourceforge.net/gpicview/;
+    homepage    = "http://lxde.sourceforge.net/gpicview/";
     repositories.git = git://lxde.git.sourceforge.net/gitroot/lxde/gpicview;
     license     = licenses.gpl2;
     maintainers = with maintainers; [ lovek323 ];

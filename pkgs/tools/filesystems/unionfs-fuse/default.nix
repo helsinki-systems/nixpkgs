@@ -34,7 +34,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "FUSE UnionFS implementation";
-    homepage = http://podgorny.cz/moin/UnionFsFuse;
+    homepage = "http://podgorny.cz/moin/UnionFsFuse";
     license = stdenv.lib.licenses.bsd3;
     platforms = stdenv.lib.platforms.linux;
   };

@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   buildInputs = [cups zlib];
 
   meta = {
-    homepage = http://splix.sourceforge.net;
+    homepage = "http://splix.sourceforge.net";
     platforms = stdenv.lib.platforms.linux;
     maintainers = [ stdenv.lib.maintainers.simons ];
   };

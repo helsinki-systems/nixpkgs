@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "the Git linkable library";
-    homepage = http://libgit2.github.com/;
+    homepage = "http://libgit2.github.com/";
     license = stdenv.lib.licenses.gpl2;
     platforms = with stdenv.lib.platforms; all;
   };

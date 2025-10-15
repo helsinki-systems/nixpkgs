@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "dosemu-fonts";
 
   src = fetchurl {
-    url = mirror://sourceforge/dosemu/dosemu-1.4.0.tgz;
+    url = "mirror://sourceforge/dosemu/dosemu-1.4.0.tgz";
     sha256 = "0l1zwmw42mpakjrzmbygshcg2qzq9mv8lx42738rz3j9hrqzg4pw";
   };
 

@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
   passthru.mysqlVersion = "5.1";
 
   meta = {
-    homepage = http://www.mysql.com/;
+    homepage = "http://www.mysql.com/";
     description = "The world's most popular open source database";
     platforms = stdenv.lib.platforms.all;
   };

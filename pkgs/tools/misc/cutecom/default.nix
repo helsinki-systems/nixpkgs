@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "A graphical serial terminal";
     version = "0.22.0";
-    homepage = http://cutecom.sourceforge.net/;
+    homepage = "http://cutecom.sourceforge.net/";
     license = stdenv.lib.licenses.gpl2Plus;
     maintainers = [ stdenv.lib.maintainers.bennofs ];
   };

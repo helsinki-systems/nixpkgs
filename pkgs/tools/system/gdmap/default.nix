@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   patches = [ ./get_sensitive.patch ./set_flags.patch ];
 
   meta = with stdenv.lib; {
-    homepage = http://gdmap.sourceforge.net;
+    homepage = "http://gdmap.sourceforge.net";
     description = "Recursive rectangle map of disk usage";
     license = licenses.gpl2;
     platforms = platforms.all;

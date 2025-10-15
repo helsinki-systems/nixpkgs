@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Formal verification tool for distributed software systems";
-    homepage = http://spinroot.com/;
+    homepage = "http://spinroot.com/";
     license = stdenv.lib.licenses.free;
     maintainers = with maintainers; [ mornfall pSub ];
   };

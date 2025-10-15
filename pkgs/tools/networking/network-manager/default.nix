@@ -79,7 +79,7 @@ stdenv.mkDerivation rec {
     '';
 
   meta = with stdenv.lib; {
-    homepage = http://projects.gnome.org/NetworkManager/;
+    homepage = "http://projects.gnome.org/NetworkManager/";
     description = "Network configuration and management tool";
     license = licenses.gpl2Plus;
     maintainers = with maintainers; [ phreedom urkud rickynils iElectric ];

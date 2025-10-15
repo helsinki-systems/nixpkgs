@@ -32,7 +32,7 @@ stdenv.mkDerivation {
 
   meta = with stdenv.lib; {
     description = "Set of C++ libraries for multimedia streaming, using open standard protocols (RTP/RTCP, RTSP, SIP)";
-    homepage = http://www.live555.com/liveMedia/;
+    homepage = "http://www.live555.com/liveMedia/";
     license = licenses.lgpl21Plus;
     platforms = platforms.linux;
   };

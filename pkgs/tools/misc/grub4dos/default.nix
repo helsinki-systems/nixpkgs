@@ -8,7 +8,7 @@ in stdenv.mkDerivation {
   name = "grub4dos-0.4.6a-2015-12-31";
 
   src = fetchurl {
-    url = https://github.com/chenall/grub4dos/archive/a8024743c61cc4909514b27df07b7cc4bc89d1fb.zip;
+    url = "https://github.com/chenall/grub4dos/archive/a8024743c61cc4909514b27df07b7cc4bc89d1fb.zip";
     sha256 = "1m5d7klb12qz5sa09919z7jchfafgh84cmpwilp52qnbpi3zh2fd";
   };
 
@@ -26,7 +26,7 @@ in stdenv.mkDerivation {
   dontPatchELF = true;
 
   meta = with stdenv.lib; {
-    homepage = http://grub4dos.chenall.net/;
+    homepage = "http://grub4dos.chenall.net/";
     description = "GRUB for DOS is the dos extension of GRUB";
     maintainers = with maintainers; [ abbradar ];
     platforms = platforms.all;

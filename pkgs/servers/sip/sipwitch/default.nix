@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Secure peer-to-peer VoIP server that uses the SIP protocol";
-    homepage = http://www.gnu.org/software/sipwitch/;
+    homepage = "http://www.gnu.org/software/sipwitch/";
     license = stdenv.lib.licenses.gpl3Plus;
     maintainers = with stdenv.lib.maintainers; [ viric ];
     platforms = with stdenv.lib.platforms; linux;

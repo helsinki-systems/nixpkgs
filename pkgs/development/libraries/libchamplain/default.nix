@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     inherit version;
-    homepage = http://projects.gnome.org/libchamplain/;
+    homepage = "http://projects.gnome.org/libchamplain/";
     license = licenses.lgpl2Plus;
 
     description = "C library providing a ClutterActor to display maps";

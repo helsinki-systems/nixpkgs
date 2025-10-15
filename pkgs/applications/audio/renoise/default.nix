@@ -55,7 +55,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "modern tracker-based DAW";
-    homepage = http://www.renoise.com/;
+    homepage = "http://www.renoise.com/";
     license = stdenv.lib.licenses.unfree;
   };
 }

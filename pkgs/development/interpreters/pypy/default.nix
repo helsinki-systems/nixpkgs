@@ -119,7 +119,7 @@ let
     enableParallelBuilding = true;  # almost no parallelization without STM
 
     meta = with stdenv.lib; {
-      homepage = http://pypy.org/;
+      homepage = "http://pypy.org/";
       description = "Fast, compliant alternative implementation of the Python language (2.7.8)";
       license = licenses.mit;
       platforms = platforms.linux;

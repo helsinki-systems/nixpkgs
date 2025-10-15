@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   postInstall = "wrapPythonPrograms";
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/Backblaze/B2_Command_Line_Tool;
+    homepage = "https://github.com/Backblaze/B2_Command_Line_Tool";
     description = "CLI for accessing Backblaze's B2 Cloud Storage";
     license = licenses.mit;
     platforms = platforms.all;

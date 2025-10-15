@@ -37,7 +37,7 @@ stdenv.mkDerivation rec {
       - writing functional test suites, exporting results as JUnit XML (xUnit)
     '';
 
-    homepage = http://casperjs.org;
+    homepage = "http://casperjs.org";
     license = stdenv.lib.licenses.mit;
 
     maintainers = [ stdenv.lib.maintainers.bluescreen303 ];

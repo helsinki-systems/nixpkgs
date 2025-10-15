@@ -17,7 +17,7 @@ buildOcaml rec {
   buildInputs = [ which atd biniou yojson ];
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/mjambon/atdgen;
+    homepage = "https://github.com/mjambon/atdgen";
     description = "Generates optimized boilerplate OCaml code for JSON and Biniou IO from type definitions";
     license = licenses.bsd3;
     maintainers = [ maintainers.jwilberding ];

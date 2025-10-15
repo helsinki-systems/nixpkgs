@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
   name = "trackballs-1.1.4";
   
   src = fetchurl {
-    url = mirror://sourceforge/trackballs/trackballs-1.1.4.tar.gz;
+    url = "mirror://sourceforge/trackballs/trackballs-1.1.4.tar.gz";
     sha256 = "19ilnif59sxa8xmfisk90wngrd11pj8s86ixzypv8krm4znbm7a5";
   };
 
@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://trackballs.sourceforge.net/;
+    homepage = "http://trackballs.sourceforge.net/";
     description = "3D Marble Madness clone";
   };
 }

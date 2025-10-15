@@ -24,7 +24,7 @@ in stdenv.mkDerivation {
 
   meta = {
     description = "Major mode for editing D code";
-    homepage = https://github.com/Emacs-D-Mode-Maintainers/Emacs-D-Mode;
+    homepage = "https://github.com/Emacs-D-Mode-Maintainers/Emacs-D-Mode";
     license = stdenv.lib.licenses.gpl2;
     platforms = stdenv.lib.platforms.all;
   };

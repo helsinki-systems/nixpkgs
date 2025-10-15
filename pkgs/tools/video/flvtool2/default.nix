@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
     '';
 
   meta = {
-    homepage = http://www.inlet-media.de/flvtool2/;
+    homepage = "http://www.inlet-media.de/flvtool2/";
     description = "A tool to manipulate Macromedia Flash Video files";
   };
 }

@@ -3,14 +3,14 @@
 stdenv.mkDerivation {
   name = "upx-3.91";
   src = fetchurl {
-    url = mirror://sourceforge/upx/upx-3.91-src.tar.bz2;
+    url = "mirror://sourceforge/upx/upx-3.91-src.tar.bz2";
     sha256 = "0g3aiinlcb37z1xhs202h2qrgbf8dygiyarmflbgahcq89byfz2j";
   };
 
   buildInputs = [ ucl zlib ];
 
   lzmaSrc = fetchurl {
-    url = mirror://sourceforge/sevenzip/lzma443.tar.bz2;
+    url = "mirror://sourceforge/sevenzip/lzma443.tar.bz2";
     sha256 = "1ck4z81y6xv1x9ky8abqn3mj9xj2dwg41bmd5j431xgi8crgd1ds";
   };
 
@@ -27,7 +27,7 @@ stdenv.mkDerivation {
   installPhase = "mkdir -p $out/bin ; cp upx.out $out/bin/upx";
 
   meta = {
-    homepage = http://upx.sourceforge.net/;
+    homepage = "http://upx.sourceforge.net/";
     description = "The Ultimate Packer for eXecutables";
     license = stdenv.lib.licenses.gpl2Plus;
   };

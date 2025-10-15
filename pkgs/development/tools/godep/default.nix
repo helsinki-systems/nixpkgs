@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Ddependency tool for go";
-    homepage = https://github.com/tools/godep;
+    homepage = "https://github.com/tools/godep";
     license = licenses.bsd3;
     maintainers = with maintainers; [ offline ];
     platforms = platforms.unix;

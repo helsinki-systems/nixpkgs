@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   nativeBuildInputs = [ automoc4 cmake gettext perl pkgconfig ];
 
   meta = {
-    homepage = http://kdiff3.sourceforge.net/;
+    homepage = "http://kdiff3.sourceforge.net/";
     license = stdenv.lib.licenses.gpl2Plus;
     description = "Compares and merges 2 or 3 files or directories";
     maintainers = with stdenv.lib.maintainers; [viric urkud];

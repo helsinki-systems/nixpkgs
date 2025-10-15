@@ -9,7 +9,7 @@ stdenv.mkDerivation {
   };
 
   meta = {
-    homepage = http://www.arg0.net/rlog;
+    homepage = "http://www.arg0.net/rlog";
     description = "A C++ logging library used in encfs";
   };
 }

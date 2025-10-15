@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Optimize JPEG files";
-    homepage = http://www.kokkonen.net/tjko/projects.html ;
+    homepage = "http://www.kokkonen.net/tjko/projects.html" ;
     license = stdenv.lib.licenses.gpl2;
     maintainers = [ stdenv.lib.maintainers.aristid ];
     platforms = stdenv.lib.platforms.all;

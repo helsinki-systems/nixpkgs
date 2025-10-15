@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "KDE SVN front-end";
     license = "GPL";
-    homepage = http://kdesvn.alwins-world.de;
+    homepage = "http://kdesvn.alwins-world.de";
     maintainers = [ stdenv.lib.maintainers.sander ];
     inherit (kdelibs.meta) platforms;
   };

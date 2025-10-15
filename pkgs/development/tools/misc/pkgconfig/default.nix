@@ -26,7 +26,7 @@ stdenv.mkDerivation (rec {
 
   meta = {
     description = "A tool that allows packages to find out information about other packages";
-    homepage = http://pkg-config.freedesktop.org/wiki/;
+    homepage = "http://pkg-config.freedesktop.org/wiki/";
     platforms = stdenv.lib.platforms.all;
   };
 

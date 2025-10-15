@@ -49,7 +49,7 @@ in stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A hackable text editor for the 21st Century";
-    homepage = https://atom.io/;
+    homepage = "https://atom.io/";
     license = licenses.mit;
     maintainers = [ maintainers.offline maintainers.nequissimus ];
     platforms = [ "x86_64-linux" ];

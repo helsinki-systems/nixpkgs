@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   name="${baseName}-${version}";
   buildInputs = [ncurses libnl pkgconfig];
   src = fetchgit {
-    url = https://github.com/uoaerg/wavemon.git ;
+    url = "https://github.com/uoaerg/wavemon.git" ;
     rev = "05753aed2ec5a786d602c7903c89fc6a230f8d42";
     sha256 = "13y4bi4qz4596f11ng6zaqir5j234wv64z4670q3pzh3fqmzmpm4";
   };

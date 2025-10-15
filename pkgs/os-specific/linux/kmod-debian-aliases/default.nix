@@ -16,7 +16,7 @@ stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = https://packages.debian.org/source/sid/kmod;
+    homepage = "https://packages.debian.org/source/sid/kmod";
     description = "Linux configuration file for modprobe";
     maintainers = with lib.maintainers; [ mathnerd314 ];
   };

@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
   configureFlags = "--enable-shared";
   
   meta = {
-    homepage = https://www.ece.uvic.ca/~frodo/jasper/;
+    homepage = "https://www.ece.uvic.ca/~frodo/jasper/";
     description = "JPEG2000 Library";
   };
 }

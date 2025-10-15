@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "aterm-2.5-r21238";
 
   src = fetchurl {
-    url = http://buildfarm.st.ewi.tudelft.nl/releases/meta-environment/aterm-2.5pre21238-l2q7rg38/aterm-2.5.tar.gz;
+    url = "http://buildfarm.st.ewi.tudelft.nl/releases/meta-environment/aterm-2.5pre21238-l2q7rg38/aterm-2.5.tar.gz";
     md5 = "33ddcb1a229baf406ad1f603eb1d5995";
   };
 
@@ -24,7 +24,7 @@ stdenv.mkDerivation {
   NIX_CFLAGS_COMPILE = "-D__USE_BSD";
 
   meta = {
-    homepage = http://www.cwi.nl/htbin/sen1/twiki/bin/view/SEN1/ATerm;
+    homepage = "http://www.cwi.nl/htbin/sen1/twiki/bin/view/SEN1/ATerm";
     license = "LGPL";
     description = "Library for manipulation of term data structures in C";
     platforms = stdenv.lib.platforms.linux ++ stdenv.lib.platforms.darwin;

@@ -8,7 +8,7 @@ stdenv.mkDerivation {
 
   src = fetchgit {
     inherit rev;
-    url = https://github.com/ruediger/VobSub2SRT.git;
+    url = "https://github.com/ruediger/VobSub2SRT.git";
     sha256 = "8e867a021ac529e7607627d5944b95bb9f1378ffabd8837e7a028663a8ce5adf";
   };
 
@@ -16,7 +16,7 @@ stdenv.mkDerivation {
   propagatedBuildInputs = [ tesseract ];
 
   meta = {
-    homepage = https://github.com/ruediger/VobSub2SRT;
+    homepage = "https://github.com/ruediger/VobSub2SRT";
     description = "Converts VobSub subtitles into SRT subtitles";
     license = stdenv.lib.licenses.gpl3Plus;
     platforms = stdenv.lib.platforms.unix;

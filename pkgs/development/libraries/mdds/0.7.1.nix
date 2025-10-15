@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = {
-    homepage = https://code.google.com/p/multidimalgorithm/;
+    homepage = "https://code.google.com/p/multidimalgorithm/";
     description = "A collection of multi-dimensional data structure and indexing algorithm";
     platforms = stdenv.lib.platforms.all;
   };

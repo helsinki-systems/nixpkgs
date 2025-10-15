@@ -27,7 +27,7 @@ stdenv.mkDerivation {
 
   meta = with stdenv.lib; {
     description = "Command line FTP (File Transfer Protocol) client";
-    homepage = http://www.ncftp.com/ncftp/;
+    homepage = "http://www.ncftp.com/ncftp/";
     platforms = platforms.unix;
     maintainers = [ maintainers.bjornfor ];
   };

@@ -55,7 +55,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.cs.utah.edu/gdc/projects/urt/;
+    homepage = "http://www.cs.utah.edu/gdc/projects/urt/";
     description = "A library for dealing with raster images";
   };
 }

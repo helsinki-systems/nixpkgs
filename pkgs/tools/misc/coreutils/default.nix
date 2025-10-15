@@ -99,7 +99,7 @@ let
       else null;
 
     meta = {
-      homepage = http://www.gnu.org/software/coreutils/;
+      homepage = "http://www.gnu.org/software/coreutils/";
       description = "The basic file, shell and text manipulation utilities of the GNU operating system";
 
       longDescription = ''

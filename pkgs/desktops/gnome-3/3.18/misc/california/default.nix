@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
   patches = [ ./0002-Build-with-evolution-data-server-3.13.90.patch ];
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Apps/California;
+    homepage = "https://wiki.gnome.org/Apps/California";
     description = "Calendar application for GNOME 3";
     maintainers = with maintainers; [ pSub ];
     license = licenses.lgpl21;

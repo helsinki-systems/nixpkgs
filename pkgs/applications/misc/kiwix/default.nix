@@ -8,26 +8,26 @@
 
 let
   xulrunner64_tar = fetchurl {
-    url = http://download.kiwix.org/dev/xulrunner-29.0.en-US.linux-x86_64.tar.bz2;
+    url = "http://download.kiwix.org/dev/xulrunner-29.0.en-US.linux-x86_64.tar.bz2";
     sha256 = "0i3m30gm5z7qmas14id6ypvbmnb2k7jhz8aby2wz5vvv49zqmx3s";
   };
   xulrunnersdk64_tar = fetchurl {
-    url = http://download.kiwix.org/dev/xulrunner-29.0.en-US.linux-x86_64.sdk.tar.bz2;
+    url = "http://download.kiwix.org/dev/xulrunner-29.0.en-US.linux-x86_64.sdk.tar.bz2";
     sha256 = "0z90v7c4mq15g5klmsj8vs2r10fbygj3qzynx4952hkv8ihw8n3a";
   };
   xulrunner32_tar = fetchurl {
-    url = http://download.kiwix.org/dev/xulrunner-29.0.en-US.linux-i686.tar.bz2;
+    url = "http://download.kiwix.org/dev/xulrunner-29.0.en-US.linux-i686.tar.bz2";
     sha256 = "0yln6pxz8f6b9wm9124sx049z8mgi17lgd63rcv2hnix825y8gjb";
   };
   xulrunnersdk32_tar = fetchurl {
-    url = http://download.kiwix.org/dev/xulrunner-29.0.en-US.linux-i686.sdk.tar.bz2;
+    url = "http://download.kiwix.org/dev/xulrunner-29.0.en-US.linux-i686.sdk.tar.bz2";
     sha256 = "1h9vcbvf8wgds6i2z20y7krpys0mqsqhv1ijyfljanp6vyll9fvi";
   };
 
   xulrunner_tar = if stdenv.system == "x86_64-linux" then xulrunner64_tar else xulrunner32_tar;
   xulrunnersdk_tar = if stdenv.system == "x86_64-linux" then xulrunnersdk64_tar else xulrunnersdk32_tar;
   pugixml_tar = fetchurl {
-    url = http://download.kiwix.org/dev/pugixml-1.2.tar.gz;
+    url = "http://download.kiwix.org/dev/pugixml-1.2.tar.gz";
     sha256 = "0sqk0vdwjq44jxbbkj1cy8qykrmafs1sickzldb2w2nshsnjshhg";
   };
 
@@ -103,7 +103,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "An offline reader for Web content";
-    homepage = http://kiwix.org;
+    homepage = "http://kiwix.org";
     license = licenses.gpl3;
     maintainers = with maintainers; [ robbinch ];
   };

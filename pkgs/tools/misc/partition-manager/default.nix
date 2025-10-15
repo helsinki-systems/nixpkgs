@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Utility program to help you manage the disk devices";
-    homepage = http://www.kde-apps.org/content/show.php/KDE+Partition+Manager?content=89595; # ?
+    homepage = "http://www.kde-apps.org/content/show.php/KDE+Partition+Manager?content=89595"; # ?
     license = stdenv.lib.licenses.gpl2;
     platforms = stdenv.lib.platforms.linux;
   };

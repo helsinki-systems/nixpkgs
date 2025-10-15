@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     inherit version;
-    homepage = http://libwps.sourceforge.net/;
+    homepage = "http://libwps.sourceforge.net/";
     description = "Microsoft Works file word processor format import filter library";
     platforms = platforms.linux;
     license = licenses.lgpl21;

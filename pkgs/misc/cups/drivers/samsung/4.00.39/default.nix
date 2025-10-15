@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Samsung's Linux printing drivers; includes binaries without source code";
-    homepage = http://www.samsung.com/;
+    homepage = "http://www.samsung.com/";
     license = licenses.unfree;
     platforms = platforms.linux;
     maintainers = with maintainers; [ nckx ];

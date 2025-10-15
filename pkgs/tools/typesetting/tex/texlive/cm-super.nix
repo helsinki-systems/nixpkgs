@@ -2,7 +2,7 @@ args @ {texLive, ...}: with args;
 rec {
   name = "texlive-cm-super-2009";
   src = fetchurl {
-    url = mirror://debian/pool/main/c/cm-super/cm-super_0.3.4.orig.tar.gz;
+    url = "mirror://debian/pool/main/c/cm-super/cm-super_0.3.4.orig.tar.gz";
     sha256 = "0zrq4sr9ank35svkz3cfd7f978i9c8xbzdqm2c8kvxia2753v082";
   };
 

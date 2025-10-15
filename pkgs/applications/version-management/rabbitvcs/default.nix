@@ -32,7 +32,7 @@ python2Packages.buildPythonPackage rec {
 
   meta = {
     description = "Graphical tools for working with version control systems";
-    homepage = http://rabbitvcs.org/;
+    homepage = "http://rabbitvcs.org/";
     license = lib.licenses.gpl2Plus;
     platforms = lib.platforms.linux;
     maintainers = [ lib.maintainers.mathnerd314 ];

@@ -18,7 +18,7 @@ buildOcaml rec {
                             fieldslib herelib pipebang sexplib ];
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/janestreet/async_extra;
+    homepage = "https://github.com/janestreet/async_extra";
     description = "Jane Street Capital's asynchronous execution library (extra)";
     license = licenses.asl20;
     maintainers = [ maintainers.ericbmerritt ];

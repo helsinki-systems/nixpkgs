@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
   
   meta = with stdenv.lib; {
     description = "A small, open source, C++ toolkit for image processing";
-    homepage = http://cimg.sourceforge.net/;
+    homepage = "http://cimg.sourceforge.net/";
     license = licenses.cecill-c;
     maintainers = [ maintainers.AndersonTorres ];
     platforms = platforms.unix;

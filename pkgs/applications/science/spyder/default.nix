@@ -48,7 +48,7 @@ buildPythonPackage rec {
       environment for the Python language with advanced editing, interactive
       testing, debugging and introspection features.
     '';
-    homepage = https://github.com/spyder-ide/spyder/;
+    homepage = "https://github.com/spyder-ide/spyder/";
     license = licenses.mit;
     platforms = platforms.linux;
     maintainers = with maintainers; [ bjornfor fridh ];

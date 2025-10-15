@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "mupen64plus-1.5";
   src = fetchurl {
-    url = http://mupen64plus.googlecode.com/files/Mupen64Plus-1-5-src.tar.gz;
+    url = "http://mupen64plus.googlecode.com/files/Mupen64Plus-1-5-src.tar.gz";
     sha256 = "0gygfgyr2sg4yx77ijk133d1ra0v1yxi4xjxrg6kp3zdjmhdmcjq";
   };
   
@@ -27,7 +27,7 @@ stdenv.mkDerivation {
   meta = {
     description = "A Nintendo 64 Emulator";
     license = stdenv.lib.licenses.gpl2Plus;
-    homepage = http://code.google.com/p/mupen64plus;
+    homepage = "http://code.google.com/p/mupen64plus";
     maintainers = [ stdenv.lib.maintainers.sander ];
   };
 }

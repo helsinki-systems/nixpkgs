@@ -55,7 +55,7 @@ stdenv.mkDerivation rec {
   patches = stdenv.lib.optional withJava ./BDJ-JARFILE-path.patch;
 
   meta = with stdenv.lib; {
-    homepage = http://www.videolan.org/developers/libbluray.html;
+    homepage = "http://www.videolan.org/developers/libbluray.html";
     description = "Library to access Blu-Ray disks for video playback";
     license = licenses.lgpl21;
     maintainers = [ maintainers.abbradar ];

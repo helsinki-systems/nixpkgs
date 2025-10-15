@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Free kanji font containing 96,327 characters";
-    homepage = http://fonts.jp/hanazono/;
+    homepage = "http://fonts.jp/hanazono/";
 
     # Dual-licensed under OFL and the following:
     # This font is a free software.

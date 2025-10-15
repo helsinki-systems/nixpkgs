@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = {
-    homepage = http://herqq.org;
+    homepage = "http://herqq.org";
     description = "A software library for building UPnP devices and control points";
     inherit (qt4.meta) platforms;
     maintainers = [ stdenv.lib.maintainers.urkud ];

@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A static type checker for JavaScript";
-    homepage = http://flowtype.org;
+    homepage = "http://flowtype.org";
     license = licenses.bsd3;
     platforms = platforms.unix;
     maintainers = with maintainers; [ puffnfresh globin ];

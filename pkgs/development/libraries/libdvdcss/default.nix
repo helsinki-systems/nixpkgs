@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = {
-    homepage = http://www.videolan.org/developers/libdvdcss.html;
+    homepage = "http://www.videolan.org/developers/libdvdcss.html";
     description = "A library for decrypting DVDs";
   };
 }

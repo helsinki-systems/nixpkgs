@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
          limited-scope CPAN for Guile".
       '';
 
-    homepage = http://www.nongnu.org/guile-lib/;
+    homepage = "http://www.nongnu.org/guile-lib/";
     license = stdenv.lib.licenses.gpl3Plus;
 
     maintainers = [ ];

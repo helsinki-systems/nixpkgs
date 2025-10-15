@@ -54,7 +54,7 @@ stdenv.mkDerivation rec{
 
   meta = with stdenv.lib; {
     description = "Music typesetting system";
-    homepage = http://lilypond.org/;
+    homepage = "http://lilypond.org/";
     license = licenses.gpl3;
     maintainers = [ maintainers.marcweber ];
     platforms = platforms.all;

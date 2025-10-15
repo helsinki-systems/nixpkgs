@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "An Octave module for the Pure programming language";
-    homepage = http://puredocs.bitbucket.org/pure-octave.html;
+    homepage = "http://puredocs.bitbucket.org/pure-octave.html";
     license = stdenv.lib.licenses.gpl3Plus;
     platforms = stdenv.lib.platforms.linux;
     maintainers = with stdenv.lib.maintainers; [ asppsa ];

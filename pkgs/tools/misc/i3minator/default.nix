@@ -18,7 +18,7 @@ buildPythonPackage rec {
       manage workspaces defining windows and their layout. The
       project is inspired by tmuxinator and uses i3-py.
     '';
-    homepage = https://github.com/carlesso/i3minator;
+    homepage = "https://github.com/carlesso/i3minator";
     license = stdenv.lib.licenses.wtfpl;
     maintainers = with maintainers; [ iElectric ];
     platforms = stdenv.lib.platforms.linux;

@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A high performance templating engine";
-    homepage = http://ctpp.havoc.ru;
+    homepage = "http://ctpp.havoc.ru";
     maintiainers = with stdenv.lib.maintainers; [ robbinch ];
   };
 }

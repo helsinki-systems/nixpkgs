@@ -60,7 +60,7 @@ let version = if isRelease then
       else abort "no snapshot to bootstrap for this platform (missing target triple)";
 
     meta = with stdenv.lib; {
-      homepage = http://www.rust-lang.org/;
+      homepage = "http://www.rust-lang.org/";
       description = "A safe, concurrent, practical language";
       maintainers = with maintainers; [ madjar cstrahan wizeman globin havvy wkennington ];
       license = [ licenses.mit licenses.asl20 ];
@@ -95,7 +95,7 @@ with stdenv.lib; stdenv.mkDerivation {
       }
     else
       fetchgit {
-        url = https://github.com/rust-lang/rust;
+        url = "https://github.com/rust-lang/rust";
         rev = srcRev;
         sha256 = srcSha;
       };

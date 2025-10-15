@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ncurses];
 
   meta = {
-    homepage = http://iptraf.seul.org/;
+    homepage = "http://iptraf.seul.org/";
     license = stdenv.lib.licenses.gpl2Plus;
     description = "Console-based network statistics utility for Linux";
   };

@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
   checkPhase = "sh run-tests.sh -2";
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/spaam/svtplay-dl;
+    homepage = "https://github.com/spaam/svtplay-dl";
     description = "Command-line tool to download videos from svtplay.se and other sites";
     license = licenses.mit;
     platforms = stdenv.lib.platforms.linux;

@@ -13,7 +13,7 @@ pythonPackages.buildPythonPackage rec {
   propagatedBuildInputs = with pythonPackages; [ argparse ];
 
   meta = {
-    homepage = https://pypi.python.org/pypi/grin;
+    homepage = "https://pypi.python.org/pypi/grin";
     description = "A grep program configured the way I like it";
     platform = stdenv.lib.platforms.all;
     maintainers = [ stdenv.lib.maintainers.sjagoe ];

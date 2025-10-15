@@ -38,7 +38,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     branch = "1.12";
-    homepage = http://www.gnu.org/software/automake/;
+    homepage = "http://www.gnu.org/software/automake/";
     description = "GNU standard-compliant makefile generator";
 
     longDescription = ''

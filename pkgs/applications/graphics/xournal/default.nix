@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
   NIX_LDFLAGS="-lX11 -lz";
 
   meta = {
-    homepage = http://xournal.sourceforge.net/;
+    homepage = "http://xournal.sourceforge.net/";
     description = "note-taking application (supposes stylus)";
     maintainers = [ stdenv.lib.maintainers.guibert ];
     license = stdenv.lib.licenses.gpl2;

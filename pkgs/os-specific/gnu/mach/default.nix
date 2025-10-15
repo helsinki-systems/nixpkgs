@@ -43,7 +43,7 @@ stdenv.mkDerivation ({
 
     license = stdenv.lib.licenses.gpl2Plus;
 
-    homepage = http://www.gnu.org/software/hurd/microkernel/mach/gnumach.html;
+    homepage = "http://www.gnu.org/software/hurd/microkernel/mach/gnumach.html";
 
     maintainers = [ stdenv.lib.maintainers.ludo ];
     platforms = [ "i586-gnu" ];

@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
     ++ stdenv.lib.optional gimpSupport gimp_2_8;
 
   meta = {
-    homepage = http://www.sane-project.org/;
+    homepage = "http://www.sane-project.org/";
     description = "Graphical scanning frontend for sane";
     license = stdenv.lib.licenses.gpl2Plus;
     maintainers = with stdenv.lib.maintainers; [viric simons];

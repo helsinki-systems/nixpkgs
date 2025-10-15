@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   installFlags = "PREFIX=$(out) INSTALLPREFIX=$(out)";
 
   meta = {
-    homepage = http://miniupnp.free.fr/;
+    homepage = "http://miniupnp.free.fr/";
     description = "A daemon that implements the UPnP Internet Gateway Device (IGD) specification";
     platforms = stdenv.lib.platforms.linux;
   };

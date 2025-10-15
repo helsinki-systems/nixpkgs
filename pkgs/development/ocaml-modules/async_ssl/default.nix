@@ -17,7 +17,7 @@ buildOcaml rec {
                             herelib pipebang sexplib openssl ];
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/janestreet/async_ssl;
+    homepage = "https://github.com/janestreet/async_ssl";
     description = "Async wrappers for ssl";
     license = licenses.asl20;
     maintainers = [ maintainers.ericbmerritt ];

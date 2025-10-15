@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ openssl libpcap python ];
 
   meta = {
-    homepage = http://vde.sourceforge.net/;
+    homepage = "http://vde.sourceforge.net/";
     description = "Virtual Distributed Ethernet, an Ethernet compliant virtual network";
   };
 }

@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://bitmessage.org/;
+    homepage = "https://bitmessage.org/";
     description = "The official Bitmessage client";
     license = licenses.mit;
     maintainers = with maintainers; [ jgillich ];

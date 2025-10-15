@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   nativeBuildInputs = [ pkgconfig ];
 
   meta = with stdenv.lib; {
-    homepage = https://launchpad.net/xfce4-volumed-pulse;
+    homepage = "https://launchpad.net/xfce4-volumed-pulse";
     description = "A volume keys control daemon for the Xfce desktop environment (Xubuntu fork)";
     license = licenses.gpl3;
     platforms = platforms.linux;

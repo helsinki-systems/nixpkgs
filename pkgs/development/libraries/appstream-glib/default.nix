@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Objects and helper methods to read and write AppStream metadata";
-    homepage    = https://github.com/hughsie/appstream-glib;
+    homepage    = "https://github.com/hughsie/appstream-glib";
     license     = licenses.lgpl21Plus;
     platforms   = platforms.linux;
     maintainers = with maintainers; [ lethalman ];

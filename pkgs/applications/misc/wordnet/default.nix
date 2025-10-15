@@ -37,7 +37,7 @@ stdenv.mkDerivation {
          for computational linguistics and natural language processing.
       '';
 
-    homepage = http://wordnet.princeton.edu/;
+    homepage = "http://wordnet.princeton.edu/";
 
     maintainers = [ ];
     platforms = stdenv.lib.platforms.gnu;  # arbitrary choice

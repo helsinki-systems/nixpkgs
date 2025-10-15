@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A program to generate and execute DesktopEntry files of the Application type";
-    homepage = https://github.com/jceb/dex;
+    homepage = "https://github.com/jceb/dex";
     platforms = stdenv.lib.platforms.linux;
   };
 }

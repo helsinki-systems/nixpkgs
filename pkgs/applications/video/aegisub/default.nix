@@ -53,7 +53,7 @@ stdenv.mkDerivation rec {
       audio, and features many powerful tools for styling them, including a
       built-in real-time video preview.
     '';
-    homepage = http://www.aegisub.org/;
+    homepage = "http://www.aegisub.org/";
     license = licenses.bsd3;
               # The Aegisub sources are itself BSD/ISC,
               # but they are linked against GPL'd softwares

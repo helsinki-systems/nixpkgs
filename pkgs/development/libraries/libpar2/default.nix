@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   patches = [ ./libpar2-0.4-external-verification.patch ];
 
   meta = {
-    homepage = http://parchive.sourceforge.net/;
+    homepage = "http://parchive.sourceforge.net/";
     license = stdenv.lib.licenses.gpl2Plus;
     description = "A library for using Parchives (parity archive volume sets)";
   };

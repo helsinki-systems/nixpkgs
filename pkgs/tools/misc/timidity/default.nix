@@ -7,7 +7,7 @@ composableDerivation.composableDerivation {} {
   name = "timidity-2.14.0";
 
   src = fetchurl {
-    url = mirror://sourceforge/timidity/TiMidity++-2.14.0.tar.bz2;
+    url = "mirror://sourceforge/timidity/TiMidity++-2.14.0.tar.bz2";
     sha256 = "0xk41w4qbk23z1fvqdyfblbz10mmxsllw0svxzjw5sa9y11vczzr";
   };
 
@@ -44,7 +44,7 @@ composableDerivation.composableDerivation {} {
   };
 
   instruments = fetchurl {
-    url = http://www.csee.umbc.edu/pub/midia/instruments.tar.gz;
+    url = "http://www.csee.umbc.edu/pub/midia/instruments.tar.gz";
     sha256 = "0lsh9l8l5h46z0y8ybsjd4pf6c22n33jsjvapfv3rjlfnasnqw67";
   };
 
@@ -56,7 +56,7 @@ composableDerivation.composableDerivation {} {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://sourceforge.net/projects/timidity/;
+    homepage = "http://sourceforge.net/projects/timidity/";
     license = licenses.gpl2;
     description = "A software MIDI renderer";
     maintainers = [ maintainers.marcweber ];

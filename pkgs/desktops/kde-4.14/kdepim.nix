@@ -23,6 +23,6 @@ kde {
       Contains various personal information management tools for KDE, such as an organizer.
     '';
     license = "GPL";
-    homepage = http://pim.kde.org;
+    homepage = "http://pim.kde.org";
   };
 }

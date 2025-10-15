@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Tool to access the X clipboard from a console application";
-    homepage = http://sourceforge.net/projects/xclip/;
+    homepage = "http://sourceforge.net/projects/xclip/";
     license = stdenv.lib.licenses.gpl2;
     platforms = stdenv.lib.platforms.all;
   };

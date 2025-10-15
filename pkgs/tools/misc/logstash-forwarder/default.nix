@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     license = stdenv.lib.licenses.asl20;
-    homepage = https://github.com/elasticsearch/logstash-forwarder;
+    homepage = "https://github.com/elasticsearch/logstash-forwarder";
     platforms = stdenv.lib.platforms.unix;
   };
 }

@@ -154,7 +154,7 @@ stdenv.mkDerivation rec {
     emulation of the Intel x86 CPU, common I/O devices, and a custom
     BIOS.
     '';
-    homepage = http://bochs.sourceforge.net/;
+    homepage = "http://bochs.sourceforge.net/";
     license = licenses.lgpl2Plus;
     maintainers = [ maintainers.AndersonTorres ];
     platforms = platforms.linux;

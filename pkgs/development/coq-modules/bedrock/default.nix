@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://plv.csail.mit.edu/bedrock/;
+    homepage = "http://plv.csail.mit.edu/bedrock/";
     description = "A library that turns Coq into a tool much like classical verification systems";
     maintainers = with maintainers; [ jwiegley ];
     platforms = coq.meta.platforms;

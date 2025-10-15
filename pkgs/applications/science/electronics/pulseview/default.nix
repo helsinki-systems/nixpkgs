@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Qt-based LA/scope/MSO GUI for sigrok (a signal analysis software suite)";
-    homepage = http://sigrok.org/;
+    homepage = "http://sigrok.org/";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
     maintainers = [ maintainers.bjornfor ];

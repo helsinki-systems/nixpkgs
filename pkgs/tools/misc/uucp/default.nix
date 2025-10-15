@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
          just found one of the finest UUCP implementations available.
       '';
 
-    homepage = http://www.gnu.org/software/uucp/uucp.html;
+    homepage = "http://www.gnu.org/software/uucp/uucp.html";
 
     license = stdenv.lib.licenses.gpl2Plus;
 

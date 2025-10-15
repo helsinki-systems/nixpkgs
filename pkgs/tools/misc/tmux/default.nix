@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://tmux.github.io/;
+    homepage = "http://tmux.github.io/";
     description = "Terminal multiplexer";
 
     longDescription =

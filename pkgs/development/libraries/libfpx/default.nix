@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   '' else null;
 
   meta = with stdenv.lib; {
-    homepage = http://www.imagemagick.org;
+    homepage = "http://www.imagemagick.org";
     description = "A library for manipulating FlashPIX images";
     license = "Flashpix";
     platforms = platforms.all;

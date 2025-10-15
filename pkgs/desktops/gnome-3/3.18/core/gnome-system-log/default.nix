@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://help.gnome.org/users/gnome-system-log/3.9/;
+    homepage = "https://help.gnome.org/users/gnome-system-log/3.9/";
     description = "Graphical, menu-driven viewer that you can use to view and monitor your system logs";
     maintainers = gnome3.maintainers;
     license = licenses.gpl2;

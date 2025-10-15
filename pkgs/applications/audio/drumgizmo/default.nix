@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "An LV2 sample based drum plugin";
-    homepage = http://www.drumgizmo.org;
+    homepage = "http://www.drumgizmo.org";
     license = licenses.gpl3;
     platforms = platforms.linux;
     maintainers = [ maintainers.goibhniu maintainers.nico202 ];

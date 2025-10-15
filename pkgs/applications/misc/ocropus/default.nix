@@ -51,7 +51,7 @@ pythonPackages.buildPythonPackage rec {
   meta = with stdenv.lib; {
     description = "Open source document analysis and OCR system";
     license = licenses.asl20;
-    homepage = https://github.com/tmbdev/ocropy/;
+    homepage = "https://github.com/tmbdev/ocropy/";
     maintainers = with maintainers; [ iElectric nckx viric ];
     platforms = platforms.linux;
   };

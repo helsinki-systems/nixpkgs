@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A Gerber (RS-274X) viewer";
-    homepage = http://gerbv.geda-project.org/;
+    homepage = "http://gerbv.geda-project.org/";
     maintainers = with maintainers; [ mog ];
     platforms = platforms.linux;
     license = licenses.gpl2;

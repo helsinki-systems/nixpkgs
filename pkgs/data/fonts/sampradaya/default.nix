@@ -7,7 +7,7 @@ runCommand "sampradaya-2015-05-26" {
   };
 
   meta = with lib; {
-    homepage = https://bitbucket.org/OorNaattaan/sampradaya/;
+    homepage = "https://bitbucket.org/OorNaattaan/sampradaya/";
     description = "Unicode-compliant Grantha font";
     maintainers = with maintainers; [ mathnerd314 ];
     license = licenses.ofl; # See font metadata

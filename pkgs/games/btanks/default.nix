@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   name = "battle-tanks-0.9.8083";
 
   src = fetchurl {
-    url = mirror://sourceforge/btanks/btanks-0.9.8083.tar.bz2;
+    url = "mirror://sourceforge/btanks/btanks-0.9.8083.tar.bz2";
     sha256 = "0ha35kxc8xlbg74wsrbapfgxvcrwy6psjkqi7c6adxs55dmcxliz";
   };
 
@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://sourceforge.net/projects/btanks/;
+    homepage = "http://sourceforge.net/projects/btanks/";
     description = "Fast 2d tank arcade game";
     license = stdenv.lib.licenses.gpl2Plus;
   };

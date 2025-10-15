@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   cmakeFlags = [ "-DSAMPLE_MAP=n" ];
 
   meta = {
-    homepage = http://www.navit-project.org/;
+    homepage = "http://www.navit-project.org/";
     description = "Car navigation system with routing engine using OSM maps";
     license = stdenv.lib.licenses.gpl2;
     maintainers = with stdenv.lib.maintainers; [ viric ];

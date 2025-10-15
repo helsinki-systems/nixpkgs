@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   enableParallelBuilding = true;
 
   src = fetchurl {
-    url = http://libdnet.googlecode.com/files/libdnet-1.12.tgz;
+    url = "http://libdnet.googlecode.com/files/libdnet-1.12.tgz";
     sha1 = "71302be302e84fc19b559e811951b5d600d976f8";
   };
 
@@ -23,7 +23,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Provides a simplified, portable interface to several low-level networking routines";
-    homepage = http://code.google.com/p/libdnet/;
+    homepage = "http://code.google.com/p/libdnet/";
     license = stdenv.lib.licenses.bsd3;
     maintainers = [stdenv.lib.maintainers.marcweber];
     platforms = stdenv.lib.platforms.linux;

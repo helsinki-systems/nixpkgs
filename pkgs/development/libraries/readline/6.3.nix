@@ -48,7 +48,7 @@ stdenv.mkDerivation rec {
       desire its capabilities.
     '';
 
-    homepage = http://savannah.gnu.org/projects/readline/;
+    homepage = "http://savannah.gnu.org/projects/readline/";
 
     license = licenses.gpl3Plus;
 

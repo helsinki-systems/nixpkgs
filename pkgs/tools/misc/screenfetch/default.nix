@@ -44,7 +44,7 @@ stdenv.mkDerivation {
     command! This script is very easy to add to and can easily be extended.
     '';
     license = stdenv.lib.licenses.gpl3;
-    homepage = http://git.silverirc.com/cgit.cgi/screenfetch-dev.git/;
+    homepage = "http://git.silverirc.com/cgit.cgi/screenfetch-dev.git/";
     maintainers = with stdenv.lib.maintainers; [relrod];
     platforms = stdenv.lib.platforms.all;
   };

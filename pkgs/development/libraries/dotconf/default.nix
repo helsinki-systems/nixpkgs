@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   meta = with stdenv.lib; {
     description = "A configuration parser library";
     maintainers = with maintainers; [ pSub ];
-    homepage = http://www.azzit.de/dotconf/;
+    homepage = "http://www.azzit.de/dotconf/";
     license = licenses.lgpl21Plus;
   };
 }

@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   name = "ocp-build-1.99.9-beta";
 
   src = fetchurl {
-    url = http://www.typerex.org/pub/ocp-build/ocp-build.1.99.9-beta.tar.gz;
+    url = "http://www.typerex.org/pub/ocp-build/ocp-build.1.99.9-beta.tar.gz";
     sha256 = "0wcb49bp239ns9mz55ky0kfjcz80cp97k0j0rwaw4h5sp3phn4l0";
   };
 
@@ -23,7 +23,7 @@ stdenv.mkDerivation {
   TERM = "xterm";
 
   meta = with stdenv.lib; {
-    homepage = http://www.typerex.org/ocp-build.html;
+    homepage = "http://www.typerex.org/ocp-build.html";
     description = "A build tool for OCaml";
     longDescription = ''
       ocp-build is a build system for OCaml application, based on simple

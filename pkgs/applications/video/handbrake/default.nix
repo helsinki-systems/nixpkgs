@@ -85,7 +85,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://handbrake.fr/;
+    homepage = "http://handbrake.fr/";
     description = "A tool for ripping DVDs into video files";
     longDescription = ''
       Handbrake is a versatile transcoding DVD ripper. This package

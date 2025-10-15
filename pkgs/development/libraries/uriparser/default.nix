@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ cpptest pkgconfig doxygen graphviz ];
 
   meta = with stdenv.lib; {
-    homepage = http://uriparser.sourceforge.net/;
+    homepage = "http://uriparser.sourceforge.net/";
     description = "Strictly RFC 3986 compliant URI parsing library";
     maintainers = with maintainers; [ bosu ];
     license = stdenv.lib.licenses.bsd3;

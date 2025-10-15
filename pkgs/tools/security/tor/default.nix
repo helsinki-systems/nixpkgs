@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
   doCheck = true;
 
   meta = {
-    homepage = http://www.torproject.org/;
+    homepage = "http://www.torproject.org/";
     repositories.git = https://git.torproject.org/git/tor;
     description = "Anonymous network router to improve privacy on the Internet";
 

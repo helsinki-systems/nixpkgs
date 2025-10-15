@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "An extremely scalable ircd with some cooperation with the ratbox and ircu guys";
-    homepage    = https://github.com/atheme/charybdis;
+    homepage    = "https://github.com/atheme/charybdis";
     license     = stdenv.lib.licenses.gpl2;
     maintainers = [ stdenv.lib.maintainers.lassulus ];
     platforms   = stdenv.lib.platforms.linux;

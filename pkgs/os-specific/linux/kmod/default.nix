@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.kernel.org/pub/linux/utils/kernel/kmod/;
+    homepage = "http://www.kernel.org/pub/linux/utils/kernel/kmod/";
     description = "Tools for loading and managing Linux kernel modules";
     platforms = stdenv.lib.platforms.linux;
   };

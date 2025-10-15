@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pkgconfig libvdpau ];
 
   meta = with stdenv.lib; {
-    homepage = http://people.freedesktop.org/~aplattner/vdpau/;
+    homepage = "http://people.freedesktop.org/~aplattner/vdpau/";
     description = "Tool to query the Video Decode and Presentation API for Unix (VDPAU) abilities of the system";
     license = licenses.mit; # expat version
     platforms = platforms.unix;

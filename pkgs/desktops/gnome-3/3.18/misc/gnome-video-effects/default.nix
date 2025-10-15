@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pkgconfig intltool ];
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Projects/GnomeVideoEffects;
+    homepage = "https://wiki.gnome.org/Projects/GnomeVideoEffects";
     platforms = platforms.linux;
     maintainers = gnome3.maintainers;
     license = licenses.gpl2;

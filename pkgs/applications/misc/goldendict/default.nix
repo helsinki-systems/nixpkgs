@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://goldendict.org/;
+    homepage = "http://goldendict.org/";
     description = "a feature-rich dictionary lookup program";
 
     platforms = stdenv.lib.platforms.linux;

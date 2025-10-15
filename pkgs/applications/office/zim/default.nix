@@ -35,7 +35,7 @@ buildPythonPackage rec {
 
   meta = {
       description = "A desktop wiki";
-      homepage = http://zim-wiki.org;
+      homepage = "http://zim-wiki.org";
       license = stdenv.lib.licenses.gpl2Plus;
   };
 }

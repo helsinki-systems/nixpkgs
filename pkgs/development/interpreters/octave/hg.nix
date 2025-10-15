@@ -8,7 +8,7 @@ stdenv.mkDerivation ({
   configureFlags = "--enable-readline --enable-dl";
   meta = { 
       description = "High-level interactive language for numerical computations";
-      homepage = http://www.octave.org;
+      homepage = "http://www.octave.org";
       license = stdenv.lib.licenses.gpl3;
     };
 } // (

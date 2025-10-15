@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   preInstall = "mkdir -p $out/bin $out/share/man/man1";
 
   meta = {
-    homepage = http://he.fi/bchunk/;
+    homepage = "http://he.fi/bchunk/";
     description = "A program that converts CD-ROM images in BIN/CUE format into a set of ISO and CDR tracks";
   };
 }

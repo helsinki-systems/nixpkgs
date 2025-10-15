@@ -9,7 +9,7 @@ builderDefs, zlib, bzip2, ncurses, libpng, ed, lesstif, ruby, potrace
 
 rec {
   src = assert config.allowTexliveBuilds or true; fetchurl {
-    url = mirror://debian/pool/main/t/texlive-bin/texlive-bin_2014.20140926.35254.orig.tar.xz;
+    url = "mirror://debian/pool/main/t/texlive-bin/texlive-bin_2014.20140926.35254.orig.tar.xz";
     sha256 = "1c39x059jhn5jsy6i9j3akjbkm1kmmzssy1jyi1aw20rl2vp86w3";
   };
 
@@ -151,7 +151,7 @@ rec {
 
   meta = with stdenv.lib; {
     description = "A TeX distribution";
-    homepage    = http://www.tug.org/texlive;
+    homepage    = "http://www.tug.org/texlive";
     license     = stdenv.lib.licenses.gpl2;
     maintainers = with maintainers; [ lovek323 raskin jwiegley ];
     platforms   = platforms.unix;

@@ -37,7 +37,7 @@ python3Packages.buildPythonPackage rec {
 
   meta = with stdenv.lib; {
     description = "A deduplicating backup program (attic fork)";
-    homepage = https://borgbackup.github.io/;
+    homepage = "https://borgbackup.github.io/";
     license = licenses.bsd3;
     platforms = platforms.unix; # Darwin and FreeBSD mentioned on homepage
     maintainers = with maintainers; [ nckx ];

@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   doCheck = false;
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/naelstrof/slop;
+    homepage = "https://github.com/naelstrof/slop";
     description = "Queries a selection from the user and prints to stdout";
     platforms = stdenv.lib.platforms.all;
     license = stdenv.lib.licenses.gpl3Plus;

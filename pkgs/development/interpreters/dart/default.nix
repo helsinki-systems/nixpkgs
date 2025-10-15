@@ -24,12 +24,12 @@ stdenv.mkDerivation {
   src =
     if stdenv.system == "x86_64-linux" then
       fetchurl {
-        url = http://download.zef.s3.amazonaws.com/dartsdk-m4-linux-64.tar.gz;
+        url = "http://download.zef.s3.amazonaws.com/dartsdk-m4-linux-64.tar.gz";
         sha256 = "1riwxxczskfsaax7n03m7isnbxf3walky0cac1w8j5apr1xvg5ma";
       }
     else
       fetchurl {
-        url = http://download.zef.s3.amazonaws.com/dartsdk-m4-linux-32.tar.gz;
+        url = "http://download.zef.s3.amazonaws.com/dartsdk-m4-linux-32.tar.gz";
         sha256 = "00935c4vxfj2h3x354g75qdazswwissbwc7kj5k05l1m3lizikf6";
       };
  

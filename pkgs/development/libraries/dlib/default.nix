@@ -36,7 +36,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A general purpose cross-platform C++ machine learning library";
-    homepage = http://www.dlib.net;
+    homepage = "http://www.dlib.net";
     license = stdenv.lib.licenses.boost;
     maintainers = with maintainers; [ christopherpoole ];
     platforms = stdenv.lib.platforms.all;

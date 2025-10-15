@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Samba mounted via FUSE";
-    homepage = http://www.ricardis.tudelft.nl/~vincent/fusesmb/;
+    homepage = "http://www.ricardis.tudelft.nl/~vincent/fusesmb/";
     platforms = stdenv.lib.platforms.linux;
   };
 }

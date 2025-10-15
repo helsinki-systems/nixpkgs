@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   name = "metacity-2.30.3";
 
   src = fetchurl {
-    url = mirror://gnome/sources/metacity/2.30/metacity-2.30.3.tar.bz2;
+    url = "mirror://gnome/sources/metacity/2.30/metacity-2.30.3.tar.bz2";
     sha256 = "1p8qzj967mmlwdl6gv9vb2vzs19czvivl0sd337lgr55iw0qgy08";
   };
 

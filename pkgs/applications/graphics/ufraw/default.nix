@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     ];
 
   meta = {
-    homepage = http://ufraw.sourceforge.net/;
+    homepage = "http://ufraw.sourceforge.net/";
 
     description = "Utility to read and manipulate raw images from digital cameras";
 

@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Synchronise your ownCloud with your computer using this desktop client";
-    homepage = https://owncloud.org;
+    homepage = "https://owncloud.org";
     maintainers = with stdenv.lib.maintainers; [ qknight ];
     meta.platforms = stdenv.lib.platforms.unix;
   };

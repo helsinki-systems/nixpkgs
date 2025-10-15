@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "dbvisualizer-9.2.5";
 
   src = fetchurl {
-    url = https://www.dbvis.com/product_download/dbvis-9.2.5/media/dbvis_unix_9_2_5.tar.gz;
+    url = "https://www.dbvis.com/product_download/dbvis-9.2.5/media/dbvis_unix_9_2_5.tar.gz";
     sha256 = "e9d3374e96cf63903ebd9dae498c6b69403813eb8723187ed70f285dd7119327";
   };
 
@@ -19,7 +19,7 @@ stdenv.mkDerivation {
   
   meta = {
     description = "The universal database tool";
-    homepage = https://www.dbvis.com/;
+    homepage = "https://www.dbvis.com/";
     license = stdenv.lib.licenses.unfree;
   };
 }

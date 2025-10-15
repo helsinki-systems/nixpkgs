@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pkgconfig intltool gtk ];
 
   meta = {
-    homepage = http://www.xfce.org/;
+    homepage = "http://www.xfce.org/";
     description = "GTK+ theme engine for Xfce";
     license = stdenv.lib.licenses.gpl2Plus;
     platforms = stdenv.lib.platforms.linux;

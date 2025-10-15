@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   propagatedBuildInputs = [ libgpgerror ];
 
   meta = with stdenv.lib; {
-    homepage = http://www.gnupg.org;
+    homepage = "http://www.gnupg.org";
     description = "CMS and X.509 access library under development";
     platforms = platforms.all;
     license = licenses.lgpl3;

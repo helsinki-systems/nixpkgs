@@ -37,7 +37,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A free and open source utility for network discovery and security auditing";
-    homepage    = http://www.nmap.org;
+    homepage    = "http://www.nmap.org";
     license     = licenses.gpl2;
     platforms   = platforms.all;
     maintainers = with maintainers; [ mornfall thoughtpolice ];

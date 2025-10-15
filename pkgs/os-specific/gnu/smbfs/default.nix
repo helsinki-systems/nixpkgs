@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "SMB/CIFS file system translator for GNU/Hurd";
 
-    homepage = http://www.nongnu.org/hurdextras/;
+    homepage = "http://www.nongnu.org/hurdextras/";
 
     license = stdenv.lib.licenses.gpl3Plus;
 

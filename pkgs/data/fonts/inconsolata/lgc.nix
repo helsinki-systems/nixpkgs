@@ -51,7 +51,7 @@ stdenv.mkDerivation rec {
 
     # See `License.txt' for details.
     license = stdenv.lib.licenses.ofl;
-    homepage = https://github.com/MihailJP/Inconsolata-LGC;
+    homepage = "https://github.com/MihailJP/Inconsolata-LGC";
     maintainers = [
       stdenv.lib.maintainers.avnik
     ];

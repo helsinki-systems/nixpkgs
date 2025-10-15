@@ -28,7 +28,7 @@ buildRustPackage rec {
 
   meta = with stdenv.lib; {
     description = "A utility intended to provide Rust code completion for editors and IDEs";
-    homepage = https://github.com/phildawes/racer;
+    homepage = "https://github.com/phildawes/racer";
     license = stdenv.lib.licenses.mit;
     maintainers = with maintainers; [ jagajaga globin ];
   };

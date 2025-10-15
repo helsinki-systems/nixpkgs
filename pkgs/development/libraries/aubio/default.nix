@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; { 
     description = "Library for audio labelling";
-    homepage = http://aubio.org/;
+    homepage = "http://aubio.org/";
     license = licenses.gpl2;
     maintainers = [ maintainers.goibhniu maintainers.marcweber ];
     platforms = platforms.linux;

@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Creates djvu files from PDF files";
-    homepage = http://code.google.com/p/pdf2djvu/;
+    homepage = "http://code.google.com/p/pdf2djvu/";
     license = licenses.gpl2;
     maintainers = with maintainers; [ pSub ];
     inherit version;

@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "Photo Management Program";
     license = "GPL";
-    homepage = http://www.kipi-plugins.org;
+    homepage = "http://www.kipi-plugins.org";
     inherit (kdelibs.meta) platforms;
     maintainers = with stdenv.lib.maintainers; [ viric urkud ];
     broken = true; # it should be build from digikam sources, perhaps together

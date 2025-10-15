@@ -4,7 +4,7 @@ buildPerlPackage {
   name = "ddclient-3.8.2";
 
   src = fetchurl {
-    url = mirror://sourceforge/ddclient/ddclient-3.8.2.tar.gz ;
+    url = "mirror://sourceforge/ddclient/ddclient-3.8.2.tar.gz" ;
     sha256 = "17mcdqxcwa6c05m8xhxi4r37j4qvbp3wgbpvzqgmrmgwava5wcrw";
   };
 

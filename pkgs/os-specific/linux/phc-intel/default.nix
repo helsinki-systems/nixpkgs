@@ -45,7 +45,7 @@ in stdenv.mkDerivation rec {
       while noticably reducing fan noise. This driver works only on supported
       Intel architectures.
     '';
-    homepage = http://www.linux-phc.org/;
+    homepage = "http://www.linux-phc.org/";
     downloadPage = "http://www.linux-phc.org/forum/viewtopic.php?f=7&t=267";
     license = licenses.gpl2;
     platforms = platforms.linux;

@@ -20,7 +20,7 @@ buildPythonPackage rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://code.google.com/p/key-mon;
+    homepage = "http://code.google.com/p/key-mon";
     description = "Utility to show live keyboard and mouse status for teaching and screencasts";
     license = licenses.asl20;
     maintainers = [ maintainers.goibhniu ];

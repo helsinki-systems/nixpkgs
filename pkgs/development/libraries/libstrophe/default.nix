@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
       minimal dependencies and is configurable for various environments. It
       runs well on both Linux, Unix, and Windows based platforms.
     '';
-    homepage = http://strophe.im/libstrophe/;
+    homepage = "http://strophe.im/libstrophe/";
     license = stdenv.lib.licenses.gpl3;
     platforms = stdenv.lib.platforms.linux;
     maintainers = [ stdenv.lib.maintainers.devhell ];

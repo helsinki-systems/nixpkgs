@@ -50,7 +50,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   meta = with stdenv.lib; {
-    homepage = http://foo-projects.org/~benny/projects/thunar-archive-plugin/;
+    homepage = "http://foo-projects.org/~benny/projects/thunar-archive-plugin/";
     description = "Thunar plugin providing file context menus for archives";
     license = licenses.gpl2Plus;
     platforms = platforms.linux;

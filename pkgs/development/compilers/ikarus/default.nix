@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Scheme compiler, aiming at R6RS";
-    homepage = http://ikarus-scheme.org/;
+    homepage = "http://ikarus-scheme.org/";
     license = stdenv.lib.licenses.gpl3;
   };
 }

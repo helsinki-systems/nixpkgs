@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "MessagePack implementation for C and C++";
-    homepage = http://msgpack.org;
+    homepage = "http://msgpack.org";
     maintainers = with maintainers; [ redbaron wkennington ];
     license = licenses.asl20;
     platforms = platforms.all;

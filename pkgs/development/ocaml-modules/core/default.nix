@@ -22,7 +22,7 @@ buildOcaml rec {
                             pipebang sexplib typerep variantslib ];
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/janestreet/core;
+    homepage = "https://github.com/janestreet/core";
     description = "Jane Street Capital's standard library overlay";
     license = licenses.asl20;
     maintainers = [ maintainers.ericbmerritt ];

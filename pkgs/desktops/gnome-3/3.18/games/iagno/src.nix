@@ -4,7 +4,7 @@ fetchurl: {
   name = "iagno-3.18.2";
 
   src = fetchurl {
-    url = mirror://gnome/sources/iagno/3.18/iagno-3.18.2.tar.xz;
+    url = "mirror://gnome/sources/iagno/3.18/iagno-3.18.2.tar.xz";
     sha256 = "2ee2954ef459211643fadf74745be79a82592e12750b5cf813e784e2cbbfe1bb";
   };
 }

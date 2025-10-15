@@ -28,7 +28,7 @@
   passthru.rustc = rustc;
 
   meta = with stdenv.lib; {
-    homepage = http://crates.io;
+    homepage = "http://crates.io";
     description = "Downloads your Rust project's dependencies and builds your project";
     maintainers = with maintainers; [ wizeman ];
     license = [ licenses.mit licenses.asl20 ];

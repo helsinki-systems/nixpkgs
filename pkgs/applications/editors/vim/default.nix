@@ -54,7 +54,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "The most popular clone of the VI editor";
-    homepage    = http://www.vim.org;
+    homepage    = "http://www.vim.org";
     license = licenses.vim;
     maintainers = with maintainers; [ lovek323 ];
     platforms   = platforms.unix;

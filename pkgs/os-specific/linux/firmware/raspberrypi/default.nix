@@ -21,7 +21,7 @@ in stdenv.mkDerivation {
 
   meta = {
     description = "Firmware for the Raspberry Pi board";
-    homepage = https://github.com/raspberrypi;
+    homepage = "https://github.com/raspberrypi";
     license = stdenv.lib.licenses.unfree;
   };
 }

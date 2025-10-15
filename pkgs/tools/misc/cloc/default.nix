@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A program that counts lines of source code";
-    homepage = http://cloc.sourceforge.net;
+    homepage = "http://cloc.sourceforge.net";
     license = stdenv.lib.licenses.gpl2;
     maintainers = with stdenv.lib.maintainers; [ fuuzetsu ];
   };

@@ -42,7 +42,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A high-level dynamically typed programming language";
-    homepage = http://nekovm.org;
+    homepage = "http://nekovm.org";
     license = stdenv.lib.licenses.lgpl21;
     maintainers = [ stdenv.lib.maintainers.marcweber ];
     platforms = stdenv.lib.platforms.linux;

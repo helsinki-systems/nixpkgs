@@ -64,7 +64,7 @@ in
     meta = {
       inherit branch;
       description = "An enterprise-class open source distributed monitoring solution";
-      homepage = http://www.zabbix.com/;
+      homepage = "http://www.zabbix.com/";
       license = "GPL";
       maintainers = [ stdenv.lib.maintainers.eelco ];
       platforms = stdenv.lib.platforms.linux;
@@ -81,7 +81,7 @@ in
     meta = with stdenv.lib; {
       inherit branch;
       description = "An enterprise-class open source distributed monitoring solution (client-side agent)";
-      homepage = http://www.zabbix.com/;
+      homepage = "http://www.zabbix.com/";
       license = licenses.gpl2;
       maintainers = [ maintainers.eelco ];
       platforms = platforms.linux ++ platforms.darwin;

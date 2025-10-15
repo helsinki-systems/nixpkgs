@@ -27,7 +27,7 @@ pythonPackages.buildPythonPackage rec {
   ];
 
   meta = with stdenv.lib; {
-    homepage = http://lostpackets.de/khal/;
+    homepage = "http://lostpackets.de/khal/";
     description = "CLI calendar application";
     license = licenses.mit;
     maintainers = with maintainers; [ matthiasbeyer jgeerds ];

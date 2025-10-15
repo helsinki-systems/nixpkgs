@@ -9,7 +9,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Compression library that can be used with the hdf5 library";
-    homepage = http://www.hdfgroup.org/doc_resource/SZIP/;
+    homepage = "http://www.hdfgroup.org/doc_resource/SZIP/";
     license = stdenv.lib.licenses.unfree;
   };
 }

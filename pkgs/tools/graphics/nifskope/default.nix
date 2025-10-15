@@ -42,7 +42,7 @@ stdenv.mkDerivation rec {
     ''; # */
 
   meta = {
-    homepage = http://niftools.sourceforge.net/;
+    homepage = "http://niftools.sourceforge.net/";
     description = "A tool for analyzing and editing NetImmerse/Gamebryo '*.nif' files";
     maintainers = [ stdenv.lib.maintainers.eelco ];
     platforms = stdenv.lib.platforms.linux;

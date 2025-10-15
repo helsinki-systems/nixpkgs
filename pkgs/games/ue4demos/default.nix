@@ -46,7 +46,7 @@ let
 
       meta = {
         description = "Unreal Engine 4 Linux demos";
-        homepage = https://wiki.unrealengine.com/Linux_Demos;
+        homepage = "https://wiki.unrealengine.com/Linux_Demos";
         platforms = stdenv.lib.platforms.linux;
         license = stdenv.lib.licenses.unfree;
       };

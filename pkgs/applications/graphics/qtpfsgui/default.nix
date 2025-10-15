@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://qtpfsgui.sourceforge.net/;
+    homepage = "http://qtpfsgui.sourceforge.net/";
     description = "Qtpfsqui, a graphical application for high dynamic range (HDR) imaging";
 
     longDescription =

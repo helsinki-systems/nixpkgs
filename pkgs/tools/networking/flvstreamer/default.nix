@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
 
     license = stdenv.lib.licenses.gpl2Plus;
 
-    homepage = http://savannah.nongnu.org/projects/flvstreamer;
+    homepage = "http://savannah.nongnu.org/projects/flvstreamer";
 
     maintainers = [ stdenv.lib.maintainers.thammers ];
     platforms = stdenv.lib.platforms.linux;

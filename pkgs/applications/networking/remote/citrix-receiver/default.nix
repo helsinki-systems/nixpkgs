@@ -25,7 +25,7 @@
 stdenv.mkDerivation rec {
   name = "citrix-receiver-${version}";
   version = "13.3.0";
-  homepage = https://www.citrix.com/downloads/citrix-receiver/linux/receiver-for-linux-latest.html;
+  homepage = "https://www.citrix.com/downloads/citrix-receiver/linux/receiver-for-linux-latest.html";
 
   prefixWithBitness = if stdenv.is64bit then "linuxx64" else "linuxx86";
 

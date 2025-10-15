@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   configurePhase = "qmake PREFIX=$out";
 
   meta = {
-    homepage = http://www.valgrind.org/;
+    homepage = "http://www.valgrind.org/";
     description = "Qt4-based GUI for the Valgrind 3.6.x series";
     license = stdenv.lib.licenses.gpl2;
     platforms = stdenv.lib.platforms.linux;

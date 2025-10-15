@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   doCheck = false;
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/naelstrof/maim;
+    homepage = "https://github.com/naelstrof/maim";
     description = "A command-line screenshot utility";
     longDescription = ''
       maim (make image) takes screenshots of your desktop. It has options to

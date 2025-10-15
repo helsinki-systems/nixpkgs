@@ -58,7 +58,7 @@ in stdenv.mkDerivation {
 
   meta = {
     description = "Event-driven I/O framework for the V8 JavaScript engine";
-    homepage = http://nodejs.org;
+    homepage = "http://nodejs.org";
     license = licenses.mit;
     maintainers = [ maintainers.havvy ];
     platforms = platforms.linux ++ platforms.darwin;

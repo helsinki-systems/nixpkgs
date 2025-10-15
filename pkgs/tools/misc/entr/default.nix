@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
   installFlags = [ "PREFIX=$(out)" ];
 
   meta = {
-    homepage = http://entrproject.org/;
+    homepage = "http://entrproject.org/";
     description = "Run arbitrary commands when files change.";
 
     license = stdenv.lib.licenses.isc;

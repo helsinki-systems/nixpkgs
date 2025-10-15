@@ -17,7 +17,7 @@ goPackages.buildGoPackage rec {
   meta = with lib; {
     description = "Convert between TOML, YAML and JSON";
     license = licenses.mit;
-    homepage = https://github.com/dbohdan/remarshal;
+    homepage = "https://github.com/dbohdan/remarshal";
     maintainers = with maintainers; [ offline ];
     platforms = platforms.linux;
   };

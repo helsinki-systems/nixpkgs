@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
   preFixup = "rm $out/share/icons/hicolor/icon-theme.cache";
 
   meta = {
-    homepage = http://thunar.xfce.org/;
+    homepage = "http://thunar.xfce.org/";
     description = "Xfce file manager";
     license = stdenv.lib.licenses.gpl2Plus;
     platforms = stdenv.lib.platforms.linux;

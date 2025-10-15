@@ -31,7 +31,7 @@ in stdenv.mkDerivation rec {
   ];
 
   meta = {
-    homepage = http://darkice.org/;
+    homepage = "http://darkice.org/";
     description = "Live audio streamer";
     license = stdenv.lib.licenses.gpl3;
     maintainers = with stdenv.lib.maintainers; [ ikervagyok ];

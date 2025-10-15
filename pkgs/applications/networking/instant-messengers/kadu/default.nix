@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   name = "kadu-0.12.3";
 
   src = fetchurl {
-    url = http://download.kadu.im/stable/kadu-0.12.3.tar.bz2;
+    url = "http://download.kadu.im/stable/kadu-0.12.3.tar.bz2";
     sha256 = "1a5q5b8pm253cwg6ahahjdm8jxj0pv41apyi1nvvy08bs38bn1yn";
   };
 
@@ -37,7 +37,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "An instant-messenger client for the gadu-gadu network (most popular polish IM network)";
-    homepage = http://www.kadu.net/w/English:Main_Page;
+    homepage = "http://www.kadu.net/w/English:Main_Page";
     license = stdenv.lib.licenses.gpl2;
     platforms = stdenv.lib.platforms.linux;
     maintainers = [ stdenv.lib.maintainers.piotr ];

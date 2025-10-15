@@ -4,7 +4,7 @@ stdenv.mkDerivation (rec {
   name = "ProofGeneral-4.2";
 
   src = fetchurl {
-    url = http://proofgeneral.inf.ed.ac.uk/releases/ProofGeneral-4.2.tgz;
+    url = "http://proofgeneral.inf.ed.ac.uk/releases/ProofGeneral-4.2.tgz";
     sha256 = "09qb0myq66fw17v4ziz401ilsb5xlxz1nl2wsp69d0vrfy0bcrrm";
   };
 
@@ -47,7 +47,7 @@ stdenv.mkDerivation (rec {
       Proof General is a generic front-end for proof assistants (also known as
       interactive theorem provers), based on the customizable text editor Emacs.
     '';
-    homepage = http://proofgeneral.inf.ed.ac.uk;
+    homepage = "http://proofgeneral.inf.ed.ac.uk";
     license = stdenv.lib.licenses.gpl2Plus;
     platforms = stdenv.lib.platforms.unix;  # arbitrary choice
   };

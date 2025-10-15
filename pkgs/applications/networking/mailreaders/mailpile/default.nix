@@ -26,7 +26,7 @@ pythonPackages.buildPythonPackage rec {
 
   meta = with stdenv.lib; {
     description = "A modern, fast web-mail client with user-friendly encryption and privacy features";
-    homepage = https://www.mailpile.is/;
+    homepage = "https://www.mailpile.is/";
     license = [ licenses.asl20 licenses.agpl3 ];
     platforms = platforms.linux;
     maintainers = [ maintainers.iElectric ];

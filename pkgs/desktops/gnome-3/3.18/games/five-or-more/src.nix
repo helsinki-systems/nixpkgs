@@ -4,7 +4,7 @@ fetchurl: {
   name = "five-or-more-3.18.0";
 
   src = fetchurl {
-    url = mirror://gnome/sources/five-or-more/3.18/five-or-more-3.18.0.tar.xz;
+    url = "mirror://gnome/sources/five-or-more/3.18/five-or-more-3.18.0.tar.xz";
     sha256 = "e1e7cc81b1281382da9a6ab466d97f09561dbaf39031a9b93f0a45221234fe62";
   };
 }

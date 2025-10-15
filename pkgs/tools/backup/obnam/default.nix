@@ -17,7 +17,7 @@ pythonPackages.buildPythonPackage rec {
   doCheck = false;
 
   meta = {
-    homepage = http://liw.fi/obnam/;
+    homepage = "http://liw.fi/obnam/";
     description = "Backup program supporting deduplication, compression and encryption";
     maintainers = [ stdenv.lib.maintainers.rickynils ];
     platforms = stdenv.lib.platforms.linux;

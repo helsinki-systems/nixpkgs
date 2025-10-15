@@ -29,7 +29,7 @@ stdenv.mkDerivation {
       In short, this little tool allows you to have project-specific
       environment variables.
     '';
-    homepage = http://direnv.net;
+    homepage = "http://direnv.net";
     license = stdenv.lib.licenses.mit;
     maintainers = [ stdenv.lib.maintainers.zimbatm ];
     platforms = go.meta.platforms;

@@ -21,7 +21,7 @@ stdenv.mkDerivation {
     '';
 
   meta = {
-    homepage = http://xtrace.alioth.debian.org/;
+    homepage = "http://xtrace.alioth.debian.org/";
     description = "Tool to trace X11 protocol connections";
     license = stdenv.lib.licenses.gpl2;
     maintainers = with stdenv.lib.maintainers; [viric];

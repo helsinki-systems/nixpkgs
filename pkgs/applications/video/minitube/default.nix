@@ -34,7 +34,7 @@ stdenv.mkDerivation rec {
       you an endless video stream. Minitube is not about cloning the YouTube
       website, it aims to create a new TV-like experience.
     '';
-    homepage = http://flavio.tordini.org/minitube;
+    homepage = "http://flavio.tordini.org/minitube";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
     maintainers = with maintainers; [ nckx ];

@@ -37,7 +37,7 @@ in nodePackages.buildNodePackage rec {
 
   meta = {
     description = "Social server with an ActivityStreams API";
-    homepage = http://pump.io/;
+    homepage = "http://pump.io/";
     license = licenses.asl20;
     platforms = platforms.unix;
     maintainers = [ maintainers.rvl ];

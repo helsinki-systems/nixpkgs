@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   nativeBuildInputs = [ xz ];
 
   meta = {
-    homepage = http://pkg-isocodes.alioth.debian.org/;
+    homepage = "http://pkg-isocodes.alioth.debian.org/";
     description = "Various ISO codes packaged as XML files";
     maintainers = [ stdenv.lib.maintainers.urkud ];
     platforms = stdenv.lib.platforms.all;

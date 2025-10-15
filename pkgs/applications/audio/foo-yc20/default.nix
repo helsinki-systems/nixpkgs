@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A Faust implementation of a 1969 designed Yamaha combo organ, the YC-20";
-    homepage = https://github.com/sampov2/foo-yc20;
+    homepage = "https://github.com/sampov2/foo-yc20";
     license     = "BSD";
     maintainers = [ stdenv.lib.maintainers.magnetophon ];
     platforms = stdenv.lib.platforms.linux;

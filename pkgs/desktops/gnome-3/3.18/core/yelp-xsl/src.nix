@@ -4,7 +4,7 @@ fetchurl: {
   name = "yelp-xsl-3.18.1";
 
   src = fetchurl {
-    url = mirror://gnome/sources/yelp-xsl/3.18/yelp-xsl-3.18.1.tar.xz;
+    url = "mirror://gnome/sources/yelp-xsl/3.18/yelp-xsl-3.18.1.tar.xz";
     sha256 = "00870fbe59a1bc7797b385fce16386917e2987c404e9b5a7adcf0036f1c1ba62";
   };
 }

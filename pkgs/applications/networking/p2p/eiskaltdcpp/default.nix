@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A cross-platform program that uses the Direct Connect and ADC protocols";
-    homepage = https://code.google.com/p/eiskaltdc/;
+    homepage = "https://code.google.com/p/eiskaltdc/";
     license = licenses.gpl3Plus;
     platforms = platforms.all;
   };

@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "ccid drivers for pcsclite";
-    homepage = http://pcsclite.alioth.debian.org/;
+    homepage = "http://pcsclite.alioth.debian.org/";
     license = licenses.gpl2Plus;
     maintainers = with maintainers; [ viric wkennington ];
     platforms = platforms.linux;

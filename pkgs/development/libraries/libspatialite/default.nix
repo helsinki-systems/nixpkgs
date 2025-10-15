@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Extensible spatial index library in C++";
-    homepage = https://www.gaia-gis.it/fossil/libspatialite;
+    homepage = "https://www.gaia-gis.it/fossil/libspatialite";
     # They allow any of these
     license = with licenses; [ gpl2Plus lgpl21Plus mpl11 ];
     platforms = platforms.linux;

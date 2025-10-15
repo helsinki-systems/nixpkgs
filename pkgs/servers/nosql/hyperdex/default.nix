@@ -48,7 +48,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A scalable, searchable key-value store";
-    homepage = http://hyperdex.org;
+    homepage = "http://hyperdex.org";
     license = licenses.bsd3;
   };
 }

@@ -36,7 +36,7 @@ stdenv.mkDerivation rec {
       conveniently pre-cache areas with tangoGPS.
     '';
 
-    #homepage = http://www.tangogps.org/; # no longer valid, I couldn't find any other
+    #homepage = "http://www.tangogps.org/"; # no longer valid, I couldn't find any other
 
     license = stdenv.lib.licenses.gpl2Plus;
   };

@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://sourceforge.net/adobe/sourceserifpro;
+    homepage = "http://sourceforge.net/adobe/sourceserifpro";
     description = "A set of OpenType fonts to complement Source Sans Pro";
     license = licenses.ofl;
     platforms = platforms.all;

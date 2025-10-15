@@ -50,7 +50,7 @@ stdenv.mkDerivation rec {
       finds structures that satisfy them. Structures are displayed graphically,
       and their appearance can be customized for the domain at hand.
     '';
-    homepage = http://alloy.mit.edu/;
+    homepage = "http://alloy.mit.edu/";
     downloadPage = http://alloy.mit.edu/alloy/download.html;
     license = licenses.mit;
     platforms = platforms.linux;

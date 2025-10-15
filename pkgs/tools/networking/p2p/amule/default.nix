@@ -47,7 +47,7 @@ mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://amule.org/;
+    homepage = "http://amule.org/";
     description = "Peer-to-peer client for the eD2K and Kademlia networks";
 
     longDescription = ''

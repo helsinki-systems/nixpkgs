@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
   dontStrip    = true;
 
   meta = with stdenv.lib; {
-    homepage    = http://sdlmame.lngn.net;
+    homepage    = "http://sdlmame.lngn.net";
     description = "A port of the popular Multiple Arcade Machine Emulator using SDL with OpenGL support";
     license     = "MAME";
     maintainers = with maintainers; [ lovek323 ];

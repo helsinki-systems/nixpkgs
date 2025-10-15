@@ -12,7 +12,7 @@ stdenv.mkDerivation rec{
   buildInputs = [ autoreconfHook zlib pcre w3m man ];
 
   meta = with stdenv.lib; {
-    homepage = http://www.privoxy.org/;
+    homepage = "http://www.privoxy.org/";
     description = "Non-caching web proxy with advanced filtering capabilities";
     license = licenses.gpl2;
     platforms = platforms.all;

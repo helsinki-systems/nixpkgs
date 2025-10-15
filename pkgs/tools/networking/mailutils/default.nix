@@ -53,7 +53,7 @@ stdenv.mkDerivation rec {
 
     maintainers = [ ];
 
-    homepage = http://www.gnu.org/software/mailutils/;
+    homepage = "http://www.gnu.org/software/mailutils/";
 
     # Some of the dependencies fail to build on {cyg,dar}win.
     platforms = platforms.gnu;

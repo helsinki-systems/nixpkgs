@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
 
     license = stdenv.lib.licenses.lgpl3Plus;
 
-    homepage = http://home.gna.org/guile-cairo/;
+    homepage = "http://home.gna.org/guile-cairo/";
 
     maintainers = [ ];
   };

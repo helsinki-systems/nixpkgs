@@ -22,7 +22,7 @@ assert enableMongoDatabase -> (mongodb != null && mongodb-tools != null);
 stdenv.mkDerivation {
   name = "dysnomia-0.5";
   src = fetchurl {
-    url = http://hydra.nixos.org/build/31143399/download/1/dysnomia-0.5.tar.gz;
+    url = "http://hydra.nixos.org/build/31143399/download/1/dysnomia-0.5.tar.gz";
     sha256 = "1dxilzcqnv60l418k1ihyh0gkai5xgzj13s9hcbbb0yp71mv7n9x";
   };
   

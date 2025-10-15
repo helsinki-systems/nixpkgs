@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
     '';
 
   meta = {
-    homepage = https://github.com/edolstra/nix-serve;
+    homepage = "https://github.com/edolstra/nix-serve";
     description = "A utility for sharing a Nix store as a binary cache";
     maintainers = [ lib.maintainers.eelco ];
     license = lib.licenses.gpl3;

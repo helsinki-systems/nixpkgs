@@ -4,13 +4,13 @@ stdenv.mkDerivation {
   name = "tcp-wrappers-7.6";
 
   src = fetchurl {
-    url = mirror://debian/pool/main/t/tcp-wrappers/tcp-wrappers_7.6.dbs.orig.tar.gz;
+    url = "mirror://debian/pool/main/t/tcp-wrappers/tcp-wrappers_7.6.dbs.orig.tar.gz";
     sha256 = "0k68ziinx6biwar5lcb9jvv0rp6b3vmj6861n75bvrz4w1piwkdp";
   };
 
   patches = [
     (fetchurl {
-       url = mirror://debian/pool/main/t/tcp-wrappers/tcp-wrappers_7.6.dbs-13.diff.gz;
+       url = "mirror://debian/pool/main/t/tcp-wrappers/tcp-wrappers_7.6.dbs-13.diff.gz";
        sha256 = "071ir20rh8ckhgrc0y99wgnlbqjgkprf0qwbv84lqw5i6qajbcnh";
      })
   ];

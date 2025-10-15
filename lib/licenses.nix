@@ -31,13 +31,13 @@ lib.mapAttrs (n: v: v // { shortName = n; }) rec {
 
   amazonsl = {
     fullName = "Amazon Software License";
-    url = http://aws.amazon.com/asl/;
+    url = "http://aws.amazon.com/asl/";
     free = false;
   };
 
   amd = {
     fullName = "AMD License Agreement";
-    url = http://developer.amd.com/amd-license-agreement/;
+    url = "http://developer.amd.com/amd-license-agreement/";
   };
 
   apsl20 = spdx {
@@ -201,12 +201,12 @@ lib.mapAttrs (n: v: v // { shortName = n; }) rec {
 
   gpl2ClasspathPlus = {
     fullName = "GNU General Public License v2.0 or later (with Classpath exception)";
-    url = https://fedoraproject.org/wiki/Licensing/GPL_Classpath_Exception;
+    url = "https://fedoraproject.org/wiki/Licensing/GPL_Classpath_Exception";
   };
 
   gpl2Oss = {
     fullName = "GNU General Public License version 2 only (with OSI approved licenses linking exception)";
-    url = http://www.mysql.com/about/legal/licensing/foss-exception;
+    url = "http://www.mysql.com/about/legal/licensing/foss-exception";
   };
 
   gpl2Plus = spdx {
@@ -226,13 +226,13 @@ lib.mapAttrs (n: v: v // { shortName = n; }) rec {
 
   gpl3ClasspathPlus = {
     fullName = "GNU General Public License v3.0 or later (with Classpath exception)";
-    url = https://fedoraproject.org/wiki/Licensing/GPL_Classpath_Exception;
+    url = "https://fedoraproject.org/wiki/Licensing/GPL_Classpath_Exception";
   };
 
   # Intel's license, seems free
   iasl = {
     fullName = "iASL";
-    url = http://www.calculate-linux.org/packages/licenses/iASL;
+    url = "http://www.calculate-linux.org/packages/licenses/iASL";
   };
 
   ijg = spdx {
@@ -302,7 +302,7 @@ lib.mapAttrs (n: v: v // { shortName = n; }) rec {
 
   llgpl21 = {
     fullName = "Lisp LGPL; GNU Lesser General Public License version 2.1 with Franz Inc. preamble for clarification of LGPL terms in context of Lisp";
-    url = http://opensource.franz.com/preamble.html;
+    url = "http://opensource.franz.com/preamble.html";
   };
 
   lppl12 = spdx {
@@ -385,7 +385,7 @@ lib.mapAttrs (n: v: v // { shortName = n; }) rec {
   psfl = spdx {
     spdxId = "Python-2.0";
     fullName = "Python Software Foundation License version 2";
-    #url = http://docs.python.org/license.html;
+    #url = "http://docs.python.org/license.html";
   };
 
   publicDomain = {
@@ -399,7 +399,7 @@ lib.mapAttrs (n: v: v // { shortName = n; }) rec {
 
   qwt = {
     fullName = "Qwt License, Version 1.0";
-    url = http://qwt.sourceforge.net/qwtlicense.html;
+    url = "http://qwt.sourceforge.net/qwtlicense.html";
   };
 
   ruby = spdx {
@@ -424,7 +424,7 @@ lib.mapAttrs (n: v: v // { shortName = n; }) rec {
 
   ufl = {
     fullName = "Ubuntu Font License 1.0";
-    url = http://font.ubuntu.com/ufl/ubuntu-font-licence-1.0.txt;
+    url = "http://font.ubuntu.com/ufl/ubuntu-font-licence-1.0.txt";
   };
 
   unfree = {
@@ -465,7 +465,7 @@ lib.mapAttrs (n: v: v // { shortName = n; }) rec {
 
   wadalab = {
     fullName = "Wadalab Font License";
-    url = https://fedoraproject.org/wiki/Licensing:Wadalab?rd=Licensing/Wadalab;
+    url = "https://fedoraproject.org/wiki/Licensing:Wadalab?rd=Licensing/Wadalab";
   };
 
   wtfpl = spdx {

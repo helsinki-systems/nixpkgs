@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ cmake ];
 
   meta = with stdenv.lib; {
-    homepage = https://code.google.com/p/game-music-emu/;
+    homepage = "https://code.google.com/p/game-music-emu/";
     description = "A collection of video game music file emulators";
     license = licenses.lgpl21Plus;
     platforms = platforms.all;

@@ -39,7 +39,7 @@ in stdenv.mkDerivation {
   meta = {
     description = "An HTTP message parser written in C";
 
-    homepage = https://github.com/joyent/http-parser;
+    homepage = "https://github.com/joyent/http-parser";
 
     license = stdenv.lib.licenses.mit;
   };

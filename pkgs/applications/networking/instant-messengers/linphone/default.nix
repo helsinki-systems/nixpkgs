@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://www.linphone.org/;
+    homepage = "http://www.linphone.org/";
     description = "Open Source video SIP softphone";
     license = licenses.gpl2Plus;
     platforms = platforms.linux;

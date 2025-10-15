@@ -213,7 +213,7 @@ in modules // {
 
     meta = {
       description = "ASCII art to image converter";
-      homepage = https://launchpad.net/aafigure/;
+      homepage = "https://launchpad.net/aafigure/";
       license = licenses.bsd2;
       platforms = platforms.linux;
       maintainers = with maintainers; [ bjornfor ];
@@ -241,7 +241,7 @@ in modules // {
 
     meta = {
       description = "A command line interface and FUSE filesystem for Amazon Cloud Drive";
-      homepage = https://github.com/yadayada/acd_cli;
+      homepage = "https://github.com/yadayada/acd_cli";
       license = licenses.gpl2;
       platforms = platforms.linux;
       maintainers = with maintainers; [ edwtjo ];
@@ -294,7 +294,7 @@ in modules // {
 
     meta = {
       description = "A tiny script to issue and renew TLS certs from Let's Encrypt";
-      homepage = https://github.com/diafygi/acme-tiny;
+      homepage = "https://github.com/diafygi/acme-tiny";
       license = licenses.mit;
     };
   };
@@ -318,7 +318,7 @@ in modules // {
 
     meta = {
       description = "Generate activity-diagram image from spec-text file (similar to Graphviz)";
-      homepage = http://blockdiag.com/;
+      homepage = "http://blockdiag.com/";
       license = licenses.asl20;
       platforms = platforms.linux;
       maintainers = with maintainers; [ bjornfor ];
@@ -330,7 +330,7 @@ in modules // {
     name = "adal-${version}";
 
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/adal/adal-0.1.0.tar.gz;
+      url = "https://pypi.python.org/packages/source/a/adal/adal-0.1.0.tar.gz";
       sha256 = "1f32k18ck54adqlgvh6fjhy4yavcyrwy813prjyqppqqq4bn1a09";
     };
 
@@ -338,7 +338,7 @@ in modules // {
 
     meta = {
       description = "Library to make it easy for python application to authenticate to Azure Active Directory (AAD) in order to access AAD protected web resources";
-      homepage = https://github.com/AzureAD/azure-activedirectory-library-for-python;
+      homepage = "https://github.com/AzureAD/azure-activedirectory-library-for-python";
       license = licenses.mit;
       maintainers = with maintainers; [ phreedom ];
     };
@@ -373,7 +373,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://github.com/teythoon/afew;
+      homepage = "https://github.com/teythoon/afew";
       description = "An initial tagging script for notmuch mail";
       maintainers = with maintainers; [ garbas ];
     };
@@ -398,7 +398,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://github.com/saghul/aiodns;
+      homepage = "http://github.com/saghul/aiodns";
       license = licenses.mit;
       description = "Simple DNS resolver for asyncio";
     };
@@ -423,7 +423,7 @@ in modules // {
     meta = {
       description = "http client/server for asyncio";
       license = with licenses; [ asl20 ];
-      homepage = https://github.com/KeepSafe/aiohttp/;
+      homepage = "https://github.com/KeepSafe/aiohttp/";
     };
   };
 
@@ -441,7 +441,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = https://github.com/bitprophet/alabaster;
+      homepage = "https://github.com/bitprophet/alabaster";
       description = "a Sphinx theme";
       license = licenses.bsd3;
     };
@@ -460,7 +460,7 @@ in modules // {
     propagatedBuildInputs = with self; [ Mako sqlalchemy_1_0 python-editor ];
 
     meta = {
-      homepage = http://bitbucket.org/zzzeek/alembic;
+      homepage = "http://bitbucket.org/zzzeek/alembic";
       description = "A database migration tool for SQLAlchemy";
       license = licenses.mit;
     };
@@ -592,7 +592,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://github.com/pazz/alot;
+      homepage = "https://github.com/pazz/alot";
       description = "Terminal MUA using notmuch mail";
       maintainers = with maintainers; [ garbas profpatsch ];
     };
@@ -610,7 +610,7 @@ in modules // {
     buildInputs = with self; [ self.nose ];
 
     meta = {
-      homepage = http://pypi.python.org/pypi/anyjson/;
+      homepage = "http://pypi.python.org/pypi/anyjson/";
       description = "Wrapper that selects the best available JSON implementation";
     };
   };
@@ -629,7 +629,7 @@ in modules // {
     buildInputs = with self; [ mock coverage nose-cover3 unittest2 ];
 
     meta = {
-      homepage = http://github.com/celery/py-amqp;
+      homepage = "http://github.com/celery/py-amqp";
       description = "Python client for the Advanced Message Queuing Procotol (AMQP). This is a fork of amqplib which is maintained by the Celery project";
       license = licenses.lgpl21;
     };
@@ -648,7 +648,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://code.google.com/p/py-amqplib/;
+      homepage = "http://code.google.com/p/py-amqplib/";
       description = "Python client for the Advanced Message Queuing Procotol (AMQP)";
     };
   };
@@ -744,7 +744,7 @@ in modules // {
 
     meta = {
       description = "A python module for determining appropriate platform-specific dirs";
-      homepage = http://github.com/ActiveState/appdirs;
+      homepage = "http://github.com/ActiveState/appdirs";
       license = licenses.mit;
     };
   };
@@ -770,7 +770,7 @@ in modules // {
 
     meta = {
       description = "Disable App Nap on OS X";
-      homepage    = https://pypi.python.org/pypi/appnope;
+      homepage    = "https://pypi.python.org/pypi/appnope";
       platforms   = platforms.darwin;
       license     = licenses.bsd3;
     };
@@ -792,7 +792,7 @@ in modules // {
 
     meta = {
       description = "A Python wrapper for the SQLite embedded relational database engine";
-      homepage = http://code.google.com/p/apsw/;
+      homepage = "http://code.google.com/p/apsw/";
     };
   };
 
@@ -808,7 +808,7 @@ in modules // {
 
     meta = {
       description = "reference implementation of PEP 3156";
-      homepage = http://www.python.org/dev/peps/pep-3156;
+      homepage = "http://www.python.org/dev/peps/pep-3156";
       license = licenses.free;
     };
   } else null;
@@ -862,7 +862,7 @@ in modules // {
 
     meta = with pkgs.stdenv.lib; {
       description = "A Python library that lets you schedule your Python code to be executed";
-      homepage = http://pypi.python.org/pypi/APScheduler/;
+      homepage = "http://pypi.python.org/pypi/APScheduler/";
       license = licenses.mit;
     };
   };
@@ -942,7 +942,7 @@ in modules // {
 
     meta = {
       description = "Long data type with atomic operations using CFFI";
-      homepage = https://github.com/dreid/atomiclong;
+      homepage = "https://github.com/dreid/atomiclong";
       license = licenses.mit;
       maintainers = with maintainers; [ robbinch ];
     };
@@ -960,7 +960,7 @@ in modules // {
 
     meta = {
       description = "Atomic file writes on POSIX";
-      homepage = https://pypi.python.org/pypi/atomicwrites/0.1.0;
+      homepage = "https://pypi.python.org/pypi/atomicwrites/0.1.0";
       maintainers = with maintainers; [ matthiasbeyer ];
     };
 
@@ -983,7 +983,7 @@ in modules // {
     doCheck = !isPy3k;
 
     meta = {
-      homepage = http://code.google.com/p/argparse/;
+      homepage = "http://code.google.com/p/argparse/";
       license = licenses.asl20;
       description = "argparse: Python command line parser";
       longDescription = ''
@@ -1016,7 +1016,7 @@ in modules // {
 
     meta = {
       description = "A abstract syntax tree for Python with inference support";
-      homepage = http://bitbucket.org/logilab/astroid;
+      homepage = "http://bitbucket.org/logilab/astroid";
       license = with licenses; [ lgpl2 ];
     };
   };
@@ -1033,7 +1033,7 @@ in modules // {
 
     meta = {
       description = "A dict with attribute-style access";
-      homepage = https://github.com/bcj/AttrDict;
+      homepage = "https://github.com/bcj/AttrDict";
       license = licenses.mit;
     };
   });
@@ -1089,7 +1089,7 @@ in modules // {
 
     meta = {
       description = "A tool that automatically formats Python code to conform to the PEP 8 style guide";
-      homepage = https://pypi.python.org/pypi/autopep8/;
+      homepage = "https://pypi.python.org/pypi/autopep8/";
       license = licenses.mit;
       platforms = platforms.all;
       maintainers = with maintainers; [ bjornfor ];
@@ -1142,7 +1142,7 @@ in modules // {
     propagatedBuildInputs = with self; [ unidecode regex ];
 
     meta = with stdenv.lib; {
-      homepage = https://github.com/dimka665/awesome-slugify;
+      homepage = "https://github.com/dimka665/awesome-slugify";
       description = "Python flexible slugify function";
       license = licenses.gpl3;
       platforms = platforms.all;
@@ -1182,7 +1182,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://aws.amazon.com/cli/;
+      homepage = "https://aws.amazon.com/cli/";
       description = "Unified tool to manage your AWS services";
       license = stdenv.lib.licenses.asl20;
       maintainers = with maintainers; [ muflax ];
@@ -1213,7 +1213,7 @@ in modules // {
     version = "1.0.0";
     name = "azure-nspkg-${version}";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-nspkg/azure-nspkg-1.0.0.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-nspkg/azure-nspkg-1.0.0.zip";
       sha256 = "1xqvc8by1lbd7j9dxyly03jz3rgbmnsiqnqgydhkf4pa2mn2hgr9";
     };
     meta = {
@@ -1229,7 +1229,7 @@ in modules // {
     name = "azure-common-${version}";
     disabled = isPyPy;
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-common/azure-common-1.0.0.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-common/azure-common-1.0.0.zip";
       sha256 = "074rwwy8zzs7zw3nww5q2wg5lxgdc4rmypp2gfc9mwsz0gb70491";
     };
     propagatedBuildInputs = with self; [ azure-nspkg ];
@@ -1248,7 +1248,7 @@ in modules // {
     version = "0.20.0";
     name = "azure-mgmt-common-${version}";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-mgmt-common/azure-mgmt-common-0.20.0.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-mgmt-common/azure-mgmt-common-0.20.0.zip";
       sha256 = "1rmzpz3733wv31rsnqpdy4bbafvk5dhbqx7q0xf62dlz7p0i4f66";
     };
     propagatedBuildInputs = with self; [ azure-common azure-mgmt-nspkg requests2 ];
@@ -1268,7 +1268,7 @@ in modules // {
     version = "0.20.0";
     name = "azure-mgmt-compute-${version}";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-mgmt-compute/azure-mgmt-compute-0.20.0.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-mgmt-compute/azure-mgmt-compute-0.20.0.zip";
       sha256 = "12hr5vxdg2sk2fzr608a37f4i8nbchca7dgdmly2w5fc7x88jx2v";
     };
     postInstall = ''
@@ -1288,7 +1288,7 @@ in modules // {
     version = "0.20.1";
     name = "azure-mgmt-network-${version}";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-mgmt-network/azure-mgmt-network-0.20.1.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-mgmt-network/azure-mgmt-network-0.20.1.zip";
       sha256 = "10vj22h6nxpw0qpvib5x2g6qs5j8z31142icvh4qk8k40fcrs9hx";
     };
     postInstall = ''
@@ -1308,7 +1308,7 @@ in modules // {
     version = "1.0.0";
     name = "azure-mgmt-nspkg-${version}";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-mgmt-nspkg/azure-mgmt-nspkg-1.0.0.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-mgmt-nspkg/azure-mgmt-nspkg-1.0.0.zip";
       sha256 = "1rq92fj3kvnqkk18596dybw0kvhgscvc6cd8hp1dhy3wrkqnhwmq";
     };
     propagatedBuildInputs = with self; [ azure-nspkg ];
@@ -1324,7 +1324,7 @@ in modules // {
     version = "0.20.1";
     name = "azure-mgmt-resource-${version}";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-mgmt-resource/azure-mgmt-resource-0.20.1.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-mgmt-resource/azure-mgmt-resource-0.20.1.zip";
       sha256 = "0slh9qfm5nfacrdm3lid0sr8kwqzgxvrwf27laf9v38kylkfqvml";
     };
     postInstall = ''
@@ -1344,7 +1344,7 @@ in modules // {
     version = "0.20.0";
     name = "azure-mgmt-storage-${version}";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-mgmt-storage/azure-mgmt-storage-0.20.0.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-mgmt-storage/azure-mgmt-storage-0.20.0.zip";
       sha256 = "16iw7hqhq97vlzfwixarfnirc60l5mz951p57brpcwyylphl3yim";
     };
     postInstall = ''
@@ -1364,7 +1364,7 @@ in modules // {
     version = "0.20.3";
     name = "azure-storage-${version}";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-storage/azure-storage-0.20.3.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-storage/azure-storage-0.20.3.zip";
       sha256 = "06bmw6k2000kln5jwk5r9bgcalqbyvqirmdh9gq4s6nb4fv3c0jb";
     };
     propagatedBuildInputs = with self; [ azure-common futures dateutil requests2 ];
@@ -1383,7 +1383,7 @@ in modules // {
     version = "0.20.1";
     name = "azure-servicemanagement-legacy-${version}";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/azure-servicemanagement-legacy/azure-servicemanagement-legacy-0.20.1.zip;
+      url = "https://pypi.python.org/packages/source/a/azure-servicemanagement-legacy/azure-servicemanagement-legacy-0.20.1.zip";
       sha256 = "17dwrp99sx5x9cm4vldkaxhki9gbd6dlafa0lpr2n92xhh2838zs";
     };
     propagatedBuildInputs = with self; [ azure-common requests2 ];
@@ -1408,7 +1408,7 @@ in modules // {
 
     meta = {
       description = "The Secure Sockets layer is only actually *secure*";
-      homepage = http://bitbucket.org/brandon/backports.ssl_match_hostname;
+      homepage = "http://bitbucket.org/brandon/backports.ssl_match_hostname";
     };
   };
 
@@ -1425,7 +1425,7 @@ in modules // {
 
     meta = {
       describe = "Backport of Python 3.3's 'lzma' module for XZ/LZMA compressed files";
-      homepage = https://github.com/peterjc/backports.lzma;
+      homepage = "https://github.com/peterjc/backports.lzma";
       license = licenses.bsd3;
     };
   };
@@ -1441,7 +1441,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://pypi.python.org/pypi/babelfish;
+      homepage = "http://pypi.python.org/pypi/babelfish";
       description = "A module to work with countries and languages";
       license = licenses.bsd3;
     };
@@ -1463,7 +1463,7 @@ in modules // {
 
     meta = {
       description = "Get info about wireless interfaces using libiw";
-      homepage = http://github.com/enkore/basiciw;
+      homepage = "http://github.com/enkore/basiciw";
       platforms = platforms.linux;
       license = licenses.gpl2;
     };
@@ -1479,7 +1479,7 @@ in modules // {
     };
 
     meta = {
-      homepage = https://github.com/nicolargo/batinfo;
+      homepage = "https://github.com/nicolargo/batinfo";
       description = "A simple Python lib to retrieve battery information";
       license = licenses.lgpl3;
       platforms = platforms.all;
@@ -1498,7 +1498,7 @@ in modules // {
     buildInputs = with self; [ docutils six ];
 
     meta = {
-      homepage = https://github.com/botocore/bcdoc;
+      homepage = "https://github.com/botocore/bcdoc";
       license = licenses.asl20;
       description = "ReST document generation tools for botocore";
     };
@@ -1517,7 +1517,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://www.crummy.com/software/BeautifulSoup/;
+      homepage = "http://www.crummy.com/software/BeautifulSoup/";
       license = "bsd";
       description = "Undemanding HTML/XML parser";
     };
@@ -1537,7 +1537,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = http://crummy.com/software/BeautifulSoup/bs4/;
+      homepage = "http://crummy.com/software/BeautifulSoup/bs4/";
       description = "HTML and XML parser";
       license = licenses.mit;
       maintainers = with maintainers; [ iElectric ];
@@ -1554,7 +1554,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://crummy.com/software/BeautifulSoup/bs4/;
+      homepage = "http://crummy.com/software/BeautifulSoup/bs4/";
       description = "HTML and XML parser";
       license = licenses.mit;
       maintainers = with maintainers; [ iElectric ];
@@ -1602,7 +1602,7 @@ in modules // {
     propagatedBuildInputs = [ self.requests2 ];
 
     meta = with stdenv.lib; {
-      homepage = https://betamax.readthedocs.org/en/latest/;
+      homepage = "https://betamax.readthedocs.org/en/latest/";
       description = "A VCR imitation for requests";
       license = licenses.asl20;
       maintainers = with maintainers; [ pSub ];
@@ -1621,7 +1621,7 @@ in modules // {
     buildInputs = with self; [ betamax requests_toolbelt ];
 
     meta = with stdenv.lib; {
-      homepage = https://github.com/sigmavirus24/betamax_matchers;
+      homepage = "https://github.com/sigmavirus24/betamax_matchers";
       description = "A group of experimental matchers for Betamax";
       license = licenses.asl20;
       maintainers = with maintainers; [ pSub ];
@@ -1651,7 +1651,7 @@ in modules // {
         that package.
       '';
 
-      homepage = https://github.com/skarra/CalDAVClientLibrary/tree/asynkdev/;
+      homepage = "https://github.com/skarra/CalDAVClientLibrary/tree/asynkdev/";
       maintainers = with maintainers; [ pjones ];
     };
   };
@@ -1679,7 +1679,7 @@ in modules // {
         copies of identical files share space on disk. It integrates deeply with btrfs so that scans
         are incremental and low-impact.
       '';
-      homepage = https://github.com/g2p/bedup;
+      homepage = "https://github.com/g2p/bedup";
       license = licenses.gpl2;
 
       platforms = platforms.linux;
@@ -1705,7 +1705,7 @@ in modules // {
         Sources and destinations can be local btrfs file systems, remote btrfs
         file systems over SSH, or S3 buckets.
       '';
-      homepage = https://github.com/AmesCornish/buttersink/wiki;
+      homepage = "https://github.com/AmesCornish/buttersink/wiki";
       license = licenses.gpl3;
       platforms = platforms.linux;
       maintainers = with maintainers; [ nckx ];
@@ -1761,7 +1761,7 @@ in modules // {
 
     meta = {
       description = "Log formatting with colors";
-      homepage = https://github.com/borntyping/python-colorlog;
+      homepage = "https://github.com/borntyping/python-colorlog";
       license = licenses.free; # BSD-like
     };
   };
@@ -1780,7 +1780,7 @@ in modules // {
 
     meta = {
       description = "Converts and manipulates common color representation (RGB, HSV, web, ...)";
-      homepage = https://github.com/vaab/colour;
+      homepage = "https://github.com/vaab/colour";
       license = licenses.bsd2;
     };
   };
@@ -1789,7 +1789,7 @@ in modules // {
     name = "cornice-${version}";
     version = "0.17.0";
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla-services/cornice.git;
+      url = "https://github.com/mozilla-services/cornice.git";
       rev = "refs/tags/${version}";
       sha256 = "12yrcsv1sdl5w308y1cc939ppq7pi2490s54zfcbs481cvsyr1lg";
     };
@@ -1845,7 +1845,7 @@ in modules // {
 
     meta = {
       description = "Composable style cycles";
-      homepage = http://github.com/matplotlib/cycler;
+      homepage = "http://github.com/matplotlib/cycler";
       license = licenses.bsd3;
       maintainers = with maintainers; [ fridh ];
     };
@@ -1866,7 +1866,7 @@ in modules // {
     meta = {
       description = "The Datadog Python library ";
       license = licenses.bsd3;
-      homepage = https://github.com/DataDog/datadogpy;
+      homepage = "https://github.com/DataDog/datadogpy";
     };
   };
 
@@ -1913,7 +1913,7 @@ in modules // {
 
     meta = {
       description = "Platform-independent module for I/O completion events";
-      homepage = https://launchpad.net/python-iowait;
+      homepage = "https://launchpad.net/python-iowait";
     };
   };
 
@@ -1941,7 +1941,7 @@ in modules // {
 
     meta = {
       description = "rarfile - RAR archive reader for Python";
-      homepage = https://github.com/markokr/rarfile;
+      homepage = "https://github.com/markokr/rarfile";
     };
   };
 
@@ -1958,7 +1958,7 @@ in modules // {
 
     meta = {
       description = "A Python test framework that extends Python's built-in unittest module and Nose with features from TestNG";
-      homepage = https://github.com/rackspace/python-proboscis;
+      homepage = "https://github.com/rackspace/python-proboscis";
       license = licenses.asl20;
     };
   };
@@ -1973,7 +1973,7 @@ in modules // {
 
     meta = {
       description = "Tap into The Echo Nest's Musical Brain for the best music search, information, recommendations and remix tools on the web";
-      homepage = https://github.com/echonest/pyechonest;
+      homepage = "https://github.com/echonest/pyechonest";
     };
   };
 
@@ -1992,7 +1992,7 @@ in modules // {
     buildInputs = with self; [ nose unittest2 mock ];
 
     meta = {
-      homepage = https://github.com/celery/billiard;
+      homepage = "https://github.com/celery/billiard";
       description = "Python multiprocessing fork with improvements and bugfixes";
       license = licenses.bsd3;
     };
@@ -2013,7 +2013,7 @@ in modules // {
     propagatedBuildInputs = with self; [ chardet ];
 
     meta = {
-      homepage = https://github.com/audreyr/binaryornot;
+      homepage = "https://github.com/audreyr/binaryornot";
       description = "Ultra-lightweight pure Python package to check if a file is binary or text";
       license = licenses.bsd3;
     };
@@ -2033,7 +2033,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = https://github.com/Sheeprider/BitBucket-api;
+      homepage = "https://github.com/Sheeprider/BitBucket-api";
       description = "Python library to interact with BitBucket REST API";
       license = licenses.mit;
     };
@@ -2069,7 +2069,7 @@ in modules // {
 
     meta = {
       description = "Module for binary data manipulation";
-      homepage = https://code.google.com/p/python-bitstring/;
+      homepage = "https://code.google.com/p/python-bitstring/";
       license = licenses.mit;
       platforms = platforms.linux;
       maintainers = with maintainers; [ bjornfor ];
@@ -2111,7 +2111,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://github.com/ContinuumIO/blaze;
+      homepage = "https://github.com/ContinuumIO/blaze";
       description = "Allows Python users a familiar interface to query data living in other data storage systems";
       license = licenses.bsdOriginal;
       maintainers = with maintainers; [ fridh ];
@@ -2143,7 +2143,7 @@ in modules // {
         to do lots of things, you're probably outside the use cases. Either
         trust those users, or don't.
       '';
-      homepage = https://github.com/jsocol/bleach;
+      homepage = "https://github.com/jsocol/bleach";
       downloadPage = https://github.com/jsocol/bleach/releases;
       license = licenses.asl20;
       maintainers = with maintainers; [ prikhi ];
@@ -2161,7 +2161,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://pythonhosted.org/blinker/;
+      homepage = "http://pythonhosted.org/blinker/";
       description = "Fast, simple object-to-object and broadcast signaling";
       license = licenses.mit;
       maintainers = with maintainers; [ garbas ];
@@ -2188,7 +2188,7 @@ in modules // {
 
     meta = {
       description = "Generate block-diagram image from spec-text file (similar to Graphviz)";
-      homepage = http://blockdiag.com/;
+      homepage = "http://blockdiag.com/";
       license = licenses.asl20;
       platforms = platforms.linux;
       maintainers = with maintainers; [ bjornfor ];
@@ -2237,7 +2237,7 @@ in modules // {
 
     meta = {
       description = "Python bindings for Oracle Berkeley DB";
-      homepage = http://www.jcea.es/programacion/pybsddb.htm;
+      homepage = "http://www.jcea.es/programacion/pybsddb.htm";
       license = with licenses; [ agpl3 ]; # License changed from bsd3 to agpl3 since 6.x
     };
   };
@@ -2298,7 +2298,7 @@ in modules // {
     propagatedBuildInputs = [ self.requests2 self.httpretty ];
 
     meta = {
-      homepage = https://github.com/boto/boto;
+      homepage = "https://github.com/boto/boto";
 
       license = "bsd";
 
@@ -2335,7 +2335,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = https://github.com/boto3/boto;
+      homepage = "https://github.com/boto3/boto";
 
       license = stdenv.lib.licenses.asl20;
 
@@ -2374,7 +2374,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = https://github.com/boto/botocore;
+      homepage = "https://github.com/boto/botocore";
       license = "bsd";
       description = "A low-level interface to a growing number of Amazon Web Services";
     };
@@ -2392,7 +2392,7 @@ in modules // {
     propagatedBuildInputs = with self; [ setuptools ];
 
     meta = {
-      homepage = http://bottlepy.org;
+      homepage = "http://bottlepy.org";
       description = "A fast and simple micro-framework for small web-applications";
       license = licenses.mit;
       platforms = platforms.all;
@@ -2415,7 +2415,7 @@ in modules // {
     propagatedBuildInputs = [ pkgs.swig2 pkgs.box2d ];
 
     meta = {
-      homepage = https://code.google.com/p/pybox2d/;
+      homepage = "https://code.google.com/p/pybox2d/";
       description = ''
         A 2D game physics library for Python under
         the very liberal zlib license
@@ -2446,7 +2446,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage =  http://github.com/ralphbean/bugwarrior;
+      homepage =  "http://github.com/ralphbean/bugwarrior";
       description = "Sync github, bitbucket, bugzilla, and trac issues with taskwarrior";
       license = licenses.gpl3Plus;
       platforms = platforms.all;
@@ -2467,7 +2467,7 @@ in modules // {
   #   doCheck = false;
   #
   #   meta = {
-  #     homepage = http://www.liquidx.net/pybugz/;
+  #     homepage = "http://www.liquidx.net/pybugz/";
   #     description = "Command line interface for Bugzilla";
   #   };
   # });
@@ -2493,7 +2493,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://fedorahosted.org/python-bugzilla/;
+      homepage = "https://fedorahosted.org/python-bugzilla/";
       description = "Bugzilla XMLRPC access module";
       license = licenses.gpl2;
       platforms = platforms.all;
@@ -2516,7 +2516,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = https://github.com/mgedmin/check-manifest;
+      homepage = "https://github.com/mgedmin/check-manifest";
       description = "Check MANIFEST.in in a Python source package for completeness";
       license = licenses.mit;
       maintainers = with maintainers; [ lewo ];
@@ -2535,7 +2535,7 @@ in modules // {
     propagatedBuildInputs = [ self.requests2 self.py ];
 
     meta = {
-      homepage = https://bitbucket.org/hpk42/devpi;
+      homepage = "https://bitbucket.org/hpk42/devpi";
       description = "Utilities jointly used by devpi-server and devpi-client";
       license = licenses.mit;
       maintainers = with maintainers; [ lewo ];
@@ -2688,7 +2688,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://github.com/SimonSapin/cairocffi;
+      homepage = "https://github.com/SimonSapin/cairocffi";
       license = "bsd";
       description = "cffi-based cairo bindings for Python";
     };
@@ -2707,7 +2707,7 @@ in modules // {
     propagatedBuildInputs = with self; [ cairocffi ];
 
     meta = {
-      homepage = https://cairosvg.org;
+      homepage = "https://cairosvg.org";
       license = licenses.lgpl3;
       description = "SVG converter based on Cairo";
     };
@@ -2732,7 +2732,7 @@ in modules // {
     doCheck = false; # depends on the network
 
     meta = {
-      homepage = http://pypi.python.org/pypi/carrot;
+      homepage = "http://pypi.python.org/pypi/carrot";
       description = "AMQP Messaging Framework for Python";
     };
   };
@@ -2755,7 +2755,7 @@ in modules // {
     ];
 
     meta = {
-      homepage = http://datastax.github.io/python-driver/;
+      homepage = "http://datastax.github.io/python-driver/";
       description = "A Python client driver for Apache Cassandra";
     };
   };
@@ -2771,7 +2771,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://cddb-py.sourceforge.net/;
+      homepage = "http://cddb-py.sourceforge.net/";
       description = "CDDB and FreeDB audio CD track info access";
       license = licenses.gpl2Plus;
     };
@@ -2797,7 +2797,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://github.com/celery/celery/;
+      homepage = "https://github.com/celery/celery/";
       description = "Distributed task queue";
       license = licenses.bsd3;
     };
@@ -2813,7 +2813,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://python-cerberus.org/;
+      homepage = "http://python-cerberus.org/";
       description = "Lightweight, extensible schema and data validation tool for Python dictionaries";
       license = licenses.mit;
     };
@@ -2829,7 +2829,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://certifi.io/;
+      homepage = "http://certifi.io/";
       description = "Python package for providing Mozilla's CA Bundle";
       license = licenses.isc;
       maintainers = with maintainers; [ koral ];
@@ -2847,7 +2847,7 @@ in modules // {
 
     meta = {
       description = "Python attributes without boilerplate";
-      homepage = https://characteristic.readthedocs.org;
+      homepage = "https://characteristic.readthedocs.org";
     };
   };
 
@@ -2865,7 +2865,7 @@ in modules // {
     propagatedBuildInputs = with self; [ self.markdown ];
 
     meta = {
-      homepage = http://www.cheetahtemplate.org/;
+      homepage = "http://www.cheetahtemplate.org/";
       description = "A template engine and code generation tool";
     };
   };
@@ -2928,7 +2928,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = https://github.com/ncrocfer/clf;
+      homepage = "https://github.com/ncrocfer/clf";
       description = "Command line tool to search snippets on Commandlinefu.com";
       license = licenses.mit;
       maintainers = with maintainers; [ koral ];
@@ -2953,7 +2953,7 @@ in modules // {
     doCheck = !isPy3k;
 
     meta = {
-      homepage = http://click.pocoo.org/;
+      homepage = "http://click.pocoo.org/";
       description = "Create beautiful command line interfaces in Python";
       longDescription = ''
         A Python package for creating beautiful command line interfaces in a
@@ -2973,7 +2973,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://click.pocoo.org/;
+      homepage = "http://click.pocoo.org/";
       description = "Create beautiful command line interfaces in Python";
       longDescription = ''
         A Python package for creating beautiful command line interfaces in a
@@ -2996,7 +2996,7 @@ in modules // {
     propagatedBuildInputs = with self; [ click ];
 
     meta = {
-      homepage = https://github.com/click-contrib/click-log/;
+      homepage = "https://github.com/click-contrib/click-log/";
       description = "Logging integration for Click";
       license = licenses.mit;
       maintainers = with maintainers; [ DamienCassou ];
@@ -3015,7 +3015,7 @@ in modules // {
     propagatedBuildInputs = with self; [ click ];
 
     meta = {
-      homepage = https://github.com/click-contrib/click-threading/;
+      homepage = "https://github.com/click-contrib/click-threading/";
       description = "Multithreaded Click apps made easy";
       license = licenses.mit;
       maintainers = with maintainers; [ DamienCassou ];
@@ -3033,7 +3033,7 @@ in modules // {
     buildInputs = with self; [ self.mock self.nose self.decorator ];
 
     meta = {
-      homepage = http://code.google.com/p/clepy/;
+      homepage = "http://code.google.com/p/clepy/";
       description = "Utilities created by the Cleveland Python users group";
     };
   };
@@ -3049,7 +3049,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://wwwsearch.sourceforge.net/ClientForm/;
+      homepage = "http://wwwsearch.sourceforge.net/ClientForm/";
 
       license = "bsd";
 
@@ -3077,7 +3077,7 @@ in modules // {
 
     meta = {
       description = "Extended pickling support for Python objects";
-      homepage = https://github.com/cloudpipe/cloudpickle;
+      homepage = "https://github.com/cloudpipe/cloudpickle";
       license = with licenses; [ bsd3 ];
     };
   };
@@ -3097,7 +3097,7 @@ in modules // {
 
     meta = {
       description = "A code generator for executing Python snippets in source files";
-      homepage    = http://nedbatchelder.com/code/cog;
+      homepage    = "http://nedbatchelder.com/code/cog";
       license     = licenses.mit;
       maintainers = with maintainers; [ lovek323 ];
       platforms   = platforms.unix;
@@ -3115,7 +3115,7 @@ in modules // {
     };
 
     meta = {
-      homepage = https://github.com/tartley/colorama;
+      homepage = "https://github.com/tartley/colorama";
       license = "bsd";
       description = "Cross-platform colored terminal text";
     };
@@ -3140,7 +3140,7 @@ in modules // {
 
     meta = {
       description = "Python parser for the CommonMark Markdown spec";
-      homepage = https://github.com/rolandshoemaker/CommonMark-py;
+      homepage = "https://github.com/rolandshoemaker/CommonMark-py";
       license = licenses.bsd3;
     };
   };
@@ -3176,7 +3176,7 @@ in modules // {
 
     meta = {
       description = "Simple, lightweight, and easily extensible STOMP message broker";
-      homepage = http://code.google.com/p/coilmq/;
+      homepage = "http://code.google.com/p/coilmq/";
       license = licenses.asl20;
     };
   });
@@ -3235,7 +3235,7 @@ in modules // {
 
     meta = {
       description = "Autogenerate Colander schemas based on SQLAlchemy models";
-      homepage = https://github.com/stefanofontanelli/ColanderAlchemy;
+      homepage = "https://github.com/stefanofontanelli/ColanderAlchemy";
       license = licenses.mit;
     };
   };
@@ -3256,7 +3256,7 @@ in modules // {
 
     meta = {
       description = "Config file reading, writing and validation";
-      homepage = http://pypi.python.org/pypi/configobj;
+      homepage = "http://pypi.python.org/pypi/configobj";
       license = licenses.bsd3;
       maintainers = with maintainers; [ garbas ];
     };
@@ -3298,7 +3298,7 @@ in modules // {
 
     meta = {
       description = "Powerful declarative parser (and builder) for binary data";
-      homepage = http://construct.readthedocs.org/;
+      homepage = "http://construct.readthedocs.org/";
       license = licenses.mit;
       platforms = platforms.linux;
       maintainers = with maintainers; [ bjornfor ];
@@ -3318,7 +3318,7 @@ in modules // {
 
     meta = {
       description = "Python client for Consul (http://www.consul.io/)";
-      homepage = https://github.com/cablehead/python-consul;
+      homepage = "https://github.com/cablehead/python-consul";
       license = licenses.mit;
       maintainers = with maintainers; [ desiderius ];
     };
@@ -3351,7 +3351,7 @@ in modules // {
           jinja2 future binaryornot click whichcraft ruamel_yaml ];
 
     meta = {
-      homepage = https://github.com/audreyr/cookiecutter;
+      homepage = "https://github.com/audreyr/cookiecutter";
       description = "A command-line utility that creates projects from project templates";
       license = licenses.bsd3;
       maintainers = with maintainers; [ kragniz ];
@@ -3370,7 +3370,7 @@ in modules // {
 
     meta = {
       description = "Friendlier RFC 6265-compliant cookie parser/renderer";
-      homepage = https://github.com/sashahart/cookies;
+      homepage = "https://github.com/sashahart/cookies";
       license = licenses.mit;
     };
   };
@@ -3389,7 +3389,7 @@ in modules // {
 
     meta = {
       description = "Code coverage measurement for python";
-      homepage = http://nedbatchelder.com/code/coverage/;
+      homepage = "http://nedbatchelder.com/code/coverage/";
       license = licenses.bsd3;
     };
   };
@@ -3409,12 +3409,12 @@ in modules // {
   crcmod = buildPythonPackage rec {
     name = "crcmod-1.7";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/c/crcmod/crcmod-1.7.tar.gz;
+      url = "https://pypi.python.org/packages/source/c/crcmod/crcmod-1.7.tar.gz";
       sha256 = "07k0hgr42vw2j92cln3klxka81f33knd7459cn3d8aszvfh52w6w";
     };
     meta = {
       description = "Python module for generating objects that compute the Cyclic Redundancy Check (CRC)";
-      homepage = http://crcmod.sourceforge.net/;
+      homepage = "http://crcmod.sourceforge.net/";
       license = licenses.mit;
     };
   };
@@ -3439,7 +3439,7 @@ in modules // {
     meta = {
       description = "An optimising static compiler for both the Python programming language and the extended Cython programming language";
       platforms = platforms.all;
-      homepage = http://cython.org;
+      homepage = "http://cython.org";
       license = licenses.asl20;
       maintainers = with maintainers; [ fridh ];
     };
@@ -3616,7 +3616,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://github.com/openstack/python-novaclient/;
+      homepage = "https://github.com/openstack/python-novaclient/";
       description = "Client library and command line tool for the OpenStack Nova API";
       license = stdenv.lib.licenses.asl20;
       platforms = stdenv.lib.platforms.linux;
@@ -3728,7 +3728,7 @@ in modules // {
 
     meta = with stdenv.lib; {
       description = "Computer vision package based on numpy";
-      homepage = https://readthedocs.org/projects/mahotas/;
+      homepage = "https://readthedocs.org/projects/mahotas/";
       maintainers = with maintainers; [ luispedro ];
       license = licenses.mit;
       platforms = platforms.linux;
@@ -3745,7 +3745,7 @@ in modules // {
 
     meta = {
       description = "A simple SQLite3-based store for Python objects";
-      homepage = https://thp.io/2010/minidb/;
+      homepage = "https://thp.io/2010/minidb/";
       license = stdenv.lib.licenses.isc;
       maintainers = [ stdenv.lib.maintainers.tv ];
     };
@@ -3766,7 +3766,7 @@ in modules // {
     checkPhase = "py.test tests.py";
 
     meta = {
-      homepage = https://github.com/mixpanel/mixpanel-python;
+      homepage = "https://github.com/mixpanel/mixpanel-python";
       description = "This is the official Mixpanel Python library. This library
                      allows for server-side integration of Mixpanel.";
       license = stdenv.lib.licenses.asl20;
@@ -3786,7 +3786,7 @@ in modules // {
     doCheck = false; # I don't know why, but with doCheck = true it fails.
 
     meta = {
-      homepage = https://pypi.python.org/pypi/pkginfo;
+      homepage = "https://pypi.python.org/pypi/pkginfo";
       license = licenses.mit;
       description = "Query metadatdata from sdists / bdists / installed packages.";
 
@@ -3810,7 +3810,7 @@ in modules // {
     };
 
     meta = {
-      homepage = https://github.com/alex/pretend;
+      homepage = "https://github.com/alex/pretend";
       license = licenses.bsd3;
     };
   };
@@ -3828,7 +3828,7 @@ in modules // {
 
     meta = {
       description = "What is detox?";
-      homepage = http://bitbucket.org/hpk42/detox;
+      homepage = "http://bitbucket.org/hpk42/detox";
     };
   };
 
@@ -3863,7 +3863,7 @@ in modules // {
       maintainers = with maintainers; [ iElectric ];
       description = "Modern password hashing for your software and your servers";
       license = licenses.asl20;
-      homepage = https://github.com/pyca/bcrypt/;
+      homepage = "https://github.com/pyca/bcrypt/";
     };
   };
 
@@ -3899,7 +3899,7 @@ in modules // {
 
     meta = {
       description = "Python library for reading and writing collada documents";
-      homepage = http://pycollada.github.io/;
+      homepage = "http://pycollada.github.io/";
       license = "BSD"; # they don't specify which BSD variant
       platforms = with platforms; linux ++ darwin;
       maintainers = with maintainers; [ bjornfor ];
@@ -3920,7 +3920,7 @@ in modules // {
 
     meta = {
       description = "C parser in Python";
-      homepage = https://github.com/eliben/pycparser;
+      homepage = "https://github.com/eliben/pycparser";
       license = licenses.bsd3;
       maintainers = with maintainers; [ iElectric ];
     };
@@ -4022,7 +4022,7 @@ in modules // {
      propagatedBuildInputs = with self ; [ pytest pep257 ];
 
      meta = {
-       homepage = https://github.com/anderslime/pytest-pep257;
+       homepage = "https://github.com/anderslime/pytest-pep257";
        description = "py.test plugin for PEP257";
        license = licenses.mit;
      };
@@ -4047,7 +4047,7 @@ in modules // {
 
     meta = {
       description = "Simple pytest plugin to look for regex in Exceptions";
-      homepage = https://github.com/Walkman/pytest_raisesregexp;
+      homepage = "https://github.com/Walkman/pytest_raisesregexp";
       license = with licenses; [ mit ];
     };
   };
@@ -4065,7 +4065,7 @@ in modules // {
 
     meta = {
       description = "Invoke py.test as distutils command with dependency resolution";
-      homepage = https://bitbucket.org/pytest-dev/pytest-runner;
+      homepage = "https://bitbucket.org/pytest-dev/pytest-runner";
       license = licenses.mit;
     };
 
@@ -4102,7 +4102,7 @@ in modules // {
 
     meta = {
       description = "plugin for coverage reporting with support for both centralised and distributed testing, including subprocesses and multiprocessing";
-      homepage = https://github.com/schlamar/pytest-cov;
+      homepage = "https://github.com/schlamar/pytest-cov";
       license = licenses.mit;
     };
   });
@@ -4120,7 +4120,7 @@ in modules // {
 
     meta = {
       description = "py.test xdist plugin for distributed testing and loop-on-failing modes";
-      homepage = http://bitbucket.org/hpk42/pytest-xdist;
+      homepage = "http://bitbucket.org/hpk42/pytest-xdist";
     };
   };
 
@@ -4148,7 +4148,7 @@ in modules // {
     meta = {
       description = "complete yet simple CSS parser for Python";
       license = licenses.bsd3;
-      homepage = http://pythonhosted.org/tinycss/;
+      homepage = "http://pythonhosted.org/tinycss/";
     };
   };
 
@@ -4168,7 +4168,7 @@ in modules // {
     name = "cssutils-0.9.9";
 
     src = pkgs.fetchurl {
-      url = http://pypi.python.org/packages/source/c/cssutils/cssutils-0.9.9.zip;
+      url = "http://pypi.python.org/packages/source/c/cssutils/cssutils-0.9.9.zip";
       sha256 = "139yfm9yz9k33kgqw4khsljs10rkhhxyywbq9i82bh2r31cil1pp";
     };
 
@@ -4180,7 +4180,7 @@ in modules // {
     meta = {
       description = "A Python package to parse and build CSS";
 
-      homepage = http://code.google.com/p/cssutils/;
+      homepage = "http://code.google.com/p/cssutils/";
 
       license = licenses.lgpl3Plus;
     };
@@ -4208,7 +4208,7 @@ in modules // {
     meta = {
       description = "Darcsver, generate a version number from Darcs history";
 
-      homepage = http://pypi.python.org/pypi/darcsver;
+      homepage = "http://pypi.python.org/pypi/darcsver";
 
       license = "BSD-style";
     };
@@ -4258,7 +4258,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://github.com/ContinuumIO/datashape;
+      homepage = "https://github.com/ContinuumIO/datashape";
       description = "A data description language";
       license = licenses.bsd2;
       maintainers = with maintainers; [ fridh ];
@@ -4281,7 +4281,7 @@ in modules // {
 
     meta = {
       description = "Persistent cache for requests library";
-      homepage = http://pypi.python.org/pypi/requests-cache;
+      homepage = "http://pypi.python.org/pypi/requests-cache";
       license = licenses.bsd3;
     };
   });
@@ -4299,7 +4299,7 @@ in modules // {
 
     meta = {
       description = "Instant coding answers via the command line";
-      homepage = http://pypi.python.org/pypi/howdoi;
+      homepage = "http://pypi.python.org/pypi/howdoi";
       license = licenses.mit;
     };
   });
@@ -4326,7 +4326,7 @@ in modules // {
 
     meta = {
       description = "Parameterized testing with any Python test framework";
-      homepage = http://pypi.python.org/pypi/nose-parameterized;
+      homepage = "http://pypi.python.org/pypi/nose-parameterized";
       license = licenses.bsd3;
     };
   });
@@ -4344,7 +4344,7 @@ in modules // {
 
     meta = {
       description = "Jalali datetime binding for python";
-      homepage = http://pypi.python.org/pypi/jdatetime;
+      homepage = "http://pypi.python.org/pypi/jdatetime";
       license = licenses.psfl;
     };
   });
@@ -4371,7 +4371,7 @@ in modules // {
 
     meta = {
       description = "Date parsing library designed to parse dates from HTML pages";
-      homepage = http://pypi.python.org/pypi/dateparser;
+      homepage = "http://pypi.python.org/pypi/dateparser";
       license = licenses.bsd3;
     };
   };
@@ -4389,7 +4389,7 @@ in modules // {
 
     meta = {
       description = "Powerful extensions to the standard datetime module";
-      homepage = http://pypi.python.org/pypi/python-dateutil;
+      homepage = "http://pypi.python.org/pypi/python-dateutil";
       license = "BSD-style";
     };
   });
@@ -4409,7 +4409,7 @@ in modules // {
 
     meta = {
       description = "Powerful extensions to the standard datetime module";
-      homepage = http://pypi.python.org/pypi/python-dateutil;
+      homepage = "http://pypi.python.org/pypi/python-dateutil";
       license = "BSD-style";
     };
   });
@@ -4431,7 +4431,7 @@ in modules // {
 
     meta = {
       description = "Powerful extensions to the standard datetime module";
-      homepage = http://pypi.python.org/pypi/python-dateutil;
+      homepage = "http://pypi.python.org/pypi/python-dateutil";
       license = "BSD-style";
     };
   });
@@ -4453,7 +4453,7 @@ in modules // {
     meta = {
       description = "Unix de-duplicating archiver";
       license = licenses.gpl3;
-      homepage = https://github.com/basak/ddar;
+      homepage = "https://github.com/basak/ddar";
     };
   };
 
@@ -4467,7 +4467,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://pypi.python.org/pypi/decorator;
+      homepage = "http://pypi.python.org/pypi/decorator";
       description = "Better living through Python with decorators";
       license = licenses.mit;
     };
@@ -4568,7 +4568,7 @@ in modules // {
 
     meta = {
       description = "Encoder/decoder and lint/validator for JSON (JavaScript Object Notation)";
-      homepage = http://deron.meranda.us/python/demjson/;
+      homepage = "http://deron.meranda.us/python/demjson/";
       license = licenses.lgpl3Plus;
       maintainers = with maintainers; [ bjornfor ];
       platforms = platforms.all;
@@ -4587,7 +4587,7 @@ in modules // {
 
     meta = {
       description = "derpconf abstracts loading configuration files for your app";
-      homepage = https://github.com/globocom/derpconf;
+      homepage = "https://github.com/globocom/derpconf";
       license = licenses.mit;
     };
   };
@@ -4620,7 +4620,7 @@ in modules // {
 
     meta = {
       description = "integrates an Android device into a desktop";
-      homepage = https://github.com/screenfreeze/deskcon-desktop;
+      homepage = "https://github.com/screenfreeze/deskcon-desktop";
       license = licenses.gpl3;
     };
   };
@@ -4642,7 +4642,7 @@ in modules // {
 
     meta = {
       description = "Serialize all of python (almost)";
-      homepage = http://www.cacr.caltech.edu/~mmckerns/dill.htm;
+      homepage = "http://www.cacr.caltech.edu/~mmckerns/dill.htm";
       license = licenses.bsd3;
     };
   };
@@ -4678,7 +4678,7 @@ in modules // {
 
     meta = {
       description = "A DNS toolkit for Python 3.x";
-      homepage = http://www.dnspython.org;
+      homepage = "http://www.dnspython.org";
       # BSD-like, check http://www.dnspython.org/LICENSE for details
       license = licenses.free;
     };
@@ -4699,7 +4699,7 @@ in modules // {
 
     meta = {
       description = "An API client for docker written in Python";
-      homepage = https://github.com/docker/docker-py;
+      homepage = "https://github.com/docker/docker-py";
       license = licenses.asl20;
     };
   };
@@ -4716,7 +4716,7 @@ in modules // {
 
     meta = {
       description = "Functionality needed to operate the pseudo-tty (PTY) allocated to a docker container";
-      homepage = https://github.com/d11wtq/dockerpty;
+      homepage = "https://github.com/d11wtq/dockerpty";
       license = licenses.asl20;
     };
   };
@@ -4741,7 +4741,7 @@ in modules // {
 
     meta = {
       description = "Docker registry core package";
-      homepage = https://github.com/docker/docker-registry;
+      homepage = "https://github.com/docker/docker-registry";
       license = licenses.asl20;
     };
   };
@@ -4772,7 +4772,7 @@ in modules // {
 
     meta = {
       description = "Docker registry core package";
-      homepage = https://github.com/docker/docker-registry;
+      homepage = "https://github.com/docker/docker-registry";
       license = licenses.asl20;
     };
   };
@@ -4787,7 +4787,7 @@ in modules // {
 
     meta = {
       description = "Pythonic argument parser, that will make you smile";
-      homepage = http://docopt.org/;
+      homepage = "http://docopt.org/";
       license = licenses.mit;
     };
   };
@@ -4806,7 +4806,7 @@ in modules // {
     meta = {
       description = "Add flag to ignore unicode literal prefixes in doctests";
       license = with licenses; [ asl20 ];
-      homepage = http://github.com/gnublade/doctest-ignore-unicode;
+      homepage = "http://github.com/gnublade/doctest-ignore-unicode";
     };
   };
 
@@ -4824,7 +4824,7 @@ in modules // {
 
     meta = {
       description = "A caching front-end based on the Dogpile lock";
-      homepage = http://bitbucket.org/zzzeek/dogpile.cache;
+      homepage = "http://bitbucket.org/zzzeek/dogpile.cache";
       license = licenses.bsd3;
     };
   };
@@ -4841,7 +4841,7 @@ in modules // {
 
     meta = {
       description = "A 'dogpile' lock, typically used as a component of a larger caching solution";
-      homepage = http://bitbucket.org/zzzeek/dogpile.core;
+      homepage = "http://bitbucket.org/zzzeek/dogpile.core";
       license = licenses.bsd3;
     };
   };
@@ -4858,7 +4858,7 @@ in modules // {
 
     meta = {
       description = "Easily manage your dotfiles";
-      homepage = https://github.com/jbernard/dotfiles;
+      homepage = "https://github.com/jbernard/dotfiles";
       license = licenses.isc;
     };
   };
@@ -4899,7 +4899,7 @@ in modules // {
 
     meta = {
       description = "Fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols";
-      homepage = https://code.google.com/p/dpkt/;
+      homepage = "https://code.google.com/p/dpkt/";
       license = licenses.bsd3;
       maintainers = with maintainers; [ bjornfor ];
       platforms = platforms.all;
@@ -4935,7 +4935,7 @@ in modules // {
 
     meta = {
       description = "A Python library for Dropbox's HTTP-based Core and Datastore APIs";
-      homepage = https://www.dropbox.com/developers/core/docs;
+      homepage = "https://www.dropbox.com/developers/core/docs";
       license = licenses.mit;
     };
   };
@@ -4955,7 +4955,7 @@ in modules // {
 
     meta = {
       description = "A Python library for Dropbox's HTTP-based Core and Datastore APIs";
-      homepage = https://www.dropbox.com/developers/core/docs;
+      homepage = "https://www.dropbox.com/developers/core/docs";
       license = licenses.mit;
     };
   };
@@ -5020,7 +5020,7 @@ in modules // {
 
     meta = {
       description = "Official low-level client for Elasticsearch";
-      homepage = https://github.com/elasticsearch/elasticsearch-py;
+      homepage = "https://github.com/elasticsearch/elasticsearch-py";
       license = licenses.asl20;
       maintainers = with maintainers; [ desiderius ];
     };
@@ -5043,7 +5043,7 @@ in modules // {
 
     meta = {
       description = "Python client for Elasticsearch";
-      homepage = https://github.com/elasticsearch/elasticsearch-dsl-py;
+      homepage = "https://github.com/elasticsearch/elasticsearch-dsl-py";
       license = licenses.asl20;
       maintainers = with maintainers; [ desiderius ];
     };
@@ -5068,7 +5068,7 @@ in modules // {
 
     meta = {
       description = "Provides bindings to the generic input event interface in Linux";
-      homepage = http://pythonhosted.org/evdev;
+      homepage = "http://pythonhosted.org/evdev";
       license = licenses.bsd3;
       maintainers = with maintainers; [ goibhniu ];
       platforms = platforms.linux;
@@ -5169,7 +5169,7 @@ in modules // {
 
     meta = {
       description = "A Python module and command line program for processing ID3 tags";
-      homepage    = http://eyed3.nicfit.net/;
+      homepage    = "http://eyed3.nicfit.net/";
       license     = licenses.gpl2;
       maintainers = with maintainers; [ lovek323 ];
       platforms   = platforms.unix;
@@ -5212,7 +5212,7 @@ in modules // {
 
     meta = with pkgs.stdenv.lib; {
       description = "Client library that supports the Facebook Graph API and the official Facebook JavaScript SDK";
-      homepage = https://github.com/pythonforfacebook/facebook-sdk;
+      homepage = "https://github.com/pythonforfacebook/facebook-sdk";
       license = licenses.asl20 ;
     };
   };
@@ -5221,13 +5221,13 @@ in modules // {
     name = "faker-0.0.4";
     disabled = isPy3k;
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/F/Faker/Faker-0.0.4.tar.gz;
+      url = "https://pypi.python.org/packages/source/F/Faker/Faker-0.0.4.tar.gz";
       sha256 = "09q5jna3j8di0gw5yjx0dvlndkrk2x9vvqzwyfsvg3nlp8h38js1";
     };
     buildInputs = with self; [ nose ];
     meta = {
       description = "A Python library for generating fake user data";
-      homepage    = http://pypi.python.org/pypi/Faker;
+      homepage    = "http://pypi.python.org/pypi/Faker";
       license     = licenses.mit;
       maintainers = with maintainers; [ lovek323 ];
       platforms   = platforms.unix;
@@ -5237,12 +5237,12 @@ in modules // {
   fake_factory = buildPythonPackage rec {
     name = "fake-factory-0.2";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/f/fake-factory/fake-factory-0.2.tar.gz;
+      url = "https://pypi.python.org/packages/source/f/fake-factory/fake-factory-0.2.tar.gz";
       sha256 = "0qdmk8p4anrj9mf95dh9v7bkhv1pz69hvhlw380kj4iz7b44b6zn";
     };
     meta = {
       description = "A Python package that generates fake data for you";
-      homepage    = https://pypi.python.org/pypi/fake-factory;
+      homepage    = "https://pypi.python.org/pypi/fake-factory";
       license     = licenses.mit;
       maintainers = with maintainers; [ lovek323 ];
       platforms   = platforms.unix;
@@ -5300,7 +5300,7 @@ in modules // {
     };
 
     meta = {
-      homepage = https://github.com/slezica/python-frozendict;
+      homepage = "https://github.com/slezica/python-frozendict";
       description = "An immutable dictionary";
       license = stdenv.lib.licenses.mit;
     };
@@ -5319,7 +5319,7 @@ in modules // {
 
     meta = {
       description = "High-level FTP client library (virtual file system and more)";
-      homepage    = https://pypi.python.org/pypi/ftputil;
+      homepage    = "https://pypi.python.org/pypi/ftputil";
       platforms   = platforms.linux;
       license     = licenses.bsd2; # "Modified BSD licence, says pypi"
     };
@@ -5367,7 +5367,7 @@ in modules // {
 
     meta = {
       description = "Recursive descent parsing library based on functional combinators";
-      homepage = https://code.google.com/p/funcparserlib/;
+      homepage = "https://code.google.com/p/funcparserlib/";
       license = licenses.mit;
       platforms = platforms.linux;
     };
@@ -5384,7 +5384,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://docs.python.org/3/library/functools.html;
+      homepage = "http://docs.python.org/3/library/functools.html";
     };
   };
 
@@ -5415,7 +5415,7 @@ in modules // {
     };
     propagatedBuildInputs = with self; [tornado futures html5lib readline pkgs.openssl pkgs.cacert pkgs.openssh];
     meta = {
-      homepage = https://liftoffsoftware.com/;
+      homepage = "https://liftoffsoftware.com/";
       description = "GateOne is a web-based terminal emulator and SSH client";
       maintainers = with maintainers; [ tomberek ];
 
@@ -5429,7 +5429,7 @@ in modules // {
     name = "gcutil-1.16.1";
 
     src = pkgs.fetchurl {
-      url = https://dl.google.com/dl/cloudsdk/release/artifacts/gcutil-1.16.1.tar.gz;
+      url = "https://dl.google.com/dl/cloudsdk/release/artifacts/gcutil-1.16.1.tar.gz";
       sha256 = "00jaf7x1ji9y46fbkww2sg6r6almrqfsprydz3q2swr4jrnrsx9x";
     };
 
@@ -5473,7 +5473,7 @@ in modules // {
 
     meta = {
       description = "GMP or MPIR interface to Python 2.4+ and 3.x";
-      homepage = http://code.google.com/p/gmpy/;
+      homepage = "http://code.google.com/p/gmpy/";
     };
   };
 
@@ -5495,7 +5495,7 @@ in modules // {
 
     meta = {
       description = "GMP/MPIR, MPFR, and MPC interface to Python 2.6+ and 3.x";
-      homepage = http://code.google.com/p/gmpy/;
+      homepage = "http://code.google.com/p/gmpy/";
       license = licenses.gpl3Plus;
     };
   };
@@ -5527,7 +5527,7 @@ in modules // {
 
     meta = {
       description = "An unofficial API for Google Play Music";
-      homepage = http://pypi.python.org/pypi/gmusicapi/;
+      homepage = "http://pypi.python.org/pypi/gmusicapi/";
       license = licenses.bsd3;
     };
   };
@@ -5578,7 +5578,7 @@ in modules // {
     meta = {
       description = "Git Object Database";
       maintainers = with maintainers; [ mornfall ];
-      homepage = https://github.com/gitpython-developers/gitdb;
+      homepage = "https://github.com/gitpython-developers/gitdb";
       license = licenses.bsd3;
     };
 
@@ -5604,7 +5604,7 @@ in modules // {
     meta = {
       description = "Python Git Library";
       maintainers = with maintainers; [ mornfall ];
-      homepage = https://github.com/gitpython-developers/GitPython;
+      homepage = "https://github.com/gitpython-developers/GitPython";
       license = licenses.bsd3;
     };
   };
@@ -5621,7 +5621,7 @@ in modules // {
 
     meta = {
       description = "Brings Google services to the command line";
-      homepage    = https://code.google.com/p/googlecl/;
+      homepage    = "https://code.google.com/p/googlecl/";
       license     = licenses.asl20;
       maintainers = with maintainers; [ lovek323 ];
       platforms   = platforms.unix;
@@ -5654,7 +5654,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://codingteam.net/project/googleplaydownloader;
+      homepage = "https://codingteam.net/project/googleplaydownloader";
       description = "Graphical software to download APKs from the Google Play store";
       license = licenses.agpl3;
       maintainers = with maintainers; [ DamienCassou ];
@@ -5682,7 +5682,7 @@ in modules // {
    '';
 
     meta = {
-      homepage = https://github.com/matlink/gplaycli;
+      homepage = "https://github.com/matlink/gplaycli";
       description = "Google Play Downloader via Command line";
       license = licenses.agpl3Plus;
       maintainers = with maintainers; [ DamienCassou ];
@@ -5757,7 +5757,7 @@ in modules // {
 
     meta = {
       description = "A small Gtk+ app for keeping track of your time. It's main goal is to be as unintrusive as possible";
-      homepage = http://mg.pov.lt/gtimelog/;
+      homepage = "http://mg.pov.lt/gtimelog/";
       license = licenses.gpl2Plus;
       maintainers = with maintainers; [ ocharles ];
       platforms = platforms.unix;
@@ -5797,7 +5797,7 @@ in modules // {
 
     meta = {
       description = "python humanize utilities";
-      homepage = https://github.com/jmoiron/humanize;
+      homepage = "https://github.com/jmoiron/humanize";
       license = licenses.mit;
       maintainers = with maintainers; [ matthiasbeyer ];
       platforms = platforms.linux; # can only test on linux
@@ -5823,7 +5823,7 @@ in modules // {
 
     meta = {
       description = "A tool to make impress.js presentations from reStructuredText";
-      homepage = https://github.com/regebro/hovercraft;
+      homepage = "https://github.com/regebro/hovercraft";
       license = licenses.mit;
       maintainers = with maintainers; [ goibhniu ];
     };
@@ -5842,7 +5842,7 @@ in modules // {
 
     meta = {
       description = "WSGI HTTP Digest Authentication middleware";
-      homepage = https://github.com/jonashaag/httpauth;
+      homepage = "https://github.com/jonashaag/httpauth";
       license = licenses.bsd2;
       maintainers = with maintainers; [ matthiasbeyer ];
     };
@@ -5868,7 +5868,7 @@ in modules // {
 
     meta = with stdenv.lib; {
       description = "Python package to load images as numpy arrays";
-      homepage = https://readthedocs.org/projects/imread/;
+      homepage = "https://readthedocs.org/projects/imread/";
       maintainers = with maintainers; [ luispedro ];
       license = licenses.mit;
       platforms = platforms.linux;
@@ -5957,7 +5957,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://github.com/enkore/i3pystatus;
+      homepage = "https://github.com/enkore/i3pystatus";
       description = "A complete replacement for i3status";
       longDescription = ''
         i3pystatus is a growing collection of python scripts for status output compatible
@@ -6091,7 +6091,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = https://gitlab.com/egh/ledger-autosync;
+      homepage = "https://gitlab.com/egh/ledger-autosync";
       description = "ledger-autosync is a program to pull down transactions from your bank and create ledger transactions for them";
       license = licenses.gpl3;
       maintainers = with maintainers; [ lewo ];
@@ -6112,7 +6112,7 @@ in modules // {
 
     meta = {
       description = "libthumbor is the python extension to thumbor";
-      homepage = http://github.com/heynemann/libthumbor;
+      homepage = "http://github.com/heynemann/libthumbor";
       license = licenses.mit;
     };
   };
@@ -6138,7 +6138,7 @@ in modules // {
 
     meta = {
       description = "A Python client library for the Lightning data visualization server";
-      homepage = http://lightning-viz.org;
+      homepage = "http://lightning-viz.org";
       license = licenses.mit;
     };
   };
@@ -6243,7 +6243,7 @@ in modules // {
     };
 
     meta = {
-      homepage = https://github.com/lpod/lpod-python/;
+      homepage = "https://github.com/lpod/lpod-python/";
       description = "Library implementing the ISO/IEC 26300 OpenDocument Format standard (ODF) ";
       license = licenses.gpl3;
     };
@@ -6275,7 +6275,7 @@ in modules // {
     name = "python-mapnik-fae6388";
 
     src = pkgs.fetchgit {
-      url = https://github.com/mapnik/python-mapnik.git;
+      url = "https://github.com/mapnik/python-mapnik.git";
       rev = "fae63881ed0945829e73f711d52740240b740936";
       sha256 = "13i9zsy0dk9pa947vfq26a3nrn1ddknqliyb0ljcmi5w5x0z758k";
     };
@@ -6287,7 +6287,7 @@ in modules // {
 
     meta = with stdenv.lib; {
       description = "Python bindings for Mapnik";
-      homepage = http://mapnik.org;
+      homepage = "http://mapnik.org";
       license  = licenses.lgpl21;
     };
   };
@@ -6339,7 +6339,7 @@ in modules // {
     };
 
     meta = {
-      homepage = https://github.com/quiet-oceans/motuclient-setuptools;
+      homepage = "https://github.com/quiet-oceans/motuclient-setuptools";
       description = "CLI to query oceanographic data to Motu servers";
       longDescription = ''
         Access data from (motu)[http://sourceforge.net/projects/cls-motu/] servers.
@@ -6411,7 +6411,7 @@ in modules // {
 
     meta = {
       description = "Natural sorting for python";
-      homepage = https://github.com/SethMMorton/natsort;
+      homepage = "https://github.com/SethMMorton/natsort";
       license = licenses.mit;
     };
   };
@@ -6442,7 +6442,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = https://github.com/cedadev/ndg_httpsclient/;
+      homepage = "https://github.com/cedadev/ndg_httpsclient/";
       description = "Provide enhanced HTTPS support for httplib and urllib2 using PyOpenSSL";
       license = licenses.bsd2;
       maintainers = with maintainers; [ DamienCassou ];
@@ -6478,7 +6478,7 @@ in modules // {
 
     meta = {
       description = "interface to netCDF library (versions 3 and 4)";
-      homepage = https://pypi.python.org/pypi/netCDF4;
+      homepage = "https://pypi.python.org/pypi/netCDF4";
       license = licenses.free;  # Mix of license (all MIT* like)
     };
   };
@@ -6514,7 +6514,7 @@ in modules // {
 
     meta = {
       description = "Pattern matching and various utilities for file systems paths";
-      homepage = http://github.com/gorakhargosh/pathtools;
+      homepage = "http://github.com/gorakhargosh/pathtools";
       license = licenses.mit;
       maintainers = with maintainers; [ goibhniu ];
     };
@@ -6538,7 +6538,7 @@ in modules // {
 
     meta = {
       description = "A Python-based build/distribution/deployment scripting tool";
-      homepage    = http://github.com/paver/paver;
+      homepage    = "http://github.com/paver/paver";
       matinainers = with maintainers; [ lovek323 ];
       platforms   = platforms.unix;
     };
@@ -6557,7 +6557,7 @@ in modules // {
 
     meta = {
       description = "A password hashing library for Python";
-      homepage    = https://code.google.com/p/passlib/;
+      homepage    = "https://code.google.com/p/passlib/";
     };
   };
 
@@ -6613,7 +6613,7 @@ in modules // {
 
     meta = {
       description = "The simplest way to write one program that runs on both Python 2 and Python 3";
-      homepage = https://github.com/timothycrosley/pies;
+      homepage = "https://github.com/timothycrosley/pies";
       license = licenses.mit;
     };
   };
@@ -6631,7 +6631,7 @@ in modules // {
 
     meta = {
       description = "Defines override classes that should be included with pies only if running on Python2";
-      homepage = https://github.com/timothycrosley/pies;
+      homepage = "https://github.com/timothycrosley/pies";
       license = licenses.mit;
     };
   };
@@ -6652,7 +6652,7 @@ in modules // {
 
     meta = {
       description = "A command line interface for The Pirate Bay";
-      homepage = https://github.com/vikstrous/pirate-get;
+      homepage = "https://github.com/vikstrous/pirate-get";
       license = licenses.gpl1;
       maintainers = with maintainers; [ rnhmjoj ];
       platforms = platforms.unix;
@@ -6672,7 +6672,7 @@ in modules // {
 
     meta = {
       description = "Python plotting library for collaborative, interactive, publication-quality graphs";
-      homepage = https://plot.ly/python/;
+      homepage = "https://plot.ly/python/";
       license = licenses.mit;
     };
   };
@@ -6738,7 +6738,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://github.com/saghul/pycares;
+      homepage = "http://github.com/saghul/pycares";
       description = "Interface for c-ares";
       license = licenses.mit;
     };
@@ -6756,7 +6756,7 @@ in modules // {
     propagatedBuildInputs = with self; [ python-axolotl-curve25519 protobuf pycrypto ];
 
     meta = {
-      homepage = https://github.com/tgalal/python-axolotl;
+      homepage = "https://github.com/tgalal/python-axolotl";
       description = "Python port of libaxolotl-android";
       maintainers = with maintainers; [ abbradar ];
       license = licenses.gpl3;
@@ -6774,7 +6774,7 @@ in modules // {
     };
 
     meta = {
-      homepage = https://github.com/tgalal/python-axolotl;
+      homepage = "https://github.com/tgalal/python-axolotl";
       description = "Curve25519 with ed25519 signatures";
       maintainers = with maintainers; [ abbradar ];
       license = licenses.gpl3;
@@ -6799,7 +6799,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://launchpad.net/pypolicyd-spf/;
+      homepage = "https://launchpad.net/pypolicyd-spf/";
       description = "Postfix policy engine for Sender Policy Framework (SPF) checking.";
       maintainers = with maintainers; [ abbradar ];
       license = licenses.asl20;
@@ -6980,7 +6980,7 @@ in modules // {
 
     meta = {
       description = "Authentication policy for Pyramid that proxies to a stack of other authentication policies";
-      homepage = https://github.com/mozilla-services/pyramid_multiauth;
+      homepage = "https://github.com/mozilla-services/pyramid_multiauth";
     };
   };
 
@@ -6988,7 +6988,7 @@ in modules // {
     name = "pyramidhawkauth-${version}";
     version = "0.1.0";
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla-services/pyramid_hawkauth.git;
+      url = "https://github.com/mozilla-services/pyramid_hawkauth.git";
       rev = "refs/tags/v${version}";
       sha256 = "1ic7xl72qnz382xaqhcy9ql17gx7pxbs78znp8xr66sp3dcx2s3c";
     };
@@ -7006,7 +7006,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://bmsi.com/python/milter.html;
+      homepage = "http://bmsi.com/python/milter.html";
       description = "Python API for Sendmail Milters (SPF)";
       maintainers = with maintainers; [ abbradar ];
       license = licenses.gpl2;
@@ -7033,7 +7033,7 @@ in modules // {
     doCheck = true;
 
     meta = {
-      homepage = http://www.radicale.org/;
+      homepage = "http://www.radicale.org/";
       description = "CalDAV CardDAV server";
       longDescription = ''
         The Radicale Project is a complete CalDAV (calendar) and CardDAV
@@ -7114,7 +7114,7 @@ in modules // {
     name = "scikits.samplerate-${version}";
     version = "0.3.3";
     src = pkgs.fetchgit {
-      url = https://github.com/cournape/samplerate;
+      url = "https://github.com/cournape/samplerate";
       rev = "a536c97eb2d6195b5f266ea3cc3a35364c4c2210";
       sha256 = "0mgic7bs5zv5ji05vr527jlxxlb70f9dg93hy1lzyz2plm1kf7gg";
     };
@@ -7144,7 +7144,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://sarge.readthedocs.org/;
+      homepage = "http://sarge.readthedocs.org/";
       description = "A wrapper for subprocess which provides command pipeline functionality";
       license = licenses.bsd3;
       platform = platforms.all;
@@ -7164,7 +7164,7 @@ in modules // {
 
     meta = {
       description = "Hyperminimal https server";
-      homepage = https://github.com/rnhmjoj/hyp;
+      homepage = "https://github.com/rnhmjoj/hyp";
       license = with licenses; [gpl3Plus mit];
       maintainers = with maintainers; [ rnhmjoj ];
       platforms = platforms.unix;
@@ -7231,7 +7231,7 @@ in modules // {
       maintainers = with maintainers; [ iElectric ];
       description = "A simple statsd client";
       license = licenses.mit;
-      homepage = https://github.com/jsocol/pystatsd;
+      homepage = "https://github.com/jsocol/pystatsd";
     };
 
     patchPhase = ''
@@ -7323,7 +7323,7 @@ in modules // {
 
     meta = {
       description = "Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)";
-      homepage = https://github.com/roger-/pyrtlsdr;
+      homepage = "https://github.com/roger-/pyrtlsdr";
       license = licenses.gpl3;
       platforms = platforms.linux;
       maintainers = with maintainers; [ bjornfor ];
@@ -7373,7 +7373,7 @@ in modules // {
     };
 
     meta = {
-      homepage = https://pypi.python.org/pypi/ZEO;
+      homepage = "https://pypi.python.org/pypi/ZEO";
     };
   };
 
@@ -7443,7 +7443,7 @@ in modules // {
 
     meta = {
       description = "SVG path objects and parser";
-      homepage = https://github.com/regebro/svg.path;
+      homepage = "https://github.com/regebro/svg.path";
       license = licenses.cc0;
       maintainers = with maintainers; [ goibhniu ];
     };
@@ -7460,7 +7460,7 @@ in modules // {
 
     meta = {
       description = "Alternative regular expression module, to replace re";
-      homepage = https://bitbucket.org/mrabarnett/mrab-regex;
+      homepage = "https://bitbucket.org/mrabarnett/mrab-regex";
       license = licenses.psfl;
       platforms = platforms.linux;
       maintainers = with maintainers; [ abbradar ];
@@ -7517,7 +7517,7 @@ in modules // {
 
     meta = {
       description = "A Python wrapper for the RtMidi C++ library written with Cython";
-      homepage = http://trac.chrisarndt.de/code/wiki/python-rtmidi;
+      homepage = "http://trac.chrisarndt.de/code/wiki/python-rtmidi";
       license = licenses.mit;
       maintainers = with maintainers; [ goibhniu ];
     };
@@ -7538,7 +7538,7 @@ in modules // {
 
     meta = {
       description = "Setuptools revision control system plugin for Git";
-      homepage = https://pypi.python.org/pypi/setuptools-git;
+      homepage = "https://pypi.python.org/pypi/setuptools-git";
       license = licenses.bsd3;
     };
   };
@@ -7562,7 +7562,7 @@ in modules // {
 
     meta = {
       description = "Python API and shell utilities to monitor file system events";
-      homepage = http://github.com/gorakhargosh/watchdog;
+      homepage = "http://github.com/gorakhargosh/watchdog";
       license = licenses.asl20;
       maintainers = with maintainers; [ goibhniu ];
     };
@@ -7621,7 +7621,7 @@ in modules // {
 
     meta = {
       description = "Validate dicts against a schema";
-      homepage = http://github.com/sunlightlabs/validictory;
+      homepage = "http://github.com/sunlightlabs/validictory";
       license = licenses.mit;
     };
   };
@@ -7674,7 +7674,7 @@ in modules // {
     meta = {
       description = "Data-Driven/Decorated Tests, a library to multiply test cases";
 
-      homepage = https://github.com/txels/ddt;
+      homepage = "https://github.com/txels/ddt";
 
       license = licenses.mit;
     };
@@ -7689,7 +7689,7 @@ in modules // {
     };
 
     meta = {
-      homepage = https://launchpad.net/python-distutils-extra;
+      homepage = "https://launchpad.net/python-distutils-extra";
       description = "Enhancements to Python's distutils";
     };
   };
@@ -7716,7 +7716,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = http://deluge-torrent.org;
+      homepage = "http://deluge-torrent.org";
       description = "Torrent client";
       license = licenses.gpl3Plus;
       maintainers = with maintainers; [ iElectric ebzzry ];
@@ -7736,7 +7736,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://freedesktop.org/wiki/Software/pyxdg;
+      homepage = "http://freedesktop.org/wiki/Software/pyxdg";
       description = "Contains implementations of freedesktop.org standards";
       license = licenses.lgpl2;
       maintainers = with maintainers; [ iElectric ];
@@ -7752,7 +7752,7 @@ in modules // {
     };
 
     meta = {
-      homepage = https://github.com/chardet/chardet;
+      homepage = "https://github.com/chardet/chardet";
       description = "Universal encoding detector";
       license = licenses.lgpl2;
       maintainers = with maintainers; [ iElectric ];
@@ -7791,7 +7791,7 @@ in modules // {
 
     meta = {
       description = "A high-level Python Web framework";
-      homepage = https://www.djangoproject.com/;
+      homepage = "https://www.djangoproject.com/";
     };
   };
 
@@ -7815,7 +7815,7 @@ in modules // {
 
     meta = {
       description = "A high-level Python Web framework";
-      homepage = https://www.djangoproject.com/;
+      homepage = "https://www.djangoproject.com/";
     };
   };
 
@@ -7840,7 +7840,7 @@ in modules // {
 
     meta = {
       description = "A high-level Python Web framework";
-      homepage = https://www.djangoproject.com/;
+      homepage = "https://www.djangoproject.com/";
     };
   };
 
@@ -7863,7 +7863,7 @@ in modules // {
 
     meta = {
       description = "A high-level Python Web framework";
-      homepage = https://www.djangoproject.com/;
+      homepage = "https://www.djangoproject.com/";
     };
   };
 
@@ -7886,7 +7886,7 @@ in modules // {
 
     meta = {
       description = "A high-level Python Web framework";
-      homepage = https://www.djangoproject.com/;
+      homepage = "https://www.djangoproject.com/";
     };
   };
 
@@ -7903,7 +7903,7 @@ in modules // {
 
     meta = {
       description = "A helper class for handling configuration defaults of packaged apps gracefully";
-      homepage = http://django-appconf.readthedocs.org/;
+      homepage = "http://django-appconf.readthedocs.org/";
       license = licenses.bsd2;
       maintainers = with maintainers; [ desiderius ];
     };
@@ -7922,7 +7922,7 @@ in modules // {
 
     meta = {
       description = "Compresses linked and inline JavaScript or CSS into single cached files";
-      homepage = http://django-compressor.readthedocs.org/en/latest/;
+      homepage = "http://django-compressor.readthedocs.org/en/latest/";
       license = licenses.mit;
       maintainers = with maintainers; [ desiderius ];
     };
@@ -7941,7 +7941,7 @@ in modules // {
 
     meta = {
       description = "A database schema evolution tool for the Django web framework";
-      homepage = http://code.google.com/p/django-evolution/;
+      homepage = "http://code.google.com/p/django-evolution/";
     };
   };
 
@@ -7961,7 +7961,7 @@ in modules // {
 
     meta = {
       description = "A generic tagging application for Django projects";
-      homepage = http://code.google.com/p/django-tagging/;
+      homepage = "http://code.google.com/p/django-tagging/";
     };
   };
 
@@ -7983,7 +7983,7 @@ in modules // {
 
     meta = {
       description = "Class based template tags for Django";
-      homepage = https://github.com/ojii/django-classy-tags;
+      homepage = "https://github.com/ojii/django-classy-tags";
       license = licenses.bsd3;
     };
   };
@@ -8001,7 +8001,7 @@ in modules // {
 
     meta = {
       description = "Django extension to allow working with 'clusters' of models as a single unit, independently of the database";
-      homepage = https://github.com/torchbox/django-modelcluster/;
+      homepage = "https://github.com/torchbox/django-modelcluster/";
       license = licenses.bsd2;
       maintainers = with maintainers; [ desiderius ];
     };
@@ -8020,7 +8020,7 @@ in modules // {
 
     meta = {
       description = "Web APIs for Django, made easy";
-      homepage = http://www.django-rest-framework.org/;
+      homepage = "http://www.django-rest-framework.org/";
       maintainers = with maintainers; [ desiderius ];
       license = licenses.bsd2;
     };
@@ -8045,7 +8045,7 @@ in modules // {
 
     meta = {
       description = "Full featured redis cache backend for Django";
-      homepage = https://github.com/niwibe/django-redis;
+      homepage = "https://github.com/niwibe/django-redis";
       license = licenses.bsd3;
     };
   }) {};
@@ -8065,7 +8065,7 @@ in modules // {
 
     meta = {
       description = "An extension to the Django web framework that provides comprehensive version control facilities";
-      homepage = https://github.com/etianen/django-reversion;
+      homepage = "https://github.com/etianen/django-reversion";
       license = licenses.bsd3;
     };
   };
@@ -8096,7 +8096,7 @@ in modules // {
 
     meta = {
       description = "Silky smooth profiling for the Django Framework";
-      homepage = https://github.com/mtford90/silk;
+      homepage = "https://github.com/mtford90/silk";
       license = licenses.mit;
     };
   }) {};
@@ -8113,7 +8113,7 @@ in modules // {
 
     meta = {
       description = "django-taggit is a reusable Django application for simple tagging";
-      homepage = http://github.com/alex/django-taggit/tree/master/;
+      homepage = "http://github.com/alex/django-taggit/tree/master/";
       license = licenses.bsd2;
       maintainers = with maintainers; [ desiderius ];
     };
@@ -8132,7 +8132,7 @@ in modules // {
 
     meta = {
       description = "Efficient tree implementations for Django 1.6+";
-      homepage = https://tabo.pe/projects/django-treebeard/;
+      homepage = "https://tabo.pe/projects/django-treebeard/";
       maintainers = with maintainers; [ desiderius ];
       license = licenses.asl20;
     };
@@ -8151,7 +8151,7 @@ in modules // {
 
     meta = with stdenv.lib; {
       description = "Pipeline is an asset packaging library for Django.";
-      homepage = https://github.com/cyberdelia/django-pipeline;
+      homepage = "https://github.com/cyberdelia/django-pipeline";
       license = stdenv.lib.licenses.mit;
     };
   };
@@ -8178,7 +8178,7 @@ in modules // {
 
     meta = {
       description = "A collection of useful extensions for Django";
-      homepage = https://github.com/djblets/djblets;
+      homepage = "https://github.com/djblets/djblets";
     };
   };
 
@@ -8259,7 +8259,7 @@ in modules // {
 
     meta = {
       description = "Simple Python implementation of the Git file formats and protocols";
-      homepage = http://samba.org/~jelmer/dulwich/;
+      homepage = "http://samba.org/~jelmer/dulwich/";
       license = licenses.gpl2Plus;
       maintainers = with maintainers; [ koral ];
     };
@@ -8279,7 +8279,7 @@ in modules // {
 
     meta = {
       description = "Push and pull from a Git server using Mercurial";
-      homepage = http://hg-git.github.com/;
+      homepage = "http://hg-git.github.com/";
       maintainers = with maintainers; [ koral ];
     };
   };
@@ -8298,7 +8298,7 @@ in modules // {
 
     meta = {
       description = "An open-source text processing system for processing plaintext documentation into useful formats, such as HTML or LaTeX";
-      homepage = http://docutils.sourceforge.net/;
+      homepage = "http://docutils.sourceforge.net/";
       maintainers = with maintainers; [ garbas ];
     };
   };
@@ -8312,7 +8312,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://code.foosel.org/doxypy;
+      homepage = "http://code.foosel.org/doxypy";
       description = "An input filter for Doxygen";
     };
 
@@ -8330,7 +8330,7 @@ in modules // {
 
     meta = {
       description = "Add options to doctest examples while they are running";
-      homepage = http://pypi.python.org/pypi/dtopt;
+      homepage = "http://pypi.python.org/pypi/dtopt";
     };
     # Test contain Python 2 print
     disabled = isPy3k;
@@ -8393,7 +8393,7 @@ in modules // {
     propagatedBuildInputs = with self; [ ];
 
     meta = {
-      homepage = http://pypi.python.org/pypi/enum/;
+      homepage = "http://pypi.python.org/pypi/enum/";
       description = "Robust enumerated type support in Python";
     };
   };
@@ -8410,7 +8410,7 @@ in modules // {
     buildInputs = optional isPy26 self.ordereddict;
 
     meta = {
-      homepage = https://pypi.python.org/pypi/enum34;
+      homepage = "https://pypi.python.org/pypi/enum34";
       description = "Python 3.4 Enum backported to 3.3, 3.2, 3.1, 2.7, 2.6, 2.5, and 2.4";
       license = "BSD";
     };
@@ -8479,7 +8479,7 @@ in modules // {
     propagatedBuildInputs = optionals (!isPyPy) [ self.greenlet ];
 
     meta = {
-      homepage = http://pypi.python.org/pypi/eventlet/;
+      homepage = "http://pypi.python.org/pypi/eventlet/";
       description = "A concurrent networking library for Python";
     };
   };
@@ -8501,7 +8501,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://launchpad.net/python-fastimport;
+      homepage = "https://launchpad.net/python-fastimport";
       description = "VCS fastimport/fastexport parser";
       maintainers = with maintainers; [ koral ];
       license = licenses.gpl2Plus;
@@ -8524,7 +8524,7 @@ in modules // {
 
     meta = {
       description = "Standalone version of django.utils.feedgenerator,  compatible with Py3k";
-      homepage = https://github.com/dmdm/feedgenerator-py3k.git;
+      homepage = "https://github.com/dmdm/feedgenerator-py3k.git";
       maintainers = with maintainers; [ garbas ];
     };
   });
@@ -8541,7 +8541,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://code.google.com/p/feedparser/;
+      homepage = "http://code.google.com/p/feedparser/";
       description = "Universal feed parser";
       license = licenses.bsd2;
       maintainers = with maintainers; [ iElectric ];
@@ -8560,7 +8560,7 @@ in modules // {
 
     meta = {
       description = "A simple wrapper around fribidi";
-      homepage = https://github.com/pediapress/pyfribidi;
+      homepage = "https://github.com/pediapress/pyfribidi";
       license = stdenv.lib.licenses.gpl2;
     };
   };
@@ -8617,7 +8617,7 @@ in modules // {
         filebrowser_safe was therefore created to address these specific
         issues.
       '';
-      homepage = https://github.com/stephenmcd/filebrowser-safe;
+      homepage = "https://github.com/stephenmcd/filebrowser-safe";
       downloadPage = https://pypi.python.org/pypi/filebrowser_safe/;
       license = licenses.free;
       maintainers = with maintainers; [ prikhi ];
@@ -8639,7 +8639,7 @@ in modules // {
 
     meta = {
       description = "Code checking using pep8 and pyflakes";
-      homepage = http://pypi.python.org/pypi/flake8;
+      homepage = "http://pypi.python.org/pypi/flake8";
       license = licenses.mit;
       maintainers = with maintainers; [ garbas ];
     };
@@ -8656,7 +8656,7 @@ in modules // {
     propagatedBuildInputs = with self; [ itsdangerous click werkzeug jinja2 ];
 
     meta = {
-      homepage = http://flask.pocoo.org/;
+      homepage = "http://flask.pocoo.org/";
       description = "A microframework based on Werkzeug, Jinja 2, and good intentions";
       license = licenses.bsd3;
     };
@@ -8674,7 +8674,7 @@ in modules // {
     propagatedBuildInputs = with self; [ flask webassets flask_script nose ];
 
     meta = {
-      homepage = http://github.com/miracle2k/flask-assets;
+      homepage = "http://github.com/miracle2k/flask-assets";
       description = "Asset management for Flask, to compress and merge CSS and Javascript files";
       license = licenses.bsd2;
       platforms = platforms.all;
@@ -8693,7 +8693,7 @@ in modules // {
     propagatedBuildInputs = with self; [ werkzeug flask ];
 
     meta = {
-      homepage = https://github.com/thadeusb/flask-cache;
+      homepage = "https://github.com/thadeusb/flask-cache";
       description = "Adds cache support to your Flask application";
       license = "BSD";
     };
@@ -8713,7 +8713,7 @@ in modules // {
 
     meta = {
       description = "A Flask extension adding a decorator for CORS support";
-      homepage = https://github.com/corydolphin/flask-cors;
+      homepage = "https://github.com/corydolphin/flask-cors";
       license = with licenses; [ mit ];
     };
   };
@@ -8733,7 +8733,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://github.com/miracle2k/flask-assets;
+      homepage = "http://github.com/miracle2k/flask-assets";
       description = "User session management for Flask";
       license = licenses.mit;
       platforms = platforms.all;
@@ -8753,7 +8753,7 @@ in modules // {
     propagatedBuildInputs = with self; [ flask blinker nose ];
 
     meta = {
-      homepage = http://packages.python.org/Flask-Principal/;
+      homepage = "http://packages.python.org/Flask-Principal/";
       description = "Identity management for flask";
       license = licenses.bsd2;
       platforms = platforms.all;
@@ -8792,7 +8792,7 @@ in modules // {
     propagatedBuildInputs = with self; [ flask ];
 
     meta = {
-      homepage = http://github.com/smurfix/flask-script;
+      homepage = "http://github.com/smurfix/flask-script";
       description = "Scripting support for Flask";
       license = licenses.bsd3;
       platforms = platforms.all;
@@ -8812,7 +8812,7 @@ in modules // {
     propagatedBuildInputs = with self; [ ordereddict Babel ];
 
     meta = {
-      homepage = https://github.com/wtforms/wtforms;
+      homepage = "https://github.com/wtforms/wtforms";
       description = "A flexible forms validation and rendering library for Python";
       license = licenses.bsd3;
     };
@@ -8842,7 +8842,7 @@ in modules // {
 	    self.transmissionrpc;
 
     meta = {
-      homepage = http://flexget.com/;
+      homepage = "http://flexget.com/";
       description = "Multipurpose automation tool for content like torrents";
       license = licenses.mit;
       maintainers = with maintainers; [ iElectric ];
@@ -8873,7 +8873,7 @@ in modules // {
         packaged on PyPI, and had also dropped compatibility with Django 1.1 -
         grappelli_safe was therefore created to address these specific issues.
       '';
-      homepage = https://github.com/stephenmcd/grappelli-safe;
+      homepage = "https://github.com/stephenmcd/grappelli-safe";
       downloadPage = http://pypi.python.org/pypi/grappelli_safe/;
       license = licenses.free;
       maintainers = with maintainers; [ prikhi ];
@@ -8895,7 +8895,7 @@ in modules // {
     propagatedBuildInputs = with self; [ beautifulsoup ];
 
     meta = {
-      homepage = https://github.com/ckreutzer/python-tvrage;
+      homepage = "https://github.com/ckreutzer/python-tvrage";
       description = "Client interface for tvrage.com's XML-based api feeds";
       license = licenses.bsd3;
       maintainers = with maintainers; [ iElectric ];
@@ -8978,7 +8978,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://github.com/Julian/jsonschema;
+      homepage = "https://github.com/Julian/jsonschema";
       description = "An implementation of JSON Schema validation for Python";
       license = licenses.mit;
       maintainers = with maintainers; [ iElectric ];
@@ -9023,7 +9023,7 @@ in modules // {
 
     meta = {
       description = "An unladen web framework for building APIs and app backends";
-      homepage = http://falconframework.org;
+      homepage = "http://falconframework.org";
       license = licenses.asl20;
       maintainers = with maintainers; [ desiderius ];
     };
@@ -9074,7 +9074,7 @@ in modules // {
     propagatedBuildInputs = [ self.twisted self.pyopenssl self.service-identity ];
 
     meta = {
-      homepage = http://foolscap.lothar.com/;
+      homepage = "http://foolscap.lothar.com/";
 
       description = "Foolscap, an RPC protocol for Python that follows the distributed object-capability model";
 
@@ -9117,7 +9117,7 @@ in modules // {
 
     meta = {
       description = "Filesystem abstraction";
-      homepage    = http://pypi.python.org/pypi/fs;
+      homepage    = "http://pypi.python.org/pypi/fs";
       license     = licenses.bsd3;
       maintainers = with maintainers; [ lovek323 ];
       platforms   = platforms.unix;
@@ -9167,7 +9167,7 @@ in modules // {
         Python module that provides a simple interface to FUSE and MacFUSE.
         It's just one file and is implemented using ctypes.
       '';
-      homepage = http://github.com/terencehonles/fusepy;
+      homepage = "http://github.com/terencehonles/fusepy";
       license = licenses.isc;
       platforms = platforms.unix;
       maintainers = with maintainers; [ nckx ];
@@ -9199,7 +9199,7 @@ in modules // {
         either Py2 or Py3 code easily to support both Python 2 and 3 in a
         single clean Py3-style codebase, module by module.
       '';
-      homepage = https://python-future.org;
+      homepage = "https://python-future.org";
       downloadPage = https://github.com/PythonCharmers/python-future/releases;
       license = licenses.mit;
       maintainers = with maintainers; [ prikhi ];
@@ -9289,7 +9289,7 @@ in modules // {
           (Google Doc files do not have a particular format).
         - Allow for the same file at multiple paths.
       '';
-      homepage = https://github.com/dsoprea/GDriveFS;
+      homepage = "https://github.com/dsoprea/GDriveFS";
       license = licenses.gpl2;
       platforms = platforms.unix;
       maintainers = with maintainers; [ nckx ];
@@ -9300,7 +9300,7 @@ in modules // {
     name = "genshi-0.7";
 
     src = pkgs.fetchurl {
-      url = http://ftp.edgewall.com/pub/genshi/Genshi-0.7.tar.gz;
+      url = "http://ftp.edgewall.com/pub/genshi/Genshi-0.7.tar.gz";
       sha256 = "0lkkbp6fbwzv0zda5iqc21rr7rdldkwh3hfabfjl9i4bwq14858x";
     };
 
@@ -9343,7 +9343,7 @@ in modules // {
 
     meta = {
       description = "Coroutine-based networking library";
-      homepage = http://www.gevent.org/;
+      homepage = "http://www.gevent.org/";
       license = licenses.mit;
       platforms = platforms.unix;
       maintainers = with maintainers; [ bjornfor ];
@@ -9362,7 +9362,7 @@ in modules // {
     propagatedBuildInputs = with self; [ gevent certifi backports_ssl_match_hostname_3_4_0_2 ];
 
     meta = {
-      homepage = http://github.com/gwik/geventhttpclient;
+      homepage = "http://github.com/gwik/geventhttpclient";
       description = "HTTP client library for gevent";
       license = licenses.mit;
       maintainers = with maintainers; [ koral ];
@@ -9420,7 +9420,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://code.google.com/p/python-gflags/;
+      homepage = "http://code.google.com/p/python-gflags/";
       description = "A module for command line handling, similar to Google's gflags for C++";
     };
   };
@@ -9446,7 +9446,7 @@ in modules // {
         multiprocessing. Process-based child processes can safely be created
         anywhere within your gevent-powered application.
       '';
-      homepage = http://gehrcke.de/gipc;
+      homepage = "http://gehrcke.de/gipc";
       license = licenses.mit;
       maintainers = with maintainers; [ nckx ];
     };
@@ -9464,7 +9464,7 @@ in modules // {
 
     meta = {
       description = "A command-line tool that helps you clean up Git branches";
-      homepage = http://lab.arc90.com/2012/04/03/git-sweep/;
+      homepage = "http://lab.arc90.com/2012/04/03/git-sweep/";
       license = licenses.mit;
       maintainers = with maintainers; [ pSub ];
     };
@@ -9520,7 +9520,7 @@ in modules // {
     doCheck = false;
 
     meta = with stdenv.lib; {
-      homepage = http://github3py.readthedocs.org/en/master/;
+      homepage = "http://github3py.readthedocs.org/en/master/";
       description = "A wrapper for the GitHub API written in python";
       license = licenses.bsd3;
       maintainers = with maintainers; [ pSub ];
@@ -9544,7 +9544,7 @@ in modules // {
 
     meta = {
       description = "Search your google contacts from the command-line or mutt";
-      homepage    = https://pypi.python.org/pypi/goobook;
+      homepage    = "https://pypi.python.org/pypi/goobook";
       license     = licenses.gpl3;
       maintainers = with maintainers; [ lovek323 hbunke ];
       platforms   = platforms.unix;
@@ -9594,7 +9594,7 @@ in modules // {
 
     meta = {
       description = "Google Application Utilities for Python";
-      homepage = http://code.google.com/p/google-apputils-python;
+      homepage = "http://code.google.com/p/google-apputils-python";
     };
   };
 
@@ -9615,7 +9615,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = http://pypi.python.org/pypi/greenlet;
+      homepage = "http://pypi.python.org/pypi/greenlet";
       description = "Module for lightweight in-process concurrent programming";
       license     = licenses.lgpl2;
       platforms   = platforms.all;
@@ -9654,7 +9654,7 @@ in modules // {
 
     meta = {
       description = "A tool to generate native build files";
-      homepage = https://chromium.googlesource.com/external/gyp/+/master/README.md;
+      homepage = "https://chromium.googlesource.com/external/gyp/+/master/README.md";
       license = licenses.bsd3;
       maintainers = with maintainers; [ codyopel ];
       platforms = platforms.all;
@@ -9679,7 +9679,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://pypi.python.org/pypi/guessit;
+      homepage = "http://pypi.python.org/pypi/guessit";
       license = licenses.lgpl3;
       description = "A library for guessing information from video files";
     };
@@ -9696,7 +9696,7 @@ in modules // {
     buildInputs = with self; [ pytest ];
 
     meta = {
-      homepage = http://pypi.python.org/pypi/gunicorn;
+      homepage = "http://pypi.python.org/pypi/gunicorn";
       description = "WSGI HTTP Server for UNIX";
     };
   };
@@ -9705,7 +9705,7 @@ in modules // {
     name = "hawkauthlib-${version}";
     version = "0.1.1";
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla-services/hawkauthlib.git;
+      url = "https://github.com/mozilla-services/hawkauthlib.git";
       rev = "refs/tags/v${version}";
       sha256 = "0b3xydii50ifs8qkgbpdlidfs2rzw63f807ahrq9flz90ahf582h";
     };
@@ -9727,7 +9727,7 @@ in modules // {
 
     meta = {
       description = "Library collecting some useful snippets";
-      homepage    = https://pypi.python.org/pypi/hcs_utils/1.3;
+      homepage    = "https://pypi.python.org/pypi/hcs_utils/1.3";
       license     = licenses.isc;
       maintainers = with maintainers; [ lovek323 ];
       platforms   = platforms.unix;
@@ -9797,7 +9797,7 @@ in modules // {
     checkPhase = "nosetests";
 
     meta = {
-      homepage = https://github.com/html5lib/html5lib-python;
+      homepage = "https://github.com/html5lib/html5lib-python";
       downloadPage = https://github.com/html5lib/html5lib-python/releases;
       description = "HTML parser based on WHAT-WG HTML5 specification";
       longDescription = ''
@@ -9822,7 +9822,7 @@ in modules // {
     propagatedBuildInputs = with self; [pycrypto];
 
     meta = {
-      homepage = https://github.com/atl/py-http-signature;
+      homepage = "https://github.com/atl/py-http-signature";
       description = "";
       license = licenses.mit;
     };
@@ -9839,7 +9839,7 @@ in modules // {
     propagatedBuildInputs = with self; [ flask markupsafe decorator itsdangerous six ];
 
     meta = {
-      homepage = https://github.com/kennethreitz/httpbin;
+      homepage = "https://github.com/kennethreitz/httpbin";
       description = "HTTP Request & Response Service";
       license = licenses.mit;
     };
@@ -9855,7 +9855,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://code.google.com/p/httplib2;
+      homepage = "http://code.google.com/p/httplib2";
       description = "A comprehensive HTTP client library";
       license = licenses.mit;
       maintainers = with maintainers; [ garbas ];
@@ -9876,7 +9876,7 @@ in modules // {
 
     meta = {
       description = "A Python library for property based testing";
-      homepage = https://github.com/DRMacIver/hypothesis;
+      homepage = "https://github.com/DRMacIver/hypothesis";
       license = licenses.mpl20;
     };
   };
@@ -9960,7 +9960,7 @@ in modules // {
 
     meta = {
       description = "Python client for InfluxDB";
-      homepage = https://github.com/influxdb/influxdb-python;
+      homepage = "https://github.com/influxdb/influxdb-python";
       license = licenses.mit;
     };
   };
@@ -10065,7 +10065,7 @@ in modules // {
 
     meta = {
       description = "A watchdog that interrupts long running code";
-      homepage = https://bitbucket.org/evzijst/interruptingcow;
+      homepage = "https://bitbucket.org/evzijst/interruptingcow";
       license = licenses.mit;
       maintainers = with maintainers; [ benley ];
     };
@@ -10084,7 +10084,7 @@ in modules // {
 
     meta = {
       description = "Utilities for manipulating IP addresses including a class that can be used to include CIDR network blocks in Django's INTERNAL_IPS setting";
-      homepage = http://pypi.python.org/pypi/iptools;
+      homepage = "http://pypi.python.org/pypi/iptools";
     };
   };
 
@@ -10103,7 +10103,7 @@ in modules // {
 
     meta = {
       description = "Class and tools for handling of IPv4 and IPv6 addresses and networks";
-      homepage = http://pypi.python.org/pypi/IPy;
+      homepage = "http://pypi.python.org/pypi/IPy";
     };
   };
 
@@ -10130,7 +10130,7 @@ in modules // {
 
     meta = {
       description = "IPython Kernel for Jupyter";
-      homepage = http://ipython.org/;
+      homepage = "http://ipython.org/";
       license = licenses.bsd3;
       maintainers = with maintainers; [ fridh ];
     };
@@ -10155,7 +10155,7 @@ in modules // {
 
     meta = {
       description = "Interactive Parallel Computing with IPython";
-      homepage = http://ipython.org/;
+      homepage = "http://ipython.org/";
       license = licenses.bsd3;
       maintainers = with maintainers; [ fridh ];
     };
@@ -10190,7 +10190,7 @@ in modules // {
     '';
     meta = {
       description = "IPython: Productive Interactive Computing";
-      homepage = http://ipython.org/;
+      homepage = "http://ipython.org/";
       license = licenses.bsd3;
       maintainers = with maintainers; [ bjornfor jgeerds fridh ];
     };
@@ -10214,7 +10214,7 @@ in modules // {
 
     meta = {
       description = "Vestigial utilities from IPython";
-      homepage = http://ipython.org/;
+      homepage = "http://ipython.org/";
       license = licenses.bsd3;
       maintainers = with maintainers; [ fridh ];
     };
@@ -10235,7 +10235,7 @@ in modules // {
 
     meta = {
       description = "IPython HTML widgets for Jupyter";
-      homepage = http://ipython.org/;
+      homepage = "http://ipython.org/";
       license = licenses.bsd3;
       maintainers = with maintainers; [ fridh ];
     };
@@ -10252,7 +10252,7 @@ in modules // {
 
     meta = {
       description = "Google's IP address manipulation library";
-      homepage = http://code.google.com/p/ipaddr-py/;
+      homepage = "http://code.google.com/p/ipaddr-py/";
       license = licenses.asl20;
     };
   };
@@ -10271,7 +10271,7 @@ in modules // {
 
     meta = {
       description = "Port of the 3.3+ ipaddress module to 2.6, 2.7, and 3.2";
-      homepage = https://github.com/phihag/ipaddress;
+      homepage = "https://github.com/phihag/ipaddress";
       license = licenses.psfl;
     };
   };
@@ -10319,7 +10319,7 @@ in modules // {
     disabled = isPy3k;
     meta = {
       description = "Python IRC library";
-      homepage = https://bitbucket.org/jaraco/irc;
+      homepage = "https://bitbucket.org/jaraco/irc";
       license = with licenses; [ lgpl21 ];
     };
   };
@@ -10339,7 +10339,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://bitbucket.org/micktwomey/pyiso8601/;
+      homepage = "https://bitbucket.org/micktwomey/pyiso8601/";
       description = "Simple module to parse ISO 8601 dates";
       maintainers = with maintainers; [ phreedom ];
     };
@@ -10357,7 +10357,7 @@ in modules // {
 
     meta = {
       description = "A Python utility / library to sort Python imports";
-      homepage = https://github.com/timothycrosley/isort;
+      homepage = "https://github.com/timothycrosley/isort";
       license = licenses.mit;
       maintainers = with maintainers; [ couchemar ];
     };
@@ -10381,7 +10381,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = https://github.com/davidhalter/jedi;
+      homepage = "https://github.com/davidhalter/jedi";
       description = "An autocompletion tool for Python that can be used for text editors";
       license = licenses.lgpl3Plus;
       maintainers = with maintainers; [ garbas ];
@@ -10400,7 +10400,7 @@ in modules // {
     buildInputs = with self; [ pytest unicodecsv ];
 
     meta = {
-      homepage = http://github.com/sunlightlabs/jellyfish;
+      homepage = "http://github.com/sunlightlabs/jellyfish";
       description = "Approximate and phonetic matching of strings";
       maintainers = with maintainers; [ koral ];
     };
@@ -10422,7 +10422,7 @@ in modules // {
     propagatedBuildInputs = with self; [ jinja2 pyyaml ];
 
     meta = {
-      homepage = https://github.com/kolypto/j2cli;
+      homepage = "https://github.com/kolypto/j2cli";
       description = "Jinja2 Command-Line Tool";
       license = licenses.bsd3;
       longDescription = ''
@@ -10445,7 +10445,7 @@ in modules // {
     propagatedBuildInputs = with self; [ markupsafe ];
 
     meta = {
-      homepage = http://jinja.pocoo.org/;
+      homepage = "http://jinja.pocoo.org/";
       description = "Stand-alone template engine";
       license = licenses.bsd3;
       longDescription = ''
@@ -10471,7 +10471,7 @@ in modules // {
     propagatedBuildInputs = with self; [ ply ];
 
     meta = {
-      homepage = https://github.com/boto/jmespath;
+      homepage = "https://github.com/boto/jmespath";
       description = "JMESPath allows you to declaratively specify how to extract elements from a JSON document";
       license = "BSD";
     };
@@ -10493,7 +10493,7 @@ in modules // {
     ];
 
     meta = {
-      homepage = http://maebert.github.io/jrnl/;
+      homepage = "http://maebert.github.io/jrnl/";
       description = "A simple command line journal application that stores your journal in a plain text file";
       license = licenses.mit;
     };
@@ -10520,7 +10520,7 @@ in modules // {
 
     meta = {
       description = "Jupyter protocol implementation and client libraries";
-      homepage = http://jupyter.org/;
+      homepage = "http://jupyter.org/";
       license = licenses.bsd3;
       maintainers = with maintainers; [ fridh ];
     };
@@ -10547,7 +10547,7 @@ in modules // {
 
     meta = {
       description = "Jupyter core package. A base package on which Jupyter projects rely";
-      homepage = http://jupyter.org/;
+      homepage = "http://jupyter.org/";
       license = licenses.bsd3;
       maintainers = with maintainers; [ fridh ];
     };
@@ -10574,7 +10574,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = https://github.com/kennknowles/python-jsonpath-rw;
+      homepage = "https://github.com/kennknowles/python-jsonpath-rw";
       description = "A robust and significantly extended implementation of JSONPath for Python, with a clear AST for metaprogramming";
       license = licenses.asl20;
     };
@@ -10662,7 +10662,7 @@ in modules // {
     disabled = isPy3k;
 
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla-services/konfig.git;
+      url = "https://github.com/mozilla-services/konfig.git";
       rev = "refs/tags/${version}";
       sha256 = "1v9pjb9idapjlc75p6h06kx7bi8zxhfgj93yxq1bn337kmyk1xdf";
     };
@@ -10701,7 +10701,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://code.google.com/p/pylast/;
+      homepage = "http://code.google.com/p/pylast/";
       description = "A python interface to last.fm (and compatibles)";
       license = licenses.asl20;
     };
@@ -10717,7 +10717,7 @@ in modules // {
     };
 
     meta = {
-      homepage = https://github.com/jlhutch/pylru;
+      homepage = "https://github.com/jlhutch/pylru";
       description = "A least recently used (LRU) cache implementation";
       license = licenses.gpl2;
       platforms = platforms.all;
@@ -10744,7 +10744,7 @@ in modules // {
 
     meta = {
       description = "A fast and thorough lazy object proxy";
-      homepage = https://github.com/ionelmc/python-lazy-object-proxy;
+      homepage = "https://github.com/ionelmc/python-lazy-object-proxy";
       license = with licenses; [ bsd2 ];
     };
 
@@ -10776,7 +10776,7 @@ in modules // {
     name = "libcloud-0.18.0";
 
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/a/apache-libcloud/apache-libcloud-0.18.0.tar.bz2;
+      url = "https://pypi.python.org/packages/source/a/apache-libcloud/apache-libcloud-0.18.0.tar.bz2";
       sha256 = "0ahdp14ddly074qg5cksxdhqaws0kj445xmhz1y7lzspsp6fk1xg";
     };
 
@@ -10790,7 +10790,7 @@ in modules // {
 
     meta = {
       description = "A unified interface to many cloud providers";
-      homepage = http://incubator.apache.org/libcloud/;
+      homepage = "http://incubator.apache.org/libcloud/";
     };
   });
 
@@ -10814,7 +10814,7 @@ in modules // {
 
     meta = {
       description = "A modified version of Supybot, an IRC bot";
-      homepage = http://supybot.fr.cr;
+      homepage = "http://supybot.fr.cr";
       license = licenses.bsd3;
       maintainers = with maintainers; [ goibhniu ];
     };
@@ -10835,7 +10835,7 @@ in modules // {
 
     meta = {
       description = "Line-by-line profiler";
-      homepage = https://github.com/rkern/line_profiler;
+      homepage = "https://github.com/rkern/line_profiler";
       license = licenses.bsd3;
       maintainers = with maintainers; [ fridh ];
     };
@@ -10872,7 +10872,7 @@ in modules // {
 
     meta = {
       description = "Python bindings for the low-level FUSE API";
-      homepage = https://code.google.com/p/python-llfuse/;
+      homepage = "https://code.google.com/p/python-llfuse/";
       license = licenses.lgpl2Plus;
       platforms = platforms.unix;
       maintainers = with maintainers; [ bjornfor ];
@@ -10891,7 +10891,7 @@ in modules // {
     buildInputs = [ self.mock self.unittest2 ];
 
     meta = {
-      homepage = http://locust.io/;
+      homepage = "http://locust.io/";
       description = "A load testing tool";
     };
   };
@@ -10949,7 +10949,7 @@ in modules // {
     ];
 
     meta = {
-      homepage = http://launchpad.net/pylockfile;
+      homepage = "http://launchpad.net/pylockfile";
       description = "Platform-independent advisory file locking capability for Python applications";
       license = licenses.asl20;
     };
@@ -11000,7 +11000,7 @@ in modules // {
 
     meta = {
       description = "Pythonic binding for the libxml2 and libxslt libraries";
-      homepage = http://lxml.de;
+      homepage = "http://lxml.de";
       license = licenses.bsd3;
       maintainers = with maintainers; [ sjourdois ];
     };
@@ -11030,7 +11030,7 @@ in modules // {
 
     meta = {
       description = "A python interface to the libmagic file type identification library";
-      homepage = https://github.com/ahupp/python-magic;
+      homepage = "https://github.com/ahupp/python-magic";
     };
   };
 
@@ -11049,7 +11049,7 @@ in modules // {
 
     meta = {
       description = "A Python wrapper around libmagic";
-      homepage = http://www.darwinsys.com/file/;
+      homepage = "http://www.darwinsys.com/file/";
     };
   };
 
@@ -11071,7 +11071,7 @@ in modules // {
 
     meta = {
       description = "A Python crypto and SSL toolkit";
-      homepage = http://chandlerproject.org/Projects/MeTooCrypto;
+      homepage = "http://chandlerproject.org/Projects/MeTooCrypto";
     };
   };
 
@@ -11091,7 +11091,7 @@ in modules // {
 
     meta = {
       description = "Super-fast templating language";
-      homepage = http://www.makotemplates.org;
+      homepage = "http://www.makotemplates.org";
       license = licenses.mit;
       maintainers = with maintainers; [ iElectric ];
     };
@@ -11109,7 +11109,7 @@ in modules // {
 
     meta = {
       description = "Implements a XML/HTML/XHTML Markup safe string";
-      homepage = http://dev.pocoo.org;
+      homepage = "http://dev.pocoo.org";
       license = licenses.bsd3;
       maintainers = with maintainers; [ iElectric garbas ];
     };
@@ -11128,7 +11128,7 @@ in modules // {
 
     meta = {
       description = "A documentation builder";
-      homepage = http://pypi.python.org/pypi/manuel;
+      homepage = "http://pypi.python.org/pypi/manuel";
       license = licenses.zpt20;
     };
   };
@@ -11146,7 +11146,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://www.freewisdom.org/projects/python-markdown;
+      homepage = "http://www.freewisdom.org/projects/python-markdown";
     };
   };
 
@@ -11187,7 +11187,7 @@ in modules // {
 
     meta = {
       description = "A general-purpose computer algebra system";
-      homepage = http://www.mathics.org;
+      homepage = "http://www.mathics.org";
       license = licenses.gpl3;
       maintainers = [ maintainers.benley ];
     };
@@ -11244,7 +11244,7 @@ in modules // {
     meta = {
       description = "Stateful programmatic web browsing in Python";
 
-      homepage = http://wwwsearch.sourceforge.net/;
+      homepage = "http://wwwsearch.sourceforge.net/";
 
       license = "BSD-style";
     };
@@ -11263,7 +11263,7 @@ in modules // {
 
     meta = {
       description = "A Python library for automating interaction with websites";
-      homepage = https://github.com/hickford/MechanicalSoup;
+      homepage = "https://github.com/hickford/MechanicalSoup";
       license = licenses.mit;
       maintainers = with maintainers; [ jgillich ];
     };
@@ -11274,7 +11274,7 @@ in modules // {
     name = "meld3-1.0.0";
 
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/m/meld3/meld3-1.0.0.tar.gz;
+      url = "https://pypi.python.org/packages/source/m/meld3/meld3-1.0.0.tar.gz";
       md5 = "ca270506dd4ecb20ae26fa72fbd9b0be";
     };
 
@@ -11282,7 +11282,7 @@ in modules // {
 
     meta = {
       description = "An HTML/XML templating engine used by supervisor";
-      homepage = https://github.com/supervisor/meld3;
+      homepage = "https://github.com/supervisor/meld3";
       license = licenses.free;
     };
   };
@@ -11300,7 +11300,7 @@ in modules // {
 
     meta = {
       description = "Python API for communicating with the memcached distributed memory object cache daemon";
-      homepage = http://www.tummy.com/Community/software/python-memcached/;
+      homepage = "http://www.tummy.com/Community/software/python-memcached/";
     };
   };
 
@@ -11316,7 +11316,7 @@ in modules // {
 
     meta = {
       description = "A module for monitoring memory usage of a python program";
-      homepage = http://pypi.python.org/pypi/memory_profiler;
+      homepage = "http://pypi.python.org/pypi/memory_profiler";
       license = licenses.bsd3;
     };
   };
@@ -11365,7 +11365,7 @@ in modules // {
         reusable applications, Mezzanine provides most of its functionality by
         default. This approach yields a more integrated and efficient platform.
       '';
-      homepage = http://mezzanine.jupo.org/;
+      homepage = "http://mezzanine.jupo.org/";
       downloadPage = https://github.com/stephenmcd/mezzanine/releases;
       license = licenses.free;
       maintainers = with maintainers; [ prikhi ];
@@ -11388,7 +11388,7 @@ in modules // {
 
     meta = {
       description = "A minimalistic mocking library for python";
-      homepage = https://pypi.python.org/pypi/MiniMock;
+      homepage = "https://pypi.python.org/pypi/MiniMock";
     };
   };
 
@@ -11404,7 +11404,7 @@ in modules // {
     meta = {
       description = "A dot-accessible dictionary (a la JavaScript objects)";
       license = licenses.mit;
-      homepage = http://github.com/Infinidat/munch;
+      homepage = "http://github.com/Infinidat/munch";
     };
   };
 
@@ -11490,7 +11490,7 @@ in modules // {
 
     meta = {
       decription = "The fastest markdown parser in pure Python";
-      homepage = https://github.com/lepture/mistune;
+      homepage = "https://github.com/lepture/mistune";
       license = licenses.bsd3;
     };
   };
@@ -11544,7 +11544,7 @@ in modules // {
 
     meta = {
       description = "Mock objects for Python";
-      homepage = http://python-mock.sourceforge.net/;
+      homepage = "http://python-mock.sourceforge.net/";
       license = stdenv.lib.licenses.bsd2;
     };
   });
@@ -11562,7 +11562,7 @@ in modules // {
 
     meta = {
       description = "A library for building interactive maps";
-      homepage = http://modestmaps.com;
+      homepage = "http://modestmaps.com";
       license = stdenv.lib.licenses.bsd3;
     };
   };
@@ -11580,7 +11580,7 @@ in modules // {
     meta = {
       description = "Advanced, easy to use and extensible WikiEngine";
 
-      homepage = http://moinmo.in/;
+      homepage = "http://moinmo.in/";
 
       license = licenses.gpl2Plus;
     };
@@ -11599,7 +11599,7 @@ in modules // {
 
     meta = {
       description = "Many more basic tools for python 2/3 extending itertools, functools, operator and collections";
-      homepage = https://bitbucket.org/userzimmermann/python-moretools;
+      homepage = "https://bitbucket.org/userzimmermann/python-moretools";
       license = licenses.gpl3Plus;
       platforms = platforms.linux;
     };
@@ -11617,7 +11617,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://code.google.com/p/pymox/;
+      homepage = "http://code.google.com/p/pymox/";
       description = "A mock object framework for Python";
     };
   };
@@ -11627,13 +11627,13 @@ in modules // {
     version = "0.8";
 
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla-services/mozservices.git;
+      url = "https://github.com/mozilla-services/mozservices.git";
       rev = "refs/tags/${version}";
       sha256 = "0k1d7v8aa4xd3f9h8m5crl647136ba15i9nzdrpxg5aqmv2n0i0p";
     };
 
     patches = singleton (pkgs.fetchurl {
-      url = https://github.com/nbp/mozservices/commit/f86c0b0b870cd8f80ce90accde9e16ecb2e88863.diff;
+      url = "https://github.com/nbp/mozservices/commit/f86c0b0b870cd8f80ce90accde9e16ecb2e88863.diff";
       sha256 = "1lnghx821f6dqp3pa382ka07cncdz7hq0mkrh44d0q3grvrlrp9n";
     });
 
@@ -11641,7 +11641,7 @@ in modules // {
     propagatedBuildInputs = with self; [ pyramid simplejson konfig ];
 
     meta = {
-      homepage = https://github.com/mozilla-services/mozservices;
+      homepage = "https://github.com/mozilla-services/mozservices";
       description = "Various utilities for Mozilla apps";
     };
   };
@@ -11655,7 +11655,7 @@ in modules // {
     };
 
     meta = {
-      homepage    = http://mpmath.googlecode.com;
+      homepage    = "http://mpmath.googlecode.com";
       description = "A pure-Python library for multiprecision floating arithmetic";
       license     = licenses.bsd3;
       maintainers = with maintainers; [ lovek323 ];
@@ -11679,7 +11679,7 @@ in modules // {
 
     meta = with pkgs.stdenv.lib; {
       description = "An MPD (Music Player Daemon) client library written in pure Python";
-      homepage = http://jatreuman.indefero.net/p/python-mpd/;
+      homepage = "http://jatreuman.indefero.net/p/python-mpd/";
       license = licenses.gpl3;
     };
   };
@@ -11747,7 +11747,7 @@ in modules // {
                             (optionals isPy26 [ importlib ordereddict ]);
 
     meta = {
-      homepage = https://github.com/iElectric/mr.bob.git;
+      homepage = "https://github.com/iElectric/mr.bob.git";
       description = "A tool to generate code skeletons from templates";
     };
   };
@@ -11786,7 +11786,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://github.com/mrocklin/multipledispatch/;
+      homepage = "http://github.com/mrocklin/multipledispatch/";
       description = "A relatively sane approach to multiple dispatch in Python";
       license = licenses.bsd3;
       maintainers = with maintainers; [ fridh ];
@@ -11805,7 +11805,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://bmc.github.com/munkres/;
+      homepage = "http://bmc.github.com/munkres/";
       description = "Munkres algorithm for the Assignment Problem";
       license = licenses.bsd3;
       maintainers = with maintainers; [ iElectric ];
@@ -11826,7 +11826,7 @@ in modules // {
     LC_ALL="en_US.UTF-8";
 
     meta = {
-      homepage = http://alastair/python-musicbrainz-ngs;
+      homepage = "http://alastair/python-musicbrainz-ngs";
       description = "Python bindings for musicbrainz NGS webservice";
       license = licenses.bsd2;
       maintainers = with maintainers; [ iElectric ];
@@ -11845,7 +11845,7 @@ in modules // {
     propagatedBuildInputs = with self; [ pyparsing ];
 
     meta = {
-      homepage = https://github.com/aroig/mutag;
+      homepage = "https://github.com/aroig/mutag";
       license = licenses.gpl3;
       maintainers = with maintainers; [ DamienCassou ];
     };
@@ -11864,7 +11864,7 @@ in modules // {
 
     meta = {
       description = "Python multimedia tagging library";
-      homepage = http://code.google.com/p/mutagen;
+      homepage = "http://code.google.com/p/mutagen";
       license = licenses.lgpl2;
     };
   });
@@ -11875,7 +11875,7 @@ in modules // {
     disabled = isPy3k;
 
     src = pkgs.fetchurl {
-      url = http://www.blacktrash.org/hg/muttils/archive/8bb26094df06.tar.bz2;
+      url = "http://www.blacktrash.org/hg/muttils/archive/8bb26094df06.tar.bz2";
       sha256 = "1a4kxa0fpgg6rdj5p4kggfn8xpniqh8v5kbiaqc6wids02m7kag6";
     };
 
@@ -11884,7 +11884,7 @@ in modules // {
 
     meta = {
       description = "Utilities for use with console mail clients, like mutt";
-      homepage = http://www.blacktrash.org/hg/muttils;
+      homepage = "http://www.blacktrash.org/hg/muttils";
       license = licenses.gpl2Plus;
     };
   });
@@ -11912,7 +11912,7 @@ in modules // {
         The mygpoclient library allows developers to utilize a Pythonic interface
         to the gpodder.net web services.
       '';
-      homepage = https://thp.io/2010/mygpoclient/;
+      homepage = "https://thp.io/2010/mygpoclient/";
       license = with licenses; [ gpl3 ];
       platforms = with platforms; linux ++ darwin;
       maintainers = with maintainers; [ skeidel ];
@@ -11957,7 +11957,7 @@ in modules // {
 
     meta = {
       description = "Sexy and simple python charting";
-      homepage = http://www.pygal.org;
+      homepage = "http://www.pygal.org";
       license = licenses.lgpl3;
       maintainers = with maintainers; [ sjourdois ];
     };
@@ -11976,7 +11976,7 @@ in modules // {
 
     meta = {
       description = "Python interface to Graphviz graph drawing package";
-      homepage = https://github.com/pygraphviz/pygraphviz;
+      homepage = "https://github.com/pygraphviz/pygraphviz";
       license = licenses.bsd3;
       maintainers = with maintainers; [ matthiasbeyer ];
     };
@@ -11986,7 +11986,7 @@ in modules // {
     name = "pymysql-${version}";
     version = "0.6.6";
     src = pkgs.fetchgit {
-      url = https://github.com/PyMySQL/PyMySQL.git;
+      url = "https://github.com/PyMySQL/PyMySQL.git";
       rev = "refs/tags/pymysql-${version}";
       sha256 = "12v8bw7pp455zqkwraxk69qycz2ngk18bbz60v72kdbp6kssnqhz";
     };
@@ -12014,7 +12014,7 @@ in modules // {
 
     meta = {
       description = "PyMySQL dialect for SQL Alchemy";
-      homepage = https://pypi.python.org/pypi/pymysql_sa;
+      homepage = "https://pypi.python.org/pypi/pymysql_sa";
       license = licenses.mit;
     };
   };
@@ -12055,7 +12055,7 @@ in modules // {
     meta = {
       description = "MySQL database binding for Python";
 
-      homepage = http://sourceforge.net/projects/mysql-python;
+      homepage = "http://sourceforge.net/projects/mysql-python";
     };
   };
 
@@ -12096,7 +12096,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = http://namebench.googlecode.com/;
+      homepage = "http://namebench.googlecode.com/";
       description = "Find fastest DNS servers available";
       license = with licenses; [
         asl20
@@ -12128,7 +12128,7 @@ in modules // {
 
     meta = {
       description = "A simple Python module for parsing human names into their individual components";
-      homepage = https://github.com/derek73/python-nameparser;
+      homepage = "https://github.com/derek73/python-nameparser";
       license = licenses.lgpl21Plus;
     };
   };
@@ -12155,7 +12155,7 @@ in modules // {
 
     meta = {
       description = "Converting Jupyter Notebooks";
-      homepage = http://jupyter.org/;
+      homepage = "http://jupyter.org/";
       license = licenses.bsd3;
       maintainers = with maintainers; [ fridh ];
     };
@@ -12233,7 +12233,7 @@ in modules // {
     meta = {
       meta = "Elegant Python library for XMPP";
       license = licenses.mit;
-      homepage = https://dev.louiz.org/projects/slixmpp;
+      homepage = "https://dev.louiz.org/projects/slixmpp";
     };
   };
 
@@ -12250,7 +12250,7 @@ in modules // {
     buildInputs = [ pkgs.glibcLocales ];
 
     meta = {
-      homepage = https://github.com/drkjam/netaddr/;
+      homepage = "https://github.com/drkjam/netaddr/";
       description = "A network address manipulation library for Python";
     };
   };
@@ -12265,7 +12265,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://alastairs-place.net/projects/netifaces/;
+      homepage = "http://alastairs-place.net/projects/netifaces/";
       description = "Portable access to network interfaces from Python";
     };
   };
@@ -12351,7 +12351,7 @@ in modules // {
         successfully, the method will be called with the coerced values.
       '';
 
-      homepage = http://divmod.org/trac/wiki/DivmodNevow;
+      homepage = "http://divmod.org/trac/wiki/DivmodNevow";
 
       license = "BSD-style";
     };
@@ -12385,7 +12385,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = http://nipy.org/nibabel/;
+      homepage = "http://nipy.org/nibabel/";
       description = "Access a multitude of neuroimaging data formats";
       license = licenses.mit;
     };
@@ -12417,7 +12417,7 @@ in modules // {
    ];
 
     meta = {
-      homepage = http://nipy.org/nipype/;
+      homepage = "http://nipy.org/nipype/";
       description = "Neuroimaging in Python: Pipelines and Interfaces";
       license = licenses.bsd3;
     };
@@ -12461,7 +12461,7 @@ in modules // {
     meta = {
       license = licenses.lgpl21;
       description = "Exclude specific directories from nosetests runs";
-      homepage = https://github.com/kgrandis/nose-exclude;
+      homepage = "https://github.com/kgrandis/nose-exclude";
       maintainers = with maintainers; [ fridh ];
     };
 
@@ -12515,7 +12515,7 @@ in modules // {
 
     meta = {
       description = "Coverage 3.x support for Nose";
-      homepage = https://github.com/ask/nosecover3;
+      homepage = "https://github.com/ask/nosecover3";
       license = licenses.lgpl21;
     };
   };
@@ -12533,7 +12533,7 @@ in modules // {
     meta = {
       description = "Extends nose.plugins.cover to add Cobertura-style XML reports";
 
-      homepage = http://github.com/cmheisel/nose-xcover/;
+      homepage = "http://github.com/cmheisel/nose-xcover/";
 
       license = licenses.bsd3;
     };
@@ -12542,7 +12542,7 @@ in modules // {
   nosejs = buildPythonPackage {
     name = "nosejs-0.9.4";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/N/NoseJS/NoseJS-0.9.4.tar.gz;
+      url = "https://pypi.python.org/packages/source/N/NoseJS/NoseJS-0.9.4.tar.gz";
       sha256 = "0qrhkd3sga56qf6k0sqyhwfcladwi05gl6aqmr0xriiq1sgva5dy";
     };
     buildInputs = with self; [ nose ];
@@ -12593,7 +12593,7 @@ in modules // {
     doCheck = false;
     meta = {
       description = "The Jupyter HTML notebook is a web-based notebook environment for interactive computing";
-      homepage = http://jupyter.org/;
+      homepage = "http://jupyter.org/";
       license = licenses.bsd3;
       maintainers = with maintainers; [ fridh ];
     };
@@ -12603,7 +12603,7 @@ in modules // {
     name = "python-notify-0.1.1";
 
     src = pkgs.fetchurl {
-      url = http://www.galago-project.org/files/releases/source/notify-python/notify-python-0.1.1.tar.bz2;
+      url = "http://www.galago-project.org/files/releases/source/notify-python/notify-python-0.1.1.tar.bz2";
       sha256 = "1kh4spwgqxm534qlzzf2ijchckvs0pwjxl1irhicjmlg7mybnfvx";
     };
 
@@ -12625,7 +12625,7 @@ in modules // {
 
     meta = {
       description = "Python bindings for libnotify";
-      homepage = http://www.galago-project.org/;
+      homepage = "http://www.galago-project.org/";
     };
   });
 
@@ -12645,7 +12645,7 @@ in modules // {
 
     meta = {
       description = "A Python wrapper around notmuch";
-      homepage = http://notmuchmail.org/;
+      homepage = "http://notmuchmail.org/";
       maintainers = with maintainers; [ garbas ];
     };
   };
@@ -12653,7 +12653,7 @@ in modules // {
   ntplib = buildPythonPackage rec {
     name = "ntplib-0.3.2";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/n/ntplib/ntplib-0.3.2.tar.gz;
+      url = "https://pypi.python.org/packages/source/n/ntplib/ntplib-0.3.2.tar.gz";
       md5 = "0f386dc00c0056ac4d77af0b4c21bb8e";
     };
 
@@ -12691,7 +12691,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://numba.pydata.org/;
+      homepage = "http://numba.pydata.org/";
       license = licenses.bsd2;
       description = "Compiling Python code using LLVM";
       maintainers = with maintainers; [ fridh ];
@@ -12788,7 +12788,7 @@ in modules // {
       description = "Numerical traits for Python objects";
       license = licenses.bsd2;
       maintainers = with maintainers; [ fridh ];
-      homepage = https://github.com/astrofrog/numtraits;
+      homepage = "https://github.com/astrofrog/numtraits";
     };
   };
 
@@ -12809,7 +12809,7 @@ in modules // {
 
     meta = {
       description = "Generate network-diagram image from spec-text file (similar to Graphviz)";
-      homepage = http://blockdiag.com/;
+      homepage = "http://blockdiag.com/";
       license = licenses.asl20;
       platforms = platforms.linux;
       maintainers = with maintainers; [ bjornfor ];
@@ -12838,7 +12838,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = http://livestreamer.tanuki.se;
+      homepage = "http://livestreamer.tanuki.se";
       description = ''
         Livestreamer is CLI program that extracts streams from various
         services and pipes them into a video player of choice.
@@ -12857,7 +12857,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://code.google.com/p/oauth;
+      homepage = "http://code.google.com/p/oauth";
       description = "Library for OAuth version 1.0a";
       license = licenses.mit;
       platforms = platforms.all;
@@ -12902,7 +12902,7 @@ in modules // {
 
     meta = {
       description = "A client library for OAuth 2.0";
-      homepage = http://github.com/google/oauth2client/;
+      homepage = "http://github.com/google/oauth2client/";
       license = licenses.bsd2;
     };
   };
@@ -12921,7 +12921,7 @@ in modules // {
     propagatedBuildInputs = with self; [ pycrypto blinker pyjwt ];
 
     meta = {
-      homepage = https://github.com/idan/oauthlib;
+      homepage = "https://github.com/idan/oauthlib";
       downloadPage = https://github.com/idan/oauthlib/releases;
       description = "A generic, spec-compliant, thorough implementation of the OAuth request-signing logic";
       maintainers = with maintainers; [ prikhi ];
@@ -12948,7 +12948,7 @@ in modules // {
 
     meta = {
       description = "a pluggable transport proxy";
-      homepage = https://www.torproject.org/projects/obfsproxy;
+      homepage = "https://www.torproject.org/projects/obfsproxy";
       repositories.git = https://git.torproject.org/pluggable-transports/obfsproxy.git;
       maintainers = with maintainers; [ phreedom thoughtpolice ];
     };
@@ -12970,7 +12970,7 @@ in modules // {
 
     meta = {
       description = "Draws Python object reference graphs with graphviz";
-      homepage = http://mg.pov.lt/objgraph/;
+      homepage = "http://mg.pov.lt/objgraph/";
       license = licenses.mit;
     };
   };
@@ -12992,7 +12992,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://github.com/ContinuumIO/odo;
+      homepage = "https://github.com/ContinuumIO/odo";
       description = "Data migration utilities";
       license = licenses.bsdOriginal;
       maintainers = with maintainers; [ fridh ];
@@ -13025,7 +13025,7 @@ in modules // {
 
     meta = {
       description = "A Python library to read/write Excel 2007 xlsx/xlsm files";
-      homepage = https://openpyxl.readthedocs.org;
+      homepage = "https://openpyxl.readthedocs.org";
       license = licenses.mit;
       maintainers = with maintainers; [ lihop sjourdois ];
       platforms = platforms.all;
@@ -13087,7 +13087,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://www.dabeaz.com/ply/;
+      homepage = "http://www.dabeaz.com/ply/";
 
       description = "PLY (Python Lex-Yacc), an implementation of the lex and yacc parsing tools for Python";
 
@@ -13116,7 +13116,7 @@ in modules // {
     disabled = isPy3k;
 
     src = pkgs.fetchgit {
-      url = https://github.com/openSUSE/osc;
+      url = "https://github.com/openSUSE/osc";
       rev = "6cd541967ee2fca0b89e81470f18b97a3ffc23ce";
       sha256 = "a39ce0e321e40e9758bf7b9128d316c71b35b80eabc84f13df492083bb6f1cc6";
     };
@@ -13237,7 +13237,7 @@ in modules // {
 
     meta = with stdenv.lib; {
       description = "rfc3986";
-      homepage = https://rfc3986.rtfd.org;
+      homepage = "https://rfc3986.rtfd.org";
     };
   };
 
@@ -13264,7 +13264,7 @@ in modules // {
     '';
 
     meta = with stdenv.lib; {
-      homepage = https://launchpad.net/pycadf;
+      homepage = "https://launchpad.net/pycadf";
     };
   };
 
@@ -14132,7 +14132,7 @@ in modules // {
    doCheck = false;
 
    meta = with stdenv.lib; {
-     homepage = http://launchpad.net/oslo;
+     homepage = "http://launchpad.net/oslo";
    };
  };
 
@@ -14151,7 +14151,7 @@ in modules // {
     doCheck = false;
 
     meta = with stdenv.lib; {
-      homepage = https://github.com/rholder/retrying;
+      homepage = "https://github.com/rholder/retrying";
     };
   };
 
@@ -14175,7 +14175,7 @@ in modules // {
 
     meta = with stdenv.lib; {
       description = "Fasteners";
-      homepage = https://github.com/harlowja/fasteners;
+      homepage = "https://github.com/harlowja/fasteners";
     };
   };
 
@@ -14199,7 +14199,7 @@ in modules // {
 
     meta = with stdenv.lib; {
       description = "aioeventlet implements the asyncio API (PEP 3156) on top of eventlet. It makes";
-      homepage = http://aioeventlet.readthedocs.org/;
+      homepage = "http://aioeventlet.readthedocs.org/";
     };
   };
 
@@ -14587,7 +14587,7 @@ in modules // {
     disabled = isPy3k;
 
     src = pkgs.fetchurl {
-      url = http://pypi.python.org/packages/source/P/Paste/Paste-1.7.5.1.tar.gz;
+      url = "http://pypi.python.org/packages/source/P/Paste/Paste-1.7.5.1.tar.gz";
       md5 = "7ea5fabed7dca48eb46dc613c4b6c4ed";
     };
 
@@ -14597,7 +14597,7 @@ in modules // {
 
     meta = {
       description = "Tools for using a Web Server Gateway Interface stack";
-      homepage = http://pythonpaste.org/;
+      homepage = "http://pythonpaste.org/";
     };
   };
 
@@ -14615,7 +14615,7 @@ in modules // {
 
     meta = {
       description = "Load, configure, and compose WSGI applications and servers";
-      homepage = http://pythonpaste.org/deploy/;
+      homepage = "http://pythonpaste.org/deploy/";
       platforms = platforms.all;
     };
   };
@@ -14635,7 +14635,7 @@ in modules // {
 
     meta = {
       description = "A pluggable command-line frontend, including commands to setup package file layouts";
-      homepage = http://pythonpaste.org/script/;
+      homepage = "http://pythonpaste.org/script/";
       platforms = platforms.all;
     };
   };
@@ -14672,7 +14672,7 @@ in modules // {
 
     meta = {
       description = "A module wrapper for os.path";
-      homepage = http://github.com/jaraco/path.py;
+      homepage = "http://github.com/jaraco/path.py";
       license = licenses.mit;
     };
 
@@ -14692,7 +14692,7 @@ in modules // {
     propagatedBuildInputs = with self; [ httplib2 ];
 
     meta = {
-      homepage = https://developer.paypal.com/;
+      homepage = "https://developer.paypal.com/";
       description = "Python APIs to create, process and manage payment";
       license = "PayPal SDK License";
     };
@@ -14809,7 +14809,7 @@ in modules // {
     buildInputs = with self; [ pytest ];
 
     meta = {
-      homepage = https://github.com/GreenSteam/pep257/;
+      homepage = "https://github.com/GreenSteam/pep257/";
       description = "Python docstring style checker";
       longDescription = "Static analysis tool for checking compliance with Python PEP 257.";
       lecense = licenses.mit;
@@ -14829,7 +14829,7 @@ in modules // {
     propagatedBuildInputs = with self; [ modules.curses ];
 
     meta = {
-      homepage = https://github.com/mooz/percol;
+      homepage = "https://github.com/mooz/percol";
       description = "Adds flavor of interactive filtering to the traditional pipe concept of shell";
       license = licenses.mit;
       maintainers = with maintainers; [ koral ];
@@ -14847,7 +14847,7 @@ in modules // {
 
     meta = {
       description = "A module for editing JPEG EXIF data";
-      homepage = http://www.benno.id.au/code/pexif/;
+      homepage = "http://www.benno.id.au/code/pexif/";
       license = licenses.mit;
     };
   };
@@ -14866,7 +14866,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://www.noah.org/wiki/Pexpect;
+      homepage = "http://www.noah.org/wiki/Pexpect";
       description = "Automate interactive console applications such as ssh, ftp, etc";
       license = licenses.mit;
 
@@ -14927,7 +14927,7 @@ in modules // {
         Rich command-line interface for PostgreSQL with auto-completion and
         syntax highlighting.
       '';
-      homepage = http://pgcli.com;
+      homepage = "http://pgcli.com";
       license = licenses.bsd3;
       maintainers = with maintainers; [ nckx ];
     };
@@ -14955,7 +14955,7 @@ in modules // {
         Rich command-line interface for MySQL with auto-completion and
         syntax highlighting.
       '';
-      homepage = http://mycli.net;
+      homepage = "http://mycli.net";
       license = licenses.bsd3;
     };
   };
@@ -14973,7 +14973,7 @@ in modules // {
 
     meta = {
       description = "Tiny 'shelve'-like database with concurrency support";
-      homepage = https://github.com/vivainio/pickleshare;
+      homepage = "https://github.com/vivainio/pickleshare";
       license = licenses.mit;
     };
   };
@@ -14995,7 +14995,7 @@ in modules // {
     name = "pika-0.9.12";
     disabled = isPy3k;
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/p/pika/pika-0.9.12.tar.gz;
+      url = "https://pypi.python.org/packages/source/p/pika/pika-0.9.12.tar.gz";
       md5 = "7174fc7cc5570314fa3cfaa729106482";
     };
     buildInputs = with self; [ nose mock pyyaml ];
@@ -15018,7 +15018,7 @@ in modules // {
 
      meta = with stdenv.lib; {
      description = "An open source ecosystem for IoT development";
-     homepage = http://platformio.org;
+     homepage = "http://platformio.org";
      maintainers = with maintainers; [ mog ];
      license = licenses.asl20;
      };
@@ -15038,7 +15038,7 @@ in modules // {
     propagatedBuildInputs = with self ; [ pyparsing ];
 
     meta = {
-      homepage = https://github.com/heinzK1X/pylibconfig2;
+      homepage = "https://github.com/heinzK1X/pylibconfig2";
       description = "Pure python library for libconfig syntax";
       license = licenses.gpl3;
     };
@@ -15058,7 +15058,7 @@ in modules // {
 
     meta = {
       description = "A command-line tool to show the weather report by a given station ID";
-      homepage = http://www.schwarzvogel.de/software/pymetar.html;
+      homepage = "http://www.schwarzvogel.de/software/pymetar.html";
       license = licenses.gpl2;
     };
   };
@@ -15076,7 +15076,7 @@ in modules // {
     propagatedBuildInputs = with self; [ paramiko ];
 
     meta = {
-      homepage = https://bitbucket.org/dundeemt/pysftp;
+      homepage = "https://bitbucket.org/dundeemt/pysftp";
       description = "A friendly face on SFTP";
       license = licenses.mit;
       longDescription = ''
@@ -15102,7 +15102,7 @@ in modules // {
     meta = {
       description = "An audio library based on libsndfile, CFFI and NumPy";
       license = licenses.bsd3;
-      homepage = https://github.com/bastibe/PySoundFile;
+      homepage = "https://github.com/bastibe/PySoundFile";
       maintainers = with maintainers; [ fridh ];
     };
 
@@ -15122,7 +15122,7 @@ in modules // {
     doCheck = false;
 
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/p/python3-pika/python3-pika-0.9.14.tar.gz;
+      url = "https://pypi.python.org/packages/source/p/python3-pika/python3-pika-0.9.14.tar.gz";
       md5 = "f3a3ee58afe0ae06f1fa553710e1aa28";
     };
     buildInputs = with self; [ nose mock pyyaml ];
@@ -15148,7 +15148,7 @@ in modules // {
 
     meta = {
       description = "Python bindings for the remote Jenkins API";
-      homepage = https://pypi.python.org/pypi/python-jenkins;
+      homepage = "https://pypi.python.org/pypi/python-jenkins";
       license = licenses.bsd3;
     };
   };
@@ -15223,7 +15223,7 @@ in modules // {
 
     meta = {
       description = "Interface Python with pkg-config";
-      homepage = http://github.com/matze/pkgconfig;
+      homepage = "http://github.com/matze/pkgconfig";
       license = licenses.mit;
     };
 
@@ -15299,7 +15299,7 @@ in modules // {
     '';
 
     meta = {
-      homepage    = https://github.com/powerline/powerline;
+      homepage    = "https://github.com/powerline/powerline";
       description = "The ultimate statusline/prompt utility";
       license     = licenses.mit;
       maintainers = with maintainers; [ lovek323 ];
@@ -15331,7 +15331,7 @@ in modules // {
 
     meta = {
       description = "Python Reddit API wrapper";
-      homepage = http://praw.readthedocs.org/;
+      homepage = "http://praw.readthedocs.org/";
       license = licenses.gpl3;
       platforms = platforms.all;
       maintainers = with maintainers; [ jgeerds ];
@@ -15354,7 +15354,7 @@ in modules // {
 
     meta = {
       description = "Simple Python library for easily displaying tabular data in a visually appealing ASCII table format";
-      homepage = http://code.google.com/p/prettytable/;
+      homepage = "http://code.google.com/p/prettytable/";
     };
   };
 
@@ -15379,7 +15379,7 @@ in modules // {
         with it should run fine on both Unix and Windows systems. Also ships
         with a nice interactive Python shell (called ptpython) built on top.
       '';
-      homepage = https://github.com/jonathanslenders/python-prompt-toolkit;
+      homepage = "https://github.com/jonathanslenders/python-prompt-toolkit";
       license = licenses.bsd3;
       maintainers = with maintainers; [ nckx ];
     };
@@ -15418,7 +15418,7 @@ in modules // {
 
     meta = {
       description = "Protocol Buffers are Google's data interchange format";
-      homepage = http://code.google.com/p/protobuf/;
+      homepage = "http://code.google.com/p/protobuf/";
     };
 
     passthru.protobuf = protobuf;
@@ -15447,7 +15447,7 @@ in modules // {
 
     meta = {
       description = "Process and system utilization information interface for python";
-      homepage = http://code.google.com/p/psutil/;
+      homepage = "http://code.google.com/p/psutil/";
     };
   };
 
@@ -15512,7 +15512,7 @@ in modules // {
 
     meta = {
       description = "Library with cross-python path, ini-parsing, io, code, log facilities";
-      homepage = http://pylib.readthedocs.org/;
+      homepage = "http://pylib.readthedocs.org/";
       license = licenses.mit;
     };
   };
@@ -15556,7 +15556,7 @@ in modules // {
 
     meta = {
       description = "Python Algorithmic Trading";
-      homepage = http://gbeced.github.io/pyalgotrade/;
+      homepage = "http://gbeced.github.io/pyalgotrade/";
       license = licenses.asl20;
     };
   };
@@ -15572,7 +15572,7 @@ in modules // {
 
     meta = {
       description = "ASN.1 tools for Python";
-      homepage = http://pyasn1.sourceforge.net/;
+      homepage = "http://pyasn1.sourceforge.net/";
       license = "mBSD";
       platforms = platforms.unix;  # arbitrary choice
     };
@@ -15592,7 +15592,7 @@ in modules // {
 
     meta = {
       description = "A collection of ASN.1-based protocols modules";
-      homepage = https://pypi.python.org/pypi/pyasn1-modules;
+      homepage = "https://pypi.python.org/pypi/pyasn1-modules";
       license = licenses.bsd3;
       platforms = platforms.unix;  # same as pyasn1
     };
@@ -15713,7 +15713,7 @@ in modules // {
 
     meta = {
       description = "Module for reading vCard and vCalendar files";
-      homepage = https://github.com/adieu/vobject/;
+      homepage = "https://github.com/adieu/vobject/";
       license = licenses.asl20;
       maintainers = with maintainers; [ DamienCassou ];
     };
@@ -15734,7 +15734,7 @@ in modules // {
 
     meta = {
       description = "Command-line interface carddav client";
-      homepage = http://lostpackets.de/pycarddav;
+      homepage = "http://lostpackets.de/pycarddav";
       license = licenses.mit;
       maintainers = with maintainers; [ DamienCassou ];
     };
@@ -15756,7 +15756,7 @@ in modules // {
           picosat solver becomes part of the Python process itself. For
           ease of deployment, the picosat source (namely picosat.c and
           picosat.h) is included in this project.'';
-      homepage = https://github.com/ContinuumIO/pycosat;
+      homepage = "https://github.com/ContinuumIO/pycosat";
       license = licenses.mit;
     };
   };
@@ -15782,7 +15782,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://pypi.python.org/pypi/pygit2;
+      homepage = "https://pypi.python.org/pypi/pygit2";
       description = "A set of Python bindings to the libgit2 shared library";
       license = licenses.gpl2;
       platforms = platforms.all;
@@ -15802,7 +15802,7 @@ in modules // {
     propagatedBuildInputs = with self; [ pytz ];
 
     meta = {
-      homepage = http://babel.edgewall.org;
+      homepage = "http://babel.edgewall.org";
       description = "A collection of tools for internationalizing Python applications";
       license = licenses.bsd3;
       maintainers = with maintainers; [ garbas ];
@@ -15826,7 +15826,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://github.com/Groundworkstech/pybfd;
+      homepage = "https://github.com/Groundworkstech/pybfd";
       description = "A Python interface to the GNU Binary File Descriptor (BFD) library";
       license = licenses.gpl2;
       platforms = platforms.linux;
@@ -15872,7 +15872,7 @@ in modules // {
 
     meta = {
       description = "bcrypt password hashing and key derivation";
-      homepage = https://code.google.com/p/py-bcrypt2;
+      homepage = "https://code.google.com/p/py-bcrypt2";
       license = "BSD";
     };
   };
@@ -15955,7 +15955,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = http://www.gnu.org/software/libcdio/;
+      homepage = "http://www.gnu.org/software/libcdio/";
       description = "Wrapper around libcdio (CD Input and Control library)";
       maintainers = with maintainers; [ rycee ];
       license = licenses.gpl3Plus;
@@ -15980,7 +15980,7 @@ in modules // {
     buildInputs = with self; [ setuptoolsDarcs darcsver pkgs.cryptopp ];
 
     meta = {
-      homepage = http://allmydata.org/trac/pycryptopp;
+      homepage = "http://allmydata.org/trac/pycryptopp";
 
       description = "Python wrappers for the Crypto++ library";
 
@@ -16007,7 +16007,7 @@ in modules // {
 
     meta = {
       description = "Python bindings for libcups";
-      homepage = http://cyberelk.net/tim/software/pycups/;
+      homepage = "http://cyberelk.net/tim/software/pycups/";
       license = with licenses; [ gpl2Plus ];
     };
 
@@ -16033,7 +16033,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = http://pycurl.sourceforge.net/;
+      homepage = "http://pycurl.sourceforge.net/";
       description = "Python wrapper for libcurl";
       platforms = platforms.linux;
     };
@@ -16056,7 +16056,7 @@ in modules // {
     buildInputs = with self; [ pkgs.curl simplejson unittest2 nose ];
 
     meta = {
-      homepage = https://pypi.python.org/pypi/pycurl2;
+      homepage = "https://pypi.python.org/pypi/pycurl2";
       description = "A fork from original PycURL library that no maintained from 7.19.0";
       platforms = platforms.linux;
     };
@@ -16073,7 +16073,7 @@ in modules // {
     };
     propagatedBuildInputs = with self; [pyparsing pkgs.graphviz];
     meta = {
-      homepage = http://code.google.com/p/pydot/;
+      homepage = "http://code.google.com/p/pydot/";
       description = "Allows to easily create both directed and non directed graphs from Python";
     };
   };
@@ -16093,7 +16093,7 @@ in modules // {
 
     meta = {
       description = "A clean, future-proof, high-scale API to elasticsearch.";
-      homepage = https://pyelasticsearch.readthedocs.org;
+      homepage = "https://pyelasticsearch.readthedocs.org";
       license = licenses.bsd3;
     };
   });
@@ -16119,7 +16119,7 @@ in modules // {
 
     meta = {
       description = "pyenchant: Python bindings for the Enchant spellchecker";
-      homepage = https://pythonhosted.org/pyenchant/;
+      homepage = "https://pythonhosted.org/pyenchant/";
       license = licenses.lgpl21;
     };
   };
@@ -16143,7 +16143,7 @@ in modules // {
 
     meta = {
       description = "Python bindings for libev";
-      homepage = https://code.google.com/p/pyev/;
+      homepage = "https://code.google.com/p/pyev/";
       license = licenses.gpl3;
       maintainers = [ maintainers.bjornfor ];
     };
@@ -16194,7 +16194,7 @@ in modules // {
 
     meta = {
       description = "A pythonic wrapper around FFTW, the FFT library, presenting a unified interface for all the supported transforms";
-      homepage = http://hgomersall.github.com/pyFFTW/;
+      homepage = "http://hgomersall.github.com/pyFFTW/";
       license = with licenses; [ bsd2 bsd3 ];
       maintainers = with maintainers; [ fridh ];
     };
@@ -16232,7 +16232,7 @@ in modules // {
     doCheck = !isPyPy;
 
     meta = {
-      homepage = https://launchpad.net/pyflakes;
+      homepage = "https://launchpad.net/pyflakes";
       description = "A simple program which checks Python source files for errors";
       license = licenses.mit;
       maintainers = with maintainers; [ garbas ];
@@ -16254,7 +16254,7 @@ in modules // {
 
     meta = {
       description = "Pure Python GeoIP API";
-      homepage = https://github.com/appliedsec/pygeoip;
+      homepage = "https://github.com/appliedsec/pygeoip";
       license = licenses.lgpl3Plus;
     };
   };
@@ -16298,7 +16298,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://pygments.org/;
+      homepage = "http://pygments.org/";
       description = "A generic syntax highlighter";
       license = licenses.bsd2;
       maintainers = with maintainers; [ nckx garbas ];
@@ -16360,7 +16360,7 @@ in modules // {
     '';
 
     meta = {
-        homepage = http://www.logilab.org/project/pylint;
+        homepage = "http://www.logilab.org/project/pylint";
         description = "A bug and style checker for Python";
     };
   };
@@ -16379,7 +16379,7 @@ in modules // {
 
     meta = {
       description = "3D mathematical functions using NumPy";
-      homepage = https://github.com/adamlwgriffiths/Pyrr/;
+      homepage = "https://github.com/adamlwgriffiths/Pyrr/";
       license = licenses.bsd2;
     };
   };
@@ -16397,7 +16397,7 @@ in modules // {
 
     meta = {
       description = "Pure Python read/write support for ESRI Shapefile format";
-      homepage = https://github.com/GeospatialPython/pyshp;
+      homepage = "https://github.com/GeospatialPython/pyshp";
       license = licenses.mit;
     };
   };
@@ -16415,7 +16415,7 @@ in modules // {
 
     meta = {
       description = "Python package for the generation of PostScript, PDF, and SVG files";
-      homepage = http://pyx.sourceforge.net/;
+      homepage = "http://pyx.sourceforge.net/";
       license = with licenses; [ gpl2 ];
     };
   };
@@ -16425,7 +16425,7 @@ in modules // {
     name = "mmpython-${version}";
 
     src = pkgs.fetchurl {
-      url = http://sourceforge.net/projects/mmpython/files/latest/download;
+      url = "http://sourceforge.net/projects/mmpython/files/latest/download";
       sha256 = "1b7qfad3shgakj37gcj1b9h78j1hxlz6wp9k7h76pb4sq4bfyihy";
       name = "${name}.tar.gz";
     };
@@ -16434,7 +16434,7 @@ in modules // {
 
     meta = {
       description = "Media Meta Data retrieval framework";
-      homepage = http://sourceforge.net/projects/mmpython/;
+      homepage = "http://sourceforge.net/projects/mmpython/";
       license = licenses.gpl2;
       maintainers = with maintainers; [ DamienCassou ];
     };
@@ -16477,7 +16477,7 @@ in modules // {
 
     meta = {
       description = "Generic application framework, providing the foundation for other modules";
-      homepage = https://github.com/freevo/kaa-base;
+      homepage = "https://github.com/freevo/kaa-base";
       license = licenses.lgpl21;
       maintainers = with maintainers; [ DamienCassou ];
     };
@@ -16524,7 +16524,7 @@ in modules // {
 
     meta = {
       description = "Python library for parsing media metadata, which can extract metadata (e.g., such as id3 tags) from a wide range of media files";
-      homepage = https://github.com/freevo/kaa-metadata;
+      homepage = "https://github.com/freevo/kaa-metadata";
       license = licenses.gpl2;
       maintainers = with maintainers; [ DamienCassou ];
     };
@@ -16540,7 +16540,7 @@ in modules // {
     };
 
     meta = {
-      homepage = https://github.com/seb-m/pyinotify/wiki;
+      homepage = "https://github.com/seb-m/pyinotify/wiki";
       description = "Monitor filesystems events on Linux platforms with inotify";
       license = licenses.mit;
       platforms = platforms.linux;
@@ -16561,7 +16561,7 @@ in modules // {
     meta = {
       description = "JSON Web Token implementation in Python";
       longDescription = "A Python implementation of JSON Web Token draft 01";
-      homepage = https://github.com/progrium/pyjwt;
+      homepage = "https://github.com/progrium/pyjwt";
       downloadPage = https://github.com/progrium/pyjwt/releases;
       license = licenses.mit;
       maintainers = with maintainers; [ prikhi ];
@@ -16611,7 +16611,7 @@ in modules // {
 
     meta = {
       description = "Python ODBC module to connect to almost any database";
-      homepage = https://code.google.com/p/pyodbc/;
+      homepage = "https://code.google.com/p/pyodbc/";
       license = licenses.mit;
       platforms = platforms.linux;
       maintainers = with maintainers; [ bjornfor ];
@@ -16631,7 +16631,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://pyparsing.wikispaces.com/;
+      homepage = "http://pyparsing.wikispaces.com/";
       description = "An alternative approach to creating and executing simple grammars, vs. the traditional lex/yacc approach, or the use of regular expressions";
     };
   };
@@ -16646,7 +16646,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://pyparsing.wikispaces.com/;
+      homepage = "http://pyparsing.wikispaces.com/";
       description = "An alternative approach to creating and executing simple grammars, vs. the traditional lex/yacc approach, or the use of regular expressions";
     };
   };
@@ -16727,7 +16727,7 @@ in modules // {
 
     meta = {
       description = "Scientific Graphics and GUI Library for Python";
-      homepage = http://www.pyqtgraph.org/;
+      homepage = "http://www.pyqtgraph.org/";
       license = licenses.mit;
       platforms = platforms.unix;
       maintainers = with maintainers; [ koral ];
@@ -16757,7 +16757,7 @@ in modules // {
 
     meta = {
       description = "A framework-agnostic, logic-free templating system inspired by ctemplate and et";
-      homepage = https://github.com/defunkt/pystache;
+      homepage = "https://github.com/defunkt/pystache";
       license = licenses.mit;
     };
   };
@@ -16776,7 +16776,7 @@ in modules // {
 
     meta = {
       description = "Snowball stemming algorithms, for information retrieval";
-      homepage = http://snowball.tartarus.org/;
+      homepage = "http://snowball.tartarus.org/";
       license = licenses.mit;
       platforms = platforms.unix;
     };
@@ -16793,7 +16793,7 @@ in modules // {
 
     meta = {
       description = "Distributed object middleware for Python (IPC/RPC)";
-      homepage = http://pythonhosted.org/Pyro/;
+      homepage = "http://pythonhosted.org/Pyro/";
       license = licenses.mit;
       platforms = platforms.unix;
       maintainers = with maintainers; [ bjornfor ];
@@ -16809,7 +16809,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://www.dalkescientific.om/Python/PyRSS2Gen.html;
+      homepage = "http://www.dalkescientific.om/Python/PyRSS2Gen.html";
       description = "Library for generating RSS 2.0 feeds";
       license = licenses.bsd2;
       maintainers = with maintainers; [ iElectric ];
@@ -16828,7 +16828,7 @@ in modules // {
     propagatedBuildInputs = with self; [ pyasn1 pycrypto ];
 
     meta = {
-      homepage = http://pysnmp.sf.net;
+      homepage = "http://pysnmp.sf.net";
       description = "A pure-Python SNMPv1/v2c/v3 library";
       license = licenses.bsd2;
       platforms = platforms.all;
@@ -16895,7 +16895,7 @@ in modules // {
 
     meta = {
       description = "Toolkit for safe and simple cryptography";
-      homepage    = https://pypi.python.org/pypi/python-keyczar;
+      homepage    = "https://pypi.python.org/pypi/python-keyczar";
       license     = licenses.asl20;
       maintainers = with maintainers; [ lovek323 ];
       platforms   = platforms.unix;
@@ -16939,7 +16939,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://github.com/ericflo/pynzb;
+      homepage = "http://github.com/ericflo/pynzb";
       description = "Unified API for parsing NZB files";
       license = licenses.bsd3;
       maintainers = with maintainers; [ iElectric ];
@@ -16958,7 +16958,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://code.google.com/p/python-progressbar/;
+      homepage = "http://code.google.com/p/python-progressbar/";
       description = "Text progressbar library for python";
       license = licenses.lgpl3Plus;
       maintainers = with maintainers; [ iElectric ];
@@ -16990,7 +16990,7 @@ in modules // {
     };
     meta = {
       description = "Test classes and test cases using decorators, execute test cases by command line, and get clear reports.";
-      homepage = https://pypi.python.org/pypi/ptest;
+      homepage = "https://pypi.python.org/pypi/ptest";
       license = licenses.asl20;
     };
   };
@@ -17006,7 +17006,7 @@ in modules // {
 
     meta = {
       description = "Run a subprocess in a pseudo terminal";
-      homepage = https://github.com/pexpect/ptyprocess;
+      homepage = "https://github.com/pexpect/ptyprocess";
       license = licenses.isc;
     };
   };
@@ -17045,7 +17045,7 @@ in modules // {
     propagatedBuildInputs = with self ; [ pkgs.liblo ];
 
     meta = {
-      homepage = http://das.nasophon.de/pyliblo/;
+      homepage = "http://das.nasophon.de/pyliblo/";
       description = "Python wrapper for the liblo OSC library";
       license = licenses.lgpl21;
     };
@@ -17068,7 +17068,7 @@ in modules // {
 
     meta = {
       description = "Emacs Lisp to Python interface";
-      homepage = http://pymacs.progiciels-bpi.ca;
+      homepage = "http://pymacs.progiciels-bpi.ca";
       license = licenses.gpl2;
       maintainers = with maintainers; [ goibhniu ];
     };
@@ -17128,7 +17128,7 @@ in modules // {
       sed -i "s|'glut',|'${pkgs.freeglut}/lib/libglut.so',|" OpenGL/platform/glx.py
     '';
     meta = {
-      homepage = http://pyopengl.sourceforge.net/;
+      homepage = "http://pyopengl.sourceforge.net/";
       description = "PyOpenGL, the Python OpenGL bindings";
       longDescription = ''
         PyOpenGL is the cross platform Python binding to OpenGL and
@@ -17211,7 +17211,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://pypi.python.org/pypi/pyreport;
+      homepage = "http://pypi.python.org/pypi/pyreport";
       license = "BSD";
       description = "Pyreport makes notes out of a python script";
     };
@@ -17232,7 +17232,7 @@ in modules // {
 
     meta = {
       description = "A Scss compiler for Python";
-      homepage = http://pyscss.readthedocs.org/en/latest/;
+      homepage = "http://pyscss.readthedocs.org/en/latest/";
       license = licenses.mit;
     };
   };
@@ -17349,7 +17349,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://pysqlite.org/;
+      homepage = "http://pysqlite.org/";
 
       description = "Python bindings for the SQLite embedded relational database engine";
 
@@ -17437,7 +17437,7 @@ in modules // {
     meta = {
       inherit version;
       description = "Read & write wireless card capabilities using the Linux Wireless Extensions";
-      homepage = http://pythonwifi.tuxfamily.org/;
+      homepage = "http://pythonwifi.tuxfamily.org/";
       # From the README: "pythonwifi is licensed under LGPLv2+, however, the
       # examples (e.g. iwconfig.py and iwlist.py) are licensed under GPLv2+."
       license = with licenses; [ lgpl2Plus gpl2Plus ];
@@ -17494,7 +17494,7 @@ in modules // {
         we're not alone in wanting tools like these.
       '';
 
-      homepage = http://allmydata.org/trac/pyutil;
+      homepage = "http://allmydata.org/trac/pyutil";
 
       license = licenses.gpl2Plus;
     };
@@ -17526,7 +17526,7 @@ in modules // {
     name = "pywinrm";
 
     src = pkgs.fetchgit {
-      url = https://github.com/diyan/pywinrm.git;
+      url = "https://github.com/diyan/pywinrm.git";
       rev = "c9ce62d500007561ab31a8d0a5d417e779fb69d9";
       sha256 = "0n0qlcgin2g5lpby07qbdlnpq5v2qc2yns9zc4zm5prwh2mhs5za";
     };
@@ -17572,7 +17572,7 @@ in modules // {
         `rfc3542' is a full implementation of RFC3542 (Advanced Sockets
         Application Program Interface (API) for IPv6).
       '';
-      homepage = http://www.pps.univ-paris-diderot.fr/~ylg/PyXAPI/;
+      homepage = "http://www.pps.univ-paris-diderot.fr/~ylg/PyXAPI/";
       license = licenses.gpl2Plus;
       maintainers = with maintainers; [ nckx ];
     };
@@ -17611,7 +17611,7 @@ in modules // {
 
     meta = {
       description = "PyYAML-based module to produce pretty and readable YAML-serialized data";
-      homepage = https://github.com/mk-fg/pretty-yaml;
+      homepage = "https://github.com/mk-fg/pretty-yaml";
     };
   });
 
@@ -17629,7 +17629,7 @@ in modules // {
 
     meta = {
       description = "The next generation YAML parser and emitter for Python";
-      homepage = http://pyyaml.org;
+      homepage = "http://pyyaml.org";
       license = licenses.free; # !?
     };
   });
@@ -17645,7 +17645,7 @@ in modules // {
 
     meta = {
       description = "A CAPTCHA for Python using the reCAPTCHA service";
-      homepage = http://recaptcha.net/;
+      homepage = "http://recaptcha.net/";
     };
   };
 
@@ -17675,7 +17675,7 @@ in modules // {
     disabled = isPy33;
 
     src = pkgs.fetchgit {
-      url = https://github.com/aresch/rencode;
+      url = "https://github.com/aresch/rencode";
       rev = "b45e04abdca0dea36e383a8199783269f186c99e";
       sha256 = "b4bd82852d4220e8a9493d3cfaecbc57b1325708a2d48c0f8acf262edb10dc40";
     };
@@ -17683,7 +17683,7 @@ in modules // {
     buildInputs = with self; [ cython ];
 
     meta = {
-      homepage = https://github.com/aresch/rencode;
+      homepage = "https://github.com/aresch/rencode";
       description = "Fast (basic) object serialization similar to bencode";
       license = licenses.gpl3;
     };
@@ -17717,7 +17717,7 @@ in modules // {
 
     meta = {
       description = "An Open Source Python library for generating PDFs and graphics";
-      homepage = http://www.reportlab.com/;
+      homepage = "http://www.reportlab.com/";
     };
   };
 
@@ -17733,7 +17733,7 @@ in modules // {
 
     meta = {
       description = "An Apache2 licensed HTTP library, written in Python, for human beings";
-      homepage = http://docs.python-requests.org/en/latest/;
+      homepage = "http://docs.python-requests.org/en/latest/";
     };
   };
 
@@ -17753,7 +17753,7 @@ in modules // {
 
     meta = {
       description = "An Apache2 licensed HTTP library, written in Python, for human beings";
-      homepage = http://docs.python-requests.org/en/latest/;
+      homepage = "http://docs.python-requests.org/en/latest/";
       license = licenses.asl20;
     };
   };
@@ -17773,7 +17773,7 @@ in modules // {
 
     meta = {
       description = "OAuthlib authentication support for Requests";
-      homepage = https://github.com/requests/requests-oauthlib;
+      homepage = "https://github.com/requests/requests-oauthlib";
       maintainers = with maintainers; [ prikhi ];
     };
   };
@@ -17793,7 +17793,7 @@ in modules // {
 
     meta = {
       description = "A toolbelt of useful classes and functions to be used with python-requests";
-      homepage = http://toolbelt.rtfd.org;
+      homepage = "http://toolbelt.rtfd.org";
       maintainers = with maintainers; [ matthiasbeyer jgeerds ];
     };
 
@@ -17802,11 +17802,11 @@ in modules // {
   retry_decorator = buildPythonPackage rec {
     name = "retry_decorator-1.0.0";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/r/retry_decorator/retry_decorator-1.0.0.tar.gz;
+      url = "https://pypi.python.org/packages/source/r/retry_decorator/retry_decorator-1.0.0.tar.gz";
       sha256 = "086zahyb6yn7ggpc58909c5r5h3jz321i1694l1c28bbpaxnlk88";
     };
     meta = {
-      homepage = https://github.com/pnpnpn/retry-decorator;
+      homepage = "https://github.com/pnpnpn/retry-decorator";
       license = licenses.mit;
     };
   };
@@ -17878,7 +17878,7 @@ in modules // {
 
     meta = {
       description = "Jupyter Qt console";
-      homepage = http://jupyter.org/;
+      homepage = "http://jupyter.org/";
       license = licenses.bsd3;
       maintainers = with maintainers; [ fridh ];
     };
@@ -17894,7 +17894,7 @@ in modules // {
 
     meta = with pkgs.stdenv.lib; {
       description = "Quantities is designed to handle arithmetic and";
-      homepage = http://packages.python.org/quantities;
+      homepage = "http://packages.python.org/quantities";
       license = licenses.bsd2;
     };
   };
@@ -17926,7 +17926,7 @@ in modules // {
         superconducting circuits, and quantum nanomechanical
         resonators.
       '';
-      homepage = http://qutip.org/;
+      homepage = "http://qutip.org/";
     };
   };
 
@@ -17944,7 +17944,7 @@ in modules // {
 
     meta = {
       description = "A docutils-compatibility bridge to CommonMark";
-      homepage = https://github.com/rtfd/recommonmark;
+      homepage = "https://github.com/rtfd/recommonmark";
       license = licenses.mit;
       maintainers = with maintainers; [ fridh ];
     };
@@ -17991,7 +17991,7 @@ in modules // {
     name = "requests-oauth2-0.1.1";
 
     src = pkgs.fetchurl {
-      url = https://github.com/maraujop/requests-oauth2/archive/0.1.1.tar.gz;
+      url = "https://github.com/maraujop/requests-oauth2/archive/0.1.1.tar.gz";
       sha256 = "1aij66qg9j5j4vzyh64nbg72y7pcafgjddxsi865racsay43xfqg";
     };
 
@@ -17999,7 +17999,7 @@ in modules // {
 
     meta = {
       description = "Python's Requests OAuth2 (Open Authentication) plugin";
-      homepage = https://github.com/maraujop/requests-oauth2;
+      homepage = "https://github.com/maraujop/requests-oauth2";
     };
   };
 
@@ -18023,7 +18023,7 @@ in modules // {
 
     meta = {
       description = "ReStructuredText viewer";
-      homepage = http://mg.pov.lt/restview/;
+      homepage = "http://mg.pov.lt/restview/";
       license = licenses.gpl2;
       platforms = platforms.all;
       maintainers = with maintainers; [ koral ];
@@ -18203,7 +18203,7 @@ in modules // {
 
     meta = {
       description = "A Python library for working with RDF, a simple yet powerful language for representing information";
-      homepage = http://www.rdflib.net/;
+      homepage = "http://www.rdflib.net/";
     };
   });
 
@@ -18218,7 +18218,7 @@ in modules // {
 
     meta = {
       description = "ISO 8601 date/time parser";
-      homepage = http://cheeseshop.python.org/pypi/isodate;
+      homepage = "http://cheeseshop.python.org/pypi/isodate";
     };
   };
 
@@ -18239,7 +18239,7 @@ in modules // {
 
     meta = {
       description = "Test data generator for Robot Framework";
-      homepage = https://github.com/mkorpela/RoboMachine;
+      homepage = "https://github.com/mkorpela/RoboMachine";
       license = licenses.asl20;
       maintainers = with maintainers; [ bjornfor ];
     };
@@ -18260,7 +18260,7 @@ in modules // {
 
     meta = {
       description = "Generic test automation framework";
-      homepage = http://robotframework.org/;
+      homepage = "http://robotframework.org/";
       license = licenses.asl20;
       platforms = platforms.linux;
       maintainers = with maintainers; [ bjornfor ];
@@ -18284,7 +18284,7 @@ in modules // {
 
     meta = {
       description = "";
-      homepage = http://robotframework.org/;
+      homepage = "http://robotframework.org/";
       license = licenses.asl20;
     };
   };
@@ -18303,7 +18303,7 @@ in modules // {
 
     meta = {
       description = "Python Tools for Robot Framework and Test Libraries";
-      homepage = http://bitbucket.org/userzimmermann/robotframework-tools;
+      homepage = "http://bitbucket.org/userzimmermann/robotframework-tools";
       license = licenses.gpl3;
       platforms = platforms.linux;
     };
@@ -18327,7 +18327,7 @@ in modules // {
 
     meta = {
       description = "Python unittest test suite for Robot Framework";
-      homepage = http://github.com/collective/robotsuite/;
+      homepage = "http://github.com/collective/robotsuite/";
       license = licenses.gpl3;
     };
   };
@@ -18357,7 +18357,7 @@ in modules // {
 
     meta = {
       description = "Light-weight and intuitive editor for Robot Framework test case files";
-      homepage = https://code.google.com/p/robotframework-ride/;
+      homepage = "https://code.google.com/p/robotframework-ride/";
       license = licenses.asl20;
       platforms = platforms.linux;
       maintainers = with maintainers; [ bjornfor ];
@@ -18378,7 +18378,7 @@ in modules // {
 
     meta = {
       description = "python refactoring library";
-      homepage = http://rope.sf.net;
+      homepage = "http://rope.sf.net";
       maintainers = with maintainers; [ goibhniu ];
       license = licenses.gpl2;
     };
@@ -18397,7 +18397,7 @@ in modules // {
 
      meta = {
        description = "a plugin for performing python refactorings in emacs";
-       homepage = http://rope.sf.net/ropemacs.html;
+       homepage = "http://rope.sf.net/ropemacs.html";
        maintainers = with maintainers; [ goibhniu ];
        license = licenses.gpl2;
      };
@@ -18416,7 +18416,7 @@ in modules // {
 
      meta = {
        description = "a plugin for performing python refactorings in emacs";
-       homepage = http://rope.sf.net;
+       homepage = "http://rope.sf.net";
        maintainers = with maintainers; [ goibhniu ];
        license = licenses.gpl2;
      };
@@ -18428,7 +18428,7 @@ in modules // {
     name = "routes-1.12.3";
 
     src = pkgs.fetchurl {
-      url = http://pypi.python.org/packages/source/R/Routes/Routes-1.12.3.tar.gz;
+      url = "http://pypi.python.org/packages/source/R/Routes/Routes-1.12.3.tar.gz";
       md5 = "9740ff424ff6b841632c784a38fb2be3";
     };
 
@@ -18436,7 +18436,7 @@ in modules // {
 
     meta = {
       description = "A Python re-implementation of the Rails routes system for mapping URLs to application actions";
-      homepage = http://routes.groovie.org/;
+      homepage = "http://routes.groovie.org/";
     };
   };
 
@@ -18467,7 +18467,7 @@ in modules // {
     buildInputs = with pkgs; [ readline R pcre lzma bzip2 zlib icu ];
     propagatedBuildInputs = [ self.singledispatch ];
     meta = {
-      homepage = http://rpy.sourceforge.net/rpy2;
+      homepage = "http://rpy.sourceforge.net/rpy2";
       description = "Python interface to R";
       license = licenses.gpl2Plus;
       maintainers = with maintainers; [ joelmo ];
@@ -18487,7 +18487,7 @@ in modules // {
 
     meta = {
       description = "Remote Python Call (RPyC), a transparent and symmetric RPC library";
-      homepage = http://rpyc.readthedocs.org;
+      homepage = "http://rpyc.readthedocs.org";
       license = licenses.mit;
     };
   };
@@ -18509,7 +18509,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = http://stuvel.eu/rsa;
+      homepage = "http://stuvel.eu/rsa";
       license = licenses.asl20;
       description = "A pure-Python RSA implementation";
     };
@@ -18526,7 +18526,7 @@ in modules // {
 
     meta = {
       description = "Hierarchic visualization control for wxPython";
-      homepage = https://launchpad.net/squaremap;
+      homepage = "https://launchpad.net/squaremap";
       license = licenses.bsd3;
     };
   };
@@ -18542,7 +18542,7 @@ in modules // {
 
     meta = {
       description = "common routines for ruamel packages";
-      homepage = https://bitbucket.org/ruamel/base;
+      homepage = "https://bitbucket.org/ruamel/base";
       license = licenses.mit;
     };
   };
@@ -18559,7 +18559,7 @@ in modules // {
 
     meta = {
       description = "a version of dict that keeps keys in insertion resp. sorted order";
-      homepage = https://bitbucket.org/ruamel/ordereddict;
+      homepage = "https://bitbucket.org/ruamel/ordereddict";
       license = licenses.mit;
     };
   };
@@ -18577,7 +18577,7 @@ in modules // {
 
     meta = {
       description = "YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order";
-      homepage = https://bitbucket.org/ruamel/yaml;
+      homepage = "https://bitbucket.org/ruamel/yaml";
       license = licenses.mit;
     };
   };
@@ -18595,7 +18595,7 @@ in modules // {
 
     meta = {
       description = "GUI Viewer for Python profiling runs";
-      homepage = http://www.vrplumber.com/programming/runsnakerun/;
+      homepage = "http://www.vrplumber.com/programming/runsnakerun/";
       license = licenses.bsd3;
     };
   };
@@ -18635,7 +18635,7 @@ in modules // {
 
     meta = {
       description = "Generate sequence-diagram image from spec-text file (similar to Graphviz)";
-      homepage = http://blockdiag.com/;
+      homepage = "http://blockdiag.com/";
       license = licenses.asl20;
       platforms = platforms.linux;
       maintainers = with maintainers; [ bjornfor ];
@@ -18709,7 +18709,7 @@ in modules // {
 
     meta = {
       description = "Powerful interactive network packet manipulation program";
-      homepage = http://www.secdev.org/projects/scapy/;
+      homepage = "http://www.secdev.org/projects/scapy/";
       license = licenses.gpl2;
       platforms = platforms.linux;
       maintainers = with maintainers; [ bjornfor ];
@@ -18755,7 +18755,7 @@ in modules // {
 
     meta = {
       description = "Image processing routines for SciPy";
-      homepage = http://scikit-image.org;
+      homepage = "http://scikit-image.org";
       license = licenses.bsd3;
     };
   };
@@ -18782,7 +18782,7 @@ in modules // {
 
     meta = {
       description = "A set of python modules for machine learning and data mining";
-      homepage = http://scikit-learn.org;
+      homepage = "http://scikit-learn.org";
       license = licenses.bsd3;
       maintainers = with maintainers; [ fridh ];
     };
@@ -18804,7 +18804,7 @@ in modules // {
 
     meta = {
       description = "A library for testing interactive command-line applications";
-      homepage = http://pypi.python.org/pypi/ScriptTest/;
+      homepage = "http://pypi.python.org/pypi/ScriptTest/";
     };
   };
 
@@ -18876,7 +18876,7 @@ in modules // {
     buildInputs = with self; [ pip ];
 
     meta = with stdenv.lib; {
-      homepage = https://bitbucket.org/pypa/setuptools_scm/;
+      homepage = "https://bitbucket.org/pypa/setuptools_scm/";
       description = "Handles managing your python package versions in scm metadata";
       license = licenses.mit;
       maintainers = with maintainers; [ jgeerds ];
@@ -18903,7 +18903,7 @@ in modules // {
 
     meta = {
       description = "Setuptools plugin for the Darcs version control system";
-      homepage = http://allmydata.org/trac/setuptools_darcs;
+      homepage = "http://allmydata.org/trac/setuptools_darcs";
       license = "BSD";
     };
   };
@@ -18922,7 +18922,7 @@ in modules // {
     meta = {
       description = "setuptools plug-in that helps run unit tests built with the \"Trial\" framework (from Twisted)";
 
-      homepage = http://allmydata.org/trac/setuptools_trial;
+      homepage = "http://allmydata.org/trac/setuptools_trial";
 
       license = "unspecified"; # !
     };
@@ -18939,7 +18939,7 @@ in modules // {
 
     meta = {
       description = "Simple generic functions";
-      homepage = http://cheeseshop.python.org/pypi/simplegeneric;
+      homepage = "http://cheeseshop.python.org/pypi/simplegeneric";
       license = licenses.zpt21;
     };
   };
@@ -18960,7 +18960,7 @@ in modules // {
 
     meta = {
       description = "A generator library for concise, unambiguous and URL-safe UUIDs.";
-      homepage = https://github.com/stochastic-technologies/shortuuid/;
+      homepage = "https://github.com/stochastic-technologies/shortuuid/";
       license = licenses.bsd3;
       maintainers = with maintainers; [ zagy ];
     };
@@ -18986,7 +18986,7 @@ in modules // {
         ASCII with \uXXXX escapes for unicode characters).
       '';
 
-      homepage = http://code.google.com/p/simplejson/;
+      homepage = "http://code.google.com/p/simplejson/";
 
       license = licenses.mit;
     };
@@ -19031,7 +19031,7 @@ in modules // {
 
     meta = {
       description = "A Parser Generator for Python";
-      homepage = https://pypi.python.org/pypi/SimpleParse;
+      homepage = "https://pypi.python.org/pypi/SimpleParse";
       platforms = platforms.all;
       maintainers = with maintainers; [ DamienCassou ];
     };
@@ -19049,7 +19049,7 @@ in modules // {
 
     meta = {
       description = "Yet another simple static gallery generator";
-      homepage = http://sigal.saimon.org/en/latest/index.html;
+      homepage = "http://sigal.saimon.org/en/latest/index.html";
       license = licenses.mit;
       maintainers = with maintainers; [ iElectric ];
     };
@@ -19088,7 +19088,7 @@ in modules // {
 
     meta = {
       description = "16 stemmer algorithms (15 + Poerter English stemmer) generated from Snowball algorithms";
-      homepage = http://sigal.saimon.org/en/latest/index.html;
+      homepage = "http://sigal.saimon.org/en/latest/index.html";
       license = licenses.bsd3;
       platforms = platforms.unix;
     };
@@ -19122,7 +19122,7 @@ in modules // {
 
     meta = {
       description = "Python library for parsing PGP packets";
-      homepage = https://github.com/toofishes/python-pgpdump;
+      homepage = "https://github.com/toofishes/python-pgpdump";
       license = licenses.bsd3;
     };
   };
@@ -19139,7 +19139,7 @@ in modules // {
 
     meta = {
       description = "Statistical anti-spam filter, initially based on the work of Paul Graham";
-      homepage = http://spambayes.sourceforge.net/;
+      homepage = "http://spambayes.sourceforge.net/";
     };
   };
 
@@ -19188,7 +19188,7 @@ in modules // {
 
     meta = {
       description = "SockJS python server implementation on top of Tornado framework";
-      homepage = http://github.com/mrjoes/sockjs-tornado/;
+      homepage = "http://github.com/mrjoes/sockjs-tornado/";
       license = licenses.mit;
       platforms = platforms.all;
       maintainers = with maintainers; [ abbradar ];
@@ -19239,7 +19239,7 @@ in modules // {
 
     meta = {
       description = "Play and Record Sound with Python";
-      homepage = http://python-sounddevice.rtfd.org/;
+      homepage = "http://python-sounddevice.rtfd.org/";
       license = with licenses; [ mit ];
       maintainers = with maintainers; [ fridh ];
     };
@@ -19313,7 +19313,7 @@ in modules // {
 
     meta = {
       description = "A tile server for rendered geographic data";
-      homepage = http://tilestache.org;
+      homepage = "http://tilestache.org";
       license = licenses.bsd3;
     };
   };
@@ -19365,7 +19365,7 @@ in modules // {
 
     meta = {
       description = "A Python library for symbolic mathematics";
-      homepage    = http://www.sympy.org/;
+      homepage    = "http://www.sympy.org/";
       license     = licenses.bsd3;
       maintainers = with maintainers; [ lovek323 ];
       platforms   = platforms.unix;
@@ -19491,7 +19491,7 @@ in modules // {
 
     meta = with pkgs.stdenv.lib; {
       description = "Common Natural Language Processing Tasks for Python";
-      homepage = https://github.com/crm416/semantic;
+      homepage = "https://github.com/crm416/semantic";
       license = licenses.mit;
     };
   };
@@ -19511,7 +19511,7 @@ in modules // {
 
     meta = {
       description = "Sandboxing Library for Python";
-      homepage = https://pypi.python.org/pypi/sandboxlib/0.3.1;
+      homepage = "https://pypi.python.org/pypi/sandboxlib/0.3.1";
       license = licenses.gpl2;
     };
   };
@@ -19558,7 +19558,7 @@ in modules // {
 
     meta = {
       description = "Python subprocess interface";
-      homepage = http://pypi.python.org/pypi/sh/;
+      homepage = "http://pypi.python.org/pypi/sh/";
     };
   };
 
@@ -19594,7 +19594,7 @@ in modules // {
 
     meta = {
       description = "A Python 2 and 3 compatibility library";
-      homepage = http://pypi.python.org/pypi/six/;
+      homepage = "http://pypi.python.org/pypi/six/";
     };
   };
 
@@ -19604,7 +19604,7 @@ in modules // {
     disabled = isPy3k || isPyPy;
 
     src = pkgs.fetchurl {
-      url = mirror://sourceforge/skype4py/Skype4Py-1.0.32.0.tar.gz;
+      url = "mirror://sourceforge/skype4py/Skype4Py-1.0.32.0.tar.gz";
       sha256 = "0cmkrv450wa8v50bng5dflpwkl5c1p9pzysjkb2956w5kvwh6f5b";
     };
 
@@ -19625,7 +19625,7 @@ in modules // {
       # The advertisement says https://developer.skype.com/wiki/Skype4Py
       # but that url does not work. This following web page points to the
       # download link and has some information about the package.
-      homepage = http://pypi.python.org/pypi/Skype4Py/1.0.32.0;
+      homepage = "http://pypi.python.org/pypi/Skype4Py/1.0.32.0";
 
       license = "BSD";
     };
@@ -19635,7 +19635,7 @@ in modules // {
     name = "smartdc-0.1.12";
 
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/s/smartdc/smartdc-0.1.12.tar.gz;
+      url = "https://pypi.python.org/packages/source/s/smartdc/smartdc-0.1.12.tar.gz";
       md5 = "b960f61facafc879142b699050f6d8b4";
     };
 
@@ -19643,7 +19643,7 @@ in modules // {
 
     meta = {
       description = "Joyent SmartDataCenter CloudAPI connector using http-signature authentication via Requests";
-      homepage = https://github.com/atl/py-smartdc;
+      homepage = "https://github.com/atl/py-smartdc";
       license = licenses.mit;
     };
   };
@@ -19651,11 +19651,11 @@ in modules // {
   socksipy-branch = buildPythonPackage rec {
     name = "SocksiPy-branch-1.01";
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/S/SocksiPy-branch/SocksiPy-branch-1.01.tar.gz;
+      url = "https://pypi.python.org/packages/source/S/SocksiPy-branch/SocksiPy-branch-1.01.tar.gz";
       sha256 = "01l41v4g7fy9fzvinmjxy6zcbhgqaif8dhdqm4w90fwcw9h51a8p";
     };
     meta = {
-      homepage = http://code.google.com/p/socksipy-branch/;
+      homepage = "http://code.google.com/p/socksipy-branch/";
       description = "This Python module allows you to create TCP connections through a SOCKS proxy without any special effort";
       license = licenses.bsd3;
     };
@@ -19673,7 +19673,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://sorl-thumbnail.readthedocs.org/en/latest/;
+      homepage = "http://sorl-thumbnail.readthedocs.org/en/latest/";
       description = "Thumbnails for Django";
       license = licenses.bsd3;
     };
@@ -19697,7 +19697,7 @@ in modules // {
 
     meta = {
       description = "A system for controlling process state under UNIX";
-      homepage = http://supervisord.org/;
+      homepage = "http://supervisord.org/";
     };
   };
 
@@ -19723,7 +19723,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://pypi.python.org/pypi/subprocess32;
+      homepage = "https://pypi.python.org/pypi/subprocess32";
       description = "Backport of the subprocess module from Python 3.2.5 for use on 2.x";
       maintainers = with maintainers; [ garbas ];
     };
@@ -19752,7 +19752,7 @@ in modules // {
 
     meta = {
       description = "A tool that makes it easy to create intelligent and beautiful documentation for Python projects";
-      homepage = http://sphinx.pocoo.org/;
+      homepage = "http://sphinx.pocoo.org/";
       license = licenses.bsd3;
       platforms = platforms.unix;
     };
@@ -19785,7 +19785,7 @@ in modules // {
 
     meta = {
       description = "ReadTheDocs.org theme for Sphinx, 2013 version";
-      homepage = https://github.com/snide/sphinx_rtd_theme/;
+      homepage = "https://github.com/snide/sphinx_rtd_theme/";
       license = licenses.bsd3;
       platforms = platforms.unix;
     };
@@ -19809,7 +19809,7 @@ in modules // {
     meta = {
       description = "Provides a Sphinx domain for describing RESTful HTTP APIs";
 
-      homepage = http://bitbucket.org/birkenfeld/sphinx-contrib;
+      homepage = "http://bitbucket.org/birkenfeld/sphinx-contrib";
 
       license = "BSD";
     };
@@ -19829,7 +19829,7 @@ in modules // {
     meta = {
       description = "Provides a Sphinx domain for embedding UML diagram with PlantUML";
 
-      homepage = http://bitbucket.org/birkenfeld/sphinx-contrib;
+      homepage = "http://bitbucket.org/birkenfeld/sphinx-contrib";
 
       license = "BSD";
     };
@@ -19847,7 +19847,7 @@ in modules // {
     meta = {
       description = "Setuptools command for uploading Sphinx documentation to PyPI";
 
-      homepage = http://bitbucket.org/jezdez/sphinx-pypi-upload/;
+      homepage = "http://bitbucket.org/jezdez/sphinx-pypi-upload/";
 
       license = "BSD";
     };
@@ -19911,7 +19911,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = http://www.sqlalchemy.org/;
+      homepage = "http://www.sqlalchemy.org/";
       description = "A Python SQL toolkit and Object Relational Mapper";
     };
   };
@@ -19932,7 +19932,7 @@ in modules // {
     disabled = isPy33;
 
     src = pkgs.fetchgit {
-      url = https://github.com/crosspop/sqlalchemy-imageattach.git;
+      url = "https://github.com/crosspop/sqlalchemy-imageattach.git";
       rev = "refs/tags/${version}";
       md5 = "cffdcde30952176e35fccf385f579dda";
     };
@@ -19950,7 +19950,7 @@ in modules // {
     doCheck = !isPyPy;  # failures due to sqla version mismatch
 
     meta = {
-      homepage = https://github.com/crosspop/sqlalchemy-imageattach;
+      homepage = "https://github.com/crosspop/sqlalchemy-imageattach";
       description = "SQLAlchemy extension for attaching images to entity objects";
       license = licenses.mit;
     };
@@ -19981,7 +19981,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = http://code.google.com/p/sqlalchemy-migrate/;
+      homepage = "http://code.google.com/p/sqlalchemy-migrate/";
       description = "Schema migration tools for SQLAlchemy";
     };
   };
@@ -20006,7 +20006,7 @@ in modules // {
       longDescription = ''
         Provides support for parsing, splitting and formatting SQL statements.
       '';
-      homepage = https://github.com/andialbrecht/sqlparse;
+      homepage = "https://github.com/andialbrecht/sqlparse";
       license = licenses.bsd3;
       maintainers = with maintainers; [ nckx ];
     };
@@ -20050,7 +20050,7 @@ in modules // {
 
     meta = {
       description = "A client for Etsy's node-js statsd server";
-      homepage = https://github.com/WoLpH/python-statsd;
+      homepage = "https://github.com/WoLpH/python-statsd";
       license = licenses.bsd3;
     };
   };
@@ -20071,7 +20071,7 @@ in modules // {
 
     meta = {
       description = "Lightweight and extensible STOMP messaging client";
-      homepage = http://bitbucket.org/hozn/stompclient;
+      homepage = "http://bitbucket.org/hozn/stompclient";
       license = licenses.asl20;
     };
   });
@@ -20130,7 +20130,7 @@ in modules // {
 
     meta = {
       description = "Tool for automatic download/upload subtitles for videofiles using fast hashing";
-      homepage = http://www.subdownloader.net;
+      homepage = "http://www.subdownloader.net";
       license = licenses.gpl3;
       maintainers = with maintainers; [ DamienCassou ];
     };
@@ -20190,7 +20190,7 @@ in modules // {
 
     meta = {
       description = "Painless structural logging";
-      homepage = http://www.structlog.org/;
+      homepage = "http://www.structlog.org/";
       license = licenses.asl20;
     };
   };
@@ -20209,7 +20209,7 @@ in modules // {
 
     meta = {
       description = "A Python library to create SVG drawings.";
-      homepage = http://bitbucket.org/mozman/svgwrite;
+      homepage = "http://bitbucket.org/mozman/svgwrite";
       license = licenses.mit;
     };
   };
@@ -20283,7 +20283,7 @@ in modules // {
 
     meta = {
       description = "Python module for native access to the systemd facilities";
-      homepage = http://www.freedesktop.org/software/systemd/python-systemd/;
+      homepage = "http://www.freedesktop.org/software/systemd/python-systemd/";
       license = licenses.lgpl21;
     };
   };
@@ -20304,7 +20304,7 @@ in modules // {
 
     meta = {
       description = "Pretty-print tabular data";
-      homepage = https://bitbucket.org/astanin/python-tabulate;
+      homepage = "https://bitbucket.org/astanin/python-tabulate";
       license = licenses.mit;
       maintainers = with maintainers; [ fridh ];
     };
@@ -20337,7 +20337,7 @@ in modules // {
     disabled = isPy3k;
 
     src = pkgs.fetchgit {
-      url = https://github.com/miracle2k/tarsnapper.git;
+      url = "https://github.com/miracle2k/tarsnapper.git";
       rev = "620439bca68892f2ffaba1079a34b18496cc6596";
       sha256 = "06pp499qm2dxpja2jgmmq2jrcx3m4nq52x5hhil9r1jxvyiq962p";
     };
@@ -20375,7 +20375,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://taskcoach.org/;
+      homepage = "http://taskcoach.org/";
       description = "Todo manager to keep track of personal tasks and todo lists";
       license = licenses.gpl3Plus;
     };
@@ -20403,7 +20403,7 @@ in modules // {
     propagatedBuildInputs = with self; [ six dateutil pytz ];
 
     meta = {
-      homepage =  http://github.com/ralphbean/taskw;
+      homepage =  "http://github.com/ralphbean/taskw";
       description = "Python bindings for your taskwarrior database";
       license = licenses.gpl3Plus;
       platforms = platforms.all;
@@ -20425,7 +20425,7 @@ in modules // {
     buildInputs = with self; [ nose ];
 
     meta = {
-      homepage = http://pythonpaste.org/tempita/;
+      homepage = "http://pythonpaste.org/tempita/";
       description = "A very small text templating language";
     };
   };
@@ -20443,7 +20443,7 @@ in modules // {
 
     meta = {
       description = "Terminals served to term.js using Tornado websockets";
-      homepage = https://github.com/takluyver/terminado;
+      homepage = "https://github.com/takluyver/terminado";
       license = licenses.bsd2;
     };
   };
@@ -20476,7 +20476,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://github.com/openstack/python-novaclient/;
+      homepage = "https://github.com/openstack/python-novaclient/";
       description = "Client library and command line tool for the OpenStack Nova API";
       license = stdenv.lib.licenses.asl20;
       platforms = stdenv.lib.platforms.linux;
@@ -20519,7 +20519,7 @@ in modules // {
 
     meta = {
       description = "a pyunit extension for dependency injection";
-      homepage = https://pypi.python.org/pypi/testscenarios;
+      homepage = "https://pypi.python.org/pypi/testscenarios";
       license = licenses.asl20;
     };
   };
@@ -20542,7 +20542,7 @@ in modules // {
 
     meta = {
       description = "A database of test results which can be used as part of developer workflow";
-      homepage = https://pypi.python.org/pypi/testrepository;
+      homepage = "https://pypi.python.org/pypi/testrepository";
       license = licenses.bsd2;
     };
   };
@@ -20558,7 +20558,7 @@ in modules // {
 
     meta = {
       description = "Pyunit extension for managing expensive test resources";
-      homepage = https://pypi.python.org/pypi/testresources/;
+      homepage = "https://pypi.python.org/pypi/testresources/";
       license = licenses.bsd2;
     };
   };
@@ -20581,7 +20581,7 @@ in modules // {
 
     meta = {
       description = "A set of extensions to the Python standard library's unit testing framework";
-      homepage = http://pypi.python.org/pypi/testtools;
+      homepage = "http://pypi.python.org/pypi/testtools";
       license = licenses.mit;
     };
   };
@@ -20604,7 +20604,7 @@ in modules // {
 
     meta = {
       description = "Traitlets Python config system";
-      homepage = http://ipython.org/;
+      homepage = "http://ipython.org/";
       license = licenses.bsd3;
       maintainers = with maintainers; [ fridh ];
     };
@@ -20624,7 +20624,7 @@ in modules // {
 
     meta = {
       description = "A module provides basic functions for parsing mime-type names and matching them against a list of media-ranges";
-      homepage = https://code.google.com/p/mimeparse/;
+      homepage = "https://code.google.com/p/mimeparse/";
       license = licenses.mit;
     };
   };
@@ -20644,7 +20644,7 @@ in modules // {
 
     meta = {
       description = "A module provides basic functions for parsing mime-type names and matching them against a list of media-ranges";
-      homepage = https://code.google.com/p/mimeparse/;
+      homepage = "https://code.google.com/p/mimeparse/";
       license = licenses.mit;
     };
   };
@@ -20659,7 +20659,7 @@ in modules // {
 
     meta = {
       description = "A module to generate a formatted text table, using ASCII characters";
-      homepage = http://foutaise.org/code/;
+      homepage = "http://foutaise.org/code/";
       license = licenses.lgpl2;
     };
   };
@@ -20675,7 +20675,7 @@ in modules // {
 
     meta = {
       description = "A pure Python implementation of SSL and TLS";
-      homepage = https://pypi.python.org/pypi/tlslite;
+      homepage = "https://pypi.python.org/pypi/tlslite";
       license = licenses.bsd3;
     };
   };
@@ -20713,7 +20713,7 @@ in modules // {
 
     meta = {
       description = "Python implementation of the v3 API for TheMovieDB.org, allowing access to movie and cast information";
-      homepage = http://pypi.python.org/pypi/tmdb3;
+      homepage = "http://pypi.python.org/pypi/tmdb3";
       license = licenses.bsd3;
     };
   };
@@ -20773,7 +20773,7 @@ in modules // {
 
     meta = {
       description = "A Fast, Extensible Progress Meter";
-      homepage = https://github.com/tqdm/tqdm;
+      homepage = "https://github.com/tqdm/tqdm";
       license = with licenses; [ mit ];
     };
   };
@@ -20796,7 +20796,7 @@ in modules // {
     disabled = isPy3k;
 
     src = pkgs.fetchurl {
-      url = http://ftp.edgewall.com/pub/trac/Trac-1.0.1.tar.gz;
+      url = "http://ftp.edgewall.com/pub/trac/Trac-1.0.1.tar.gz";
       sha256 = "1nqa95fcnkpyq4jk6az7l7sqgm3b3pjq3bx1n7y4v3bad5jr1m4x";
     };
 
@@ -20839,7 +20839,7 @@ in modules // {
 
     meta = {
       description = "explicitly typed attributes for Python";
-      homepage = http://pypi.python.org/pypi/traits;
+      homepage = "http://pypi.python.org/pypi/traits";
       license = "BSD";
     };
   };
@@ -20858,7 +20858,7 @@ in modules // {
 
     meta = {
       description = "Transaction management";
-      homepage = http://pypi.python.org/pypi/transaction;
+      homepage = "http://pypi.python.org/pypi/transaction";
       license = licenses.zpt20;
     };
   };
@@ -20876,7 +20876,7 @@ in modules // {
 
     meta = {
       description = "Python implementation of the Transmission bittorent client RPC protocol";
-      homepage = http://pypi.python.org/pypi/transmissionrpc/;
+      homepage = "http://pypi.python.org/pypi/transmissionrpc/";
       license = licenses.mit;
     };
   };
@@ -20896,7 +20896,7 @@ in modules // {
      propagatedBuildInputs = with self; [ zope_interface zope_testing ];
      meta = {
        description = "A tool which computes a dependency graph between active Python eggs";
-       homepage = http://thomas-lotze.de/en/software/eggdeps/;
+       homepage = "http://thomas-lotze.de/en/software/eggdeps/";
        license = licenses.zpt20;
      };
    };
@@ -20929,7 +20929,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = https://github.com/alejandrogomez/turses;
+      homepage = "https://github.com/alejandrogomez/turses";
       description = "A Twitter client for the console";
       license = licenses.gpl3;
       maintainers = with maintainers; [ garbas ];
@@ -20969,7 +20969,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://twiggy.wearpants.org;
+      homepage = "http://twiggy.wearpants.org";
       # Taken from http://i.wearpants.org/blog/meet-twiggy/
       description = "Twiggy is the first totally new design for a logger since log4j";
       license     = licenses.bsd3;
@@ -21016,7 +21016,7 @@ in modules // {
     postInstall = "$out/bin/twistd --help > /dev/null";
 
     meta = {
-      homepage = http://twistedmatrix.com/;
+      homepage = "http://twistedmatrix.com/";
       description = "Twisted, an event-driven networking engine written in Python";
       longDescription = ''
         Twisted is an event-driven networking engine written in Python
@@ -21045,7 +21045,7 @@ in modules // {
     postInstall = "$out/bin/twistd --help > /dev/null";
 
     meta = {
-      homepage = http://twistedmatrix.com/;
+      homepage = "http://twistedmatrix.com/";
       description = "Twisted, an event-driven networking engine written in Python";
       longDescription = ''
         Twisted is an event-driven networking engine written in Python
@@ -21071,7 +21071,7 @@ in modules // {
 
     meta = with pkgs.stdenv.lib; {
       description = "Tzinfo object for the local timezone";
-      homepage = https://github.com/regebro/tzlocal;
+      homepage = "https://github.com/regebro/tzlocal";
       license = licenses.cddl;
     };
   };
@@ -21092,7 +21092,7 @@ in modules // {
     # https://github.com/tytkal/python-hijiri-ummalqura/issues/4
     meta = {
       description = "Date Api that support Hijri Umalqurra calendar";
-      homepage = https://github.com/tytkal/python-hijiri-ummalqura;
+      homepage = "https://github.com/tytkal/python-hijiri-ummalqura";
       license = with licenses; [ publicDomain ];
     };
 
@@ -21110,7 +21110,7 @@ in modules // {
 
     meta = {
       description = "Ultra fast memcache client written in highly optimized C++ with Python bindings";
-      homepage = https://github.com/esnme/ultramemcache;
+      homepage = "https://github.com/esnme/ultramemcache";
       license = licenses.bsdOriginal;
     };
   };
@@ -21129,7 +21129,7 @@ in modules // {
 
     meta = {
       description = "Drop-in replacement for Python2's stdlib csv module, with unicode support";
-      homepage = https://github.com/jdunck/python-unicodecsv;
+      homepage = "https://github.com/jdunck/python-unicodecsv";
       maintainers = with maintainers; [ koral ];
     };
   };
@@ -21157,7 +21157,7 @@ in modules // {
 
     meta = {
       description = "A backport of the new features added to the unittest testing framework";
-      homepage = http://pypi.python.org/pypi/unittest2;
+      homepage = "http://pypi.python.org/pypi/unittest2";
     };
   };
 
@@ -21171,7 +21171,7 @@ in modules // {
     };
 
     meta = with stdenv.lib; {
-      homepage = https://github.com/uri-templates/uritemplate-py;
+      homepage = "https://github.com/uri-templates/uritemplate-py";
       description = "Python implementation of URI Template";
       license = licenses.asl20;
       maintainers = with maintainers; [ pSub ];
@@ -21193,7 +21193,7 @@ in modules // {
 
     meta = {
       description = "A backport of traceback to older supported Pythons.";
-      homepage = https://pypi.python.org/pypi/traceback2/;
+      homepage = "https://pypi.python.org/pypi/traceback2/";
     };
   };
 
@@ -21234,7 +21234,7 @@ in modules // {
 
     meta = {
       description = "Console UI for pass";
-      homepage = https://github.com/Kwpolska/upass;
+      homepage = "https://github.com/Kwpolska/upass";
       license = licenses.bsd3;
     };
   };
@@ -21253,7 +21253,7 @@ in modules // {
 
     meta = {
       description = "A python module that will check for package updates";
-      homepage = https://github.com/bboe/update_checker;
+      homepage = "https://github.com/bboe/update_checker";
       license = licenses.bsd2;
     };
   };
@@ -21294,7 +21294,7 @@ in modules // {
 
     meta = {
       description = "A full-featured console (xterm et al.) user interface library";
-      homepage = http://excess.org/urwid;
+      homepage = "http://excess.org/urwid";
       repositories.git = git://github.com/wardi/urwid.git;
       license = licenses.lgpl21;
       maintainers = with maintainers; [ garbas ];
@@ -21336,7 +21336,7 @@ in modules // {
 
     meta = {
       description = "Python interface for libuv";
-      homepage = https://github.com/saghul/pyuv;
+      homepage = "https://github.com/saghul/pyuv";
       repositories.git = git://github.com/saghul/pyuv.git;
       license = licenses.mit;
     };
@@ -21379,7 +21379,7 @@ in modules // {
 
     meta = {
       description = "a tool to create isolated Python environments";
-      homepage = http://www.virtualenv.org;
+      homepage = "http://www.virtualenv.org";
       license = licenses.mit;
       maintainers = with maintainers; [ goibhniu ];
     };
@@ -21525,7 +21525,7 @@ in modules // {
 
     meta = {
       description = "Media asset management for Python, with glue code for various web frameworks";
-      homepage = http://github.com/miracle2k/webassets/;
+      homepage = "http://github.com/miracle2k/webassets/";
       license = licenses.bsd2;
       platforms = platforms.all;
       maintainers = with maintainers; [ abbradar ];
@@ -21545,7 +21545,7 @@ in modules // {
 
     meta = {
       description = "Library for working with color names/values defined by the HTML and CSS specifications";
-      homepage = https://bitbucket.org/ubernostrum/webcolors/overview/;
+      homepage = "https://bitbucket.org/ubernostrum/webcolors/overview/";
       license = licenses.bsd3;
       platforms = platforms.linux;
     };
@@ -21564,7 +21564,7 @@ in modules // {
 
     meta = {
       description = "Ctypes-based simple MagickWand API binding for Python";
-      homepage = http://wand-py.org/;
+      homepage = "http://wand-py.org/";
       platforms = platforms.all;
     };
   };
@@ -21590,7 +21590,7 @@ in modules // {
         a Terminal. It is implemented in python (no C library calls) and has
         no 3rd-party dependencies.
       '';
-      homepage = https://github.com/jquast/wcwidth;
+      homepage = "https://github.com/jquast/wcwidth";
       license = licenses.mit;
       maintainers = with maintainers; [ nckx ];
     };
@@ -21631,7 +21631,7 @@ in modules // {
 
     meta = {
       description = "WSGI request and response object";
-      homepage = http://pythonpaste.org/webob/;
+      homepage = "http://pythonpaste.org/webob/";
       platforms = platforms.all;
     };
   };
@@ -21650,7 +21650,7 @@ in modules // {
 
     meta = {
       description = "WebSockets support for any application/server";
-      homepage = https://github.com/kanaka/websockify;
+      homepage = "https://github.com/kanaka/websockify";
     };
   };
 
@@ -21688,7 +21688,7 @@ in modules // {
 
     meta = {
       description = "Helper to test WSGI applications";
-      homepage = http://webtest.readthedocs.org/en/latest/;
+      homepage = "http://webtest.readthedocs.org/en/latest/";
       platforms = platforms.all;
     };
   };
@@ -21707,7 +21707,7 @@ in modules // {
     doCheck = false;            # tests fail, not sure why
 
     meta = {
-      homepage = http://werkzeug.pocoo.org/;
+      homepage = "http://werkzeug.pocoo.org/";
       description = "A WSGI utility library for Python";
       license = "BSD";
     };
@@ -21729,7 +21729,7 @@ in modules // {
     meta = {
       description = "A built-package format for Python";
       license = with licenses; [ mit ];
-      homepage = https://bitbucket.org/pypa/wheel/;
+      homepage = "https://bitbucket.org/pypa/wheel/";
     };
   };
 
@@ -21745,7 +21745,7 @@ in modules // {
 
     meta = {
       description = "A simple, lightweight, open source, easy-to-use IRC utility bot, written in Python";
-      homepage = http://willie.dftba.net/;
+      homepage = "http://willie.dftba.net/";
       license = licenses.efl20;
     };
   };
@@ -21842,7 +21842,7 @@ in modules // {
     meta = {
       description = "Fully functional X client library for Python programs";
 
-      homepage = http://python-xlib.sourceforge.net/;
+      homepage = "http://python-xlib.sourceforge.net/";
 
       license = licenses.gpl2Plus;
     };
@@ -21860,7 +21860,7 @@ in modules // {
 
     meta = {
       description = "Makes working with XML feel like you are working with JSON";
-      homepage = https://github.com/martinblech/xmltodict;
+      homepage = "https://github.com/martinblech/xmltodict";
       license = licenses.mit;
     };
   });
@@ -21883,7 +21883,7 @@ in modules // {
 
     meta = {
       description = "N-D labeled arrays and datasets in Python";
-      homepage = https://github.com/pydata/xarray;
+      homepage = "https://github.com/pydata/xarray";
       license = licenses.asl20;
       maintainers = with maintainers; [ fridh ];
     };
@@ -21917,7 +21917,7 @@ in modules // {
 
     meta = {
       description = "zbase32, a base32 encoder/decoder";
-      homepage = http://pypi.python.org/pypi/zbase32;
+      homepage = "http://pypi.python.org/pypi/zbase32";
       license = "BSD";
     };
   });
@@ -21935,7 +21935,7 @@ in modules // {
 
     meta = {
       description = "Structured Configuration Library";
-      homepage = http://pypi.python.org/pypi/ZConfig;
+      homepage = "http://pypi.python.org/pypi/ZConfig";
       license = licenses.zpt20;
       maintainers = with maintainers; [ goibhniu ];
     };
@@ -21953,7 +21953,7 @@ in modules // {
 
     meta = {
       description = "Inter-process locks";
-      homepage =  http://www.python.org/pypi/zc.lockfile;
+      homepage =  "http://www.python.org/pypi/zc.lockfile";
       license = licenses.zpt20;
       maintainers = with maintainers; [ goibhniu ];
     };
@@ -21976,7 +21976,7 @@ in modules // {
 
     meta = {
       description = "A daemon process control library and tools for Unix-based systems";
-      homepage = http://pypi.python.org/pypi/zdaemon;
+      homepage = "http://pypi.python.org/pypi/zdaemon";
       license = licenses.zpt20;
       maintainers = with maintainers; [ goibhniu ];
     };
@@ -21996,7 +21996,7 @@ in modules // {
     propagatedBuildInputs = with self; [ pyutil argparse ];
 
     meta = {
-      homepage = http://allmydata.org/trac/zfec;
+      homepage = "http://allmydata.org/trac/zfec";
 
       description = "Zfec, a fast erasure codec which can be used with the command-line, C, Python, or Haskell";
 
@@ -22027,7 +22027,7 @@ in modules // {
 
     meta = {
       description = "An object-oriented database for Python";
-      homepage = http://pypi.python.org/pypi/ZODB3;
+      homepage = "http://pypi.python.org/pypi/ZODB3";
       license = licenses.zpt20;
       maintainers = with maintainers; [ goibhniu ];
     };
@@ -22054,7 +22054,7 @@ in modules // {
 
     meta = {
       description = "An object-oriented database for Python";
-      homepage = http://pypi.python.org/pypi/ZODB;
+      homepage = "http://pypi.python.org/pypi/ZODB";
       license = licenses.zpt20;
       maintainers = with maintainers; [ goibhniu ];
     };
@@ -22073,7 +22073,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://pypi.python.org/pypi/zodbpickle;
+      homepage = "http://pypi.python.org/pypi/zodbpickle";
     };
   };
 
@@ -22092,7 +22092,7 @@ in modules // {
 
     meta = {
       description = "scalable persistent components";
-      homepage = http://packages.python.org/BTrees;
+      homepage = "http://packages.python.org/BTrees";
     };
   };
 
@@ -22109,7 +22109,7 @@ in modules // {
 
     meta = {
       description = "automatic persistence for Python objects";
-      homepage = http://www.zope.org/Products/ZODB;
+      homepage = "http://www.zope.org/Products/ZODB";
     };
   };
 
@@ -22125,7 +22125,7 @@ in modules // {
 
     meta = {
       description = "xdot.py is an interactive viewer for graphs written in Graphviz's dot";
-      homepage = https://github.com/jrfonseca/xdot.py;
+      homepage = "https://github.com/jrfonseca/xdot.py";
       license = licenses.lgpl3Plus;
     };
   };
@@ -22279,7 +22279,7 @@ in modules // {
 
     meta = {
       description = "An event publishing system";
-      homepage = http://pypi.python.org/pypi/zope.event;
+      homepage = "http://pypi.python.org/pypi/zope.event";
       license = licenses.zpt20;
       maintainers = with maintainers; [ goibhniu ];
     };
@@ -22302,7 +22302,7 @@ in modules // {
 
      meta = {
        description = "Exception interfaces and implementations";
-       homepage = http://pypi.python.org/pypi/zope.exceptions;
+       homepage = "http://pypi.python.org/pypi/zope.exceptions";
        license = licenses.zpt20;
        maintainers = with maintainers; [ goibhniu ];
      };
@@ -22517,7 +22517,7 @@ in modules // {
 
     meta = {
       description = "Zope testing helpers";
-      homepage =  http://pypi.python.org/pypi/zope.testing;
+      homepage =  "http://pypi.python.org/pypi/zope.testing";
       license = licenses.zpt20;
       maintainers = with maintainers; [ goibhniu ];
     };
@@ -22537,7 +22537,7 @@ in modules // {
 
     meta = {
       description = "A flexible test runner with layer support";
-      homepage = http://pypi.python.org/pypi/zope.testrunner;
+      homepage = "http://pypi.python.org/pypi/zope.testrunner";
       license = licenses.zpt20;
       maintainers = with maintainers; [ goibhniu ];
     };
@@ -22575,7 +22575,7 @@ in modules // {
 
     meta = {
       description = "Zope.Interface";
-      homepage = http://zope.org/Products/ZopeInterface;
+      homepage = "http://zope.org/Products/ZopeInterface";
       license = licenses.zpt20;
       maintainers = with maintainers; [ goibhniu ];
     };
@@ -22594,7 +22594,7 @@ in modules // {
     propagatedBuildInputs = with self; [ hglib ];
 
     meta = {
-      homepage = http://pypi.python.org/pypi/hgsvn;
+      homepage = "http://pypi.python.org/pypi/hgsvn";
     };
   };
 
@@ -22615,7 +22615,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://liw.fi/cliapp/;
+      homepage = "http://liw.fi/cliapp/";
       description = "Python framework for Unix command line programs";
       maintainers = with maintainers; [ rickynils ];
     };
@@ -22637,7 +22637,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://liw.fi/cmdtest/;
+      homepage = "http://liw.fi/cmdtest/";
       description = "black box tests Unix command line tools";
     };
   };
@@ -22670,7 +22670,7 @@ in modules // {
     name = "tokenlib-${version}";
     version = "0.3.1";
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla-services/tokenlib.git;
+      url = "https://github.com/mozilla-services/tokenlib.git";
       rev = "refs/tags/${version}";
       sha256 = "0dmq41sy64jmkj7n49jgbpii5n5d41ci263lyhqbff5slr289m51";
     };
@@ -22690,7 +22690,7 @@ in modules // {
 
     meta = {
       description = "A Toolkit for the Tornado Web Framework";
-      homepage = http://github.com/multoncore/tornadokick;
+      homepage = "http://github.com/multoncore/tornadokick";
       license = licenses.asl20;
     };
   };
@@ -22711,7 +22711,7 @@ in modules // {
 
     meta = {
       description = "Python API for the browse feature of Spotify";
-      homepage = https://github.com/trygveaa/python-tunigo;
+      homepage = "https://github.com/trygveaa/python-tunigo";
       license = licenses.asl20;
     };
   };
@@ -22734,13 +22734,13 @@ in modules // {
     '';
 
     src = pkgs.fetchgit {
-        url = https://github.com/scs3jb/screenkey.git;
+        url = "https://github.com/scs3jb/screenkey.git";
         rev = "b3634a2c6eb6d6936c3b2c1ef5078bf3a84c40c6";
         sha256 = "eb754917e98e03cb9d528eb5f57a08c88fa7a8172f92325a9fe796b2daf14db0";
     };
 
     meta = {
-      homepage = https://github.com/scs3jb/screenkey;
+      homepage = "https://github.com/scs3jb/screenkey";
       description = "A screencast tool to show your keys";
       license = licenses.gpl3Plus;
       maintainers = with maintainers; [ DamienCassou ];
@@ -22802,7 +22802,7 @@ in modules // {
     disabled = isPy3k; # Errors in the test suite.
 
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla/PyBrowserID.git;
+      url = "https://github.com/mozilla/PyBrowserID.git";
       rev = "refs/tags/${version}";
       sha256 = "0nyqb0v8yrkqnrqsh1hlhvzr2pyvkxvkw701p3gpsvk29c0gb5n6";
     };
@@ -22840,7 +22840,7 @@ in modules // {
     version = "1.2.11";
 
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla-services/tokenserver.git;
+      url = "https://github.com/mozilla-services/tokenserver.git";
       rev = "refs/tags/${version}";
       sha256 = "1pjrw7xhhqx7h4s08h1lsaa499r2ymc41zdknjimn6zlqdjdk1fb";
     };
@@ -22911,7 +22911,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://liw.fi/tracing/;
+      homepage = "http://liw.fi/tracing/";
       description = "Python debug logging helper";
       maintainers = with maintainers; [ rickynils ];
     };
@@ -22948,7 +22948,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://liw.fi/ttystatus/;
+      homepage = "http://liw.fi/ttystatus/";
       description = "Progress and status updates on terminals for Python";
       maintainers = with maintainers; [ rickynils ];
     };
@@ -22970,7 +22970,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://liw.fi/larch/;
+      homepage = "http://liw.fi/larch/";
       description = "Python B-tree library";
       maintainers = with maintainers; [ rickynils ];
     };
@@ -22988,7 +22988,7 @@ in modules // {
     propagatedBuildInputs = with self; [ six backports_ssl_match_hostname_3_4_0_2 unittest2 argparse ];
 
     meta = {
-      homepage = https://github.com/liris/websocket-client;
+      homepage = "https://github.com/liris/websocket-client";
       description = "Websocket client for python";
       license = licenses.lgpl2;
     };
@@ -23025,7 +23025,7 @@ in modules // {
     };
 
     meta = {
-      homepage = https://github.com/pydanny/whichcraft;
+      homepage = "https://github.com/pydanny/whichcraft";
       description = "Cross-platform cross-python shutil.which functionality";
       license = licenses.bsd3;
     };
@@ -23045,7 +23045,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://graphite.wikidot.com/;
+      homepage = "http://graphite.wikidot.com/";
       description = "Fixed size round-robin style database";
       maintainers = with maintainers; [ rickynils offline ];
     };
@@ -23063,7 +23063,7 @@ in modules // {
     propagatedBuildInputs = with self; [ whisper txamqp zope_interface twisted ];
 
     meta = {
-      homepage = http://graphite.wikidot.com/;
+      homepage = "http://graphite.wikidot.com/";
       description = "Backend data caching and persistence daemon for Graphite";
       maintainers = with maintainers; [ rickynils offline ];
     };
@@ -23081,7 +23081,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://pypi.python.org/pypi/ujson;
+      homepage = "http://pypi.python.org/pypi/ujson";
       description = "Ultra fast JSON encoder and decoder for Python";
       license = licenses.bsd3;
     };
@@ -23101,7 +23101,7 @@ in modules // {
     buildInputs = [ pkgs.glibcLocales ];
 
     meta = {
-      homepage = http://pypi.python.org/pypi/Unidecode/;
+      homepage = "http://pypi.python.org/pypi/Unidecode/";
       description = "ASCII transliterations of Unicode text";
       license = licenses.gpl2;
       maintainers = with maintainers; [ iElectric ];
@@ -23126,7 +23126,7 @@ in modules // {
 
     meta = {
       description = "Python USB access module (wraps libusb 1.0)";  # can use other backends
-      homepage = http://pyusb.sourceforge.net/;
+      homepage = "http://pyusb.sourceforge.net/";
       license = licenses.bsd3;
       maintainers = with maintainers; [ bjornfor ];
     };
@@ -23146,7 +23146,7 @@ in modules // {
 
     meta = {
       description = "Python package to control BlinkStick USB devices";
-      homepage = http://pypi.python.org/pypi/BlinkStick/;
+      homepage = "http://pypi.python.org/pypi/BlinkStick/";
       license = licenses.bsd3;
       maintainers = with maintainers; [ np ];
     };
@@ -23166,7 +23166,7 @@ in modules // {
 
     meta = {
       description = "Python implementation of the USBTMC instrument control protocol";
-      homepage = http://alexforencich.com/wiki/en/python-usbtmc/start;
+      homepage = "http://alexforencich.com/wiki/en/python-usbtmc/start";
       license = licenses.mit;
       maintainers = with maintainers; [ bjornfor ];
     };
@@ -23185,7 +23185,7 @@ in modules // {
     buildInputs = with self; [ twisted ];
 
     meta = {
-      homepage = https://launchpad.net/txamqp;
+      homepage = "https://launchpad.net/txamqp";
       description = "Library for communicating with AMQP peers and brokers using Twisted";
       maintainers = with maintainers; [ rickynils ];
     };
@@ -23215,7 +23215,7 @@ in modules // {
 
     meta = {
       description = "A simple Python library for easily displaying tabular data in a visually appealing ASCII table format";
-      homepage = https://github.com/smeggingsmegger/VeryPrettyTable;
+      homepage = "https://github.com/smeggingsmegger/VeryPrettyTable";
       license = licenses.free;
     };
   };
@@ -23247,7 +23247,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://graphite.wikidot.com/;
+      homepage = "http://graphite.wikidot.com/";
       description = "Enterprise scalable realtime graphing";
       maintainers = with maintainers; [ rickynils offline ];
     };
@@ -23287,7 +23287,7 @@ in modules // {
 
     meta = {
       description = "Graphite-web, without the interface. Just the rendering HTTP API";
-      homepage = https://github.com/brutasse/graphite-api;
+      homepage = "https://github.com/brutasse/graphite-api";
       license = licenses.asl20;
     };
   };
@@ -23306,7 +23306,7 @@ in modules // {
 
     meta = {
       description = "A simple alerting application for Graphite metrics";
-      homepage = https://github.com/klen/graphite-beacon;
+      homepage = "https://github.com/klen/graphite-beacon";
       maintainers = [ maintainers.offline ];
       license = licenses.mit;
     };
@@ -23327,7 +23327,7 @@ in modules // {
 
     meta = {
       description = "An influxdb backend for Graphite-web and graphite-api";
-      homepage = https://github.com/vimeo/graphite-influxdb;
+      homepage = "https://github.com/vimeo/graphite-influxdb";
       license = licenses.asl20;
     };
   };
@@ -23353,7 +23353,7 @@ in modules // {
 
     meta = {
       description = "A simple alerting application for Graphite metrics";
-      homepage = https://github.com/seatgeek/graphite-pager;
+      homepage = "https://github.com/seatgeek/graphite-pager";
       maintainers = with maintainers; [ offline ];
       license = licenses.bsd2;
     };
@@ -23391,7 +23391,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage    = http://pyspotify.mopidy.com;
+      homepage    = "http://pyspotify.mopidy.com";
       description = "A Python interface to Spotify’s online music streaming service";
       license     = licenses.unfree;
       maintainers = with maintainers; [ lovek323 rickynils ];
@@ -23414,7 +23414,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = http://www.pykka.org;
+      homepage = "http://www.pykka.org";
       description = "A Python implementation of the actor model";
       maintainers = with maintainers; [ rickynils ];
     };
@@ -23440,7 +23440,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = https://ws4py.readthedocs.org;
+      homepage = "https://ws4py.readthedocs.org";
       description = "A WebSocket package for Python";
       maintainers = with maintainers; [ rickynils ];
     };
@@ -23460,7 +23460,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = https://code.google.com/p/gdata-python-client/;
+      homepage = "https://code.google.com/p/gdata-python-client/";
       description = "Python client library for Google data APIs";
       license = licenses.asl20;
     };
@@ -23484,7 +23484,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = http://imapclient.freshfoo.com/;
+      homepage = "http://imapclient.freshfoo.com/";
       description = "Easy-to-use, Pythonic and complete IMAP client library";
       license = licenses.bsd3;
     };
@@ -23507,7 +23507,7 @@ in modules // {
     '';
 
     meta = {
-      homepage = http://pythonhosted.org/Logbook/;
+      homepage = "http://pythonhosted.org/Logbook/";
       description = "A logging replacement for Python";
       license = licenses.bsd3;
     };
@@ -23530,7 +23530,7 @@ in modules // {
     installPhase = "${python.interpreter} setup.py install --prefix=$out";
 
     meta = {
-      homepage = http://www.libvirt.org/;
+      homepage = "http://www.libvirt.org/";
       description = "libvirt Python bindings";
       license = licenses.lgpl2;
     };
@@ -23548,7 +23548,7 @@ in modules // {
       gevent speaklater Babel pytz dateutil pygments ];
 
     meta = {
-      homepage = https://github.com/asciimoo/searx;
+      homepage = "https://github.com/asciimoo/searx";
       description = "A privacy-respecting, hackable metasearch engine";
       license = licenses.agpl3Plus;
       maintainers = with maintainers; [ matejc ];
@@ -23565,7 +23565,7 @@ in modules // {
 
     meta = {
       description = "pdb wrapper with remote access via tcp socket";
-      homepage = https://github.com/tamentis/rpdb;
+      homepage = "https://github.com/tamentis/rpdb";
       license = licenses.bsd2;
     };
   };
@@ -23583,7 +23583,7 @@ in modules // {
 
     meta = {
       description = "Asynchronous HTTP requests";
-      homepage = https://github.com/kennethreitz/grequests;
+      homepage = "https://github.com/kennethreitz/grequests";
       license = "bsd";
       maintainers = with maintainers; [ matejc ];
     };
@@ -23601,7 +23601,7 @@ in modules // {
 
     meta = {
       description = "Adds i18n/l10n support to Flask applications";
-      homepage = https://github.com/mitsuhiko/flask-babel;
+      homepage = "https://github.com/mitsuhiko/flask-babel";
       license = "bsd";
       maintainers = with maintainers; [ matejc ];
     };
@@ -23617,7 +23617,7 @@ in modules // {
 
     meta = {
       description = "implements a lazy string for python useful for use with gettext";
-      homepage = https://github.com/mitsuhiko/speaklater;
+      homepage = "https://github.com/mitsuhiko/speaklater";
       license = "bsd";
       maintainers = with maintainers; [ matejc ];
     };
@@ -23645,7 +23645,7 @@ in modules // {
 
     meta = {
       description = "Cross-platform system power status information";
-      homepage = https://github.com/Kentzo/Power;
+      homepage = "https://github.com/Kentzo/Power";
       license = licenses.mit;
     };
   };
@@ -23676,7 +23676,7 @@ in modules // {
     meta = {
       description = "Removable disk automounter for udisks";
       license = licenses.mit;
-      homepage = https://github.com/coldfix/udiskie;
+      homepage = "https://github.com/coldfix/udiskie";
       maintainers = with maintainers; [ AndersonTorres ];
     };
   };
@@ -23694,7 +23694,7 @@ in modules // {
     buildInputs = with self; [ pkgs.pkgconfig pkgs.e19.efl pkgs.e19.elementary ];
     meta = {
       description = "Python bindings for EFL and Elementary";
-      homepage = http://enlightenment.org/;
+      homepage = "http://enlightenment.org/";
       maintainers = with maintainers; [ matejc tstrobel ftrvxmtrx ];
       platforms = platforms.linux;
       license = licenses.gpl3;
@@ -23720,7 +23720,7 @@ in modules // {
     '';
     meta = with stdenv.lib; {
       description = "Trend Micro Locality Sensitive Hash";
-      homepage = https://github.com/trendmicro/tlsh;
+      homepage = "https://github.com/trendmicro/tlsh";
       license = licenses.asl20;
       platforms = platforms.linux;
     };
@@ -23735,7 +23735,7 @@ in modules // {
     };
     meta = {
       description = "A topological sort algorithm";
-      homepage = https://pypi.python.org/pypi/toposort/1.1;
+      homepage = "https://pypi.python.org/pypi/toposort/1.1";
       maintainers = with maintainers; [ tstrobel ];
       platforms = platforms.linux;
       #license = licenses.apache;
@@ -23757,7 +23757,7 @@ in modules // {
     propagatedBuildInputs = with self; [ pygobject3 dbus ];
 
     meta = {
-      homepage = https://github.com/ricardomv/snapper-gui;
+      homepage = "https://github.com/ricardomv/snapper-gui";
       description = "Graphical frontend for snapper";
       license = licenses.gpl2;
       maintainers = with maintainers; [ tstrobel ];
@@ -23779,7 +23779,7 @@ in modules // {
     propagatedBuildInputs = with self; [ pygtk pywebkitgtk pyyaml chardet ];
 
     meta = {
-      homepage = http://rednotebook.sourceforge.net/index.html;
+      homepage = "http://rednotebook.sourceforge.net/index.html";
       description = "A modern journal that includes a calendar navigation, customizable templates, export functionality and word clouds";
       license = licenses.gpl2;
       maintainers = with maintainers; [ tstrobel ];
@@ -23800,7 +23800,7 @@ in modules // {
     propagatedBuildInputs = with self; [ nose ];
 
     meta = {
-      homepage = https://more-itertools.readthedocs.org;
+      homepage = "https://more-itertools.readthedocs.org";
       description = "Expansion of the itertools module";
       license = licenses.mit;
     };
@@ -23851,12 +23851,12 @@ in modules // {
     name = "boto-2.30.0";
     disabled = ! isPy27;
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/b/boto/boto-2.30.0.tar.gz;
+      url = "https://pypi.python.org/packages/source/b/boto/boto-2.30.0.tar.gz";
       sha256 = "12gl8azmx1vv8dbv9jhnsbhjpc2dd1ng0jlbcg734k6ggwq1h6hh";
     };
     doCheck = false;
     meta = {
-      homepage = https://github.com/boto/boto;
+      homepage = "https://github.com/boto/boto";
       license = licenses.mit;
       description = "Python interface to Amazon Web Services";
     };
@@ -23866,12 +23866,12 @@ in modules // {
     name = "gcs-oauth2-boto-plugin-1.8";
     disabled = ! isPy27;
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/g/gcs-oauth2-boto-plugin/gcs-oauth2-boto-plugin-1.8.tar.gz;
+      url = "https://pypi.python.org/packages/source/g/gcs-oauth2-boto-plugin/gcs-oauth2-boto-plugin-1.8.tar.gz";
       sha256 = "0jy62y5bmaf1mb735lqwry1s5nx2qqrxvl5sxip9yg4miih3qkyb";
     };
     propagatedBuildInputs = with self; [ boto-230 httplib2 google_api_python_client retry_decorator pkgs.pyopenssl socksipy-branch ];
     meta = {
-      homepage = https://developers.google.com/storage/docs/gspythonlibrary;
+      homepage = "https://developers.google.com/storage/docs/gspythonlibrary";
       description = "Provides OAuth 2.0 credentials that can be used with Google Cloud Storage";
       license = licenses.asl20;
     };
@@ -23881,7 +23881,7 @@ in modules // {
     name = "gsutil-4.6";
     disabled = ! isPy27;
     meta = {
-      homepage = https://developers.google.com/storage/docs/gsutil;
+      homepage = "https://developers.google.com/storage/docs/gsutil";
       description = "Google Cloud Storage Tool";
       maintainers = [ "Russell O'Connor <oconnorr@google.com>" ];
       license = licenses.asl20;
@@ -23889,7 +23889,7 @@ in modules // {
     doCheck = false;
 
     src = pkgs.fetchurl {
-      url = https://pypi.python.org/packages/source/g/gsutil/gsutil-4.6.tar.gz;
+      url = "https://pypi.python.org/packages/source/g/gsutil/gsutil-4.6.tar.gz";
       sha256 = "1i0clm60162rbk45ljr8nsw4ndkzjnwb7r440shcqjrvw8jq49mn";
     };
 
@@ -23911,7 +23911,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = https://github.com/garbas/pypi2nix;
+      homepage = "https://github.com/garbas/pypi2nix";
       description = "";
       maintainers = with maintainers; [ garbas ];
     };
@@ -23930,7 +23930,7 @@ in modules // {
     };
 
     meta = {
-      homepage = https://github.com/kjellmf/svg2tikz;
+      homepage = "https://github.com/kjellmf/svg2tikz";
       description = "An SVG to TikZ converter";
       license = licenses.gpl2Plus;
       maintainers =  with maintainers; [ gal_bolle ];
@@ -23943,7 +23943,7 @@ in modules // {
     disabled = ! isPy27;
 
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla-services/syncserver.git;
+      url = "https://github.com/mozilla-services/syncserver.git";
       rev = "refs/tags/${version}";
       sha256 = "1xljylycxg7351hmqh7aa6fvvsjg06zvd4r7hcjqyd0k0sxvk7y6";
     };
@@ -23966,7 +23966,7 @@ in modules // {
     disabled = !isPy27;
 
     src = pkgs.fetchgit {
-      url = https://github.com/mozilla-services/server-syncstorage.git;
+      url = "https://github.com/mozilla-services/server-syncstorage.git";
       rev = "refs/tags/${version}";
       sha256 = "1byq2k2f36f1jli9599ygfm2qsb4adl9140sxjpgfjbznb74q90q";
     };
@@ -24152,7 +24152,7 @@ in modules // {
 
     meta = {
       description = "A smart imaging service";
-      homepage = https://github.com/globocom/thumbor/wiki;
+      homepage = "https://github.com/globocom/thumbor/wiki";
       license = licenses.mit;
     };
   };
@@ -24168,7 +24168,7 @@ in modules // {
 
     meta = {
       description = "Module to parse and edit the EXIF data tags in a JPEG image";
-      homepage = http://www.benno.id.au/code/pexif/;
+      homepage = "http://www.benno.id.au/code/pexif/";
       license = licenses.mit;
     };
   };
@@ -24194,7 +24194,7 @@ in modules // {
 
     meta = {
       description = "Python Wrapper for Mac OS 10.8 Notification Center";
-      homepage    = https://pypi.python.org/pypi/pync/1.4;
+      homepage    = "https://pypi.python.org/pypi/pync/1.4";
       license     = licenses.mit;
       platforms   = platforms.darwin;
       maintainers = with maintainers; [ lovek323 ];
@@ -24215,7 +24215,7 @@ in modules // {
     propagatedBuildInputs = with self; [ pillow prettytable pyyaml dateutil gdata requests2 mechanize feedparser lxml pkgs.gnupg pyqt4 pkgs.libyaml simplejson cssselect futures ];
 
     meta = {
-      homepage = http://weboob.org;
+      homepage = "http://weboob.org";
       description = "Collection of applications and APIs to interact with websites without requiring the user to open a browser";
       license = licenses.agpl3;
       maintainers = with maintainers; [ DamienCassou ];
@@ -24235,7 +24235,7 @@ in modules // {
 
     meta = {
       description = "DataDiff";
-      homepage = http://sourceforge.net/projects/datadiff/;
+      homepage = "http://sourceforge.net/projects/datadiff/";
       license = licenses.asl20;
     };
   };
@@ -24250,7 +24250,7 @@ in modules // {
 
     meta = {
       description = "Termcolor";
-      homepage = http://pypi.python.org/pypi/termcolor;
+      homepage = "http://pypi.python.org/pypi/termcolor";
       license = licenses.mit;
     };
   };
@@ -24265,7 +24265,7 @@ in modules // {
     };
 
     meta = {
-      homepage = https://github.com/Alir3z4/html2text/;
+      homepage = "https://github.com/Alir3z4/html2text/";
     };
   };
 
@@ -24280,7 +24280,7 @@ in modules // {
 
     meta = {
       description = "Library for creating high quality encapsulated Postscript, PDF, PNG, or SVG charts";
-      homepage = http://home.gna.org/pychart/;
+      homepage = "http://home.gna.org/pychart/";
       license = licenses.gpl2;
     };
   };
@@ -24434,7 +24434,7 @@ in modules // {
 
     meta = {
       description = "Summary";
-      homepage = https://github.com/quandyfactory/dicttoxml;
+      homepage = "https://github.com/quandyfactory/dicttoxml";
     };
   };
 
@@ -24450,7 +24450,7 @@ in modules // {
     propagatedBuildInputs = with self; [];
     meta = {
       description = "A fast and complete Python implementation of Markdown";
-      homepage =  https://github.com/trentm/python-markdown2;
+      homepage =  "https://github.com/trentm/python-markdown2";
       license = licenses.mit;
       maintainers = with maintainers; [ hbunke ];
     };
@@ -24471,7 +24471,7 @@ in modules // {
 
      meta = {
       description = "Evernote SDK for Python";
-      homepage = http://dev.evernote.com;
+      homepage = "http://dev.evernote.com";
       license = licenses.asl20;
       maintainers = with maintainers; [ hbunke ];
      };
@@ -24488,7 +24488,7 @@ in modules // {
 
     meta = {
       description = "Allows a process to change its title (as displayed by system tools such as ps and top)";
-      homepage =  https://github.com/dvarrazzo/py-setproctitle;
+      homepage =  "https://github.com/dvarrazzo/py-setproctitle";
       license = licenses.bsdOriginal;
       maintainers = with maintainers; [ exi ];
     };
@@ -24508,7 +24508,7 @@ in modules // {
 
     meta = {
       description = "Python bindings for the Apache Thrift RPC system";
-      homepage = http://thrift.apache.org/;
+      homepage = "http://thrift.apache.org/";
       license = licenses.asl20;
       maintainers = with maintainers; [ hbunke ];
 
@@ -24542,7 +24542,7 @@ in modules // {
 
     meta = {
       description = "Work with Evernote from command line";
-      homepage = http://www.geeknote.me;
+      homepage = "http://www.geeknote.me";
       license = licenses.gpl1;
       maintainers = with maintainers; [ hbunke ];
 
@@ -24724,7 +24724,7 @@ in modules // {
 
     meta = {
       description = "PEG parser interpreter in Python";
-      homepage = http://fdik.org/pyPEG;
+      homepage = "http://fdik.org/pyPEG";
       license = licenses.gpl2;
     };
   };
@@ -24811,7 +24811,7 @@ in modules // {
 
     meta = {
       description = "Free console XMPP client";
-      homepage = http://poez.io;
+      homepage = "http://poez.io";
       license = licenses.mit;
       maintainers = [ maintainers.lsix ];
     };
@@ -24890,7 +24890,7 @@ in modules // {
 
     meta = with stdenv.lib; {
       description = "A library to download YouTube content and retrieve metadata";
-      homepage = http://np1.github.io/pafy/;
+      homepage = "http://np1.github.io/pafy/";
       license = licenses.lgpl3Plus;
       maintainers = with maintainers; [ odi ];
     };
@@ -24909,7 +24909,7 @@ in modules // {
 
     meta = with stdenv.lib; {
       description = "Lightweight SOAP client";
-      homepage = https://fedorahosted.org/suds;
+      homepage = "https://fedorahosted.org/suds";
       license = licenses.lgpl3Plus;
     };
   };
@@ -24976,7 +24976,7 @@ in modules // {
 
     meta = with stdenv.lib; {
       description = "Terminal based YouTube player and downloader";
-      homepage = http://github.com/np1/mps-youtube;
+      homepage = "http://github.com/np1/mps-youtube";
       license = licenses.gpl3;
       maintainers = with maintainers; [ odi ];
     };
@@ -24994,7 +24994,7 @@ in modules // {
 
     meta = {
       description = "Support for distutils2-like setup.cfg files as package metadata";
-      homepage = https://pypi.python.org/pypi/d2to1;
+      homepage = "https://pypi.python.org/pypi/d2to1";
       license = licenses.bsd2;
       maintainers = [ maintainers.makefu ];
     };
@@ -25014,7 +25014,7 @@ in modules // {
 
     meta = {
       description = "Thin wrapper around OVH's APIs";
-      homepage = https://pypi.python.org/pypi/ovh;
+      homepage = "https://pypi.python.org/pypi/ovh";
       license = licenses.bsd2;
       maintainers = [ maintainers.makefu ];
     };
@@ -25038,7 +25038,7 @@ in modules // {
 
     meta = {
       description = "A Python image library that sits on top of Pillow, Wand and OpenCV";
-      homepage = https://github.com/torchbox/Willow/;
+      homepage = "https://github.com/torchbox/Willow/";
       license = licenses.bsd2;
       maintainers = with maintainers; [ desiderius ];
     };
@@ -25059,7 +25059,7 @@ in modules // {
 
     meta = {
       description = "Python Import Magic - automagically add, remove and manage imports";
-      homepage = http://github.com/alecthomas/importmagic;
+      homepage = "http://github.com/alecthomas/importmagic";
       license = "bsd";
     };
   };
@@ -25084,7 +25084,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://github.com/bepasty/bepasty-server;
+      homepage = "http://github.com/bepasty/bepasty-server";
       description = "binary pastebin server";
       license = licenses.mit;
       maintainers = [ maintainers.makefu ];
@@ -25104,7 +25104,7 @@ in modules // {
     doCheck = false;
 
     meta = {
-      homepage = https://pypi.python.org/pypi/xkcdpass/;
+      homepage = "https://pypi.python.org/pypi/xkcdpass/";
       description = "Generate secure multiword passwords/passphrases, inspired by XKCD";
       license = licenses.bsd3;
       maintainers = [ ];
@@ -25119,7 +25119,7 @@ in modules // {
       sha256 = "09npcsyf1ccygjs0qc8kdsv4qqy8gm1m6iv63g9y1fgbcry3vj8f";
     };
     meta = {
-      homepage = http://bitbucket.org/thomaswaldmann/xstatic;
+      homepage = "http://bitbucket.org/thomaswaldmann/xstatic";
       description = "base packaged static files for python";
       license = licenses.mit;
       maintainers = [ maintainers.makefu ];
@@ -25134,7 +25134,7 @@ in modules // {
       md5 = "eea39d8ab08ff4503bb145171d0a46f6";
     };
     meta = {
-      homepage = https://github.com/bitprophet/alabaster;
+      homepage = "https://github.com/bitprophet/alabaster";
       description = "convert xlsx to csv";
       license = licenses.bsd3;
       maintainers = with maintainers; [ jb55 ];
@@ -25171,7 +25171,7 @@ in modules // {
     };
 
     meta = {
-      homepage =  http://bootboxjs.com;
+      homepage =  "http://bootboxjs.com";
       description = "bootboxjs packaged static files for python";
       license = licenses.mit;
       maintainers = [ maintainers.makefu ];
@@ -25187,7 +25187,7 @@ in modules // {
     };
 
     meta = {
-      homepage =  http://getbootstrap.com;
+      homepage =  "http://getbootstrap.com";
       description = "bootstrap packaged static files for python";
       license = licenses.mit;
       maintainers = [ maintainers.makefu ];
@@ -25203,7 +25203,7 @@ in modules // {
     };
 
     meta = {
-      homepage =  http://jquery.org;
+      homepage =  "http://jquery.org";
       description = "jquery packaged static files for python";
       license = licenses.mit;
       maintainers = [ maintainers.makefu ];
@@ -25220,7 +25220,7 @@ in modules // {
     };
 
     meta = {
-      homepage =  http://plugins.jquery.com/project/jQuery-File-Upload;
+      homepage =  "http://plugins.jquery.com/project/jQuery-File-Upload";
       description = "jquery-file-upload packaged static files for python";
       license = licenses.mit;
       maintainers = [ maintainers.makefu ];
@@ -25237,7 +25237,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://jqueryui.com/;
+      homepage = "http://jqueryui.com/";
       description = "jquery-ui packaged static files for python";
       license = licenses.mit;
       maintainers = [ maintainers.makefu ];
@@ -25253,7 +25253,7 @@ in modules // {
     };
 
     meta = {
-      homepage = http://pygments.org;
+      homepage = "http://pygments.org";
       description = "pygments packaged static files for python";
       license = licenses.bsd2;
       maintainers = [ maintainers.makefu ];
@@ -25280,7 +25280,7 @@ in modules // {
 
     meta = {
       description = "A Cython interface to the hidapi from https://github.com/signal11/hidapi";
-      homepage = https://github.com/trezor/cython-hidapi;
+      homepage = "https://github.com/trezor/cython-hidapi";
       # license can actually be either bsd3 or gpl3
       # see https://github.com/trezor/cython-hidapi/blob/master/LICENSE-orig.txt
       license = licenses.bsd3;
@@ -25301,7 +25301,7 @@ in modules // {
 
     meta = {
       description = "Implementation of Bitcoin BIP-0039";
-      homepage = https://github.com/trezor/python-mnemonic;
+      homepage = "https://github.com/trezor/python-mnemonic";
       license = licenses.mit;
       maintainers = with maintainers; [ np ];
     };
@@ -25325,7 +25325,7 @@ in modules // {
 
     meta = {
       description = "Python library for communicating with TREZOR Bitcoin Hardware Wallet";
-      homepage = https://github.com/trezor/python-trezor;
+      homepage = "https://github.com/trezor/python-trezor";
       license = licenses.gpl3;
       maintainers = with maintainers; [ np ];
     };
@@ -25349,7 +25349,7 @@ in modules // {
 
     meta = {
       description = "KeepKey Python client";
-      homepage = https://github.com/keepkey/python-keepkey;
+      homepage = "https://github.com/keepkey/python-keepkey";
       license = licenses.gpl3;
       maintainers = with maintainers; [ np ];
     };
@@ -25402,7 +25402,7 @@ in modules // {
 
     meta = {
       description = "Using Trezor as hardware SSH agent";
-      homepage = https://github.com/romanz/trezor-agent;
+      homepage = "https://github.com/romanz/trezor-agent";
       license = licenses.gpl3;
       maintainers = with maintainers; [ np ];
     };
@@ -25419,7 +25419,7 @@ in modules // {
 
     meta = {
       description = "Binding for X11 proof of work hashing";
-      homepage = https://github.com/mazaclub/x11_hash;
+      homepage = "https://github.com/mazaclub/x11_hash";
       license = licenses.mit;
       maintainers = with maintainers; [ np ];
     };

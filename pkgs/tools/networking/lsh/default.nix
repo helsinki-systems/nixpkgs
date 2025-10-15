@@ -40,7 +40,7 @@ stdenv.mkDerivation rec {
       SECSH working group.
     '';
 
-    homepage = http://www.lysator.liu.se/~nisse/lsh/;
+    homepage = "http://www.lysator.liu.se/~nisse/lsh/";
     license = stdenv.lib.licenses.gpl2Plus;
 
     maintainers = [ ];

@@ -55,7 +55,7 @@ in stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Collection of modular and reusable compiler and toolchain technologies";
-    homepage    = http://llvm.org/;
+    homepage    = "http://llvm.org/";
     license     = licenses.bsd3;
     maintainers = with maintainers; [ lovek323 raskin viric ];
     platforms   = platforms.all;

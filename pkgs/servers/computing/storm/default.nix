@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "storm-0.8.2";
   src = fetchurl {
-    url = https://dl.dropbox.com/u/133901206/storm-0.8.2.zip;
+    url = "https://dl.dropbox.com/u/133901206/storm-0.8.2.zip";
     sha256 = "8761aea0b54e5bab4a68b259bbe6b5b2f8226204488b5559eba57a0c458b2bbc";
   };
 

@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "CBFS tool";
-    homepage = http://www.coreboot.org;
+    homepage = "http://www.coreboot.org";
     license = licenses.gpl2;
     maintainers = [ maintainers.tstrobel ];
     platforms = platforms.linux;

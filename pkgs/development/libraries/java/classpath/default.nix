@@ -49,7 +49,7 @@ stdenv.mkDerivation rec {
       for the Java programming language.
     '';
 
-    homepage = http://www.gnu.org/software/classpath/;
+    homepage = "http://www.gnu.org/software/classpath/";
 
     # The exception makes it similar to LGPLv2+ AFAICS.
     license = stdenv.lib.licenses.gpl2ClasspathPlus;

@@ -28,7 +28,7 @@ stdenv.mkDerivation (rec {
   enableParallelBuilding = true;
 
   meta = {
-    homepage = http://xmlsoft.org/;
+    homepage = "http://xmlsoft.org/";
     description = "An XML parsing library for C";
     license = "bsd";
     platforms = stdenv.lib.platforms.unix;

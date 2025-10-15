@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ libiconv ];
 
   meta = with stdenv.lib; {
-    homepage = https://www.nic.ad.jp/ja/idn/idnkit;
+    homepage = "https://www.nic.ad.jp/ja/idn/idnkit";
     description = "provides functionalities about i18n domain name processing";
     license = "idnkit-2 license";
     platforms = platforms.unix;

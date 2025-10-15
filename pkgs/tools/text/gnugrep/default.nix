@@ -39,7 +39,7 @@ stdenv.mkDerivation {
     '';
 
   meta = {
-    homepage = http://www.gnu.org/software/grep/;
+    homepage = "http://www.gnu.org/software/grep/";
     description = "GNU implementation of the Unix grep command";
 
     longDescription = ''

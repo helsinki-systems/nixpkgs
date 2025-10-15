@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
   NIX_LDFLAGS = [ "-lrt" ];
 
   meta = with stdenv.lib; {
-    homepage = http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html;
+    homepage = "http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html";
     description = "Udev manages the /dev filesystem";
     platforms = platforms.linux;
     license = licenses.gpl2;

@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ ncurses ];
 
   meta = {
-    homepage = http://www.greenwoodsoftware.com/less/;
+    homepage = "http://www.greenwoodsoftware.com/less/";
     description = "A more advanced file pager than ‘more’";
     platforms = stdenv.lib.platforms.unix;
     maintainers = [ stdenv.lib.maintainers.eelco ];

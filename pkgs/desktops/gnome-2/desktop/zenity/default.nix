@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   name = "zenity-2.32.1";
 
   src = fetchurl {
-    url = mirror://gnome/sources/zenity/2.32/zenity-2.32.1.tar.bz2;
+    url = "mirror://gnome/sources/zenity/2.32/zenity-2.32.1.tar.bz2";
     sha256 = "1b0qxb07wif0ds1pl8xk3fq9p874j89rf718lii4ndh7382bwf48";
   };
 

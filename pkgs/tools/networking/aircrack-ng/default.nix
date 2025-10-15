@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Wireless encryption cracking tools";
-    homepage = http://www.aircrack-ng.org/;
+    homepage = "http://www.aircrack-ng.org/";
     license = licenses.gpl2Plus;
     maintainers = with maintainers; [ iElectric viric garbas chaoflow nckx ];
     platforms = platforms.linux;

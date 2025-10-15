@@ -34,7 +34,7 @@ stdenv.mkDerivation rec {
     '';
 
   meta = with stdenv.lib; {
-    homepage = https://geti2p.net;
+    homepage = "https://geti2p.net";
     description = "Applications and router for I2P, anonymity over the Internet";
     maintainers = [ maintainers.joelmo ];
     license = licenses.gpl2;

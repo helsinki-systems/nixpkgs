@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ autoconf ncurses ] ++ optional withGtk gtk;
 
   meta = {
-    homepage = http://www.bitwizard.nl/mtr/;
+    homepage = "http://www.bitwizard.nl/mtr/";
     description = "A network diagnostics tool";
     maintainers = [ maintainers.koral maintainers.raskin ];
     platforms = platforms.unix;

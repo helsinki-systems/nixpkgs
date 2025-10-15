@@ -56,7 +56,7 @@ stdenv.mkDerivation rec {
       tactical shooter; somewhat realism based, but the motto is "fun over
       realism". This results in a very unique, enjoyable and addictive game.
     '';
-    homepage = http://www.urbanterror.net;
+    homepage = "http://www.urbanterror.net";
     license = licenses.unfreeRedistributable;
     maintainers = with maintainers; [ astsmtl ];
     platforms = platforms.linux;

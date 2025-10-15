@@ -47,7 +47,7 @@ stdenv.mkDerivation rec {
       Krita for painting and raster drawing, and Karbon for
       vector graphics.
     '';
-    homepage = http://calligra.org;
+    homepage = "http://calligra.org";
     maintainers = with stdenv.lib.maintainers; [ urkud phreedom ];
     inherit (kdelibs.meta) platforms;
   };

@@ -39,7 +39,7 @@ pythonPackages.buildPythonPackage rec {
   dontStrip = true;
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/pytrainer/pytrainer/wiki;
+    homepage = "https://github.com/pytrainer/pytrainer/wiki";
     description = "Application for logging and graphing sporting excursions";
     maintainers = [ maintainers.rycee ];
     license = licenses.gpl2Plus;

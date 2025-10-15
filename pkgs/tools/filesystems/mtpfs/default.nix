@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = {
-    homepage = https://code.google.com/p/mtpfs/;
+    homepage = "https://code.google.com/p/mtpfs/";
     description = "FUSE Filesystem providing access to MTP devices";
     platforms = stdenv.lib.platforms.all;
     maintainers = [ stdenv.lib.maintainers.qknight ];

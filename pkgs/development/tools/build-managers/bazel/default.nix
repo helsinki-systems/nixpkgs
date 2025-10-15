@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://github.com/google/bazel/;
+    homepage = "http://github.com/google/bazel/";
     description = "Build tool that builds code quickly and reliably";
     license = stdenv.lib.licenses.asl20;
     maintainers = [ stdenv.lib.maintainers.philandstuff ];

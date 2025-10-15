@@ -76,6 +76,6 @@ buildPythonPackage {
     '';
 
     maintainers = [ stdenv.lib.maintainers.coroa ];
-    homepage = http://code.google.com/p/quodlibet/;
+    homepage = "http://code.google.com/p/quodlibet/";
   };
 }

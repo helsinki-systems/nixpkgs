@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "The ultimate desktop calculator";
-    homepage = http://qalculate.sourceforge.net;
+    homepage = "http://qalculate.sourceforge.net";
     maintainers = with maintainers; [ gebner ];
     platforms = platforms.all;
   };

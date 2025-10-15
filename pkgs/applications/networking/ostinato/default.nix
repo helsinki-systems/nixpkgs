@@ -56,7 +56,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A packet traffic generator and analyzer";
-    homepage = http://ostinato.org;
+    homepage = "http://ostinato.org";
     license = licenses.gpl3;
     maintainers = with maintainers; [ rick68 ];
     platforms = platforms.linux;  # also OS X and cygwin

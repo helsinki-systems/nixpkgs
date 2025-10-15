@@ -43,7 +43,7 @@ composableDerivation.composableDerivation {} {
       and serial controllers. The emulation is working well enough to
       allow several unmodified "guest" operating systems to run.
     '';
-    homepage = http://gxemul.sourceforge.net/;
+    homepage = "http://gxemul.sourceforge.net/";
   };
 
 }

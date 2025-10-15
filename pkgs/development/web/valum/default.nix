@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   installPhase = ''python waf install'';
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/valum-framework/valum;
+    homepage = "https://github.com/valum-framework/valum";
     description = "Web micro-framework written in Vala";
     plaforms = platforms.linux;
     maintainers = [ maintainers.lethalman ];

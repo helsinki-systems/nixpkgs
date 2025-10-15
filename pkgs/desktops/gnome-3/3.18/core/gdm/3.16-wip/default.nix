@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
   patches = [ ./xserver_path.patch ./sessions_dir.patch ./disable_x_access_control.patch ];
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Projects/GDM;
+    homepage = "https://wiki.gnome.org/Projects/GDM";
     description = "A program that manages graphical display servers and handles graphical user logins";
     platforms = platforms.linux;
     maintainers = gnome3.maintainers;

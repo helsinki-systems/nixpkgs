@@ -15,7 +15,7 @@ stdenv.mkDerivation {
    '';
 
   meta = {
-    homepage = http://heasarc.gsfc.nasa.gov/fitsio/;
+    homepage = "http://heasarc.gsfc.nasa.gov/fitsio/";
 
     description = "Library for reading and writing FITS data files";
 

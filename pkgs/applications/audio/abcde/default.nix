@@ -60,7 +60,7 @@ in
     '';
 
     meta = {
-      homepage = http://abcde.einval.com/wiki/;
+      homepage = "http://abcde.einval.com/wiki/";
       license = stdenv.lib.licenses.gpl2Plus;
       description = "Command-line audio CD ripper";
 

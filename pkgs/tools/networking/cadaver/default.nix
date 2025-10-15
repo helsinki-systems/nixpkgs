@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A command-line WebDAV client for Unix";
-    homepage    = http://www.webdav.org/cadaver;
+    homepage    = "http://www.webdav.org/cadaver";
     maintainers = with maintainers; [ ianwookim ];
     license     = licenses.gpl2;
     platforms   = with platforms; linux ++ freebsd ++ openbsd;

@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
   ];
 
   meta = with stdenv.lib; {
-    homepage = https://live.gnome.org/devhelp;
+    homepage = "https://live.gnome.org/devhelp";
     description = "API documentation browser for GNOME";
     maintainers = gnome3.maintainers;
     license = licenses.gpl2;

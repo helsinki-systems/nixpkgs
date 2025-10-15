@@ -75,7 +75,7 @@ stdenv.mkDerivation rec {
   NIX_CFLAGS_COMPILE = "-fno-stack-protector";
 
   meta = with stdenv.lib; {
-    homepage = http://libvirt.org/;
+    homepage = "http://libvirt.org/";
     repositories.git = git://libvirt.org/libvirt.git;
     description = ''
       A toolkit to interact with the virtualization capabilities of recent

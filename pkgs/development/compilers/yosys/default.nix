@@ -43,7 +43,7 @@ stdenv.mkDerivation rec {
       adding additional passes as needed by extending the yosys C++
       code base.
     '';
-    homepage = http://www.clifford.at/yosys/;
+    homepage = "http://www.clifford.at/yosys/";
     license = stdenv.lib.licenses.isc;
     maintainers = [ stdenv.lib.maintainers.shell ];
   };

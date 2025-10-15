@@ -99,7 +99,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "The TeamSpeak voice communication tool";
-    homepage = http://teamspeak.com/;
+    homepage = "http://teamspeak.com/";
     license = "http://www.teamspeak.com/?page=downloads&type=ts3_linux_client_latest";
     maintainers = [ stdenv.lib.maintainers.lhvwb ];
     platforms = stdenv.lib.platforms.linux;

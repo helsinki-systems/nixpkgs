@@ -41,7 +41,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.brother.com/;
+    homepage = "http://www.brother.com/";
     description = "A driver for brother mfcj470dw printers to print over WiFi and USB";
     license = stdenv.lib.licenses.unfree;
     platforms = stdenv.lib.platforms.linux;

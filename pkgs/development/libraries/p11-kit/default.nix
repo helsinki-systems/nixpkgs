@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   installFlags = [ "exampledir=\${out}/etc/pkcs11" ];
 
   meta = with stdenv.lib; {
-    homepage = http://p11-glue.freedesktop.org/;
+    homepage = "http://p11-glue.freedesktop.org/";
     platforms = platforms.all;
     maintainers = with maintainers; [ urkud wkennington ];
     license = licenses.mit;

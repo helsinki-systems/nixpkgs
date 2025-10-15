@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
        (add-hook 'after-init-hook 'session-initialize)
     */
     description = "small session management for emacs";
-    homepage = http://emacs-session.sourceforge.net/;
+    homepage = "http://emacs-session.sourceforge.net/";
     license = "GPL";
   };
 }

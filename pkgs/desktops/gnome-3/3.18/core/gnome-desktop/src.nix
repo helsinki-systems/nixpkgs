@@ -4,7 +4,7 @@ fetchurl: {
   name = "gnome-desktop-3.18.2";
 
   src = fetchurl {
-    url = mirror://gnome/sources/gnome-desktop/3.18/gnome-desktop-3.18.2.tar.xz;
+    url = "mirror://gnome/sources/gnome-desktop/3.18/gnome-desktop-3.18.2.tar.xz";
     sha256 = "ddd46d022de137543a71f50c7392b32f9b98d5d3f2b53040b35f5802de2e7b56";
   };
 }

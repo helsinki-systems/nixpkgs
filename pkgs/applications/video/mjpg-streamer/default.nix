@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   name = "mjpg-streamer-${rev}";
 
   src = fetchsvn {
-    url = https://mjpg-streamer.svn.sourceforge.net/svnroot/mjpg-streamer/mjpg-streamer;
+    url = "https://mjpg-streamer.svn.sourceforge.net/svnroot/mjpg-streamer/mjpg-streamer";
     inherit rev;
     sha256 = "008k2wk6xagprbiwk8fvzbz4dd6i8kzrr9n62gj5i1zdv7zcb16q";
   };
@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pkgconfig libjpeg imagemagick libv4l ];
   
   meta = {
-    homepage = http://sourceforge.net/projects/mjpg-streamer/;
+    homepage = "http://sourceforge.net/projects/mjpg-streamer/";
     description = "MJPG-streamer takes JPGs from Linux-UVC compatible webcams, filesystem or other input plugins and streams them as M-JPEG via HTTP to webbrowsers, VLC and other software";
   };
 }

@@ -55,7 +55,7 @@ stdenv.mkDerivation rec {
     '';
 
   meta = {
-    homepage = http://www.tribler.org/;
+    homepage = "http://www.tribler.org/";
     description = "A completely decentralised P2P filesharing client based on the Bittorrent protocol";
     license = stdenv.lib.licenses.lgpl21;
   };

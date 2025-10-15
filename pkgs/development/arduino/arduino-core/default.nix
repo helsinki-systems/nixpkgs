@@ -56,7 +56,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Open-source electronics prototyping platform";
-    homepage = http://arduino.cc/;
+    homepage = "http://arduino.cc/";
     license = stdenv.lib.licenses.gpl2;
     platforms = platforms.all;
     maintainers = with maintainers; [ antono robberer bjornfor ];

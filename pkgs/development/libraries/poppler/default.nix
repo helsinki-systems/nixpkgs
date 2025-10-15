@@ -41,7 +41,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   meta = with lib; {
-    homepage = http://poppler.freedesktop.org/;
+    homepage = "http://poppler.freedesktop.org/";
     description = "A PDF rendering library";
 
     longDescription = ''

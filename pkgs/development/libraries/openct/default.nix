@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/OpenSC/openct/;
+    homepage = "https://github.com/OpenSC/openct/";
     license = licenses.lgpl21;
     description = "Drivers for several smart card readers";
     maintainers = with maintainers; [ viric wkennington ];

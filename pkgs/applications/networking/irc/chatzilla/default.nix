@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://chatzilla.hacksrus.com/;
+    homepage = "http://chatzilla.hacksrus.com/";
     description = "Stand-alone version of Chatzilla, an IRC client";
     maintainers = [ stdenv.lib.maintainers.eelco ];
     platforms = stdenv.lib.platforms.linux;

@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   name= "sdcv-0.4.2";
 
   meta = {
-    homepage = http://sdcv.sourceforge.net/;
+    homepage = "http://sdcv.sourceforge.net/";
     description = "Console version of StarDict program";
     maintainers = with stdenv.lib.maintainers; [ lovek323 ];
     license = stdenv.lib.licenses.gpl2;

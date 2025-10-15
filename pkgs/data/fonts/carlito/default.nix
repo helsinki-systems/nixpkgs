@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   meta = with stdenv.lib; {
     # This font doesn't appear to have any official web site but this
     # one provides some good information and samples.
-    homepage = http://openfontlibrary.org/en/font/carlito;
+    homepage = "http://openfontlibrary.org/en/font/carlito";
     description = "A sans-serif font metric-compatible with Microsoft Calibri";
     longDescription = ''
       Carlito is a free font that is metric-compatible with the

@@ -13,6 +13,6 @@ stdenv.mkDerivation {
 
   meta = {
     description = "A netcat implementation with IPv6 support";
-    homepage = http://www.deepspace6.net/projects/netcat6.html;
+    homepage = "http://www.deepspace6.net/projects/netcat6.html";
   };
 }

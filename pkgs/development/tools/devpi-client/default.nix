@@ -11,7 +11,7 @@ pythonPackages.buildPythonPackage rec {
 
   buildInputs = [ pythonPackages.tox pythonPackages.check-manifest pythonPackages.devpi-common pythonPackages.pkginfo ];
   meta = {
-    homepage = http://doc.devpi.net;
+    homepage = "http://doc.devpi.net";
     description = "Github-style pypi index server and packaging meta tool";
     license = stdenv.lib.licenses.mit;
     maintainers = [stdenv.lib.maintainers.lewo];

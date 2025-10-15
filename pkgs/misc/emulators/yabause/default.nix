@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
   meta = with stdenv.lib; {
     version = "0.9.14";
     description = "An open-source Sega Saturn emulator";
-    homepage = http://yabause.org/;
+    homepage = "http://yabause.org/";
     license = licenses.gpl2Plus;
     maintainers = [ maintainers.AndersonTorres ];
     platforms = platforms.linux;

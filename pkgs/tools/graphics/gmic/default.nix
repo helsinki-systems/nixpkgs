@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "G'MIC is an open and full-featured framework for image processing";
-    homepage = http://gmic.eu/;
+    homepage = "http://gmic.eu/";
     license = licenses.cecill20;
     maintainers = [ maintainers.rycee ];
   };

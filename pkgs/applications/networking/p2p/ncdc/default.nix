@@ -15,7 +15,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Modern and lightweight direct connect client with a friendly ncurses interface";
-    homepage = http://dev.yorhel.nl/ncdc;
+    homepage = "http://dev.yorhel.nl/ncdc";
     license = stdenv.lib.licenses.mit;
     platforms = stdenv.lib.platforms.linux; # arbitrary
     maintainers = [ stdenv.lib.maintainers.ehmry ];

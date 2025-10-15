@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = https://github.com/robm/dzen;
+    homepage = "https://github.com/robm/dzen";
     license = stdenv.lib.licenses.mit;
     description = "X notification utility";
     platforms = stdenv.lib.platforms.linux;

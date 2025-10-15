@@ -20,6 +20,6 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://telepathy.freedesktop.org;
+    homepage = "http://telepathy.freedesktop.org";
   };
 }

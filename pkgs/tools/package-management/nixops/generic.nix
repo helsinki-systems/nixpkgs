@@ -35,7 +35,7 @@ pythonPackages.buildPythonPackage {
     '';
 
   meta = {
-    homepage = https://github.com/NixOS/nixops;
+    homepage = "https://github.com/NixOS/nixops";
     description = "NixOS cloud provisioning and deployment tool";
     maintainers = [ lib.maintainers.eelco lib.maintainers.rob ];
     platforms = lib.platforms.unix;

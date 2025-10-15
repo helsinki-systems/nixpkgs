@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ securityDependency ];
 
   meta = {
-    homepage = http://www.nongnu.org/oath-toolkit/;
+    homepage = "http://www.nongnu.org/oath-toolkit/";
     description = "Components for building one-time password authentication systems";
     platforms = with stdenv.lib.platforms; linux ++ darwin;
   };

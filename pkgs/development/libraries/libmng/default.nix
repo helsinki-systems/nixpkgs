@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Reference library for reading, displaying, writing and examining Multiple-Image Network Graphics";
-    homepage = http://www.libmng.com;
+    homepage = "http://www.libmng.com";
     license = stdenv.lib.licenses.zlib;
     maintainers = with stdenv.lib.maintainers; [ marcweber urkud ];
     hydraPlatforms = stdenv.lib.platforms.linux;

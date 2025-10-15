@@ -69,7 +69,7 @@ in
         to make a slideshow with your favorite photos.
       '';
 
-      homepage = http://impressive.sourceforge.net/;
+      homepage = "http://impressive.sourceforge.net/";
 
       license = stdenv.lib.licenses.gpl2;
 

@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ cmake unzip ];
 
   meta = with stdenv.lib; {
-    homepage = http://opencolorio.org;
+    homepage = "http://opencolorio.org";
     description = "A color management framework for visual effects and animation";
     license = licenses.bsd3;
     maintainers = [ maintainers.goibhniu ];

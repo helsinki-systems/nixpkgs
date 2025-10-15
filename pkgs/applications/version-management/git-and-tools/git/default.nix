@@ -144,7 +144,7 @@ stdenv.mkDerivation {
   enableParallelBuilding = true;
 
   meta = {
-    homepage = http://git-scm.com/;
+    homepage = "http://git-scm.com/";
     description = "Distributed version control system";
     license = stdenv.lib.licenses.gpl2;
 

@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   meta = with stdenv.lib; {
     description = "KDE PIM Storage Service";
     license = "LGPL";
-    homepage = http://pim.kde.org/akonadi;
+    homepage = "http://pim.kde.org/akonadi";
     maintainers = [ maintainers.sander maintainers.urkud maintainers.phreedom ];
     platforms = platforms.linux;
   };

@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ libxml2 openssl zlib bzip2 ];
 
   meta = {
-    homepage    = https://code.google.com/p/xar/;
+    homepage    = "https://code.google.com/p/xar/";
     description = "Extensible Archiver";
 
     longDescription =

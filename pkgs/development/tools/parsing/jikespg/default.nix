@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "jikespg-1.3";
 
   src = fetchurl {
-    url = mirror://sourceforge/jikes/jikespg-1.3.tar.gz;
+    url = "mirror://sourceforge/jikes/jikespg-1.3.tar.gz";
     md5 = "eba183713d9ae61a887211be80eeb21f";
   };
 
@@ -17,7 +17,7 @@ stdenv.mkDerivation {
     '';
 
   meta = {
-    homepage = http://jikes.sourceforge.net/;
+    homepage = "http://jikes.sourceforge.net/";
     description = "The Jikes Parser Generator";
   };
 }

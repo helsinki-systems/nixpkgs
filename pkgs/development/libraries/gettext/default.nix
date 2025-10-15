@@ -82,7 +82,7 @@ stdenv.mkDerivation (rec {
       GNU packages produce multi-lingual messages.
     '';
 
-    homepage = http://www.gnu.org/software/gettext/;
+    homepage = "http://www.gnu.org/software/gettext/";
 
     maintainers = [ ];
     platforms = stdenv.lib.platforms.all;

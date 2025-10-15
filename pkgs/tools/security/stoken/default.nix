@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Software Token for Linux/UNIX";
-    homepage = https://github.com/cernekee/stoken;
+    homepage = "https://github.com/cernekee/stoken";
     license = licenses.lgpl21Plus;
     maintainers = [ maintainers.fuuzetsu ];
     platforms = platforms.all;

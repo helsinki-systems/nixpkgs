@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = with stdenv.lib; {
-    homepage = http://djvu.sourceforge.net/djview4.html;
+    homepage = "http://djvu.sourceforge.net/djview4.html";
     description = "A portable DjVu viewer and browser plugin";
     license = licenses.gpl2;
     inherit (qt.meta) platforms;

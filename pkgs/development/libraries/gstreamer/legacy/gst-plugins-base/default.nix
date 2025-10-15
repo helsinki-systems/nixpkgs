@@ -43,7 +43,7 @@ stdenv.mkDerivation rec {
   postInstall = "rm -rf $out/share/gtk-doc";
 
   meta = with stdenv.lib; {
-    homepage    = http://gstreamer.freedesktop.org;
+    homepage    = "http://gstreamer.freedesktop.org";
     description = "Base plug-ins for GStreamer";
     license     = licenses.lgpl2Plus;
     maintainers = with maintainers; [ lovek323 ];

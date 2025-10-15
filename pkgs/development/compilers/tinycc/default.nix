@@ -54,7 +54,7 @@ stdenv.mkDerivation rec {
          generation.
       '';
 
-    homepage = http://www.tinycc.org/;
+    homepage = "http://www.tinycc.org/";
     license = stdenv.lib.licenses.lgpl2Plus;
 
     platforms = stdenv.lib.platforms.unix;

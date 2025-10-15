@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
       XSANE uses. This means that all existing scanners will work and the
       interface is well tested.
     '';
-    homepage = https://launchpad.net/simple-scan;
+    homepage = "https://launchpad.net/simple-scan";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
     maintainers = with maintainers; [ nckx ];

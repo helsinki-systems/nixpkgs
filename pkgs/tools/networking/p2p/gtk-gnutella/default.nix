@@ -22,7 +22,7 @@ stdenv.mkDerivation {
   configureFlags = "-d -e -D prefix=$out -D gtkversion=2 -D official=true";
 
   meta = with stdenv.lib; {
-    homepage = http://gtk-gnutella.sourceforge.net/;
+    homepage = "http://gtk-gnutella.sourceforge.net/";
     description = "Server/client for Gnutella";
     license = licenses.gpl2;
     broken = true;

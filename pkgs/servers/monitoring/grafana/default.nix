@@ -28,7 +28,7 @@ goPackages.buildGoPackage rec {
   meta = with lib; {
     description = "Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB";
     license = licenses.asl20;
-    homepage = http://grafana.org/;
+    homepage = "http://grafana.org/";
     maintainers = with maintainers; [ offline ];
     platforms = platforms.linux;
   };

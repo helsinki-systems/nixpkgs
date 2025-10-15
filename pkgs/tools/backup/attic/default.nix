@@ -21,7 +21,7 @@ python3Packages.buildPythonPackage rec {
 
   meta = with stdenv.lib; {
     description = "A deduplicating backup program";
-    homepage = https://attic-backup.org;
+    homepage = "https://attic-backup.org";
     license = licenses.bsd3;
     maintainers = [ maintainers.wscott ];
     platforms = platforms.unix; # Darwin and FreeBSD mentioned on homepage

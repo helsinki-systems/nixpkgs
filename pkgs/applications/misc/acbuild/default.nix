@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A build tool for ACIs";
-    homepage = https://github.com/appc/acbuild;
+    homepage = "https://github.com/appc/acbuild";
     license = licenses.asl20;
     maintainers = with maintainers; [ dgonyeo ];
     platforms = platforms.linux;

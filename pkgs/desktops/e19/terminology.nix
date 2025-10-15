@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pkgconfig e19.efl e19.elementary ];
   meta = {
     description = "The best terminal emulator written with the EFL";
-    homepage = http://enlightenment.org/;
+    homepage = "http://enlightenment.org/";
     maintainers = with stdenv.lib.maintainers; [ matejc tstrobel ftrvxmtrx ];
     platforms = stdenv.lib.platforms.linux;
     license = stdenv.lib.licenses.bsd2;

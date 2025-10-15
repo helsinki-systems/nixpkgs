@@ -40,7 +40,7 @@ stdenv.mkDerivation rec {
          graphics.
       '';
 
-    homepage = http://www.gnu.org/software/plotutils/;
+    homepage = "http://www.gnu.org/software/plotutils/";
 
     license = stdenv.lib.licenses.gpl2Plus;
     maintainers = [

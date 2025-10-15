@@ -108,7 +108,7 @@ in stdenv.mkDerivation rec {
       - Network Monitoring
     '';
 
-    homepage = http://phantomjs.org/;
+    homepage = "http://phantomjs.org/";
     license = licenses.bsd3;
 
     maintainers = [ maintainers.aflatter ];

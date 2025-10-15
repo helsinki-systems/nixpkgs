@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
     maintainers = with maintainers; [ raskin ];
     platforms = platforms.linux;
     license = licenses.lgpl21;
-    homepage = http://zbar.sourceforge.net/;
+    homepage = "http://zbar.sourceforge.net/";
   };
 
   passthru = {

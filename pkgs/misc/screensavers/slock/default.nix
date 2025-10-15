@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ xproto libX11 libXext libXrandr ];
   installFlags = "DESTDIR=\${out} PREFIX=";
   meta = with stdenv.lib; {
-    homepage = http://tools.suckless.org/slock;
+    homepage = "http://tools.suckless.org/slock";
     description = "Simple X display locker";
     longDescription = ''
       Simple X display locker. This is the simplest X screen locker.

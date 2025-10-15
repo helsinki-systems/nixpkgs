@@ -81,7 +81,7 @@ let
     propagatedBuildInputs = [ luasocket ];
 
     meta = with stdenv.lib; {
-      homepage = http://luaforge.net/projects/luaevent/;
+      homepage = "http://luaforge.net/projects/luaevent/";
       description = "Binding of libevent to Lua";
       license = licenses.mit;
       maintainers = [ maintainers.koral ];
@@ -237,7 +237,7 @@ let
     preInstall = "mkdir -p $out/lib/lua/${lua.luaversion}";
 
     meta = with stdenv.lib; {
-      homepage = https://github.com/brimworks/lua-zlib;
+      homepage = "https://github.com/brimworks/lua-zlib";
       hydraPlatforms = platforms.linux;
       license = licenses.mit;
       maintainers = [ maintainers.koral ];
@@ -390,7 +390,7 @@ let
 
     meta = with stdenv.lib; {
       description = "GObject-introspection based dynamic Lua binding to GObject based libraries";
-      homepage    = https://github.com/pavouk/lgi;
+      homepage    = "https://github.com/pavouk/lgi";
       license     = "custom";
       maintainers = with maintainers; [ lovek323 ];
       platforms   = platforms.unix;
@@ -416,7 +416,7 @@ let
 
     meta = with stdenv.lib; {
       description = "vicious widgets for window managers";
-      homepage    = http://git.sysphere.org/vicious/;
+      homepage    = "http://git.sysphere.org/vicious/";
       license     = licenses.gpl2;
       maintainers = with maintainers; [ makefu ];
       platforms   = platforms.linux;

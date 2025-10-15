@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Middleware to access a smart card using SCard API (PC/SC)";
-    homepage = http://pcsclite.alioth.debian.org/;
+    homepage = "http://pcsclite.alioth.debian.org/";
     license = licenses.bsd3;
     maintainers = with maintainers; [ viric wkennington ];
     platforms = with platforms; unix;

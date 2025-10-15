@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A multi-purpose note-taking application";
-    homepage = http://basket.kde.org/;
+    homepage = "http://basket.kde.org/";
     maintainers = [ stdenv.lib.maintainers.urkud ];
     inherit (kdelibs.meta) platforms;
   };

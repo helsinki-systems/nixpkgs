@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "An advanced calculator library";
-    homepage = http://qalculate.sourceforge.net;
+    homepage = "http://qalculate.sourceforge.net";
     maintainers = [ stdenv.lib.maintainers.urkud ];
     platforms = stdenv.lib.platforms.all;
   };

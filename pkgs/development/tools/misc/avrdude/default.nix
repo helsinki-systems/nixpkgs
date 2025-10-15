@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
       download/upload/manipulate the ROM and EEPROM contents of AVR
       microcontrollers using the in-system programming technique (ISP).
     '';
-    homepage = http://www.nongnu.org/avrdude/;
+    homepage = "http://www.nongnu.org/avrdude/";
     license = licenses.gpl2Plus;
     platforms = platforms.linux;
     maintainers = [ maintainers.bjornfor ];

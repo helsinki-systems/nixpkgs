@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
       multiple GB/s per core, typically reaching RAM speed limits on
       multi-core systems.
     '';
-    homepage = https://code.google.com/p/lz4/;
+    homepage = "https://code.google.com/p/lz4/";
     license = with licenses; [ bsd2 gpl2Plus ];
     platforms = platforms.unix;
     maintainers = with maintainers; [ nckx ];

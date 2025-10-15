@@ -10,7 +10,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Berkeley YACC";
-    homepage = http://dickey.his.com/byacc/byacc.html;
+    homepage = "http://dickey.his.com/byacc/byacc.html";
     license = stdenv.lib.licenses.publicDomain;
   };
 }

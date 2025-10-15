@@ -22,7 +22,7 @@ stdenv.mkDerivation {
   checkTarget = "test";
 
   meta = {
-    homepage = https://github.com/mirleft/ocaml-asn1-combinators;
+    homepage = "https://github.com/mirleft/ocaml-asn1-combinators";
     description = "Combinators for expressing ASN.1 grammars in OCaml";
     platforms = ocaml.meta.platforms;
     license = stdenv.lib.licenses.bsd2;

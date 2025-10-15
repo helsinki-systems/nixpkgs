@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pkgconfig fuse zlib glib ];
 
   meta = {
-    homepage = http://sourceforge.net/projects/fuseiso;
+    homepage = "http://sourceforge.net/projects/fuseiso";
     description = "FUSE module to mount ISO filesystem images";
     platforms = stdenv.lib.platforms.linux;
     license = stdenv.lib.licenses.gpl2;

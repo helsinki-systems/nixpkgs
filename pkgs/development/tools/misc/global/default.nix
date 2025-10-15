@@ -49,7 +49,7 @@ stdenv.mkDerivation rec {
       independence of any editor.  It runs on a UNIX (POSIX) compatible
       operating system like GNU and BSD.
     '';
-    homepage = http://www.gnu.org/software/global/;
+    homepage = "http://www.gnu.org/software/global/";
     license = licenses.gpl3Plus;
     maintainers = with maintainers; [ pSub ];
     platforms = platforms.unix;

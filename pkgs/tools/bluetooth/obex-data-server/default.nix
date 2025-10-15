@@ -18,6 +18,6 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://wiki.muiline.com/obex-data-server;
+    homepage = "http://wiki.muiline.com/obex-data-server";
   };
 }

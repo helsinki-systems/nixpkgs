@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = {
-    homepage = http://n.ethz.ch/student/nevillm/download/libxdg-basedir/;
+    homepage = "http://n.ethz.ch/student/nevillm/download/libxdg-basedir/";
     description = "Implementation of the XDG Base Directory specification";
     license = "BSD";
   };

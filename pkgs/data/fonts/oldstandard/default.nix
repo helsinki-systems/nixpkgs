@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/akryukov/oldstand;
+    homepage = "https://github.com/akryukov/oldstand";
     description = "An attempt to revive a specific type of Modern style of serif typefaces";
     maintainers = with maintainers; [ raskin rycee ];
     license = licenses.ofl;

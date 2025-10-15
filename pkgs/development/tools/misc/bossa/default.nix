@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   name = "bossa-2014-08-18";
 
   src = fetchgit {
-    url = https://github.com/shumatech/BOSSA;
+    url = "https://github.com/shumatech/BOSSA";
     rev = "0f0a41cb1c3a65e909c5c744d8ae664e896a08ac"; /* arduino branch */
     sha256 = "01y8r45fw02rps9q995mv82bxrm6p0mysv4wir5glpagrhnyw7md";
   };
@@ -44,7 +44,7 @@ stdenv.mkDerivation rec {
       Atmel's SAM-BA software. BOSSA is an acronym for Basic Open
       Source SAM-BA Application to reflect that goal.
     '';
-    homepage = http://www.shumatech.com/web/products/bossa;
+    homepage = "http://www.shumatech.com/web/products/bossa";
     license = licenses.bsd3;
     platforms = platforms.linux;
   };

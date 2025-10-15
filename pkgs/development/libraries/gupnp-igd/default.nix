@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   propagatedBuildInputs = [ glib gupnp ];
 
   meta = {
-    homepage = http://www.gupnp.org/;
+    homepage = "http://www.gupnp.org/";
     license = stdenv.lib.licenses.lgpl21;
     platforms = stdenv.lib.platforms.linux;
   };

@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A 3D graphics toolkit";
-    homepage = http://www.openscenegraph.org/;
+    homepage = "http://www.openscenegraph.org/";
     maintainers = [ maintainers.raskin ];
     platforms = platforms.linux;
     license = "OpenSceneGraph Public License - free LGPL-based license";

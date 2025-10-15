@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
          or any other theme.
       '';
 
-    homepage = http://members.dslextreme.com/users/billw/gkrellm/gkrellm.html;
+    homepage = "http://members.dslextreme.com/users/billw/gkrellm/gkrellm.html";
     license = stdenv.lib.licenses.gpl3Plus;
 
     maintainers = [ ];

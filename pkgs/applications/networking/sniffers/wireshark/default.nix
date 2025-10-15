@@ -58,7 +58,7 @@ stdenv.mkDerivation {
   enableParallelBuilding = true;
 
   meta = {
-    homepage = http://www.wireshark.org/;
+    homepage = "http://www.wireshark.org/";
     description = "Powerful network protocol analyzer";
     license = stdenv.lib.licenses.gpl2;
 

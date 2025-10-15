@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   name = "freepv-0.3.0_beta1";
 
   src = fetchurl {
-    url = mirror://sourceforge/freepv/freepv-0.3.0_beta1.tar.gz;
+    url = "mirror://sourceforge/freepv/freepv-0.3.0_beta1.tar.gz";
     sha256 = "084qqa361np73anvqrv78ngw8hjxglmdm3akkpszbwnzniw89qla";
   };
 
@@ -19,7 +19,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Open source panorama viewer using GL";
-    homepage = http://freepv.sourceforge.net/;
+    homepage = "http://freepv.sourceforge.net/";
     license = "LGPL";
   };
 }

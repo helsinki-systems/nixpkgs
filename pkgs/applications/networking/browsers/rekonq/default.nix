@@ -21,6 +21,6 @@ stdenv.mkDerivation rec {
     platforms = platforms.linux;
     maintainers = [ maintainers.urkud ];
     description = "KDE Webkit browser";
-    homepage = https://rekonq.kde.org/;
+    homepage = "https://rekonq.kde.org/";
   };
 }

@@ -32,7 +32,7 @@ buildPythonPackage rec {
 
   meta = with stdenv.lib; {
     description = "An extensible mail notification daemon";
-    homepage = https://github.com/pulb/mailnag;
+    homepage = "https://github.com/pulb/mailnag";
     license = licenses.gpl2;
     platforms = platforms.linux;
     maintainers = with maintainers; [ jgeerds ];

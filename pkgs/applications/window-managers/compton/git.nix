@@ -39,7 +39,7 @@ stdenv.mkDerivation {
   meta = with stdenv.lib; {
     description =
       "A fork of XCompMgr, a sample compositing manager for X servers (git version)";
-    homepage = https://github.com/chjj/compton/;
+    homepage = "https://github.com/chjj/compton/";
     license = licenses.mit;
     longDescription = ''
       A fork of XCompMgr, which is a sample compositing manager for X

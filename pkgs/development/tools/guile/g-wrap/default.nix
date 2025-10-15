@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
       wrappers for inter-language calls.  It currently only supports
       generating Guile wrappers for C functions.
     '';
-    homepage = http://www.nongnu.org/g-wrap/;
+    homepage = "http://www.nongnu.org/g-wrap/";
     license = stdenv.lib.licenses.lgpl2Plus;
     maintainers = [ stdenv.lib.maintainers.taktoa ];
   };

@@ -46,7 +46,7 @@ stdenv.mkDerivation rec {
   INSTALL_MOD_PATH = "\${out}";
 
   meta = with stdenv.lib; {
-    homepage = http://www.accelio.org/;
+    homepage = "http://www.accelio.org/";
     description = "High-performance messaging and RPC library";
     longDescription = ''
       A high-performance asynchronous reliable messaging and RPC library

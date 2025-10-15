@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "GNU/Linux application to control backlights";
-    homepage = https://haikarainen.github.io/light/;
+    homepage = "https://haikarainen.github.io/light/";
     license = stdenv.lib.licenses.gpl3;
     maintainers = with stdenv.lib.maintainers; [ puffnfresh ];
     platforms = stdenv.lib.platforms.linux;

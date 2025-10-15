@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "GLib libusb wrapper";
-    homepage = http://people.freedesktop.org/~hughsient/releases/;
+    homepage = "http://people.freedesktop.org/~hughsient/releases/";
     license = stdenv.lib.licenses.lgpl21;
     maintainers = [stdenv.lib.maintainers.marcweber];
     platforms = stdenv.lib.platforms.linux;

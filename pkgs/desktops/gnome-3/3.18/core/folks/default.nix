@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "Folks";
 
-    homepage = https://wiki.gnome.org/Projects/Folks;
+    homepage = "https://wiki.gnome.org/Projects/Folks";
 
     license = stdenv.lib.licenses.lgpl2Plus;
 

@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = https://github.com/dreadatour/pidgin-mra;
+    homepage = "https://github.com/dreadatour/pidgin-mra";
     description = "Mail.ru Agent plugin for Pidgin / libpurple";
     license = stdenv.lib.licenses.gpl2;
   };

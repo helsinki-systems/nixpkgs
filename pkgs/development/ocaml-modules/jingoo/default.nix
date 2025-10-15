@@ -15,7 +15,7 @@ buildOcaml rec {
   installFlags = "BINDIR=$(out)/bin";
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/tategakibunko/jingoo;
+    homepage = "https://github.com/tategakibunko/jingoo";
     description = "OCaml template engine almost compatible with jinja2";
     license = licenses.mit;
     maintainers = [ maintainers.ericbmerritt ];

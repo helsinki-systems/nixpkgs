@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Crossplatform openarena client";
-    homepage = http://openarena.ws/;
+    homepage = "http://openarena.ws/";
     maintainers = [ stdenv.lib.maintainers.wyvie ];
     platforms = stdenv.lib.platforms.linux;
     license = stdenv.lib.licenses.gpl2;

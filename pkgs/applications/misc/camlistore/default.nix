@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A way of storing, syncing, sharing, modelling and backing up content";
-    homepage = https://camlistore.org;
+    homepage = "https://camlistore.org";
     license = licenses.asl20;
     maintainers = with maintainers; [ cstrahan ];
     platforms = platforms.unix;

@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
   doCheck = true;
 
   meta = {
-    homepage = http://www.gnu.org/software/screen/;
+    homepage = "http://www.gnu.org/software/screen/";
     description = "A window manager that multiplexes a physical terminal";
     license = stdenv.lib.licenses.gpl2Plus;
 

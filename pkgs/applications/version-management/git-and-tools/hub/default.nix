@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "2.2.2";
 
   src = fetchgit {
-    url = https://github.com/github/hub.git;
+    url = "https://github.com/github/hub.git";
     rev = "refs/tags/v${version}";
     sha256 = "147rsh8zkqv6iqx3q7wzszfqlv65qj3hm3264ma042g7naf8hkwr";
   };
@@ -42,7 +42,7 @@ stdenv.mkDerivation rec {
     description = "Command-line wrapper for git that makes you better at GitHub";
 
     license = licenses.mit;
-    homepage = https://hub.github.com/;
+    homepage = "https://hub.github.com/";
     maintainers = with maintainers; [ the-kenny ];
   };
 }

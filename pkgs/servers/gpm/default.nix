@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://www.nico.schottelius.org/software/gpm/;
+    homepage = "http://www.nico.schottelius.org/software/gpm/";
     description = "A daemon that provides mouse support on the Linux console";
     license = licenses.gpl2;
     platforms = platforms.linux;

@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
   version = "0.15";
 
   src = fetchurl {
-    url = https://github.com/FreeCAD/FreeCAD/archive/0.15.tar.gz;
+    url = "https://github.com/FreeCAD/FreeCAD/archive/0.15.tar.gz";
     sha256 = "1vndvywvq86hyhmg629bkn5ag4lk2mg1pl4dq7jvbjvbrczb12fc";
   };
 
@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "General purpose Open Source 3D CAD/MCAD/CAx/CAE/PLM modeler";
-    homepage = http://www.freecadweb.org/;
+    homepage = "http://www.freecadweb.org/";
     license = licenses.lgpl2Plus;
     maintainers = [ maintainers.viric ];
     platforms = platforms.linux;

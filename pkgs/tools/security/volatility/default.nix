@@ -15,7 +15,7 @@ buildPythonPackage rec {
   propagatedBuildInputs = [ pycrypto ];
 
   meta = with stdenv.lib; {
-    homepage = https://code.google.com/p/volatility;
+    homepage = "https://code.google.com/p/volatility";
     description = "advanced memory forensics framework";
     maintainers = with maintainers; [ bosu ];
     license = stdenv.lib.licenses.gpl2Plus;

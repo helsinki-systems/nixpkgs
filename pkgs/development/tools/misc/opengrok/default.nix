@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Source code search and cross reference engine";
-    homepage = http://opengrok.github.io/OpenGrok/;
+    homepage = "http://opengrok.github.io/OpenGrok/";
     license = licenses.cddl;
     maintainers = [ maintainers.lethalman ];
   };

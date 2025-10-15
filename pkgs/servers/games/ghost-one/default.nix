@@ -45,7 +45,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://www.codelain.com/forum/;
+    homepage = "http://www.codelain.com/forum/";
     description = "A Warcraft III: Reign of Chaos and Warcraft III: The Frozen Throne game hosting bot";
     license = licenses.asl20;
     maintainers = [ maintainers.phreedom ];

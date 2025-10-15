@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
 
     license = lib.licenses.lgpl2Plus;
 
-    homepage = http://www.gnu.org/software/libmicrohttpd/;
+    homepage = "http://www.gnu.org/software/libmicrohttpd/";
 
     maintainers = [ lib.maintainers.eelco ];
   };

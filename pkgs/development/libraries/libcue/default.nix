@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
       a file pointer. For handling of the parsed data a convenient API is
       available.
     '';
-    homepage = http://sourceforge.net/projects/libcue/;
+    homepage = "http://sourceforge.net/projects/libcue/";
     license = stdenv.lib.licenses.gpl2;
     maintainers = with stdenv.lib.maintainers; [ astsmtl ];
     platforms = with stdenv.lib.platforms; linux;

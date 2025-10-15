@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://www.impallari.com/quattrocentosans/;
+    homepage = "http://www.impallari.com/quattrocentosans/";
     description = "A classic, elegant and sober sans-serif typeface";
     license = licenses.ofl;
     platforms = platforms.all;

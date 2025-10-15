@@ -64,7 +64,7 @@ in {
     installPhase = "install -D $src $out/plugins/http-basic/${name}.jar";
 
     meta = {
-      homepage = https://github.com/Asquera/elasticsearch-http-basic;
+      homepage = "https://github.com/Asquera/elasticsearch-http-basic";
       description = "HTTP Basic Authentication for Elasticsearch";
       license = licenses.mit;
       platforms = elasticsearch.meta.platforms;
@@ -100,7 +100,7 @@ in {
       sha256 = "0mq6jmjb4ldi03m431kzr7ly0bf7mdim7s5dx4wplb85gyhscns1";
     };
     meta = {
-      homepage = https://github.com/lmenezes/elasticsearch-kopf;
+      homepage = "https://github.com/lmenezes/elasticsearch-kopf";
       description = "Web administration tool for ElasticSearch";
       license = licenses.mit;
     };
@@ -115,7 +115,7 @@ in {
       sha256 = "1zima4jmq1rrcqxhlrp2xian80vp244d2splby015n5cgqrp39fl";
     };
     meta = {
-      homepage = https://github.com/floragunncom/search-guard;
+      homepage = "https://github.com/floragunncom/search-guard";
       description = "Plugin to fetch data from JDBC sources for indexing into Elasticsearch";
       license = licenses.asl20;
     };

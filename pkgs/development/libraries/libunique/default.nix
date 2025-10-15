@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
   doCheck = true;
 
   meta = {
-    homepage = http://live.gnome.org/LibUnique;
+    homepage = "http://live.gnome.org/LibUnique";
     description = "A library for writing single instance applications";
     license = stdenv.lib.licenses.lgpl21;
   };

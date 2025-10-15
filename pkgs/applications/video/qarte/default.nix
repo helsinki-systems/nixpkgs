@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "qarte-2.4.0";
   src = fetchbzr {
-    url = http://bazaar.launchpad.net/~vincent-vandevyvre/qarte/trunk;
+    url = "http://bazaar.launchpad.net/~vincent-vandevyvre/qarte/trunk";
     rev = "150";
     sha256 = "0fj11jx9l5qi968c906rrksdic7w4yj414m47k6axlb4v6ghdnar";
   };
@@ -28,7 +28,7 @@ stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = https://launchpad.net/qarte;
+    homepage = "https://launchpad.net/qarte";
     description = "A recorder for Arte TV Guide and Arte Concert";
     license = stdenv.lib.licenses.gpl3;
     maintainers = with stdenv.lib.maintainers; [ vbgl ];

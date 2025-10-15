@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A system for maintaining replicated state machines";
-    homepage = https://github.com/rescrv/Replicant;
+    homepage = "https://github.com/rescrv/Replicant";
     license = licenses.bsd3;
   };
 }

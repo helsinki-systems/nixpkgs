@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
               })
             ];
   meta = {
-    homepage = http://trac.emma-soft.com/epdfview/;
+    homepage = "http://trac.emma-soft.com/epdfview/";
     description = "A lightweight PDF document viewer using Poppler and GTK+";
     longDescription = ''
         ePDFView is a free lightweight PDF document viewer using Poppler and

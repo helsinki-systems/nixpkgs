@@ -4,7 +4,7 @@ fetchurl: {
   name = "gnome-clocks-3.18.0";
 
   src = fetchurl {
-    url = mirror://gnome/sources/gnome-clocks/3.18/gnome-clocks-3.18.0.tar.xz;
+    url = "mirror://gnome/sources/gnome-clocks/3.18/gnome-clocks-3.18.0.tar.xz";
     sha256 = "ca0818ec89e3539201da6b5388365e3d66df815198beccc90e2be44c7822baa0";
   };
 }

@@ -43,6 +43,6 @@ stdenv.mkDerivation {
   meta = {
     description = "a collection of postfix-related tools";
     license = with lib.licenses; [ bsd3 ];
-    homepage = https://github.com/Fruneau/pfixtools;
+    homepage = "https://github.com/Fruneau/pfixtools";
   };
 }

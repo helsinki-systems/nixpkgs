@@ -64,7 +64,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/CenturyLinkLabs/panamax-ui;
+    homepage = "https://github.com/CenturyLinkLabs/panamax-ui";
     description = "The Web GUI for Panamax";
     license = licenses.asl20;
     maintainers = with maintainers; [ matejc offline ];

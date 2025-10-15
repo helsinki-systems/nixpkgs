@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   name = "freestyle-2.2.0";
 
   src = fetchurl {
-    url = mirror://sourceforge/freestyle/freestyle.2.2.0-src.tar.bz2;
+    url = "mirror://sourceforge/freestyle/freestyle.2.2.0-src.tar.bz2";
     sha256 = "1h4880fijmfy0x6dbl9hfri071rpj3lnwfzkxi1qyqhy7zyxy7ga";
  };
 
@@ -47,7 +47,7 @@ stdenv.mkDerivation {
 
   meta = { 
     description = "Non-Photorealistic Line Drawing rendering from 3D scenes";
-    homepage = http://freestyle.sourceforge.net;
+    homepage = "http://freestyle.sourceforge.net";
     license = stdenv.lib.licenses.gpl2;
   };
 }

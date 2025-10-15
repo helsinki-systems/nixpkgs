@@ -56,7 +56,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A high quality MPEG Audio Layer III (MP3) encoder";
-    homepage    = http://lame.sourceforge.net;
+    homepage    = "http://lame.sourceforge.net";
     license     = licenses.lgpl2;
     maintainers = with maintainers; [ codyopel ];
     platforms   = platforms.all;

@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
          can be used within source code editors and IDEs.
       '';
 
-    homepage = http://check.sourceforge.net/;
+    homepage = "http://check.sourceforge.net/";
 
     license = licenses.lgpl2Plus;
     platforms = platforms.all;

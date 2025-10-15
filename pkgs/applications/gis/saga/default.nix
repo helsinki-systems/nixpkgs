@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "System for Automated Geoscientific Analyses";
-    homepage = http://www.saga-gis.org;
+    homepage = "http://www.saga-gis.org";
     license = stdenv.lib.licenses.gpl2Plus;
     maintainers = [ stdenv.lib.maintainers.michelk ];
     platforms = ["x86_64-linux" ];

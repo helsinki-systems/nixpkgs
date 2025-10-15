@@ -20,7 +20,7 @@ stdenv.mkDerivation {
 
   meta = with stdenv.lib; {
     description = "An efficient implementation of the Lambda Prolog language";
-    homepage = https://code.google.com/p/teyjus/;
+    homepage = "https://code.google.com/p/teyjus/";
     license = stdenv.lib.licenses.gpl3;
     maintainers = [ maintainers.bcdarwin ];
     platforms = platforms.linux;

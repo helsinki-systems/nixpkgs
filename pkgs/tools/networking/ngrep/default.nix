@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
       null interfaces, and understands BPF filter logic in the same fashion as
       more common packet sniffing tools, such as tcpdump and snoop.
     '';
-    homepage = http://ngrep.sourceforge.net/;
+    homepage = "http://ngrep.sourceforge.net/";
     # <ngrep>/doc/README.txt says that ngrep itself is licensed under a
     # 'BSD-like' license but that the 'regex' library (in the ngrep tarball) is
     # GPLv2.

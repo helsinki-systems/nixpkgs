@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
     '';
 
   meta = {
-    homepage = http://tomcat.apache.org/;
+    homepage = "http://tomcat.apache.org/";
     description = "An implementation of the Java Servlet and JavaServer Pages technologies";
     platforms = with stdenv.lib.platforms; all;
   };

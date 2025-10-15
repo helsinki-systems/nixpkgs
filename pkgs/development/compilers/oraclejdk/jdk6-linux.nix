@@ -29,7 +29,7 @@ let
     if installjce then
       requireFile {
         name = "jce_policy-6.zip";
-        url = http://www.oracle.com/technetwork/java/javase/downloads/jce-6-download-429243.html;
+        url = "http://www.oracle.com/technetwork/java/javase/downloads/jce-6-download-429243.html";
         sha256 = "0qljzfxbikm8br5k7rkamibp1vkyjrf6blbxpx6hn4k46f62bhnh";
       }
     else
@@ -44,13 +44,13 @@ stdenv.mkDerivation {
     if stdenv.system == "i686-linux" then
       requireFile {
         name = "jdk-6u45-linux-i586.bin";
-        url = http://www.oracle.com/technetwork/java/javase/downloads/jdk6downloads-1902814.html;
+        url = "http://www.oracle.com/technetwork/java/javase/downloads/jdk6downloads-1902814.html";
         sha256 = "0mx3d2qlal5zyz1a7ld1yk2rs8pf9sjxs2jzasais3nq30jmlfym";
       }
     else if stdenv.system == "x86_64-linux" then
       requireFile {
         name = "jdk-6u45-linux-x64.bin";
-        url = http://www.oracle.com/technetwork/java/javase/downloads/jdk6downloads-1902814.html;
+        url = "http://www.oracle.com/technetwork/java/javase/downloads/jdk6downloads-1902814.html";
         sha256 = "1s0j1pdr6y8c816d9i86rx4zp12nbhmas1rxksp0r53cn7m3ljbb";
       }
     else

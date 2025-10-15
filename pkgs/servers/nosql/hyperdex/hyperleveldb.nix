@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   meta = with stdenv.lib; {
     description = ''A fork of LevelDB intended to meet the needs of
         HyperDex while remaining compatible with LevelDB.'';
-    homepage = https://github.com/rescrv/HyperLevelDB;
+    homepage = "https://github.com/rescrv/HyperLevelDB";
     license = licenses.bsd3;
   };
 }

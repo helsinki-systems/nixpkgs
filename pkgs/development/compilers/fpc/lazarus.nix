@@ -49,7 +49,7 @@ stdenv.mkDerivation {
     license = stdenv.lib.licenses.gpl2Plus ;
     platforms = stdenv.lib.platforms.linux;
     description = "Lazarus graphical IDE for FreePascal language";
-    homepage = http://www.lazarus.freepascal.org;
+    homepage = "http://www.lazarus.freepascal.org";
     maintainers = [stdenv.lib.maintainers.raskin];
   };
 }

@@ -4,7 +4,7 @@ fetchurl: {
   name = "vinagre-3.18.2";
 
   src = fetchurl {
-    url = mirror://gnome/sources/vinagre/3.18/vinagre-3.18.2.tar.xz;
+    url = "mirror://gnome/sources/vinagre/3.18/vinagre-3.18.2.tar.xz";
     sha256 = "65b81299de0b75a9433e5654d5314f347895d5efb7acd3b111e5e8c03f48fbc4";
   };
 }

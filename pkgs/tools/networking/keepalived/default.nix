@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
   ];
 
   meta = with stdenv.lib; {
-    homepage = http://keepalived.org;
+    homepage = "http://keepalived.org";
     description = "routing software written in C";
     license = licenses.gpl2;
     platforms = platforms.linux;

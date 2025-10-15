@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   makeFlags = "INSTALLPREFIX=$(out)";
 
   meta = {
-    homepage = http://code.google.com/p/fuse-zip/;
+    homepage = "http://code.google.com/p/fuse-zip/";
     description = "A FUSE-based filesystem that allows read and write access to ZIP files";
     platforms = stdenv.lib.platforms.linux;
     license = stdenv.lib.licenses.gpl3Plus;

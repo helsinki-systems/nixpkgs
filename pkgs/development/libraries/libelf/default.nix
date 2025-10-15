@@ -20,7 +20,7 @@ stdenv.mkDerivation (rec {
   meta = {
     description = "ELF object file access library";
 
-    homepage = http://www.mr511.de/software/english.html;
+    homepage = "http://www.mr511.de/software/english.html";
 
     license = stdenv.lib.licenses.lgpl2Plus;
 

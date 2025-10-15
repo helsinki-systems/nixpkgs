@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Measure TCP handshake time";
-    homepage = https://github.com/LanetNetwork/pingtcp;
+    homepage = "https://github.com/LanetNetwork/pingtcp";
     license = licenses.gpl3;
     platforms = platforms.linux;
     maintainers = with maintainers; [ nckx ];

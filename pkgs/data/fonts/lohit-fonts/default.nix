@@ -44,7 +44,7 @@ let
 
       meta = {
         inherit license;
-        homepage = https://fedorahosted.org/lohit/;
+        homepage = "https://fedorahosted.org/lohit/";
         maintainers = [ lib.maintainers.mathnerd314 lib.maintainers.ttuegel ];
         # Set a non-zero priority to allow easy overriding of the
         # fontconfig configuration files.

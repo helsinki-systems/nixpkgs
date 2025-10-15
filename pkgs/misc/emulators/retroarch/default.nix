@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
   version = "2015-11-20";
 
   src = fetchgit {
-    url = https://github.com/libretro/RetroArch.git;
+    url = "https://github.com/libretro/RetroArch.git";
     rev = "09dda14549fc13231311fd522a07a75e923889aa";
     sha256 = "1f7w4i0idc4n0sqc5pcrsxsljk3f614sfdqhdgjb1l4xj16g37cg";
   };
@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   meta = with stdenv.lib; {
-    homepage = http://libretro.org/;
+    homepage = "http://libretro.org/";
     description = "Multi-platform emulator frontend for libretro cores";
     license = licenses.gpl3;
     platforms = stdenv.lib.platforms.linux;

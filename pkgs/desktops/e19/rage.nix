@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
   '';
   meta = {
     description = "Video + Audio player along the lines of mplayer";
-    homepage = http://enlightenment.org/;
+    homepage = "http://enlightenment.org/";
     maintainers = with stdenv.lib.maintainers; [ matejc ftrvxmtrx ];
     platforms = stdenv.lib.platforms.linux;
     license = stdenv.lib.licenses.bsd2;

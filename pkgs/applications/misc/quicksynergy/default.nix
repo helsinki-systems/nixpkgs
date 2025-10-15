@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
 
       Remember to open port 24800 (used by synergys program) if you want to
       host mouse and keyboard.";
-    homepage = https://code.google.com/p/quicksynergy/;
+    homepage = "https://code.google.com/p/quicksynergy/";
     license = stdenv.lib.licenses.gpl2;
     maintainers = [ stdenv.lib.maintainers.spinus ];
   };

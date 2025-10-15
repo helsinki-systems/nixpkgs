@@ -24,7 +24,7 @@ buildPythonPackage rec {
       and any subsequent changes made to the files will be
       automatically committed to the remote.
     '';
-    homepage = https://github.com/PressLabs/gitfs;
+    homepage = "https://github.com/PressLabs/gitfs";
     license = stdenv.lib.licenses.asl20;
     platforms = stdenv.lib.platforms.linux;
     maintainers = [ stdenv.lib.maintainers.robbinch ];

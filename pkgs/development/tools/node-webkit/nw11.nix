@@ -49,7 +49,7 @@ in stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "An app runtime based on Chromium and node.js";
-    homepage = https://github.com/rogerwang/node-webkit;
+    homepage = "https://github.com/rogerwang/node-webkit";
     platforms = ["i686-linux" "x86_64-linux"];
     maintainers = [ maintainers.offline ];
     license = licenses.bsd3;

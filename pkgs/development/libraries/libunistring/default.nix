@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   doCheck = stdenv ? glibc;
 
   meta = {
-    homepage = http://www.gnu.org/software/libunistring/;
+    homepage = "http://www.gnu.org/software/libunistring/";
 
     description = "Unicode string library";
 

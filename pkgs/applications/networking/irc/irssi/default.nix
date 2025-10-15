@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   configureFlags = "--with-proxy --with-ncurses --enable-ssl --with-perl=yes";
 
   meta = {
-    homepage    = http://irssi.org;
+    homepage    = "http://irssi.org";
     platforms   = stdenv.lib.platforms.unix;
     maintainers = with stdenv.lib.maintainers; [ lovek323 ];
   };

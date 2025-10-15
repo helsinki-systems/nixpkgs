@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = with stdenv.lib; {
-    homepage = http://www.i-scream.org/libstatgrab/;
+    homepage = "http://www.i-scream.org/libstatgrab/";
     description = "a library that provides cross platforms access to statistics about the running system";
     license = licenses.gpl2;
     platforms = platforms.unix;

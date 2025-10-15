@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   doCheck = true;
   
   meta = with stdenv.lib; {
-    homepage = http://www.complang.org/ragel;
+    homepage = "http://www.complang.org/ragel";
     description = "State machine compiler";
     license = licenses.gpl2;
     maintainers = with maintainers; [ pSub ];

@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "Openwsman server implementation and client api with bindings";
 
-    homepage = https://github.com/Openwsman/openwsman;
+    homepage = "https://github.com/Openwsman/openwsman";
     downloadPage = "https://github.com/Openwsman/openwsman/releases";
 
     maintainers = [ stdenv.lib.maintainers.deepfire ];

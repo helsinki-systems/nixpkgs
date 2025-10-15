@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Tools to control Linux UKSM (Ultra Kernel Same-page Merging)";
-    homepage = https://github.com/pfactum/uksmtools/;
+    homepage = "https://github.com/pfactum/uksmtools/";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
     maintainers = with maintainers; [ nckx ];

@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
     '';
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/Keruspe/GPaste;
+    homepage = "https://github.com/Keruspe/GPaste";
     description = "Clipboard management system with GNOME3 integration";
     license = licenses.gpl3;
     platforms = platforms.linux;

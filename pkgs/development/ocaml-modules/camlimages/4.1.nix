@@ -30,7 +30,7 @@ stdenv.mkDerivation {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://bitbucket.org/camlspotter/camlimages;
+    homepage = "https://bitbucket.org/camlspotter/camlimages";
     description = "OCaml image processing library";
     license = licenses.lgpl2;
     maintainers = [ maintainers.vbgl ];

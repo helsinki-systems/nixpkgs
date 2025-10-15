@@ -38,7 +38,7 @@ let
     # required by lqrPlugin, you don't havet to install this lib explicitely
     buildInputs = [ gimp ] ++ gimp.nativeBuildInputs;
     src = fetchurl {
-      url = http://registry.gimp.org/files/liblqr-1-0.4.1.tar.bz2;
+      url = "http://registry.gimp.org/files/liblqr-1-0.4.1.tar.bz2";
       sha256 = "02g90wag7xi5rjlmwq8h0qs666b1i2sa90s4303hmym40il33nlz";
     };
   };
@@ -61,7 +61,7 @@ rec {
     '';
     meta = with stdenv.lib; {
       description = "The GIMP Animation Package";
-      homepage = http://www.gimp.org;
+      homepage = "http://www.gimp.org";
       # The main code is given in GPLv3, but it has ffmpeg in it, and I think ffmpeg license
       # falls inside "free".
       license = with licenses; [ gpl3 free ];
@@ -108,7 +108,7 @@ rec {
     name = "resynthesizer-0.16";
     buildInputs = [ gimp pkgs.fftw ] ++ gimp.nativeBuildInputs;
     src = fetchurl {
-      url = http://www.logarithmic.net/pfh-files/resynthesizer/resynthesizer-0.16.tar.gz;
+      url = "http://www.logarithmic.net/pfh-files/resynthesizer/resynthesizer-0.16.tar.gz";
       sha256 = "1k90a1jzswxmajn56rdxa4r60v9v34fmqsiwfdxqcvx3yf4yq96x";
     };
 
@@ -122,7 +122,7 @@ rec {
     name = "texturize-2.1";
     buildInputs = [ gimp ] ++ gimp.nativeBuildInputs;
     src = fetchurl {
-      url = mirror://sourceforge/gimp-texturize/texturize-2.1_src.tgz;
+      url = "mirror://sourceforge/gimp-texturize/texturize-2.1_src.tgz";
       sha256 = "0cdjq25g3yfxx6bzx6nid21kq659s1vl9id4wxyjs2dhcv229cg3";
     };
     patchPhase = ''
@@ -138,7 +138,7 @@ rec {
     name = "wavelet-sharpen-0.1.2";
     buildInputs = [ gimp ] ++ gimp.nativeBuildInputs;
     src = fetchurl {
-      url = http://registry.gimp.org/files/wavelet-sharpen-0.1.2.tar.gz;
+      url = "http://registry.gimp.org/files/wavelet-sharpen-0.1.2.tar.gz";
       sha256 = "0vql1k67i21g5ivaa1jh56rg427m0icrkpryrhg75nscpirfxxqw";
     };
     installPhase = "installPlugins src/wavelet-sharpen"; # TODO translations are not copied .. How to do this on nix?
@@ -151,7 +151,7 @@ rec {
     name = "lqr-plugin-0.6.1";
     buildInputs = [ pkgconfig libLQR gimp ] ++ gimp.nativeBuildInputs;
     src = fetchurl {
-      url = http://registry.gimp.org/files/gimp-lqr-plugin-0.6.1.tar.bz2;
+      url = "http://registry.gimp.org/files/gimp-lqr-plugin-0.6.1.tar.bz2";
       sha256 = "00hklkpcimcbpjly4rjhfipaw096cpy768g9wixglwrsyqhil7l9";
     };
     #postInstall = ''mkdir -p $out/nix-support; echo "${libLQR}" > "$out/nix-support/propagated-user-env-packages"'';
@@ -165,7 +165,7 @@ rec {
       buildInputs = [pkgconfig pkgs.fftw pkgs.opencv gimp] ++ gimp.nativeBuildInputs;
 
       src = fetchurl {
-        url = http://gmic.eu/files/source/gmic_1.6.5.0.tar.gz;
+        url = "http://gmic.eu/files/source/gmic_1.6.5.0.tar.gz";
         sha256 = "1vb6zm5zpqfnzxjvb9yfvczaqacm55rf010ib0yk9f28b17qrjgb";
       };
 
@@ -177,7 +177,7 @@ rec {
 
       meta = {
         description = "script language for image processing which comes with its open-source interpreter";
-        homepage = http://gmic.eu/gimp.shtml;
+        homepage = "http://gmic.eu/gimp.shtml";
         license = stdenv.lib.licenses.cecill20;
         /*
         The purpose of this Free Software license agreement is to grant users
@@ -235,7 +235,7 @@ rec {
     meta = {
       description = "GIMP plugin to correct lens distortion using the lensfun library and database";
 
-      homepage = http://lensfun.sebastiankraft.net/;
+      homepage = "http://lensfun.sebastiankraft.net/";
 
       license = stdenv.lib.licenses.gpl3Plus;
       maintainers = [ ];
@@ -249,7 +249,7 @@ rec {
   exposureBlend = scriptDerivation {
     name = "exposure-blend";
     src = fetchurl {
-      url = http://tir.astro.utoledo.edu/jdsmith/code/eb/exposure-blend.scm;
+      url = "http://tir.astro.utoledo.edu/jdsmith/code/eb/exposure-blend.scm";
       sha256 = "1b6c9wzpklqras4wwsyw3y3jp6fjmhnnskqiwm5sabs8djknfxla";
     };
   };
@@ -257,7 +257,7 @@ rec {
   lightning = scriptDerivation {
     name = "Lightning";
     src = fetchurl {
-      url = http://registry.gimp.org/files/Lightning.scm;
+      url = "http://registry.gimp.org/files/Lightning.scm";
       sha256 = "c14a8f4f709695ede3f77348728a25b3f3ded420da60f3f8de3944b7eae98a49";
     };
   };
@@ -280,7 +280,7 @@ rec {
     # http://registry.gimp.org/node/153
     name = "lightning-gate";
     src = fetchurl {
-      url = http://registry.gimp.org/files/LightningGate.scm;
+      url = "http://registry.gimp.org/files/LightningGate.scm";
       sha256 = "181w1zi9a99kn2mfxjp43wkwcgw5vbb6iqjas7a9mhm8p04csys2";
     };
   };

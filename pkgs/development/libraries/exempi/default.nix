@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ expat zlib boost ];
 
   meta = with stdenv.lib; {
-    homepage = http://libopenraw.freedesktop.org/wiki/Exempi/;
+    homepage = "http://libopenraw.freedesktop.org/wiki/Exempi/";
     platforms = platforms.linux;
     license = licenses.bsd3;
   };

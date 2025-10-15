@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "2015-11-10";
 
   src = fetchgit {
-    url = https://github.com/kernc/logkeys;
+    url = "https://github.com/kernc/logkeys";
     rev = "78321c6e70f61c1e7e672fa82daa664017c9e69d";
     sha256 = "1b1fa1rblyfsg6avqyls03y0rq0favipn5fha770rsirzg4r637q";
   };
@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   meta = with stdenv.lib; {
     description = "A GNU/Linux keylogger that works!";
     license = licenses.gpl3;
-    homepage = https://github.com/kernc/logkeys;
+    homepage = "https://github.com/kernc/logkeys";
     maintainers = with maintainers; [offline];
     platforms = platforms.linux;
   };

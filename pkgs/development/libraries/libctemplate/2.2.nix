@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
       CTemplate is a simple but powerful template language for C++. It
       emphasizes separating logic from presentation: it is impossible to
       embed application logic in this template language.  '';
-    homepage = http://code.google.com/p/google-ctemplate/;
+    homepage = "http://code.google.com/p/google-ctemplate/";
     license = "bsd";
   };
 

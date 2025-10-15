@@ -4,7 +4,7 @@ fetchurl: {
   name = "seahorse-3.18.0";
 
   src = fetchurl {
-    url = mirror://gnome/sources/seahorse/3.18/seahorse-3.18.0.tar.xz;
+    url = "mirror://gnome/sources/seahorse/3.18/seahorse-3.18.0.tar.xz";
     sha256 = "530c889a01c4cad25df4c9ab58ab95d24747875789bc6116bef529d60fc1b667";
   };
 }

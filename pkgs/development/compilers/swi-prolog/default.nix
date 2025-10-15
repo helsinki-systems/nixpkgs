@@ -22,7 +22,7 @@ stdenv.mkDerivation {
   buildFlags = "world";
 
   meta = {
-    homepage = http://www.swi-prolog.org/;
+    homepage = "http://www.swi-prolog.org/";
     description = "A Prolog compiler and interpreter";
     license = "LGPL";
 

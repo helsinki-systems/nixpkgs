@@ -50,7 +50,7 @@ stdenv.mkDerivation rec {
        from Aleph Objects.
      '';
 
-    homepage = https://www.lulzbot.com/cura/;
+    homepage = "https://www.lulzbot.com/cura/";
     license = licenses.agpl3;
     platforms = platforms.linux;
     maintainers = with maintainers; [ pjones ];

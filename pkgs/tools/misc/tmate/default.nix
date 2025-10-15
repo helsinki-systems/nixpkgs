@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
   preConfigure = "./autogen.sh";
 
   meta = {
-    homepage = http://tmate.io/;
+    homepage = "http://tmate.io/";
     description = "Instant Terminal Sharing";
     license = stdenv.lib.licenses.mit;
     platforms = stdenv.lib.platforms.unix;

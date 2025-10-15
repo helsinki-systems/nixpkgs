@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/the-cavalry/light-locker;
+    homepage = "https://github.com/the-cavalry/light-locker";
     description = "light-locker is a simple locker";
     longDescription = ''
       light-locker is a simple locker (forked from gnome-screensaver) that aims to have simple, sane, secure defaults and be well integrated with the desktop while not carrying any desktop-specific dependencies.

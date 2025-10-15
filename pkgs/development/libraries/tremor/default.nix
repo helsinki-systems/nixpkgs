@@ -4,7 +4,7 @@ stdenv.mkDerivation rec {
   name = "tremor-svn-${src.rev}";
 
   src = fetchsvn {
-    url = http://svn.xiph.org/trunk/Tremor;
+    url = "http://svn.xiph.org/trunk/Tremor";
     rev = "17866";
     sha256 = "161411cbefa1527da7a8fc087e78d8e21d19143d3a6eb42fb281e5026aad7568";
   };
@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://xiph.org/tremor/;
+    homepage = "http://xiph.org/tremor/";
     description = "Fixed-point version of the Ogg Vorbis decoder";
     license = stdenv.lib.licenses.bsd3;
   };

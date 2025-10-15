@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   preConfigure = "make -f Makefile.svn";
 
   meta = with stdenv.lib; {
-    homepage = http://www.linuxsampler.org;
+    homepage = "http://www.linuxsampler.org";
     description = "graphical frontend to LinuxSampler";
     license = licenses.gpl2;
     maintainers = [ maintainers.goibhniu ];

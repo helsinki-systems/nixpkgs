@@ -70,7 +70,7 @@ stdenv.mkDerivation rec {
   ];
 
   meta = with stdenv.lib; {
-    homepage = http://nghttp2.org/;
+    homepage = "http://nghttp2.org/";
     description = "an implementation of HTTP/2 in C";
     license = licenses.mit;
     platforms = platforms.all;

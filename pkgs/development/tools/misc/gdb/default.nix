@@ -79,7 +79,7 @@ stdenv.mkDerivation rec {
       program was doing at the moment it crashed.
     '';
 
-    homepage = http://www.gnu.org/software/gdb/;
+    homepage = "http://www.gnu.org/software/gdb/";
 
     license = stdenv.lib.licenses.gpl3Plus;
 

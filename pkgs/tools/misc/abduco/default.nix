@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
     name = "abduco-0.5";
 
     meta = {
-        homepage = http://brain-dump.org/projects/abduco;
+        homepage = "http://brain-dump.org/projects/abduco";
         license = licenses.isc;
         description = "Allows programs to be run independently from its controlling terminal";
         maintainers = with maintainers; [ pSub ];

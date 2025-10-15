@@ -6,7 +6,7 @@ stdenv.mkDerivation {
 
   name = "ocaml-qcheck-0.4.0.1";
   src = fetchzip {
-    url = https://github.com/c-cube/qcheck/archive/0.4.0.1.tar.gz;
+    url = "https://github.com/c-cube/qcheck/archive/0.4.0.1.tar.gz";
     sha256 = "0j2jdrfz8rrslgjihnfgg8yy12860z2vvf7hqzjbmfmf03hz4pgv";
   };
 
@@ -21,7 +21,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "QuickCheck inspired property-based testing for OCaml";
-    homepage = https://github.com/c-cube/qcheck/;
+    homepage = "https://github.com/c-cube/qcheck/";
     license = stdenv.lib.licenses.bsd2;
     maintainers = with stdenv.lib.maintainers; [ vbgl ];
     platforms = ocaml.meta.platforms;

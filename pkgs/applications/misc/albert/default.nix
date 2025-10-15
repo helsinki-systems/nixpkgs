@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage    = https://github.com/manuelSchneid3r/albert;
+    homepage    = "https://github.com/manuelSchneid3r/albert";
     description = "Desktop agnostic launcher";
     license     = stdenv.lib.licenses.gpl3Plus;
     maintainers = [ stdenv.lib.maintainers.ericsagnes ];

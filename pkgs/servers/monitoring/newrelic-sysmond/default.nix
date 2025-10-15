@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://newrelic.com/;
+    homepage = "http://newrelic.com/";
 
     description = "System-wide monitoring for newrelic";
 

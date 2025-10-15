@@ -72,7 +72,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Mozilla Firefox XUL runner";
-    homepage = http://www.mozilla.com/en-US/firefox/;
+    homepage = "http://www.mozilla.com/en-US/firefox/";
     maintainers = [ lib.maintainers.eelco ];
     platforms = lib.platforms.linux;
   };

@@ -12,11 +12,11 @@ stdenv.mkDerivation {
 
   src = if stdenv.isDarwin
     then fetchurl {
-      url = http://isabelle.in.tum.de/dist/Isabelle2015.dmg;
+      url = "http://isabelle.in.tum.de/dist/Isabelle2015.dmg";
       sha256 = "1vhm10qc1rn3wy9r12clrl33p64h3q1aj41mcnxkbnsyg2bx03im";
     }
     else fetchurl {
-      url = http://isabelle.in.tum.de/dist/Isabelle2015_linux.tar.gz;
+      url = "http://isabelle.in.tum.de/dist/Isabelle2015_linux.tar.gz";
       sha256 = "13kqm458d8mw7il1zg5bdb1nfbb869p331d75xzlm2v9xgjxx862";
     };
 
@@ -62,7 +62,7 @@ stdenv.mkDerivation {
       to be expressed in a formal language and provides tools for proving those
       formulas in a logical calculus.
     '';
-    homepage = http://isabelle.in.tum.de/;
+    homepage = "http://isabelle.in.tum.de/";
     license = "LGPL";
     maintainers = [ stdenv.lib.maintainers.jwiegley ];
   };

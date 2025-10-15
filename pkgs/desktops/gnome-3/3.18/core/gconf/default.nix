@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
   # ToDo: ldap reported as not found but afterwards reported as supported
 
   meta = with stdenv.lib; {
-    homepage = http://projects.gnome.org/gconf/;
+    homepage = "http://projects.gnome.org/gconf/";
     description = "A system for storing application preferences";
     platforms = platforms.linux;
   };

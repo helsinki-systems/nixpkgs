@@ -25,7 +25,7 @@ in pythonPackages.buildPythonPackage rec {
     oauth pyserial configobj pyyaml argparse requests jsonpatch ];
 
   meta = {
-    homepage = http://cloudinit.readthedocs.org;
+    homepage = "http://cloudinit.readthedocs.org";
     description = "provides configuration and customization of cloud instance";
     maintainers = [ lib.maintainers.madjar ];
     platforms = lib.platforms.all;

@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Interface for managing asymetric keys like RSA or DSA";
-    homepage = http://xca.sourceforge.net/;
+    homepage = "http://xca.sourceforge.net/";
     platforms = platforms.all;
     license = licenses.bsd3;
   };

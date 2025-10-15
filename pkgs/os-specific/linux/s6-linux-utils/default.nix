@@ -24,7 +24,7 @@ in stdenv.mkDerivation rec {
   ];
 
   meta = {
-    homepage = http://www.skarnet.org/software/s6-linux-utils/;
+    homepage = "http://www.skarnet.org/software/s6-linux-utils/";
     description = "A set of minimalistic Linux-specific system utilities";
     platforms = stdenv.lib.platforms.linux;
     license = stdenv.lib.licenses.isc;

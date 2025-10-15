@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
                        "-std=c++11"; # fix build with glm >= 0.9.6.0
 
   meta = with stdenv.lib; {
-    homepage = http://code.google.com/p/gource/;
+    homepage = "http://code.google.com/p/gource/";
     description = "A Software version control visualization tool";
     license = licenses.gpl3Plus;
     longDescription = ''

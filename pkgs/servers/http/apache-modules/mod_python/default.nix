@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ apacheHttpd python ];
 
   meta = {
-    homepage = http://modpython.org/;
+    homepage = "http://modpython.org/";
     description = "An Apache module that embeds the Python interpreter within the server";
   };
 }

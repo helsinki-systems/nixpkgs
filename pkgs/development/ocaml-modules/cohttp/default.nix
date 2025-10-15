@@ -21,7 +21,7 @@ buildOcaml rec {
   buildFlags = "PREFIX=$(out)";
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/mirage/ocaml-cohttp;
+    homepage = "https://github.com/mirage/ocaml-cohttp";
     description = "Very lightweight HTTP server using Lwt or Async";
     license = licenses.mit;
     maintainers = [ maintainers.ericbmerritt ];

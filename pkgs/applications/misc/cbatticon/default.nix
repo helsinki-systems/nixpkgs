@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A lightweight and fast battery icon that sits in your system tray";
-    homepage = https://github.com/valr/cbatticon;
+    homepage = "https://github.com/valr/cbatticon";
     license = licenses.gpl2;
     maintainers = [ maintainers.iElectric ];
     platforms = platforms.linux;

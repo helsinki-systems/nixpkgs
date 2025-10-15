@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   makeFlags = [ "INS_BASE=/" "INS_RBASE=/" "DESTDIR=$(out)" ];
 
   meta = with stdenv.lib; {
-    homepage = http://sourceforge.net/projects/cdrtools/;
+    homepage = "http://sourceforge.net/projects/cdrtools/";
     description = "Highly portable CD/DVD/BluRay command line recording software";
     # Licensing issues: This package contains code licensed under CDDL, GPL2
     # and LGPL2. There is debate regarding the legality of this licensing.

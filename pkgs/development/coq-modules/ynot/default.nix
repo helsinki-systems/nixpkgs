@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://ynot.cs.harvard.edu/;
+    homepage = "http://ynot.cs.harvard.edu/";
     description = "A library for writing and verifying imperative programs";
     maintainers = with maintainers; [ jwiegley ];
     platforms = coq.meta.platforms;

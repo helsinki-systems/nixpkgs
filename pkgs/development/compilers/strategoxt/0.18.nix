@@ -20,7 +20,7 @@ rec {
     '';
 
     meta = {
-      homepage = http://www.program-transformation.org/Sdf/SdfBundle;
+      homepage = "http://www.program-transformation.org/Sdf/SdfBundle";
       meta = "Tools for the SDF2 Syntax Definition Formalism, including the `pgen' parser generator and `sglr' parser";
     };
   } // ( if stdenv.system == "i686-cygwin" then { CFLAGS = "-O2 -Wl,--stack=0x2300000"; } else {} ) ) ;
@@ -30,14 +30,14 @@ rec {
     name = "strategoxt-1.8pre24429";
 
     src = fetchurl {
-      url = http://hydra.nixos.org/build/2175544/download/1/strategoxt-1.8pre24429.tar.gz;
+      url = "http://hydra.nixos.org/build/2175544/download/1/strategoxt-1.8pre24429.tar.gz";
       sha256 = "124f1d61a440b94c38b731c2e7015340dbbc1deb6d442b31dbecb46b0a00fa83";
     };
 
     buildInputs = [pkgconfig aterm sdf getopt];
 
     meta = {
-      homepage = http://strategoxt.org/;
+      homepage = "http://strategoxt.org/";
       meta = "A language and toolset for program transformation";
     };
   };
@@ -53,7 +53,7 @@ rec {
     buildInputs = [pkgconfig aterm sdf strategoxt getopt readline ncurses];
 
     meta = {
-      homepage = http://strategoxt.org/;
+      homepage = "http://strategoxt.org/";
       meta = "A language and toolset for program transformation";
       broken = true;
     };
@@ -74,7 +74,7 @@ rec {
     configureFlags = "--enable-xtc --with-strategoxt=${strategoxt}";
 
     meta = {
-      homepage = http://strategoxt.org/Stratego/JavaFront;
+      homepage = "http://strategoxt.org/Stratego/JavaFront";
       meta = "Tools for generating or transforming Java code";
     };
   } // ( if stdenv.system == "i686-cygwin" then { CFLAGS = "-O2"; } else {} ) ) ;
@@ -103,7 +103,7 @@ rec {
     buildInputs = [jdk pkgconfig aterm sdf strategoxt javafront];
 
     meta = {
-      homepage = http://strategoxt.org/Stratego/TheDryad;
+      homepage = "http://strategoxt.org/Stratego/TheDryad";
       meta = "A collection of tools for developing transformation systems for Java source and bytecode";
       broken = true;
     };

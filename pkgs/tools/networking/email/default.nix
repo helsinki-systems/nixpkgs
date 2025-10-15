@@ -35,6 +35,6 @@ stdenv.mkDerivation {
   meta = {
     description = "Command line SMTP client";
     license = with lib.licenses; [ gpl2 ];
-    homepage = http://deanproxy.com/code;
+    homepage = "http://deanproxy.com/code";
   };
 }

@@ -13,7 +13,7 @@ stdenv.mkDerivation {
   configureFlags = stdenv.lib.optional stdenv.isFreeBSD "--with-pic";
 
   meta = with stdenv.lib; {
-    homepage = http://www.ossp.org/pkg/lib/uuid/;
+    homepage = "http://www.ossp.org/pkg/lib/uuid/";
     description = "OSSP uuid ISO-C and C++ shared library";
     longDescription =
       ''

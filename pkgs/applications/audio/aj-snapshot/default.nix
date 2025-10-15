@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
     You can also run aj-snapshot in daemon mode if you want to have your connections continually restored.
     '';
 
-    homepage = http://aj-snapshot.sourceforge.net/;
+    homepage = "http://aj-snapshot.sourceforge.net/";
     license = licenses.gpl2;
     maintainers = [ maintainers.palo ];
     platforms = platforms.all;

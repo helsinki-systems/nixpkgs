@@ -42,7 +42,7 @@ stdenv.mkDerivation rec {
       userspace for regulatory compliance. It relies on nl80211 for communication.
       CRDA is intended to be run only through udev communication from the kernel.
     '';
-    homepage = http://drvbp1.linux-foundation.org/~mcgrof/rel-html/crda/;
+    homepage = "http://drvbp1.linux-foundation.org/~mcgrof/rel-html/crda/";
     license = licenses.free; # "copyleft-next 0.3.0", as yet without a web site
     platforms = platforms.linux;
     maintainers = with maintainers; [ nckx ];

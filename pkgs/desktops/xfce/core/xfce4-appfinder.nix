@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   meta = {
-    homepage = http://docs.xfce.org/xfce/xfce4-appfinder/;
+    homepage = "http://docs.xfce.org/xfce/xfce4-appfinder/";
     description = "Xfce application finder, a tool to locate and launch programs on your system";
     license = stdenv.lib.licenses.gpl2Plus;
     platforms = stdenv.lib.platforms.linux;

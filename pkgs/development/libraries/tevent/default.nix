@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "An event system based on the talloc memory management library";
-    homepage = http://tevent.samba.org/;
+    homepage = "http://tevent.samba.org/";
     license = licenses.lgpl3Plus;
     maintainers = with maintainers; [ wkennington ];
     platforms = platforms.all;

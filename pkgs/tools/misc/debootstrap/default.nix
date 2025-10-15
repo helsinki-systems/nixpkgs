@@ -9,7 +9,7 @@ let
   makedev = stdenv.mkDerivation {
     name = "makedev-for-debootstrap";
     src = fetchurl {
-            url = mirror://debian/pool/main/m/makedev/makedev_2.3.1.orig.tar.gz;
+            url = "mirror://debian/pool/main/m/makedev/makedev_2.3.1.orig.tar.gz";
             sha256 = "1yhxlj2mhn1nqkx1f0sn0bl898nf28arxxa4lgp7hdrb5cpp36c5";
     };
     patches = [
@@ -37,7 +37,7 @@ stdenv.mkDerivation {
   src = fetchurl {
     # git clone git://git.debian.org/d-i/debootstrap.git
     # I'd like to use the source. However it's lacking the lanny script ? (still true?)
-    url = mirror://debian/pool/main/d/debootstrap/debootstrap_1.0.67.tar.gz;
+    url = "mirror://debian/pool/main/d/debootstrap/debootstrap_1.0.67.tar.gz";
     sha256 = "06x5zw6fskw37qh62hvqx006319l4wgnnw8sf53ms67zpfif04ha";
   };
 
@@ -104,7 +104,7 @@ stdenv.mkDerivation {
 
   meta = { 
     description = "Tool to create a Debian system in a chroot";
-    homepage = http://packages.debian.org/de/lenny/debootstrap; # http://code.erisian.com.au/Wiki/debootstrap
+    homepage = "http://packages.debian.org/de/lenny/debootstrap"; # http://code.erisian.com.au/Wiki/debootstrap
     license = stdenv.lib.licenses.gpl2; # gentoo says so.. ?
     maintainers = [ stdenv.lib.maintainers.marcweber ];
     platforms = stdenv.lib.platforms.linux;

@@ -15,7 +15,7 @@ stdenv.mkDerivation {
 
   meta = with stdenv.lib; {
     description = "A network library, written in C, object-oriented, and built upon GLib";
-    homepage = https://developer.gnome.org/gnet/;
+    homepage = "https://developer.gnome.org/gnet/";
     platforms = platforms.linux;
     maintainers = with maintainers; [ pSub ];
   };

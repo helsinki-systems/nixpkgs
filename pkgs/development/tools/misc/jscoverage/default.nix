@@ -41,7 +41,7 @@ stdenv.mkDerivation rec {
     GNU/Linux.
     '';
 
-    homepage = http://siliconforks.com/jscoverage/;
+    homepage = "http://siliconforks.com/jscoverage/";
     license = stdenv.lib.licenses.gpl2;
   };
 }

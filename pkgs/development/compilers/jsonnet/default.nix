@@ -30,6 +30,6 @@ stdenv.mkDerivation {
     description = "Purely-functional configuration language that helps you define JSON data";
     maintainers = [ lib.maintainers.benley ];
     license = lib.licenses.asl20;
-    homepage = https://github.com/google/jsonnet;
+    homepage = "https://github.com/google/jsonnet";
   };
 }

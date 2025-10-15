@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
       A multimedia packager, called MP4Box,
       And some server tools included in MP4Box and MP42TS applications.
     '';
-    homepage = http://gpac.wp.mines-telecom.fr;
+    homepage = "http://gpac.wp.mines-telecom.fr";
     license = stdenv.lib.licenses.lgpl21;
 
     maintainers = [ stdenv.lib.maintainers.bluescreen303 ];

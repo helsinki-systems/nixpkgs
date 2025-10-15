@@ -24,7 +24,7 @@ stdenv.mkDerivation {
 
   meta = with stdenv.lib; {
     description = "The slrn (S-Lang read news) newsreader";
-    homepage = http://slrn.sourceforge.net/index.html;
+    homepage = "http://slrn.sourceforge.net/index.html";
     maintainers = with maintainers; [ ehmry ];
     license = licenses.gpl2;
   };

@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   enableParallelBuilding = true;
 
   src = fetchurl {
-    url = http://al.chemy.org/files/Alchemy-007.tar.gz;
+    url = "http://al.chemy.org/files/Alchemy-007.tar.gz";
     sha256 = "1pk00m4iajvv9jzv96in10czpcf7zc3d4nmd9biqagpsg28mr70b";
   };
 
@@ -30,7 +30,7 @@ stdenv.mkDerivation {
       Experimental in nature, Alchemy lets you brainstorm visually to explore
       an expanded range of ideas and possibilities in a serendipitous way.
     '';
-    homepage = http://al.chemy.org/;
+    homepage = "http://al.chemy.org/";
     license = stdenv.lib.licenses.gpl3Plus;
     maintainers = [stdenv.lib.maintainers.marcweber];
     platforms = stdenv.lib.platforms.linux;

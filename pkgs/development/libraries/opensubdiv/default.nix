@@ -39,7 +39,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "An Open-Source subdivision surface library";
-    homepage = http://graphics.pixar.com/opensubdiv;
+    homepage = "http://graphics.pixar.com/opensubdiv";
     platforms = lib.platforms.linux;
     maintainers = [ lib.maintainers.eelco ];
     license = lib.licenses.asl20;

@@ -10,7 +10,7 @@ stdenv.mkDerivation {
   name = "avidemux-2.5.6";
 
   src = fetchurl {
-    url = mirror://sourceforge/avidemux/avidemux_2.5.6.tar.gz;
+    url = "mirror://sourceforge/avidemux/avidemux_2.5.6.tar.gz";
     sha256 = "12wvxz0n2g85f079d8mdkkp2zm279d34m9v7qgcqndh48cn7znnn";
   };
 
@@ -38,7 +38,7 @@ stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = http://fixounet.free.fr/avidemux/;
+    homepage = "http://fixounet.free.fr/avidemux/";
     description = "Free video editor designed for simple video editing tasks";
     maintainers = with stdenv.lib.maintainers; [viric];
     platforms = with stdenv.lib.platforms; linux;

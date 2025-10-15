@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A kernel module to create V4L2 loopback devices";
-    homepage = https://github.com/umlaeute/v4l2loopback;
+    homepage = "https://github.com/umlaeute/v4l2loopback";
     license = licenses.gpl2;
     maintainers = [ maintainers.iElectric ];
     platforms = platforms.linux;

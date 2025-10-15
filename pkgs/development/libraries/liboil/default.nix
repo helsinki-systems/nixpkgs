@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A library of simple functions that are optimized for various CPUs";
-    homepage    = http://liboil.freedesktop.org;
+    homepage    = "http://liboil.freedesktop.org";
     license     = licenses.bsd2;
     maintainers = with maintainers; [ lovek323 ];
     platforms   = platforms.all;

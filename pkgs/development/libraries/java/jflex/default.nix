@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.jflex.de/;
+    homepage = "http://www.jflex.de/";
     description = "Lexical analyzer generator for Java, written in Java";
     license = stdenv.lib.licenses.bsd3;
   };

@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
       by bandwidth they use.
     '';
 
-    homepage = http://jnettop.kubs.info/;
+    homepage = "http://jnettop.kubs.info/";
     license = stdenv.lib.licenses.gpl2Plus;
   };
 }

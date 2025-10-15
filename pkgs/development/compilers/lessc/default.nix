@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "1.7.5"; # Upgrade to > 2.x breaks twitter-bootstrap
 
   src = fetchgit {
-    url = https://github.com/less/less.js.git;
+    url = "https://github.com/less/less.js.git";
     rev = "refs/tags/v${version}";
     sha256 = "0r8bcad247v5fyh543a7dppmfbf49ai4my3vcizk42fsbnjs8q2x";
   };
@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "LESS to CSS compiler";
-    homepage = http://lesscss.org/;
+    homepage = "http://lesscss.org/";
     license = licenses.asl20;
     platforms = platforms.linux;
     maintainers = with maintainers; [ pSub ];

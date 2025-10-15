@@ -89,7 +89,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://www.samba.org/;
+    homepage = "http://www.samba.org/";
     description = "The standard Windows interoperability suite of programs for Linux and Unix";
     license = licenses.gpl3;
     maintainers = with maintainers; [ wkennington ];

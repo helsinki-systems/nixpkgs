@@ -10,7 +10,7 @@ stdenv.mkDerivation {
   name = "cryptokit-1.9";
 
   src = fetchurl {
-    url = http://forge.ocamlcore.org/frs/download.php/1166/cryptokit-1.9.tar.gz;
+    url = "http://forge.ocamlcore.org/frs/download.php/1166/cryptokit-1.9.tar.gz";
     sha256 = "1jh0jqiwkjy9qplnfcm5r25zdgyk36sxb0c87ks3rjj7khrw1a2n";
   };
 

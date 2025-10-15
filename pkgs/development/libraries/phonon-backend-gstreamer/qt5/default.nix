@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
   ++ optional debug "-DCMAKE_BUILD_TYPE=Debug";
 
   meta = with stdenv.lib; {
-    homepage = http://phonon.kde.org/;
+    homepage = "http://phonon.kde.org/";
     description = "GStreamer backend for Phonon";
     platforms = platforms.linux;
     maintainers = with maintainers; [ ttuegel ];

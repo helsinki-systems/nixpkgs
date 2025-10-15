@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "SWIG, an interface compiler that connects C/C++ code to higher-level languages";
-    homepage = http://swig.org/;
+    homepage = "http://swig.org/";
     # Licensing is a mess: http://www.swig.org/Release/LICENSE .
     license = "BSD-style";
     platforms = lib.platforms.linux ++ lib.platforms.darwin;

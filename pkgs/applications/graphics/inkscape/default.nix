@@ -75,7 +75,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     license = "GPL";
-    homepage = http://www.inkscape.org;
+    homepage = "http://www.inkscape.org";
     description = "Vector graphics editor";
     platforms = platforms.all;
     longDescription = ''

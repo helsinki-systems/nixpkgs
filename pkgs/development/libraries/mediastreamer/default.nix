@@ -37,7 +37,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "a powerful and lightweight streaming engine specialized for voice/video telephony applications";
-    homepage = http://www.linphone.org/technical-corner/mediastreamer2/overview;
+    homepage = "http://www.linphone.org/technical-corner/mediastreamer2/overview";
     license = licenses.gpl2;
     platforms = platforms.linux;
   };

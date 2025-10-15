@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://winstone.sourceforge.net/;
+    homepage = "http://winstone.sourceforge.net/";
     description = "A simple Java Servlet container";
     license = stdenv.lib.licenses.cddl;
     platforms = stdenv.lib.platforms.all;

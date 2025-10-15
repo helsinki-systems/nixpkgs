@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Extract urls from text";
-    homepage = https://github.com/mvdan/xurls;
+    homepage = "https://github.com/mvdan/xurls";
     maintainers = [ maintainers.koral ];
   };
 }

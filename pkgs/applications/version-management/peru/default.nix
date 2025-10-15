@@ -21,7 +21,7 @@ python3Packages.buildPythonPackage rec {
   pythonPath = with python3Packages; [ pyyaml docopt ];
 
   meta = {
-    homepage = https://github.com/buildinspace/peru;
+    homepage = "https://github.com/buildinspace/peru";
     description = "A tool for including other people's code in your projects";
     license = stdenv.lib.licenses.mit;
   };

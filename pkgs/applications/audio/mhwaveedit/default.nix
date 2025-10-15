@@ -24,7 +24,7 @@ stdenv.mkDerivation  rec {
 
   meta = with stdenv.lib; {
     description = "Graphical program for editing, playing and recording sound files";
-    homepage = https://gna.org/projects/mhwaveedit;
+    homepage = "https://gna.org/projects/mhwaveedit";
     license = licenses.gpl2Plus;
     platforms = platforms.linux;
     maintainers = [ maintainers.goibhniu ];

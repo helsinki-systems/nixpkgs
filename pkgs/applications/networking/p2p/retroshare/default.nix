@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   name = "retroshare-0.5.5c";
 
   src = fetchurl {
-    url = mirror://sourceforge/project/retroshare/RetroShare/0.5.5c/retroshare_0.5.5-0.7068.tar.gz;
+    url = "mirror://sourceforge/project/retroshare/RetroShare/0.5.5c/retroshare_0.5.5-0.7068.tar.gz";
     sha256 = "0l2n4pr1hq66q6qa073hrdx3s3d7iw54z8ay1zy82zhk2rwhsavp";
   };
 
@@ -46,7 +46,7 @@ stdenv.mkDerivation {
 
   meta = with stdenv.lib; {
     description = "";
-    homepage = http://retroshare.sourceforge.net/;
+    homepage = "http://retroshare.sourceforge.net/";
     #license = licenses.bsd2;
     platforms = platforms.linux;
     maintainers = [ maintainers.iElectric ];

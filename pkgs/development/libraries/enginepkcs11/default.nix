@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ libp11 pkgconfig openssl ];
 
   meta = {
-    homepage = http://www.opensc-project.org/engine_pkcs11/;
+    homepage = "http://www.opensc-project.org/engine_pkcs11/";
     license = stdenv.lib.licenses.bsdOriginal;
     description = "Engine for OpenSSL to use smart cards in PKCS#11 format";
   };

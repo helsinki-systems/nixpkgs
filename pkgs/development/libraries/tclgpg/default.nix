@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ autoconf automake tcl tcllib ];
 
   meta = {
-    homepage = http://code.google.com/p/tclgpg/;
+    homepage = "http://code.google.com/p/tclgpg/";
     description = "A Tcl interface to GNU Privacy Guard";
     license = stdenv.lib.licenses.bsd2;
   };

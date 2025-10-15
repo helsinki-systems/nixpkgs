@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
   # NIX_CFLAGS_COMPILE = "-I.";
 
   meta = {
-    homepage = http://www.cinepaint.org/;
+    homepage = "http://www.cinepaint.org/";
     license = stdenv.lib.licenses.free;
     description = "Image editor which supports images over 8bpp and ICC profiles";
     maintainers = with stdenv.lib.maintainers; [viric];

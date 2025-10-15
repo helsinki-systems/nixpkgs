@@ -65,7 +65,7 @@ stdenv.mkDerivation rec {
   LIBS = optionalString x11Support "-lX11";
 
   meta = {
-    homepage = http://w3m.sourceforge.net/;
+    homepage = "http://w3m.sourceforge.net/";
     description = "A text-mode web browser";
     maintainers = [ maintainers.mornfall maintainers.cstrahan ];
   };

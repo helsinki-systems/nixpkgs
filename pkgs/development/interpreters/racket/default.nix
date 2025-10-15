@@ -77,7 +77,7 @@ stdenv.mkDerivation rec {
       libraries support applications from web servers and databases to
       GUIs and charts.
     '';
-    homepage = http://racket-lang.org/;
+    homepage = "http://racket-lang.org/";
     license = licenses.lgpl3;
     maintainers = with maintainers; [ kkallio henrytill ];
     platforms = platforms.unix;

@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.weechat.org/;
+    homepage = "http://www.weechat.org/";
     description = "A fast, light and extensible chat client";
     license = stdenv.lib.licenses.gpl3;
     maintainers = with stdenv.lib.maintainers; [ lovek323 garbas the-kenny ];

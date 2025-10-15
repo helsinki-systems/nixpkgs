@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A FUSE filesystem for mounting a directory to another location";
-    homepage    = http://bindfs.org;
+    homepage    = "http://bindfs.org";
     license     = stdenv.lib.licenses.gpl2;
     maintainers = with stdenv.lib.maintainers; [ lovek323 ];
     platforms   = stdenv.lib.platforms.unix;

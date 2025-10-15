@@ -4,7 +4,7 @@ fetchurl: {
   name = "gnome-bluetooth-3.18.2";
 
   src = fetchurl {
-    url = mirror://gnome/sources/gnome-bluetooth/3.18/gnome-bluetooth-3.18.2.tar.xz;
+    url = "mirror://gnome/sources/gnome-bluetooth/3.18/gnome-bluetooth-3.18.2.tar.xz";
     sha256 = "d8df073c331df0f97261869fb77ffcdbf4e3e4eaf460d3c3ed2b16e03d9c5398";
   };
 }

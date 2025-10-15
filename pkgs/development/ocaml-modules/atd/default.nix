@@ -18,7 +18,7 @@ buildOcaml rec {
   propagatedBuildInputs = [ menhir easy-format ];
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/mjambon/atd;
+    homepage = "https://github.com/mjambon/atd";
     description = "Syntax for cross-language type definitions";
     license = licenses.bsd3;
     maintainers = [ maintainers.jwilberding ];

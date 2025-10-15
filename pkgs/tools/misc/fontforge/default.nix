@@ -53,7 +53,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "A font editor";
-    homepage = http://fontforge.github.io;
+    homepage = "http://fontforge.github.io";
     platforms = stdenv.lib.platforms.all;
   };
 }

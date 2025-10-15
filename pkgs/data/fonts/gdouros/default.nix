@@ -49,7 +49,7 @@ let
         # Fonts in this site are offered free for any use;
         # they may be installed, embedded, opened, edited, modified, regenerated, posted, packaged and redistributed.
         license = stdenv.lib.licenses.free;
-        homepage = http://users.teilar.gr/~g1951d/;
+        homepage = "http://users.teilar.gr/~g1951d/";
       };
     };
 

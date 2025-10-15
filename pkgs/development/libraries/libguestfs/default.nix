@@ -44,7 +44,7 @@ stdenv.mkDerivation rec {
   meta = with stdenv.lib; {
     description = "Tools for accessing and modifying virtual machine disk images";
     license = licenses.gpl2;
-    homepage = http://libguestfs.org/;
+    homepage = "http://libguestfs.org/";
     maintainers = with maintainers; [offline];
     platforms = platforms.linux;
     hydraPlatforms = [];

@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = https://github.com/ljanyst/carddav-util;
+    homepage = "https://github.com/ljanyst/carddav-util";
     description = "A CardDAV import/export utility";
   };
 }

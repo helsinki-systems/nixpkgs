@@ -18,7 +18,7 @@ stdenv.mkDerivation {
       frameworks. From a grammar, ANTLR generates a parser that can build and
       walk parse trees.
     '';
-    homepage = http://www.antlr.org/;
+    homepage = "http://www.antlr.org/";
     platforms = platforms.linux;
   };
 }

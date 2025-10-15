@@ -12,7 +12,7 @@ buildPythonPackage rec {
   };
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/ejwa/gitinspector;
+    homepage = "https://github.com/ejwa/gitinspector";
     description = "Statistical analysis tool for git repositories";
     license = licenses.gpl3;
     platforms = platforms.all;

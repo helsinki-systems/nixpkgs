@@ -24,6 +24,6 @@ stdenv.mkDerivation rec {
   meta = {
     description = "Roaring Penguin Point-to-Point over Ethernet tool";
     platforms = stdenv.lib.platforms.linux;
-    homepage = https://www.roaringpenguin.com/products/pppoe;
+    homepage = "https://www.roaringpenguin.com/products/pppoe";
   };
 }

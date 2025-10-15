@@ -38,7 +38,7 @@ stdenv.mkDerivation rec {
     '';
 
   meta = {
-    homepage = http://www.skbuff.net/iputils/;
+    homepage = "http://www.skbuff.net/iputils/";
     description = "A set of small useful utilities for Linux networking";
     platforms = stdenv.lib.platforms.linux;
   };

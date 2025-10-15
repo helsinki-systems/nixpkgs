@@ -40,7 +40,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Reference implementation of a Wayland compositor";
-    homepage = http://wayland.freedesktop.org/;
+    homepage = "http://wayland.freedesktop.org/";
     license = licenses.mit;
     platforms = platforms.linux;
     maintainers = with maintainers; [ wkennington ];

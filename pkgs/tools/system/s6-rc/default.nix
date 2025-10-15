@@ -32,7 +32,7 @@ in stdenv.mkDerivation rec {
   ] ++ [ (if stdenv.isDarwin then "--disable-shared" else "--enable-shared") ];
 
   meta = {
-    homepage = http://skarnet.org/software/s6-rc/;
+    homepage = "http://skarnet.org/software/s6-rc/";
     description = "a service manager for s6-based systems";
     platforms = stdenv.lib.platforms.all;
     license = stdenv.lib.licenses.isc;

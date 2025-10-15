@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   };
 
   correctPersistence = fetchurl {
-    url = https://launchpadlibrarian.net/132677658/persistence;
+    url = "https://launchpadlibrarian.net/132677658/persistence";
     sha256 = "1rv6zv9i03bna4bdp1wzn72lg7kdwi900y1izdq0imibi54nxjsk";
   };
 
@@ -43,7 +43,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Gnome Diagram drawing software";
-    homepage = http://live.gnome.org/Dia;
+    homepage = "http://live.gnome.org/Dia";
     maintainers = with stdenv.lib.maintainers; [raskin urkud];
     platforms = stdenv.lib.platforms.linux;
   };

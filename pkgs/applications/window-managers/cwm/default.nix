@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A lightweight and efficient window manager for X11";
-    homepage = https://github.com/chneukirchen/cwm;
+    homepage = "https://github.com/chneukirchen/cwm";
     maintainers = [];
     license     = licenses.isc;
     platforms   = platforms.linux;

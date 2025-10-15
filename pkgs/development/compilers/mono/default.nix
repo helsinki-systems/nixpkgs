@@ -73,7 +73,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://mono-project.com/;
+    homepage = "http://mono-project.com/";
     description = "Cross platform, open source .NET development framework";
     platforms = with stdenv.lib.platforms; darwin ++ linux;
     maintainers = with stdenv.lib.maintainers; [ viric thoughtpolice obadz ];

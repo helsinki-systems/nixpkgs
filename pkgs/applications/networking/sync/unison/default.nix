@@ -30,7 +30,7 @@ stdenv.mkDerivation (rec {
   dontStrip = !ocaml.nativeCompilers;
 
   meta = {
-    homepage = http://www.cis.upenn.edu/~bcpierce/unison/;
+    homepage = "http://www.cis.upenn.edu/~bcpierce/unison/";
     description = "Bidirectional file synchronizer";
     license = stdenv.lib.licenses.gpl3Plus;
     maintainers = with stdenv.lib.maintainers; [viric];

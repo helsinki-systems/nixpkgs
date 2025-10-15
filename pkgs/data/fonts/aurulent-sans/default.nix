@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "Aurulent Sans";
     longDescription = "Aurulent Sans is a humanist sans serif intended to be used as an interface font.";
-    homepage = http://delubrum.org/;
+    homepage = "http://delubrum.org/";
     maintainers = with stdenv.lib.maintainers; [ deepfire ];
     license = stdenv.lib.licenses.ofl;
     platforms = stdenv.lib.platforms.all;

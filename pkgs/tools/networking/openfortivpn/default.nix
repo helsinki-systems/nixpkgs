@@ -29,7 +29,7 @@ in stdenv.mkDerivation {
 
   meta = {
     description = "Client for PPP+SSL VPN tunnel services";
-    homepage = https://github.com/adrienverge/openfortivpn;
+    homepage = "https://github.com/adrienverge/openfortivpn";
     license = stdenv.lib.licenses.gpl3;
     maintainers = [ stdenv.lib.maintainers.madjar ];
     platforms = stdenv.lib.platforms.linux;

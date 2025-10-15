@@ -2682,7 +2682,7 @@ let
 
     meta = with stdenv.lib; {
       description = "Alert dispatcher for the Prometheus monitoring system";
-      homepage = https://github.com/prometheus/alertmanager;
+      homepage = "https://github.com/prometheus/alertmanager";
       license = licenses.asl20;
       maintainers = with maintainers; [ benley ];
       platforms = platforms.unix;
@@ -2717,7 +2717,7 @@ let
 
     meta = with stdenv.lib; {
       description = "Command line tool for querying the Prometheus HTTP API";
-      homepage = https://github.com/prometheus/prometheus_cli;
+      homepage = "https://github.com/prometheus/prometheus_cli";
       license = licenses.asl20;
       maintainers = with maintainers; [ benley ];
       platforms = platforms.unix;
@@ -2741,7 +2741,7 @@ let
     buildInputs = [ prometheus.client_golang ];
     meta = with stdenv.lib; {
       description = "Relay server for exporting metrics from collectd to Prometheus";
-      homepage = https://github.com/prometheus/alertmanager;
+      homepage = "https://github.com/prometheus/alertmanager";
       license = licenses.asl20;
       maintainers = with maintainers; [ benley ];
       platforms = platforms.unix;
@@ -2756,7 +2756,7 @@ let
     buildInputs = [ prometheus.client_golang ];
     meta = with stdenv.lib; {
       description = "HAProxy Exporter for the Prometheus monitoring system";
-      homepage = https://github.com/prometheus/haproxy_exporter;
+      homepage = "https://github.com/prometheus/haproxy_exporter";
       license = licenses.asl20;
       maintainers = with maintainers; [ benley ];
       platforms = platforms.unix;
@@ -2780,7 +2780,7 @@ let
     buildInputs = [ mesos-stats prometheus.client_golang glog ];
     meta = with stdenv.lib; {
       description = "Export Mesos metrics to Prometheus";
-      homepage = https://github.com/prometheus/mesos_exporter;
+      homepage = "https://github.com/prometheus/mesos_exporter";
       license = licenses.asl20;
       maintainers = with maintainers; [ benley ];
       platforms = platforms.unix;
@@ -2795,7 +2795,7 @@ let
     buildInputs = [ mysql prometheus.client_golang ];
     meta = with stdenv.lib; {
       description = "Prometheus exporter for MySQL server metrics";
-      homepage = https://github.com/prometheus/mysqld_exporter;
+      homepage = "https://github.com/prometheus/mysqld_exporter";
       license = licenses.asl20;
       maintainers = with maintainers; [ benley ];
       platforms = platforms.unix;
@@ -2811,7 +2811,7 @@ let
     buildInputs = [ prometheus.client_golang prometheus.log ];
     meta = with stdenv.lib; {
       description = "Metrics relay from nginx stats to Prometheus";
-      homepage = https://github.com/discordianfish/nginx_exporter;
+      homepage = "https://github.com/discordianfish/nginx_exporter";
       license = licenses.asl20;
       maintainers = with maintainers; [ benley ];
       platforms = platforms.unix;
@@ -2835,7 +2835,7 @@ let
 
     meta = with stdenv.lib; {
       description = "Prometheus exporter for machine metrics";
-      homepage = https://github.com/prometheus/node_exporter;
+      homepage = "https://github.com/prometheus/node_exporter";
       license = licenses.asl20;
       maintainers = with maintainers; [ benley ];
       platforms = platforms.unix;
@@ -2864,7 +2864,7 @@ let
 
     meta = with stdenv.lib; {
       description = "Tool to scrape a Prometheus client and dump the result as JSON";
-      homepage = https://github.com/prometheus/prom2json;
+      homepage = "https://github.com/prometheus/prom2json";
       license = licenses.asl20;
       maintainers = with maintainers; [ benley ];
       platforms = platforms.unix;
@@ -2918,7 +2918,7 @@ let
 
     meta = with stdenv.lib; {
       description = "Service monitoring system and time series database";
-      homepage = http://prometheus.io;
+      homepage = "http://prometheus.io";
       license = licenses.asl20;
       maintainers = with maintainers; [ benley ];
       platforms = platforms.unix;
@@ -2958,7 +2958,7 @@ let
 
     meta = with stdenv.lib; {
       description = "Allows ephemeral and batch jobs to expose metrics to Prometheus";
-      homepage = https://github.com/prometheus/pushgateway;
+      homepage = "https://github.com/prometheus/pushgateway";
       license = licenses.asl20;
       maintainers = with maintainers; [ benley ];
       platforms = platforms.unix;
@@ -2973,7 +2973,7 @@ let
     buildInputs = [ fsnotify.v0 prometheus.client_golang ];
     meta = with stdenv.lib; {
       description = "Receives StatsD-style metrics and exports them to Prometheus";
-      homepage = https://github.com/prometheus/statsd_bridge;
+      homepage = "https://github.com/prometheus/statsd_bridge";
       license = licenses.asl20;
       maintainers = with maintainers; [ benley ];
       platforms = platforms.unix;
@@ -3595,7 +3595,7 @@ let
 
     meta = with stdenv.lib; {
       description = "An XMPP client with OTR support";
-      homepage = https://github.com/agl/xmpp-client;
+      homepage = "https://github.com/agl/xmpp-client";
       license = licenses.bsd3;
       maintainers = with maintainers; [ codsl ];
     };

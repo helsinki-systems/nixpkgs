@@ -23,7 +23,7 @@ stdenv.mkDerivation {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://industriousone.com/premake;
+    homepage = "http://industriousone.com/premake";
     description = "A simple build configuration and project generation tool using lua";
     license = stdenv.lib.licenses.bsd3;
     platforms = platforms.linux;

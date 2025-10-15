@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
       select the appropriate WHOIS server for most queries.
     '';
 
-    homepage = http://packages.qa.debian.org/w/whois.html;
+    homepage = "http://packages.qa.debian.org/w/whois.html";
     license = licenses.gpl2;
     maintainers = with maintainers; [ fpletz ];
     platforms = platforms.linux;

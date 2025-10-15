@@ -29,7 +29,7 @@ stdenv.mkDerivation {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://projects.kde.org/projects/extragear/base/kde-gtk-config;
+    homepage = "https://projects.kde.org/projects/extragear/base/kde-gtk-config";
     description = "GTK configuration module for KDE System Settings";
     longDescription = ''
       Configuration dialog to adapt GTK applications appearance to your taste under KDE.

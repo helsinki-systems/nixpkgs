@@ -41,7 +41,7 @@ stdenv.mkDerivation rec {
          line.  It is written in C and has Guile (Scheme) bindings.
       '';
 
-    homepage = http://nongnu.org/libchop/;
+    homepage = "http://nongnu.org/libchop/";
     license = stdenv.lib.licenses.gpl3Plus;
 
     maintainers = with stdenv.lib.maintainers; [ viric ];

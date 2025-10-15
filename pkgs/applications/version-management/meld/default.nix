@@ -52,7 +52,7 @@ buildPythonPackage rec {
 
   meta = with stdenv.lib; {
     description = "Visual diff and merge tool";
-    homepage = http://meldmerge.org/;
+    homepage = "http://meldmerge.org/";
     license = stdenv.lib.licenses.gpl2;
     platforms = platforms.linux ++ stdenv.lib.platforms.darwin;
   };

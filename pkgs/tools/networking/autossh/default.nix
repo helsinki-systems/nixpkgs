@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
     '';
     
   meta = with stdenv.lib; {
-    homepage = http://www.harding.motd.ca/autossh/;
+    homepage = "http://www.harding.motd.ca/autossh/";
     description = "Automatically restart SSH sessions and tunnels";
     platforms = platforms.unix;
     maintainers = with maintainers; [ pSub ];

@@ -11,7 +11,7 @@ stdenv.mkDerivation (rec {
   buildInputs = [ popt ];
 
   meta = {
-    homepage = http://natspec.sourceforge.net/ ;
+    homepage = "http://natspec.sourceforge.net/" ;
     description = "A library intended to smooth national specificities in using of programs";
     platforms = stdenv.lib.platforms.unix;
     maintainers = [ stdenv.lib.maintainers.urkud ];

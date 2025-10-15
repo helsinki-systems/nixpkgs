@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
       Bangarang offers a minimalistic media center user interface,
       media collection management, playlists and statistics.
     '';
-    homepage = http://bangarangkde.wordpress.com/;
+    homepage = "http://bangarangkde.wordpress.com/";
     license = stdenv.lib.licenses.gpl3;
     maintainers = [ maintainers.phreedom maintainers.urkud ];
     platforms = platforms.linux;

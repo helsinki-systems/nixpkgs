@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://aldusleaf.org/crimson.html;
+    homepage = "https://aldusleaf.org/crimson.html";
     description = "A font family inspired by beautiful oldstyle typefaces";
     license = licenses.ofl;
     platforms = platforms.all;

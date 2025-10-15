@@ -14,12 +14,12 @@ stdenv.mkDerivation rec {
   name = "iozone-3.434";
 
   src = fetchurl {
-    url = http://www.iozone.org/src/current/iozone3_434.tar;
+    url = "http://www.iozone.org/src/current/iozone3_434.tar";
     sha256 = "0aj63mlb91aivz3z71zn8nbwci1pi18qk8zc65dm19cknffqsf1c";
   };
 
   license = fetchurl {
-    url = http://www.iozone.org/docs/Iozone_License.txt;
+    url = "http://www.iozone.org/docs/Iozone_License.txt";
     sha256 = "1309sl1rqm8p9gll3z8zfygr2pmbcvzw5byf5ba8y12avk735zrv";
   };
 
@@ -39,7 +39,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "IOzone Filesystem Benchmark";
-    homepage    = http://www.iozone.org/;
+    homepage    = "http://www.iozone.org/";
     license     = stdenv.lib.licenses.unfreeRedistributable;
     platforms   = ["i686-linux" "x86_64-linux" "x86_64-darwin"];
     maintainers = [ stdenv.lib.maintainers.Baughn ];

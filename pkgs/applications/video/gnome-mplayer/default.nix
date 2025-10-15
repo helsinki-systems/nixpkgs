@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [pkgconfig glib gtk dbus dbus_glib GConf];
   
   meta = {
-    homepage = http://kdekorte.googlepages.com/gnomemplayer;
+    homepage = "http://kdekorte.googlepages.com/gnomemplayer";
     description = "Gnome MPlayer, a simple GUI for MPlayer";
   };
 }

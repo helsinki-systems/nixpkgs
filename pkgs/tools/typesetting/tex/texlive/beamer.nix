@@ -2,7 +2,7 @@ args @ {texLiveLatexXColor, texLivePGF, texLive, ...}: with args;
 rec {
   name = "texlive-beamer-2013";
   src = fetchurl {
-    url = mirror://debian/pool/main/l/latex-beamer/latex-beamer_3.24.orig.tar.gz;
+    url = "mirror://debian/pool/main/l/latex-beamer/latex-beamer_3.24.orig.tar.gz";
     sha256 = "0rzjlbs67kzmvlh7lwga4yxgddvrvfkkhhx1ajdn4lqy2w9zxiv8";
   };
 

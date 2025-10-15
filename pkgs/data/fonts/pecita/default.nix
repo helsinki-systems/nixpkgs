@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://pecita.eu/police-en.php;
+    homepage = "http://pecita.eu/police-en.php";
     description = "Handwritten font with connected glyphs";
     license = licenses.ofl;
     platforms = platforms.all;

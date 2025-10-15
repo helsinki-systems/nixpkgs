@@ -26,7 +26,7 @@ pythonPackages.buildPythonPackage rec {
   doCheck = false;
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/untitaker/vdirsyncer;
+    homepage = "https://github.com/untitaker/vdirsyncer";
     description = "Synchronize calendars and contacts";
     maintainers = with maintainers; [ matthiasbeyer jgeerds ];
     platforms = platforms.all;

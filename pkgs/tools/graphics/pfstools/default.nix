@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   nativeBuildInputs = [ pkgconfig ];
 
   meta = {
-    homepage = http://pfstools.sourceforge.net/;
+    homepage = "http://pfstools.sourceforge.net/";
     description = "Toolkit for manipulation of HDR images";
     license = "GPL";
   };

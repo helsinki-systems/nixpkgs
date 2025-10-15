@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://pwmt.org/projects/zathura/;
+    homepage = "http://pwmt.org/projects/zathura/";
     description = "A core component for zathura PDF viewer";
     license = stdenv.lib.licenses.zlib;
     platforms = stdenv.lib.platforms.linux;

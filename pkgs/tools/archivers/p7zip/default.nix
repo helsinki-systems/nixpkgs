@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   meta = {
-    homepage = http://p7zip.sourceforge.net/;
+    homepage = "http://p7zip.sourceforge.net/";
     description = "A port of the 7-zip archiver";
     # license = stdenv.lib.licenses.lgpl21Plus; + "unRAR restriction"
     platforms = stdenv.lib.platforms.unix;

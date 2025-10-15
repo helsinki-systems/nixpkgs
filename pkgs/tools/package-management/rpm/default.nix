@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
   configureFlags = "--with-external-db --without-lua --enable-python";
 
   meta = with stdenv.lib; {
-    homepage = http://www.rpm.org/;
+    homepage = "http://www.rpm.org/";
     license = licenses.gpl2;
     description = "The RPM Package Manager";
     maintainers = [ maintainers.mornfall ];

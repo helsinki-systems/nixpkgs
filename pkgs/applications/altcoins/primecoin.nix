@@ -44,7 +44,7 @@ stdenv.mkDerivation rec{
       research. Thus primecoin network is energy-multiuse, compared to
       bitcoin.
     '';
-    homepage = http://primecoin.io/;
+    homepage = "http://primecoin.io/";
     maintainers = with maintainers; [ AndersonTorres ];
     license = licenses.mit;
     platforms = platforms.unix;

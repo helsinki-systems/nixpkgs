@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
       use minimal CPU and memory resources, and provide fast
       throughput in both directions.
     '';
-    homepage = https://libwebsockets.org/trac/libwebsockets;
+    homepage = "https://libwebsockets.org/trac/libwebsockets";
     # See http://git.libwebsockets.org/cgi-bin/cgit/libwebsockets/tree/LICENSE
     license = stdenv.lib.licenses.gpl2Plus;
     maintainers = [ ];

@@ -37,7 +37,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Free Software alternative to µtorrent";
-    homepage    = http://www.qbittorrent.org/;
+    homepage    = "http://www.qbittorrent.org/";
     license     = licenses.gpl2;
     maintainers = with maintainers; [ viric ];
     platforms   = platforms.linux;

@@ -4,7 +4,7 @@ fetchurl: {
   name = "sushi-3.18.0";
 
   src = fetchurl {
-    url = mirror://gnome/sources/sushi/3.18/sushi-3.18.0.tar.xz;
+    url = "mirror://gnome/sources/sushi/3.18/sushi-3.18.0.tar.xz";
     sha256 = "7f4df92be950bf23aff28da49ce108766dd21a88efc14a9d0807e10225608e9c";
   };
 }

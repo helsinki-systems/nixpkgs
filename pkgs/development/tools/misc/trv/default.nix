@@ -30,7 +30,7 @@ stdenv.mkDerivation {
   installFlags = "SEMVER=${version} PREFIX=$out";
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/afiniate/trv;
+    homepage = "https://github.com/afiniate/trv";
     description = "Shim for vrt to enable bootstrapping";
     license = licenses.asl20;
     maintainers = [ maintainers.ericbmerritt ];

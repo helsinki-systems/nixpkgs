@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   configureFlags = "--disable-dar-static";
 
   meta = {
-    homepage = http://dar.linux.free.fr/;
+    homepage = "http://dar.linux.free.fr/";
     description = "Disk ARchiver, allows backing up files into indexed archives";
     maintainers = [ stdenv.lib.maintainers.viric ];
     platforms = stdenv.lib.platforms.unix;

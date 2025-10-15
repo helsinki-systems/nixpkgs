@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
                   glm ];
 
   meta = with stdenv.lib; {
-    homepage = http://code.google.com/p/logstalgia;
+    homepage = "http://code.google.com/p/logstalgia";
     description = "Website traffic visualization tool";
     license = licenses.gpl3Plus;
 

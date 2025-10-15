@@ -62,7 +62,7 @@ pythonPackages.buildPythonPackage rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://glance.openstack.org/;
+    homepage = "http://glance.openstack.org/";
     description = "Services for discovering, registering, and retrieving virtual machine images";
     license = stdenv.lib.licenses.asl20;
     platforms = stdenv.lib.platforms.linux;

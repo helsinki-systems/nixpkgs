@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Modem control and terminal emulation program";
-    homepage = http://alioth.debian.org/projects/minicom/;
+    homepage = "http://alioth.debian.org/projects/minicom/";
 
     longDescription =
       '' Minicom is a menu driven communications program.  It emulates ANSI

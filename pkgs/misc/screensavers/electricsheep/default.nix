@@ -17,6 +17,6 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Electric Sheep, a distributed screen saver for evolving artificial organisms";
-    homepage = http://electricsheep.org/;
+    homepage = "http://electricsheep.org/";
   };
 }

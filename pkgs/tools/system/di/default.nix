@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A disk information utility, displaying everything (and more) that your 'df' command does";
-    homepage = http://www.gentoo.com/di/;
+    homepage = "http://www.gentoo.com/di/";
     license = licenses.zlib;
     maintainers = with maintainers; [ manveru ];
     platforms = platforms.all;

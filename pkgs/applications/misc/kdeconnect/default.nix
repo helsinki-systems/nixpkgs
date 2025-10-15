@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
         - RSA Encryption: your information is safe 
     '';
     license = licenses.gpl2;
-    homepage = https://projects.kde.org/projects/playground/base/kdeconnect-kde;
+    homepage = "https://projects.kde.org/projects/playground/base/kdeconnect-kde";
     platforms = platforms.linux;
     maintainers = [ maintainers.goibhniu ];
   };

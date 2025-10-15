@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "GNU datamash";
-    homepage = http://www.gnu.org/software/datamash/;
+    homepage = "http://www.gnu.org/software/datamash/";
     platforms = stdenv.lib.platforms.all;
   };
 

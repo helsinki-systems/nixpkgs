@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; { 
     description = "PostgreSQL administration GUI tool";
-    homepage = http://www.pgadmin.org;
+    homepage = "http://www.pgadmin.org";
     license = licenses.gpl2;
     maintainers = with maintainers; [ iElectric wmertens ];
     platforms = platforms.unix;

@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/MihailJP/marathi-cursive;
+    homepage = "https://github.com/MihailJP/marathi-cursive";
     description = "Modi script font with Graphite and OpenType support";
     maintainers = with maintainers; [ mathnerd314 ];
     license = licenses.mit; # It's the M+ license, M+ is MIT(-ish)

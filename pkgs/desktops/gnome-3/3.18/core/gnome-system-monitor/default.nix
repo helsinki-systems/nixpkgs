@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   meta = with stdenv.lib; {
-    homepage = https://help.gnome.org/users/gnome-system-monitor/3.12/;
+    homepage = "https://help.gnome.org/users/gnome-system-monitor/3.12/";
     description = "System Monitor shows you what programs are running and how much processor time, memory, and disk space are being used";
     maintainers = gnome3.maintainers;
     license = licenses.gpl2;

@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
   preFixup = "rm $out/share/icons/hicolor/icon-theme.cache";
 
   meta = {
-    homepage = http://www.xfce.org/projects/xfce4-session;
+    homepage = "http://www.xfce.org/projects/xfce4-session";
     description = "Session manager for Xfce";
     license = stdenv.lib.licenses.gpl2Plus;
     platforms = stdenv.lib.platforms.linux;

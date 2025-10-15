@@ -75,7 +75,7 @@ stdenv.mkDerivation rec {
 
     license = stdenv.lib.licenses.gpl2Plus;
 
-    homepage = http://www.gnucash.org/;
+    homepage = "http://www.gnucash.org/";
 
     maintainers = [ stdenv.lib.maintainers.simons stdenv.lib.maintainers.iElectric ];
     platforms = stdenv.lib.platforms.gnu;

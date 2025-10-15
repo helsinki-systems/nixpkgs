@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Next Generation IRC Daemon";
-    homepage    = http://ngircd.barton.de;
+    homepage    = "http://ngircd.barton.de";
     license     = stdenv.lib.licenses.gpl2;
     platforms   = stdenv.lib.platforms.all;
   };

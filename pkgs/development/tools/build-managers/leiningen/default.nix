@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
   propagatedBuildInputs = [ jdk ];
 
   meta = {
-    homepage = http://leiningen.org/;
+    homepage = "http://leiningen.org/";
     description = "Project automation for Clojure";
     license = stdenv.lib.licenses.epl10;
     platforms = stdenv.lib.platforms.linux ++ stdenv.lib.platforms.darwin;

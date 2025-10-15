@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   name = "ocaml-oasis-0.4.5";
 
   src = fetchurl {
-    url = http://forge.ocamlcore.org/frs/download.php/1475/oasis-0.4.5.tar.gz;
+    url = "http://forge.ocamlcore.org/frs/download.php/1475/oasis-0.4.5.tar.gz";
     sha256 = "0i1fifzig2slhb07d1djx6i690b8ys0avsx6ssnihisw841sc8v6";
   };
 
@@ -23,7 +23,7 @@ stdenv.mkDerivation {
   installPhase   = "ocaml setup.ml -install";
 
   meta = with stdenv.lib; {
-    homepage = http://oasis.forge.ocamlcore.org/;
+    homepage = "http://oasis.forge.ocamlcore.org/";
     description = "Configure, build and install system for OCaml projects";
     license = licenses.lgpl21;
     platforms = ocaml.meta.platforms;

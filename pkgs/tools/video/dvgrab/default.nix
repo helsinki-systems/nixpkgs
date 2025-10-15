@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
          AVI type 2, Quicktime DV, a series of JPEG stills or MPEG2-TS.
       '';
 
-    homepage = http://kinodv.org/;
+    homepage = "http://kinodv.org/";
 
     license = stdenv.lib.licenses.gpl2Plus;
     platforms = stdenv.lib.platforms.gnu;

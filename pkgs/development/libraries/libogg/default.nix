@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   outputs = [ "out" "doc" ];
 
   meta = with stdenv.lib; {
-    homepage = http://xiph.org/ogg/;
+    homepage = "http://xiph.org/ogg/";
     license = licenses.bsd3;
     maintainers = [ maintainers.ehmry ];
     platforms = platforms.all;

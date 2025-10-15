@@ -31,7 +31,7 @@ buildRustPackage rec {
       for a directory, or recursing into directories with a tree view. exa is
       written in Rust, so it’s small, fast, and portable.
     '';
-    homepage = http://bsago.me/exa;
+    homepage = "http://bsago.me/exa";
     license = licenses.mit;
     maintainer = [ maintainers.ehegnes ];
   };

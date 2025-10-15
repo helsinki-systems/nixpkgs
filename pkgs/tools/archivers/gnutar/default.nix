@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
   '' else null;
 
   meta = {
-    homepage = http://www.gnu.org/software/tar/;
+    homepage = "http://www.gnu.org/software/tar/";
     description = "GNU implementation of the `tar' archiver";
 
     longDescription = ''

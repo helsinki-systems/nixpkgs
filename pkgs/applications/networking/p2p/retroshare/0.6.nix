@@ -53,7 +53,7 @@ stdenv.mkDerivation {
 
   meta = with stdenv.lib; {
     description = "";
-    homepage = http://retroshare.sourceforge.net/;
+    homepage = "http://retroshare.sourceforge.net/";
     #license = licenses.bsd2;
     platforms = platforms.linux;
     maintainers = [ maintainers.iElectric ];

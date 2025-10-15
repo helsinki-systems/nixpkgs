@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
     '';
 
   meta = {
-    homepage = http://www.alsa-project.org/;
+    homepage = "http://www.alsa-project.org/";
     description = "ALSA, the Advanced Linux Sound Architecture alsa-oss emulation";
 
     longDescription = ''

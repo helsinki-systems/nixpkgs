@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   createFindlibDestdir = true;
 
   meta = {
-    homepage = https://github.com/ocaml/ocaml-re;
+    homepage = "https://github.com/ocaml/ocaml-re";
     platforms = ocaml.meta.platforms;
     description = "Pure OCaml regular expressions, with support for Perl and POSIX-style strings";
     license = stdenv.lib.licenses.lgpl2;

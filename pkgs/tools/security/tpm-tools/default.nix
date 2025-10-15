@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
       application enablement of Trusted Computing using a Trusted Platform
       Module (TPM), similar to a smart card environment.
     '';
-    homepage    = http://sourceforge.net/projects/trousers/files/tpm-tools/;
+    homepage    = "http://sourceforge.net/projects/trousers/files/tpm-tools/";
     license     = licenses.cpl10;
     maintainers = [ maintainers.ak ];
     platforms   = platforms.unix;

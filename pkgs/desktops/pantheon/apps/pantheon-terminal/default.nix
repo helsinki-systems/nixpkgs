@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "elementary OS's terminal";
     longDescription = "A super lightweight, beautiful, and simple terminal. It's designed to be setup with sane defaults and little to no configuration. It's just a terminal, nothing more, nothing less. Designed for elementary OS.";
-    homepage = https://launchpad.net/pantheon-terminal;
+    homepage = "https://launchpad.net/pantheon-terminal";
     license = stdenv.lib.licenses.gpl3;
     platforms = stdenv.lib.platforms.linux;
     maintainers = [ stdenv.lib.maintainers.vozz ];

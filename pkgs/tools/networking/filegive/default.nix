@@ -6,7 +6,7 @@ let
 
   # Code with BSD license
   srcNatPMP = fetchgit {
-    url = https://github.com/jackpal/go-nat-pmp;
+    url = "https://github.com/jackpal/go-nat-pmp";
     rev = "e04deda90d56";
     sha256 = "1swwfyzaj3l40yh9np3x4fcracgs79nwryc85sxbdakx8wwxs2xb";
   };
@@ -40,7 +40,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://viric.name/cgi-bin/filegive;
+    homepage = "http://viric.name/cgi-bin/filegive";
     description = "Easy p2p file sending program";
     license = stdenv.lib.licenses.agpl3Plus;
     maintainers = with stdenv.lib.maintainers; [viric];

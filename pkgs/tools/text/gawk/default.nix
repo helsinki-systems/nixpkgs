@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
   postInstall = "rm $out/bin/gawk-*";
 
   meta = {
-    homepage = http://www.gnu.org/software/gawk/;
+    homepage = "http://www.gnu.org/software/gawk/";
     description = "GNU implementation of the Awk programming language";
 
     longDescription = ''

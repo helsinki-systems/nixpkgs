@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "fceux-2.2.2";
 
   src = fetchurl {
-    url = mirror://sourceforge/fceultra/Source%20Code/2.2.2%20src/fceux-2.2.2.src.tar.gz;
+    url = "mirror://sourceforge/fceultra/Source%20Code/2.2.2%20src/fceux-2.2.2.src.tar.gz";
     sha256 = "1qg5bygla8ka30b7wqvq6dv84xc7pq0jspffh2jz75d1njyi2kc0";
   };
 
@@ -29,6 +29,6 @@ stdenv.mkDerivation {
   meta = {
     description = "A Nintendo Entertainment System (NES) Emulator";
     license = stdenv.lib.licenses.gpl2;
-    homepage = http://www.fceux.com/;
+    homepage = "http://www.fceux.com/";
   };
 }

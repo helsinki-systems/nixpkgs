@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ autoreconfHook pkgconfig file protobufc ];
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/algernon/riemann-c-client;
+    homepage = "https://github.com/algernon/riemann-c-client";
     description = "A C client library for the Riemann monitoring system";
     license = licenses.gpl3;
     maintainers = [ maintainers.rickynils ];

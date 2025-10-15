@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A service which logs the users's activities and events";
-    homepage = https://launchpad.net/zeitgeist;
+    homepage = "https://launchpad.net/zeitgeist";
     maintainers = with maintainers; [ lethalman ];
     license = licenses.gpl2;
     platforms = platforms.linux;

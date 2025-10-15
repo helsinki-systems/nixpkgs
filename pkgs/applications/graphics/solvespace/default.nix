@@ -28,6 +28,6 @@ stdenv.mkDerivation {
     license = stdenv.lib.licenses.gpl3;
     maintainers = with stdenv.lib.maintainers; [ the-kenny ];
     platforms = stdenv.lib.platforms.linux;
-    homepage = http://solvespace.com;
+    homepage = "http://solvespace.com";
   };
 }

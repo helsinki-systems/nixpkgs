@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Set of programs to inspect and build Windows Installer (.MSI) files";
-    homepage = https://wiki.gnome.org/msitools;
+    homepage = "https://wiki.gnome.org/msitools";
     license = [licenses.gpl2 licenses.lgpl21];
     maintainer = [maintainers.vcunat];
     platforms = platforms.unix;

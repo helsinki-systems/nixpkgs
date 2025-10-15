@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Free interpreter for the APL programming language";
-    homepage    = http://www.gnu.org/software/apl/;
+    homepage    = "http://www.gnu.org/software/apl/";
     license     = licenses.gpl3Plus;
     maintainers = [ maintainers.kovirobi ];
     platforms   = stdenv.lib.platforms.linux;

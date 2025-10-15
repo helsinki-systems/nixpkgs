@@ -42,7 +42,7 @@ in nodePackages.buildNodePackage rec {
   meta = {
     description = "Web IRC client that you host on your own server";
     license = licenses.mit;
-    homepage = http://shout-irc.com/;
+    homepage = "http://shout-irc.com/";
     maintainers = with maintainers; [ benley ];
     platforms = platforms.unix;
   };

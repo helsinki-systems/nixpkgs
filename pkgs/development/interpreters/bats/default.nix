@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   installPhase = "./install.sh $out";
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/sstephenson/bats;
+    homepage = "https://github.com/sstephenson/bats";
     description = "Bash Automated Testing System";
     maintainers = [ maintainers.lnl7 ];
     license = licenses.mit;

@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.lm-sensors.org/;
+    homepage = "http://www.lm-sensors.org/";
     description = "Tools for reading hardware sensors";
   };
 }

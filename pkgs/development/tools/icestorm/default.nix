@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
       FPGAs and providing simple tools for analyzing and
       creating bitstream files.
     '';
-    homepage = http://www.clifford.at/icestorm/;
+    homepage = "http://www.clifford.at/icestorm/";
     license = stdenv.lib.licenses.isc;
     maintainers = [ stdenv.lib.maintainers.shell ];
   };

@@ -58,7 +58,7 @@ stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = http://matita.cs.unibo.it/;
+    homepage = "http://matita.cs.unibo.it/";
     description = "Matita is an experimental, interactive theorem prover";
     license = stdenv.lib.licenses.gpl2Plus;
     maintainers = [ stdenv.lib.maintainers.roconnor ];

@@ -34,7 +34,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "OPC (OLE for Process Control) toolkit designed for use with Python";
-    homepage = http://openopc.sourceforge.net/;
+    homepage = "http://openopc.sourceforge.net/";
     # """OpenOPC for Python is freely available under the terms of the GNU GPL.
     # However, the OpenOPC library module is licensed under the "GPL + linking
     # exception" license, which generally means that programs written using the

@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
   installFlags = "localstatedir=$(TMPDIR)/var sysconfdir=$(out)/etc INITDIR=$(out)/etc/init.d DESTDIR=$(out)";
 
   meta = {
-    homepage = http://www.drbd.org/;
+    homepage = "http://www.drbd.org/";
     description = "Distributed Replicated Block Device, a distributed storage system for Linux";
     platforms = stdenv.lib.platforms.linux;
   };

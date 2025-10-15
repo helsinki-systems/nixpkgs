@@ -22,6 +22,6 @@ stdenv.mkDerivation rec {
       programs such as an audio CD player and an extractor.
     '';
     license = stdenv.lib.licenses.gpl2Plus;
-    homepage = http://www.gnu.org/software/libcdio/;
+    homepage = "http://www.gnu.org/software/libcdio/";
   };
 }

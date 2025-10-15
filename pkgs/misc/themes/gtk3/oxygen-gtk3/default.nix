@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Port of the default KDE widget theme (Oxygen), to gtk 3";
-    homepage = https://projects.kde.org/projects/playground/artwork/oxygen-gtk;
+    homepage = "https://projects.kde.org/projects/playground/artwork/oxygen-gtk";
     license = licenses.lgpl2;
     platforms = platforms.linux;
   };

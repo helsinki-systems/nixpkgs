@@ -32,7 +32,7 @@ stdenv.mkDerivation {
       implementing backup job profiles, batch commands and more. Who says
       secure backups on non-trusted spaces are no child's play?
     '';
-    homepage = http://duply.net/;
+    homepage = "http://duply.net/";
     license = licenses.gpl2;
     maintainers = [ maintainers.bjornfor ];
     platforms = platforms.linux;

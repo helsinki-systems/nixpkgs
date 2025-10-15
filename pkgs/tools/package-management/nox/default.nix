@@ -20,7 +20,7 @@ pythonPackages.buildPythonPackage rec {
     ];
 
   meta = {
-    homepage = https://github.com/madjar/nox;
+    homepage = "https://github.com/madjar/nox";
     description = "Tools to make nix nicer to use";
     maintainers = [ lib.maintainers.madjar ];
     platforms = lib.platforms.all;

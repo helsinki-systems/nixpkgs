@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   makeFlags = [ "prefix=$(out)" ];
 
   meta = with stdenv.lib; {
-    homepage = http://mujs.com/;
+    homepage = "http://mujs.com/";
     description = "A lightweight, embeddable Javascript interpreter";
     platforms = stdenv.lib.platforms.linux;
     maintainers = with maintainers; [ pSub ];

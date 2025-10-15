@@ -26,7 +26,7 @@ stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = http://packages.ubuntu.com/source/saucy/kmod;
+    homepage = "http://packages.ubuntu.com/source/saucy/kmod";
     description = "Linux kernel module blacklists from Ubuntu";
   };
 }

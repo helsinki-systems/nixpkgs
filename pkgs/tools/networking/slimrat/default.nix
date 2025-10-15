@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "slimrat-1.0";
   src = fetchurl {
-    url = http://slimrat.googlecode.com/files/slimrat-1.0.tar.bz2;
+    url = "http://slimrat.googlecode.com/files/slimrat-1.0.tar.bz2";
     sha256 = "139b71d45k4b1y47iq62a9732cnaqqbh8s4knkrgq2hx0jxpsk5a";
   };
 
@@ -24,7 +24,7 @@ stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = http://code.google.com/p/slimrat/;
+    homepage = "http://code.google.com/p/slimrat/";
     description = "Linux Rapidshare downloader";
     license = stdenv.lib.licenses.mit;
   };

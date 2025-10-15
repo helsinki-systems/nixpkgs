@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A tiling window manager";
-    homepage = http://i3wm.org;
+    homepage = "http://i3wm.org";
     maintainers = [ stdenv.lib.maintainers.garbas ];
     license = stdenv.lib.licenses.bsd3;
     platforms = stdenv.lib.platforms.all;

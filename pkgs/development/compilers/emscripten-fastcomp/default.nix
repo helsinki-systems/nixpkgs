@@ -34,7 +34,7 @@ stdenv.mkDerivation rec {
     cp -a Release/bin $out
   '';
   meta = with stdenv.lib; {
-    homepage = https://github.com/kripken/emscripten-fastcomp;
+    homepage = "https://github.com/kripken/emscripten-fastcomp";
     description = "emscripten llvm";
     platforms = platforms.all;
     maintainers = with maintainers; [ bosu ];

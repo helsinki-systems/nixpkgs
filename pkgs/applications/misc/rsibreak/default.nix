@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ kdelibs kdebase_workspace ];
 
   meta = {
-    homepage = http://userbase.kde.org/RSIBreak; # http://www.rsibreak.org/ is down since 2011
+    homepage = "http://userbase.kde.org/RSIBreak"; # http://www.rsibreak.org/ is down since 2011
     description = "Utility to help prevent repetitive strain injury for KDE 4";
     inherit (kdelibs.meta) platforms maintainers;
   };

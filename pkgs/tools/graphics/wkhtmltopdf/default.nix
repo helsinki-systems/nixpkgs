@@ -75,7 +75,7 @@ stdenv.mkDerivation rec {
   enableParallelBuilding = true;
 
   meta = with stdenv.lib; {
-    homepage = http://wkhtmltopdf.org/;
+    homepage = "http://wkhtmltopdf.org/";
     description = "Tools for rendering web pages to PDF or images";
     longDescription = ''
       wkhtmltopdf and wkhtmltoimage are open source (LGPL) command line tools

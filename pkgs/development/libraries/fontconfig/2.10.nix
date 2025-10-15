@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   infinality_patch =
     let subvers = "1";
       in fetchurl {
-        url = http://www.infinality.net/fedora/linux/zips/fontconfig-infinality-1-20130104_1.tar.bz2;
+        url = "http://www.infinality.net/fedora/linux/zips/fontconfig-infinality-1-20130104_1.tar.bz2";
         sha256 = "1fm5xx0mx2243jrq5rxk4v0ajw2nawpj23399h710bx6hd1rviq7";
       }
     ;
@@ -53,7 +53,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A library for font customization and configuration";
-    homepage = http://fontconfig.org/;
+    homepage = "http://fontconfig.org/";
     license = licenses.bsd2; # custom but very bsd-like
     platforms = platforms.all;
     maintainers = [ maintainers.vcunat ];

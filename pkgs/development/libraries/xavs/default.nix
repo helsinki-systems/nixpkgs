@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "AVS encoder and decoder";
-    homepage    = http://xavs.sourceforge.net/;
+    homepage    = "http://xavs.sourceforge.net/";
     license     = licenses.lgpl2;
     platforms   = platforms.linux;
     maintainers = with maintainers; [ codyopel ];

@@ -30,7 +30,7 @@ stdenv.mkDerivation {
   meta = with stdenv.lib; {
     inherit version;
     description = "Build tool for D projects";
-    homepage = http://code.dlang.org/;
+    homepage = "http://code.dlang.org/";
     license = licenses.mit;
     platforms = platforms.unix;
   };

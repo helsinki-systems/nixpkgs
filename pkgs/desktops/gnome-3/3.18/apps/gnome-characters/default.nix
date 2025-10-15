@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
   ];
 
   meta = with stdenv.lib; {
-    homepage = https://wiki.gnome.org/Design/Apps/CharacterMap;
+    homepage = "https://wiki.gnome.org/Design/Apps/CharacterMap";
     description = "Simple utility application to find and insert unusual characters";
     maintainers = gnome3.maintainers;
     license = licenses.gpl2;

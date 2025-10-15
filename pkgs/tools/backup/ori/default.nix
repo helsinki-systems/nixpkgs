@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A secure distributed file system";
-    homepage = http://ori.scs.stanford.edu/;
+    homepage = "http://ori.scs.stanford.edu/";
     license = licenses.mit;
     platforms = platforms.unix;
   };

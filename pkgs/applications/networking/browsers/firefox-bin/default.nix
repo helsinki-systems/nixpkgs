@@ -148,10 +148,10 @@ stdenv.mkDerivation {
 
   meta = with stdenv.lib; {
     description = "Mozilla Firefox, free web browser (binary package)";
-    homepage = http://www.mozilla.org/firefox/;
+    homepage = "http://www.mozilla.org/firefox/";
     license = {
       free = false;
-      url = http://www.mozilla.org/en-US/foundation/trademarks/policy/;
+      url = "http://www.mozilla.org/en-US/foundation/trademarks/policy/";
     };
     platforms = platforms.linux;
   };

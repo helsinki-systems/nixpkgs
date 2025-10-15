@@ -19,7 +19,7 @@ stdenv.mkDerivation {
     pugixml ];
 
   meta = with stdenv.lib; {
-    homepage = http://filezilla-project.org/;
+    homepage = "http://filezilla-project.org/";
     description = "Graphical FTP, FTPS and SFTP client";
     license = licenses.gpl2;
     longDescription = ''

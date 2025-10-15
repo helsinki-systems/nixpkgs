@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ gupnp glib libxml2 ];
 
   meta = {
-    homepage = http://gupnp.org/;
+    homepage = "http://gupnp.org/";
     description = "A collection of helpers for building AV (audio/video) applications using GUPnP";
     license = stdenv.lib.licenses.gpl2;
     platforms = stdenv.lib.platforms.linux;

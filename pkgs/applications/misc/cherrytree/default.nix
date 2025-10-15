@@ -45,7 +45,7 @@ stdenv.mkDerivation rec {
       around your hard drive can be conveniently placed into a
       Cherrytree document where you can easily find it.
     ''; 
-    homepage = http://www.giuspen.com/cherrytree;
+    homepage = "http://www.giuspen.com/cherrytree";
     license = licenses.gpl3;
     platforms = platforms.linux; 
     maintainers = [ maintainers.AndersonTorres ]; 

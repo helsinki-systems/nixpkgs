@@ -19,7 +19,7 @@ pythonPackages.buildPythonPackage rec {
   propagatedBuildInputs = [ xrandr pythonPackages.pygtk ];
 
   meta = {
-    homepage = http://christian.amsuess.com/tools/arandr/;
+    homepage = "http://christian.amsuess.com/tools/arandr/";
     description = "A simple visual front end for XRandR";
     license = stdenv.lib.licenses.gpl3;
     maintainers = [ stdenv.lib.maintainers.iElectric ];

@@ -96,7 +96,7 @@ rec {
     };
 
     meta = with stdenv.lib; {
-      homepage = https://github.com/tobiasmelcher/EclipseAceJump;
+      homepage = "https://github.com/tobiasmelcher/EclipseAceJump";
       description = "Provides fast jumps to text based on initial letter";
       license = licenses.mit;
       platforms = platforms.all;
@@ -119,7 +119,7 @@ rec {
     };
 
     meta = with stdenv.lib; {
-      homepage = http://andrei.gmxhome.de/anyedit/;
+      homepage = "http://andrei.gmxhome.de/anyedit/";
       description = "Adds new tools to the context menu of text-based editors";
       license = licenses.epl10;
       platforms = platforms.all;
@@ -142,7 +142,7 @@ rec {
     };
 
     meta = with stdenv.lib; {
-      homepage = http://andrei.gmxhome.de/bytecode/;
+      homepage = "http://andrei.gmxhome.de/bytecode/";
       description = "Shows disassembled bytecode of current java editor or class file";
       license = licenses.bsd2;
       platforms = platforms.all;
@@ -161,7 +161,7 @@ rec {
     };
 
     meta = with stdenv.lib; {
-      homepage = https://eclipse.org/cdt/;
+      homepage = "https://eclipse.org/cdt/";
       description = "C/C++ development tooling";
       license = licenses.epl10;
       platforms = platforms.all;
@@ -180,7 +180,7 @@ rec {
     };
 
     meta = with stdenv.lib; {
-      homepage = http://eclipse-cs.sourceforge.net/;
+      homepage = "http://eclipse-cs.sourceforge.net/";
       description = "Checkstyle integration into the Eclipse IDE";
       license = licenses.lgpl21;
       platforms = platforms.all;
@@ -204,7 +204,7 @@ rec {
     };
 
     meta = with stdenv.lib; {
-      homepage = http://eclipsecolorthemes.org/;
+      homepage = "http://eclipsecolorthemes.org/";
       description = "Plugin to switch color themes conveniently and without side effects";
       license = licenses.epl10;
       platforms = platforms.all;
@@ -244,7 +244,7 @@ rec {
     '';
 
     meta = with stdenv.lib; {
-      homepage = http://www2.cs.tum.edu/projects/cup/eclipse.php;
+      homepage = "http://www2.cs.tum.edu/projects/cup/eclipse.php";
       description = "IDE for developing CUP based parsers";
       platforms = platforms.all;
       maintainers = [ maintainers.romildo ];
@@ -262,7 +262,7 @@ rec {
     };
 
     meta = with stdenv.lib; {
-      homepage = http://www.eclemma.org/;
+      homepage = "http://www.eclemma.org/";
       description = "EclEmma is a free Java code coverage tool for Eclipse";
       license = licenses.epl10;
       platforms = platforms.all;
@@ -285,7 +285,7 @@ rec {
     };
 
     meta = with stdenv.lib; {
-      homepage = http://www.mulgasoft.com/emacsplus/;
+      homepage = "http://www.mulgasoft.com/emacsplus/";
       description = "Provides a more Emacs-like experience in the Eclipse text editors";
       license = licenses.epl10;
       platforms = platforms.all;
@@ -308,7 +308,7 @@ rec {
     };
 
     meta = with stdenv.lib; {
-      homepage = http://findbugs.sourceforge.net/;
+      homepage = "http://findbugs.sourceforge.net/";
       description = "Plugin that uses static analysis to look for bugs in Java code";
       license = licenses.epl10;
       platforms = platforms.all;
@@ -327,7 +327,7 @@ rec {
     };
 
     meta = with stdenv.lib; {
-      homepage = http://gnuarmeclipse.livius.net/;
+      homepage = "http://gnuarmeclipse.livius.net/";
       description = "GNU ARM Eclipse Plug-ins";
       license = licenses.epl10;
       platforms = platforms.all;
@@ -346,7 +346,7 @@ rec {
     };
 
     meta = with stdenv.lib; {
-      homepage = https://www.eclipse.org/jdt/;
+      homepage = "https://www.eclipse.org/jdt/";
       description = "Eclipse Java development tools";
       license = licenses.epl10;
       platforms = platforms.all;
@@ -387,7 +387,7 @@ rec {
     };
 
     meta = with stdenv.lib; {
-      homepage = http://testng.org/;
+      homepage = "http://testng.org/";
       description = "Eclipse plugin for the TestNG testing framework";
       license = licenses.asl20;
       platforms = platforms.all;

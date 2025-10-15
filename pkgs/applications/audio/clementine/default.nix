@@ -11,7 +11,7 @@ let
   exeName = "clementine";
 
   src = fetchurl {
-    url = https://github.com/clementine-player/Clementine/archive/1.2.3.tar.gz;
+    url = "https://github.com/clementine-player/Clementine/archive/1.2.3.tar.gz";
     sha256 = "1gx1109i4pylz6x7gvp4rdzc6dvh0w6in6hfbygw01d08l26bxbx";
   };
 

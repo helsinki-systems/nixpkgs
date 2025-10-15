@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
       </itemizedlist>
     '';
 
-    homepage = http://ptop.projects.postgresql.org/;
+    homepage = "http://ptop.projects.postgresql.org/";
     platforms = platforms.linux;
     license = licenses.free; # see commands.c
   };

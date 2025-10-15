@@ -66,7 +66,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = {
-    homepage = https://fedorahosted.org/elfutils/;
+    homepage = "https://fedorahosted.org/elfutils/";
     description = "A set of utilities to handle ELF objects";
     platforms = lib.platforms.linux;
     license = lib.licenses.gpl3;

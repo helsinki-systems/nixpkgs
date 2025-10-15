@@ -27,7 +27,7 @@ stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = http://www.sqlite.org/;
+    homepage = "http://www.sqlite.org/";
     description = "A tool that shows statistics about sqlite databases";
     platforms = stdenv.lib.platforms.unix;
     maintainers = with stdenv.lib.maintainers; [ pesterhazy ];

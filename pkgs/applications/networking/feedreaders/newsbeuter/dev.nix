@@ -36,7 +36,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage    = http://www.newsbeuter.org;
+    homepage    = "http://www.newsbeuter.org";
     description = "An open-source RSS/Atom feed reader for text terminals";
     maintainers = with maintainers; [ lovek323 ];
     license     = licenses.mit;

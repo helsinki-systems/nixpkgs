@@ -24,7 +24,7 @@ stdenv.mkDerivation  rec {
 
   meta = with stdenv.lib; {
     description = "A DSP tonewheel organ emulator";
-    homepage = http://setbfree.org;
+    homepage = "http://setbfree.org";
     license = licenses.gpl2;
     platforms = platforms.linux;
     maintainers = [ maintainers.goibhniu ];

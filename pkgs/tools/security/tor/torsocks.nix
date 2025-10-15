@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description      = "Wrapper to safely torify applications";
-    homepage         = http://code.google.com/p/torsocks/;
+    homepage         = "http://code.google.com/p/torsocks/";
     repositories.git = https://git.torproject.org/torsocks.git;
     license          = stdenv.lib.licenses.gpl2;
     platforms        = stdenv.lib.platforms.unix;

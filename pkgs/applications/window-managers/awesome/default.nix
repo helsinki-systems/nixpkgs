@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Highly configurable, dynamic window manager for X";
-    homepage    = http://awesome.naquadah.org/;
+    homepage    = "http://awesome.naquadah.org/";
     license     = licenses.gpl2Plus;
     maintainers = with maintainers; [ lovek323 ];
     platforms   = platforms.linux;

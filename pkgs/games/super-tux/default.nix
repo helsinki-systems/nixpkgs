@@ -7,7 +7,7 @@ stdenv.mkDerivation rec {
   version = "0.4.0";
 
   src = fetchurl {
-    url = https://github.com/SuperTux/supertux/releases/download/v0.4.0/supertux-0.4.0.tar.bz2;
+    url = "https://github.com/SuperTux/supertux/releases/download/v0.4.0/supertux-0.4.0.tar.bz2";
     sha256 = "10ppmy6w77lxj8bdzjahc9bidgl4qgzr9rimn15rnqay84ydx3fi";
   };
 
@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Classic 2D jump'n run sidescroller game";
-    homepage = http://supertux.github.io/;
+    homepage = "http://supertux.github.io/";
     license = licenses.gpl2;
     maintainers = with maintainers; [ pSub ];
   };

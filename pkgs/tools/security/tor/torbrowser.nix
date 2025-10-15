@@ -79,7 +79,7 @@ in stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Tor Browser Bundle";
-    homepage    = https://www.torproject.org/;
+    homepage    = "https://www.torproject.org/";
     platforms   = platforms.linux;
     maintainers = with maintainers; [ offline matejc doublec thoughtpolice ];
   };

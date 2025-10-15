@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A high-performance theorem prover and SMT solver";
-    homepage    = http://cvc4.cs.nyu.edu/web/;
+    homepage    = "http://cvc4.cs.nyu.edu/web/";
     license     = licenses.bsd3;
     platforms   = platforms.unix;
     maintainers = with maintainers; [ vbgl thoughtpolice ];

@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "SSTP client for Linux";
-    homepage = http://sstp-client.sourceforge.net/;
+    homepage = "http://sstp-client.sourceforge.net/";
     platforms = stdenv.lib.platforms.linux;
     maintainers = [ stdenv.lib.maintainers.ktosiek ];
   };

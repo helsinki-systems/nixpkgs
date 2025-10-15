@@ -8,7 +8,7 @@ stdenv.mkDerivation {
   name = "gnome-control-center-2.32.1";
 
   src = fetchurl {
-    url = mirror://gnome/sources/gnome-control-center/2.32/gnome-control-center-2.32.1.tar.bz2;
+    url = "mirror://gnome/sources/gnome-control-center/2.32/gnome-control-center-2.32.1.tar.bz2";
     sha256 = "0rkyg6naidql0nv74608mlsr2lzjgnndnxnxv3s0hp4f6mbqnmkw";
   };
 

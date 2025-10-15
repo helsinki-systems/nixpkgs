@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Server for synchronising Taskwarrior clients";
-    homepage = http://taskwarrior.org;
+    homepage = "http://taskwarrior.org";
     license = stdenv.lib.licenses.mit;
     platforms = stdenv.lib.platforms.linux;
     maintainers = with stdenv.lib.maintainers; [ matthiasbeyer ];

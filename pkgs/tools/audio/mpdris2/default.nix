@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "MPRIS 2 support for mpd";
-    homepage = https://github.com/eonpatapon/mpDris2/;
+    homepage = "https://github.com/eonpatapon/mpDris2/";
     license = licenses.gpl3;
     platforms = platforms.unix;
     maintainers = with maintainers; [ pjones ];

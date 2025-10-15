@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ pkgconfig glib dbus.libs dbus_glib ];
 
   meta = {
-    homepage = http://hal.freedesktop.org/releases/;
+    homepage = "http://hal.freedesktop.org/releases/";
     description = "D-Bus bindings for GObject";
   };
 }

@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Free advanced command line hexadecimal editor";
-    homepage = http://radare.org/;
+    homepage = "http://radare.org/";
     license = stdenv.lib.licenses.gpl2Plus;
     maintainers = with stdenv.lib.maintainers; [raskin];
     platforms = with stdenv.lib.platforms; linux;

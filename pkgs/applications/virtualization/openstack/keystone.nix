@@ -47,7 +47,7 @@ pythonPackages.buildPythonPackage rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://keystone.openstack.org/;
+    homepage = "http://keystone.openstack.org/";
     description = "Authentication, authorization and service discovery mechanisms via HTTP";
     license = stdenv.lib.licenses.asl20;
     platforms = stdenv.lib.platforms.linux;

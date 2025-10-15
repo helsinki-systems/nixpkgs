@@ -56,7 +56,7 @@ stdenv.mkDerivation rec {
   preInstall = "mkdir -p $out/bin";
 
   meta = {
-    homepage = http://hostap.epitest.fi;
+    homepage = "http://hostap.epitest.fi";
     repositories.git = git://w1.fi/hostap.git;
     description = "A user space daemon for access point and authentication servers";
     license = licenses.gpl2;

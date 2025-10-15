@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ glib pkgconfig ] ++ stdenv.lib.optional (stdenv.system == "x86_64-darwin") gettext;
 
   meta = {
-    homepage = http://gts.sourceforge.net/;
+    homepage = "http://gts.sourceforge.net/";
     license = stdenv.lib.licenses.lgpl2Plus;
     description = "GNU Triangulated Surface Library";
 

@@ -81,7 +81,7 @@ in stdenv.mkDerivation rec {
 
   meta = {
     description = "a scalable, high-performance, open source NoSQL database";
-    homepage = http://www.mongodb.org;
+    homepage = "http://www.mongodb.org";
     license = licenses.agpl3;
 
     maintainers = with maintainers; [ bluescreen303 offline wkennington cstrahan ];

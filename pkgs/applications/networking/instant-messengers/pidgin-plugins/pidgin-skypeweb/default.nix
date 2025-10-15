@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
   postInstall = "ln -s \$out/lib/pidgin \$out/share/pidgin-skypeweb";
 
   meta = with stdenv.lib; {
-    homepage = https://github.com/EionRobb/skype4pidgin;
+    homepage = "https://github.com/EionRobb/skype4pidgin";
     description = "SkypeWeb Plugin for Pidgin";
     license = licenses.gpl3;
     platforms = platforms.linux;

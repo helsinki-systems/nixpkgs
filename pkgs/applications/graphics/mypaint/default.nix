@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "A graphics application for digital painters";
-    homepage = http://mypaint.intilinux.com;
+    homepage = "http://mypaint.intilinux.com";
     license = licenses.gpl2Plus;
     platforms = platforms.linux;
     maintainers = [ maintainers.goibhniu ];

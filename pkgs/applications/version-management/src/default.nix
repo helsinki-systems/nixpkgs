@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Simple single-file revision control";
-    homepage = http://www.catb.org/~esr/src/;
+    homepage = "http://www.catb.org/~esr/src/";
     license = stdenv.lib.licenses.bsd3;
     platforms = stdenv.lib.platforms.all;
   };

@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Info about OSs, hypervisors and (virtual) hardware devices";
-    homepage = http://libosinfo.org/;
+    homepage = "http://libosinfo.org/";
     license = licenses.lgpl2Plus;
     platforms = platforms.linux;
     maintainers = [ maintainers.bjornfor ];

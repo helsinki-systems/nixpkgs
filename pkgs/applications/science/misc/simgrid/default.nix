@@ -78,7 +78,7 @@ stdenv.mkDerivation rec {
          network of workstations to Computational Grids.
       '';
 
-    homepage = http://simgrid.gforge.inria.fr/;
+    homepage = "http://simgrid.gforge.inria.fr/";
 
     license = stdenv.lib.licenses.lgpl2Plus;
 

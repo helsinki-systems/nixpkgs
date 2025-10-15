@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
     ''; # */
 
   meta = {
-    homepage = https://requester.mturk.com/developer;
+    homepage = "https://requester.mturk.com/developer";
     description = "Command line tools for interacting with the Amazon Mechanical Turk";
     license = stdenv.lib.licenses.amazonsl;
 
@@ -41,7 +41,7 @@ stdenv.mkDerivation rec {
         <screen>
         access_key=[insert your access key here]
         secret_key=[insert your secret key here]
-        service_url=http://mechanicalturk.amazonaws.com/?Service=AWSMechanicalTurkRequester
+        service_url="http://mechanicalturk.amazonaws.com/?Service=AWSMechanicalTurkRequester"
         </screen>
       '';
   };

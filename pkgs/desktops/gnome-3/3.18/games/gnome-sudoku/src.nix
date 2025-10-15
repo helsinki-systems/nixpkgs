@@ -4,7 +4,7 @@ fetchurl: {
   name = "gnome-sudoku-3.18.2";
 
   src = fetchurl {
-    url = mirror://gnome/sources/gnome-sudoku/3.18/gnome-sudoku-3.18.2.tar.xz;
+    url = "mirror://gnome/sources/gnome-sudoku/3.18/gnome-sudoku-3.18.2.tar.xz";
     sha256 = "4eefde04145d9f4bf30f4327b83929f6bfb8a19b604337c1d75f66e984f8c0ac";
   };
 }

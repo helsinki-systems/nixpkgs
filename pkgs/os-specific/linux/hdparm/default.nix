@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A tool to get/set ATA/SATA drive parameters under Linux";
-    homepage = http://sourceforge.net/projects/hdparm/;
+    homepage = "http://sourceforge.net/projects/hdparm/";
     platforms = stdenv.lib.platforms.linux;
     license = stdenv.lib.licenses.bsd2;
     maintainers = with stdenv.lib.maintainers; [ fuuzetsu ];

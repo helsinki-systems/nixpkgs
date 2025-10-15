@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
 
     license = licenses.gpl3Plus;
 
-    homepage = http://www.gnu.org/software/acct/;
+    homepage = "http://www.gnu.org/software/acct/";
 
     maintainers = with maintainers; [ pSub ];
     platforms = with platforms; allBut cygwin;

@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Qt4 based GUI for monotone";
-    homepage = http://guitone.thomaskeller.biz;
+    homepage = "http://guitone.thomaskeller.biz";
     inherit (qt4.meta) platforms;
   };
 }

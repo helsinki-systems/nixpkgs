@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ systemd autoreconfHook pkgconfig udev glib readline ];
 
   meta = {
-    homepage = https://github.com/albfan/miraclecast;
+    homepage = "https://github.com/albfan/miraclecast";
     description = "Connect external monitors via Wi-Fi";
     license = licenses.lgpl21Plus;
     maintainers = with maintainers; [ tstrobel ];

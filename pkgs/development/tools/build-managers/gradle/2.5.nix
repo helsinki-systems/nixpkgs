@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
       between the flexibility of Ant and the convenience of a 
       build-by-convention behavior.
     '';
-    homepage = http://www.gradle.org/;
+    homepage = "http://www.gradle.org/";
     license = stdenv.lib.licenses.asl20;
   };
 }

@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Client library for MPD (music player daemon)";
-    homepage = http://www.musicpd.org/libs/libmpdclient/;
+    homepage = "http://www.musicpd.org/libs/libmpdclient/";
     license = licenses.gpl2;
     platforms = platforms.unix;
     maintainers = with maintainers; [ mornfall ehmry ];

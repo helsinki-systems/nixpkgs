@@ -32,7 +32,7 @@ stdenv.mkDerivation {
 
   meta = with stdenv.lib; {
     description = "Private, secure, untraceable currency";
-    homepage = http://monero.cc/;
+    homepage = "http://monero.cc/";
     license = licenses.bsd3;
     maintainers = [ maintainers.ehmry ];
     platforms = [ "x86_64-linux" ];

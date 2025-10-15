@@ -45,7 +45,7 @@ stdenv.mkDerivation {
 
   
   meta = {
-    homepage = http://patoline.com;
+    homepage = "http://patoline.com";
     description = "Patoline ocaml based typesetting system";
   };
 }

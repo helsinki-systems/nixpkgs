@@ -16,7 +16,7 @@ stdenv.mkDerivation {
   createFindlibDestdir = true;
 
   meta = {
-    homepage = https://github.com/mirage/io-page;
+    homepage = "https://github.com/mirage/io-page";
     platforms = ocaml.meta.platforms;
     description = "IO memory page library for Mirage backends";
     maintainers = with stdenv.lib.maintainers; [ vbgl ];

@@ -50,7 +50,7 @@ in stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://roxterm.sourceforge.net/;
+    homepage = "http://roxterm.sourceforge.net/";
     license = licenses.gpl3;
     description = "Tabbed, VTE-based terminal emulator";
     longDescription = ''

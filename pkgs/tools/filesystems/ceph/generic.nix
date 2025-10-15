@@ -276,7 +276,7 @@ stdenv.mkDerivation {
   enableParallelBuilding = true;
 
   meta = {
-    homepage = http://ceph.com/;
+    homepage = "http://ceph.com/";
     description = "Distributed storage system";
     license = licenses.lgpl21;
     maintainers = with maintainers; [ ak wkennington ];

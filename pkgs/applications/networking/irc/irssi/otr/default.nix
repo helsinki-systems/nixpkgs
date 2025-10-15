@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
   buildInputs = [ libotr automake autoconf libtool glib pkgconfig irssi ];
 
   meta = {
-    homepage = https://github.com/cryptodotis/irssi-otr;
+    homepage = "https://github.com/cryptodotis/irssi-otr";
     license = stdenv.lib.licenses.gpl2Plus;
   };
 }

@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
 
   meta = with stdenv.lib; {
     description = "Archive of autoconf m4 macros";
-    homepage = http://www.gnu.org/software/autoconf-archive/;
+    homepage = "http://www.gnu.org/software/autoconf-archive/";
     license = licenses.gpl3;
   };
 }

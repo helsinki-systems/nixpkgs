@@ -13,6 +13,6 @@ stdenv.mkDerivation rec {
   buildInputs = [aspell pkgconfig glib hunspell hspell];
   
   meta = {
-    homepage = http://www.abisource.com/enchant;
+    homepage = "http://www.abisource.com/enchant";
   };
 }

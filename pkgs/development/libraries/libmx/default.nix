@@ -46,7 +46,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with stdenv.lib; {
-    homepage = http://www.clutter-project.org/;
+    homepage = "http://www.clutter-project.org/";
     description = "A Clutter-based toolkit";
     longDescription =
       ''Mx is a widget toolkit using Clutter that provides a set of standard

@@ -31,6 +31,6 @@ stdenv.mkDerivation rec {
         programing languages. It is based on KDevPlatform, KDE and Qt
         libraries and is under development since 1998.
       '';
-    homepage = http://www.kdevelop.org;
+    homepage = "http://www.kdevelop.org";
   };
 }

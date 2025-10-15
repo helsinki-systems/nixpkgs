@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Google mock: Google's framework for writing C++ mock classes";
-    homepage = https://code.google.com/p/googlemock/;
+    homepage = "https://code.google.com/p/googlemock/";
     license = stdenv.lib.licenses.bsd3;
     maintainers = [ stdenv.lib.maintainers.auntie ];
   };

@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "tyxml-3.4.0";
 
   src = fetchurl {
-    url = http://github.com/ocsigen/tyxml/archive/3.4.0.tar.gz;
+    url = "http://github.com/ocsigen/tyxml/archive/3.4.0.tar.gz";
     sha256 = "10hb0b2j33fjqzmx450ns7dmf4pqmx3gyvr6dk99mghqk13cj5ww";
     };
 
@@ -15,7 +15,7 @@ stdenv.mkDerivation {
   createFindlibDestdir = true;
 
   meta = with stdenv.lib; {
-    homepage = http://ocsigen.org/tyxml/;
+    homepage = "http://ocsigen.org/tyxml/";
     description = "A library that makes it almost impossible for your OCaml programs to generate wrong XML output, using static typing";
     license = licenses.lgpl21;
     platforms = ocaml.meta.platforms;

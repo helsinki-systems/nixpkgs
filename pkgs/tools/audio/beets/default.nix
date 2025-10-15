@@ -191,7 +191,7 @@ in buildPythonPackage rec {
 
   meta = {
     description = "Music tagger and library organizer";
-    homepage = http://beets.radbox.org;
+    homepage = "http://beets.radbox.org";
     license = licenses.mit;
     maintainers = with maintainers; [ aszlig iElectric pjones profpatsch ];
     platforms = platforms.linux;

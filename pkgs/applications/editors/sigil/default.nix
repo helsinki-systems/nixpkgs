@@ -60,7 +60,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Free, open source, multi-platform ebook (ePub) editor";
-    homepage = https://code.google.com/p/sigil/;
+    homepage = "https://code.google.com/p/sigil/";
     license = stdenv.lib.licenses.gpl3;
     inherit version;
   };
