@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
       10646/Unicode UCS (Universal Character Set).
     '';
 
-    homepage = http://www.gnu.org/software/freefont/;
+    homepage = "http://www.gnu.org/software/freefont/";
     license = "GPLv3+";
   };
 }

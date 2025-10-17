@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   builder = ./builder.sh;
 
   src = fetchurl {
-    url = http://download.belastingdienst.nl/belastingdienst/apps/linux/ib2005_linux.tar.gz;
+    url = "http://download.belastingdienst.nl/belastingdienst/apps/linux/ib2005_linux.tar.gz";
     md5 = "9cc709b8ad041f4b20154ff1491d0436";
   };
 

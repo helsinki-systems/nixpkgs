@@ -21,6 +21,6 @@ stdenv.mkDerivation rec {
     license = [ "LGPLv2.1" # library
                 "GPLv2"    # command-line tools
 	      ];
-    homepage = http://oss.sgi.com/projects/libnuma/;
+    homepage = "http://oss.sgi.com/projects/libnuma/";
   };
 }

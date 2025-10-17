@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "wpa_supplicant-0.6.3";
 
   src = fetchurl {
-    url = http://hostap.epitest.fi/releases/wpa_supplicant-0.6.3.tar.gz;
+    url = "http://hostap.epitest.fi/releases/wpa_supplicant-0.6.3.tar.gz";
     sha256 = "f70b18243e049bbda66254388b6e94d404e747d913b8496d6e93a9c56bbf4af2";
   };
 

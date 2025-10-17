@@ -5,7 +5,7 @@ let
   localDefs = builderDefs.passthru.function {
 
     src = fetchurl {
-      url = http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/oldtar/Pyrex-0.9.5.1.1.tar.gz;
+      url = "http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/oldtar/Pyrex-0.9.5.1.1.tar.gz";
       sha256 = "0lxxvn4mjfb83swcbqb5908q4iy53w4ip5i0f9angm2va1jyhd3z";
     };
 

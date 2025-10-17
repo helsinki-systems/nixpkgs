@@ -13,6 +13,6 @@ stdenv.mkDerivation {
 
   meta = {
     description = "A garbage collector for C and C++";
-    homepage = http://www.hpl.hp.com/personal/Hans_Boehm/gc/;
+    homepage = "http://www.hpl.hp.com/personal/Hans_Boehm/gc/";
   };
 }

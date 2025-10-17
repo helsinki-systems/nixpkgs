@@ -38,7 +38,7 @@ stdenv.mkDerivation {
   name = "teamspeak-client-rc2-2032";
 
   src = fetchurl {
-    url = ftp://213.202.254.114/teamspeak/releases/ts2_client_rc2_2032.tar.bz2;
+    url = "ftp://213.202.254.114/teamspeak/releases/ts2_client_rc2_2032.tar.bz2";
     md5 = "e93d17a25e07b1cbe400e4eb028ca8f8";
   };
 
@@ -65,7 +65,7 @@ stdenv.mkDerivation {
 
   meta = { 
       description = "The TeamSpeak voice communication tool";
-      homepage = http://www.goteamspeak.com;
+      homepage = "http://www.goteamspeak.com";
       license = "TODO"; # non commercial use see email above 
   };
 }

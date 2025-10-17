@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "system-config-printer-0.9.93";
   src = fetchurl {
-    url = http://cyberelk.net/tim/data/system-config-printer/system-config-printer-0.9.93.tar.bz2;
+    url = "http://cyberelk.net/tim/data/system-config-printer/system-config-printer-0.9.93.tar.bz2";
     md5 = "b97deae648bc1c5825874d250a9c140c";
   };
   patchPhase = ''

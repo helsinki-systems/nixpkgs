@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
       daemons.
     '';
 
-    homepage = http://nfs.sourceforge.net/;
+    homepage = "http://nfs.sourceforge.net/";
     license = "GPLv2";
   };
 }

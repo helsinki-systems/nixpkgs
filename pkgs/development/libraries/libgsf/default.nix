@@ -10,7 +10,7 @@ stdenv.mkDerivation rec {
   gnomevfs libbonobo python];
 
   meta = {
-	  homepage = http://www.gnome.org/projects/libgsf;
+	  homepage = "http://www.gnome.org/projects/libgsf";
 	  license = "LGPL";
 	  description = "GNOME Structured File Library";
   };

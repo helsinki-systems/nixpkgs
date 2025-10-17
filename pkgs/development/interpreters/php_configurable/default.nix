@@ -90,7 +90,7 @@ composableDerivation {} ( fixed : {
          Building xdebug withing php to be able to add the parameters to the ini file.. Ther should be a better way
         meta = {
                 description = "debugging support for PHP";
-                homepage = http://xdebug.org;
+                homepage = "http://xdebug.org";
                 license = "based on the PHP license - as is";
                 };
       */
@@ -168,7 +168,7 @@ composableDerivation {} ( fixed : {
 
   meta = {
     description = "The PHP language runtime engine";
-    homepage = http://www.php.net/;
+    homepage = "http://www.php.net/";
     license = "PHP-3";
   };
 

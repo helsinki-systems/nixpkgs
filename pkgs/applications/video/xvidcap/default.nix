@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   name = "xvidcap-1.1.4p1";
   
   src = fetchurl {
-    url = mirror://sourceforge/xvidcap/xvidcap-1.1.4p1.tar.gz;
+    url = "mirror://sourceforge/xvidcap/xvidcap-1.1.4p1.tar.gz";
     md5 = "35a038dba807f6e09f1d9dd2bc0c5719";
   };
   
@@ -16,7 +16,7 @@ stdenv.mkDerivation {
 
   meta = { 
     description = "screencast video catpuring tool";
-    homepage = http://xvidcap.sourceforge.net/;
+    homepage = "http://xvidcap.sourceforge.net/";
     license = "GPLv2";
   };
 }

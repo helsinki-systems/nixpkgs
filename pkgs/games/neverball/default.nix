@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "neverball-1.5.0";
   src = fetchurl {
-    url = http://neverball.org/neverball-1.5.0.tar.gz;
+    url = "http://neverball.org/neverball-1.5.0.tar.gz";
     sha256 = "8e6f6946cf2b08c13e4956a14f46d74c5a40735965f8fa876668c52d1877ec6a";
   };
 
@@ -26,7 +26,7 @@ stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = http://neverball.org/;
+    homepage = "http://neverball.org/";
     description = "Tilt the floor to roll a ball";
     license = "GPL";
   };

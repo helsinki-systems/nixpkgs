@@ -17,7 +17,7 @@ stdenv.mkDerivation {
   name = "snix-0.12rev10946";
   
   src = fetchurl {
-    url = http://www.denbreejen.net/public/nix/snix-20080304-rev10948.tar.gz;
+    url = "http://www.denbreejen.net/public/nix/snix-20080304-rev10948.tar.gz";
     sha256 = "6973f080be8a32f1fc9b109f7f180b2bbd4e9e246721de9247378e49c6a70ef4";
   };
   
@@ -38,7 +38,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "The SNix Deployment System (Nix extended to handle state)";
-    homepage = http://nixos.org/;
+    homepage = "http://nixos.org/";
     license = "LGPL";
   };
 }

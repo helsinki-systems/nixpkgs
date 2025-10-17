@@ -9,7 +9,7 @@ args: with args;
 stdenv.mkDerivation {
   name = "compiz-0.5.0";
   src = fetchurl {
-    url = http://xorg.freedesktop.org/archive/individual/app/compiz-0.5.0.tar.gz;
+    url = "http://xorg.freedesktop.org/archive/individual/app/compiz-0.5.0.tar.gz";
     sha256 = "1fac5fc37b218k34lpxqlhs7srqxm7jly0hfncs3ghmjmxdlj03y";
   };
   patches = [

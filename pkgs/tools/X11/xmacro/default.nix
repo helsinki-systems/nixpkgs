@@ -3,7 +3,7 @@ stdenv.mkDerivation {
   name = "xmacro";
 
   src = fetchurl {
-    url = mirror://sourceforge/xmacro/xmacro-pre0.3-20000911.tar.gz;
+    url = "mirror://sourceforge/xmacro/xmacro-pre0.3-20000911.tar.gz";
     md5 = "d2956b82f3d5380e58a75ccc721fb746";
   };
 

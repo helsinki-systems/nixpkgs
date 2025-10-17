@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
       among others.
     '';
 
-    homepage = http://www.gnu.org/software/inetutils/;
+    homepage = "http://www.gnu.org/software/inetutils/";
     license = "GPLv3+";
   };
 }

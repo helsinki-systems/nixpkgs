@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "xpra-0.0.3";
   
   src = fetchurl {
-    url = http://partiwm.org/static/downloads/parti-all-0.0.3.tar.gz;
+    url = "http://partiwm.org/static/downloads/parti-all-0.0.3.tar.gz";
     sha256 = "17inksd4cc7mba2vfs17gz1yk3h6x6wf06pm3hcbs5scq8rr5bkp";
   };
 
@@ -33,7 +33,7 @@ stdenv.mkDerivation {
   '';
   
   meta = {
-    homepage = http://partiwm.org/wiki/xpra;
+    homepage = "http://partiwm.org/wiki/xpra";
     description = "Persistent remote applications for X";
   };
 }

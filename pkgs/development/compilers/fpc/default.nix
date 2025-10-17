@@ -8,7 +8,7 @@ stdenv.mkDerivation {
   name = "fpc-2.2.2";
 
   src = fetchurl {
-    url = ftp://freepascal.stack.nl/pub/fpc/dist/source-2.2.2/fpcbuild-2.2.2.tar.gz;
+    url = "ftp://freepascal.stack.nl/pub/fpc/dist/source-2.2.2/fpcbuild-2.2.2.tar.gz";
     sha256 = "0d73b119e029382052fc6615034c4b5ee3ec66fa6cc45648f1f07cfb2c1058f1";
   };
 

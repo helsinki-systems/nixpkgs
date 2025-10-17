@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "libsmbios-0.13.6";
   src = fetchurl {
-    url = http://linux.dell.com/libsmbios/download/libsmbios/libsmbios-0.13.6/libsmbios-0.13.6.tar.gz;
+    url = "http://linux.dell.com/libsmbios/download/libsmbios/libsmbios-0.13.6/libsmbios-0.13.6.tar.gz";
     sha256 = "0zjch3xzyr289x64wzaj67l4jj0x645krxmx4yqn18hp2innfffs";
   };
   buildInputs = [libxml2];

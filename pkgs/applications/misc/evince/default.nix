@@ -36,7 +36,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.gnome.org/projects/evince/;
+    homepage = "http://www.gnome.org/projects/evince/";
     description = "Evince, GNOME's document viewer";
 
     longDescription = ''

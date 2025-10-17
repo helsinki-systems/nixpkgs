@@ -40,7 +40,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     license = "GPL";
-    homepage = http://www.inkscape.org;
+    homepage = "http://www.inkscape.org";
     longDescription = ''
       Inkscape is a feature-rich vector graphics editor that edits
       files in the W3C SVG (Scalable Vector Graphics) file format.

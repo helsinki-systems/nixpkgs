@@ -2,7 +2,7 @@ args: with args; stdenv.mkDerivation {
   name = "wmii-20070516";
 
   src = fetchurl {
-    url = http://www.suckless.org/download/wmii-3.6.tar.gz;
+    url = "http://www.suckless.org/download/wmii-3.6.tar.gz";
     sha256 = "05mj651yv02rvkpqqkgwp8307nrrqpcwfv5k8186kx2yiiw9pws6";
   };
 

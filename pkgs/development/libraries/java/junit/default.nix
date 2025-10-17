@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   builder = ./builder.sh;
 
   src = fetchurl {
-    url = mirror://sourceforge/junit/junit3.8.1.zip;
+    url = "mirror://sourceforge/junit/junit3.8.1.zip";
     md5 = "5110326e4b7f7497dfa60ede4b626751";
   };
 

@@ -14,7 +14,7 @@ args.stdenv.mkDerivation rec {
 
   meta = { 
       description = "library for encoding H264/AVC video streams";
-      homepage = http://www.videolan.org/developers/x264.html;
+      homepage = "http://www.videolan.org/developers/x264.html";
       license = "GPL";
   };
 }

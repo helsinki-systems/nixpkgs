@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
   name = "samba-3.2.7";
 
   src = fetchurl {
-    url = http://us3.samba.org/samba/ftp/stable/samba-3.2.7.tar.gz;
+    url = "http://us3.samba.org/samba/ftp/stable/samba-3.2.7.tar.gz";
     sha256 = "18q4q1ay9dsk3djl1s2ibj51n8c111y05h5dsc2ssl2wg32vhasg";
   };
 

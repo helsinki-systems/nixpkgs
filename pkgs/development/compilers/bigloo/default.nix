@@ -39,7 +39,7 @@ stdenv.mkDerivation rec {
       between Scheme and C# programs.
     '';
 
-    homepage = http://www-sop.inria.fr/mimosa/fp/Bigloo/;
+    homepage = "http://www-sop.inria.fr/mimosa/fp/Bigloo/";
     license = "GPLv2+";
   };
 }

@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   builder = ./builder.sh;
   src = 
     fetchurl {
-      url = http://garr.dl.sourceforge.net/sourceforge/jboss/jboss-4.2.2.GA-src.tar.gz;
+      url = "http://garr.dl.sourceforge.net/sourceforge/jboss/jboss-4.2.2.GA-src.tar.gz";
       md5 = "2a626cdccabe712628555676d67ad44a";
     };
 

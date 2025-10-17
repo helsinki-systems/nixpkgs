@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "zdoom-svn-1424";
   src = fetchsvn {
-    url = http://mancubus.net/svn/hosted/zdoom/zdoom/trunk;
+    url = "http://mancubus.net/svn/hosted/zdoom/zdoom/trunk";
     rev = 1424;
   };
   buildInputs = [cmake nasm SDL p7zip zlib flac fmod libjpeg];
@@ -22,7 +22,7 @@ stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = http://zdoom.org/;
+    homepage = "http://zdoom.org/";
     description = "Enhanced port of the official DOOM source code";
   };
 }

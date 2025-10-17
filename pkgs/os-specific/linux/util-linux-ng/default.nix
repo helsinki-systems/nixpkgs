@@ -15,7 +15,7 @@ stdenv.mkDerivation {
   name = (if buildMountOnly then "mount-" else "") + "util-linux-ng-2.14.1";
 
   src = fetchurl {
-    url = mirror://kernel/linux/utils/util-linux-ng/v2.14/util-linux-ng-2.14.1.tar.bz2;
+    url = "mirror://kernel/linux/utils/util-linux-ng/v2.14/util-linux-ng-2.14.1.tar.bz2";
     sha256 = "0b40xwdqpp16fcy1vfzqigl41d9slq32kzv2jr6nfy5bk59rqa5z";
   };
 

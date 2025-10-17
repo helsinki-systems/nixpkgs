@@ -2,7 +2,7 @@ args: with args;
 stdenv.mkDerivation {
 	name = "openbabel-2.1.1";
 	src = fetchurl { 
-		url = mirror://sf/openbabel/openbabel-2.1.1.tar.gz;
+		url = "mirror://sf/openbabel/openbabel-2.1.1.tar.gz";
 		sha256 = "1rgvci796a7bmc49ih26ma7c248d32w6drs3cwljpjk0dllsqdif";
 	};
 # TODO : perl & python bindings;

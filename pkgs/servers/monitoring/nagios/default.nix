@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   name = "nagios-2.10";
 
   src = fetchurl {
-    url = mirror://sourceforge/nagios/nagios-2.10.tar.gz;
+    url = "mirror://sourceforge/nagios/nagios-2.10.tar.gz";
     md5 = "8c3a29e138f2ff8c8abbd3dd8a40c4b6";
   };
 
@@ -17,7 +17,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "A host, service and network monitoring program";
-    homepage = http://www.nagios.org/;
+    homepage = "http://www.nagios.org/";
     license = "GPL";
   };
 }

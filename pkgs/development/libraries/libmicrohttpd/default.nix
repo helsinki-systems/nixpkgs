@@ -22,6 +22,6 @@ stdenv.mkDerivation rec {
 
     license = "LGPLv2+";
 
-    homepage = http://www.gnu.org/software/libmicrohttpd/;
+    homepage = "http://www.gnu.org/software/libmicrohttpd/";
   };
 }

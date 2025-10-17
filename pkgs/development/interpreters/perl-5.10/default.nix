@@ -5,7 +5,7 @@ stdenv.mkDerivation {
 
   builder = ./builder.sh;
   src = fetchurl {
-    url = mirror://cpan/src/perl-5.10.0.tar.gz;
+    url = "mirror://cpan/src/perl-5.10.0.tar.gz";
     sha256 = "0bivbz15x02m02gqs6hs77cgjr2msfrhnvp5xqk359jg6w6llill";
   };
 

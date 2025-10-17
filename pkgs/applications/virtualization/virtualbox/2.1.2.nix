@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "virtualbox-2.1.2";
 
   src = fetchurl {
-    url = http://download.virtualbox.org/virtualbox/2.1.2/VirtualBox-2.1.2-OSE.tar.bz2;
+    url = "http://download.virtualbox.org/virtualbox/2.1.2/VirtualBox-2.1.2-OSE.tar.bz2";
     sha256 = "d3c1ae8ed7594094aaf8496204c5415479e1943e5b5179c5baae8a66885362de";
   };
 
@@ -42,6 +42,6 @@ stdenv.mkDerivation {
   
   meta = {
     description = "PC emulator";
-    homepage = http://www.virtualbox.org/;
+    homepage = "http://www.virtualbox.org/";
   };
 }

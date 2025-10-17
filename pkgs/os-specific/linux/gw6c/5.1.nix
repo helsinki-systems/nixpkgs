@@ -1,7 +1,7 @@
 args : with args; 
 rec {
   src = fetchurl {
-    url = http://go6.net/4105/file.asp?file_id=150;
+    url = "http://go6.net/4105/file.asp?file_id=150";
     sha256 = "07svw71wad1kwip7vnsdwcvlhhknqlx8v8kmdnrw11f6xg76w2ln";
     name = "gateway6-client-5.1.tar.gz";
   };
@@ -34,6 +34,6 @@ rec {
       thus giving global IPv6 connectivity. You may need 
       tun, ipv6 and sit modules.
     ";
-    homepage = http://go6.net ;
+    homepage = "http://go6.net" ;
   };
 }

@@ -1,7 +1,7 @@
 args : with args; 
 rec {
   src = fetchurl {
-    url = http://www.packetstormsecurity.nl/UNIX/utilities/framework-3.1.tar.gz;
+    url = "http://www.packetstormsecurity.nl/UNIX/utilities/framework-3.1.tar.gz";
     sha256 = "114znq9dfcyh9gcj57p3zsc0d0amlzhwidmg8qjcgxpjh28h1afx";
   };
 

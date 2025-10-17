@@ -13,6 +13,6 @@ stdenv.mkDerivation rec {
 
 	meta = {
 		description = "A library for reading and writing streaming archives";
-    homepage = http://people.freebsd.org/~kientzle/libarchive;
+    homepage = "http://people.freebsd.org/~kientzle/libarchive";
 	};
 }

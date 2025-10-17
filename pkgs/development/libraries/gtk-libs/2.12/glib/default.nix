@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "glib-2.16.3";
   
   src = fetchurl {
-    url = mirror://gnome/sources/glib/2.16/glib-2.16.3.tar.bz2;
+    url = "mirror://gnome/sources/glib/2.16/glib-2.16.3.tar.bz2";
     md5 = "195f9a803cc5279dbb39afdf985f44cb";
   };
   
@@ -12,6 +12,6 @@ stdenv.mkDerivation {
 
   meta = {
     description = "A C library providing non-GUI functionality";
-    homepage = http://www.gtk.org/;
+    homepage = "http://www.gtk.org/";
   };
 }

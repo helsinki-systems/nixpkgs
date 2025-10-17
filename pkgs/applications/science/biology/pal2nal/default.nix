@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "pal2nal-12";
   src = fetchurl {
-    url = http://coot.embl.de/pal2nal/distribution/pal2nal.v12.tar.gz;
+    url = "http://coot.embl.de/pal2nal/distribution/pal2nal.v12.tar.gz";
     sha256 = "1qj9sq5skpa7vyccl9gxc5ls85jwiq8j6mr8wvacz4yhyg0afy04";
   };
 
@@ -25,7 +25,7 @@ stdenv.mkDerivation {
 If the input is a pair of sequences, PAL2NAL automatically calculates KS and KA by the codeml program in PAML.
 '';
     license        = "non-commercial";
-    homepage       = http://coot.embl.de/pal2nal/;
+    homepage       = "http://coot.embl.de/pal2nal/";
     pkgMaintainer  = "Pjotr Prins";
   };
 }

@@ -19,15 +19,15 @@ stdenv.mkDerivation {
   name = "mesa-7.0.2";
   
   src = fetchurl {
-    url = mirror://sourceforge/mesa3d/MesaLib-7.0.2.tar.bz2;
+    url = "mirror://sourceforge/mesa3d/MesaLib-7.0.2.tar.bz2";
     md5 = "93e6ed7924ff069a4f883b4fce5349dc";
   };
 /*    (fetchurl {
-      url = http://nixos.org/tarballs/MesaGLUT-6.4.tar.bz2;
+      url = "http://nixos.org/tarballs/MesaGLUT-6.4.tar.bz2";
       md5 = "1a8c4d4fc699233f5fdb902b8753099e";
     })
     (fetchurl {
-      url = http://nixos.org/tarballs/MesaDemos-6.4.tar.bz2;
+      url = "http://nixos.org/tarballs/MesaDemos-6.4.tar.bz2";
       md5 = "1a8c4d4fc699233f5fdb902b8753099e";
     }) */
   
@@ -47,6 +47,6 @@ stdenv.mkDerivation {
   
   meta = {
     description = "An open source implementation of OpenGL";
-    homepage = http://www.mesa3d.org/;
+    homepage = "http://www.mesa3d.org/";
   };
 }

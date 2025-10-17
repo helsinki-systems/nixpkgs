@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "cdecl-2.5";
   src = fetchurl {
-    url = ftp://metalab.unc.edu/pub/linux/devel/lang/c/cdecl-2.5.tar.gz;
+    url = "ftp://metalab.unc.edu/pub/linux/devel/lang/c/cdecl-2.5.tar.gz";
     md5 = "29895dab52e85b2474a59449e07b7996";
   };
 

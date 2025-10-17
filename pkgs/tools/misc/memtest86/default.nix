@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "memtest86+-1.70";
   
   src = fetchurl {
-    url = http://www.memtest.org/download/1.70/memtest86+-1.70.tar.gz;
+    url = "http://www.memtest.org/download/1.70/memtest86+-1.70.tar.gz";
     sha256 = "1swj4hc764qwb3j80kvvb4qg5maq9dp8pxzy9jkk187jf92j8vfw";
   };
 

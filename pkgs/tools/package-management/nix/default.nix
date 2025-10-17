@@ -8,7 +8,7 @@ stdenv.mkDerivation {
   name = "nix-0.12";
   
   src = fetchurl {
-    url = http://nixos.org/releases/nix/nix-0.12/nix-0.12.tar.bz2;
+    url = "http://nixos.org/releases/nix/nix-0.12/nix-0.12.tar.bz2";
     sha256 = "44454670876ad0e96d551c94ba993903b84594ccf57fef17bc2d92b1f6b155b1";
   };
   
@@ -23,7 +23,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "The Nix Deployment System";
-    homepage = http://nixos.org/;
+    homepage = "http://nixos.org/";
     license = "LGPL";
   };
 }

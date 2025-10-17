@@ -16,7 +16,7 @@ stdenv.mkDerivation {
   builder = ./builder.sh;
   
   src = fetchurl {
-    url = ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/2.0.0.19/source/thunderbird-2.0.0.19-source.tar.bz2;
+    url = "ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/2.0.0.19/source/thunderbird-2.0.0.19-source.tar.bz2";
     sha1 = "4d2e0f8b405bb0ceab20a9f570ce91cf4640f456";
   };
 

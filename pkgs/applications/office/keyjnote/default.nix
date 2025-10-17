@@ -53,7 +53,7 @@ in
 
       # This project has become homeless and will be renamed!
       # See http://keyj.s2000.ws/?p=77 for details.
-      #homepage = http://keyjnote.sourceforge.net/;
+      #homepage = "http://keyjnote.sourceforge.net/";
 
       license = "GPLv2";
     };

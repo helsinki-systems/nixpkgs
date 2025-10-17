@@ -5,7 +5,7 @@ stdenv.mkDerivation ( rec {
   name = "skype-2.0";
 
   src = fetchurl {
-    url = http://www.skype.com/go/getskype-linux-static;
+    url = "http://www.skype.com/go/getskype-linux-static";
     sha256 = "2f37963e8f19c0ec5efd8631abe9633b6551f09dee024460c40fad10728bc580";
     name = "${pname}_static-${version}.tar.bz2";
   };
@@ -58,7 +58,7 @@ done
 
   meta = {
       description = "A P2P-VoiceIP client";
-      homepage = http://www.skype.com;
+      homepage = "http://www.skype.com";
       license = "skype-eula";
   };
 })

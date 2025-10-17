@@ -22,7 +22,7 @@ stdenv.mkDerivation {
   builder = ./builder.sh;
 
   src = fetchurl {
-    url = mirror://sourceforge/zapping/zapping-0.9.6.tar.bz2;
+    url = "mirror://sourceforge/zapping/zapping-0.9.6.tar.bz2";
     md5 = "8306775c6a11de4d72345b5eee970ea6";
   };
 

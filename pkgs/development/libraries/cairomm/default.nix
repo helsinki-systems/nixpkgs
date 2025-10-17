@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
       when available (e.g., through the X Render Extension).
     '';
 
-    homepage = http://cairographics.org/;
+    homepage = "http://cairographics.org/";
 
     licenses = [ "LGPLv2+" "MPLv1" ];
   };

@@ -41,6 +41,6 @@ stdenv.mkDerivation rec {
       modules, the kernel, shared libraries, and applications.
     '';
     license = "GPLv2";
-    homepage = http://oprofile.sourceforge.net/;
+    homepage = "http://oprofile.sourceforge.net/";
   };
 }

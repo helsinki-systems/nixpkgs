@@ -29,7 +29,7 @@ stdenv.mkDerivation rec {
       to use Bison.
     '';
 
-    homepage = http://www.gnu.org/software/bison/;
+    homepage = "http://www.gnu.org/software/bison/";
 
     license = "GPLv3+";
   };

@@ -4,7 +4,7 @@
 stdenv.mkDerivation {
   name = "kdeplasma-addons-4.2.1";
   src = fetchurl {
-    url = mirror://kde/stable/4.2.1/src/kdeplasma-addons-4.2.1.tar.bz2;
+    url = "mirror://kde/stable/4.2.1/src/kdeplasma-addons-4.2.1.tar.bz2";
     sha1 = "8e164a8e1476862392371f765372c2e168895d55";
   };
   inherit kdebase_workspace;

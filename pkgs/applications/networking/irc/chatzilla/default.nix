@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   
   src = fetchurl {
     # Obtained from http://chatzilla.rdmsoft.com/xulrunner/.
-    url = http://chatzilla.rdmsoft.com/xulrunner/download/chatzilla-0.9.84-xr.zip;
+    url = "http://chatzilla.rdmsoft.com/xulrunner/download/chatzilla-0.9.84-xr.zip";
     sha256 = "0v1xakdgjjwwh0azxbh7y9yi99gcn0d37sfxrdzw78lbag3fh0k8";
   };
 
@@ -20,7 +20,7 @@ stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = http://chatzilla.hacksrus.com/;
+    homepage = "http://chatzilla.hacksrus.com/";
     description = "Stand-alone version of Chatzilla, an IRC client";
   };
 }

@@ -58,7 +58,7 @@ rec {
       dontPatchELF = 1;
       meta = {
         description = "TopGit aims to make handling of large amount of interdependent topic branches easier";
-        homepage = http://repo.or.cz/w/topgit.git; # maybe there is also another one, I haven't checked
+        homepage = "http://repo.or.cz/w/topgit.git"; # maybe there is also another one, I haven't checked
         license = "GPLv2";
     };
   };
@@ -76,7 +76,7 @@ rec {
     '';
     meta = {
       description = "console git repository browser that additionally can act as a pager for output from various git commands";
-      homepage = http://jonas.nitro.dk/tig/;
+      homepage = "http://jonas.nitro.dk/tig/";
       license = "GPLv2";
     };
   };

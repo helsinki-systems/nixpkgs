@@ -75,7 +75,7 @@ in
         network are rewarded with better service.
       '';
 
-      homepage = http://gnunet.org/;
+      homepage = "http://gnunet.org/";
 
       license = "GPLv2+";
     };

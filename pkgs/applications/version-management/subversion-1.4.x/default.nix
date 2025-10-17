@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
 
   builder = ./builder.sh;
   src = fetchurl {
-    url = http://subversion.tigris.org/downloads/subversion-1.4.6.tar.bz2;
+    url = "http://subversion.tigris.org/downloads/subversion-1.4.6.tar.bz2";
     sha1 = "a9c941e2309744f6a2986200698b60da057a7527";
   };
 
@@ -56,7 +56,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A version control system intended to be a compelling replacement for CVS in the open source community";
-    homepage = http://subversion.tigris.org/;
+    homepage = "http://subversion.tigris.org/";
   };
 }
 

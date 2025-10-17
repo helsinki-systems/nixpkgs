@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
       programming languages are supported.
     '';
 
-    homepage = http://ctags.sourceforge.net/;
+    homepage = "http://ctags.sourceforge.net/";
 
     license = "GPLv2+";
   };

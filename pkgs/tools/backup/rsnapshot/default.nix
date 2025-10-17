@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A filesystem snapshot utility for making backups of local and remote systems";
-    homepage = http://rsnapshot.org/;
+    homepage = "http://rsnapshot.org/";
     license = "GPLv2+";
   };
 }

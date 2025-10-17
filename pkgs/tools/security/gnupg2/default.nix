@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
       S/MIME.
     '';
 
-    homepage = http://gnupg.org/;
+    homepage = "http://gnupg.org/";
 
     license = "GPLv3+";
   };

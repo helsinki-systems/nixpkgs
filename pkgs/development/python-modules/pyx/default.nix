@@ -35,6 +35,6 @@ stdenv.mkDerivation rec {
       primitives.
     '';
     license = "GPLv2";
-    homepage = http://pyx.sourceforge.net/;
+    homepage = "http://pyx.sourceforge.net/";
   };
 }

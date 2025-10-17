@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
       Messenger, AIM and ICQ.
     '';
 
-    homepage = http://www.bitlbee.org/;
+    homepage = "http://www.bitlbee.org/";
     license = "GPLv2+";
   };
 }

@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   builder = ./builder.sh;
 
   src = fetchurl {
-    url = http://buildfarm.st.ewi.tudelft.nl/releases/strategoxt/java-front-0.9pre17376-qi43zwhy/java-front-0.9pre17376.tar.gz;
+    url = "http://buildfarm.st.ewi.tudelft.nl/releases/strategoxt/java-front-0.9pre17376-qi43zwhy/java-front-0.9pre17376.tar.gz";
     md5 = "fec70158b110c77a2e5db29676438029";
   };
 

@@ -35,6 +35,6 @@ stdenv.mkDerivation rec {
 
   meta = {
 	  description = "ANSI Common Lisp Implementation";
-	  homepage = http://clisp.cons.org;
+	  homepage = "http://clisp.cons.org";
   };
 }

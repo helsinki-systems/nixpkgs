@@ -3,7 +3,7 @@ stdenv.mkDerivation {
   name = "blender-2.46";
 
   src = fetchurl {
-    url = http://download.blender.org/source/blender-2.46.tar.gz;
+    url = "http://download.blender.org/source/blender-2.46.tar.gz";
     sha256 = "1l95lcrp5snmvzabw46qpnkxmqls3fc24b2qjkghfasvaq7km7rr";
   };
 
@@ -43,7 +43,7 @@ EOF
 
   meta = { 
       description = "3D Creation/Animation/Publishing System";
-      homepage = http://www.blender.org;
+      homepage = "http://www.blender.org";
       license = "GPL-2 BL";
     };
 }

@@ -8,7 +8,7 @@ stdenv.mkDerivation {
   builder = ./builder.sh;
 
   src = fetchurl {
-    url = mirror://gnu/glibc/glibc-2.7.tar.bz2;
+    url = "mirror://gnu/glibc/glibc-2.7.tar.bz2";
     sha256 = "06j5q20l11x8kcrl9bg15xgb1pw0w82pazikxf4zvq2fmhiaa922";
   };
 

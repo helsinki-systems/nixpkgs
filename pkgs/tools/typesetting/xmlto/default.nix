@@ -47,6 +47,6 @@ stdenv.mkDerivation rec {
     '';
 
     license = "GPLv2+";
-    homepage = http://cyberelk.net/tim/software/xmlto/;
+    homepage = "http://cyberelk.net/tim/software/xmlto/";
   };
 }

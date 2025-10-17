@@ -16,6 +16,6 @@ stdenv.mkDerivation rec {
     --disable-xmodmap-support";
 
   meta = {
-    homepage = http://freedesktop.org/wiki/Software/LibXklavier;
+    homepage = "http://freedesktop.org/wiki/Software/LibXklavier";
   };
 }

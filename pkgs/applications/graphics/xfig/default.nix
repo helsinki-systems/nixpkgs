@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   name = "xfig-3.2.5-pre-alpha-5";
 
   src = fetchurl {
-    url = http://xfig.org/software/xfig/3.2.5-alpha/xfig.3.2.5-alpha5.full.tar.gz;
+    url = "http://xfig.org/software/xfig/3.2.5-alpha/xfig.3.2.5-alpha5.full.tar.gz";
     md5 = "7547b66232569e3c12e4a0639bd92629";
   };
 
@@ -17,6 +17,6 @@ stdenv.mkDerivation {
 
   meta = {
     description = "An interactive drawing tool for X11";
-    homepage = http://xfig.org;
+    homepage = "http://xfig.org";
   };
 }

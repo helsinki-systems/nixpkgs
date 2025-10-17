@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
     '';
 
     # See also http://bugs.bitlbee.org/bitlbee/ticket/115 .
-    homepage = http://khjk.org/bitlbee-otr/;
+    homepage = "http://khjk.org/bitlbee-otr/";
 
     license = "GPL";
   };

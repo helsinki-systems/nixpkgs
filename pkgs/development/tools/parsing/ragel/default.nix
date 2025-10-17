@@ -35,7 +35,7 @@ composableDerivation.composableDerivation {} {
   };
 
   meta = {
-    homepage = http://www.complang.org/ragel;
+    homepage = "http://www.complang.org/ragel";
     description = "State machine compiler";
     license = "GPL-2";
   };

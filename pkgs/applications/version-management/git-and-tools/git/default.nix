@@ -86,7 +86,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     license = "GPLv2";
-    homepage = http://git.or.cz;
+    homepage = "http://git.or.cz";
     description = "Git, a popular distributed version control system";
 
     longDescription = ''

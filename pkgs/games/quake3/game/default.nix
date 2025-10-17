@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "ioquake3-1.34-pre-rc3";
   
   src = fetchurl {
-    url = http://ioquake3.org/files/ioquake3_1.34-rc3.tar.bz2;
+    url = "http://ioquake3.org/files/ioquake3_1.34-rc3.tar.bz2";
     sha256 = "008vah60z0n9h1qp373xbqvhwfbyywbbhd1np0h0yw66g0qzchzv";
   };
 

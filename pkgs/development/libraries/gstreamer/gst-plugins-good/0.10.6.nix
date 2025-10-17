@@ -18,6 +18,6 @@ stdenv.mkDerivation rec {
   patches = [ ./tag_defines.patch ];
 
   meta = {
-    homepage = http://gstreamer.freedesktop.org;
+    homepage = "http://gstreamer.freedesktop.org";
   };
 }

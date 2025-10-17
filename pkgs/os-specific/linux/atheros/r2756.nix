@@ -2,7 +2,7 @@ args : with args;
 	let localDefs = builderDefs {
 		src = /* put a fetchurl here */
 		fetchurl {
-			url = http://snapshots.madwifi.org/madwifi-ng/madwifi-ng-r2756-20071018.tar.gz;
+			url = "http://snapshots.madwifi.org/madwifi-ng/madwifi-ng-r2756-20071018.tar.gz";
 			sha256 = "0mm1kx9pjvvla792rv7k48yhsa0fpzvd1717g9xzazjsz2mqwzyv";
 		};
 
@@ -11,7 +11,7 @@ args : with args;
 		makeFlags = [''KERNELPATH=${kernel}/lib/modules/*/build'' ''DESTDIR=$out''];
 		patchAR2425x86 = (if args ? pci001c_rev01 && args.pci001c_rev01 then
 		fetchurl {
-			url = http://madwifi.org/attachment/ticket/1679/madwifi-ng-0933.ar2425.20071130.i386.patch?format=raw;
+			url = "http://madwifi.org/attachment/ticket/1679/madwifi-ng-0933.ar2425.20071130.i386.patch?format=raw";
 			name = "madwifi-AR2425-x86.patch";
 			sha256 = "11xpx5g9w7ilagvj60prc3s8a3x0n5n4mr0b7nh0lxwrbjdgjjfg";
 		} else "");

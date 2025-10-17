@@ -2,7 +2,7 @@ args : with args; with builderDefs {src="";} null;
 	let localDefs = builderDefs (rec {
 		src = /* put a fetchurl here */
 		fetchurl {
-			url = http://downloads.sourceforge.net/kiwix/kiwixbuilder.tgz;
+			url = "http://downloads.sourceforge.net/kiwix/kiwixbuilder.tgz";
 			sha256 = "0qb97smw4675i3hh328a7f65payw1w71bn4d32ycdkmqk56zl4ds";
 		};
 		buildInputs = [glib zlib];

@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   '';
   meta = {
     description = "File Manager and User Shell for the GNU Project";
-    homepage = http://www.ibiblio.org/mc;
+    homepage = "http://www.ibiblio.org/mc";
   };
 }
 

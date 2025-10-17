@@ -35,6 +35,6 @@ stdenv.mkDerivation rec {
 
     license = "GPLv3+";
 
-    homepage = http://www.gnu.org/software/texinfo/;
+    homepage = "http://www.gnu.org/software/texinfo/";
   };
 }

@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
       extensive test suite.
     '';
 
-    homepage = http://www.gnu.org/software/gsl/;
+    homepage = "http://www.gnu.org/software/gsl/";
     license = "GPLv3+";
   };
 }

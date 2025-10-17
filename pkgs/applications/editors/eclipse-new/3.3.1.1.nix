@@ -48,7 +48,7 @@ args: with args; let
 
       viPlugin = { # see its license!
         plugin = eclipsePlugin "viPlugin_1.15.6" (fetchurl {
-          url = http://www.satokar.com/viplugin/files/viPlugin_1.15.6.zip;
+          url = "http://www.satokar.com/viplugin/files/viPlugin_1.15.6.zip";
           sha256 = "0p53q45a754j143pnnp51rjwj7lzawcxfy9xzpjasdic4a2l0f96";
           # license = "Other/Proprietary License with Free Trial";
         });
@@ -57,26 +57,26 @@ args: with args; let
       # PHP developement
       emfSdoXsdSDK232 = {
         plugin = eclipsePlugin "emf-sdo-xsd-SDK-2.3.2" (fetchurl {
-          url = http://eclipsemirror.yoxos.com/eclipse.org/modeling/emf/emf/downloads/drops/2.3.2/R200802051830/emf-sdo-xsd-SDK-2.3.2.zip;
+          url = "http://eclipsemirror.yoxos.com/eclipse.org/modeling/emf/emf/downloads/drops/2.3.2/R200802051830/emf-sdo-xsd-SDK-2.3.2.zip";
           sha256 = "1k20fn47x1giwhc80rzkqaw3mn0p3861sjp7aw39842lv2hjwn1c";
         });
       };
       gefSDK332 = {
         plugin = eclipsePlugin "GEF-SDK-3.3.2" (fetchurl {
-          url = http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/gef/downloads/drops/3.3.2/R200802211602/GEF-SDK-3.3.2.zip;
+          url = "http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/gef/downloads/drops/3.3.2/R200802211602/GEF-SDK-3.3.2.zip";
           sha256 = "1pk5qlwk0iyvs85s966y96ks8vq1g81fivvbf4lh43155rg0z037";
         });
       };
       wtpSdkR202X = {
         plugin = eclipsePlugin "wtp-sdk-R-2.0.2-20080223205547" (fetchurl {
-          url = http://ftp.wh2.tu-dresden.de/pub/mirrors/eclipse/webtools/downloads/drops/R2.0/R-2.0.2-20080223205547/wtp-sdk-R-2.0.2-20080223205547.zip;
+          url = "http://ftp.wh2.tu-dresden.de/pub/mirrors/eclipse/webtools/downloads/drops/R2.0/R-2.0.2-20080223205547/wtp-sdk-R-2.0.2-20080223205547.zip";
           sha256 = "0hmmmqzcd67jir2gmjd0xri5w2434xb2dk21hpgcv2qp0h9hhx0f";
         });
       };
       pdt = {
         deps = [ wtpSdkR202X gefSDK332 emfSdoXsdSDK232 ];
         plugin = eclipsePlugin "pdt-runtime-1.0.3" (fetchurl {
-          url = http://sunsite.informatik.rwth-aachen.de:3080/eclipse/tools/pdt/downloads/drops/1.0.3/R200806030000/pdt-runtime-1.0.3.zip;
+          url = "http://sunsite.informatik.rwth-aachen.de:3080/eclipse/tools/pdt/downloads/drops/1.0.3/R200806030000/pdt-runtime-1.0.3.zip";
           sha256 = "0wd2vc9bqrk5mqj5al2ichm8lxlf7gwifsb9lzv1d896j04ilm96";
         });
       };

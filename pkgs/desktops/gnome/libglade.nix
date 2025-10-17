@@ -27,6 +27,6 @@ stdenv.mkDerivation {
 
     license = "LGPLv2+";
 
-    homepage = http://glade.gnome.org/;
+    homepage = "http://glade.gnome.org/";
   };
 }

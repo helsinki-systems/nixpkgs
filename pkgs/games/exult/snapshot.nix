@@ -8,7 +8,7 @@ stdenv.mkDerivation {
   builder = ./builder.sh;
   
   src = fetchurl {
-    url = http://www.math.leidenuniv.nl/~wpalenst/cvs/exult-20080712-0500.tar.gz;
+    url = "http://www.math.leidenuniv.nl/~wpalenst/cvs/exult-20080712-0500.tar.gz";
     sha256 = "186z8qb713yr1wfasfbpgz2wfqwmbh2d6lmgz1v8lhmwmfpkzgc4";
   };
 
@@ -28,17 +28,17 @@ stdenv.mkDerivation {
   # we don't need actual MIDI playback capability.
   musicFiles = [
     (fetchurl {
-      url = mirror://sourceforge/exult/U7MusicOGG_1of2.zip;
+      url = "mirror://sourceforge/exult/U7MusicOGG_1of2.zip";
       md5 = "7746d1a9164fd67509107797496553bf";
     })
     (fetchurl {
-      url = mirror://sourceforge/exult/U7MusicOGG_2of2.zip;
+      url = "mirror://sourceforge/exult/U7MusicOGG_2of2.zip";
       md5 = "cdae5956d7c52f35e90317913a660123";
     })
   ];
 
   meta = {
-    homepage = http://exult.sourceforge.net/;
+    homepage = "http://exult.sourceforge.net/";
     description = "A reimplementation of the Ultima VII game engine (pre-release)";
   };
 }

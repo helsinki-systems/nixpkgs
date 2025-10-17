@@ -2,7 +2,7 @@ args : with args;
 	let localDefs = builderDefs {
 		src = /* put a fetchurl here */
 		  fetchurl {
-		    url = http://snapshots.madwifi.org/madwifi-trunk/madwifi-trunk-r3574-20080426.tar.gz;
+		    url = "http://snapshots.madwifi.org/madwifi-trunk/madwifi-trunk-r3574-20080426.tar.gz";
 		    sha256 = "1awr8jxrh6nvrsnyaydafkz7yarax3h4xphjcx6gmwsfbyb2mj7q";
 		  };
 

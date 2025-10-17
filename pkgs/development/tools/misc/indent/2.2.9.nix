@@ -2,7 +2,7 @@ args : with args;
 	let localDefs = builderDefs.passthru.function {
 		src = /* put a fetchurl here */
 		fetchurl {
-			url = ftp://ftp.gnu.org/gnu/indent/indent-2.2.9.tar.gz;
+			url = "ftp://ftp.gnu.org/gnu/indent/indent-2.2.9.tar.gz";
 			sha256 = "0rp4divzv5xyflm8ixpp2isa092n0nmhgmhvz56db7k3lnyqg4qb";
 		};
 

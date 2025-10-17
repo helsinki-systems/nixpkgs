@@ -1,7 +1,7 @@
 args : with args; 
 rec {
   src = fetchurl {
-    url = http://ftp.de.debian.org/debian/pool/main/l/lmodern/lmodern_0.92.orig.tar.gz;
+    url = "http://ftp.de.debian.org/debian/pool/main/l/lmodern/lmodern_0.92.orig.tar.gz";
     sha256 = "0ak3n7fsi2va94gsn0pfmyby2b4g7wz9h5a0prpbx24ax1xwinls";
   };
 

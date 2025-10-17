@@ -2,7 +2,7 @@ args : with args;
 	let localDefs = builderDefs.passthru.function {
 		src = /* put a fetchurl here */
 	fetchurl {
-		url = http://ftp.acc.umu.se/pub/gnome/sources/intltool/0.40/intltool-0.40.5.tar.bz2;
+		url = "http://ftp.acc.umu.se/pub/gnome/sources/intltool/0.40/intltool-0.40.5.tar.bz2";
 		sha256 = "011lg8s437kd2bysihi4wm6ph6pv1f9f1lwz4dzbwpif0kl6isr9";
 	};
 

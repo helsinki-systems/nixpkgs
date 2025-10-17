@@ -1,7 +1,7 @@
 args : with args; 
 rec {
   src = fetchurl {
-    url = http://alioth.debian.org/frs/download.php/2332/minicom-2.3.tar.gz;
+    url = "http://alioth.debian.org/frs/download.php/2332/minicom-2.3.tar.gz";
     sha256 = "1ysn0crdhvwyvdlbw0ms5nq06xy2pd2glwjs53p384byl3ac7jra";
   };
 

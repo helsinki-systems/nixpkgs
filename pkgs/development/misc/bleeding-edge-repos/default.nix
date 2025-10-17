@@ -42,16 +42,16 @@ args:
       # darcs repositories haskell 
       http =  { type= "darcs"; url="http://darcs.haskell.org/http/"; groups="happs"; };
       syb_with_class =  { type="darcs"; url="http://happs.org/HAppS/syb-with-class"; groups="happs"; };
-      happs_data =  { type="darcs"; url=http://happs.org/repos/HAppS-Data; groups="happs"; };
-      happs_util =  { type="darcs"; url=http://happs.org/repos/HAppS-Util; groups="happs"; };
-      happs_state =  { type="darcs"; url=http://happs.org/repos/HAppS-State; groups="happs"; };
-      happs_plugins =  { type="darcs"; url=http://happs.org/repos/HAppS-Plugins; groups="happs"; };
-      happs_ixset =  { type="darcs"; url=http://happs.org/repos/HAppS-IxSet; groups="happs"; };
-      happs_server =  { type="darcs"; url=http://happs.org/repos/HAppS-Server; groups="happs"; };
+      happs_data =  { type="darcs"; url="http://happs.org/repos/HAppS-Data"; groups="happs"; };
+      happs_util =  { type="darcs"; url="http://happs.org/repos/HAppS-Util"; groups="happs"; };
+      happs_state =  { type="darcs"; url="http://happs.org/repos/HAppS-State"; groups="happs"; };
+      happs_plugins =  { type="darcs"; url="http://happs.org/repos/HAppS-Plugins"; groups="happs"; };
+      happs_ixset =  { type="darcs"; url="http://happs.org/repos/HAppS-IxSet"; groups="happs"; };
+      happs_server =  { type="darcs"; url="http://happs.org/repos/HAppS-Server"; groups="happs"; };
       happs_hsp = { type="darcs"; url="http://code.haskell.org/HSP/happs-hsp"; groups="happs haskell hsp"; };
       happs_hsp_template = { type="darcs"; url="http://code.haskell.org/HSP/happs-hsp-template"; groups="happs haskell hsp"; };
-      # haskell_src_exts_metaquote = { type="darcs"; url=http://code.haskell.org/~morrow/code/haskell/haskell-src-exts-metaquote; groups="happs haskell hsp"; };
-      haskell_src_exts = { type="darcs"; url=http://code.haskell.org/HSP/haskell-src-exts/; groups="happs haskell hsp"; };
+      # haskell_src_exts_metaquote = { type="darcs"; url="http://code.haskell.org/~morrow/code/haskell/haskell-src-exts-metaquote"; groups="happs haskell hsp"; };
+      haskell_src_exts = { type="darcs"; url="http://code.haskell.org/HSP/haskell-src-exts/"; groups="happs haskell hsp"; };
       
       hsp = { type="darcs"; url="http://code.haskell.org/HSP/hsp"; groups="happs haskell hsp"; };
       hsp_xml = { type="darcs"; url="http://code.haskell.org/HSP/hsp-xml"; groups="happs haskell hsp"; };
@@ -59,10 +59,10 @@ args:
       hjscript = { type="darcs"; url="http://code.haskell.org/HSP/hjscript"; groups="happs haskell hsp"; };
       hjquery = { type="darcs"; url="http://code.haskell.org/HSP/hjquery"; groups="happs haskell hsp"; };
       hjavascript = { type="darcs"; url="http://code.haskell.org/HSP/hjavascript"; groups="happs haskell hsp"; };
-      takusen = { type="darcs"; url=http://darcs.haskell.org/takusen/; };
-      cabal = { type="darcs"; url=http://darcs.haskell.org/cabal; };
-      haxml = { type="darcs"; url=http://www.cs.york.ac.uk/fp/darcs/HaXml; groups = "pg_haskell"; };
-      storableVector = { type="darcs"; url=http://darcs.haskell.org/storablevector/; groups = "haskell"; };
+      takusen = { type="darcs"; url="http://darcs.haskell.org/takusen/"; };
+      cabal = { type="darcs"; url="http://darcs.haskell.org/cabal"; };
+      haxml = { type="darcs"; url="http://www.cs.york.ac.uk/fp/darcs/HaXml"; groups = "pg_haskell"; };
+      storableVector = { type="darcs"; url="http://darcs.haskell.org/storablevector/"; groups = "haskell"; };
 
       kdepimlibs = { type="svn"; url="svn://anonsvn.kde.org/home/kde/trunk/KDE/kdepimlibs"; groups = "kde"; };
       kdebase = { type="svn"; url="svn://anonsvn.kde.org/home/kde/trunk/KDE/kdebase"; groups = "kde"; };

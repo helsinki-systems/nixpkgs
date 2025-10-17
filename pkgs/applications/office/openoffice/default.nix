@@ -69,7 +69,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "OpenOffice.org is a multiplatform and multilingual office suite";
-    homepage = http://www.openoffice.org/;
+    homepage = "http://www.openoffice.org/";
     license = "LGPL";
   };
 }

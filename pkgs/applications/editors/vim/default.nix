@@ -43,7 +43,7 @@ args.stdenv.mkDerivation {
   name = args.lib.condConcat "vim-7.2" nameSuffixes check;
  
   src = args.fetchurl {
-    url = ftp://ftp.vim.org/pub/vim/unix/vim-7.2.tar.bz2;
+    url = "ftp://ftp.vim.org/pub/vim/unix/vim-7.2.tar.bz2";
     sha256 = "076ydlfcmlnldjzarahg58vflawn083y90is6sz2j4klg9mj2iim";
   };
  
@@ -59,6 +59,6 @@ args.stdenv.mkDerivation {
 
   meta = {
     description = "The most popular clone of the VI editor";
-    homepage = http://www.vim.org;
+    homepage = "http://www.vim.org";
   };
 }

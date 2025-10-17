@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
   dontPatchShebangs = true;
   
   meta = {
-    homepage = http://www.gnu.org/software/automake/;
+    homepage = "http://www.gnu.org/software/automake/";
     description = "GNU Automake, a GNU standard-compliant makefile generator";
 
     longDescription = ''

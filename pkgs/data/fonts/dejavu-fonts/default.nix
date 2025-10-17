@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   #fontconfig is needed only for fc-lang (?)
   buildInputs = [fontforge perl perlFontTTF];
   src = fetchurl {
-    url = mirror://sourceforge/dejavu/dejavu-fonts-2.23.tar.bz2;
+    url = "mirror://sourceforge/dejavu/dejavu-fonts-2.23.tar.bz2";
     sha256 = "0gifaxiianls54i05yw5gxhi2a0j9jmy5p0q58ym4l9fxv5drnhn";
   };
   preBuild = ''

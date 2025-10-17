@@ -5,7 +5,7 @@ composableDerivation {} {
     name = "sox-14.0.0";
 
     src = args.fetchurl {
-      url = mirror://sourceforge/sox/sox-14.0.0.tar.gz;
+      url = "mirror://sourceforge/sox/sox-14.0.0.tar.gz";
       sha256 = "1l7v04nlvb96y0w9crvm6nq8g50yxp3bkv6nb1c205s982inlalc";
     };
 
@@ -48,10 +48,10 @@ composableDerivation {} {
 
   meta = {
     description = "Sample Rate Converter for audio";
-    homepage = http://www.mega-nerd.com/SRC/index.html;
+    homepage = "http://www.mega-nerd.com/SRC/index.html";
     # you can choose one of the following licenses:
     license = [ "GPL"
-                { url=http://www.mega-nerd.com/SRC/libsamplerate-cul.pdf;
+                { url="http://www.mega-nerd.com/SRC/libsamplerate-cul.pdf";
                   name="libsamplerate Commercial Use License";
                 } ];
   };

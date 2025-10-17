@@ -8,7 +8,7 @@ stdenv.mkDerivation {
   name = "kdelibs-4.2.1";
   
   src = fetchurl {
-    url = mirror://kde/stable/4.2.1/src/kdelibs-4.2.1.tar.bz2;
+    url = "mirror://kde/stable/4.2.1/src/kdelibs-4.2.1.tar.bz2";
     sha1 = "d2214b9864b64e4a8382a9f593d082c801c58571";
   };
   

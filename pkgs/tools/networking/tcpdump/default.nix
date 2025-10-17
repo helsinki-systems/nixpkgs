@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "tcpdump, a famous network sniffer";
-    homepage = http://www.tcpdump.org/;
+    homepage = "http://www.tcpdump.org/";
     license = "BSD-style";
   };
 }

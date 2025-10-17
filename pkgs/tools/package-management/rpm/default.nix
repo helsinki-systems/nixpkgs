@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "rpm-4.4.8";
 
   src = fetchurl {
-    url = http://wraptastic.org/pub/rpm-4.4.x/rpm-4.4.8.tar.gz;
+    url = "http://wraptastic.org/pub/rpm-4.4.x/rpm-4.4.8.tar.gz";
     sha256 = "02ddf076bwcpxzxq9i0ii1fzw2r69fk0gjkk2yrzgzsmb01na230";
   };
 

@@ -13,6 +13,6 @@ stdenv.mkDerivation rec {
   NIX_CFLAGS_COMPILE = "-fpic";
 
   meta = {
-    homepage = http://liba52.sourceforge.net/;
+    homepage = "http://liba52.sourceforge.net/";
   };
 }

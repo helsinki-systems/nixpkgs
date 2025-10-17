@@ -6,7 +6,7 @@ else
 
 rec {
   src = fetchurl {
-    url = http://codeville.org/download/Codeville-0.8.0.tar.gz;
+    url = "http://codeville.org/download/Codeville-0.8.0.tar.gz";
     sha256 = "1p8zc4ijwcwf5bxl34n8d44mlxk1zhbpca68r93ywxqkqm2aqz37";
   };
 

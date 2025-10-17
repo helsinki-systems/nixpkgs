@@ -30,6 +30,6 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://slim.berlios.de;
+    homepage = "http://slim.berlios.de";
   };
 }

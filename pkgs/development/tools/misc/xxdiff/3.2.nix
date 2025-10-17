@@ -1,7 +1,7 @@
 args : with args; 
 rec {
   src = fetchurl {
-    url = http://downloads.sourceforge.net/xxdiff/xxdiff-3.2.tar.bz2;
+    url = "http://downloads.sourceforge.net/xxdiff/xxdiff-3.2.tar.bz2";
     sha256 = "1f5j9l9n5j2ab0h3iwaz0mnz0y8h7ilc0dbcrfmaibk2njx38mcn";
   };
 

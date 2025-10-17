@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = ''OpenTTD is an open source clone of the Microprose game "Transport Tycoon Deluxe".'';
-    homepage = http://www.openttd.org/;
+    homepage = "http://www.openttd.org/";
     license = "GPLv2";
   };
 }

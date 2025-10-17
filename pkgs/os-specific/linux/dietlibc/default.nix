@@ -5,7 +5,7 @@ assert stdenv.isLinux;
 stdenv.mkDerivation {
   name = "dietlibc-0.30";
   src = fetchurl {
-    url = mirror://kernel/linux/libs/dietlibc/dietlibc-0.30.tar.bz2;
+    url = "mirror://kernel/linux/libs/dietlibc/dietlibc-0.30.tar.bz2";
     md5 = "2465d652fff6f1fad3da3b98e60e83c9";
   };
   builder = ./builder.sh;
@@ -36,7 +36,7 @@ stdenv.mkDerivation {
   ];
 
   meta = {
-    homepage = http://www.fefe.de/dietlibc/;
+    homepage = "http://www.fefe.de/dietlibc/";
     description = "A small implementation of the C library";
     license = "GPL";
   };

@@ -2,7 +2,7 @@ args : with args; with builderDefs;
 	let localDefs = builderDefs.passthru.function ((rec {
 		src = /* put a fetchurl here */
 		fetchurl {
-			url = http://download2.berlios.de/linuxdcpp/linuxdcpp-1.0.1.tar.bz2;
+			url = "http://download2.berlios.de/linuxdcpp/linuxdcpp-1.0.1.tar.bz2";
 			sha256 = "0f0vvsa3x3nirqnf2lagpmbbj3pgdcp6wa2gvadj294b3va4hx34";
 		};
 

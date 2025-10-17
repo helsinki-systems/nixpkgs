@@ -13,7 +13,7 @@ stdenv.mkDerivation {
   name = "neon-0.28.3";
 
   src = fetchurl {
-    url = http://www.webdav.org/neon/neon-0.28.3.tar.gz;
+    url = "http://www.webdav.org/neon/neon-0.28.3.tar.gz";
     sha256 = "1hnd9wlbnfpppx6rvalhdkc1rf29afacl1m15z751g3h9hdybplh";
   };
 
@@ -30,6 +30,6 @@ stdenv.mkDerivation {
 
   meta = {
     description = "An HTTP and WebDAV client library";
-    homepage = http://www.webdav.org/neon/;
+    homepage = "http://www.webdav.org/neon/";
   };
 }

@@ -96,7 +96,7 @@ stdenv.mkDerivation {
       protection features.
     '';
 
-    homepage = http://www.gnu.org/software/gnuzilla/;
+    homepage = "http://www.gnu.org/software/gnuzilla/";
     licenses = [ "GPLv2+" "LGPLv2+" "MPLv1+" ];
   };
 

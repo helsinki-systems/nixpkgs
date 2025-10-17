@@ -33,6 +33,6 @@ stdenv.mkDerivation rec {
 
     license = "LGPLv2+";
 
-    homepage = http://plib.sourceforge.net/;
+    homepage = "http://plib.sourceforge.net/";
   };
 }

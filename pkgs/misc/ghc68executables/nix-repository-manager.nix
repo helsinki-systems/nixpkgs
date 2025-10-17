@@ -41,7 +41,7 @@ in
 
   meta = { 
       description = "makes it easy to keep some packages up to date";
-      homepage = http://mawercer.de/repos/nix-repository-manager;
+      homepage = "http://mawercer.de/repos/nix-repository-manager";
       license = "GPL";
   };
 }

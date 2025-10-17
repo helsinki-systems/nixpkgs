@@ -12,7 +12,7 @@ stdenv.mkDerivation {
 
   meta = { 
       description = "postgresql admin gui tool";
-      homepage = http://www.pgadmin.org;
+      homepage = "http://www.pgadmin.org";
       license = "GPL2";
     };
 }

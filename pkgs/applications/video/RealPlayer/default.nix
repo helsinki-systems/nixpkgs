@@ -9,7 +9,7 @@ assert stdenv.system == "i686-linux";
 
   builder = ./builder.sh;
   src = fetchurl {
-    url = http://software-dl.real.com/25ae61d70a6855a52c14/unix/RealPlayer10GOLD.bin;
+    url = "http://software-dl.real.com/25ae61d70a6855a52c14/unix/RealPlayer10GOLD.bin";
     md5 = "d28b31261059231a3e93c7466f8153e6";
   };
 

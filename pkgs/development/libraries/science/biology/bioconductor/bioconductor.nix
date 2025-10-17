@@ -34,7 +34,7 @@ in {
      pname = "affyio";
      pver  = "1.8.1";
      src = fetchurl {
-       url = http://www.bioconductor.org/packages/release/bioc/src/contrib/affyio_1.8.1.tar.gz;
+       url = "http://www.bioconductor.org/packages/release/bioc/src/contrib/affyio_1.8.1.tar.gz";
        sha256 = "136nkpq870vrwf9z5gq32xjzrp8bjfbk9pn8fki2a5w2lr0qc8nh";
      };
   };

@@ -19,6 +19,6 @@ stdenv.mkDerivation (rec {
 
   meta = {
     description = "Rewrite of qiv (quick image viewer)";
-    homepage = http://www.pberndt.com/Programme/Linux/pqiv;
+    homepage = "http://www.pberndt.com/Programme/Linux/pqiv";
   };
 })

@@ -12,7 +12,7 @@ executables = lib.mapAttrs ( name_dummy : a : ghcCabalExecutableFun (a // { libs
     # calling it hasktags-modified to not clash with the one distributed with ghc
     name = "hasktags-modified";
     src = args.fetchurl {
-      url = http://mawercer.de/~nix/hasktags.hs;
+      url = "http://mawercer.de/~nix/hasktags.hs";
       sha256 = "9d1be56133f468f5a2302d8531742eba710ad89d5a271308453b44cc9f47e94a";
     };
     libsFun = x : [x.base x.directory x.haskell98 x.mtl];
@@ -39,7 +39,7 @@ executables = lib.mapAttrs ( name_dummy : a : ghcCabalExecutableFun (a // { libs
     meta = {
       executables = ["happy"];
       description = "A lexical analyser generator for Haskell";
-      homepage = http://www.haskell.org/happy/;
+      homepage = "http://www.haskell.org/happy/";
       license = "BSD3";
     };
     pass = {
@@ -56,7 +56,7 @@ executables = lib.mapAttrs ( name_dummy : a : ghcCabalExecutableFun (a // { libs
     meta = {
       executables = ["alex"];
       description = "tool generating lexical analysers";
-      homepage = http://www.haskell.org/alex/;
+      homepage = "http://www.haskell.org/alex/";
       license = "BSD3";
     };
     pass = {
@@ -67,19 +67,19 @@ executables = lib.mapAttrs ( name_dummy : a : ghcCabalExecutableFun (a // { libs
     name = "DrIFT-2.2.3";
     libsFun = x : [ x.base x.haskell98 ];
     src = fetchurl {
-      url = http://hackage.haskell.org/packages/archive/DrIFT/2.2.3/DrIFT-2.2.3.tar.gz;
+      url = "http://hackage.haskell.org/packages/archive/DrIFT/2.2.3/DrIFT-2.2.3.tar.gz";
       sha256 = "1615ijdz1bcmgnz86yx54ap6r7q08flh309jfyc7xaxxq5cdib0k";
     };
     meta = { 
       description = "DrIFT is a type sensitive preprocessor for Haskell";
-      homepage = http://repetae.net/computer/haskell/DrIFT/;
+      homepage = "http://repetae.net/computer/haskell/DrIFT/";
       license = "BSD3";
     };
   };
   hxq = { 
     name="hxq-0.7";
     libsFun = x: [ x.base x.haskell98 x.template_haskell ];
-    src = fetchurl { url = http://hackage.haskell.org/packages/archive/HXQ/0.7/HXQ-0.7.tar.gz; sha256 = "0zwar8fykks1n86zm0alkdx4yg903hkdr66wffsji6fhhpkzcmrh";};
+    src = fetchurl { url = "http://hackage.haskell.org/packages/archive/HXQ/0.7/HXQ-0.7.tar.gz"; sha256 = "0zwar8fykks1n86zm0alkdx4yg903hkdr66wffsji6fhhpkzcmrh";};
   };
   #leksah = {
     #name="leksah-darcs";
@@ -110,7 +110,7 @@ executables = lib.mapAttrs ( name_dummy : a : ghcCabalExecutableFun (a // { libs
   flapjax = {
   name = "flapjax-source-20070514";
     src = args.fetchurl {
-      url = http://www.flapjax-lang.org/download/20070514/flapjax-source.tar.gz;
+      url = "http://www.flapjax-lang.org/download/20070514/flapjax-source.tar.gz";
       sha256 = "188dafpggbfdyciqhrjaq12q0q01z1rp3mpm2iixb0mvrci14flc";
     };
     pass = { buildPhase  = "
@@ -121,7 +121,7 @@ executables = lib.mapAttrs ( name_dummy : a : ghcCabalExecutableFun (a // { libs
     libsFun = x : [x.mtl x.parsec x.random];
     meta = { 
         description = "programming language designed around the demands of modern, client-based Web applications";
-        homepage = http://www.flapjax-lang.org/;
+        homepage = "http://www.flapjax-lang.org/";
         license = "BSD";
         executables = ["fjc"];
     };

@@ -12,6 +12,6 @@ stdenv.mkDerivation rec {
   
   meta = {
     description = "A data compresion library suitable for real-time data de-/compression";
-    homepage = http://www.oberhumer.com/opensource/lzo;
+    homepage = "http://www.oberhumer.com/opensource/lzo";
   };
 }

@@ -49,7 +49,7 @@ stdenv.mkDerivation rec {
       fairly when calculating usage totals.
     '';
 
-    homepage = http://www.berthels.co.uk/exmap/;
+    homepage = "http://www.berthels.co.uk/exmap/";
 
     license = "GPLv2+";
   };

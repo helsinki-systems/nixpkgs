@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
       provided.
     '';
 
-    homepage = http://gnupg.org;
+    homepage = "http://gnupg.org";
     license = "LGPLv2+";
   };
 }

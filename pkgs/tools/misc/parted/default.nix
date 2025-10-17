@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "parted-1.8.8";
   src = fetchurl {
-    url = mirror://gnu/parted/parted-1.8.8.tar.bz2;
+    url = "mirror://gnu/parted/parted-1.8.8.tar.bz2";
     sha256 = "1sn5qcdi4pvxnxz8ryh5p52qmqd72qbk0d0a65pksxf7khd83kfz";
   };
   buildInputs = [e2fsprogs readline];
@@ -16,7 +16,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "industrial-strength package for creating, destroying, resizing, checking and copying partitions";
-    homepage = http://www.gnu.org/software/parted/;
+    homepage = "http://www.gnu.org/software/parted/";
     license = "GPLv3";
   };
 }

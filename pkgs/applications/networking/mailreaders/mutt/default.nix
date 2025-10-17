@@ -12,7 +12,7 @@ assert sslSupport -> openssl != null;
 stdenv.mkDerivation {
   name = "mutt-1.5.16";
   src = fetchurl {
-    url = ftp://ftp.mutt.org/mutt/devel/mutt-1.5.16.tar.gz;
+    url = "ftp://ftp.mutt.org/mutt/devel/mutt-1.5.16.tar.gz";
     sha256 = "825e920b394db6f56fa8deb45977c061331f59d953944e27ff595625bbad3e83";
   };
   buildInputs = [
@@ -28,7 +28,7 @@ stdenv.mkDerivation {
   ];
 
   meta = {
-    homepage = http://www.mutt.org;
+    homepage = "http://www.mutt.org";
   };
 }
 

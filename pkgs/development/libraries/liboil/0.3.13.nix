@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   buildInputs = [pkgconfig glib];
 
   meta = {
-    homepage = http://liboil.freedesktop.org;
+    homepage = "http://liboil.freedesktop.org";
     description = "A library of simple functions that are optimized for various CPUs";
   };
 }

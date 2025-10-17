@@ -13,7 +13,7 @@ composableDerivation {} {
   name = "geos-3.0.3";
 
   src = fetchurl {
-      url = http://download.osgeo.org/geos/geos-3.0.3.tar.bz2;
+      url = "http://download.osgeo.org/geos/geos-3.0.3.tar.bz2";
       sha256 = "1pxk20jcbyidp3bvip1vdf8wfw2wvh8pcn810qkf1y3zfnki0c7k";
   };
 
@@ -29,7 +29,7 @@ composableDerivation {} {
       description = "C++ port of the Java Topology Suite (JTS)"
         + "- all the OpenGIS \"Simple Features for SQL\" spatial predicate functions and spatial operators,"
         + " as well as specific JTS topology functions such as IsValid";
-      homepage = http://geos.refractions.net/;
+      homepage = "http://geos.refractions.net/";
       license = "GPL";
   };
 }

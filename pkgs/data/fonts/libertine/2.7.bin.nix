@@ -1,7 +1,7 @@
 args: with args;
 rec{
   src = fetchurl {
-    url = http://downloads.sourceforge.net/linuxlibertine/LinLibertineFont-2.7.tgz;
+    url = "http://downloads.sourceforge.net/linuxlibertine/LinLibertineFont-2.7.tgz";
     sha256 = "06xm3np2xx41fr2yc00q0z2qy9s6p860f18ns1f1f00vi54dm4c5";
   };
 
@@ -11,7 +11,7 @@ rec{
   name = "linux-libertine-" + version;
   meta = {
     description = "Linux Libertine Fonts";
-    homepage = http://linuxlibertine.sf.net;
+    homepage = "http://linuxlibertine.sf.net";
   };
 }
 

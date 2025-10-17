@@ -3,7 +3,7 @@ stdenv.mkDerivation {
   name = "bit-tornado";
 
   src = fetchurl {
-    url = http://download2.bittornado.com/download/BitTornado-0.3.18.tar.gz;
+    url = "http://download2.bittornado.com/download/BitTornado-0.3.18.tar.gz";
     sha256 = "1q6rapidnizy8wawasirgyjl9s4lrm7mm740mc5q5sdjyl5svrnr";
   };
 

@@ -27,7 +27,7 @@ stdenv.mkDerivation rec{
 	'';
 
 	meta = {
-		homepage = http://ndevilla.free.fr/iniparser;
+		homepage = "http://ndevilla.free.fr/iniparser";
 		description = "Free standalone ini file parsing library";
 		license = "MIT";
 	};

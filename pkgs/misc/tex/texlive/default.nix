@@ -1,17 +1,17 @@
 args : with args; 
 rec {
   src = fetchurl { 
-    url = mirror://debian/pool/main/t/texlive-bin/texlive-bin_2007.dfsg.1.orig.tar.gz;
+    url = "mirror://debian/pool/main/t/texlive-bin/texlive-bin_2007.dfsg.1.orig.tar.gz";
     sha256 = "17wdn9vl4pa897046jpzxl6bl2ppr7swwb8x0jafwvbcnmywndag";
   };
   
   texmfSrc = fetchurl { 
-    url = mirror://debian/pool/main/t/texlive-base/texlive-base_2007.orig.tar.gz;
+    url = "mirror://debian/pool/main/t/texlive-base/texlive-base_2007.orig.tar.gz";
     sha256 = "16a4dyliidk43qj0m4gpsl9ln7nqsdcdx1lkbk4wrm03xpx87zvh";
   };
 
   langTexmfSrc = fetchurl {
-    url = mirror://debian/pool/main/t/texlive-lang/texlive-lang_2007.orig.tar.gz;
+    url = "mirror://debian/pool/main/t/texlive-lang/texlive-lang_2007.orig.tar.gz";
     sha256 = "0cmd9ryd57rzzg7g2gm3qn4ijakkacy810h5zncqd39p3i1yn6nx";
   };
 

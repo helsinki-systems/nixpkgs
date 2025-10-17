@@ -2,7 +2,7 @@ args : with args;
 	let localDefs = builderDefs.passthru.function {
 		src = /* put a fetchurl here */
 	fetchurl {
-		url = http://xorg.freedesktop.org/archive/individual/app/compiz-0.7.8.tar.gz;
+		url = "http://xorg.freedesktop.org/archive/individual/app/compiz-0.7.8.tar.gz";
 		sha256 = "00v5br8vi9ycrzvgdsmdbv31kv1n9g88hxm0ax9yhy6cfsvm4vxl";
 	};
 		buildInputs = [

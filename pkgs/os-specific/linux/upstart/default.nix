@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "upstart-0.3.0";
   
   src = fetchurl {
-    url = http://nixos.org/tarballs/upstart-0.3.0.tar.bz2;
+    url = "http://nixos.org/tarballs/upstart-0.3.0.tar.bz2";
     md5 = "269046f41c6418225306280044a799eb";
   };
   

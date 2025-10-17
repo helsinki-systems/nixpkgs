@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
       implementation of the -mm macros.
     '';
 
-    homepage = http://www.gnu.org/software/groff/;
+    homepage = "http://www.gnu.org/software/groff/";
 
     license = "GPLv3+";
   };

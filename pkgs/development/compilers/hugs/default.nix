@@ -6,7 +6,7 @@ composableDerivation.composableDerivation {} {
   name="hugs98";
 
   src = fetchurl {
-      url = http://cvs.haskell.org/Hugs/downloads/2006-09/hugs98-Sep2006.tar.gz;
+      url = "http://cvs.haskell.org/Hugs/downloads/2006-09/hugs98-Sep2006.tar.gz";
       sha256 = "3cf4d27673564cffe691bd14032369f646233f14daf2bc37c6c6df9f062b46b6";
   };
 
@@ -49,6 +49,6 @@ composableDerivation.composableDerivation {} {
   meta = {
     license = "as-is"; # gentoo is calling it this way..
     description = "The HUGS98 Haskell <interpreter";
-    homepage = http://www.haskell.org/hugs;
+    homepage = "http://www.haskell.org/hugs";
   };
 }

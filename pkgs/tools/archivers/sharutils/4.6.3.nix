@@ -8,6 +8,6 @@ stdenv.mkDerivation rec {
   };
 
   meta = {
-    homepage = http://www.gnu.org/software/sharutils;
+    homepage = "http://www.gnu.org/software/sharutils";
   };
 }

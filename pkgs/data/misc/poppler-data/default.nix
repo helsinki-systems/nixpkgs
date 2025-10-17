@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
   ";
 
   meta = {
-    homepage = http://poppler.freedesktop.org/;
+    homepage = "http://poppler.freedesktop.org/";
     description = "Encoding files for Poppler, a PDF rendering library";
   };
 }

@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "cvs2svn-2.0.1";
 
   src = fetchurl {
-    url = http://cvs2svn.tigris.org/files/documents/1462/39919/cvs2svn-2.0.1.tar.gz;
+    url = "http://cvs2svn.tigris.org/files/documents/1462/39919/cvs2svn-2.0.1.tar.gz";
     sha256 = "1pgbyxzgn22lnw3h5c2nd8z46pkk863jg3fgh9pqa1jihsx1cg1j";
   };
 
@@ -22,6 +22,6 @@ stdenv.mkDerivation {
 
   meta = {
     description = "A tool to convert CVS repositories to Subversion repositories";
-    homepage = http://cvs2svn.tigris.org/;
+    homepage = "http://cvs2svn.tigris.org/";
   };
 }

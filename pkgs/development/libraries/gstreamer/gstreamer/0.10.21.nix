@@ -15,6 +15,6 @@ stdenv.mkDerivation rec {
     --localstatedir=/var --disable-gtk-doc --disable-docbook";
 
   meta = {
-    homepage = http://gstreamer.freedesktop.org;
+    homepage = "http://gstreamer.freedesktop.org";
   };
 }

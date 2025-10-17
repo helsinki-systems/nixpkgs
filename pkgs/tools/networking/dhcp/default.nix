@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   name = "dhcp-3.0.6";
   builder = ./builder.sh;
   src = fetchurl {
-    url = http://ftp.isc.org/isc/dhcp/dhcp-3.0.6.tar.gz;
+    url = "http://ftp.isc.org/isc/dhcp/dhcp-3.0.6.tar.gz";
     sha256 = "0k8gy3ab9kzs4qcc9apgnxi982lhggha41fkw9w1bmvmz7mv0xwz";
   };
 
@@ -28,7 +28,7 @@ stdenv.mkDerivation {
       client, and relay agent.
    '';
 
-    homepage = http://www.isc.org/products/DHCP/;
+    homepage = "http://www.isc.org/products/DHCP/";
     license = "http://www.isc.org/sw/dhcp/dhcp-copyright.php";
   };
 }

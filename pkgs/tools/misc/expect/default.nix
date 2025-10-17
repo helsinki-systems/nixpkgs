@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "expect-5.43.0";
   
   src = fetchurl {
-    url = http://expect.nist.gov/old/expect-5.43.0.tar.bz2;
+    url = "http://expect.nist.gov/old/expect-5.43.0.tar.bz2";
     sha256 = "1j6vyr8lx1fbl641hkkd6hhh9ifniklskfv00pbvy33h86a3mrvn";
   };
 
@@ -25,6 +25,6 @@ stdenv.mkDerivation {
 
   meta = {
     description = "A tool for automating interactive applications";
-    homepage = http://expect.nist.gov/;
+    homepage = "http://expect.nist.gov/";
   };
 }

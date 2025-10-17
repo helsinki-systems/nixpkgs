@@ -2,7 +2,7 @@ args : with args; with builderDefs;
 	let localDefs = builderDefs.passthru.function (rec {
 		src = /* put a fetchurl here */
 		fetchurl {
-			url = http://crl.nmsu.edu/~mleisher/cu/cu12-1.9.tar.gz;
+			url = "http://crl.nmsu.edu/~mleisher/cu/cu12-1.9.tar.gz";
 			sha256 = "0256h6f3ky529jc39hh0nvkngy48a0x3gss2z81g5ddi1qzfw0pn";
 		};
 		buildInputs = [mkfontdir mkfontscale];

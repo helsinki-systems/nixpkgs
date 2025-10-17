@@ -1,7 +1,7 @@
 args : with args; 
 rec {
   src = fetchurl {
-    url = http://downloads.sourceforge.net/jfsrec/jfsrec-svn-7.tar.gz;
+    url = "http://downloads.sourceforge.net/jfsrec/jfsrec-svn-7.tar.gz";
     sha256 = "163z6ljr05vw2k5mj4fim2nlg4khjyibrii95370pvn474mg28vg";
   };
 

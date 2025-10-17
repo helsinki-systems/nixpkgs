@@ -3,7 +3,7 @@ stdenv.mkDerivation {
   name = "thePenguinMachine";
 
   src = fetchurl {
-		url = http://www.migniot.com/matrix/projects/thepenguinmachine/ThePenguinMachine.tar.gz;
+		url = "http://www.migniot.com/matrix/projects/thepenguinmachine/ThePenguinMachine.tar.gz";
 		sha256 = "09ljks8vj75g00h3azc83yllbfsrxwmv1c9g32gylcmsshik0dqv";
 	};
 

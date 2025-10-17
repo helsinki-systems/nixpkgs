@@ -2,7 +2,7 @@ args : with args;
 	let localDefs = builderDefs {
 		src = /* put a fetchurl here */
 	fetchurl {
-		url = http://releases.compiz-fusion.org/0.6.0.1/compizconfig-python-0.6.0.1.tar.bz2;
+		url = "http://releases.compiz-fusion.org/0.6.0.1/compizconfig-python-0.6.0.1.tar.bz2";
 		sha256 = "0im67mxnm30a3xd3rvfwrgfp4ic2x5axpjdahx0f5p9pnfy0jm4n";
 	};
 		buildInputs = (import ../general-dependencies.nix args) ++

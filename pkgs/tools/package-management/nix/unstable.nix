@@ -8,7 +8,7 @@ stdenv.mkDerivation {
   name = "nix-0.13pre14314";
   
   src = fetchurl {
-    url = http://hydra.nixos.org/build/2513/download/1/nix-0.13pre14314.tar.bz2;
+    url = "http://hydra.nixos.org/build/2513/download/1/nix-0.13pre14314.tar.bz2";
     sha256 = "17qhb77hpg1wcclky8d9m1zbn7w4mm2nvizsy5azz5sd7m6lq3sn";
   };
 
@@ -23,7 +23,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "The Nix Deployment System";
-    homepage = http://nixos.org/;
+    homepage = "http://nixos.org/";
     license = "LGPL";
   };
 }

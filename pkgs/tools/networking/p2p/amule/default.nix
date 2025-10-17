@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://amule.org/;
+    homepage = "http://amule.org/";
     description = "aMule, a peer-to-peer client for the eD2K and Kademlia networks";
 
     longDescription = ''

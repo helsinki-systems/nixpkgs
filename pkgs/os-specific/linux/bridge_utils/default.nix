@@ -3,7 +3,7 @@ stdenv.mkDerivation {
   name = "bridge-utils-1.2";
 
   src = fetchurl {
-    url = mirror://sourceforge/bridge/bridge-utils-1.2.tar.gz;
+    url = "mirror://sourceforge/bridge/bridge-utils-1.2.tar.gz";
     sha256 = "0jg3z51c2c34byg4zi39j9g4b66js5kanjhid77hpa0jdfmryfy9";
   };
 

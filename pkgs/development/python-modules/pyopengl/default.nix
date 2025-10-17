@@ -23,7 +23,7 @@ in
     '';
 
     meta = {
-      homepage = http://pyopengl.sourceforge.net/;
+      homepage = "http://pyopengl.sourceforge.net/";
       description = "PyOpenGL, the Python OpenGL bindings";
 
       longDescription = ''

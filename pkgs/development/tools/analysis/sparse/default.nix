@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
       point to, or what locks a function acquires or releases.
     '';
 
-    homepage = http://www.kernel.org/pub/software/devel/sparse/;
+    homepage = "http://www.kernel.org/pub/software/devel/sparse/";
 
     # See http://www.opensource.org/licenses/osl.php .
     license = "Open Software License v1.1";

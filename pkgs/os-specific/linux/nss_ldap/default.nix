@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "nss_ldap-260";
    
   src = fetchurl {
-    url = http://www.padl.com/download/nss_ldap-260.tar.gz;
+    url = "http://www.padl.com/download/nss_ldap-260.tar.gz";
     sha256 = "0kn022js39mqmy7g5ba911q46223vk7vcf51x28rbl86lp32zv4v";
   };
 

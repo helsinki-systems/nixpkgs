@@ -7,7 +7,7 @@ args: with args;
 stdenv.mkDerivation {
   name = "arb-2007-Dec-07";
   src = fetchurl {
-    url = http://download.arb-home.de/release/2007_12_07/arbsrc.tgz;
+    url = "http://download.arb-home.de/release/2007_12_07/arbsrc.tgz";
     sha256 = "04l7qj0wigg1h56a9d70hxhdr343v3dg5dhqrc7fahc1v4h8f1rd";
   };
 
@@ -71,7 +71,7 @@ ARB
     longDescription = ''The ARB software is a graphically oriented package comprising various tools for sequence database handling and data analysis. A central database of processed (aligned) sequences and any type of additional data linked to the respective sequence entries is structured according to phylogeny or other user defined criteria. Note that this package includes its own older versions of clustal etc.''; 
     license     = "non-free";
     pkgMaintainer = "http://BioLib.open-bio.org/";
-    homepage    = http://www.arb-home.de/;
+    homepage    = "http://www.arb-home.de/";
     priority    = "10";   # because it includes binaries of clustal etc.
   };
 }

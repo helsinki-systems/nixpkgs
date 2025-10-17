@@ -12,7 +12,7 @@ stdenv.mkDerivation {
   name = "sylpheed-2.5.0";
 
   src = fetchurl {
-    url = http://sylpheed.sraoss.jp/sylpheed/v2.5/sylpheed-2.5.0.tar.bz2;
+    url = "http://sylpheed.sraoss.jp/sylpheed/v2.5/sylpheed-2.5.0.tar.bz2";
     sha256 = "0qc7sgcb23x16y6qhyrbv3hphqkmk5s9nr6xfxv5rqi6272qv2ni";
   };
 

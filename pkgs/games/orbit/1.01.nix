@@ -3,14 +3,14 @@ args : with args; with builderDefs;
 		src = /* put a fetchurl here */
 		fetchurl {
 			sha256 = "1kx69f9jqnfzwjh47cl1df8p8hn3bnp6bznxnb6c4wx32ijn5gri";
-			url = http://ftp.de.debian.org/debian/pool/main/s/space-orbit/space-orbit_1.01.orig.tar.gz;
+			url = "http://ftp.de.debian.org/debian/pool/main/s/space-orbit/space-orbit_1.01.orig.tar.gz";
 		};
 
 		buildInputs = [mesa libXi libXt libXext libX11 libXmu freeglut esound];
 		configureFlags = [];
 		debianPatch = 
 		fetchurl {
-			url = http://ftp.de.debian.org/debian/pool/main/s/space-orbit/space-orbit_1.01-9.diff.gz;
+			url = "http://ftp.de.debian.org/debian/pool/main/s/space-orbit/space-orbit_1.01-9.diff.gz";
 			sha256 = "1v3s97day6fhv08l2rn81waiprhi1lfyjjsj55axfh6n6zqfn1w2";
 		};
 		customBuild = FullDepEntry (''

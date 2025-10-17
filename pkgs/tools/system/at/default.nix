@@ -5,7 +5,7 @@ stdenv.mkDerivation {
 
   src = fetchurl {
     # Debian is apparently the last location where it can be found.
-    url = mirror://debian/pool/main/a/at/at_3.1.10.2.tar.gz;
+    url = "mirror://debian/pool/main/a/at/at_3.1.10.2.tar.gz";
     sha256 = "03v96zil1xs15px26xmhxsfn7wx84a3zwpnwmp69hn5s911api1m";
   };
 
@@ -26,6 +26,6 @@ stdenv.mkDerivation {
   meta = {
     description = ''The classical Unix `at' job scheduling command'';
     license = "GPLv2+";
-    homepage = http://packages.qa.debian.org/at;
+    homepage = "http://packages.qa.debian.org/at";
   };
 }

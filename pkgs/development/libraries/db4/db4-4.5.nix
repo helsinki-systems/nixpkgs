@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "db4-4.5.20";
   builder = ./builder.sh;
   src = fetchurl {
-    url = http://download-east.oracle.com/berkeley-db/db-4.5.20.tar.gz;
+    url = "http://download-east.oracle.com/berkeley-db/db-4.5.20.tar.gz";
     md5 = "b0f1c777708cb8e9d37fb47e7ed3312d";
   };
   configureFlags = [

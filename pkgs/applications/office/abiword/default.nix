@@ -6,7 +6,7 @@ enchant, wv
 stdenv.mkDerivation {
   name = "abiword-2.6.6";
   src = fetchurl {
-    url = http://www.abisource.org/downloads/abiword/2.6.6/source/abiword-2.6.6.tar.gz;
+    url = "http://www.abisource.org/downloads/abiword/2.6.6/source/abiword-2.6.6.tar.gz";
     sha256 = "1cgi6l3wd82vgni4wcqasyl2rvxwffliyqgbwvzv0nn99wasg5gx";
   };
 

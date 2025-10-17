@@ -50,7 +50,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "GNU Emacs with Unicode, GTK and Xft support (23.x alpha)";
-    homepage = http://www.emacswiki.org/cgi-bin/wiki/XftGnuEmacs;
+    homepage = "http://www.emacswiki.org/cgi-bin/wiki/XftGnuEmacs";
     license = "GPLv3+";
   };
 }

@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "icon-naming-utils-0.8.7";
   src = fetchurl {
-    url = http://tango.freedesktop.org/releases/icon-naming-utils-0.8.7.tar.gz;
+    url = "http://tango.freedesktop.org/releases/icon-naming-utils-0.8.7.tar.gz";
     sha256 = "1lj0lffdg7fjfinhrn0vsq1kj010dxlxlix4jfc969j6l3k9rd0w";
   };
   buildInputs = [perl perlXMLSimple];

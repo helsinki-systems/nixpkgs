@@ -25,7 +25,7 @@ stdenv.mkDerivation rec {
   name = "subversion-${version}";
 
   src = fetchurl {
-    url = http://subversion.tigris.org/downloads/subversion-1.5.5.tar.bz2;
+    url = "http://subversion.tigris.org/downloads/subversion-1.5.5.tar.bz2";
     sha256 = "1gkpmnwspb3x1310l97kb7n1kh5bmdb7bzq92xwm34sqbnx29kw8";
   };
 
@@ -72,7 +72,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A version control system intended to be a compelling replacement for CVS in the open source community";
-    homepage = http://subversion.tigris.org/;
+    homepage = "http://subversion.tigris.org/";
   };
 }
 

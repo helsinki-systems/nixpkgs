@@ -1,7 +1,7 @@
 args : with args;
 rec {
   src = fetchurl {
-    url = mirror://sourceforge/psi/psi-0.12.tar.gz;
+    url = "mirror://sourceforge/psi/psi-0.12.tar.gz";
     sha256 = "6afbb3b017009bf4d8d275ec1481e92831b0618ecb58f1372cd9189140a316af";
   };
 

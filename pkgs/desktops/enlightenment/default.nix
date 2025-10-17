@@ -22,7 +22,7 @@ let version = "0.16.8.15"; in
         group of people trying to make a new generation of software.
       '';
 
-      homepage = http://enlightenment.org/;
+      homepage = "http://enlightenment.org/";
 
       license = "BSD-style";
     };

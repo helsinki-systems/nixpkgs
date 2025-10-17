@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "bbdb-2.35";
 
   src = fetchurl {
-    url = http://bbdb.sourceforge.net/bbdb-2.35.tar.gz;
+    url = "http://bbdb.sourceforge.net/bbdb-2.35.tar.gz";
     sha256 = "3fb1316e2ed74d47ca61187fada550e58797467bd9e8ad67343ed16da769f916";
   };
 
@@ -15,7 +15,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "The Insidious Big Brother Database (BBDB), a contact management utility for Emacs";
-    homepage = http://bbdb.sourceforge.net/;
+    homepage = "http://bbdb.sourceforge.net/";
     license = "GPL";
   };
 }

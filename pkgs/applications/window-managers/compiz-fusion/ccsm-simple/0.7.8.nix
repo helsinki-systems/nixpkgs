@@ -2,7 +2,7 @@ args : with args;
 	let localDefs = builderDefs.passthru.function {
 		src = /* put a fetchurl here */
 	fetchurl {
-		url = http://releases.compiz-fusion.org/0.7.8/simple-ccsm-0.7.8.tar.bz2;
+		url = "http://releases.compiz-fusion.org/0.7.8/simple-ccsm-0.7.8.tar.bz2";
 		sha256 ="0djdzz1m9nvwzxfaywdm90bi816nig2ybfynf48394a5hpsng3l9";
 	};
 		buildInputs = (import ../general-dependencies.nix args) ++

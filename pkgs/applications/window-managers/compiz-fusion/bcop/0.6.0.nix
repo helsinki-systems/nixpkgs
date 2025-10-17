@@ -2,7 +2,7 @@ args : with args;
 	let localDefs = builderDefs {
 		src = /* put a fetchurl here */
 	fetchurl {
-		url = http://releases.compiz-fusion.org/0.6.0/compiz-bcop-0.6.0.tar.bz2;
+		url = "http://releases.compiz-fusion.org/0.6.0/compiz-bcop-0.6.0.tar.bz2";
 		sha256 = "0hw2ivvw696z325cqy7pmxb8cz30bqh67giw5fg6kzb9sn0x8v8f";
 	};
 		buildInputs = (import ../general-dependencies.nix args);

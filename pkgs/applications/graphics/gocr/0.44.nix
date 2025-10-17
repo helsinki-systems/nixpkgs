@@ -2,7 +2,7 @@ args : with args;
 	let localDefs = builderDefs.passthru.function {
 		src = /* put a fetchurl here */
 fetchurl {
-		url = http://prdownloads.sourceforge.net/jocr/gocr-0.44.tar.gz;
+		url = "http://prdownloads.sourceforge.net/jocr/gocr-0.44.tar.gz";
 		sha256 = "0kvb7cbk6z5n4g0hhbwpdk2f3819yfamwsmkwanj99yhni6p5mr0";
 	};
 

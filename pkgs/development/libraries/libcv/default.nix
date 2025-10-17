@@ -12,7 +12,7 @@ let
 in
 rec {
   src = fetchurl {
-    url = ftp://ftp.debian.org/debian/pool/main/o/opencv/opencv_0.9.7.orig.tar.gz;
+    url = "ftp://ftp.debian.org/debian/pool/main/o/opencv/opencv_0.9.7.orig.tar.gz";
     sha256 = "14qnm59gn518gjxwjb9hm3ij0b1awlxa76qdvnn5ygxsx713lf2j";
   };
 

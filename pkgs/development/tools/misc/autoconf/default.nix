@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   dontPatchShebangs = true;
 
   meta = {
-    homepage = http://www.gnu.org/software/autoconf/;
+    homepage = "http://www.gnu.org/software/autoconf/";
     description = "GNU Autoconf, a part of the GNU Build System";
 
     longDescription = ''

@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
       is done from the perspective of the Listener.
     '';
 
-    homepage = http://www.openal.org/;
+    homepage = "http://www.openal.org/";
     license = "GPLv2+";
   };
 }

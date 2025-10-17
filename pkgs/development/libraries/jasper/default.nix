@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
 	configureFlags = "--enable-shared --disable-static --with-x";
 
 	meta = {
-		homepage = http://www.ece.uvic.ca/~mdadams/jasper/;
+		homepage = "http://www.ece.uvic.ca/~mdadams/jasper/";
 		description = "JasPer JPEG2000 Library";
 	};
 }

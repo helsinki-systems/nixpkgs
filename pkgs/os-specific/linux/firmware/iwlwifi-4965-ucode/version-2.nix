@@ -26,6 +26,6 @@ stdenv.mkDerivation rec {
       driver found in recent kernels.
     '';
 
-    homepage = http://intellinuxwireless.org/;
+    homepage = "http://intellinuxwireless.org/";
   };
 }

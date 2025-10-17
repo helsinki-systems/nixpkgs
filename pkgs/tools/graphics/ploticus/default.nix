@@ -5,7 +5,7 @@ stdenv.mkDerivation {
 
   builder = ./builder.sh;
   src = fetchurl {
-    url = mirror://sourceforge/ploticus/pl240src.tar.gz;
+    url = "mirror://sourceforge/ploticus/pl240src.tar.gz";
     sha256 = "1gwppsmfxajrpidjrplkhvq2yy35r9hmigpwjmjqv4r7dj7cnrw8";
   };
 
@@ -24,6 +24,6 @@ stdenv.mkDerivation {
       over colors, styles, options and details.'';
 
     license = "GPLv2+";
-    homepage = http://ploticus.sourceforge.net/;
+    homepage = "http://ploticus.sourceforge.net/";
   };
 }

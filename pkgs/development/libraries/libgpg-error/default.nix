@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
       Daemon and possibly more in the future.
     '';
 
-    homepage = http://gnupg.org;
+    homepage = "http://gnupg.org";
 
     license = "LGPLv2+";
   };    

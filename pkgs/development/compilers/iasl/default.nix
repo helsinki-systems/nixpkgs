@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "iasl-20090123.tar.gz";
   src = fetchurl {
-    url = http://www.acpica.org/download/acpica-unix-20090123.tar.gz;
+    url = "http://www.acpica.org/download/acpica-unix-20090123.tar.gz";
     md5 = "4ca6484acbf16cf67fd4ba91d32fd0a0";
   };
 
@@ -22,6 +22,6 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Intel ACPI Compiler";
-    homepage = http://www.acpica.org/;
+    homepage = "http://www.acpica.org/";
   };
 }

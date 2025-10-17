@@ -8,12 +8,12 @@ stdenv.mkDerivation {
   builder = ./builder.sh;
 
   src = fetchurl {
-    url = http://ftp.gnu.org/gnu/glibc/glibc-2.5.tar.bz2;
+    url = "http://ftp.gnu.org/gnu/glibc/glibc-2.5.tar.bz2";
     md5 = "1fb29764a6a650a4d5b409dda227ac9f";
   };
 
   linuxthreadsSrc = fetchurl {
-    url = http://ftp.gnu.org/gnu/glibc/glibc-linuxthreads-2.5.tar.bz2;
+    url = "http://ftp.gnu.org/gnu/glibc/glibc-linuxthreads-2.5.tar.bz2";
     md5 = "870d76d46dcaba37c13d01dca47d1774";
   };
 

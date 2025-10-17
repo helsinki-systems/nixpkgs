@@ -7,7 +7,7 @@ args.stdenv.mkDerivation {
   name = "fcron-3.0.4";
 
   src = args.fetchurl {
-    url = http://fcron.free.fr/archives/fcron-3.0.4.src.tar.gz;
+    url = "http://fcron.free.fr/archives/fcron-3.0.4.src.tar.gz";
     sha256 = "15kgphsfa0nqgjd8yxyz947x2xyljj4iyh298kw4c8bz6iznqxn8";
   };
 
@@ -46,7 +46,7 @@ args.stdenv.mkDerivation {
 
   meta = { 
       description="A command scheduler with extended capabilities over cron and anacron";
-      homepage =  http://fcron.free.fr;
+      homepage =  "http://fcron.free.fr";
       license = "GPLv2";
   };
 }

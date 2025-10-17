@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
       portable.
     '';
 
-    homepage = http://0pointer.de/lennart/projects/libcanberra/;
+    homepage = "http://0pointer.de/lennart/projects/libcanberra/";
 
     license = "LGPLv2+";
   };

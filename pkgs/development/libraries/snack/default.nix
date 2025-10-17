@@ -5,7 +5,7 @@ args.stdenv.mkDerivation {
   name = "snack-2.2.10";
 
   src = args.fetchurl {
-    url = http://www.speech.kth.se/snack/dist/snack2.2.10.tar.gz;
+    url = "http://www.speech.kth.se/snack/dist/snack2.2.10.tar.gz";
     sha256 = "07p89jv9qnjqkszws9sssq93ayvwpdnkcxrvyicbm4mb8x2pdzjb";
   };
 

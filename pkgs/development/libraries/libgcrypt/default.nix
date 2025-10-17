@@ -31,6 +31,6 @@ stdenv.mkDerivation rec {
 
     license = "LGPLv2+";
 
-    homepage = http://gnupg.org/;
+    homepage = "http://gnupg.org/";
   };
 }

@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "netpbm-advanced-844";
 
   src = fetchsvn {
-    url = https://netpbm.svn.sourceforge.net/svnroot/netpbm/advanced;
+    url = "https://netpbm.svn.sourceforge.net/svnroot/netpbm/advanced";
     rev = 844;
   };
 
@@ -31,7 +31,7 @@ stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = http://netpbm.sourceforge.net/;
+    homepage = "http://netpbm.sourceforge.net/";
     description = "Toolkit for manipulation of graphic images";
     license = "GPL,free";
   };

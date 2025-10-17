@@ -2,7 +2,7 @@ args : with args;
 	let localDefs = builderDefs {
 		src = /* put a fetchurl here */
 		fetchurl {
-			url = http://dfn.dl.sourceforge.net/sourceforge/gdmap/gdmap-0.7.5.tar.gz;
+			url = "http://dfn.dl.sourceforge.net/sourceforge/gdmap/gdmap-0.7.5.tar.gz";
 			sha256 = "0vxfgz1bq0jvny6dy7dkzg2kl56plrxby6c4y5d6bv4bq2xd6v26";
 		};
 

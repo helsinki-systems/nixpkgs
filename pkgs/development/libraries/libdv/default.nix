@@ -15,13 +15,13 @@ composableDerivation {} {
   name = "libdv-1.0.0";
 
   src = args.fetchurl {
-    url = mirror://sourceforge/libdv/libdv-1.0.0.tar.gz;
+    url = "mirror://sourceforge/libdv/libdv-1.0.0.tar.gz";
     sha256 = "1fl96f2xh2slkv1i1ix7kqk576a0ak1d33cylm0mbhm96d0761d3";
   };
 
   meta = {
     description = "software decoder for DV format video, as defined by the IEC 61834 and SMPTE 314M standards";
-    homepage = http://sourceforge.net/projects/libdv/;
+    homepage = "http://sourceforge.net/projects/libdv/";
     # you can choose one of the following licenses: 
     license = [];
   };

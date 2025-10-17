@@ -7,7 +7,7 @@ rec {
     buildInputs = [perl];
 
     src = args.fetchurl {
-      url = http://www.squid-cache.org/Versions/v3/3.0/squid-3.0.STABLE5.tar.bz2;
+      url = "http://www.squid-cache.org/Versions/v3/3.0/squid-3.0.STABLE5.tar.bz2";
       sha256 = "1m4ccpjw30q9vwsycmgg9dmhly0mpznvxrch6f7dxgfzpjp26l7w";
     };
 
@@ -24,7 +24,7 @@ rec {
   squid3Beta = squid30.merge {
     name = "squid-3.1-beta";
     src = args.fetchurl {
-      url = http://www.squid-cache.org/Versions/v3/3.1/squid-3.1.0.3.tar.bz2;
+      url = "http://www.squid-cache.org/Versions/v3/3.1/squid-3.1.0.3.tar.bz2";
       sha256 = "0khc4w9sbdwzxw8285z60ymz15q5qjy7b8yvvfnzfkihdacs735x";
     };
     configureFlags = ["--enable-ipv6"];
@@ -33,7 +33,7 @@ rec {
   squid3Head = squid3Beta.merge {
     name = "squid-3.1-HEAD";
     src = args.fetchurl {
-      url = http://www.squid-cache.org/Versions/v3/3.1/squid-3.1.0.3-20081221.tar.bz2;
+      url = "http://www.squid-cache.org/Versions/v3/3.1/squid-3.1.0.3-20081221.tar.bz2";
       md5 = "345b50251dcc369e1be992d0a4a4c801";
     };
   };

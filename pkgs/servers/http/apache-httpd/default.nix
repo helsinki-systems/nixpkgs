@@ -9,7 +9,7 @@ stdenv.mkDerivation {
   name = "apache-httpd-2.2.11";
 
   src = fetchurl {
-    url = mirror://apache/httpd/httpd-2.2.11.tar.bz2;
+    url = "mirror://apache/httpd/httpd-2.2.11.tar.bz2";
     md5 = "3e98bcb14a7122c274d62419566431bb";
   };
 
@@ -38,6 +38,6 @@ stdenv.mkDerivation {
   
   meta = {
     description = "Apache HTTPD, the world's most popular web server";
-    homepage = http://httpd.apache.org/;
+    homepage = "http://httpd.apache.org/";
   };
 }

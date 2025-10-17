@@ -32,6 +32,6 @@ stdenv.mkDerivation rec {
     '';
 
     license = "GPLv2+";
-    homepage = http://namazu.org/;
+    homepage = "http://namazu.org/";
   };
 }

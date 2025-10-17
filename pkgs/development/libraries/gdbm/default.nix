@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "GNU DBM key/value database library";
-    homepage = http://www.gnu.org/software/gdbm/;
+    homepage = "http://www.gnu.org/software/gdbm/";
     license = "GPLv2+";
   };
 }

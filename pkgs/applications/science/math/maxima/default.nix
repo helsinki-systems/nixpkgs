@@ -11,6 +11,6 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Maxima computer algebra system";
-    homepage = http://maxima.sourceforge.net;
+    homepage = "http://maxima.sourceforge.net";
   };
 }

@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   builder = ./builder.sh;
 
   src = fetchurl {
-    url = http://www.docbook.org/xml/5.0/docbook-5.0.zip;
+    url = "http://www.docbook.org/xml/5.0/docbook-5.0.zip";
     sha256 = "13i04dkd709f0p5f2413sf2y9321pfi4y85ynf8wih6ryphnbk9x";
   };
 

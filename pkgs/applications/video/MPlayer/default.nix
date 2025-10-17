@@ -33,7 +33,7 @@ stdenv.mkDerivation {
   name = "MPlayer-1.0rc2";
 
   src = fetchurl {
-    url = http://www1.mplayerhq.hu/MPlayer/releases/MPlayer-1.0rc2.tar.bz2;
+    url = "http://www1.mplayerhq.hu/MPlayer/releases/MPlayer-1.0rc2.tar.bz2";
     sha1 = "e9b496f3527c552004ec6d01d6b43f196b43ce2d";
   };
 

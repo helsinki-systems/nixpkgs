@@ -11,6 +11,6 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "a Real-Time Transport Protocol (RFC3550) stack under LGPL";
-    homepage = http://www.linphone.org/index.php/eng/code_review/ortp;
+    homepage = "http://www.linphone.org/index.php/eng/code_review/ortp";
   };
 }

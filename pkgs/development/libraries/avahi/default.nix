@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
       protocols.
     '';
 
-    homepage = http://avahi.org;
+    homepage = "http://avahi.org";
     license = "LGPLv2+";
   };
 }

@@ -17,12 +17,12 @@ args : with args;
       src = fetchurl {
         # using my mirror because original url is https
         # https://projects.commandprompt.com/public/odbcng/attachment/wiki/Downloads/odbcng-0.90.101.tar.gz";
-        url = http://mawercer.de/~publicrepos/odbcng-0.90.101.tar.gz;
+        url = "http://mawercer.de/~publicrepos/odbcng-0.90.101.tar.gz";
         sha256 = "13z3sify4z2jcil379704w0knkpflg6di4jh6zx1x2gdgzydxa1y";
       };
       meta = {
           description = "unix odbc driver for postgresql";
-          homepage = https://projects.commandprompt.com/public/odbcng;
+          homepage = "https://projects.commandprompt.com/public/odbcng";
           license = "GPL2";
       };
     };
@@ -39,13 +39,13 @@ args : with args;
     ";
     # added -ltdl to resolve missing references `dlsym' `dlerror' `dlopen' `dlclose' 
     src = fetchurl {
-      url = http://wwwmaster.postgresql.org/redir?setmir=53&typ=h&url=http://ftp.de.postgresql.org/mirror/postgresql//odbc/versions/src/psqlodbc-08.03.0200.tar.gz;
+      url = "http://wwwmaster.postgresql.org/redir?setmir=53&typ=h&url=http://ftp.de.postgresql.org/mirror/postgresql//odbc/versions/src/psqlodbc-08.03.0200.tar.gz";
       name = "psqlodbc-08.03.0200.tar.gz";
       sha256 = "1401hgzvs3m2yr2nbbf9gfy2wwijrk4ihwz972arbn0krsiwxya1";
     };
     meta = {
         description = "unix odbc driver for postgresql";
-        homepage =  http://pgfoundry.org/projects/psqlodbc/;
+        homepage =  "http://pgfoundry.org/projects/psqlodbc/";
         license = "LGPL";
     };
   };
@@ -61,7 +61,7 @@ args : with args;
     deriv = stdenv.mkDerivation {
       name = "mysql-connector-odbc-3.51.12";
       src = fetchurl {
-        url = http://ftp.snt.utwente.nl/pub/software/mysql/Downloads/MyODBC3/mysql-connector-odbc-3.51.12.tar.gz;
+        url = "http://ftp.snt.utwente.nl/pub/software/mysql/Downloads/MyODBC3/mysql-connector-odbc-3.51.12.tar.gz";
         md5 = "a484f590464fb823a8f821b2f1fd7fef";
       };
       configureFlags = "--disable-gui"
@@ -81,7 +81,7 @@ args : with args;
     deriv = stdenv.mkDerivation {
       name = "sqlite-connector-odbc-3.51.12";
       src = fetchurl {
-        url = http://www.ch-werner.de/sqliteodbc/sqliteodbc-0.70.tar.gz;
+        url = "http://www.ch-werner.de/sqliteodbc/sqliteodbc-0.70.tar.gz";
         sha256 = "0ysyqdqkxqcqxrxgi15cbrzia9z6yalim5c88faad85bwanx4db8";
       };
       configureFlags = "--with-sqlite3=${sqlite} --with-odbc=${unixODBC}";
@@ -89,7 +89,7 @@ args : with args;
       buildInputs = [libtool zlib sqlite];
       meta = { 
         description = "sqlite odbc connector, install using configuration.nix";
-        homepage = http://www.ch-werner.de/sqliteodbc/html/index.html;
+        homepage = "http://www.ch-werner.de/sqliteodbc/html/index.html";
         license = "BSD";
       };
     };

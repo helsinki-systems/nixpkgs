@@ -9,6 +9,6 @@ stdenv.mkDerivation rec {
   configureFlags = "--enable-shared --disable-static";
 
   meta = {
-    homepage = http://www.abisource.com/enchant;
+    homepage = "http://www.abisource.com/enchant";
   };
 }

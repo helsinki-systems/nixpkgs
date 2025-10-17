@@ -2,7 +2,7 @@ args : with args;
 assert args ? kernel;
 rec {
   src = fetchurl {
-    url = http://ftg.lbl.gov/CheckpointRestart/downloads/blcr-0.6.5.tar.gz ;
+    url = "http://ftg.lbl.gov/CheckpointRestart/downloads/blcr-0.6.5.tar.gz" ;
     sha256 = "195gwxb38wmhzxr0jr349g6pxlwz6id2y6szv2akprv5ypy9py0g";
   };
 

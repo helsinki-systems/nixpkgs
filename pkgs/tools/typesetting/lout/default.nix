@@ -40,7 +40,7 @@ stdenv.mkDerivation rec {
     '';
 
     # Author's page: http://www.cs.usyd.edu.au/~jeff/ .
-    homepage = http://lout.wiki.sourceforge.net/;
+    homepage = "http://lout.wiki.sourceforge.net/";
 
     license = "GPLv3+";
   };

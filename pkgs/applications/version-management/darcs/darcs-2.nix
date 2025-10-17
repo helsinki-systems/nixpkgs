@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "darcs-2.1.0";
   src = fetchurl {
-    url = http://www.darcs.net/darcs-2.1.0.tar.gz;
+    url = "http://www.darcs.net/darcs-2.1.0.tar.gz";
     sha256 = "d5a63e62bceb45905163d508c6b25158dab6aca367015566d8c539ec37107ab4";
   };
 

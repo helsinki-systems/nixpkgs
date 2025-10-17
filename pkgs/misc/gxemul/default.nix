@@ -19,7 +19,7 @@ composableDerivation.composableDerivation {} {
   installPhase = "ensureDir \$out/bin; cp gxemul \$out/bin;";
 
   src = fetchurl {
-    url = http://gavare.se/gxemul/src/gxemul-0.4.6.tar.gz;
+    url = "http://gavare.se/gxemul/src/gxemul-0.4.6.tar.gz";
     sha256 = "0hf3gi6hfd2qr5090zimfiddcjgank2q6m7dfsr81wwpxfbhb2z3";
   };
 
@@ -28,7 +28,7 @@ composableDerivation.composableDerivation {} {
   meta = {
     license = "BSD";
     description = "A Machine Emulator, Mainly emulates MIPS, but supports other CPU type";
-    homepage = http://gavare.se/gxemul/;
+    homepage = "http://gavare.se/gxemul/";
   };
 
   mergeAttrBy = { installPhase = a : b : "${a}\n${b}"; };

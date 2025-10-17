@@ -43,6 +43,6 @@ stdenv.mkDerivation rec {
 
     license = "GPLv2+";
 
-    homepage = http://cedet.sourceforge.net/;
+    homepage = "http://cedet.sourceforge.net/";
   };
 }

@@ -2,7 +2,7 @@ args : with args; with builderDefs;
   let localDefs = builderDefs.passthru.function (rec {
     src = /* put a fetchurl here */
     fetchurl {
-      url = http://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_3_4_5.tar.gz;
+      url = "http://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_3_4_5.tar.gz";
       sha256 = "0j1ddk0wiqxhbi3872vf2mqx0jynswrvbfbabrp73zqhz3mdvsal";
     };
 

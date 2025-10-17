@@ -1,7 +1,7 @@
 args : with args; 
 rec {
   src = fetchurl {
-    url = http://ftp.de.debian.org/debian/pool/main/s/sip4-qt3/sip4-qt3_4.7.4.orig.tar.gz;
+    url = "http://ftp.de.debian.org/debian/pool/main/s/sip4-qt3/sip4-qt3_4.7.4.orig.tar.gz";
     sha256 = "0g518b26346q9b0lm13rsgdbq14r4nckyjbf209ylakwx6zir4l5";
   };
 

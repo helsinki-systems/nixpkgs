@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
       them extensible.  It supports many SRFIs.
     '';
 
-    homepage = http://www.gnu.org/software/guile/;
+    homepage = "http://www.gnu.org/software/guile/";
     license = "LGPLv2+";
   };
 }

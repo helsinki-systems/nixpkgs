@@ -39,6 +39,6 @@ in
       '';
 
       license = "GPLv2+";
-      homepage = http://www.tuxonice.net/;
+      homepage = "http://www.tuxonice.net/";
     };
   }

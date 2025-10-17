@@ -18,7 +18,7 @@ stdenv.mkDerivation {
   name = "gnuplot-4.2.2-nix";
 
   src = fetchurl {
-    url = mirror://sourceforge/gnuplot/gnuplot-4.2.2.tar.gz;
+    url = "mirror://sourceforge/gnuplot/gnuplot-4.2.2.tar.gz";
     sha256 = "14ca8wwdb4hdsgs51fqlrkcny3d4rm1vs54sfg5d0hr7iw2qlvvm";
   };
 

@@ -36,7 +36,7 @@ stdenv.mkDerivation rec {
       widely used by NFS and NIS, among others.
     '';
 
-    homepage = http://neil.brown.name/portmap/;
+    homepage = "http://neil.brown.name/portmap/";
     license = "BSD";
   };
 }

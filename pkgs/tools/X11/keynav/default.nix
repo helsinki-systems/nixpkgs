@@ -5,7 +5,7 @@ stdenv.mkDerivation {
 
   src = 
 	fetchurl {
-		url = http://www.semicomplete.com/files/keynav/keynav-20070903.tar.gz;
+		url = "http://www.semicomplete.com/files/keynav/keynav-20070903.tar.gz";
 		sha256 = "037mbgm78jwy0qd0z691pgx4zcpkk5544fx8ajm2mx4y80k2d9kk";
 	};
 

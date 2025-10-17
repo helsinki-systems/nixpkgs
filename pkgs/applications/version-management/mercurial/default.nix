@@ -3,7 +3,7 @@ args: with args;
 stdenv.mkDerivation {
   name = "mercurial-1.0.2";
   src = fetchurl {
-    url = http://www.selenic.com/mercurial/release/mercurial-1.0.2.tar.gz;
+    url = "http://www.selenic.com/mercurial/release/mercurial-1.0.2.tar.gz";
     sha256 = "0fj2aakband855684q76h7zl328iq8i6l81c2k64hy5m0if9hvgr";
   };
 
@@ -36,7 +36,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "A fast, lightweight SCM system for very large distributed projects";
-    homepage = http://www.selenic.com/mercurial/;
+    homepage = "http://www.selenic.com/mercurial/";
     license = "GPLv2";
   };
 }

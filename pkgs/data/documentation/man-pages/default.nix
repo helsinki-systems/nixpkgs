@@ -14,6 +14,6 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Linux development manual pages";
-    homepage = http://kernel.org/pub/linux/docs/manpages/;
+    homepage = "http://kernel.org/pub/linux/docs/manpages/";
   };
 }

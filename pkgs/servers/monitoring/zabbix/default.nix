@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "zabbix-1.4.6";
 
   src = fetchurl {
-    url = mirror://sourceforge/zabbix/zabbix-1.4.6.tar.gz;
+    url = "mirror://sourceforge/zabbix/zabbix-1.4.6.tar.gz";
     sha256 = "19xczaiprn820jnq9lhixdhd3d6ffkjk80l98lwxzrz2zc2s06n9";
   };
 
@@ -28,7 +28,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "An enterprise-class open source distributed monitoring solution";
-    homepage = http://www.zabbix.com/;
+    homepage = "http://www.zabbix.com/";
     license = "GPL";
   };
 }

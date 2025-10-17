@@ -5,7 +5,7 @@ stdenv.mkDerivation {
 
   src = fetchurl {
     # The file cannot be downloaded from sgi.com.
-    #url = ftp://oss.sgi.com/projects/xfs/cmd_tars/acl_2.2.47-1.tar.gz;
+    #url = "ftp://oss.sgi.com/projects/xfs/cmd_tars/acl_2.2.47-1.tar.gz";
     url = "http://gentoo.chem.wisc.edu/gentoo/distfiles/acl_2.2.47-1.tar.gz";
     sha256 = "1j39g62fki0iyji9s62slgwdfskpkqy7rmjlqcnmsvsnxbxhc294";
   };

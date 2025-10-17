@@ -15,13 +15,13 @@ stdenv.mkDerivation {
    ";
 
   src = fetchurl {
-    url = http://uazu.net/sbagen/sbagen-1.4.4.tgz;
+    url = "http://uazu.net/sbagen/sbagen-1.4.4.tgz";
     sha256 = "0w62yk1b0hq79kl0angma897yqa8p1ww0dwydf3zlwav333prkd2";
   };
 
   meta = { 
       description = "binaural sound generator";
-      homepage = http://uazu.net/sbagen;
+      homepage = "http://uazu.net/sbagen";
       license = "GPL";
     };
 }

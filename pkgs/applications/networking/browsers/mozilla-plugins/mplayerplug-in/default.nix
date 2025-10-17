@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A browser plugin that uses mplayer to play digital media from websites";
-    homepage = http://mplayerplug-in.sourceforge.net/;
+    homepage = "http://mplayerplug-in.sourceforge.net/";
     licenses = [ "GPLv2+" "LGPLv2+" "MPLv1+" ];
   };
 }

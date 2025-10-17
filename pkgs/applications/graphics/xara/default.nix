@@ -4,7 +4,7 @@ pkgconfig, libxml2, zip, libpng, libjpeg, shebangfix, perl, freetype}:
 stdenv.mkDerivation {
   name = "xaralx-0.7r1766";
   src = fetchurl {
-    url = http://downloads2.xara.com/opensource/XaraLX-0.7r1766.tar.bz2;
+    url = "http://downloads2.xara.com/opensource/XaraLX-0.7r1766.tar.bz2";
     sha256 = "1rcl7hqvcai586jky7hvzxhnq8q0ka2rsmgiq5ijwclgr5d4ah7n";
   };
     

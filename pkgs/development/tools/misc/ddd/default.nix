@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
   buildInputs = [lesstif ncurses libX11 libXt];
 	configureFlags = "--with-x";
 	meta = {
-	  homepage = http://www.gnu.org/software/ddd;
+	  homepage = "http://www.gnu.org/software/ddd";
 		description = "Graphical front-end for command-line debuggers";
 		license = "GPLv2";
 	};

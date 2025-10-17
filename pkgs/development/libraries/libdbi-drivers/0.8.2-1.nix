@@ -2,7 +2,7 @@ args : with args;
 	let localDefs = builderDefs.passthru.function {
 		src = /* put a fetchurl here */
 			fetchurl {
-				url = mirror://sourceforge/libdbi-drivers/libdbi-drivers-0.8.2-1.tar.gz;
+				url = "mirror://sourceforge/libdbi-drivers/libdbi-drivers-0.8.2-1.tar.gz";
 				sha256 = "1bflwl1k3rf1h8clx3zv5pxnm5hbhq6izikv0phkss3qxkjm61ap";
 			};
 

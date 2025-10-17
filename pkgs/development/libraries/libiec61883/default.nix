@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
 
   meta = { 
       description = "TODO";
-      homepage = http://www.linux1394.org;
+      homepage = "http://www.linux1394.org";
       license = "LGPL";
     };
 }

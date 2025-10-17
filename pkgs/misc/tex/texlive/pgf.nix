@@ -33,6 +33,6 @@ rec {
 
     license = [ "GPLv2" "LPPLv1.3c" ];
 
-    homepage = http://tug.ctan.org/tex-archive/graphics/pgf/;
+    homepage = "http://tug.ctan.org/tex-archive/graphics/pgf/";
   };
 }

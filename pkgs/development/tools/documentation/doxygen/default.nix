@@ -39,7 +39,7 @@ stdenv.mkDerivation rec {
       manual (in LaTeX) from a set of documented source files.
     '';
 
-    homepage = http://doxygen.org/;
+    homepage = "http://doxygen.org/";
 
     license = "GPLv2+";
   };

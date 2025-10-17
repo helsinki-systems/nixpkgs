@@ -5,7 +5,7 @@ let
   # A patch to fix A/V sync, and to allow video to be played
   # (e.g. using MPlayer) while the AVI is being recorded.
   gorecordAV = fetchurl {
-    url = http://colabti.org/convertx/patch-av-aviheader.diff;
+    url = "http://colabti.org/convertx/patch-av-aviheader.diff";
     sha256 = "04qk58qigzwfdnn3mr3pg28qx4r89nlzdhgkvfipz36bsny23r50";
   };
 
@@ -15,7 +15,7 @@ stdenv.mkDerivation {
   name = "wis-go7007-0.9.8-${kernel.version}";
 
   src = fetchurl {
-    url = http://gentoo.osuosl.org/distfiles/wis-go7007-linux-0.9.8.tar.bz2;
+    url = "http://gentoo.osuosl.org/distfiles/wis-go7007-linux-0.9.8.tar.bz2";
     sha256 = "06lvlz42c5msvwc081p8vjcbv8qq1j1g1myxhh27xi8zi06n1mzg";
   };
 
@@ -32,7 +32,7 @@ stdenv.mkDerivation {
     { url = "http://sources.gentoo.org/viewcvs.py/*checkout*/gentoo-x86/media-tv/wis-go7007/files/wis-go7007-2.6.26-nopage.diff?rev=1.1";
       sha256 = "18ks6dm9nnliab9ncgxx5nhw528vhwg83byps8wjsbadd3wzwym3";
     }
-    { url = http://home.comcast.net/~bender647/go7007/wis-go7007-2.6.24-no_algo_control.diff;
+    { url = "http://home.comcast.net/~bender647/go7007/wis-go7007-2.6.24-no_algo_control.diff";
       sha256 = "1a7jkcsnzagir3wpsj60pjrr9wgfaqq21jlmq6s0qg9hqg4nzbvf";
     }
   ] ++ [
@@ -78,6 +78,6 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Kernel module for the Micronas GO7007, used in a number of USB TV devices";
-    homepage = http://oss.wischip.com/;
+    homepage = "http://oss.wischip.com/";
   };
 }

@@ -46,7 +46,7 @@ stdenv.mkDerivation rec {
       one are easily achieved using a sound server.
     '';
 
-    homepage = http://www.pulseaudio.org/;
+    homepage = "http://www.pulseaudio.org/";
 
     # Note: Practically, the server is under the GPL due to the
     # dependency on `libsamplerate'.  See `LICENSE' for details.

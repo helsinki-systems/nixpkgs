@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "ncat-0.10rc3";
 
   src = fetchurl {
-    url = mirror://sourceforge/nmap-ncat/ncat-0.10rc3.tar.gz;
+    url = "mirror://sourceforge/nmap-ncat/ncat-0.10rc3.tar.gz";
     sha256 = "1yb26ipxwhqkfannji90jxi38k35fal4ffx0jm5clr1a1rndjjzb";
   };
 

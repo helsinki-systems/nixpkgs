@@ -11,7 +11,7 @@ args.stdenv.mkDerivation rec {
 
   meta = { 
       description = "Yap Prolog System is a ISO-compatible high-performance Prolog compiler";
-      homepage = http://yap.sourceforge.net/;
+      homepage = "http://yap.sourceforge.net/";
       license = "artistic";
   };
 }

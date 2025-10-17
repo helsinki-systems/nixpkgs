@@ -28,7 +28,7 @@ composableDerivation.composableDerivation {} {
   postInstall = " sed -e \"s=(ldflags fastcgi.*=(ldflags -l fastcgi -L \$fcgi)=\" -i \$out/etc/pcc.conf ";
   meta = {
     description = "roadsend PHP -> C compiler";
-    homepage = http://www.roadsend.com;
+    homepage = "http://www.roadsend.com";
     # you can choose one of the following licenses: 
     # Runtime license is LPGL 2.1
     license = ["GPL2"];

@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
       PHP, Python, Ruby, and Perl.
     '';
 
-    homepage = http://www.libming.org/;
+    homepage = "http://www.libming.org/";
 
     license = "LGPLv2+";
   };

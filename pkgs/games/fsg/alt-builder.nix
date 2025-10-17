@@ -3,7 +3,7 @@ args: with args;
   		buildInputs =[mesa (wxGTK null) libX11 xproto];
 		  src = 
 			fetchurl {
-				url = http://www.piettes.com/fallingsandgame/fsg-src-4.4.tar.gz;
+				url = "http://www.piettes.com/fallingsandgame/fsg-src-4.4.tar.gz";
 				sha256 = "1756y01rkvd3f1pkj88jqh83fqcfl2fy0c48mcq53pjzln9ycv8c";
 			};
 	};

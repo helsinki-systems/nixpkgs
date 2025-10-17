@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
   doCheck = !qt4Support;
 
   meta = {
-    homepage = http://poppler.freedesktop.org/;
+    homepage = "http://poppler.freedesktop.org/";
     description = "Poppler, a PDF rendering library";
 
     longDescription = ''

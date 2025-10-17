@@ -61,7 +61,7 @@ stdenv.mkDerivation rec {
       one of his castles, he loses.  The last surviving player wins.
     '';
 
-    homepage = http://www.linux-games.com/castle-combat/;
+    homepage = "http://www.linux-games.com/castle-combat/";
 
     license = "unknown";
   };

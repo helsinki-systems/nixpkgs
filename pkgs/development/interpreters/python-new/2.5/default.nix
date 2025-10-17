@@ -148,7 +148,7 @@ in
       version = "2.6.3.3";
       passthru = { wxGTK = p.wxGTK26; };
       src = fetchurl {
-        url = mirror://sourceforge/wxpython/wxPython-src-2.6.3.3.tar.bz2;
+        url = "mirror://sourceforge/wxpython/wxPython-src-2.6.3.3.tar.bz2";
         md5 = "66b9c5f8e20a9505c39dab1a1234daa9";
       };
     };
@@ -158,7 +158,7 @@ in
     #  version = "2.8.9.1";
     #  passthru = { wxGTK = wxGTK28; };
     #  src = fetchurl {
-    #    url = mirror://sourceforge.net/sourceforge/wxpython/wxPython-src-2.8.9.1.tar.bz2;
+    #    url = "mirror://sourceforge.net/sourceforge/wxpython/wxPython-src-2.8.9.1.tar.bz2";
     #    sha256 = "1yp7l2c2lfpwc2x5lk5pawmzq2bqajzhbzqs1p10jd211slwhjsq";
     #  };
     #};
@@ -178,7 +178,7 @@ in
     #  name = "bsddb3-4.5.0";
     #  setupFlags = ["--berkeley-db=${p.db4}"];
     #  src = fetchurl {
-    #    url = mirror://sourceforge/pybsddb/bsddb3-4.5.0.tar.gz;
+    #    url = "mirror://sourceforge/pybsddb/bsddb3-4.5.0.tar.gz";
     #    sha256 = "1h09kij32iikr9racp5p7qrb4li2gf2hs0lyq6d312qarja4d45v";
     #  };
     #};
@@ -271,7 +271,7 @@ in
       buildInputs = [ p.pkgconfig  p.gnome.libgnome ];
       propagatedBuildInputs = [ p.gnome.GConf ];
       pySrcs = [(fetchurl {
-        url = http://ftp.gnome.org/pub/GNOME/sources/gnome-python/2.22/gnome-python-2.22.3.tar.bz2;
+        url = "http://ftp.gnome.org/pub/GNOME/sources/gnome-python/2.22/gnome-python-2.22.3.tar.bz2";
         sha256 = "0ndm3cns9381mm6d8jxxfd931fk93nqfcszy38p1bz501bs3wxm1";
       })];
     }
@@ -281,7 +281,7 @@ in
       buildInputs = [ p.pkgconfig ];
       propagatedBuildInputs = [ p.gnome.GConf ];
       pySrcs = [(fetchurl {
-        url = http://ftp.gnome.org/pub/GNOME/sources/gnome-python-desktop/2.24/gnome-python-desktop-2.24.0.tar.bz2;
+        url = "http://ftp.gnome.org/pub/GNOME/sources/gnome-python-desktop/2.24/gnome-python-desktop-2.24.0.tar.bz2";
         sha256 = "16514gmv42ygjh5ggzsis697m73pgg7ydz11h487932kkzv4mmlg";
       })];
       pyCheck = "import egg.trayicon";
@@ -291,7 +291,7 @@ in
       buildInputs = [ p.pkgconfig ];
       propagatedBuildInputs = [ p.gnome.GConf ];
       pySrcs = [(fetchurl {
-        url = http://ftp.gnome.org/pub/GNOME/sources/gnome-python-extras/2.13/gnome-python-extras-2.13.3.tar.gz;
+        url = "http://ftp.gnome.org/pub/GNOME/sources/gnome-python-extras/2.13/gnome-python-extras-2.13.3.tar.gz";
         sha256 = "0vj0289snagrnvbmrs1camwmrc93xgpw650iavj6mq7a3wqcra0b";
       })];
     }
@@ -300,7 +300,7 @@ in
   #pygtk213 = t.pygtkBaseFun {
   #  version = "2.13.0";
   #  pygtkSrc = fetchurl {
-  #    url = http://ftp.gnome.org/pub/GNOME/sources/pygtk/2.13/pygtk-2.13.0.tar.bz2;
+  #    url = "http://ftp.gnome.org/pub/GNOME/sources/pygtk/2.13/pygtk-2.13.0.tar.bz2";
   #    sha256 = "0644ll48hi8kwfng37b0k5qgb0fbiy298r7sxd4j7ag7lj4bgic0";
   #  };
   #  passthru = { inherit (p.gtkLibs) glib gitk; };
@@ -314,7 +314,7 @@ in
     version = "2.12.1";
     name = "pygobject-${a.fixed.passthru.pygobjectVersion}-and-pygtk-${a.fixed.version}";
     pygtkSrc = fetchurl { 
-      url = http://ftp.acc.umu.se/pub/GNOME/sources/pygtk/2.12/pygtk-2.12.1.tar.bz2;
+      url = "http://ftp.acc.umu.se/pub/GNOME/sources/pygtk/2.12/pygtk-2.12.1.tar.bz2";
       sha256 = "0gg13xgr7y9sppw8bdys042928nc66czn74g60333c4my95ys021";
     };
     passthru = { inherit (p.gtkLibs) glib gtk; };
@@ -328,7 +328,7 @@ in
     name = "pycairo-1.8.0";
     buildInputs = [ p.pkgconfig p.cairo p.x11 ];
     src = fetchurl {
-      url = http://www.cairographics.org/releases/pycairo-1.6.4.tar.gz;
+      url = "http://www.cairographics.org/releases/pycairo-1.6.4.tar.gz";
       md5 = "2c3aa21e6e610321498f9f81f7b625df";
     };
     pyCheck = "import cairo";
@@ -337,7 +337,7 @@ in
   gstPython = t.pythonLibStub.merge {
     name = "gst-python-0.10.13";
     src = fetchurl {
-      url = http://gstreamer.freedesktop.org/src/gst-python/gst-python-0.10.13.tar.gz;
+      url = "http://gstreamer.freedesktop.org/src/gst-python/gst-python-0.10.13.tar.gz";
       sha256 = "0yin36acr5ryfpmhlb4rlagabgxrjcmbpizwrc8csadmxzmigb86";
     };
     buildInputs =[ p.flex2535 p.pkgconfig];
@@ -370,14 +370,14 @@ in
     '';
     meta = {
       description = "python gstreamer bindings";
-      homepage = http://gstreamer.freedesktop.org/modules/gst-python.html;
+      homepage = "http://gstreamer.freedesktop.org/modules/gst-python.html";
       license = "GPLv2.1";
     };
   };
 
   pygoocanvas = t.pythonLibStub.merge {
     src = p.fetchurl {
-      url = http://download.berlios.de/pygoocanvas/pygoocanvas-0.10.0.tar.gz;
+      url = "http://download.berlios.de/pygoocanvas/pygoocanvas-0.10.0.tar.gz";
       sha256 = "0pxznzdscbhvn8102vrqy3r1g6ss4sgs8wwy6y4c5g26rrp7l55d";
     };
     propagatedBuildInputs = [ t.pygtk212 ];
@@ -386,7 +386,7 @@ in
     name = "pygoocanvas-0.10.0";
     meta = {
       description = "";
-      homepage = http://developer.berlios.de/projects/pygoocanvas/;
+      homepage = "http://developer.berlios.de/projects/pygoocanvas/";
       license = "LGPL";
     };
   };
@@ -450,7 +450,7 @@ in
     pyCheck = "import dbus";
     meta = { 
       description = "";
-      homepage = http://freedesktop.org/wiki/Software/DBusBindings;
+      homepage = "http://freedesktop.org/wiki/Software/DBusBindings";
       license = [ "GPLv2" "AFL-2.1" ];
     };
   };
@@ -458,13 +458,13 @@ in
   pythonXlib = t.pythonLibSetup.merge {
     name = "python-xlib-0.14";
     src = fetchurl {
-      url = http://puzzle.dl.sourceforge.net/sourceforge/python-xlib/python-xlib-0.14.tar.gz;
+      url = "http://puzzle.dl.sourceforge.net/sourceforge/python-xlib/python-xlib-0.14.tar.gz";
       sha256 = "1sv0447j0rx8cgs3jhjl695p5pv13ihglcjlrrz1kq05lsvb0wa7";
     };
     meta = {
       description = "tries to be a fully functional X client library beeing entirely written in python";
       license = [ "GPL" ];
-      homepage = http://python-xlib.sourceforge.net/;
+      homepage = "http://python-xlib.sourceforge.net/";
     };
   };
 
@@ -472,12 +472,12 @@ in
     name = "mechanize-0.1.11";
     buildInputs = [ t.setuptools ];
     src = fetchurl {
-      url = http://wwwsearch.sourceforge.net/mechanize/src/mechanize-0.1.11.tar.gz;
+      url = "http://wwwsearch.sourceforge.net/mechanize/src/mechanize-0.1.11.tar.gz";
       sha256 = "1h62mwy4iz09jqz17nrb9j8y0djd500zdfqwrz9xmdwqzqwixkj2";
     };
     meta = {
       description = "Stateful programmatic web browsing in Python, after Andy Lester's Perl module WWW::Mechanize";
-      homepage = http://wwwsearch.sourceforge.net/mechanize/;
+      homepage = "http://wwwsearch.sourceforge.net/mechanize/";
       license = ["BSD" "ZPL 2.1"];
     };
     pyCheck = "from mechanize import Browser";
@@ -486,12 +486,12 @@ in
   pexpect = t.pythonLibSetup.merge {
     name = "pexpect-2.3";
     src = fetchurl {
-      url = mirror://sourceforge/pexpect/pexpect-2.3.tar.gz;
+      url = "mirror://sourceforge/pexpect/pexpect-2.3.tar.gz";
       sha256 = "0x8bfjjqygriry1iyygm5048ykl5qpbpzqfp6i8dhkslm3ryf5fk";
     };
     meta = {
       description = "tcl expect as python library";
-      homepage = http://www.noah.org/wiki/Pexpect;
+      homepage = "http://www.noah.org/wiki/Pexpect";
       license = "MIT";
     };
   };
@@ -516,7 +516,7 @@ in
   pitivi = t.pythonExStub.merge {
     name = "pitivi-0.11.2";
     src = fetchurl {
-      url = http://ftp.gnome.org/pub/GNOME/sources/pitivi/0.11/pitivi-0.11.2.tar.bz2;
+      url = "http://ftp.gnome.org/pub/GNOME/sources/pitivi/0.11/pitivi-0.11.2.tar.bz2";
       sha256 = "0d3bqgfp60qm5bf904k477bd8jhxizj1klv84wbxsz9vhjwx9zcl";
     };
     buildInputs = [ t.pygtk212 t.gstPython t.pygoocanvas t.zopeInterface t.dbusPython
@@ -524,7 +524,7 @@ in
     # why do have to add gtk-2.0 explicitely?
     meta = {
         description = "A non-linear video editor using the GStreamer multimedia framework";
-        homepage = http://www.pitivi.org/wiki/Downloads;
+        homepage = "http://www.pitivi.org/wiki/Downloads";
         license = "LGPL-2.1";
     };
     postInstall = ''
@@ -546,13 +546,13 @@ in
       shopt -s nullglob
     '';
     src = fetchurl {
-      url = http://zaheer.merali.org/istanbul-0.2.2.tar.bz2;
+      url = "http://zaheer.merali.org/istanbul-0.2.2.tar.bz2";
       sha256 = "1mdc82d0xs9pyavs616bz0ywq3zwy3h5y0ydjl6kvcgixii29aiv";
     };
     postInstall = "chmod a+x $out/bin/istanbul";
     meta = {
       description = "A non-linear video editor using the GStreamer multimedia framework";
-      homepage = http://live.gnome.org/Istanbul;
+      homepage = "http://live.gnome.org/Istanbul";
       license = "LGPLv2";
     };
   };

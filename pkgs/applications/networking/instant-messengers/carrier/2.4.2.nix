@@ -9,7 +9,7 @@ let
 in
 rec {
   src = fetchurl {
-    url = http://downloads.sourceforge.net/funpidgin/carrier-2.4.2.tar.bz2;
+    url = "http://downloads.sourceforge.net/funpidgin/carrier-2.4.2.tar.bz2";
     sha256 = "176mi7gxkvvrmxsd58bi8qgkc209gpnlp21hh3j0dmb9zszyh7kp";
   };
 
@@ -42,7 +42,7 @@ rec {
   name = "carrier-" + version;
   meta = {
     description = "Carrier - PidginIM GUI fork with user-friendly development model";
-    homepage = http://funpidgin.sf.net; 
+    homepage = "http://funpidgin.sf.net"; 
   };
 } // (if externalPurple2 then {
   postInstall = FullDepEntry (''

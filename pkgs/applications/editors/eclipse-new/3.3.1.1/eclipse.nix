@@ -47,7 +47,7 @@ args.stdenv.mkDerivation rec {
   # directory somewhere else (so that you can use the update manager
 
   src = args.fetchurl {
-    url = http://mawercer.de/~nix/iyyx4hs1mgh1b1wa78j07pgq9k882m2k-eclipse-sourceBuild-srcIncluded-3.3.1.1.zip;
+    url = "http://mawercer.de/~nix/iyyx4hs1mgh1b1wa78j07pgq9k882m2k-eclipse-sourceBuild-srcIncluded-3.3.1.1.zip";
     sha256 = "0n56i7ml816f839704qlkgs5ahl0iqgwc80kjq7n7g5rl9a4vhp4";
   };
 }

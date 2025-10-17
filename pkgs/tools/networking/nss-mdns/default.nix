@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
       domain `.local'.
     '';
 
-    homepage = http://0pointer.de/lennart/projects/nss-mdns/;
+    homepage = "http://0pointer.de/lennart/projects/nss-mdns/";
     license = "LGPLv2+";
   };
 }

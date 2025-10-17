@@ -2,7 +2,7 @@ args: with args;
 	let localDefs = builderDefs.passthru.function { 
 	  src = 
 		fetchurl {
-			url = mirror://sourceforge/audacity/audacity-src-1.3.3.tar.gz;
+			url = "mirror://sourceforge/audacity/audacity-src-1.3.3.tar.gz";
 			sha256 = "17bjc2rnqspg1mbay4b1hhgg08iadapwf6w98gbv3r84rv1mhgls";
 		};
 
@@ -30,7 +30,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Audacity sound editor.";
-    homepage = http://audacity.sourceforge.net;
+    homepage = "http://audacity.sourceforge.net";
     inherit src;
   };
 }

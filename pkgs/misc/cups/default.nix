@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "cups-1.3.9";
   
   src = fetchurl {
-    url = http://ftp.easysw.com/pub/cups/1.3.9/cups-1.3.9-source.tar.bz2;
+    url = "http://ftp.easysw.com/pub/cups/1.3.9/cups-1.3.9-source.tar.bz2";
     sha256 = "0svb5alfsj9bfraw0yb9i92g5hc9h36m9xfipvi1pxdwp2s6m19q";
   };
 
@@ -30,7 +30,7 @@ stdenv.mkDerivation {
   ''; # */
 
   meta = {
-    homepage = http://www.cups.org/;
+    homepage = "http://www.cups.org/";
     description = "A standards-based printing system for UNIX";
   };
 }

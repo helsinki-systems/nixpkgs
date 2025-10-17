@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   configureFlags = "--enable-shared --disable-static --disable-ldconfig --exec-prefix=\${prefix} --enable-mount-helper";
 
   meta = {
-    homepage = http://www.ntfs-3g.org;
+    homepage = "http://www.ntfs-3g.org";
     description = "FUSE-base NTFS driver with full write support";
   };
 }

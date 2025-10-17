@@ -21,7 +21,7 @@ stdenv.mkDerivation {
 
   meta = { 
       description = "tool to view OpenEXR images";
-      homepage = http://openexr.com;
+      homepage = "http://openexr.com";
       license = "BSD-like";
   };
 }

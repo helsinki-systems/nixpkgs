@@ -2,7 +2,7 @@
 stdenv.mkDerivation {
   name = "freeimage-3.11.0";
   src = fetchurl {
-    url = mirror://sourceforge/freeimage/FreeImage3110.zip;
+    url = "mirror://sourceforge/freeimage/FreeImage3110.zip";
     sha256 = "84021b8c0b86e5801479474ad9a99c18d121508ee16d363e02ddcbf24195340c";
   };
   buildInputs = [ unzip ];
@@ -16,7 +16,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Open Source library for accessing popular graphics image file formats";
-    homepage = http://freeimage.sourceforge.net/;
+    homepage = "http://freeimage.sourceforge.net/";
     license = "GPL";
   };
 }

@@ -3,12 +3,12 @@
 let
 
   src32 = fetchurl {
-    url = http://dagobah.ucc.asn.au/wacky/cryopid-0.5.9.1-i386.tar.gz;
+    url = "http://dagobah.ucc.asn.au/wacky/cryopid-0.5.9.1-i386.tar.gz";
     sha256 = "14175pc87x932c09cl1n5iwc5v1086gd4xpb4pz7d5fvqpaxca3h";
   };
 
   src64 = fetchurl {
-    url = http://dagobah.ucc.asn.au/wacky/cryopid-0.5.9.1-x86_64.tar.gz;
+    url = "http://dagobah.ucc.asn.au/wacky/cryopid-0.5.9.1-x86_64.tar.gz";
     sha256 = "0y3h9fvb59c8i07das5srhprnsbj1i9m93fp37mzqcjxi2gwjw3b";
   };
   
@@ -40,7 +40,7 @@ stdenv.mkDerivation {
       and save it to a file.  This file can then be used to resume the process
       later on, either after a reboot or even on another machines.
     '';
-    homepage = http://cryopid.berlios.de;
+    homepage = "http://cryopid.berlios.de";
     license = ''
       Modified BSD license (without advertising clause).  CryoPID ships with
       and links against the dietlibc library, which is distributed under the

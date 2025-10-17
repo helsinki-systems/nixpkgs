@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   name = "audacious-1.5.1";
   
   src = fetchurl {
-    url = http://distfiles.atheme.org/audacious-1.5.1.tbz2;
+    url = "http://distfiles.atheme.org/audacious-1.5.1.tbz2";
     sha256 = "1s32pdgx85qkrq15wwmvdw7wbcbxcf3nrhqxi6y72aijqm6fjwnz";
   };
 
@@ -27,6 +27,6 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Audacious, a media player forked from the Beep Media Player, which was itself an XMMS fork";
-    homepage = http://audacious-media-player.org/;
+    homepage = "http://audacious-media-player.org/";
   };
 }

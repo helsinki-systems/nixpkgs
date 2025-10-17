@@ -11,7 +11,7 @@ stdenv.mkDerivation ({
   configureFlags = "--enable-readline --enable-dl --disable-static --enable-shared";
   meta = { 
       description = "High-level interactive language for numerical computations";
-      homepage = http://www.octave.org;
+      homepage = "http://www.octave.org";
       license = "GPL-3";
     };
 } // (
@@ -40,7 +40,7 @@ stdenv.mkDerivation ({
   } else {
     name = "octave-3.1.51";
     src =  fetchurl {
-      url = ftp://ftp.octave.org/pub/octave/bleeding-edge/octave-3.1.51.tar.bz2;
+      url = "ftp://ftp.octave.org/pub/octave/bleeding-edge/octave-3.1.51.tar.bz2";
       sha256 = "0v0khhpmydyimvdl2rswfd0jrcqa9rhd3cyi60zhqv2hi0bhmkh8";
     };
     buildInputs = commonBuildInputs ++ [ flex bison autoconf automake python ]

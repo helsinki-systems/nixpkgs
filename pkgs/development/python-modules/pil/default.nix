@@ -26,7 +26,7 @@ in
     installPhase = "python setup.py install --prefix=$out";
 
     meta = {
-      homepage = http://www.pythonware.com/products/pil/;
+      homepage = "http://www.pythonware.com/products/pil/";
       description = "The Python Imaging Library (PIL)";
 
       longDescription = ''

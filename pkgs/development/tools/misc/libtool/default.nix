@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
       documentation for details.
     '';
 
-    homepage = http://www.gnu.org/software/libtool/;
+    homepage = "http://www.gnu.org/software/libtool/";
 
     license = "GPLv2+";
   };

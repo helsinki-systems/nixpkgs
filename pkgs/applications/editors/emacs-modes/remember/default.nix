@@ -39,7 +39,7 @@ stdenv.mkDerivation rec {
       the full meaning of that data, as far as you know it.
     '';
 
-    homepage = http://gna.org/projects/remember-el/;
+    homepage = "http://gna.org/projects/remember-el/";
     license = "GPLv2+";
   };
 }

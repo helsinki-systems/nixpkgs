@@ -9,7 +9,7 @@ stdenv.mkDerivation {
   name = "SDL-1.2.13";
   
   src = fetchurl {
-    url = http://www.libsdl.org/release/SDL-1.2.13.tar.gz;
+    url = "http://www.libsdl.org/release/SDL-1.2.13.tar.gz";
     sha256 = "0cp155296d6fy3w31jj481jxl9b43fkm01klyibnna8gsvqrvycl";
   };
   
@@ -28,6 +28,6 @@ stdenv.mkDerivation {
 
   meta = {
     description = "A cross-platform multimedia library";
-    homepage = http://www.libsdl.org/;
+    homepage = "http://www.libsdl.org/";
   };
 }

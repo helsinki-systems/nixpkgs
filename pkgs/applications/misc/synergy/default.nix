@@ -16,7 +16,7 @@ stdenv.mkDerivation {
 
   meta= { 
       description = "share mouse keyboard and clipboard between computers";
-      homepage = http://synergy2.sourceforge.net;
+      homepage = "http://synergy2.sourceforge.net";
       license = "GPL";
   };
 }

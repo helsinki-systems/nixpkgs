@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   doCheck = true;
 
   meta = {
-    homepage = http://www.gnu.org/software/m4/;
+    homepage = "http://www.gnu.org/software/m4/";
     description = "GNU M4, a macro processor";
 
     longDescription = ''

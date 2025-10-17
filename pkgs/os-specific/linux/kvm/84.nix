@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://kvm.qumranet.com/;
+    homepage = "http://kvm.qumranet.com/";
     description = "A full virtualization solution for Linux on x86 hardware containing virtualization extensions";
   };
 }

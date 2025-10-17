@@ -2,7 +2,7 @@ args : with args;
 rec {
   src = /* Here a fetchurl expression goes */
         fetchurl {
-            url = http://www.dest-unreach.org/socat/download/socat-2.0.0-b1.tar.bz2;
+            url = "http://www.dest-unreach.org/socat/download/socat-2.0.0-b1.tar.bz2";
             sha256 = "0ybd5fw22icl10r33k987rskh9gvysm1jph90a1pfdjj57cy44fk";
         };
 

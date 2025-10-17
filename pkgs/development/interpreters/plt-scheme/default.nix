@@ -22,7 +22,7 @@ rec {
   name = "plt-scheme" + version;
   meta = {
     description = "PLT scheme environment";
-    homepage = http://plt-scheme.org/ ;
+    homepage = "http://plt-scheme.org/" ;
     license = "LGPL-2.1";
     licenses = ["LGPL-2.1"];
   };

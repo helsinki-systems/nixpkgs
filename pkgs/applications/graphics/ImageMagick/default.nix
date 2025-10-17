@@ -30,6 +30,6 @@ stdenv.mkDerivation (rec {
     '' else "";
 
   meta = {
-    homepage = http://www.imagemagick.org;
+    homepage = "http://www.imagemagick.org";
   };
 })

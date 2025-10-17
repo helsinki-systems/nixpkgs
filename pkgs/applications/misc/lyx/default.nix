@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "lyx-1.5.4";
 
   src = fetchurl {
-    url = http://lyx.cybermirror.org/stable/lyx-1.5.4.tar.bz2;
+    url = "http://lyx.cybermirror.org/stable/lyx-1.5.4.tar.bz2";
     sha256 = "6c8b9aafc287ee683b68ebb08166e660e27af9942a30291f14c18de39aca8f2b";
   };
 

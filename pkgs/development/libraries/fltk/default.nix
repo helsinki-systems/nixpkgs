@@ -5,7 +5,7 @@ composableDerivation {} {
   name = "fltk-2.0.x-r6483";
 
   src = args.fetchurl {
-    url = ftp://ftp.easysw.com/pub/fltk/snapshots/fltk-2.0.x-r6483.tar.bz2;
+    url = "ftp://ftp.easysw.com/pub/fltk/snapshots/fltk-2.0.x-r6483.tar.bz2";
     sha256 = "1n8b53r5p0zb4sbvr6pj8aasls4zjwksv1sdc3r3pzb20fikp5jb";
   };
 
@@ -40,6 +40,6 @@ composableDerivation {} {
 
   meta = {
       description = "a C++ cross platform lightweight gui library binding";
-      homepage = http://www.fltk.org;
+      homepage = "http://www.fltk.org";
   };
 }

@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "splashutils-1.3";
   
   src = fetchurl {
-    url = http://dev.gentoo.org/~spock/projects/splashutils/archive/splashutils-1.3.tar.bz2;
+    url = "http://dev.gentoo.org/~spock/projects/splashutils/archive/splashutils-1.3.tar.bz2";
     md5 = "c7c92b98e34b860511aa57bd29d62f76";
   };
   

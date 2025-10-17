@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   name = "kvm-76";
    
   src = fetchurl {
-    url = mirror://sourceforge/kvm/kvm-76.tar.gz;
+    url = "mirror://sourceforge/kvm/kvm-76.tar.gz";
     sha256 = "06gf2aic6n0b3fnd9vi0llyydr2w6qnx1k8imm710862xhncpssk";
   };
 
@@ -32,7 +32,7 @@ stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = http://kvm.qumranet.com/;
+    homepage = "http://kvm.qumranet.com/";
     description = "A full virtualization solution for Linux on x86 hardware containing virtualization extensions";
   };
 }

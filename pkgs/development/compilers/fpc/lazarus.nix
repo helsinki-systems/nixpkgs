@@ -1,7 +1,7 @@
 args : with args; 
 rec {
   src = fetchurl {
-    url = http://downloads.sourceforge.net/lazarus/lazarus-0.9.26-0.tgz;
+    url = "http://downloads.sourceforge.net/lazarus/lazarus-0.9.26-0.tgz";
     sha256 = "1pb6h35axdmg552pvazgi7jclkx93vssy08cbpa4jw3rij7drhnl";
   };
 
@@ -34,6 +34,6 @@ rec {
   name = "lazarus-0.9.26-0";
   meta = {
     description = "Lazarus graphical IDE for FreePascal language";
-    homepage = http://www.lazarus.freepascal.org ;
+    homepage = "http://www.lazarus.freepascal.org" ;
   };
 }

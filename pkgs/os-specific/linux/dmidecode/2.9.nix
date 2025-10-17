@@ -2,7 +2,7 @@ args : with args;
 	let localDefs = builderDefs.passthru.function {
 		src = /* put a fetchurl here */
 		fetchurl {
-			url = http://download.savannah.gnu.org/releases/dmidecode/dmidecode-2.9.tar.bz2;
+			url = "http://download.savannah.gnu.org/releases/dmidecode/dmidecode-2.9.tar.bz2";
 			sha256 = "05g0ln400fhqjspg9h4x0a1dvmwiyjq5rk9q9kimxvywbg1b53l8";
 		};
 

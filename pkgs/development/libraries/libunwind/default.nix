@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   NIX_CFLAGS_COMPILE = if stdenv.system == "x86_64-linux" then "-fPIC" else "";
   
   meta = {
-    homepage = http://www.nongnu.org/libunwind;
+    homepage = "http://www.nongnu.org/libunwind";
     description = "A portable and efficient API to determine the call-chain of a program";
   };
 }

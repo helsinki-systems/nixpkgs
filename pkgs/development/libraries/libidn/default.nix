@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   doCheck = true;
 
   meta = {
-    homepage = http://www.gnu.org/software/libidn/;
+    homepage = "http://www.gnu.org/software/libidn/";
     description = "GNU Libidn library for internationalized domain names";
 
     longDescription = ''

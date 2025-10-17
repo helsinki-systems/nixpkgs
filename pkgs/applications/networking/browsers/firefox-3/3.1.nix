@@ -14,7 +14,7 @@ stdenv.mkDerivation {
   name = "firefox-3.1b2";
 
   src = fetchurl {
-    url = ftp://ftp.mozilla.org/pub/firefox/releases/3.1b2/source/firefox-3.1b2-source.tar.bz2;
+    url = "ftp://ftp.mozilla.org/pub/firefox/releases/3.1b2/source/firefox-3.1b2-source.tar.bz2";
     sha256 = "1mqy7q4bfw8iphlmzvymqfki8r4zzynyyy6z6gws4qqx9ry42jqs";
   };
 
@@ -74,7 +74,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Mozilla Firefox - the browser, reloaded";
-    homepage = http://www.mozilla.com/en-US/firefox/;
+    homepage = "http://www.mozilla.com/en-US/firefox/";
   };
 
   passthru = {

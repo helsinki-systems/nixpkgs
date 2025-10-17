@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
       set of utility functions for strings and common data structures.
     '';
 
-    homepage = http://www.gtk.org/;
+    homepage = "http://www.gtk.org/";
 
     license = "LGPLv2+";
   };

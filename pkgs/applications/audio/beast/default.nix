@@ -3,7 +3,7 @@ args.stdenv.mkDerivation {
   name = "beast-0.7.1";
 
   src = args.fetchurl {
-    url = ftp://beast.gtk.org/pub/beast/v0.7/beast-0.7.1.tar.bz2;
+    url = "ftp://beast.gtk.org/pub/beast/v0.7/beast-0.7.1.tar.bz2";
     sha256 = "0jyl1i1918rsn4296w07fsf6wx3clvad522m3bzgf8ms7gxivg5l";
   };
 
@@ -22,7 +22,7 @@ args.stdenv.mkDerivation {
 
   patches = [
         (fetchurl {
-          url = mirror://gentoo/distfiles/beast-0.7.1-guile-1.8.diff.bz2;
+          url = "mirror://gentoo/distfiles/beast-0.7.1-guile-1.8.diff.bz2";
           sha256 = "dc5194deff4b0a0eec368a69090db682d0c3113044ce2c2ed017ddfec9d3814e";
         })
         ./patch.patch # patches taken from gentoo
@@ -30,7 +30,7 @@ args.stdenv.mkDerivation {
 
   meta = { 
       description = "BEAST - the Bedevilled Sound Engine";
-      homepage = http://beast.gtk.org;
+      homepage = "http://beast.gtk.org";
       license = ["GPL-2" "LGPL-2.1"];
   };
 }

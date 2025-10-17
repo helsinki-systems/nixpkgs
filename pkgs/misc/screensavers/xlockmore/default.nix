@@ -5,7 +5,7 @@ stdenv.mkDerivation {
 
   name = "xlockmore-5.24";
   src = fetchurl {
-    url = http://www.tux.org/~bagleyd/xlock/xlockmore-5.24.tar.bz2;
+    url = "http://www.tux.org/~bagleyd/xlock/xlockmore-5.24.tar.bz2";
     sha256 = "dbee7bbe35c08afcbe419603fae60aee7898bbd85a3175dc788f02ddbb9f5a39";
   };
 
@@ -24,7 +24,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Xlockmore, a screen locker for the X Window System.";
-    homepage = http://www.tux.org/~bagleyd/xlockmore.html;
+    homepage = "http://www.tux.org/~bagleyd/xlockmore.html";
     license = "GPL";
   };
 }

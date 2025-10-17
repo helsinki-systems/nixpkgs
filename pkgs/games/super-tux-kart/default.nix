@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
       Kart.
     '';
 
-    homepage = http://supertuxkart.sourceforge.net/;
+    homepage = "http://supertuxkart.sourceforge.net/";
 
     license = "GPLv2+";
   };

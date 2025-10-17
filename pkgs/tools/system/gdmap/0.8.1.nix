@@ -2,7 +2,7 @@ args : with args;
 	let localDefs = builderDefs.passthru.function {
 		src = /* put a fetchurl here */
 		fetchurl {
-		    url = http://downloads.sourceforge.net/gdmap/gdmap-0.8.1.tar.gz;
+		    url = "http://downloads.sourceforge.net/gdmap/gdmap-0.8.1.tar.gz";
 		    sha256 = "0nr8l88cg19zj585hczj8v73yh21k7j13xivhlzl8jdk0j0cj052";
 		};
 

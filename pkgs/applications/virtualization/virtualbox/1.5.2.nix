@@ -2,7 +2,7 @@ args : with args;
 	let localDefs = builderDefs {
 		src = /* put a fetchurl here */
 		fetchurl {
-			url = http://www.virtualbox.org/download/1.5.2/VirtualBox-1.5.2_OSE.tar.bz2;
+			url = "http://www.virtualbox.org/download/1.5.2/VirtualBox-1.5.2_OSE.tar.bz2";
 			sha256 = "1g9rvkqjcsfx36gwk6i9c0bml6053xx2mdn1sn7vyyy0sgwkwk53";
 		};
 		buildInputs = [libXcursor bridge_utils umlutilities kernelHeaders 

@@ -4,7 +4,7 @@ args : with args;	let
 	 builderDefs.passthru.function {
 		src = /* put a fetchurl here */
 	fetchurl {
-		url = ftp://ftp.debian.org/debian/pool/main/l/ltrace/ltrace_0.5.orig.tar.gz;
+		url = "ftp://ftp.debian.org/debian/pool/main/l/ltrace/ltrace_0.5.orig.tar.gz";
 		sha256 = "1nbjcnizc0w3p41g7hqf1qiany8qk4xs9g4zrlq4fpxdykdwla3v";
 	};
 

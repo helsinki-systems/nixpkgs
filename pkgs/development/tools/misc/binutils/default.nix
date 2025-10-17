@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "binutils-2.18";
   
   src = fetchurl {
-    url = mirror://gnu/binutils/binutils-2.18.tar.bz2;
+    url = "mirror://gnu/binutils/binutils-2.18.tar.bz2";
     sha256 = "16zfc7llbjdn69bbdy7kqgg2xa67ypgj7z5qicgwzvghaaj36yj8";
   };
 

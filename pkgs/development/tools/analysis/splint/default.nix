@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   doCheck = true;
 
   meta = {
-    homepage = http://splint.org/;
+    homepage = "http://splint.org/";
     description = "Splint, an annotation-assisted lightweight static analyzer for C";
 
     longDescription = ''

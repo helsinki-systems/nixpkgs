@@ -7,7 +7,7 @@
 stdenv.mkDerivation {
   name = "kdebase-workspace-4.2.1";
   src = fetchurl {
-    url = mirror://kde/stable/4.2.1/src/kdebase-workspace-4.2.1.tar.bz2;
+    url = "mirror://kde/stable/4.2.1/src/kdebase-workspace-4.2.1.tar.bz2";
     sha1 = "412b8a6778d5c71a366c054b0136edae309bbef0";
   };
   CMAKE_PREFIX_PATH=kdepimlibs;

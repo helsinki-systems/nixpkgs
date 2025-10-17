@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.daimi.au.dk/~sandmann/sysprof/;
+    homepage = "http://www.daimi.au.dk/~sandmann/sysprof/";
     description = "Sysprof, a system-wide profiler for Linux";
     license = "GPLv2+";
 

@@ -12,6 +12,6 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "A console downloading program. Has some features for mirroring sites.";
-    homepage = http://www.gnu.org/software/wget;
+    homepage = "http://www.gnu.org/software/wget";
   };
 }

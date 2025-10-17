@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "udev-125";
 
   src = fetchurl {
-    url = mirror://kernel/linux/utils/kernel/hotplug/udev-125.tar.bz2;
+    url = "mirror://kernel/linux/utils/kernel/hotplug/udev-125.tar.bz2";
     sha256 = "1w75c6vaqw8587djd8g380h1jrbj7fx9441bvvy4gj9jz21r00ks";
   };
 
@@ -32,7 +32,7 @@ stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html;
+    homepage = "http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html";
     description = "Udev manages the /dev filesystem";
   };
 }

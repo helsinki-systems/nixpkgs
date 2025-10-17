@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   name = "pidgin-latex";
 
   src = fetchurl {
-    url = http://tapas.affenbande.org/pidgin-latex/pidgin-latex-0.9.tgz;
+    url = "http://tapas.affenbande.org/pidgin-latex/pidgin-latex-0.9.tgz";
     sha256 = "1yqd3qgxd3n8hm60qg7yv7j1crr6f3d4yrdpgwdpw2pyf92p8nxp";
   };
 
@@ -41,6 +41,6 @@ stdenv.mkDerivation {
       Enable it for user by linking to ~/.purple/plugins - from
       sw/share/pidgin-latex , not from store of course.
     '';
-    homepage = http://tapas.affenbande.org/wordpress/?page_id=70;
+    homepage = "http://tapas.affenbande.org/wordpress/?page_id=70";
   };
 }

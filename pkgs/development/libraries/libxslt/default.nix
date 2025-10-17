@@ -5,7 +5,7 @@ assert libxml2 != null;
 stdenv.mkDerivation {
   name = "libxslt-1.1.24";
   src = fetchurl {
-    url = ftp://xmlsoft.org/libxml2/libxslt-1.1.24.tar.gz;
+    url = "ftp://xmlsoft.org/libxml2/libxslt-1.1.24.tar.gz";
     sha256 = "c0c10944841e9a79f29d409c6f8da0d1b1af0403eb3819c82c788dfa6a180b3e";
   };
   buildInputs = [libxml2];

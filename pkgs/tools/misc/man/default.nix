@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "man-1.6f";
   
   src = fetchurl {
-    url = http://primates.ximian.com/~flucifredi/man/man-1.6f.tar.gz;
+    url = "http://primates.ximian.com/~flucifredi/man/man-1.6f.tar.gz";
     sha256 = "0v2z6ywhy8kd2fa3ywkqayhjdivbaqn6qvhx93a1ldw135z8q84z";
   };
   
@@ -20,7 +20,7 @@ stdenv.mkDerivation {
   ];
 
   meta = {
-    homepage = http://primates.ximian.com/~flucifredi/man/;
+    homepage = "http://primates.ximian.com/~flucifredi/man/";
     description = "Tool to read online Unix documentation";
   };
 }

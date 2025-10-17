@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
   doCheck = true;
 
   meta = {
-    homepage = http://www.gnu.org/software/gv/;
+    homepage = "http://www.gnu.org/software/gv/";
     description = "GNU gv, a PostScript/PDF document viewer";
     license = "GPLv3+";
   };

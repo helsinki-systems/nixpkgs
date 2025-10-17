@@ -11,7 +11,7 @@ stdenv.mkDerivation {
   builder = ./builder.sh;
   
   src = fetchurl {
-    url = http://ftp.osuosl.org/pub/mythtv/mythtv-0.21.tar.bz2;
+    url = "http://ftp.osuosl.org/pub/mythtv/mythtv-0.21.tar.bz2";
     sha256 = "1r654fvklpsf6h9iqckb8fhd7abgs71lx6xh352xgz9yzjl7ia1k";
   };
 

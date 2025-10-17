@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "mpg321-0.2.10";
   src = fetchurl {
-    url = mirror://sourceforge/mpg321/mpg321-0.2.10.tar.gz;
+    url = "mirror://sourceforge/mpg321/mpg321-0.2.10.tar.gz";
     sha256 = "db0c299592b8f1f704f41bd3fc3a2bf138658108588d51af61638c551af1b0d4";
   };
 
@@ -11,7 +11,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Command-line MP3 player.";
-    homepage = http://mpg321.sourceforge.net/;
+    homepage = "http://mpg321.sourceforge.net/";
     license = "GPLv2";
   };
 }

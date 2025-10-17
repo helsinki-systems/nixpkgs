@@ -14,7 +14,7 @@ stdenv.mkDerivation {
 
   builder = ./builder.sh;
   src = fetchurl {
-    url = http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.20/source/firefox-2.0.0.20-source.tar.bz2;
+    url = "http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.20/source/firefox-2.0.0.20-source.tar.bz2";
     sha1 = "16601fdbbb0a83b85fd053e76350f7da397f525e";
   };
 
@@ -49,7 +49,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Mozilla Firefox - the browser, reloaded";
-    homepage = http://www.mozilla.com/en-US/firefox/;
+    homepage = "http://www.mozilla.com/en-US/firefox/";
   };
 
   passthru = {inherit gtk;};

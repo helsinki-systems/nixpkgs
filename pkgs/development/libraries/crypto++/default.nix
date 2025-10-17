@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Crypto++, a free C++ class library of cryptographic schemes";
-    homepage = http://cryptopp.com/;
+    homepage = "http://cryptopp.com/";
     license = "Public Domain";
   };
 }

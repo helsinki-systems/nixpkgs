@@ -30,7 +30,7 @@ stdenv.mkDerivation rec {
       royalties.
     '';
 
-    homepage = http://www.gtk.org/;
+    homepage = "http://www.gtk.org/";
 
     license = "LGPLv2+";
   };

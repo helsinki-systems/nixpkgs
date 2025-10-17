@@ -36,6 +36,6 @@ stdenv.mkDerivation rec {
 
     license = "GPLv3+";
 
-    homepage = http://www.gnu.org/software/cflow/;
+    homepage = "http://www.gnu.org/software/cflow/";
   };
 }

@@ -2,7 +2,7 @@ args : with args; with builderDefs;
   let localDefs = builderDefs.passthru.function (rec {
     src = /* put a fetchurl here */
     fetchurl {
-      url = mirror://sourceforge/libvncserver/x11vnc-0.9.3.tar.gz;
+      url = "mirror://sourceforge/libvncserver/x11vnc-0.9.3.tar.gz";
       sha256 = "0sfzkbqd2d94w51czci9w5j5z67amcl1gphgg6x77dyr2h46kc0a";
     };
 

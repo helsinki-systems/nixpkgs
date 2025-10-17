@@ -4,7 +4,7 @@
 stdenv.mkDerivation {
   name = "kdesdk-4.2.1";
   src = fetchurl {
-    url = mirror://kde/stable/4.2.1/src/kdesdk-4.2.1.tar.bz2;
+    url = "mirror://kde/stable/4.2.1/src/kdesdk-4.2.1.tar.bz2";
     sha1 = "dca74527bcf6e5925ec58a74196e683cc68a259a";
   };
   CMAKE_PREFIX_PATH=kdepimlibs;

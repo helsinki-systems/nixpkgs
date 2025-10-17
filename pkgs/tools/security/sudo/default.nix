@@ -35,7 +35,7 @@ stdenv.mkDerivation rec {
       providing an audit trail of the commands and their arguments.
     '';
 
-    homepage = http://www.sudo.ws/;
+    homepage = "http://www.sudo.ws/";
 
     license = http://www.sudo.ws/sudo/license.html;
   };

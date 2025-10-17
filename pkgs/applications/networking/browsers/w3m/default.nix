@@ -11,7 +11,7 @@ stdenv.mkDerivation {
   name = "w3m-0.5.2";
 
   src = fetchurl {
-    url = mirror://sourceforge/w3m/w3m-0.5.2.tar.gz;
+    url = "mirror://sourceforge/w3m/w3m-0.5.2.tar.gz";
     md5 = "ba06992d3207666ed1bf2dcf7c72bf58";
   };
 
@@ -26,7 +26,7 @@ stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = http://w3m.sourceforge.net/;
+    homepage = "http://w3m.sourceforge.net/";
     description = "A text-mode web browser";
   };
 }

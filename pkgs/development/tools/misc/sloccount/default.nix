@@ -46,6 +46,6 @@ stdenv.mkDerivation rec {
 
     license = "GPLv2+";
 
-    homepage = http://www.dwheeler.com/sloccount/;
+    homepage = "http://www.dwheeler.com/sloccount/";
   };
 }

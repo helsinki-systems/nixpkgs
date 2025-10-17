@@ -180,7 +180,7 @@ rec {
     input = {
       name = "scrollkeeper-0.3.14";
       src = fetchurl {
-        url = http://ftp.gnome.org/pub/GNOME/desktop/2.16/2.16.3/sources/scrollkeeper-0.3.14.tar.bz2;
+        url = "http://ftp.gnome.org/pub/GNOME/desktop/2.16/2.16.3/sources/scrollkeeper-0.3.14.tar.bz2";
         md5 = "b175e582a6cec3e50a9de73a5bb7455a";
       };
     };
@@ -238,7 +238,7 @@ rec {
     input = {
       name = "startup-notification-0.8";
       src = fetchurl {
-        url = http://ftp.gnome.org/pub/GNOME/desktop/2.16/2.16.3/sources/startup-notification-0.8.tar.bz2;
+        url = "http://ftp.gnome.org/pub/GNOME/desktop/2.16/2.16.3/sources/startup-notification-0.8.tar.bz2";
         md5 = "d9b2e9fba18843314ae42334ceb4336d";
       };
     };

@@ -5,7 +5,7 @@ stdenv.mkDerivation (rec {
   homepage = "http://www.cs.uu.nl/wiki/Ehc/WebHome/";
 
   src = fetchsvn {
-          url = https://svn.cs.uu.nl:12443/repos/EHC/trunk/EHC;
+          url = "https://svn.cs.uu.nl:12443/repos/EHC/trunk/EHC";
           rev = "1042";
           sha256 = "7a9e5d1d57825caa4664686d9a5c0d9b5ebb870095817d77bb7b97869718ed5b";
   };

@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "slr";
   src = fetchurl {
-    url = http://www.ebi.ac.uk/goldman-srv/SLR/download/current/slr_source.tgz;
+    url = "http://www.ebi.ac.uk/goldman-srv/SLR/download/current/slr_source.tgz";
     sha256 = "0i81fv201p187mim4zakipxnhzqdvd3p5a9qa59xznc6458r2zsn";
   };
 
@@ -24,6 +24,6 @@ stdenv.mkDerivation {
 SLR is a program to detect sites in coding DNA that are unusually conserved and/or unusually variable (that is, evolving under purify or positive selection) by analysing the pattern of changes for an alignment of sequences on an evolutionary tree.     
 '';
     license     = "GPL3";
-    homepage    = http://www.ebi.ac.uk/goldman/SLR/;
+    homepage    = "http://www.ebi.ac.uk/goldman/SLR/";
   };
 }

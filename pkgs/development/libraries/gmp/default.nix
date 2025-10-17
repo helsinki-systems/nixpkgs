@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "gmp-4.2.3";
 
   src = fetchurl {
-    url = mirror://gnu/gmp/gmp-4.2.3.tar.bz2;
+    url = "mirror://gnu/gmp/gmp-4.2.3.tar.bz2";
     sha256 = "139b5abc49833832184c0a03ff6fc64c59ef102b420d2a5884ad78af5647414b";
   };
 
@@ -14,7 +14,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "A free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating point numbers";
-    homepage = http://gmplib.org/;
+    homepage = "http://gmplib.org/";
     license = "LGPL";
   };
 }

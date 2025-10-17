@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   doCheck = true;
 
   meta = {
-    homepage = http://www.gnu.org/software/lightning/;
+    homepage = "http://www.gnu.org/software/lightning/";
     description = "GNU lightning, a run-time code generation library";
 
     longDescription = ''

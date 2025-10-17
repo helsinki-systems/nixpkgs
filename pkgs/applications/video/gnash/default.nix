@@ -66,7 +66,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.gnu.org/software/gnash/;
+    homepage = "http://www.gnu.org/software/gnash/";
     description = "GNU Gnash, an SWF movie player";
     license = "GPLv3+";
   };

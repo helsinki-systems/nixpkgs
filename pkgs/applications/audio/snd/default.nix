@@ -54,7 +54,7 @@ rec {
   name = "Snd-" + version;
   meta = {
     description = "Snd sound editor.";
-    homepage = http://ccrma.stanford.edu/software/snd;
+    homepage = "http://ccrma.stanford.edu/software/snd";
     inherit src;
   };
 }

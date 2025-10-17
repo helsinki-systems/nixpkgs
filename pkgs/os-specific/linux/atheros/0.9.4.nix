@@ -2,7 +2,7 @@ args : with args;
 	let localDefs = builderDefs.passthru.function {
 		src = /* put a fetchurl here */
 		fetchurl {
-		  url = http://downloads.sourceforge.net/madwifi/madwifi-0.9.4.tar.gz;
+		  url = "http://downloads.sourceforge.net/madwifi/madwifi-0.9.4.tar.gz";
 		  sha256 = "06jd5b8rfw7rmiva6jgmrb7n26g5plcg9marbnnmg68gbcqbr3xh";
 		};
 

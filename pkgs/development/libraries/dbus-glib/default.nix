@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   passthru = { inherit dbus glib; };
 
   meta = {
-	  homepage = http://dbus.freedesktop.org;
+	  homepage = "http://dbus.freedesktop.org";
 	  license = "AFL-2.1 or GPL-2";
 	  description = "GLib bindings for D-Bus lightweight IPC mechanism";
   };

@@ -28,7 +28,7 @@ args.stdenv.mkDerivation {
 
   meta = { 
       description = "Cinelerra - Video Editor";
-      homepage = http://www.cinelerra.org;
+      homepage = "http://www.cinelerra.org";
       license = "GPLv2";
   };
 }

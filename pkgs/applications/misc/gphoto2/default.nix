@@ -16,6 +16,6 @@ stdenv.mkDerivation rec {
   #patchPhase = "sed -e 's@_tmp=true@_tmp=false@' -i configure configure.ac";
 
   meta = {
-    homepage = http://www.gphoto.org/;
+    homepage = "http://www.gphoto.org/";
   };
 }

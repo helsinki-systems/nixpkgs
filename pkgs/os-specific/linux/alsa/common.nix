@@ -17,6 +17,6 @@ args: with args; stdenv.mkDerivation rec {
       MIDI functionality to the Linux-based operating system.
     '';
 
-    homepage = http://www.alsa-project.org/;
+    homepage = "http://www.alsa-project.org/";
   };
 }

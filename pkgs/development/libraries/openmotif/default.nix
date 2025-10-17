@@ -6,7 +6,7 @@ args: with args;
 stdenv.mkDerivation {
   name = "openmotif-2.2.3";
   src = fetchurl {
-    url = http://ftp.de.debian.org/debian/pool/non-free/o/openmotif/openmotif_2.2.3.orig.tar.gz; 
+    url = "http://ftp.de.debian.org/debian/pool/non-free/o/openmotif/openmotif_2.2.3.orig.tar.gz"; 
     sha256 = "0amd9834p1ajnin7c8f1gad2jl2csf69msxcpc10rzm2x27jigxi";
   };
 
@@ -24,7 +24,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Open source version of motif toolkit including aka libmotif3";
-    homepage = http://www.opengroup.org/openmotif/;
+    homepage = "http://www.opengroup.org/openmotif/";
     # Open motif is free for open source projects
     license = "non-free";
   };

@@ -42,7 +42,7 @@ stdenv.mkDerivation rec {
        tampering, or message forgery."
     '';
 
-    homepage = http://www.gnu.org/software/gnutls/;
+    homepage = "http://www.gnu.org/software/gnutls/";
     license = "LGPLv2.1+";
   };
 }

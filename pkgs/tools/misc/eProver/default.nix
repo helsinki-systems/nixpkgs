@@ -5,7 +5,7 @@ stdenv.mkDerivation {
 
   src = fetchurl {
     name = "E-0.999.tar.gz";
-    url = http://www4.informatik.tu-muenchen.de/~schulz/WORK/E_DOWNLOAD/V_0.999/E.tgz;
+    url = "http://www4.informatik.tu-muenchen.de/~schulz/WORK/E_DOWNLOAD/V_0.999/E.tgz";
     sha256 = "1zm1xip840hlam60kqk6xf0ikvyk7ch3ql1ac6wb68dx2l6hyhxv";
   };
 

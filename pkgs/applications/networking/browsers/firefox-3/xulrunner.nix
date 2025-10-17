@@ -19,7 +19,7 @@ stdenv.mkDerivation {
   name = "xulrunner-${version}";
 
   src = fetchurl {
-    url = http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.0.7/source/firefox-3.0.7-source.tar.bz2;
+    url = "http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.0.7/source/firefox-3.0.7-source.tar.bz2";
     sha1 = "03c078d9c2d047d7cdc25f7823c6e647cb8d8f8b";
   };
 
@@ -78,7 +78,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Mozilla Firefox XUL runner";
-    homepage = http://www.mozilla.com/en-US/firefox/;
+    homepage = "http://www.mozilla.com/en-US/firefox/";
   };
 
   passthru = { inherit gtk version; };

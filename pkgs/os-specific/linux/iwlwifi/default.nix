@@ -34,7 +34,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Intel Wireless WiFi Link drivers for Linux";
-    homepage = http://www.intellinuxwireless.org/;
+    homepage = "http://www.intellinuxwireless.org/";
     license = "GPLv2";
   };
 }

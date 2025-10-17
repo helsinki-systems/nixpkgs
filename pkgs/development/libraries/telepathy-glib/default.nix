@@ -12,6 +12,6 @@ stdenv.mkDerivation rec {
 	configureFlags = "--enable-shared --disable-static";
 
 	meta = {
-		homepage = http://telepathy.freedesktop.org;
+		homepage = "http://telepathy.freedesktop.org";
 	};
 }

@@ -8,7 +8,7 @@ stdenv.mkDerivation {
   name = "apr-util-1.3.4";
   
   src = fetchurl {
-    url = mirror://apache/apr/apr-util-1.3.4.tar.bz2;
+    url = "mirror://apache/apr/apr-util-1.3.4.tar.bz2";
     sha256 = "1kin1yh42sk7hw81x3aynjf2g0k07n6707426c2mi6fh6lr0lys4";
   };
   
@@ -22,7 +22,7 @@ stdenv.mkDerivation {
   };
 
   meta = {
-    homepage = http://apr.apache.org/;
+    homepage = "http://apr.apache.org/";
     description = "A companion library to APR, the Apache Portable Runtime";
   };
 }

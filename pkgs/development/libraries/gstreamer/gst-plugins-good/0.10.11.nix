@@ -16,6 +16,6 @@ stdenv.mkDerivation rec {
   configureFlags = "--enable-shared --disable-static --enable-ladspa";
 
   meta = {
-    homepage = http://gstreamer.freedesktop.org;
+    homepage = "http://gstreamer.freedesktop.org";
   };
 }

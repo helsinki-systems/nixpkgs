@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
       tutorial.
     '';
 
-    homepage = http://gtkmm.org/;
+    homepage = "http://gtkmm.org/";
 
     license = "LGPLv2+";
   };

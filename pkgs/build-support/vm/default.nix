@@ -653,7 +653,7 @@ rec {
       name = "fedora-core-2-i386";
       fullName = "Fedora Core 2 (i386)";
       packagesList = fetchurl {
-        url = mirror://fedora/linux/core/2/i386/os/repodata/primary.xml.gz;
+        url = "mirror://fedora/linux/core/2/i386/os/repodata/primary.xml.gz";
         sha256 = "1nq1k2k0nzkii737cka301f0vbd2ix2wsfvi6bblpi748q6h2w4k";
       };
       urlPrefix = mirror://fedora/linux/core/2/i386/os;
@@ -664,7 +664,7 @@ rec {
       name = "fedora-core-3-i386";
       fullName = "Fedora Core 3 (i386)";
       packagesList = fetchurl {
-        url = mirror://fedora/linux/core/3/i386/os/repodata/primary.xml.gz;
+        url = "mirror://fedora/linux/core/3/i386/os/repodata/primary.xml.gz";
         sha256 = "13znspn4g1bkjkk47393k9chswgzl6nx1n0q6h2wrw52c7d9nw9i";
       };
       urlPrefix = mirror://fedora/linux/core/3/i386/os;
@@ -676,7 +676,7 @@ rec {
       name = "fedora-core-5-i386";
       fullName = "Fedora Core 5 (i386)";
       packagesList = fetchurl {
-        url = mirror://fedora/linux/core/5/i386/os/repodata/primary.xml.gz;
+        url = "mirror://fedora/linux/core/5/i386/os/repodata/primary.xml.gz";
         sha256 = "0lfk4mzrpiyls8h7k9ckc3vgywbmg05zsr4ag6qakgnv9gljijig";
       };
       urlPrefix = mirror://fedora/linux/core/5/i386/os;
@@ -686,7 +686,7 @@ rec {
       name = "fedora-7-i386";
       fullName = "Fedora 7 (i386)";
       packagesList = fetchurl {
-        url = mirror://fedora/linux/releases/7/Fedora/i386/os/repodata/primary.xml.gz;
+        url = "mirror://fedora/linux/releases/7/Fedora/i386/os/repodata/primary.xml.gz";
         sha256 = "0zq7ifirj45wry7b2qkm12qhzzazal3hn610h5kwbrfr2xavs882";
       };
       urlPrefix = mirror://fedora/linux/releases/7/Fedora/i386/os;
@@ -696,7 +696,7 @@ rec {
       name = "fedora-8-i386";
       fullName = "Fedora 8 (i386)";
       packagesList = fetchurl {
-        url = mirror://fedora/linux/releases/8/Fedora/i386/os/repodata/primary.xml.gz;
+        url = "mirror://fedora/linux/releases/8/Fedora/i386/os/repodata/primary.xml.gz";
         sha256 = "0vr9345rrk0vhs4pc9cjp8npdkqz0xqyirv84vhyfn533m9ws36f";
       };
       urlPrefix = mirror://fedora/linux/releases/8/Fedora/i386/os;
@@ -706,7 +706,7 @@ rec {
       name = "fedora-9-i386";
       fullName = "Fedora 9 (i386)";
       packagesList = fetchurl {
-        url = mirror://fedora/linux/releases/9/Fedora/i386/os/repodata/primary.xml.gz;
+        url = "mirror://fedora/linux/releases/9/Fedora/i386/os/repodata/primary.xml.gz";
         sha256 = "18780xgyag5acx79warcpvzlfkm0mni8xawl6jjvgxg9n3lp6zg0";
       };
       urlPrefix = mirror://fedora/linux/releases/9/Fedora/i386/os;
@@ -716,7 +716,7 @@ rec {
       name = "fedora-9-x86_64";
       fullName = "Fedora 9 (x86_64)";
       packagesList = fetchurl {
-        url = mirror://fedora/linux/releases/9/Fedora/x86_64/os/repodata/primary.xml.gz;
+        url = "mirror://fedora/linux/releases/9/Fedora/x86_64/os/repodata/primary.xml.gz";
         sha256 = "0qcjigzbw29ahhkfjaw5pbpyl7mj9l349hikwv25jcnid1cbpmx7";
       };
       urlPrefix = mirror://fedora/linux/releases/9/Fedora/x86_64/os;
@@ -727,7 +727,7 @@ rec {
       name = "fedora-10-i386";
       fullName = "Fedora 10 (i386)";
       packagesList = fetchurl {
-        url = mirror://fedora/linux/releases/10/Fedora/i386/os/repodata/primary.xml.gz;
+        url = "mirror://fedora/linux/releases/10/Fedora/i386/os/repodata/primary.xml.gz";
         sha256 = "15ha8pxzvlch707mpy06c7pkr2ra2vpd5b8x30qhydvx8fgcqcx9";
       };
       urlPrefix = mirror://fedora/linux/releases/10/Fedora/i386/os;
@@ -737,7 +737,7 @@ rec {
       name = "fedora-10-x86_64";
       fullName = "Fedora 10 (x86_64)";
       packagesList = fetchurl {
-        url = mirror://fedora/linux/releases/10/Fedora/x86_64/os/repodata/primary.xml.gz;
+        url = "mirror://fedora/linux/releases/10/Fedora/x86_64/os/repodata/primary.xml.gz";
         sha256 = "1pmaav6mdaw13fq99wfggbsmhcix306cimijjxh35qi7yc3wbsz4";
       };
       urlPrefix = mirror://fedora/linux/releases/10/Fedora/x86_64/os;
@@ -748,7 +748,7 @@ rec {
       name = "opensuse-10.3-i586";
       fullName = "openSUSE 10.3 (i586)";
       packagesList = fetchurl {
-        url = mirror://opensuse/distribution/10.3/repo/oss/suse/repodata/primary.xml.gz;
+        url = "mirror://opensuse/distribution/10.3/repo/oss/suse/repodata/primary.xml.gz";
         sha256 = "0zb5kxsb755nqq9i8jdclmanacyf551ncx6a011v9jqphsvyfvd7";
       };
       urlPrefix = mirror://opensuse/distribution/10.3/repo/oss/suse/;
@@ -759,7 +759,7 @@ rec {
       name = "opensuse-11.0-i586";
       fullName = "openSUSE 11.0 (i586)";
       packagesList = fetchurl {
-        url = mirror://opensuse/distribution/11.0/repo/oss/suse/repodata/primary.xml.gz;
+        url = "mirror://opensuse/distribution/11.0/repo/oss/suse/repodata/primary.xml.gz";
         sha256 = "13rv855aj8p3h1zpsji5xa1wpkhgq94gcxzvg05l2b68b15q3mwn";
       };
       urlPrefix = mirror://opensuse/distribution/11.0/repo/oss/suse/;
@@ -770,7 +770,7 @@ rec {
       name = "opensuse-11.0-x86_64";
       fullName = "openSUSE 11.0 (x86_64)";
       packagesList = fetchurl {
-        url = mirror://opensuse/distribution/11.0/repo/oss/suse/repodata/primary.xml.gz;
+        url = "mirror://opensuse/distribution/11.0/repo/oss/suse/repodata/primary.xml.gz";
         sha256 = "13rv855aj8p3h1zpsji5xa1wpkhgq94gcxzvg05l2b68b15q3mwn";
       };
       urlPrefix = mirror://opensuse/distribution/11.0/repo/oss/suse/;
@@ -785,7 +785,7 @@ rec {
       name = "ubuntu-7.10-gutsy-i386";
       fullName = "Ubuntu 7.10 Gutsy (i386)";
       packagesList = fetchurl {
-        url = mirror://ubuntu/dists/gutsy/main/binary-i386/Packages.bz2;
+        url = "mirror://ubuntu/dists/gutsy/main/binary-i386/Packages.bz2";
         sha1 = "8b52ee3d417700e2b2ee951517fa25a8792cabfd";
       };
       urlPrefix = mirror://ubuntu;
@@ -795,7 +795,7 @@ rec {
       name = "ubuntu-8.04-hardy-i386";
       fullName = "Ubuntu 8.04 Hardy (i386)";
       packagesList = fetchurl {
-        url = mirror://ubuntu/dists/hardy/main/binary-i386/Packages.bz2;
+        url = "mirror://ubuntu/dists/hardy/main/binary-i386/Packages.bz2";
         sha1 = "db74581ee75cb3bee2a8ae62364e97956c723259";
       };
       urlPrefix = mirror://ubuntu;
@@ -805,7 +805,7 @@ rec {
       name = "ubuntu-8.04-hardy-amd64";
       fullName = "Ubuntu 8.04 Hardy (amd64)";
       packagesList = fetchurl {
-        url = mirror://ubuntu/dists/hardy/main/binary-amd64/Packages.bz2;
+        url = "mirror://ubuntu/dists/hardy/main/binary-amd64/Packages.bz2";
         sha1 = "d1f1d2b3cc62533d6e4337f2696a5d27235d1f28";
       };
       urlPrefix = mirror://ubuntu;
@@ -815,7 +815,7 @@ rec {
       name = "ubuntu-8.10-intrepid-i386";
       fullName = "Ubuntu 8.10 Intrepid (i386)";
       packagesList = fetchurl {
-        url = mirror://ubuntu/dists/intrepid/main/binary-i386/Packages.bz2;
+        url = "mirror://ubuntu/dists/intrepid/main/binary-i386/Packages.bz2";
         sha256 = "70483d40a9e9b74598f2faede7df5d5103ee60055af7374f8db5c7e6017c4cf6";
       };
       urlPrefix = mirror://ubuntu;
@@ -825,7 +825,7 @@ rec {
       name = "ubuntu-8.10-intrepid-amd64";
       fullName = "Ubuntu 8.10 Intrepid (amd64)";
       packagesList = fetchurl {
-        url = mirror://ubuntu/dists/intrepid/main/binary-amd64/Packages.bz2;
+        url = "mirror://ubuntu/dists/intrepid/main/binary-amd64/Packages.bz2";
         sha256 = "01b2f3842cbdd5834446ddf91691bcf60f59a726dcefa23fb5b93fdc8ea7e27f";
       };
       urlPrefix = mirror://ubuntu;
@@ -835,7 +835,7 @@ rec {
       name = "debian-4.0r7-etch-i386";
       fullName = "Debian 4.0r7 Etch (i386)";
       packagesList = fetchurl {
-        url = mirror://debian/dists/etch/main/binary-i386/Packages.bz2;
+        url = "mirror://debian/dists/etch/main/binary-i386/Packages.bz2";
         sha256 = "155c1d1b4ce54de6c8134ab0154c2a476ae40cc5899109f3f95fecd5e002c50d";
       };
       urlPrefix = mirror://debian;
@@ -845,7 +845,7 @@ rec {
       name = "debian-4.0r7-etch-amd64";
       fullName = "Debian 4.0r7 Etch (amd64)";
       packagesList = fetchurl {
-        url = mirror://debian/dists/etch/main/binary-amd64/Packages.bz2;
+        url = "mirror://debian/dists/etch/main/binary-amd64/Packages.bz2";
         sha256 = "3ab73a45781651a78c824b4f281de91b1aa6974d63470f40525933d848183e44";
       };
       urlPrefix = mirror://debian;
@@ -855,7 +855,7 @@ rec {
       name = "debian-5.0-lenny-i386";
       fullName = "Debian 5.0 Lenny (i386)";
       packagesList = fetchurl {
-        url = mirror://debian/dists/lenny/main/binary-i386/Packages.bz2;
+        url = "mirror://debian/dists/lenny/main/binary-i386/Packages.bz2";
         sha256 = "afbead64fb4820e50294686cd3ccdff91026b214aabec3f212f9001482001061";
       };
       urlPrefix = mirror://debian;
@@ -865,7 +865,7 @@ rec {
       name = "debian-5.0-lenny-amd64";
       fullName = "Debian 5.0 Lenny (amd64)";
       packagesList = fetchurl {
-        url = mirror://debian/dists/lenny/main/binary-amd64/Packages.bz2;
+        url = "mirror://debian/dists/lenny/main/binary-amd64/Packages.bz2";
         sha256 = "73d74454d687dfbdfef1abbe4bd9c251119f38ab8d371a593aa271bfa227ed2b";
       };
       urlPrefix = mirror://debian;

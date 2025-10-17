@@ -40,7 +40,7 @@ stdenv.mkDerivation rec {
       editing.
     '';
 
-    homepage = http://www.gnu.org/software/emacs/;
+    homepage = "http://www.gnu.org/software/emacs/";
     license = "GPLv3+";
   };
 }

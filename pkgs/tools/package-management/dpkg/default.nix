@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "dpkg-1.14.25";
   
   src = fetchurl {
-    url = mirror://debian/pool/main/d/dpkg/dpkg_1.14.25.tar.gz;
+    url = "mirror://debian/pool/main/d/dpkg/dpkg_1.14.25.tar.gz";
     sha256 = "1111r1ijyh149h7vby9vc8137hl9778ja3dln7ilkxhc1y1yjp2l";
   };
 
@@ -30,6 +30,6 @@ stdenv.mkDerivation {
 
   meta = {
     description = "The Debian package manager";
-    homepage = http://wiki.debian.org/Teams/Dpkg;
+    homepage = "http://wiki.debian.org/Teams/Dpkg";
   };
 }

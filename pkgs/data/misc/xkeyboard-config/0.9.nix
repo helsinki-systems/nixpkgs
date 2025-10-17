@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "xkeyboard-config-0.9";
 
   src = fetchurl {
-    url = http://xlibs.freedesktop.org/xkbdesc/xkeyboard-config-0.9.tar.bz2;
+    url = "http://xlibs.freedesktop.org/xkbdesc/xkeyboard-config-0.9.tar.bz2";
     sha256 = "0zbpprhlv8ggsvgnwqw8d4cx0ry86szm36ghigwb1sn46q0c915v";
   };
 

@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Guile-Lint checks syntax and semantics in a Guile program or module";
-    homepage = http://www.geocities.com/user42_kevin/guile-lint/index.html;
+    homepage = "http://www.geocities.com/user42_kevin/guile-lint/index.html";
     license = "GPL";
   };
 }

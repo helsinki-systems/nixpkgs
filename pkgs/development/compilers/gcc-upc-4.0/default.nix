@@ -50,7 +50,7 @@ stdenv.mkDerivation {
   ";
 
   meta = {
-    homepage = http://www.intrepid.com/upc.html;
+    homepage = "http://www.intrepid.com/upc.html";
     license = "GPL/LGPL";
     longDscription = ''
       A GCC-based compiler for the Unified Parallel C (UPC) language,

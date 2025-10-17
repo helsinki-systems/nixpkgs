@@ -58,7 +58,7 @@ stdenv.mkDerivation {
   phases = "unpackPhase configurePhase buildPhase installPhase";
 
   src = fetchurl {
-    url = http://downloads.sourceforge.net/kino/kino-1.2.0.tar.gz;
+    url = "http://downloads.sourceforge.net/kino/kino-1.2.0.tar.gz";
     sha256 = "15q1qmii5a2zbrrrg8iba2d1rjzaisa75zvxjhrs86jwglpn4lp9";
   };
 
@@ -84,7 +84,7 @@ stdenv.mkDerivation {
 
   meta = { 
       description = "Kino is a non-linear DV editor for GNU/Linux";
-      homepage = http://www.kinodv.org/;
+      homepage = "http://www.kinodv.org/";
       license = "GPL2";
   };
 }

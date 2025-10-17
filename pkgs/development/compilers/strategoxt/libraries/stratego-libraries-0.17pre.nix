@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "stratego-libraries-0.17";
   src =
     fetchurl {
-      url = http://www.cs.uu.nl/people/martin/stratego-libraries.tar.gz;
+      url = "http://www.cs.uu.nl/people/martin/stratego-libraries.tar.gz";
       md5 = "e99ce18179400c8ef373e8e668a4c576";
     };
 

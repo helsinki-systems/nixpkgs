@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "C++ interface to the GLib library";
 
-    homepage = http://gtkmm.org/;
+    homepage = "http://gtkmm.org/";
 
     license = "LGPLv2+";
   };

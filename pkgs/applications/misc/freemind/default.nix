@@ -3,7 +3,7 @@ stdenv.mkDerivation {
   name = "freemind-0.9.0_Beta_20";
 
   src = fetchurl {
-    url = mirror://sourceforge/freemind/freemind-src-0.9.0_Beta_20.tar.gz;
+    url = "mirror://sourceforge/freemind/freemind-src-0.9.0_Beta_20.tar.gz";
     sha256 = "1ja573n0g9zpdrljabgps20njg1p76hvsv8xjb56cii2dr77yspv";
   };
 
@@ -43,7 +43,7 @@ stdenv.mkDerivation {
 
   meta = {
       description = "mind mapping software";
-      homepage = http://freemind.sourceforge.net/wiki/index.php/Main_Page;
+      homepage = "http://freemind.sourceforge.net/wiki/index.php/Main_Page";
       license = "GPL";
   }; 
 }

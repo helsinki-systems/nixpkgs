@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "apr-1.3.3";
   
   src = fetchurl {
-    url = mirror://apache/apr/apr-1.3.3.tar.bz2;
+    url = "mirror://apache/apr/apr-1.3.3.tar.bz2";
     sha256 = "0dyxw3km88f0li1d39vyr09670yb12xn8j1h8dq331kc6rw3npyr";
   };
 
@@ -16,7 +16,7 @@ stdenv.mkDerivation {
   #apr_cv_epoll = "no";
 
   meta = {
-    homepage = http://apr.apache.org/;
+    homepage = "http://apr.apache.org/";
     description = "The Apache Portable Runtime library";
   };
 }

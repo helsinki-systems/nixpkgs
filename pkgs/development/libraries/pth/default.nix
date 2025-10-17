@@ -9,6 +9,6 @@ stdenv.mkDerivation rec {
 
 	meta = {
 		description = "The GNU Portable Threads";
-		homepage = http://www.gnu.org/software/pth;
+		homepage = "http://www.gnu.org/software/pth";
 	};
 }

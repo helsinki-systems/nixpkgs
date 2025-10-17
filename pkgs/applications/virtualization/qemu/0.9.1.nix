@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "qemu-0.9.1";
 
   src = fetchurl {
-    url = http://bellard.org/qemu/qemu-0.9.1.tar.gz;
+    url = "http://bellard.org/qemu/qemu-0.9.1.tar.gz";
     sha256 = "199mb12w141yh2afzznh539jsip4h79kfsxwaj1xhzfwljsd0mj7";
   };
 

@@ -47,7 +47,7 @@ in
     '';
 
     meta = {
-      homepage = http://www.hispalinux.es/~data/abcde.php;
+      homepage = "http://www.hispalinux.es/~data/abcde.php";
       licence = "GPLv2+";
       description = "A Better CD Encoder (ABCDE)";
 

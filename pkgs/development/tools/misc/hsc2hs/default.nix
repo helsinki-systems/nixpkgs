@@ -20,7 +20,7 @@ args.stdenv.mkDerivation {
 
   meta = {
       description = "automate some parts of the process of writing Haskell bindings to C code";
-      homepage = http://www.flapjax-lang.org/;
+      homepage = "http://www.flapjax-lang.org/";
       license = "BSD3";
   };
 }

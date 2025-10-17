@@ -7,7 +7,7 @@ stdenv.mkDerivation {
   name = "curl-7.18.1";
   
   src = fetchurl {
-    url = http://curl.haxx.se/download/curl-7.18.1.tar.bz2;
+    url = "http://curl.haxx.se/download/curl-7.18.1.tar.bz2";
     sha256 = "0v5fpr4bsdlg262nsgrijlfhp3vgr1ypir1rrkmhxcsnpv4frw6c";
   };
   
@@ -44,6 +44,6 @@ stdenv.mkDerivation {
 
   meta = {
     description = "A command line tool for transferring files with URL syntax";
-    homepage = http://curl.haxx.se/;
+    homepage = "http://curl.haxx.se/";
   };
 }

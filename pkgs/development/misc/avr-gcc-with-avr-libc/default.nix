@@ -3,17 +3,17 @@ args.stdenv.mkDerivation {
   name = "avr-gcc-libc";
 
   srcBinutils = args.fetchurl {
-    url = ftp://ftp.gnu.org/gnu/binutils/binutils-2.17.tar.bz2;
+    url = "ftp://ftp.gnu.org/gnu/binutils/binutils-2.17.tar.bz2";
     sha256 = "0pm20n2l9ddgdpgzk3zhnbb8nbyb4rb2kvcw21pkd6iwybk3rhz2";
   };
 
   srcGCC = args.fetchurl {
-    url = ftp://ftp.gnu.org/gnu/gcc/gcc-4.1.2/gcc-core-4.1.2.tar.bz2;
+    url = "ftp://ftp.gnu.org/gnu/gcc/gcc-4.1.2/gcc-core-4.1.2.tar.bz2";
     sha256 = "07binc1hqlr0g387zrg5sp57i12yzd5ja2lgjb83bbh0h3gwbsbv";
   };
 
   srcAVRLibc = args.fetchurl {
-    url = http://www.very-clever.com/download/nongnu/avr-libc/avr-libc-1.4.5.tar.bz2;
+    url = "http://www.very-clever.com/download/nongnu/avr-libc/avr-libc-1.4.5.tar.bz2";
     sha256 = "058iv3vs6syy01pfkd5894xap9zakjx8ki1bpjdnihn6vk6fr80l";
   };
 

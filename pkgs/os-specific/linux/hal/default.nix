@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "hal-0.5.10";
   
   src = fetchurl {
-    url = http://hal.freedesktop.org/releases/hal-0.5.10.tar.gz;
+    url = "http://hal.freedesktop.org/releases/hal-0.5.10.tar.gz";
     sha256 = "0k6bgavkry7sl1wwpwfpk15r52b75gfql2qgyijaqaxg826a2was";
   };
   

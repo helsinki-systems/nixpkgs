@@ -2,7 +2,7 @@ args : with args; with builderDefs;
 	let localDefs = builderDefs.passthru.function (rec {
 		src = /* put a fetchurl here */
 		fetchurl {
-		  url = http://prdownloads.sourceforge.net/junicode/junicode-0.6.15.zip;
+		  url = "http://prdownloads.sourceforge.net/junicode/junicode-0.6.15.zip";
 		  sha256 = "0p16r5s6qwyz0hayb6k61s5r2sfachlx7r6gpqqx5myx6ipbfdns";
 		};
 

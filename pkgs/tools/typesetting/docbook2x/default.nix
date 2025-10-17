@@ -50,6 +50,6 @@ stdenv.mkDerivation rec {
       format.
     '';
     license = "MIT-style";
-    homepage = http://docbook2x.sourceforge.net/;
+    homepage = "http://docbook2x.sourceforge.net/";
   };
 }

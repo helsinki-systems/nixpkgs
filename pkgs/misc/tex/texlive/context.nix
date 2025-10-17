@@ -2,7 +2,7 @@ args: with args;
 rec {
   name = "context-2008.01.28";
   src = fetchurl {
-    url = http://ftp.de.debian.org/debian/pool/main/c/context/context_2008.01.28.orig.tar.gz;
+    url = "http://ftp.de.debian.org/debian/pool/main/c/context/context_2008.01.28.orig.tar.gz";
     sha256 = "0infkn73v3kwqgg6b7rqnr28i5z5dbdfapy6ppzlcnr19yj4nh9y";
   };
 

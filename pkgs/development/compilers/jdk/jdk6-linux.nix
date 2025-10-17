@@ -18,12 +18,12 @@ stdenv.mkDerivation ({
   src =
     if stdenv.system == "i686-linux" then
       fetchurl {
-        url = http://download.java.net/dlj/binaries/jdk-6u11-dlj-linux-i586.bin;
+        url = "http://download.java.net/dlj/binaries/jdk-6u11-dlj-linux-i586.bin";
         md5 = "e5eef98bc477675c66e053fc3635e645";
       }
     else if stdenv.system == "x86_64-linux" then
       fetchurl {
-        url = http://download.java.net/dlj/binaries/jdk-6u11-dlj-linux-amd64.bin;
+        url = "http://download.java.net/dlj/binaries/jdk-6u11-dlj-linux-amd64.bin";
         md5 = "0f687b6dbfe54e117bb0d9e090fda20b";
       }
     else

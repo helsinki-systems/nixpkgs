@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
       independent project.
     '';
     
-    homepage = http://cdrkit.org/;
+    homepage = "http://cdrkit.org/";
     license = "GPLv2";
   };
 }

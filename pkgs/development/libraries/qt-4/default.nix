@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "qt-4.4.3";
   
   src = fetchurl {
-    url = ftp://ftp.trolltech.com/qt/source/qt-x11-opensource-src-4.4.3.tar.bz2;
+    url = "ftp://ftp.trolltech.com/qt/source/qt-x11-opensource-src-4.4.3.tar.bz2";
     sha256 = "1nfdf1aj6vb7qyacsnjyjxrnaf44hz7vzykf6zra2znd87pglz51";
   };
   
@@ -64,7 +64,7 @@ stdenv.mkDerivation {
   '';
 
   meta = {
-    homepage = http://www.qtsoftware.com/downloads/opensource/appdev/linux-x11-cpp;
+    homepage = "http://www.qtsoftware.com/downloads/opensource/appdev/linux-x11-cpp";
     description = "A cross-platform application framework for C++";
   };
 }

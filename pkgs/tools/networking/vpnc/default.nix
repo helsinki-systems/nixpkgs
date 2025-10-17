@@ -38,7 +38,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = ''VPNC, a virtual private network (VPN) client
                     for Cisco's VPN concentrators'';
-    homepage = http://www.unix-ag.uni-kl.de/~massar/vpnc/;
+    homepage = "http://www.unix-ag.uni-kl.de/~massar/vpnc/";
     license = "GPLv2+";
   };
 }

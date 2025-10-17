@@ -3,7 +3,7 @@ args.stdenv.mkDerivation {
   name = "gegl-0.0.22";
 
   src = args.fetchurl {
-    url = ftp://ftp.gimp.org/pub/gegl/0.0/gegl-0.0.22.tar.bz2;
+    url = "ftp://ftp.gimp.org/pub/gegl/0.0/gegl-0.0.22.tar.bz2";
     sha256 = "0nx6r9amzhw5d2ghlw3z8qnry18rwz1ymvl2cm31b8p49z436wl5";
   };
 
@@ -13,7 +13,7 @@ args.stdenv.mkDerivation {
 
   meta = { 
       description = "graph based image processing framework";
-      homepage = http://www.gegl.org;
+      homepage = "http://www.gegl.org";
       license = "GPL3";
   };
 }

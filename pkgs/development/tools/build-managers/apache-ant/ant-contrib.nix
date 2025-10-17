@@ -11,7 +11,7 @@ stdenv.mkDerivation {
   phases = "unpackPhase installPhase";
 
   src = fetchurl {
-    url = mirror://sourceforge/ant-contrib/ant-contrib-1.0b3-bin.tar.bz2;
+    url = "mirror://sourceforge/ant-contrib/ant-contrib-1.0b3-bin.tar.bz2";
     sha256 = "96effcca2581c1ab42a4828c770b48d54852edf9e71cefc9ed2ffd6590571ad1";
   };
 }

@@ -38,7 +38,7 @@ stdenv.mkDerivation {
   name = "python-2.5.2";
   
   src = fetchurl {
-    url = http://www.python.org/ftp/python/2.5.2/Python-2.5.2.tar.bz2;
+    url = "http://www.python.org/ftp/python/2.5.2/Python-2.5.2.tar.bz2";
     sha256 = "0gh8bvs56vdv8qmlfmiwyczjpldj0y3zbzd0zyhyjfd0c8m0xy7j";
   };
 

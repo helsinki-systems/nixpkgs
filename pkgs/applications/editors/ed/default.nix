@@ -25,6 +25,6 @@ stdenv.mkDerivation rec {
 
     license = "GPLv3+";
 
-    homepage = http://www.gnu.org/software/ed/;
+    homepage = "http://www.gnu.org/software/ed/";
   };
 }

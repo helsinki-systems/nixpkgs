@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "e2fsprogs-1.41.4";
   
   src = fetchurl {
-    url = mirror://sourceforge/e2fsprogs/e2fsprogs-1.41.4.tar.gz;
+    url = "mirror://sourceforge/e2fsprogs/e2fsprogs-1.41.4.tar.gz";
     sha256 = "1p10j04gwr286qc2pjpp72k38nqk2d2n7sslwhvxgb995gp0zh9c";
   };
   
@@ -29,7 +29,7 @@ stdenv.mkDerivation {
     else "";
 
   meta = {
-    homepage = http://e2fsprogs.sourceforge.net/;
+    homepage = "http://e2fsprogs.sourceforge.net/";
     description = "Tools for creating and checking ext2/ext3/ext4 filesystems";
   };
 }

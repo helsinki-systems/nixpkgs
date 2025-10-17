@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "lcov-1.6";
   
   src = fetchurl {
-    url = mirror://sourceforge/ltp/lcov-1.6.tar.gz;
+    url = "mirror://sourceforge/ltp/lcov-1.6.tar.gz";
     sha256 = "0d6lb0vlj3lvqmm678jic9h25q4dnlkbv37wg5yj311hdr9ls1kx";
   };
 
@@ -29,7 +29,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "A code coverage tool for Linux";
-    homepage = http://ltp.sourceforge.net/coverage/lcov.php;
+    homepage = "http://ltp.sourceforge.net/coverage/lcov.php";
   };
 
 }

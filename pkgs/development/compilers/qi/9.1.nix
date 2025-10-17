@@ -2,7 +2,7 @@ args : with args;
 	let localDefs = builderDefs.passthru.function {
 		src = /* put a fetchurl here */
 		fetchurl {
-			url = http://www.lambdassociates.org/Download/Qi9.1.zip;
+			url = "http://www.lambdassociates.org/Download/Qi9.1.zip";
 			sha256 = "1j584i7pj38rnlf7v9njfdwc6gc296v5friw2887dsw34dmwyg3f";
 		};
 		buildInputs = [ unzip clisp];

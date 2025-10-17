@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
       summary of the build status, after reading the manual.
     '';
 
-    homepage = http://josefsson.org/autobuild/;
+    homepage = "http://josefsson.org/autobuild/";
     license = "GPLv2+";
   };
 }

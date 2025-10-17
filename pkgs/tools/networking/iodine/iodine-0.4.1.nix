@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   installFlags = "prefix=\${out}";
 
   meta = {
-    homepage = http://code.kryo.se/iodine/;
+    homepage = "http://code.kryo.se/iodine/";
     description = "iodine lets you tunnel IPv4 data through a DNS server.";
     license = "ISC";
   };

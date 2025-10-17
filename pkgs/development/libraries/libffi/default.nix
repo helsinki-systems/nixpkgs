@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
       conversions for values passed between the two languages.
     '';
 
-    homepage = http://sources.redhat.com/libffi/;
+    homepage = "http://sources.redhat.com/libffi/";
 
     license = "http://sources.redhat.com/cgi-bin/cvsweb.cgi/~checkout~/libffi/LICENSE?rev=1.6&content-type=text/plain&cvsroot=libffi&only_with_tag=MAIN";
   };

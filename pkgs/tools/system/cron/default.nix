@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "cron-4.1";
   src = fetchurl {
-    url = ftp://ftp.isc.org/isc/cron/cron_4.1.shar;
+    url = "ftp://ftp.isc.org/isc/cron/cron_4.1.shar";
     md5 = "5e1be9dbde66295821ac7899f2e1f561";
   };
 

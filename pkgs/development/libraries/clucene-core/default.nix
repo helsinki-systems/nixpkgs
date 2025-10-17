@@ -10,6 +10,6 @@ stdenv.mkDerivation rec {
 
 	meta = {
 		description = "CLucene is a port of the very popular Java Lucene text search engine API. Core package.";
-		homepage = http://clucene.sourceforge.net;
+		homepage = "http://clucene.sourceforge.net";
 	};
 }

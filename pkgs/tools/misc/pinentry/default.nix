@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
       enter a passphrase when `gpg' or `gpg2' is run and needs it.
     '';
 
-    homepage = http://gnupg.org/aegypten2/;
+    homepage = "http://gnupg.org/aegypten2/";
     license = "GPLv2+";
   };
 }

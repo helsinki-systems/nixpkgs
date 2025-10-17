@@ -1,7 +1,7 @@
 args : with args; 
 rec {
   src = fetchurl {
-    url = http://linux.schottelius.org/gpm/archives/gpm-1.20.6.tar.lzma;
+    url = "http://linux.schottelius.org/gpm/archives/gpm-1.20.6.tar.lzma";
     sha256 = "13w61bh9nyjaa0n5a7qq1rvbqxjbxpqz5qmdmqqpqgrd2jlviar7";
   };
 

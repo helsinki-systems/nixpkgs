@@ -7,7 +7,7 @@ stdenv.mkDerivation {
   name = "gimp-2.6.5";
   
   src = fetchurl {
-    url = ftp://ftp.gtk.org/pub/gimp/v2.6/gimp-2.6.5.tar.bz2;
+    url = "ftp://ftp.gtk.org/pub/gimp/v2.6/gimp-2.6.5.tar.bz2";
     sha256 = "08g5rc383ijcdfqr9ybrn6qazxqqfq0pndknsgh25z19bhghh2b2";
   };
   
@@ -24,7 +24,7 @@ stdenv.mkDerivation {
 
   meta = {
     description = "The GNU Image Manipulation Program";
-    homepage = http://www.gimp.org/;
+    homepage = "http://www.gimp.org/";
     license = "GPL";
   };
 }

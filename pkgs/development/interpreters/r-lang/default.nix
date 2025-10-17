@@ -6,7 +6,7 @@ stdenv.mkDerivation {
   name = "r-lang";
   version = "2.7.0";
   src = fetchurl {
-    url = http://cran.r-project.org/src/base/R-2/R-2.7.0.tar.gz;
+    url = "http://cran.r-project.org/src/base/R-2/R-2.7.0.tar.gz";
     sha256 = "17ql1j5d9rfpxs04j9v9qyxiysc9nh6yr43lgfdamayzjpia5jqm";
   };
 
@@ -23,7 +23,7 @@ es a wide variety of statistical (linear and nonlinear modelling, classical stat
 istical tests, time-series analysis, classification, clustering, ...) and graphi
 cal techniques, and is highly extensible.'';
     license     = "GPL2";
-    homepage    = http://www.r-project.org/;
+    homepage    = "http://www.r-project.org/";
   };
 }
 

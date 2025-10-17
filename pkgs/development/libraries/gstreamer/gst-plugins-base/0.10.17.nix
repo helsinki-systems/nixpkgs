@@ -19,6 +19,6 @@ stdenv.mkDerivation rec {
   buildInputs = [pkgconfig python];
 
   meta = {
-    homepage = http://gstreamer.freedesktop.org;
+    homepage = "http://gstreamer.freedesktop.org";
   };
 }

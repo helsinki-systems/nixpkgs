@@ -22,7 +22,7 @@
 stdenv.mkDerivation {
   name = "pidgin-2.5.5";
   src = fetchurl {
-    url = mirror://sourceforge/pidgin/pidgin-2.5.5.tar.bz2;
+    url = "mirror://sourceforge/pidgin/pidgin-2.5.5.tar.bz2";
     sha256 = "1s13fzxa62mrxah6khsnpywmw1fknghph1krgwfvcs18kjwi6nnb";
   };
 
@@ -49,6 +49,6 @@ stdenv.mkDerivation {
   ;
   meta = {
     description = "Pidgin IM - XMPP(Jabber), AIM/ICQ, IRC, SIP etc client.";
-    homepage = http://pidgin.im;
+    homepage = "http://pidgin.im";
   };
 }

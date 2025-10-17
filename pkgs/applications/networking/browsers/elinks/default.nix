@@ -4,7 +4,7 @@ stdenv.mkDerivation {
   name = "elinks-0.11.3";
 
   src = fetchurl {
-    url = http://elinks.or.cz/download/elinks-0.11.3.tar.bz2;
+    url = "http://elinks.or.cz/download/elinks-0.11.3.tar.bz2";
     sha256 = "c10e657fbd884eae4f01b91b32407bbfcbcae0ad5017fb24ea365aebc71d2af1";
   };
 
@@ -15,6 +15,6 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Full-Featured Text WWW Browser";
-    homepage = http://elinks.or.cz;
+    homepage = "http://elinks.or.cz";
   };
 }

@@ -3,13 +3,13 @@ stdenv.mkDerivation {
   name = "micropolis";
 
   src = fetchurl {
-    url = http://www.donhopkins.com/home/micropolis/micropolis-activity-source.tgz;
+    url = "http://www.donhopkins.com/home/micropolis/micropolis-activity-source.tgz";
     sha256 = "1b3c72dc3680a34b5fc5a740a6fb5cfc0b8775514da8ab7bb3b2965b20d4f8bc";
   };
 
   patches = [
     (fetchurl {
-      url = http://rmdir.de/~michael/micropolis_git.patch;
+      url = "http://rmdir.de/~michael/micropolis_git.patch";
       sha256 = "13419a4394242cd11d5cabd8b1b50787282ea16b55fdcfbeadf8505af46b0592";
     })
   ];
@@ -42,7 +42,7 @@ EOF
 
   meta = { 
       description = "GPL'ed version of S*m C*ty";
-      homepage = http://www.donhopkins.com/home/micropolis/;
+      homepage = "http://www.donhopkins.com/home/micropolis/";
       license = "GPL";
   };
 }

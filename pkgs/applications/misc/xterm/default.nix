@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
     --enable-mini-luit";
 
   meta = {
-    homepage = http://invisible-island.net/xterm;
+    homepage = "http://invisible-island.net/xterm";
   };
 }
 

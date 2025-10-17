@@ -6,7 +6,7 @@
 stdenv.mkDerivation {
   name = "kdenetwork-4.2.1";
   src = fetchurl {
-    url = mirror://kde/stable/4.2.1/src/kdenetwork-4.2.1.tar.bz2;
+    url = "mirror://kde/stable/4.2.1/src/kdenetwork-4.2.1.tar.bz2";
     sha1 = "d6d730c167cd72d43904715014b2adc8f7d5bc1e";
   };
   CMAKE_PREFIX_PATH=kdepimlibs;

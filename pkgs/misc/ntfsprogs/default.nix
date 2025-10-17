@@ -10,7 +10,7 @@ args.stdenv.mkDerivation {
 
   meta = {
       description = "ntfs utilities";
-      homepage = http://sourceforge.net/projects/linux-ntfs;
+      homepage = "http://sourceforge.net/projects/linux-ntfs";
       license = "GPL";
   };
 }

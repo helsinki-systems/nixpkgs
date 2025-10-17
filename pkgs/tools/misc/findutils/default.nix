@@ -3,7 +3,7 @@
 stdenv.mkDerivation {
   name = "findutils-4.2.33";
   src = fetchurl {
-    url = mirror://gnu/findutils/findutils-4.2.33.tar.gz;
+    url = "mirror://gnu/findutils/findutils-4.2.33.tar.gz";
     sha256 = "0y0gmdc55kknf5438c1da5xsvpch3v800r79rgz5rv6fb90djg41";
   };
   buildInputs = [coreutils];
@@ -14,7 +14,7 @@ stdenv.mkDerivation {
     ++ stdenv.lib.optional (stdenv ? isDietLibC) ./dietlibc-hack.patch;
 
   meta = {
-    homepage = http://www.gnu.org/software/findutils/;
+    homepage = "http://www.gnu.org/software/findutils/";
     description = "The basic directory searching utilities of the GNU operating system";
   };
 }

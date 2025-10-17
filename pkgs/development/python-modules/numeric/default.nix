@@ -35,6 +35,6 @@ let version = "24.2"; in
 
       license = "Python+LLNL";
 
-      homepage = http://people.csail.mit.edu/jrennie/python/numeric/;
+      homepage = "http://people.csail.mit.edu/jrennie/python/numeric/";
     };
   }

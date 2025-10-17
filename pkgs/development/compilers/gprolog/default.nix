@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.gnu.org/software/gprolog/;
+    homepage = "http://www.gnu.org/software/gprolog/";
 
     description = "GNU Prolog, a free Prolog compiler with constraint solving over finite domains";
 

@@ -36,7 +36,7 @@ let version = "0.9.24"; in
 
     meta = {
       description = "TinyCC, a small, fast, and embeddable C compiler and interpreter";
-      homepage = http://www.tinycc.org/;
+      homepage = "http://www.tinycc.org/";
       license = "LGPLv2+";
     };
   }

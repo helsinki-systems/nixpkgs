@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
   };
 
   meta = {
-    homepage = http://invisible-island.net/diffstat/;
+    homepage = "http://invisible-island.net/diffstat/";
     longDescription = "diffstat reads the output of diff and displays a
 istogram of the insertions, deletions, and modifications per-file. It
 s useful for reviewing large, complex patch files.";
