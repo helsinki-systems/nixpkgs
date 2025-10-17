@@ -1,4 +1,5 @@
-args: with args;
+args:
+with args;
 
 # Note: zlib is not required; MySQL can use an internal zlib.
 
@@ -10,8 +11,18 @@ stdenv.mkDerivation {
     sha256 = "sha256-e2TmCYSf9k8vy4KityiD95rciT6fb8DTVGXvfZdUIFg=";
   };
 
-  buildInputs = [ps ncurses zlib perl openssl];
+  buildInputs = [
+    ps
+    ncurses
+    zlib
+    perl
+    openssl
+  ];
   postInstall = "ln -s mysqld_safe $out/bin/mysqld";
+
+  preConfigure = ''
+    export ac_cv_sizeof_off_t=8
+  '';
 
   configureFlags = "--enable-thread-safe-client --with-embedded-server --disable-static --with-openssl=${openssl} --with-berkeley-db";
 }
