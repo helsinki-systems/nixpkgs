@@ -130,7 +130,7 @@ buildGoModule (finalAttrs: {
       install -Dm644 "$src/client/ui/build/netbird.desktop" "$out/share/applications/netbird.desktop"
 
       substituteInPlace $out/share/applications/netbird.desktop \
-        --replace-fail "Exec=/usr/bin/netbird-ui" "Exec=${component.binaryName}"
+        --replace-fail "Exec=/usr/bin/netbird-ui" "Exec=$out/bin/${component.binaryName}"
     '';
 
   nativeInstallCheckInputs = lib.lists.optionals (component ? versionCheckProgramArg) [
